@@ -1,0 +1,3 @@
+israeli-hmo-navigator:
+  - changed-files:
+    - any-glob-to-any-file: 'israeli-hmo-navigator/**'
