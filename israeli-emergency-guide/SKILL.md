@@ -41,6 +41,7 @@ metadata:
     - windsurf
     - opencode
     - codex
+    - antigravity
 ---
 
 # Israeli Emergency Guide
