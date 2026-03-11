@@ -8,41 +8,48 @@ description: >-
   ER copay rules, blood donation through MDA, and when to call 101 vs go to Terem.
   Do NOT use for non-Israeli emergency systems or medical diagnosis.
 license: MIT
-compatibility: "Works with all major AI coding agents"
+compatibility: Works with all major AI coding agents
 metadata:
   author: skills-il
   version: 1.0.0
   category: health-services
   tags:
     he:
-      - חירום
-      - מדא
-      - בית-חולים
-      - טראומה
-      - עזרה-ראשונה
-      - ישראל
+    - חירום
+    - מדא
+    - בית-חולים
+    - טראומה
+    - עזרה-ראשונה
+    - ישראל
     en:
-      - emergency
-      - mda
-      - hospital
-      - trauma
-      - first-aid
-      - israel
+    - emergency
+    - mda
+    - hospital
+    - trauma
+    - first-aid
+    - israel
   display_name:
-    he: "מדריך חירום ישראלי"
-    en: "Israeli Emergency Guide"
+    he: מדריך חירום ישראלי
+    en: Israeli Emergency Guide
   display_description:
-    he: "מדריך לשירותי חירום, בתי חולים ומרכזי טראומה בישראל"
-    en: "Guide to Israeli emergency services, hospitals, and trauma centers including MDA, Terem, and patient rights during emergencies."
+    he: מדריך לשירותי חירום, בתי חולים ומרכזי טראומה בישראל
+    en: >-
+      Guide to Israeli emergency services, hospitals, trauma centers, and urgent care.
+      Use when a user needs information about calling MDA (Magen David Adom), visiting
+      Terem urgent care, navigating hospital ERs, understanding triage, or learning
+      about patient rights during emergencies in Israel. Covers the 5 Level-1 trauma
+      centers, ER copay rules, blood donation through MDA, and when to call 101 vs
+      go to Terem. Do NOT use for non-Israeli emergency systems or medical diagnosis.
   supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
-    - antigravity
+  - claude-code
+  - cursor
+  - github-copilot
+  - windsurf
+  - opencode
+  - codex
+  - antigravity
 ---
+
 
 # Israeli Emergency Guide
 
