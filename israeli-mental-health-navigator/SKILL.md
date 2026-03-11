@@ -4,47 +4,55 @@ description: >-
   Guide to mental health services in Israel including therapy through kupot cholim,
   crisis hotlines, PTSD resources, and workplace mental health rights. Use when a
   user needs information about accessing psychiatric or psychological care, finding
-  subsidized therapy, understanding the 2015 mental health reform, using crisis
-  lines like ERAN (1201) or Natal, or navigating PTSD recognition through Bituach
-  Leumi. Covers CBT, EMDR, private therapy costs, and employee mental health days.
-  Do NOT use for clinical diagnosis or medication recommendations.
+  subsidized therapy, understanding the 2015 mental health reform, using crisis lines
+  like ERAN (1201) or Natal, or navigating PTSD recognition through Bituach Leumi.
+  Covers CBT, EMDR, private therapy costs, and employee mental health days. Do NOT
+  use for clinical diagnosis or medication recommendations.
 license: MIT
-compatibility: "Works with all major AI coding agents"
+compatibility: Works with all major AI coding agents
 metadata:
   author: skills-il
   version: 1.0.0
   category: health-services
   tags:
     he:
-      - בריאות-נפש
-      - טיפול
-      - פטסד
-      - קופת-חולים
-      - רווחה
-      - ישראל
+    - בריאות-נפש
+    - טיפול
+    - פטסד
+    - קופת-חולים
+    - רווחה
+    - ישראל
     en:
-      - mental-health
-      - therapy
-      - ptsd
-      - kupat-cholim
-      - wellness
-      - israel
+    - mental-health
+    - therapy
+    - ptsd
+    - kupat-cholim
+    - wellness
+    - israel
   display_name:
-    he: "ניווט בריאות הנפש בישראל"
-    en: "Israeli Mental Health Navigator"
+    he: ניווט בריאות הנפש בישראל
+    en: Israeli Mental Health Navigator
   display_description:
-    he: "מדריך לשירותי בריאות הנפש, טיפול נפשי וקווי חירום בישראל"
-    en: "Guide to Israeli mental health services, therapy access through kupot cholim, crisis hotlines, and PTSD resources."
+    he: מדריך לשירותי בריאות הנפש, טיפול נפשי וקווי חירום בישראל
+    en: >-
+      Guide to mental health services in Israel including therapy through kupot cholim,
+      crisis hotlines, PTSD resources, and workplace mental health rights. Use when
+      a user needs information about accessing psychiatric or psychological care,
+      finding subsidized therapy, understanding the 2015 mental health reform, using
+      crisis lines like ERAN (1201) or Natal, or navigating PTSD recognition through
+      Bituach Leumi. Covers CBT, EMDR, private therapy costs, and employee mental
+      health days. Do NOT use for clinical diagnosis or medication recommendations.
   supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
-    - antigravity
-    - openclaw
+  - claude-code
+  - cursor
+  - github-copilot
+  - windsurf
+  - opencode
+  - codex
+  - antigravity
+  - openclaw
 ---
+
 
 # Israeli Mental Health Navigator
 
