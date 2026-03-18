@@ -12,7 +12,7 @@ license: MIT
 compatibility: No network required. Works offline with reference data.
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: health-services
   tags:
     he:
@@ -199,6 +199,14 @@ Key patient rights (zkhuyot ha'mevutach):
 ### Example 4: Dental Coverage
 **Input:** "Does my kupat cholim cover dental?"
 **Output:** Explain that basic basket covers dental for children until age 18 only. Adults need supplementary insurance (mashlim/zahav) or private dental insurance. Compare dental coverage across HMO supplementary plans. Note preventive dental program for children (Tipul Meuni) covered by basic basket.
+
+## Gotchas
+
+- Israel has exactly 4 HMOs (kupot cholim): Clalit, Maccabi, Meuhedet, and Leumit. Agents may reference US insurance terminology like "deductible," "copay maximum," or "in-network/out-of-network" which do not apply to the Israeli system.
+- The basic health basket (sal briut) is identical by law across all 4 HMOs. Agents may incorrectly suggest that one kupat cholim has better basic coverage than another. Differences exist only in supplementary tiers.
+- Copayment amounts (hashtatfut atzmit) are updated periodically by the Ministry of Health. Agents may cite outdated figures. Always verify current amounts with the specific kupat cholim.
+- Supplementary insurance (SHABAN) waiting periods apply when switching HMOs. The basic basket has no waiting period, but agents may not distinguish between basic and supplementary when discussing switching.
+- Adult dental care is not covered in the basic basket (only children up to 18). Agents trained on US-style health plans may assume dental is included.
 
 ## Troubleshooting
 

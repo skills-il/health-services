@@ -12,7 +12,7 @@ license: MIT
 compatibility: Works with all major AI coding agents
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: health-services
   tags:
     he:
@@ -269,6 +269,14 @@ Result: Patient is connected to trauma-specialized treatment through their kupat
 
 ### Scripts
 - `scripts/therapy-cost-estimator.py` -- Estimates therapy costs by treatment setting (kupat cholim, private, university clinic, sliding scale), therapist type, and city. Run: `python scripts/therapy-cost-estimator.py --sessions-per-month 4 --type private --city tel-aviv`
+
+## Gotchas
+
+- The 2015 mental health reform transferred psychiatric services from government to kupot cholim. Agents may still reference the old government-run system or suggest outdated access paths.
+- ERAN's number is 1201, not a standard 4-digit or toll-free format. Agents may generate plausible but incorrect crisis line numbers. Always verify hotline numbers against the reference data.
+- Therapy through kupot cholim is typically limited to 12-16 sessions per year, not unlimited. Agents may omit session caps when describing coverage.
+- Israeli sick days for mental health follow the same payment structure as physical illness: day 1 unpaid, days 2-3 at 50%, day 4+ at 100%. Agents may apply US-style sick leave policies instead.
+- Post-October 7 mental health services were significantly expanded, including EMDR availability and streamlined PTSD recognition. Agents trained before late 2023 will not reflect these expansions.
 
 ## Troubleshooting
 

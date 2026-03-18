@@ -11,7 +11,7 @@ license: MIT
 compatibility: Works with all major AI coding agents
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: health-services
   tags:
     he:
@@ -246,6 +246,14 @@ Result: MDA dispatches a Mobile Intensive Care Unit (MICU) staffed by paramedics
 ### References
 - `references/hospital-directory.md` -- Complete directory of Israeli hospitals by region (North, Center, South, Jerusalem), including all 5 Level-1 trauma centers, emergency department phone numbers, clinical specialties, and pediatric and psychiatric facilities. Consult when a user needs to find the nearest hospital, identify which hospital handles specific specialties, or locate a trauma center.
 - `references/first-aid-basics.md` -- Quick reference for basic first aid procedures (CPR for adults/children/infants, severe bleeding, burns, choking, heatstroke) with Israeli-specific context including desert snake bite response, Mediterranean jellyfish sting treatment, earthquake procedures, and regional heat risks. Consult when a user needs step-by-step first aid instructions or faces a region-specific emergency.
+
+## Gotchas
+
+- Agents often default to US emergency numbers (911). Israel uses 101 (MDA), 100 (police), and 102 (fire). The unified number 112 works but is not the primary line.
+- ER copay amounts change periodically. Agents may cite outdated figures. As of 2025, the ER copay is approximately 100 NIS, but verify with the specific hospital or kupat cholim.
+- Terem urgent care locations and hours change. The Jerusalem Romema branch is 24/7, but other branches have limited evening and weekend hours that agents may not reflect accurately.
+- Agents may confuse Israeli triage color codes with international ones. Israel uses a 4-level system (red, orange, yellow, green) that differs from some international 5-level systems.
+- Hospital names have multiple forms: agents may not connect "Ichilov" with "Sourasky Medical Center" or "Tel Aviv Medical Center," which are the same institution.
 
 ## Troubleshooting
 

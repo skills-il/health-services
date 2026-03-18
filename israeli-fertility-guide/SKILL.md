@@ -12,7 +12,7 @@ license: MIT
 compatibility: Works with all major AI coding agents
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: health-services
   tags:
     he:
@@ -300,6 +300,14 @@ Result: The couple begins the surrogacy application process. They consult with a
 
 ### Scripts
 - `scripts/fertility-coverage-checker.py` -- Determines fertility treatment coverage based on age, number of existing children, marital status, and insurance type. Run: `python scripts/fertility-coverage-checker.py --age 38 --children 1 --insurance basic`
+
+## Gotchas
+
+- The IVF coverage limit is based on live births (2), not on the number of IVF cycles. Agents often confuse cycles with outcomes and may incorrectly state there is a cycle cap.
+- Israel's surrogacy law was expanded in recent years to include single individuals and same-sex couples. Agents trained on older data may state that surrogacy is limited to heterosexual couples only.
+- Elective egg freezing coverage eligibility (ages 30-41 for single women) was expanded relatively recently. Agents may cite older, narrower age ranges or claim it is not covered at all.
+- The "2 live births" counter resets with a new relationship. Agents may not mention this nuance, which significantly affects coverage eligibility.
+- SHABAN (supplementary insurance) waiting periods for fertility benefits are typically 6-12 months. Agents may omit this, leading users to enroll and expect immediate coverage.
 
 ## Troubleshooting
 
