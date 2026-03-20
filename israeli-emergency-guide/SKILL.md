@@ -70,7 +70,7 @@ Key facts about MDA:
 - National emergency medical service, operating since 1950
 - 189 stations across Israel with over 2,000 ambulances
 - Average response time: 8.3 minutes nationwide
-- Staffed by approximately 4,000 EMTs and paramedics plus 26,000 volunteers
+- Staffed by over 30,000 volunteers and thousands of professional staff (approximately 39,000 total)
 - Supplies 100% of IDF blood needs through MDA Blood Services
 
 ### Step 2: When to Call MDA vs Visit Terem vs Go to ER
@@ -120,7 +120,7 @@ When arriving at a hospital ER (chadar miyun, חדר מיון), expect the follo
 | Treatment/Discharge | Treatment given, discharge or admission decision | Varies |
 
 Cost information:
-- ER copay (ishtalmut): approximately 100 NIS
+- ER copay (ishtalmut): approximately 1,000 NIS (for self-referral without a doctor's referral)
 - Copay is waived if the patient is admitted to the hospital
 - Copay is waived if referred by MDA ambulance
 - Children under 18 and pregnant women may have reduced or waived copays depending on kupat cholim
@@ -225,7 +225,7 @@ Actions:
 1. If the bone is not protruding and bleeding is controlled, go to Terem or a hospital ER
 2. In Tel Aviv, Ichilov (Sourasky Medical Center) is centrally located
 3. Bring your passport and travel insurance documents
-4. ER copay is approximately 100 NIS; travel insurance should cover this
+4. ER copay is approximately 1,000 NIS (for self-referral); travel insurance should cover this
 5. Hospitals are required to treat you regardless of insurance status
 
 Result: X-ray and treatment at Terem or the hospital. Non-residents may be billed at higher rates, so having travel insurance is important.
@@ -250,7 +250,7 @@ Result: MDA dispatches a Mobile Intensive Care Unit (MICU) staffed by paramedics
 ## Gotchas
 
 - Agents often default to US emergency numbers (911). Israel uses 101 (MDA), 100 (police), and 102 (fire). The unified number 112 works but is not the primary line.
-- ER copay amounts change periodically. Agents may cite outdated figures. As of 2025, the ER copay is approximately 100 NIS, but verify with the specific hospital or kupat cholim.
+- ER copay amounts change periodically. Agents may cite outdated figures. As of 2025, the ER copay for self-referral is approximately 1,000 NIS, but verify with the specific hospital or kupat cholim.
 - Terem urgent care locations and hours change. The Jerusalem Romema branch is 24/7, but other branches have limited evening and weekend hours that agents may not reflect accurately.
 - Agents may confuse Israeli triage color codes with international ones. Israel uses a 4-level system (red, orange, yellow, green) that differs from some international 5-level systems.
 - Hospital names have multiple forms: agents may not connect "Ichilov" with "Sourasky Medical Center" or "Tel Aviv Medical Center," which are the same institution.
