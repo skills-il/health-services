@@ -1,52 +1,8 @@
 ---
 name: israeli-hmo-navigator
-description: >-
-  Navigate Israel's four HMOs (kupot cholim) and healthcare system for service
-  comparisons, referrals, and coverage decisions. Use when user asks about
-  Clalit, Maccabi, Meuhedet, Leumit, "kupat cholim", health basket (sal
-  briut), specialist referrals (hafnaya), supplementary insurance (biituach
-  mashlim), or switching HMOs. Covers service tiers, digital platforms,
-  copayments, and rights under the National Health Insurance Law. Do NOT use
-  for emergency medical advice or pharmaceutical drug information.
+description: Navigate Israel's four HMOs (kupot cholim) and healthcare system for service comparisons, referrals, and coverage decisions. Use when user asks about Clalit, Maccabi, Meuhedet, Leumit, "kupat cholim", health basket (sal briut), specialist referrals (hafnaya), supplementary insurance (biituach mashlim), or switching HMOs. Covers service tiers, digital platforms, copayments, and rights under the National Health Insurance Law. Do NOT use for emergency medical advice or pharmaceutical drug information.
 license: MIT
 compatibility: No network required. Works offline with reference data.
-metadata:
-  author: skills-il
-  version: 1.0.1
-  category: health-services
-  tags:
-    he:
-      - קופת-חולים
-      - בריאות
-      - סל-בריאות
-      - ביטוח-משלים
-      - הפניה
-      - ישראל
-    en:
-      - hmo
-      - healthcare
-      - health-basket
-      - supplementary-insurance
-      - referral
-      - israel
-  display_name:
-    he: ניווט קופות החולים
-    en: Israeli HMO Navigator
-  display_description:
-    he: השוואת שירותים, כיסויים וזכויות בקופות החולים בישראל
-    en: >-
-      Navigate Israel's four HMOs (kupot cholim) and healthcare system for
-      service comparisons, referrals, and coverage decisions. Use when user
-      asks about Clalit, Maccabi, Meuhedet, Leumit, health basket, specialist
-      referrals, supplementary insurance, or switching HMOs.
-  supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
-    - antigravity
 ---
 
 # Israeli HMO Navigator

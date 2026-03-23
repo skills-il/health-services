@@ -1,0 +1,40 @@
+{
+  "author": "skills-il",
+  "version": "1.0.1",
+  "category": "health-services",
+  "tags": {
+    "he": [
+      "קופת-חולים",
+      "בריאות",
+      "סל-בריאות",
+      "ביטוח-משלים",
+      "הפניה",
+      "ישראל"
+    ],
+    "en": [
+      "hmo",
+      "healthcare",
+      "health-basket",
+      "supplementary-insurance",
+      "referral",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "ניווט קופות החולים",
+    "en": "Israeli HMO Navigator"
+  },
+  "display_description": {
+    "he": "השוואת שירותים, כיסויים וזכויות בקופות החולים בישראל",
+    "en": "Navigate Israel's four HMOs (kupot cholim) and healthcare system for service comparisons, referrals, and coverage decisions. Use when user asks about Clalit, Maccabi, Meuhedet, Leumit, health basket, specialist referrals, supplementary insurance, or switching HMOs."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity"
+  ]
+}

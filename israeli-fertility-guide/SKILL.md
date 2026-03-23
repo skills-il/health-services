@@ -1,56 +1,8 @@
 ---
 name: israeli-fertility-guide
-description: >-
-  Guide to fertility treatments in Israel including IVF coverage, health basket entitlements,
-  surrogacy law, egg freezing, and navigating kupat cholim fertility services. Use
-  when a user needs information about IVF funding through the national health system,
-  understanding SHABAN supplementary insurance for fertility, the legal framework
-  for surrogacy and sperm donation, or cost breakdowns for fertility treatments. Israel
-  is a world leader in IVF per capita with generous public funding for first two live
-  births. Do NOT use for medical fertility diagnosis or treatment recommendations.
+description: Guide to fertility treatments in Israel including IVF coverage, health basket entitlements, surrogacy law, egg freezing, and navigating kupat cholim fertility services. Use when a user needs information about IVF funding through the national health system, understanding SHABAN supplementary insurance for fertility, the legal framework for surrogacy and sperm donation, or cost breakdowns for fertility treatments. Israel is a world leader in IVF per capita with generous public funding for first two live births. Do NOT use for medical fertility diagnosis or treatment recommendations.
 license: MIT
 compatibility: Works with all major AI coding agents
-metadata:
-  author: skills-il
-  version: 1.0.1
-  category: health-services
-  tags:
-    he:
-    - פוריות
-    - הפריה
-    - סל-בריאות
-    - הריון
-    - קופת-חולים
-    - ישראל
-    en:
-    - fertility
-    - ivf
-    - health-basket
-    - pregnancy
-    - kupat-cholim
-    - israel
-  display_name:
-    he: מדריך טיפולי פוריות בישראל
-    en: Israeli Fertility Treatment Guide
-  display_description:
-    he: מדריך לטיפולי פוריות, הפריה חוץ גופית וכיסוי ביטוחי בישראל
-    en: >-
-      Guide to fertility treatments in Israel including IVF coverage, health basket
-      entitlements, surrogacy law, egg freezing, and navigating kupat cholim fertility
-      services. Use when a user needs information about IVF funding through the national
-      health system, understanding SHABAN supplementary insurance for fertility, the
-      legal framework for surrogacy and sperm donation, or cost breakdowns for fertility
-      treatments. Israel is a world leader in IVF per capita with generous public
-      funding for first two live births. Do NOT use for medical fertility diagnosis
-      or treatment recommendations.
-  supported_agents:
-  - claude-code
-  - cursor
-  - github-copilot
-  - windsurf
-  - opencode
-  - codex
-  - antigravity
 ---
 
 
