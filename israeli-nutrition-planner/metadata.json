@@ -1,0 +1,26 @@
+{
+  "display_name": {
+    "he": "מתכנן תזונה ישראלי",
+    "en": "Israeli Nutrition Planner"
+  },
+  "display_description": {
+    "he": "תכנון ארוחות והחלטות תזונתיות על בסיס הנחיות הקשת התזונית של משרד הבריאות ותיוג מזון אדום/ירוק. השתמשו כשאתם צריכים לבנות תפריט שבועי מאוזן, להבין מה המספרים על תיוגי המזון אומרים, או לתכנן ארוחות כשרות עם הפרדת בשר-חלב. מכסה את חמשת פסי הקשת התזונית (ירוק, צהוב, כתום, ורוד, ומתחת לקשת), ספי התיוג האדום לסוכר, נתרן ושומן רווי (שלב 2, ינואר 2021), ובניית ארוחות ממוצרי סופרמרקט ישראלי. אל תשתמשו לטיפול תזונתי קליני, הפרעות אכילה, או מרשמים רפואיים.",
+    "en": "Plan meals and make dietary decisions based on Israeli Ministry of Health Nutritional Rainbow guidelines and front-of-package red/green labeling. Use when you need to build balanced weekly menus, understand what Israeli food labels mean, or plan kosher meals with proper meat-dairy separation. Covers the five rainbow bands (green, yellow, orange, pink, and below-the-rainbow), red label thresholds for sugar, sodium, and saturated fat (Phase 2, January 2021), and building meals from Israeli supermarket products. Do NOT use for clinical nutrition therapy, eating disorders, or medical dietary prescriptions."
+  },
+  "tags": {
+    "he": ["תזונה", "ארוחות", "קשת-תזונית", "תיוג-מזון", "כשרות", "דיאטה", "בריאות", "ישראל"],
+    "en": ["nutrition", "meal-planning", "nutritional-rainbow", "food-labeling", "kosher", "diet", "health", "israel"]
+  },
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "health-services",
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex"
+  ],
+  "openclaw": true
+}
