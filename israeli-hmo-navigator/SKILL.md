@@ -156,6 +156,20 @@ Key patient rights (zkhuyot ha'mevutach):
 **Input:** "Does my kupat cholim cover dental?"
 **Output:** Explain that basic basket covers dental for children until age 18 only. Adults need supplementary insurance (mashlim/zahav) or private dental insurance. Compare dental coverage across HMO supplementary plans. Note preventive dental program for children (Tipul Meuni) covered by basic basket.
 
+## Recommended MCP Servers
+
+For live healthcare data, pair this skill with:
+
+| MCP Server | What it provides | Install |
+|------------|-----------------|---------|
+| **il-health** | Israeli Ministry of Health data: hospital quality of service, patient surveys, child health checkups, health fund (kupat cholim) information, and beach water quality | [Install](https://agentskills.co.il/en/mcps/il-health) |
+| **kolzchut** | Israel's authoritative rights and entitlements knowledge base (Kol Zchut): rights for new immigrants, health insurance, disability, elderly care, and thousands of structured articles | [Install](https://agentskills.co.il/en/mcps/kolzchut) |
+| **israel-drugs** | Comprehensive Israeli pharmaceutical database from the Ministry of Health: 1,172+ therapeutic categories, medication profiles, health basket status, pricing, generic alternatives, and health fund formulary alignment | [Install](https://agentskills.co.il/en/mcps/israel-drugs) |
+| **israel-mental-health** | Community mental health clinics, psychiatric services, and quality metrics by city, HMO, therapy type, and specialization with wait time data | [Install](https://agentskills.co.il/en/mcps/israel-mental-health) |
+| **israel-clinical-trials** | Active and completed clinical trials at Israeli hospitals (Sheba, Hadassah, Ichilov, Rambam) from ClinicalTrials.gov | [Install](https://agentskills.co.il/en/mcps/israel-clinical-trials) |
+
+When these MCPs are available, use them for real-time healthcare data instead of the static reference tables in this skill. The `kolzchut` MCP is especially valuable for patient rights questions.
+
 ## Gotchas
 
 - Israel has exactly 4 HMOs (kupot cholim): Clalit, Maccabi, Meuhedet, and Leumit. Agents may reference US insurance terminology like "deductible," "copay maximum," or "in-network/out-of-network" which do not apply to the Israeli system.
