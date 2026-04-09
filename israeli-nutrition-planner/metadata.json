@@ -8,8 +8,26 @@
     "en": "Plan meals and make dietary decisions based on Israeli Ministry of Health Nutritional Rainbow guidelines and front-of-package red/green labeling. Use when you need to build balanced weekly menus, understand what Israeli food labels mean, or plan kosher meals with proper meat-dairy separation. Covers the five rainbow bands (green, yellow, orange, pink, and below-the-rainbow), red label thresholds for sugar, sodium, and saturated fat (Phase 2, January 2021), and building meals from Israeli supermarket products. Do NOT use for clinical nutrition therapy, eating disorders, or medical dietary prescriptions."
   },
   "tags": {
-    "he": ["תזונה", "ארוחות", "קשת-תזונית", "תיוג-מזון", "כשרות", "דיאטה", "בריאות", "ישראל"],
-    "en": ["nutrition", "meal-planning", "nutritional-rainbow", "food-labeling", "kosher", "diet", "health", "israel"]
+    "he": [
+      "תזונה",
+      "ארוחות",
+      "קשת-תזונית",
+      "תיוג-מזון",
+      "כשרות",
+      "דיאטה",
+      "בריאות",
+      "ישראל"
+    ],
+    "en": [
+      "nutrition",
+      "meal-planning",
+      "nutritional-rainbow",
+      "food-labeling",
+      "kosher",
+      "diet",
+      "health",
+      "israel"
+    ]
   },
   "author": "skills-il",
   "version": "1.0.0",
@@ -20,7 +38,8 @@
     "github-copilot",
     "windsurf",
     "opencode",
-    "codex"
+    "codex",
+    "gemini-cli"
   ],
   "openclaw": true
 }
