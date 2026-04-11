@@ -49,7 +49,7 @@ Israel offers a wide range of evidence-based psychological treatments through bo
 **Finding a CBT therapist:**
 - Through your kupat cholim (free/subsidized)
 - Israeli CBT Association referral directory
-- "Terapist" website (terapist.co.il) with CBT filter
+- BeTipulNet (betipulnet.co.il) with CBT filter
 - University training clinics (reduced rates)
 
 ### EMDR (Eye Movement Desensitization and Reprocessing)

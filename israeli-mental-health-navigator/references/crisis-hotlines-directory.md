@@ -20,31 +20,18 @@ Israel has an extensive network of crisis hotlines and emotional support service
 | Chat Option | Available through the ERAN website |
 | Notes | Israel's primary and most well-known crisis line; handles over 500,000 calls per year |
 
-### Kav LaHaim (קו לחיים) - Suicide Prevention
-
-| Detail | Information |
-|--------|-------------|
-| Phone | *2784 |
-| Full Name | Kav LaHaim (Line for Life) |
-| Hours | 24 hours a day, 7 days a week |
-| Languages | Hebrew, Arabic |
-| What They Do | Specialized suicide prevention and crisis intervention; trained specifically for suicidal callers |
-| Who Answers | Trained volunteers with suicide prevention specialization |
-| Anonymous | Yes |
-| Notes | Focused specifically on suicide risk. If a caller is in immediate danger, they coordinate with emergency services |
-
 ### Sahar (סה"ר) - Online Emotional Support
 
 | Detail | Information |
 |--------|-------------|
-| Access | Online chat at sahar.org.il |
+| Access | Online chat at sahar.org.il, WhatsApp: 055-957-1399 |
 | Full Name | Siyua Hevrati Rishoni (סיוע חברתי ראשוני) |
-| Hours | Sunday-Thursday 20:00-01:00, Friday-Saturday expanded hours |
-| Languages | Hebrew |
+| Hours | 24 hours a day, 7 days a week |
+| Languages | Hebrew, Arabic |
 | What They Do | Text-based emotional support for people who prefer not to make a phone call; specializes in reaching younger populations |
-| Who Answers | Trained volunteers |
+| Who Answers | Trained volunteers accompanied by therapists from the mental health sector |
 | Anonymous | Yes |
-| Notes | Particularly popular with teenagers and young adults who are more comfortable communicating via text |
+| Notes | Expanded to 24/7 service. Also available via WhatsApp. Particularly popular with teenagers and young adults who are more comfortable communicating via text |
 
 ### Ministry of Health Mental Health Line
 
@@ -62,9 +49,9 @@ Israel has an extensive network of crisis hotlines and emotional support service
 
 | Detail | Information |
 |--------|-------------|
-| Phone | 1-800-363-363 |
+| Phone | *3362 |
 | Full Name | National Center for Psychotrauma (HaMerkaz HaLeumi LePsicho-Trauma) |
-| Hours | Sunday-Thursday 09:00-21:00 |
+| Hours | 24 hours a day, 7 days a week |
 | Languages | Hebrew, Arabic, Russian, English, Amharic |
 | What They Do | Specialized trauma support for people affected by terror attacks, military operations, rocket attacks, and other security-related events; also provides ongoing therapy programs |
 | Who Answers | Licensed therapists and trained counselors |
@@ -136,7 +123,7 @@ Israel has an extensive network of crisis hotlines and emotional support service
 | Service | Phone/Access | Hours | Focus |
 |---------|-------------|-------|-------|
 | ERAN (Russian line) | 1201 (Russian option) | Select hours | Emotional support in Russian |
-| Natal (Russian) | 1-800-363-363 | Select hours | Trauma support in Russian |
+| Natal (Russian) | *3362 | Select hours | Trauma support in Russian |
 | Amigour Hotline | 03-5142706 | Office hours | Support for elderly Russian-speaking immigrants |
 
 ### Ethiopian-Israeli Community

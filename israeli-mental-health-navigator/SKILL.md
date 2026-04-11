@@ -64,16 +64,24 @@ Israel has several crisis hotlines available for immediate mental health support
 | Hotline | Number | Hebrew Name | Availability | Focus |
 |---------|--------|-------------|-------------|-------|
 | ERAN | 1201 | ער"ן | 24/7 | General emotional support, suicidal ideation, crisis intervention |
-| Sahar | Online chat | סה"ר | Evening/night hours | Online emotional support for those who prefer text |
-| Natal | 1-800-363-363 | נט"ל | Sun-Thu 9:00-21:00 | Trauma and PTSD, terror-related distress |
+| Sahar | Chat at sahar.org.il, WhatsApp 055-957-1399 | סה"ר | 24/7 | Online emotional support for those who prefer text |
+| Natal | *3362 | נט"ל | 24/7 | Trauma and PTSD, terror-related distress |
 | AMCHA | 02-5427127 | עמח"א | Office hours | Holocaust survivor support, intergenerational trauma |
-| Kav LaHaim | *2784 | קו לחיים | 24/7 | Suicide prevention and crisis intervention |
 | Ministry of Health | *5400 | משרד הבריאות | Office hours | General mental health referrals and information |
 
+Kupat cholim mental health hotlines (direct access, no referral needed):
+
+| Kupat Cholim | Mental Health Hotline |
+|-------------|---------------------|
+| Clalit | *8703 |
+| Maccabi | *3555 |
+| Meuhedet | *3833 |
+| Leumit | *507 |
+
 When to use crisis hotlines:
-- Immediate emotional distress or suicidal thoughts (call ERAN 1201 or Kav LaHaim *2784)
-- Trauma response after a security incident (call Natal)
-- Need to talk to someone right now but prefer not to call (use Sahar online chat)
+- Immediate emotional distress or suicidal thoughts (call ERAN 1201)
+- Trauma response after a security incident (call Natal *3362)
+- Need to talk to someone right now but prefer not to call (use Sahar chat at sahar.org.il or WhatsApp 055-957-1399)
 - If someone is in immediate danger of harming themselves or others, call 101 (MDA) or 100 (police)
 
 ### Step 4: Types of Treatment Available
@@ -108,7 +116,8 @@ For those who prefer private therapy or cannot wait for kupat cholim placement:
 | Art therapy (tipul be'omanut, טיפול באומנות) | 250-500 NIS | Expressive arts therapist |
 
 Finding a private therapist:
-- "Terapist" (תרפיסט) website: comprehensive directory of therapists by specialty and location
+- BeTipulNet (בטיפולנט, betipulnet.co.il): largest Israeli therapist directory, searchable by specialty, location, and therapy type
+- Get Help Israel (gethelpisrael.com): English-language directory of verified mental health professionals
 - Israel Psychological Association referral service
 - Word of mouth and physician recommendations
 - University training clinics offer reduced rates (150-250 NIS per session)
@@ -142,7 +151,7 @@ PTSD (post-traumatic stress disorder, הפרעת דחק פוסט-טראומטי�
 
 | Resource | Description | Contact |
 |----------|-------------|---------|
-| Natal | National trauma center, specialized PTSD treatment | 1-800-363-363 |
+| Natal | National trauma center, specialized PTSD treatment | *3362 |
 | Bituach Leumi PTSD recognition | Official disability recognition for PTSD | Local Bituach Leumi office |
 | Resilience centers (merkazei chosen, מרכזי חוסן) | Community-based trauma support | Located in municipalities |
 | IDF veterans support | Through Ministry of Defense rehabilitation division | *3104 |
@@ -205,7 +214,7 @@ Result: Employee takes mental health sick leave. Employer receives a generic sic
 User says: "I've been having flashbacks and nightmares since a traumatic event. Where do I get help?"
 
 Actions:
-1. For immediate support, call Natal at 1-800-363-363 (specialized trauma hotline)
+1. For immediate support, call Natal at *3362 (specialized trauma hotline)
 2. Contact your kupat cholim to request a referral for PTSD-specific treatment
 3. Ask specifically for EMDR or trauma-focused CBT, both proven effective for PTSD
 4. If symptoms are severe, request an urgent psychiatric evaluation
@@ -216,16 +225,36 @@ Result: Patient is connected to trauma-specialized treatment through their kupat
 ## Bundled Resources
 
 ### References
-- `references/crisis-hotlines-directory.md` -- Complete directory of mental health crisis lines in Israel: ERAN (1201), Sahar, Natal, AMCHA, Kav LaHaim, and lines for specific communities (Arabic, Russian, Ethiopian, LGBTQ+, youth, women, elderly, veterans). Includes hours, languages, and specializations. Consult when a user needs immediate crisis support contact information or when helping someone find population-specific services.
+- `references/crisis-hotlines-directory.md` -- Complete directory of mental health crisis lines in Israel: ERAN (1201), Sahar, Natal (*3362), AMCHA, and lines for specific communities (Arabic, Russian, Ethiopian, LGBTQ+, youth, women, elderly, veterans). Includes hours, languages, and specializations. Consult when a user needs immediate crisis support contact information or when helping someone find population-specific services.
 - `references/therapy-types-guide.md` -- Guide to therapy types available in Israel: CBT, EMDR, psychodynamic, DBT, group therapy, family therapy, art therapy, and play therapy. Covers what each treats, typical duration, availability through kupat cholim, and private costs. Consult when a user needs help choosing the right therapy type or understanding treatment options.
 
 ### Scripts
 - `scripts/therapy-cost-estimator.py` -- Estimates therapy costs by treatment setting (kupat cholim, private, university clinic, sliding scale), therapist type, and city. Run: `python scripts/therapy-cost-estimator.py --sessions-per-month 4 --type private --city tel-aviv`
 
+## Recommended MCP Servers
+
+| MCP | What It Adds |
+|-----|-------------|
+| [Israel Mental Health Services](https://agentskills.co.il/he/mcps/health-services/israel-mental-health) | Search community mental health clinics by city, HMO, therapy type, or specialization with wait time data from official Ministry of Health data |
+| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcps/government-services/kolzchut) | Look up rights and entitlements including disability benefits, health insurance rights, and Bituach Leumi eligibility |
+| [Israel Drugs](https://agentskills.co.il/he/mcps/health-services/israel-drugs) | Check psychiatric medication details, health basket coverage status, generic alternatives, and kupat cholim formulary alignment |
+
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Ministry of Health - Mental Health | me.health.gov.il/en/mental-health | Official crisis line numbers, service listings, policy updates |
+| ERAN | en.eran.org.il | ERAN hotline details, languages, operating hours |
+| Natal | natal.org.il | Natal contact number, trauma services, operating hours |
+| Sahar | sahar.org.il | Online chat availability, WhatsApp contact, hours |
+| BeTipulNet | betipulnet.co.il | Therapist directory, crisis line listings, therapy type guides |
+| Get Help Israel | gethelpisrael.com | English-language hotline directory, therapist finder |
+
 ## Gotchas
 
 - The 2015 mental health reform transferred psychiatric services from government to kupot cholim. Agents may still reference the old government-run system or suggest outdated access paths.
 - ERAN's number is 1201, not a standard 4-digit or toll-free format. Agents may generate plausible but incorrect crisis line numbers. Always verify hotline numbers against the reference data.
+- Natal's phone number changed from the legacy 1-800-363-363 to *3362. Agents trained on older data will use the old number. Always use *3362.
 - Therapy through kupot cholim is typically limited to 12-16 sessions per year, not unlimited. Agents may omit session caps when describing coverage.
 - Israeli sick days for mental health follow the same payment structure as physical illness: day 1 unpaid, days 2-3 at 50%, day 4+ at 100%. Agents may apply US-style sick leave policies instead.
 - Post-October 7 mental health services were significantly expanded, including EMDR availability and streamlined PTSD recognition. Agents trained before late 2023 will not reflect these expansions.
