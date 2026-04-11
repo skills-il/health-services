@@ -23,7 +23,7 @@ Israel has dedicated emergency numbers. Provide the correct number based on the 
 
 Key facts about MDA:
 - National emergency medical service, operating since 1950
-- 189 stations across Israel with over 2,000 ambulances
+- Over 200 stations across Israel with over 2,000 ambulances
 - Average response time: 8.3 minutes nationwide
 - Staffed by over 30,000 volunteers and thousands of professional staff (approximately 39,000 total)
 - Supplies 100% of IDF blood needs through MDA Blood Services
@@ -75,7 +75,7 @@ When arriving at a hospital ER (chadar miyun, חדר מיון), expect the follo
 | Treatment/Discharge | Treatment given, discharge or admission decision | Varies |
 
 Cost information:
-- ER copay (ishtalmut): approximately 1,000 NIS (for self-referral without a doctor's referral)
+- ER copay (ishtalmut): 1,110 NIS (for self-referral without a doctor's referral, per Ministry of Health pricing)
 - Copay is waived if the patient is admitted to the hospital
 - Copay is waived if referred by MDA ambulance
 - Children under 18 and pregnant women may have reduced or waived copays depending on kupat cholim
@@ -90,13 +90,19 @@ Triage priority levels:
 
 Terem (טרם) operates urgent care clinics for non-life-threatening emergencies.
 
-| Location | Address Area | Hours |
-|----------|-------------|-------|
-| Jerusalem (Romema) | Romema neighborhood | 24/7 |
-| Jerusalem (Bnei Brit) | City center | Extended hours |
-| Modi'in | Industrial zone | Evening/weekend |
-| Lod | City center | Evening/weekend |
-| Be'er Sheva | City center | Evening/weekend |
+Terem has 25+ branches across Israel, from Nahariya in the north to Be'er Sheva in the south. Key locations include:
+
+| Location | Hours | Notes |
+|----------|-------|-------|
+| Jerusalem (Romema/Sarei Israel) | 24/7 | Main flagship branch |
+| Jerusalem (Pisgat Ze'ev, Talpiot, Old Katamon) | Varies | Additional Jerusalem branches |
+| Modi'in | Evening/weekend | |
+| Be'er Sheva | Evening/weekend | |
+| Beit Shemesh | Evening/weekend | |
+| Ashdod | Evening/weekend | |
+| Carmiel | Evening/weekend | |
+
+For the full current list of branches and hours, check terem.com or call Terem's information center at 1-599-520-520.
 
 When to use Terem:
 - Fractures and sprains (not compound fractures)
@@ -135,7 +141,7 @@ MDA Blood Services (שירותי הדם של מד"א) manages Israel's entire bl
 
 | Detail | Information |
 |--------|-------------|
-| Who can donate | Ages 17-65, weight over 50 kg, in good health |
+| Who can donate | Age 17+, weight over 50 kg, in good health. Ages 17-18 need parental consent. Over 60 (first-time) or over 65 (returning) must donate at permanent MDA stations with family doctor approval. |
 | How often | Every 3 months (whole blood) |
 | Where to donate | MDA blood donation centers, mobile blood drives |
 | Scheduling | Via MDA website or call 101 |
@@ -180,7 +186,7 @@ Actions:
 1. If the bone is not protruding and bleeding is controlled, go to Terem or a hospital ER
 2. In Tel Aviv, Ichilov (Sourasky Medical Center) is centrally located
 3. Bring your passport and travel insurance documents
-4. ER copay is approximately 1,000 NIS (for self-referral); travel insurance should cover this
+4. ER copay is 1,110 NIS (for self-referral); travel insurance should cover this
 5. Hospitals are required to treat you regardless of insurance status
 
 Result: X-ray and treatment at Terem or the hospital. Non-residents may be billed at higher rates, so having travel insurance is important.
@@ -202,10 +208,31 @@ Result: MDA dispatches a Mobile Intensive Care Unit (MICU) staffed by paramedics
 - `references/hospital-directory.md` -- Complete directory of Israeli hospitals by region (North, Center, South, Jerusalem), including all 5 Level-1 trauma centers, emergency department phone numbers, clinical specialties, and pediatric and psychiatric facilities. Consult when a user needs to find the nearest hospital, identify which hospital handles specific specialties, or locate a trauma center.
 - `references/first-aid-basics.md` -- Quick reference for basic first aid procedures (CPR for adults/children/infants, severe bleeding, burns, choking, heatstroke) with Israeli-specific context including desert snake bite response, Mediterranean jellyfish sting treatment, earthquake procedures, and regional heat risks. Consult when a user needs step-by-step first aid instructions or faces a region-specific emergency.
 
+## Recommended MCP Servers
+
+| MCP | What It Adds |
+|-----|-------------|
+| [IL Health](https://agentskills.co.il/he/mcps/health-services/il-health) | Access Israeli Ministry of Health data: hospital quality metrics, patient surveys, and health fund information |
+| [Pikud Haoref](https://agentskills.co.il/he/mcps/security-compliance/pikud-haoref) | Real-time emergency alerts from Home Front Command (rocket alerts, earthquakes, aerial intrusions) |
+| [Israel Clinical Trials](https://agentskills.co.il/he/mcps/health-services/israel-clinical-trials) | Search active clinical trials at Israeli hospitals (Sheba, Hadassah, Ichilov, Rambam) |
+| [Israel Drugs](https://agentskills.co.il/he/mcps/health-services/israel-drugs) | Israel's pharmaceutical database with health basket status, drug interactions, and generic alternatives |
+| [Miklat](https://agentskills.co.il/he/mcps/security-compliance/miklat) | Find public shelters (miklatim) in Israel by location |
+
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| MDA (Magen David Adom) | https://www.mdais.org/en | Emergency services, blood donation, station locations |
+| Terem Urgent Care | https://www.terem.com/?lang=en | Current branch locations, hours, services |
+| Ministry of Health ER Info | https://www.gov.il/en/service/emergency-room-payment | ER copay amounts and exemption criteria |
+| MDA Blood Donation | https://www.mdais.org/en/blood-donation/who-can-donate | Donation eligibility criteria |
+| Poison Control (Rambam) | https://www.rambam.org.il/en/patient_info/contact_us/ | Poison hotline: 04-7771900 |
+| Dam.org.il (Blood Donors) | https://www.dam.org.il/en/qa/ | Blood donation FAQ and eligibility details |
+
 ## Gotchas
 
 - Agents often default to US emergency numbers (911). Israel uses 101 (MDA), 100 (police), and 102 (fire). The unified number 112 works but is not the primary line.
-- ER copay amounts change periodically. Agents may cite outdated figures. As of 2025, the ER copay for self-referral is approximately 1,000 NIS, but verify with the specific hospital or kupat cholim.
+- ER copay amounts change periodically. Agents may cite outdated figures. As of 2026, the ER copay for self-referral is 1,110 NIS per Ministry of Health pricing, but verify with the specific hospital or kupat cholim.
 - Terem urgent care locations and hours change. The Jerusalem Romema branch is 24/7, but other branches have limited evening and weekend hours that agents may not reflect accurately.
 - Agents may confuse Israeli triage color codes with international ones. Israel uses a 4-level system (red, orange, yellow, green) that differs from some international 5-level systems.
 - Hospital names have multiple forms: agents may not connect "Ichilov" with "Sourasky Medical Center" or "Tel Aviv Medical Center," which are the same institution.

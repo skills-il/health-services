@@ -8,9 +8,9 @@ Israel has 5 designated Level-1 trauma centers. These are equipped to handle the
 
 | Hospital | Hebrew | City | Phone | Key Trauma Features |
 |----------|--------|------|-------|--------------------|
-| Rambam Health Care Campus | רמב"ם | Haifa | 04-7772111 | Underground emergency hospital (Sammy Ofer Fortified), designed for mass casualty events |
+| Rambam Health Care Campus | רמב"ם | Haifa | 04-7772222 | Underground emergency hospital (Sammy Ofer Fortified), designed for mass casualty events |
 | Hadassah Medical Center (Ein Kerem) | הדסה עין כרם | Jerusalem | 02-6777111 | Complex trauma surgeries, organ transplant center |
-| Sheba Medical Center (Tel Hashomer) | שיבא תל השומר | Ramat Gan | 03-5302222 | Largest hospital in Israel, national referral center, burns unit |
+| Sheba Medical Center (Tel Hashomer) | שיבא תל השומר | Ramat Gan | 03-5303030 | Largest hospital in Israel, national referral center, burns unit |
 | Soroka Medical Center | סורוקה | Beer Sheva | 08-6400111 | Only Level-1 trauma center for the entire Negev region |
 | Rabin Medical Center (Beilinson) | רבין (בילינסון) | Petach Tikva | 03-9377377 | Major cardiac center, pediatric trauma |
 
@@ -18,7 +18,7 @@ Israel has 5 designated Level-1 trauma centers. These are equipped to handle the
 
 | Hospital | Hebrew | City | Phone | ER | Specialties |
 |----------|--------|------|-------|-----|-------------|
-| Rambam Health Care Campus | רמב"ם | Haifa | 04-7772111 | 24/7 | Level-1 trauma, orthopedics, neurosurgery, burns |
+| Rambam Health Care Campus | רמב"ם | Haifa | 04-7772222 | 24/7 | Level-1 trauma, orthopedics, neurosurgery, burns |
 | Carmel Medical Center | כרמל | Haifa | 04-8250211 | 24/7 | General surgery, internal medicine, gastroenterology |
 | Bnai Zion Medical Center (Rothschild) | בני ציון (רוטשילד) | Haifa | 04-8359359 | 24/7 | Ophthalmology, plastic surgery, internal medicine |
 | Ziv Medical Center | זיו | Tzfat (Safed) | 04-6828811 | 24/7 | Serves Upper Galilee, general surgery, orthopedics |
@@ -34,7 +34,7 @@ Israel has 5 designated Level-1 trauma centers. These are equipped to handle the
 | Hospital | Hebrew | City | Phone | ER | Specialties |
 |----------|--------|------|-------|-----|-------------|
 | Ichilov (Sourasky Medical Center) | איכילוב (סוראסקי) | Tel Aviv | 03-6974444 | 24/7 | Central Tel Aviv location, major ER, cardiology, oncology |
-| Sheba Medical Center (Tel Hashomer) | שיבא תל השומר | Ramat Gan | 03-5302222 | 24/7 | Level-1 trauma, largest hospital in Israel, all specialties |
+| Sheba Medical Center (Tel Hashomer) | שיבא תל השומר | Ramat Gan | 03-5303030 | 24/7 | Level-1 trauma, largest hospital in Israel, all specialties |
 | Rabin Medical Center (Beilinson) | רבין (בילינסון) | Petach Tikva | 03-9377377 | 24/7 | Level-1 trauma, cardiac surgery, pediatric oncology |
 | Rabin Medical Center (Golda/Hasharon) | רבין (גולדה/השרון) | Petach Tikva | 03-9372372 | 24/7 | Rehabilitation, geriatrics, internal medicine |
 | Wolfson Medical Center | וולפסון | Holon | 03-5028211 | 24/7 | Southern Tel Aviv metro, pediatrics, cardiology |
