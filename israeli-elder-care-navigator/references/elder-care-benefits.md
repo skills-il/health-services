@@ -7,7 +7,7 @@
 - Women: 63.5 (rising by 3 months/year to reach 65 by 2032)
 
 ### Monthly Amounts (January 2026)
-- Basic individual pension: 1,795 NIS
+- Basic individual pension: 1,838 NIS
 - Spouse supplement: 924 NIS
 - Child supplement: 581 NIS (first 2 children only)
 - Health insurance deduction: -237 NIS (individual), -340 NIS (couple)
@@ -27,11 +27,14 @@
 
 ### Benefit Levels
 
-| Level | Weekly Hours | With Foreign Worker | Typical ADL Profile |
-|-------|-------------|---------------------|---------------------|
-| 1 | 5.5 | 5.5 | Needs help with 1-2 ADL areas |
-| 2 | 10 | 10 | Needs help with 3-4 ADL areas |
-| 3 | 17 | 14 | Needs help with most ADL areas |
+| Level | ADL Points | Weekly Hours | With Foreign Worker | Typical ADL Profile |
+|-------|-----------|-------------|---------------------|---------------------|
+| 1 | 2.5-3 | 5.5 | 5.5 | Needs help with 1-2 ADL areas |
+| 2 | 3.5-4.5 | 10 | 10 | Needs help with 3-4 ADL areas |
+| 3 | 5-6 | 17 | 14 | Needs help with most ADL areas |
+| 4 | 6.5-7.5 | 21 | 18 | Needs help with nearly all ADL areas |
+| 5 | 8-9 | 26 | 22 | Dependent in most ADL areas |
+| 6 | 9.5-10.5 | 30 | 26 | Fully dependent in all ADL areas |
 
 ### Services Included
 - Home caregiver visits

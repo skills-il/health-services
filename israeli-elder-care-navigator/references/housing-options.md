@@ -13,12 +13,12 @@
 ## Living at Home with Care
 
 ### Government support (gimlat siud)
-- 5.5 to 17 hours/week of home care based on ADL level
+- 5.5 to 30 hours/week of home care based on ADL level (6 levels)
 - Free from Bituach Leumi for eligible elderly
 
 ### Foreign caregiver (metapel/et zarim)
 - Live-in arrangement typical
-- Salary: approximately 5,000-7,000 NIS/month (plus room and board)
+- Salary: minimum 6,444 NIS/month gross (plus room and board). Total employer cost including social benefits: approximately 7,500-8,500 NIS/month
 - Requires work permit from the Population and Immigration Authority
 - Gimlat siud hours reduced by 3 hours/week at Level 3 if employing a foreign worker
 

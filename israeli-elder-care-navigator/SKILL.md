@@ -36,7 +36,7 @@ Monthly pension amounts (January 2026):
 
 | Status | Amount | Notes |
 |--------|--------|-------|
-| Individual | 1,795 NIS | Basic pension |
+| Individual | 1,838 NIS | Basic pension |
 | Spouse supplement | 924 NIS | For dependent spouse |
 | Child supplement | 581 NIS | Per child, first 2 only |
 | Health insurance deduction | -237 NIS | Individual |
@@ -56,13 +56,16 @@ This is a **government benefit** (not insurance). It provides home care hours fo
 - Needs assistance with daily activities (bathing, dressing, eating, mobility, personal hygiene)
 - Passes an ADL assessment by a Bituach Leumi assessor
 
-**Benefit levels (weekly home care hours):**
+**Benefit levels (weekly home care hours, based on ADL assessment score):**
 
-| Level | Hours/Week | With Foreign Worker |
-|-------|------------|---------------------|
-| Level 1 | 5.5 hours | 5.5 hours |
-| Level 2 | 10 hours | 10 hours |
-| Level 3 | 17 hours | 14 hours |
+| Level | ADL Points | Hours/Week | With Foreign Worker |
+|-------|-----------|------------|---------------------|
+| Level 1 | 2.5-3 | 5.5 hours | 5.5 hours |
+| Level 2 | 3.5-4.5 | 10 hours | 10 hours |
+| Level 3 | 5-6 | 17 hours | 14 hours |
+| Level 4 | 6.5-7.5 | 21 hours | 18 hours |
+| Level 5 | 8-9 | 26 hours | 22 hours |
+| Level 6 | 9.5-10.5 | 30 hours | 26 hours |
 
 **What the benefit provides:**
 - Personal care assistance at home (caregiver visits)
@@ -77,10 +80,10 @@ This is a **government benefit** (not insurance). It provides home care hours fo
 
 ### Step 4: Private Nursing Care Insurance (Bituach Siudi)
 
-This is **private insurance** purchased through the kupat cholim (HMO), NOT through Bituach Leumi.
+This is **private insurance**, most commonly purchased through the kupat cholim (HMO), NOT through Bituach Leumi.
 
 **Key facts:**
-- Can ONLY be purchased through kupot cholim (Clalit, Maccabi, Meuhedet, Leumit)
+- Most commonly purchased through kupot cholim group plans (Clalit, Maccabi, Meuhedet, Leumit). Private insurance companies (Migdal, Harel, Clal, etc.) also offer standalone siudi policies, though kupot cholim plans are more affordable and accessible.
 - **Cannot enroll after age 65** -- this is the most critical deadline families miss
 - Free for minors under 18
 - Premiums are lower when enrolled at younger ages
@@ -171,7 +174,7 @@ User says: "My mother is 75 and can't bathe or dress herself anymore"
 Actions:
 1. Apply for gimlat siud (long-term care benefit) from Bituach Leumi -- call *6050
 2. An assessor will visit to evaluate her ADL level
-3. Based on level (1-3), she'll receive 5.5-17 hours/week of home care
+3. Based on level (1-6), she'll receive 5.5-30 hours/week of home care
 4. Check if she has siudi insurance through her kupat cholim for additional monthly benefit
 5. If home care isn't enough, research nursing homes and check for Ministry of Health subsidized placement
 Result: Mother receives appropriate care support.
@@ -192,6 +195,13 @@ Result: Family understands the legal process and immediate care options.
 - `references/elder-care-benefits.md` -- Detailed breakdown of Bituach Leumi long-term care benefit levels, old-age pension amounts, and eligibility criteria.
 - `references/housing-options.md` -- Comparison of nursing homes, assisted living, and retirement homes with cost ranges and what to look for.
 
+## Recommended MCP Servers
+
+| MCP | What It Adds |
+|-----|-------------|
+| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcps/kolzchut) | Search Israel's authoritative rights and entitlements knowledge base for elder care rights, benefit eligibility, and legal procedures |
+| [IL Health](https://agentskills.co.il/he/mcps/il-health) | Access Ministry of Health data on hospital quality, health fund information, and elder services |
+
 ## Gotchas
 
 1. **Gimlat siud vs. bituach siudi -- two completely different things.** Agents routinely confuse these. Gimlat siud is a government benefit from Bituach Leumi providing home care hours. Bituach siudi is private insurance purchased through kupot cholim providing money. They are from different systems, have different eligibility rules, and can be received simultaneously.
@@ -203,6 +213,17 @@ Result: Family understands the legal process and immediate care options.
 4. **Enduring POA must be registered.** Unlike some countries where a signed POA is valid on its own, Israeli yipuy koach mitmashech must be registered with the Apotropus Haklali. An unregistered POA is not legally valid. Agents should never say "just have a lawyer draft a POA" without mentioning registration.
 
 5. **Long-term care benefit is for home dwellers only.** Agents may suggest applying for gimlat siud while also recommending nursing home placement. The benefit stops when the person moves to a nursing institution. These are mutually exclusive care paths.
+
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Bituach Leumi -- Long-Term Care | https://www.btl.gov.il/benefits/Long_Term_Care/Pages/default.aspx | Benefit levels, eligibility, application process |
+| Bituach Leumi -- Old-Age Pension | https://www.btl.gov.il/benefits/old_age/Pages/default.aspx | Pension amounts, retirement age, income test |
+| Bituach Leumi -- 2026 Rates | https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx | Updated NIS amounts for all benefits |
+| Kolzchut -- Elder Care Rights | https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%A7%D7%A9%D7%99%D7%A9%D7%99%D7%9D | Comprehensive rights guide for elderly in Israel |
+| Apotropus Haklali -- POA | https://www.gov.il/he/departments/topics/apotropos-general | Enduring power of attorney registration and procedures |
+| Ministry of Health -- Elder Services | https://www.health.gov.il | Nursing home licensing, subsidized placement codes |
 
 ## Troubleshooting
 
