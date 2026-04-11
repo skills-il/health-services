@@ -17,12 +17,12 @@ Israel's National Health Insurance Law (Chok Bituach Briut Mamlachti, 1995) guar
 | Clalit Health Services | כללית שירותי בריאות | ~4.8 million | ~52% | 1911 (Histadrut) |
 | Maccabi Healthcare Services | מכבי שירותי בריאות | ~2.6 million | ~27% | 1941 |
 | Meuhedet | מאוחדת | ~1.3 million | ~14% | 1974 |
-| Leumit Health Fund | לאומית שירותי בריאות | ~0.7 million | ~7% | 1933 |
+| Leumit Health Fund | לאומית שירותי בריאות | ~1.0 million | ~9% | 1933 |
 
 **Key principles:**
 - Every Israeli resident MUST belong to one HMO
 - HMOs cannot refuse membership (open enrollment)
-- Switching between HMOs: once per year, effective after transition period
+- Switching between HMOs: up to twice in 12 months, on 6 fixed effective dates per year
 - Funding: National Health Insurance tax (mas briut) collected by Bituach Leumi, distributed to HMOs per capita with risk-adjusted formula
 - Basic health basket (sal briut) services are identical across all HMOs by law
 
@@ -65,13 +65,16 @@ The referral process (hafnaya) varies by HMO:
 | 4. Wait time varies | zman hamtana | Basic: weeks-months; Mashlim: faster |
 | 5. Follow-up as needed | ma'akav | Results sent to primary care |
 
-**Maximum wait times (Sal Briut, per MOH guidelines):**
-- Dermatologist (rofe or): Up to 30 days
-- Orthopedist (ortoped): Up to 30 days
-- Ophthalmologist (rofe einayim): Up to 30 days
-- Cardiologist (kardiyolog): Up to 14 days for urgent
-- Oncologist: Up to 14 days
-- Gastroenterologist: Up to 30 days
+**Wait times (Sal Briut):**
+The Ministry of Health requires each HMO to publish its own maximum wait time targets but has not set mandatory national limits. Typical published targets:
+- Dermatologist (rofe or): ~30 days
+- Orthopedist (ortoped): ~30 days
+- Ophthalmologist (rofe einayim): ~30 days
+- Cardiologist (kardiyolog): ~14 days for urgent
+- Oncologist: ~14 days
+- Gastroenterologist: ~30 days
+
+Actual wait times vary by region and HMO. Check your HMO's website or app for current availability. If your wait exceeds the HMO's published target, you can file a complaint.
 
 **With supplementary insurance:** Wait times typically 3-14 days for most specialties.
 
@@ -112,13 +115,26 @@ Standard copayments across kupot cholim (basic basket):
 ### Step 6: Switching HMOs (Ma'avar Kupat Cholim)
 Process for switching between kupot cholim:
 
-1. **Eligibility:** Any resident can switch once per calendar year
-2. **How:** Visit target HMO branch or apply online (some HMOs)
-3. **Timing:** Application processed, effective after transition period (typically 1-6 months)
-4. **What transfers:** Basic basket coverage begins immediately at new HMO
-5. **What doesn't transfer:** Supplementary insurance may have waiting periods at new HMO
-6. **Pre-existing conditions:** Cannot be denied coverage for any condition (guaranteed acceptance)
-7. **Records:** Medical records should be transferred; request from old HMO
+1. **Eligibility:** Any resident can switch up to twice in a 12-month period
+2. **How:** Apply online via the Bituach Leumi website, or visit a post office with ID and fill out a transfer form (Tofes Maavar)
+3. **Effective dates:** Switches take effect on 6 fixed dates per year. Submit by the 15th, two months before:
+
+| Apply by | Switch effective |
+|----------|----------------|
+| November 15 | January 1 |
+| January 15 | March 1 |
+| March 15 | May 1 |
+| May 15 | July 1 |
+| July 15 | September 1 |
+| September 15 | November 1 |
+
+4. **Cancellation:** You can cancel your switch request up to 10 days before the effective date
+5. **During transition:** Your current HMO must continue providing services until the switch date
+6. **What transfers:** Basic basket coverage begins immediately at new HMO
+7. **What doesn't transfer:** Supplementary insurance may have waiting periods at new HMO
+8. **Pre-existing conditions:** Cannot be denied coverage for any condition (guaranteed acceptance)
+9. **Records:** Medical records should be transferred; request from old HMO
+10. **New immigrants:** Olim can change their initial HMO selection within 14 days of aliyah date
 
 **When to consider switching:**
 - Better clinic locations near home/work
@@ -130,7 +146,7 @@ Process for switching between kupot cholim:
 ### Step 7: Rights Under National Health Insurance Law
 Key patient rights (zkhuyot ha'mevutach):
 
-- **Free choice of HMO** and right to switch annually
+- **Free choice of HMO** and right to switch (up to twice in 12 months)
 - **Access to basic basket** regardless of health status
 - **No discrimination** based on age, health, or pre-existing conditions
 - **Complaint mechanism:** Netziv Kvulanot HaTzibur (Public Complaints Commissioner)
@@ -162,13 +178,23 @@ For live healthcare data, pair this skill with:
 
 | MCP Server | What it provides | Install |
 |------------|-----------------|---------|
-| **il-health** | Israeli Ministry of Health data: hospital quality of service, patient surveys, child health checkups, health fund (kupat cholim) information, and beach water quality | [Install](https://agentskills.co.il/en/mcps/il-health) |
-| **kolzchut** | Israel's authoritative rights and entitlements knowledge base (Kol Zchut): rights for new immigrants, health insurance, disability, elderly care, and thousands of structured articles | [Install](https://agentskills.co.il/en/mcps/kolzchut) |
-| **israel-drugs** | Comprehensive Israeli pharmaceutical database from the Ministry of Health: 1,172+ therapeutic categories, medication profiles, health basket status, pricing, generic alternatives, and health fund formulary alignment | [Install](https://agentskills.co.il/en/mcps/israel-drugs) |
-| **israel-mental-health** | Community mental health clinics, psychiatric services, and quality metrics by city, HMO, therapy type, and specialization with wait time data | [Install](https://agentskills.co.il/en/mcps/israel-mental-health) |
-| **israel-clinical-trials** | Active and completed clinical trials at Israeli hospitals (Sheba, Hadassah, Ichilov, Rambam) from ClinicalTrials.gov | [Install](https://agentskills.co.il/en/mcps/israel-clinical-trials) |
+| **il-health** | Israeli Ministry of Health data: hospital quality of service, patient surveys, child health checkups, health fund (kupat cholim) information, and beach water quality | [Install](https://agentskills.co.il/en/mcp/il-health) |
+| **kolzchut** | Israel's authoritative rights and entitlements knowledge base (Kol Zchut): rights for new immigrants, health insurance, disability, elderly care, and thousands of structured articles | [Install](https://agentskills.co.il/en/mcp/kolzchut) |
+| **israel-drugs** | Comprehensive Israeli pharmaceutical database from the Ministry of Health: 1,172+ therapeutic categories, medication profiles, health basket status, pricing, generic alternatives, and health fund formulary alignment | [Install](https://agentskills.co.il/en/mcp/israel-drugs) |
+| **israel-mental-health** | Community mental health clinics, psychiatric services, and quality metrics by city, HMO, therapy type, and specialization with wait time data | [Install](https://agentskills.co.il/en/mcp/israel-mental-health) |
+| **israel-clinical-trials** | Active and completed clinical trials at Israeli hospitals (Sheba, Hadassah, Ichilov, Rambam) from ClinicalTrials.gov | [Install](https://agentskills.co.il/en/mcp/israel-clinical-trials) |
 
 When these MCPs are available, use them for real-time healthcare data instead of the static reference tables in this skill. The `kolzchut` MCP is especially valuable for patient rights questions.
+
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Kol Zchut - Switching HMOs | https://www.kolzchut.org.il/en/Switching_Health_Plans_(Kupot_Cholim) | Current switching rules, effective dates, eligibility |
+| Bituach Leumi - HMO Transfer | https://b2b.btl.gov.il/BTL.ILG.Payments/MaavarKupotCholimInfo.aspx | Online HMO switch application portal |
+| Nefesh B'Nefesh - Kupot Cholim | https://www.nbn.org.il/life-in-israel/healthcare-in-israel/kupot-cholim/kupot-cholim/ | HMO comparison for olim, language services |
+| Ministry of Health - Wait Times | https://www.health.gov.il | Published specialist wait time data by region |
+| Yadlolim - Health Basket | https://www.yadlolim.org/healthcare/what-is-the-healthcare-basket | Basket coverage details, copayment information |
 
 ## Gotchas
 
@@ -177,12 +203,13 @@ When these MCPs are available, use them for real-time healthcare data instead of
 - Copayment amounts (hashtatfut atzmit) are updated periodically by the Ministry of Health. Agents may cite outdated figures. Always verify current amounts with the specific kupat cholim.
 - Supplementary insurance (SHABAN) waiting periods apply when switching HMOs. The basic basket has no waiting period, but agents may not distinguish between basic and supplementary when discussing switching.
 - Adult dental care is not covered in the basic basket (only children up to 18). Agents trained on US-style health plans may assume dental is included.
+- The Ministry of Health has not set mandatory national maximum wait times for specialist appointments. Agents may claim specific mandatory limits exist. Each HMO publishes its own targets, which are not legally binding.
 
 ## Troubleshooting
 
 ### Error: "Cannot schedule appointment - no available slots"
 Cause: High demand for certain specialties, especially in basic basket
-Solution: Try different clinic locations within same HMO. Ask about cancellation lists (reshimat hamilaot). Consider upgrading to supplementary insurance for faster access. If wait exceeds MOH guidelines, file complaint with HMO patient advocate (netziv pniyot hatzibur).
+Solution: Try different clinic locations within same HMO. Ask about cancellation lists (reshimat hamilaot). Consider upgrading to supplementary insurance for faster access. If wait exceeds the HMO's published maximum target, file complaint with the HMO patient advocate (netziv pniyot hatzibur).
 
 ### Error: "Medication not covered by kupat cholim"
 Cause: Medication not in the national health basket (sal briut)
