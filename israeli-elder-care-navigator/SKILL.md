@@ -221,7 +221,7 @@ Result: Family understands the legal process and immediate care options.
 | Bituach Leumi -- Long-Term Care | https://www.btl.gov.il/benefits/Long_Term_Care/Pages/default.aspx | Benefit levels, eligibility, application process |
 | Bituach Leumi -- Old-Age Pension | https://www.btl.gov.il/benefits/old_age/Pages/default.aspx | Pension amounts, retirement age, income test |
 | Bituach Leumi -- 2026 Rates | https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx | Updated NIS amounts for all benefits |
-| Kolzchut -- Elder Care Rights | https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%A7%D7%A9%D7%99%D7%A9%D7%99%D7%9D | Comprehensive rights guide for elderly in Israel |
+| Kolzchut -- Elderly Rights | https://www.kolzchut.org.il/he/%D7%A7%D7%A9%D7%99%D7%A9%D7%99%D7%9D | Comprehensive rights guide for elderly in Israel |
 | Apotropus Haklali -- POA | https://www.gov.il/he/departments/topics/apotropos-general | Enduring power of attorney registration and procedures |
 | Ministry of Health -- Elder Services | https://www.health.gov.il | Nursing home licensing, subsidized placement codes |
 
