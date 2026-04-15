@@ -261,6 +261,16 @@ Result: The couple begins the surrogacy application process. They consult with a
 - The "2 live births" counter resets with a new relationship. Agents may not mention this nuance, which significantly affects coverage eligibility.
 - SHABAN (supplementary insurance) waiting periods for fertility benefits are typically 6-12 months. Agents may omit this, leading users to enroll and expect immediate coverage.
 
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Ministry of Health | https://www.health.gov.il/English/Pages/HomePage.aspx | Fertility treatment policies and eligibility |
+| Health Basket (Sal Briyut) | https://www.gov.il/en/departments/dynamiccollectors/sal-collector | Covered fertility treatments and procedures |
+| Kol Zchut – Fertility Rights | https://www.kolzchut.org.il/en/Fertility_Treatments | Bilingual explanations of IVF coverage and rights |
+| Knesset Surrogacy Law | https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/default.aspx | Embryo Carrying Agreements Law 1996 |
+| Bituach Leumi Maternity | https://www.btl.gov.il | Maternity benefits, IVF sick leave, insurance rights |
+
 ## Troubleshooting
 
 ### Error: "My kupat cholim says I've used up my IVF coverage but I don't have 2 live births"
