@@ -25,7 +25,7 @@
     "en": "Israeli Emergency Guide"
   },
   "display_description": {
-    "he": "מדריך לשירותי חירום בישראל: קריאה למד\"א (מגן דוד אדום), ביקור בטרם רפואה דחופה, ניווט בחדרי מיון, מיון רפואי וזכויות מטופלים. מכסה את 5 מרכזי הטראומה דרג 1, כללי השתתפות עצמית בחדר מיון, תרומת דם דרך מד\"א, ומתי לחייג 101 לעומת פנייה לטרם. אין להשתמש עבור מערכות חירום שאינן ישראליות או אבחון רפואי.",
+    "he": "מדריך לשירותי חירום בארץ: איך מחייגים למד\"א (מגן דוד אדום), מתי הולכים לטרם, איך מתנהלים בחדר מיון, מיון רפואי וזכויות המטופל. מכסה את 5 מרכזי הטראומה דרג 1, כללי ההשתתפות העצמית בחדר מיון, תרומת דם דרך מד\"א, ומתי לחייג 101 במקום ללכת לטרם. אל תשתמשו בזה למערכות חירום שאינן ישראליות או לאבחון רפואי.",
     "en": "Guide to Israeli emergency services, hospitals, trauma centers, and urgent care. Use when a user needs information about calling MDA (Magen David Adom), visiting Terem urgent care, navigating hospital ERs, understanding triage, or learning about patient rights during emergencies in Israel. Covers the 5 Level-1 trauma centers, ER copay rules, blood donation through MDA, and when to call 101 vs go to Terem. Do NOT use for non-Israeli emergency systems or medical diagnosis."
   },
   "supported_agents": [

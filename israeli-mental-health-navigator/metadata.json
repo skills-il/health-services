@@ -25,7 +25,7 @@
     "en": "Israeli Mental Health Navigator"
   },
   "display_description": {
-    "he": "מדריך לשירותי בריאות הנפש בישראל: טיפול דרך קופות חולים, קווי חירום כמו ער\"ן (1201) ונט\"ל (*3362), משאבי פטס\"ד וזכויות בריאות הנפש בעבודה. שימושי כשצריך מידע על גישה לטיפול מסובסד, הבנת רפורמת 2015, ניווט בקווי משבר או הכרה בפטס\"ד דרך ביטוח לאומי. אין להשתמש לאבחון קליני או המלצות על תרופות.",
+    "he": "מדריך לשירותי בריאות הנפש בארץ: טיפול דרך קופות חולים, קווי חירום כמו ער\"ן (1201) ונט\"ל (*3362), משאבי פטס\"ד וזכויות בריאות הנפש בעבודה. מתאים כשצריך מידע על גישה לטיפול מסובסד, הבנת רפורמת 2015, איך משתמשים בקווי משבר או איך מקבלים הכרה בפטס\"ד דרך ביטוח לאומי. אל תשתמשו בזה לאבחון קליני או להמלצות על תרופות.",
     "en": "Guide to mental health services in Israel including therapy through kupot cholim, crisis hotlines, PTSD resources, and workplace mental health rights. Use when a user needs information about accessing psychiatric or psychological care, finding subsidized therapy, understanding the 2015 mental health reform, using crisis lines like ERAN (1201) or Natal, or navigating PTSD recognition through Bituach Leumi. Covers CBT, EMDR, private therapy costs, and employee mental health days. Do NOT use for clinical diagnosis or medication recommendations."
   },
   "supported_agents": [

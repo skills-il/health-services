@@ -25,7 +25,7 @@
     "en": "Israeli HMO Navigator"
   },
   "display_description": {
-    "he": "ניווט מערכת קופות החולים בישראל להשוואת שירותים, הפניות למומחים והחלטות כיסוי. לשימוש כשמשתמש שואל על כללית, מכבי, מאוחדת, לאומית, סל הבריאות, הפניות, ביטוח משלים או מעבר בין קופות. לא לשימוש לייעוץ רפואי דחוף או מידע על תרופות.",
+    "he": "ניווט במערכת קופות החולים בארץ - השוואת שירותים, הפניות למומחים והחלטות כיסוי. השתמשו בזה כשהמשתמש שואל על כללית, מכבי, מאוחדת, לאומית, סל הבריאות, הפניות, ביטוח משלים או מעבר בין קופות. לא מתאים לייעוץ רפואי דחוף או מידע על תרופות.",
     "en": "Navigate Israel's four HMOs (kupot cholim) and healthcare system for service comparisons, referrals, and coverage decisions. Use when user asks about Clalit, Maccabi, Meuhedet, Leumit, health basket, specialist referrals, supplementary insurance, or switching HMOs."
   },
   "supported_agents": [
