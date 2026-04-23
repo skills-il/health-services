@@ -1,0 +1,53 @@
+{
+  "display_name": {
+    "he": "ניווט חולי סרטן בישראל",
+    "en": "Israeli Oncology Navigator"
+  },
+  "display_description": {
+    "he": "ניווט בבירוקרטיה של טיפול בסרטן בישראל: נכות רפואית וקצבת נכות כללית מביטוח לאומי, גמלת שירותים מיוחדים לחולים פעילים, גמלת ילד נכה במחלה ממארת, פטור ממס הכנסה סעיף 9(5), תרופות סל 2026 וועדת חריגים בקופות, ביטוחים משלימים (מושלם, שלי, עדיף, זהב), הוספיס וטיפול פליאטיבי, שימור פוריות לפני כימותרפיה, זכויות עובדים, עמותות תמיכה (האגודה למלחמה בסרטן, גדולים מהחיים, זכרון מנחם, עזר מציון), מחקר קליני, וטיפול בחו\"ל. השתמשו בזה כדי להבין זכויות, להכין בקשות, ולנווט בין ביטוח לאומי, משרד הבריאות וקופת החולים. כלי ניווט בירוקרטי בלבד, לא תחליף לעו\"ס אונקולוגי בבית החולים, לרופא/ה או ליועץ/ת משפטי/ת. לא מתאים לאבחון רפואי, להמלצות על טיפול, או לשאלות על מערכות בריאות מחוץ לישראל.",
+    "en": "Bureaucracy navigator for cancer patients and caregivers in Israel: Bituach Leumi medical disability (nechut), general disability pension, special services allowance (sherutim meyuchadim) with paper-only fast-track for active oncology patients, child disability allowance for pediatric cancer at 235% rate, income tax exemption under Section 9(5), 2026 health basket oncology drugs and HMO exceptions committee (vaadat charigim), supplementary insurance tiers (Clalit Mushlam Platinum, Maccabi Sheli, Meuhedet Si, Leumit Gold), free palliative home care, fertility preservation before chemo, work rights under the Equal Rights for Persons with Disabilities Law, NGO support (Israeli Cancer Association / האגודה למלחמה בסרטן, Larger Than Life / גדולים מהחיים, Zichron Menachem, Ezer Mizion), clinical trials, and treatment abroad. Use when a patient or caregiver needs to understand entitlements, file applications, or appeal a refusal. Bureaucracy only, not a substitute for the hospital oncology social worker, oncologist, or lawyer. Do NOT use for medical diagnosis, treatment decisions, drug dosing, or non-Israeli healthcare systems."
+  },
+  "tags": {
+    "he": [
+      "סרטן",
+      "אונקולוגיה",
+      "ביטוח לאומי",
+      "נכות רפואית",
+      "סל הבריאות",
+      "ועדת חריגים",
+      "ביטוח משלים",
+      "הוספיס",
+      "שימור פוריות",
+      "עמותות סרטן",
+      "זכויות חולים",
+      "ישראל"
+    ],
+    "en": [
+      "cancer",
+      "oncology",
+      "bituach-leumi",
+      "disability",
+      "health-basket",
+      "exceptions-committee",
+      "supplementary-insurance",
+      "hospice",
+      "fertility-preservation",
+      "patient-rights",
+      "cancer-ngos",
+      "israel"
+    ]
+  },
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "health-services",
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli"
+  ],
+  "openclaw": true
+}
