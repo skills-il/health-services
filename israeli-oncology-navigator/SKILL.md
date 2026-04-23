@@ -193,27 +193,81 @@ Do not tell the user to "contact an NGO" without specifying which one. The oncol
 
 **Correction note to agents:** If the user (or an internal note) says the Hebrew name for "Larger Than Life" is **לרגיש שוב**, that is incorrect. The correct Hebrew name is **גדולים מהחיים**.
 
-### Step 10: Clinical trials and treatment abroad
+### Step 10: Experimental, off-label, and unregistered treatments
 
-#### 10a. Clinical trials
+Patients with advanced or refractory cancer often hear phrases like "compassionate use", "Form 29c", "off-label", "expanded access", and "Named Patient Program" — and these pathways are **not interchangeable**. Picking the wrong one wastes weeks.
 
-The Ministry of Health maintains an Israeli clinical trials registry; patients can also search ClinicalTrials.gov for Israeli sites. Ask the treating oncology team whether a trial suitable for the specific case is open at the hospital or elsewhere in Israel. As a general principle (to be confirmed per trial), the trial sponsor pays for the investigational drug and trial-specific procedures, while the HMO continues to fund standard-of-care procedures the patient would otherwise receive. **Confirm cost allocation in writing before enrolling.**
+**See `references/experimental-and-off-label-treatments.md` for the full reference — the summary below is the decision-critical information.**
 
-#### 10b. Treatment abroad funded by the basket
+#### 10.1 Form 29c (טופס 29ג') — individual import of an unregistered drug
 
-Covered when the insured **cannot receive the treatment or a reasonable alternative in Israel**, and the treatment is **life-saving**. Permissible fields explicitly include: congenital defects, organ transplants, **tumors**, cardiovascular disease, and CNS disease.
+- **Legal basis**: Regulation 29 of the Pharmacists Regulations (Preparations), 5746-1986. Patient-level application is Form 29c.
+- **Who files**: the **treating physician** via the MOH **Pharmacy Division (אגף הרוקחות)**.
+- **Requirements**: medical justification; drug registered in a recognized country for the same indication; no registered Israeli alternative.
+- **CRITICAL**: **Form 29c is an import permit, NOT funding.** Funding must be secured separately (exceptions committee, supplementary, private, NGO). LLMs routinely say "file 29c and the HMO will pay" — this is wrong.
 
-When approved, the HMO funds the medical treatment, flights, accommodation, food, and one escort. Process: application to the HMO → on refusal, appeal to the HMO internal appeals committee.
+#### 10.2 Compassionate use / טיפול חמלה
 
-Supplementary plans (Mushlam Platinum, Sheli, Si, Gold) offer parallel, often more generous coverage. Verify the specific plan's regulations.
+- Pharma company provides an unregistered/experimental drug **free of charge** with MOH pre-approval.
+- **Three-party process**: physician → pharma sponsor → MOH Pharmacy Division.
+- **Not a right** — "לא קיימת חובה לספק". Companies can refuse.
+- Different from a clinical trial (which has a protocol and Helsinki approval). Israel has no separate "Named Patient Program" category — sponsor-provided experimental access is folded into טיפול חמלה.
 
-#### 10c. Proton therapy in Israel
+#### 10.3 Off-label use
 
-As of 2026, **no proton-therapy center is operational in Israel**. A proton-therapy program at Ichilov (Tel Aviv Sourasky) has been in the planning and construction phase, but patients should verify the current status with their treating hospital before assuming local availability. Patients needing proton therapy are typically funded abroad through the basket treatment-abroad track (Section 10b).
+- Drug IS registered in Israel for one indication, prescribed for a different indication.
+- **Legal** in Israel; basket generally does NOT fund off-label.
+- **Exceptions committee** is the main public route.
+- **Supplementary plans cover off-label within caps**:
+  - Clalit Mushlam Gold/Platinum: package > ~₪356.98, 50% co-pay capped ~₪358/pack/month, monthly total ~₪713.97 (https://mushlam.clalit.co.il/he/medications/Pages/kisuy_murhav_trufot.aspx)
+  - Maccabi Zahav: serious diseases, prior approval, 24-month waiting period (https://www.maccabi4u.co.il/eligibilites/4327/)
+  - Meuhedet and Leumit have similar clauses — verify the tier's regulations PDF
+- **2008 reform boundary**: Israeli supplementary plans cannot cover life-saving/life-extending drugs as their primary benefit. Off-label clauses cover off-label and unregistered-indication scenarios only.
 
-#### 10d. CAR-T cell therapy in Israel
+#### 10.4 Clinical trials
 
-CAR-T cell therapy is delivered at several major Israeli oncology centers. Rather than rely on a fixed list (which goes out of date as new centers come online and protocols change), the practical advice is: **ask the treating oncology department about current CAR-T availability at their hospital and, if they don't deliver it, which center they refer to**. The oncology social worker can also coordinate referrals.
+- **Legal basis**: People's Health Regulations (Medical Research on Human Subjects), 1980.
+- **Helsinki committee** — ethics for **research**, NOT the HMO funding exceptions committee. Institutional (per hospital) + National Supreme (elevated-risk categories).
+- Find Israeli oncology trials: MyTrial (MOH) via https://www.gov.il/he/departments/general/clinical-trials-website and ClinicalTrials.gov filtered to Israel.
+- **Sponsor pays** for investigational drug and trial-specific procedures; HMO continues standard of care.
+- **Post-trial drug access** (MOH procedure 14, chapter 4) is NOT automatic — raise with the PI before signing consent.
+
+#### 10.5 Decision tree — which route for which situation
+
+| Situation | Route |
+|-----------|-------|
+| Drug is in the 2026 basket for my indication | Standard prescription; HMO dispenses at basket co-pay |
+| Drug is registered in Israel for my indication but HMO refused funding | Exceptions committee (Section 5a) + supplementary if enrolled |
+| Drug is registered in Israel for a DIFFERENT indication (off-label) | Supplementary plan's off-label clause FIRST (fastest), parallel exceptions committee |
+| Drug is unregistered in Israel but registered abroad for my indication | Form 29c filed by physician + funding via exceptions / supplementary / private / NGO |
+| Drug is still experimental (in Phase 2/3 trials, not registered anywhere yet) | טיפול חמלה — physician finds a pharma sponsor, MOH pre-approval |
+| There is a clinical trial I might qualify for | MyTrial search + referral from oncologist + Helsinki-committee-approved enrollment |
+
+#### 10.6 Treatment abroad funded by the basket (life-saving, unavailable in Israel)
+
+Covered when both: (1) the insured cannot receive the treatment or a reasonable alternative in Israel, AND (2) the treatment is **life-saving**. Permissible fields include **tumors** explicitly (also congenital defects, organ transplants, cardiovascular, CNS).
+
+When approved, the HMO funds: medical treatment, flights, accommodation, food, and **one escort**. Process: application to HMO → on refusal, appeal to HMO internal appeals committee. Supplementary plans (Mushlam Platinum, Sheli, Si, Gold) offer parallel, often more generous coverage.
+
+#### 10.7 Proton therapy in Israel
+
+As of 2026, **no proton-therapy center is operational in Israel**. A proton-therapy program at Ichilov (Tel Aviv Sourasky) has been in the planning and construction phase, but verify the current status with the treating hospital before assuming local availability. Patients needing proton therapy are typically funded abroad through the basket treatment-abroad track (Section 10.7).
+
+#### 10.8 CAR-T cell therapy in Israel
+
+CAR-T cell therapy is delivered at several major Israeli oncology centers. Rather than rely on a fixed list (which goes out of date), ask the treating oncology department about current CAR-T availability at their hospital and referral paths if they do not deliver it. The oncology social worker can coordinate referrals.
+
+### Step 11: Do-NOT list for experimental pathways
+
+Common agent and patient mistakes:
+
+1. **Do NOT equate "Form 29c approved" with "HMO will pay".** Form 29c is an import permit. Funding is separate.
+2. **Do NOT confuse טיפול חמלה with a clinical trial.** Compassionate use is individual and outside a protocol; a trial is structured and Helsinki-approved.
+3. **Do NOT confuse the Helsinki committee (research ethics) with the exceptions committee (HMO funding).** LLMs swap these routinely. Helsinki = ניסויים; ועדת חריגים = מימון.
+4. **Do NOT assume supplementary insurance covers life-saving drugs as the primary benefit.** The 2008 reform prohibited that. Supplementary covers off-label, unregistered-indication, and second opinions — not life-saving oncology drugs as the headline benefit.
+5. **Do NOT promise a patient post-trial access to the investigational drug.** It is negotiated per protocol and requires Helsinki + MOH sign-off.
+
+
 
 ## Examples
 
@@ -299,6 +353,11 @@ Result: the patient has a clear 3-track plan (committee, supplementary, NGO advo
 | Kolzchut -- Fertility Preservation | https://www.kolzchut.org.il/en/Fertility_Preservation | Age limits, cycle caps, eligibility |
 | Kolzchut -- Supportive Home Care (Palliative) | https://www.kolzchut.org.il/en/Supportive_Home_Care_(Palliative_Care) | Free palliative care under the basket since 2009 |
 | Israeli Cancer Association | https://www.cancer.org.il/ | Telemeda hotline, rights helpdesk, transportation, wigs, accommodation |
+| Kolzchut -- Guide to Drugs Not in the Basket (HE) | https://www.kolzchut.org.il/he/%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%94%D7%A9%D7%92%D7%AA_%D7%AA%D7%A8%D7%95%D7%A4%D7%95%D7%AA_%D7%A9%D7%90%D7%99%D7%A0%D7%9F_%D7%91%D7%A1%D7%9C_%D7%94%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA | Form 29c, compassionate use (טיפול חמלה), off-label, all funding pathways |
+| MyTrial -- Israeli Clinical Trials Registry | https://www.gov.il/he/departments/general/clinical-trials-website | Mandatory MOH clinical trial registry, search by condition |
+| MOH Clinical Trials Procedure 14 (PDF) | https://www.gov.il/BlobFolder/policy/cth-14/he/files_publications_units_pharmaceutical_division_clinical_trials_cth-14.pdf | Helsinki, post-trial drug access, sponsor obligations |
+| Clalit Mushlam -- Extended Drug Coverage | https://mushlam.clalit.co.il/he/medications/Pages/kisuy_murhav_trufot.aspx | Off-label and unregistered-indication coverage caps |
+| Maccabi -- Non-Basket Drugs | https://www.maccabi4u.co.il/eligibilites/4327/ | Off-label and serious-disease drug coverage on Maccabi Zahav |
 
 ## Troubleshooting
 
