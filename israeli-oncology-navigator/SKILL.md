@@ -117,7 +117,11 @@ The patient has **30 days** (not 90) from receiving the medical committee decisi
 
 ### Step 4: Health basket (Sal HaBriut) cancer drugs for 2026
 
-The **2026 basket** added 107 drugs and technologies at a total of ₪650M, of which roughly ₪337M (about 52%) went to oncology. Notable 2026 oncology additions include Imfinzi (bladder and gastric, peri-operative), Tagrisso (post-operative EGFR NSCLC), Keytruda (head-and-neck; advanced/recurrent endometrial), Enhertu (HER2-low breast cancer), and Adcetris (first-line Hodgkin lymphoma).
+The **2026 basket** added 107 drugs and technologies at a total of ₪650M, of which roughly ₪337M (about 52%) went to oncology. Notable verified additions (full list in `references/health-basket-and-hmo-coverage.md`):
+- **Solid tumors**: Imfinzi (bladder/gastric peri-op), Tagrisso (post-op EGFR NSCLC), Keytruda (head-and-neck; endometrial advanced/recurrent), Enhertu (HER2-low breast)
+- **Hodgkin lymphoma**: Adcetris (first line)
+
+Bispecific-antibody and ADC additions for R/R MM and lymphoma have been reported — verify per-drug names against the MOH 2026 PDF before quoting.
 
 **Before claiming any specific drug is "in the basket":**
 1. Open the official 2026 list of medicines PDF linked in Reference Links.
@@ -139,20 +143,28 @@ Application package:
 
 Committee members: physicians (including oncologists), pharmacologist, legal advisor, economic advisor.
 
-There is NO statutory response time. Patients who are denied or waiting too long can escalate to the Patients' Rights Association (https://www.patients-rights.org/), which represents patients in exceptions-committee disputes.
+There is NO statutory response time. **Escalation ladder when refused** — go in this order, NOT straight to court:
+
+1. **Internal HMO appeals committee (ועדת ערר / בירורים)** — fast, free, no lawyer required. Clalit example: https://www.clalit.co.il/he/info/Pages/berurim.aspx
+2. **MOH Public Complaints Commissioner for the National Health Insurance Law** if internal appeal fails (12,809 inquiries handled in 2024)
+3. **Regional Labor Court** — request an interim order (צו ביניים) if life is at stake; these can issue within days
+
+**Landmark precedent** to cite (full discussion: `references/exceptions-committee-precedents-and-appeals.md`): **חב"ר (ת"א) 5942-09-12** (Tel Aviv Regional Labor Court, October 2012, biliary-tract cancer) established that a drug's exclusion from the basket is not by itself grounds for refusal — the exceptions committee must evaluate clinical efficacy, consider whether basket alternatives exist, and document budget arguments with calculations rather than assertions.
+
+The **Patients' Rights Association** (https://www.patients-rights.org/) and **One in Nine** in-house attorney (03-602-1717 ext 2 for breast cancer) help with the package and representation. The **ICA Rights Center** is embedded in 10+ Israeli hospitals (rights helpdesk **03-5721678**, shikum@cancer.org.il) and specializes in NII rights, basket entitlements, exceptions committees, and Form 17.
 
 #### 5b. Supplementary insurance (ביטוח משלים) -- cancer coverage by HMO
 
-Each HMO sells two tiers. The top tier is where non-basket oncology drug coverage sits. **This section gives the shape of coverage only. Verify the specific regulations PDF for the patient's plan and renewal date before acting on any cap.**
+Each HMO sells a basic + top tier. Top tier covers non-basket oncology drugs (full table + 2025 caps in `references/health-basket-and-hmo-coverage.md`). Quick map:
 
-| HMO | Basic tier | Top tier | Non-basket oncology drugs |
-|-----|------------|----------|---------------------------|
-| Clalit | Mushlam Zahav | Mushlam Platinum | Covered up to ₪1M cap, including drugs unregistered in Israel if registered in a recognized Western country for the indication |
-| Maccabi | Maccabi Zahav | Maccabi Sheli | Covered up to ₪1M cap; drug must be registered in Israel, US, Canada, Australia, New Zealand, Switzerland, Norway, Iceland, or EU |
-| Meuhedet | Meuhedet Adif | Meuhedet Si (שיא) | Non-basket drug discounts on Adif; broader coverage on Si. Specific 2026 oncology caps: verify the plan's regulations PDF |
-| Leumit | Leumit Kesef (Silver) | Leumit Zahav (Gold) | Life-extending oncology drug coverage historically offered; verify the 2026 regulations PDF |
+| HMO | Top tier (where non-basket oncology coverage sits) |
+|-----|---|
+| Clalit | **Mushlam Platinum** — up to ₪1M cap, includes drugs unregistered in Israel if registered in a recognized Western country |
+| Maccabi | **Maccabi Sheli** — up to ₪1M cap, drug must be registered in IL/US/CA/AU/NZ/CH/NO/IS/EU |
+| Meuhedet | **Meuhedet Si (שיא)** — broader off-label and non-basket coverage; verify regulations PDF for 2026 caps |
+| Leumit | **Leumit Zahav (Gold)** — life-extending oncology drug coverage historically offered; verify regulations PDF |
 
-**Second opinion in Israel or abroad:** This is a **supplementary** benefit, not a basic-basket right. Clalit Platinum, Maccabi Sheli, Meuhedet Si, and Leumit Gold all offer second-opinion coverage, each with different rules. Verify the plan.
+**Second opinion in Israel or abroad** is a supplementary benefit, NOT a basic-basket right — only patients on the top tiers above have it.
 
 ### Step 6: Hospice and palliative care
 
@@ -190,6 +202,8 @@ Do not tell the user to "contact an NGO" without specifying which one. The oncol
 | Ezer Mizion | עזר מציון | Broad health logistics. Operates a large Jewish Bone Marrow Donor Registry. "Oranit House" accommodation for cancer patients and families during treatment. | https://ezermizion.org/ |
 | One in Nine | אחת מתשע | Breast cancer focus. | https://www.onein9.org.il/ |
 | Patients' Rights Association | האגודה לזכויות החולה | General patient rights, representation in exceptions committee disputes. | https://www.patients-rights.org/ |
+| Haverim LeRefuah | חברים לרפואה | **Free Pharmacy Project** — collects unused prescription medications via 1,075+ collection points, redistributes free of charge to chronic patients including cancer patients. **"Save A Life" Funds** earmark donations for individual patient cases. | https://www.haverim.org.il/ |
+| Yad Sarah | יד שרה | Medical-rehabilitative equipment loans via 100+ branches across Israel — relevant for cancer patients in end-stage home care, post-surgical recovery, and long-term outpatient treatment. | https://www.kolzchut.org.il/he/%D7%99%D7%93_%D7%A9%D7%A8%D7%94 |
 
 **Correction note to agents:** If the user (or an internal note) says the Hebrew name for "Larger Than Life" is **לרגיש שוב**, that is incorrect. The correct Hebrew name is **גדולים מהחיים**.
 
@@ -257,7 +271,19 @@ As of 2026, **no proton-therapy center is operational in Israel**. A proton-ther
 
 CAR-T cell therapy is delivered at several major Israeli oncology centers. Rather than rely on a fixed list (which goes out of date), ask the treating oncology department about current CAR-T availability at their hospital and referral paths if they do not deliver it. The oncology social worker can coordinate referrals.
 
-### Step 11: Do-NOT list for experimental pathways
+### Step 11: Advance directives and end-of-life (Dying Patient Law, 2005)
+
+Israeli framework: **Dying Patient Law / חוק החולה הנוטה למות, 2005**. Advance medical directives (הנחיות רפואיות מקדימות / "living will") become operative only when both: (a) the patient is defined as a *terminally ill patient* with under 6 months life expectancy AND (b) the patient lacks capacity. Directives are registered with the Ministry of Health.
+
+For an oncology patient, the right time to set this up is **before** terminal-stage capacity loss — typically when starting late-line treatment for advanced disease. Two NGOs help with the paperwork:
+- **LILACH (ליל"ך)** — https://www.lilach.org.il/living_will/ — leading Israeli end-of-life NGO
+- **Ematai** — https://www.ematai.org/netivotil/ — bilingual (Hebrew/English) advance-care planning, faith-sensitive options
+
+Source for the Dying Patient Law procedure: https://www.kolzchut.org.il/en/Registering_a_Living_Will
+
+Coordinate this with the oncology social worker and the palliative-care team (Step 6) — these conversations are part of standard advanced-disease care.
+
+### Step 12: Do-NOT list for experimental pathways
 
 Common agent and patient mistakes:
 
@@ -273,42 +299,32 @@ Common agent and patient mistakes:
 
 ### Example 1: Newly diagnosed adult, starting chemo next week
 
-User says: "My wife was just diagnosed with breast cancer. She starts chemo next week. What do we need to do in the first two weeks?"
+"My wife was diagnosed with breast cancer; chemo starts next week."
 
-Actions:
-1. **First call today**: ask the oncology ward for the oncology social worker (עו"ס אונקולוגי). They file most of the paperwork for you at no cost.
-2. Ask the social worker to file for the **special services allowance (50% paper-only track)** -- no committee visit needed for active chemo patients (Step 2, 3b).
-3. Open Kolzchut's "Cancer Patients" page to understand tax exemption eligibility under Section 9(5) (Step 3d), sick-pay-from-day-1 rights at her workplace (Step 3e), and fertility preservation if relevant (Step 7).
-4. Call the ICA Telemeda hotline (1-800-599-995) for free rights-realization help and transportation volunteers.
-5. If the oncologist prescribes a drug not in the 2026 basket, check the supplementary-insurance tier (Step 5b) and prepare for an exceptions committee application (Step 5a) if needed.
-
-Result: the family acts in the first two weeks, the major allowances are filed before the 30-day appeal window for any denials starts running, and medical and bureaucratic tracks run in parallel.
+1. **First call today**: oncology ward → oncology social worker (עו"ס אונקולוגי). They file paperwork for you free.
+2. Social worker files **special services allowance 50% paper-only** (Step 3b) — no committee visit needed for active chemo.
+3. Check Section 9(5) tax exemption (Step 3d), sick-pay-from-day-1 (Step 3e), fertility preservation if relevant (Step 7).
+4. Call **ICA Telemeda 1-800-599-995** for transport + rights help.
+5. If a prescribed drug is not in the 2026 basket: check supplementary tier (Step 5b) + prepare exceptions-committee package (Step 5a). If a Bituach Leumi committee refusal arrives later, the **30-day appeal clock** starts (Step 3f).
 
 ### Example 2: Pediatric cancer diagnosis
 
-User says: "Our 7-year-old was just diagnosed with leukemia. What financial support is available?"
+"Our 7-year-old was diagnosed with leukemia."
 
-Actions:
-1. Oncology social worker at the treating pediatric hospital is the first call. They file the paperwork for disabled-child allowance.
-2. **Disabled-child allowance (גמלת ילד נכה)** under the malignancy category (Step 3c): **235% rate = ₪9,126/month** during active chemo/radiation, continuing for 1 month past treatment end.
-3. Parent sick leave for a child with a severe illness (Step 8): the parent can use accrued sick plus vacation balance for expanded absence.
-4. **Two pediatric NGOs to contact**: Larger Than Life (גדולים מהחיים, https://gdolim.org.il/) and Zichron Menachem (זכרון מנחם, https://zichron.org/) -- long-term family support, retreats, parental support.
-5. Check with the pediatric oncology team about Ezer Mizion's Oranit House if the family travels for treatment.
-
-Result: the family claims the 235% child-nechha rate from day one, has NGO logistical support, and the working parent has clarity on expanded leave.
+1. Oncology social worker at pediatric hospital first.
+2. **Disabled-child allowance** at **235% = ₪9,126/month** during active chemo/radiation (Step 3c).
+3. Parent expanded sick leave for severe child illness (Step 8).
+4. Pediatric NGOs: **Larger Than Life (גדולים מהחיים)** + **Zichron Menachem** (Step 9). Out-of-town families: Ezer Mizion's Oranit House.
 
 ### Example 3: HMO refused a drug
 
-User says: "Clalit refused to fund the drug my oncologist recommended. What now?"
+"Clalit refused to fund the drug my oncologist recommended."
 
-Actions:
-1. Ask for the **formal written refusal** from Clalit (required to trigger the exceptions committee).
-2. Package for the exceptions committee: the refusal letter, the oncologist's detailed recommendation with medical literature and evidence that basket alternatives were exhausted, and all relevant medical records (Step 5a).
-3. Check whether the patient has **Mushlam Platinum** (top supplementary tier). If yes, non-basket oncology coverage up to ₪1M cap may apply including drugs unregistered in Israel if registered in a recognized Western country for the indication (Step 5b).
-4. Parallel escalation: Patients' Rights Association (patients-rights.org) can help with exceptions committee representation.
-5. Route the medical question ("is this the right drug for me?") back to the oncologist and optionally use the supplementary's second-opinion benefit.
-
-Result: the patient has a clear 3-track plan (committee, supplementary, NGO advocacy) instead of a single refusal dead-end.
+1. Get **written refusal** from Clalit (triggers the exceptions process).
+2. Build exceptions-committee package (Step 5a): refusal letter + oncologist recommendation with literature + medical records.
+3. Check supplementary tier (Step 5b): Mushlam Platinum covers non-basket oncology up to ₪1M.
+4. Escalate via the **internal HMO appeals committee first**, then MoH Public Complaints Commissioner, then Regional Labor Court interim order if life is at stake (Step 5a). Cite Tyro / Alyav / 5942-09-12 precedents.
+5. Patients' Rights Association (patients-rights.org) and One in Nine attorney (03-602-1717 ext 2 for breast cancer) help with representation.
 
 ## Bundled Resources
 
@@ -369,10 +385,5 @@ Solution: File a written appeal within **30 days** to the Medical Appeals Commit
 Cause: Drug is not yet in the basket, or is in the basket but for a different indication, or the HMO's internal protocol rejected it.
 Solution: Two parallel tracks. (1) **Exceptions committee** (Step 5a): ask for a written refusal, then submit a committee-review package (oncologist recommendation with medical literature, proof basket alternatives were tried, medical records). (2) **Supplementary insurance** (Step 5b) if enrolled in Mushlam Platinum, Maccabi Sheli, Meuhedet Si, or Leumit Gold -- check the plan's non-basket oncology-drug cap and foreign-registration rules. Route through the hospital oncology social worker and optionally the Patients' Rights Association for exceptions-committee representation.
 
-### Problem: "I want to preserve fertility before chemo but I am over 41"
-Cause: Health-basket egg and embryo freezing is capped at age 41 (birthday 42) per the Ministry of Health rules.
-Solution: Route to the HMO fertility unit to discuss private-pay fertility preservation or supplementary-insurance fertility benefits (varies by plan). Do not delay oncology treatment while pursuing this. The oncology team must be in the loop.
-
-### Problem: "My employer pressured me to resign because of my treatment"
-Cause: Discrimination based on illness or disability, prohibited for employers with more than 25 employees under the Equal Rights for Persons with Disabilities Law.
-Solution: (1) Document everything in writing. (2) Under Severance Pay Law section 6, resignation forced by illness is treated as dismissal for severance purposes. (3) File a complaint with the Commission for Equal Rights of Persons with Disabilities. (4) Consult an employment lawyer -- the ICA rights-realization helpdesk (03-5721678) can refer.
+### Problem: "I want to preserve fertility but I am over 41" or "My employer pressured me to resign during treatment"
+Both cases are handled in the relevant step (Step 7 fertility, Step 8 work rights). Route to the oncology social worker first; for fertility specifically the HMO fertility unit can discuss private/supplementary options without delaying treatment; for work rights the ICA rights helpdesk (03-5721678) refers to employment counsel.

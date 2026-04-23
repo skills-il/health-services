@@ -93,6 +93,50 @@ General patient rights across all conditions. Relevant to oncology primarily for
 
 These are smaller organizations with more specific focus. Verify current activity before referring a patient — smaller NGOs in Israel occasionally go dormant.
 
+## 8. Haverim LeRefuah / חברים לרפואה — Free Pharmacy Project
+
+**URL**: https://www.haverim.org.il/ (Hebrew) / https://en.haverim.org.il/ (English)
+
+A national medical-aid umbrella that operates two programs particularly relevant for cancer patients:
+
+- **Free Pharmacy Project (פרויקט בית המרקחת)**: collects unused prescription medications via 1,075+ collection points across Israel and redistributes free of charge to patients who cannot afford their medications. Sorted and dispensed by volunteer pharmacists. Source: Jerusalem Post coverage — https://www.jpost.com/health-and-wellness/article-836161
+- **"Save A Life" Funds (קרנות הצלת חיים)**: gathers earmarked donations for individual patient cases the system has failed, including cancer cases. Donors can contribute to a specific named case. Source: https://www.haverim.org.il/e/funds/list/
+
+Use Haverim when a cancer patient has been refused funding by every other channel and cannot afford the drug out-of-pocket.
+
+## 9. Yad Sarah / יד שרה — equipment loans for home oncology care
+
+**URL**: https://www.kolzchut.org.il/he/%D7%99%D7%93_%D7%A9%D7%A8%D7%94 (Kolzchut overview, since the org's own site was unreachable from our verification host — patients should still call directly)
+
+Yad Sarah is a long-established Israeli organization that loans medical-rehabilitative equipment via 100+ branches. Patients typically call about hospital beds, oxygen, wheelchairs, walkers, and other home-care equipment relevant in:
+- **End-stage / palliative home care**
+- **Post-surgical recovery**
+- **Long-term outpatient treatment**
+
+Equipment is loaned for nominal fees. Verify the specific equipment available with the local branch.
+
+## 10. Advance directives and end-of-life NGOs
+
+For cancer patients facing terminal-stage decisions, two Israeli NGOs help with advance directives ("living wills"):
+
+- **LILACH / ליל"ך — לחיות ולמות בכבוד** (To Live and Die With Dignity) — https://www.lilach.org.il/living_will/ — leading Israeli NGO for advance directives and dignified end-of-life
+- **Ematai** — https://www.ematai.org/netivotil/ — bilingual (Hebrew/English) advance-care-planning resource for Israel, including faith-sensitive options for religious patients
+
+These work alongside the **Dying Patient Law (חוק החולה הנוטה למות), 2005**, which is the legal framework for advance medical directives in Israel. Directives become operative only when (a) the patient is defined as a *terminally ill patient* with under 6 months life expectancy AND (b) the patient lacks capacity. Directives are registered with the Ministry of Health. Source: Kolzchut "Registering a Living Will" — https://www.kolzchut.org.il/en/Registering_a_Living_Will
+
+## 11. Hospital oncology social worker vs. ICA Rights Center
+
+Two free resources help patients realize entitlements; both are useful, often complementary:
+
+- **Oncology social worker (עו"ס אונקולוגי)**: hospital-employed; psycho-social support, family counseling, practical guidance, hospital-internal paperwork.
+- **ICA Rights Center (מרכז מיצוי זכויות של האגודה למלחמה בסרטן)**: an ICA program embedded in 10+ Israeli hospitals. Helps with Bituach Leumi entitlements, basket coverage, exceptions committees, and Form 17. Source: https://www.cancer.org.il/articles/17312/
+
+For complex rights-realization cases (multi-step funding battles, NII appeals), the ICA Rights Center is a strong resource. For psycho-social support and hospital-internal forms, the oncology social worker is the primary contact. Patients can use both.
+
+## 12. NOT a patient-services org (commonly confused)
+
+- **Israel Cancer Research Fund (ICRF)** — https://icrfonline.org/ — funds **research**, not patient services. Do not direct cancer patients here for help with treatment or rights. ICRF disburses research grants to Israeli scientists.
+
 ## Quick-routing guide
 
 | Patient situation | Primary referral |

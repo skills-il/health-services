@@ -8,13 +8,21 @@
 - **Total budget:** ₪650 million (covering roughly 86,450 patients)
 - **Oncology share:** approximately ₪337 million (roughly 52% of total)
 
-**Notable 2026 oncology additions:**
+**Notable 2026 oncology additions (verified):**
 
+*Solid tumors:*
 - **Imfinzi** — bladder cancer and gastric cancer (peri-operative setting)
 - **Tagrisso** — post-operative EGFR-positive non-small-cell lung cancer
 - **Keytruda** — head-and-neck cancer; advanced or recurrent endometrial cancer
 - **Enhertu** — HER2-low breast cancer
+
+*Hematology:*
 - **Adcetris** — first-line Hodgkin lymphoma
+
+Source: 2026 basket coverage at Mako — https://www.mako.co.il/health-news/Article-98d4f447a767c91026.htm
+
+There are also reports of additions of bispecific antibodies and antibody-drug conjugates (ADCs) for relapsed/refractory multiple myeloma and lymphoma, but specific drug names should be verified directly against the official Ministry of Health 2026 basket PDF before quoting:
+https://www.gov.il/BlobFolder/reports/hbs2026/he/files_committees_hbs_2026_List-of-medicines-and-medical-food-2026.pdf
 
 **Before stating that a specific drug is "in the basket":**
 
@@ -129,6 +137,12 @@ Confirmed centers delivering CAR-T:
 - Rambam (Haifa)
 - Soroka (Beer Sheva)
 - Ichilov (Tel Aviv Sourasky)
+
+### Hadassah's academic CAR-T (HBI0101 / NXC-201)
+
+Hadassah Ein Kerem developed an in-house CAR-T product, **HBI0101 / NXC-201**, for relapsed/refractory multiple myeloma and AL amyloidosis. A phase Ia/b clinical trial reported a high Overall Response Rate in patients treated at the maximum dose level. For Israeli patients, access is via trial enrollment at Hadassah; it is not basket-funded as a routine therapy.
+
+Source: PubMed entry for the HBI0101 phase Ia/b paper — https://pubmed.ncbi.nlm.nih.gov/36200421/
 
 ## Key source URLs
 
