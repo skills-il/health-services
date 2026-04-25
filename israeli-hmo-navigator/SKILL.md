@@ -32,8 +32,19 @@ Each HMO offers multiple service levels:
 | Tier | Hebrew | Coverage | Monthly Cost (approx.) |
 |------|--------|----------|----------------------|
 | Basic (Sal Briut) | סל בריאות בסיסי | Mandated by law, identical across HMOs | Covered by health tax |
-| Supplementary (Mashlim) | ביטוח משלים | Extended coverage: surgeons of choice, faster access, additional medications | 30-80 NIS/person |
-| Gold/Platinum (Zahav/Platina) | זהב/פלטינה | Premium: private hospitals, abroad treatments, dental, alternative medicine | 80-200 NIS/person |
+| Supplementary (Mashlim, level 1) | ביטוח משלים | Extended coverage: contracted-surgeon private surgery, faster access, additional medications, child development, dental discounts | 30-80 NIS/person, scales with age |
+| Premium (Mashlim level 2) | משלים פרימיום | Adds lifestyle and abroad benefits: private trainer/dietitian, broader child development, pregnancy package, partial overseas surgery | 80-200 NIS/person, scales with age |
+
+The four kupot use different brand names for the same two-tier structure. Level 1 = basic upgrade; Level 2 = premium upgrade:
+
+| Kupat Cholim | Level 1 (basic upgrade) | Level 2 (premium upgrade) |
+|---|---|---|
+| Clalit | Clalit Mushlam (כללית מושלם) | Clalit Mushlam Platinum (כללית מושלם פלטינום) |
+| Maccabi | Maccabi Zahav (מכבי זהב) | Maccabi Sheli (מכבי שלי) |
+| Meuhedet | Meuhedet Adif (מאוחדת עדיף) | Meuhedet Adif Plus / "C" (מאוחדת עדיף C) |
+| Leumit | Leumit Silver (לאומית כסף) | Leumit Gold (לאומית זהב) |
+
+Common myth to avoid: "Maccabi Sheli" is the premium tier, NOT the basic supplementary. Maccabi Zahav ("Gold") is the entry tier despite the gold name. Meuhedet's flagship plan is "Adif".
 
 **Basic Sal Briut includes:**
 - Primary care physician (rofeh mishpacha) visits
@@ -166,7 +177,7 @@ Key patient rights (zkhuyot ha'mevutach):
 
 ### Example 3: Supplementary Insurance Decision
 **Input:** "Is it worth getting biituach mashlim at Maccabi?"
-**Output:** Compare Maccabi Mashlim (Maccabi Sheli) vs Maccabi Zahav: coverage differences, monthly costs by age group, key benefits (surgeon choice, private hospitals, dental, abroad treatment). Help user assess based on age, health needs, and budget.
+**Output:** Compare Maccabi's two supplementary tiers: Maccabi Zahav (the entry tier, despite the "gold" name) versus Maccabi Sheli (the premium tier on top). Cover monthly cost by age bracket (typically 30-200 NIS depending on age), surgeon-choice benefits, private hospital access, dental discounts, abroad surgery, child development, and lifestyle benefits like personal trainer/dietitian (Sheli only). Help user assess based on age, health needs, and budget.
 
 ### Example 4: Dental Coverage
 **Input:** "Does my kupat cholim cover dental?"
@@ -200,10 +211,12 @@ When these MCPs are available, use them for real-time healthcare data instead of
 
 - Israel has exactly 4 HMOs (kupot cholim): Clalit, Maccabi, Meuhedet, and Leumit. Agents may reference US insurance terminology like "deductible," "copay maximum," or "in-network/out-of-network" which do not apply to the Israeli system.
 - The basic health basket (sal briut) is identical by law across all 4 HMOs. Agents may incorrectly suggest that one kupat cholim has better basic coverage than another. Differences exist only in supplementary tiers.
-- Copayment amounts (hashtatfut atzmit) are updated periodically by the Ministry of Health. Agents may cite outdated figures. Always verify current amounts with the specific kupat cholim.
-- Supplementary insurance (SHABAN) waiting periods apply when switching HMOs. The basic basket has no waiting period, but agents may not distinguish between basic and supplementary when discussing switching.
+- Maccabi's tier names confuse many agents: **Maccabi Zahav (Gold) is the entry-level supplementary**, while **Maccabi Sheli is the premium top tier**. Most other countries put "Gold" at the top, but in Israel "Zahav" was the original supplementary brand and "Sheli" was launched as the upgrade. Always verify which Maccabi tier a user actually has.
+- Copayment amounts (hashtatfut atzmit) are updated periodically by the Ministry of Health. Agents may cite outdated figures. Specialist visits are typically 20-50 NIS, ER visits ~100-160 NIS (waived if admitted), prescriptions 10-50 NIS. Always verify current amounts with the specific kupat cholim.
+- Supplementary insurance (mashlim) waiting periods apply when switching HMOs. The basic basket has no waiting period, but agents may not distinguish between basic and supplementary when discussing switching.
 - Adult dental care is not covered in the basic basket (only children up to 18). Agents trained on US-style health plans may assume dental is included.
 - The Ministry of Health has not set mandatory national maximum wait times for specialist appointments. Agents may claim specific mandatory limits exist. Each HMO publishes its own targets, which are not legally binding.
+- The 2026 health basket (approved early 2026, NIS 650M budget) prioritized cancer therapies, expanded mental health drug coverage, and added PGT for BRCA1/BRCA2 carriers. Agents working from older snapshots may miss these additions.
 
 ## Troubleshooting
 
