@@ -30,7 +30,7 @@ Determine which aspect of elder care the user needs:
 
 Retirement age (2026):
 - Men: 67
-- Women: 63.5 (gradually rising to 65 by 2032, per the 2021 reform -- increases by 3 months per year from 2025)
+- Women: 63.5 (gradually rising to 65 by 2032, per the 2021 reform; increases by 3 months per year from 2025)
 
 Monthly pension amounts (January 2026):
 
@@ -74,7 +74,7 @@ This is a **government benefit** (not insurance). It provides home care hours fo
 - Laundry service at designated facilities
 - Absorbent products (diapers) for incontinence
 
-**Important:** This benefit is for people living at home. If the elderly person moves to a nursing home, they lose the home care benefit. The benefit does not cover the cost of a foreign live-in caregiver's salary -- it provides hours from a caregiving agency.
+**Important:** This benefit is for people living at home. If the elderly person moves to a nursing home, they lose the home care benefit. The benefit does not cover the cost of a foreign live-in caregiver's salary; it provides hours from a caregiving agency.
 
 **Application:** Contact Bituach Leumi (phone *6050 or local branch). An assessor will visit the home to evaluate the person's functional level.
 
@@ -84,7 +84,7 @@ This is **private insurance**, most commonly purchased through the kupat cholim 
 
 **Key facts:**
 - Most commonly purchased through kupot cholim group plans (Clalit, Maccabi, Meuhedet, Leumit). Private insurance companies (Migdal, Harel, Clal, etc.) also offer standalone siudi policies, though kupot cholim plans are more affordable and accessible.
-- **Cannot enroll after age 65** -- this is the most critical deadline families miss
+- **Cannot enroll after age 65.** This is the most critical deadline families miss
 - Free for minors under 18
 - Premiums are lower when enrolled at younger ages
 - Pays a monthly benefit if the insured becomes dependent on help with ADL (activities of daily living)
@@ -125,10 +125,10 @@ This is **private insurance**, most commonly purchased through the kupat cholim 
 
 **Enduring Power of Attorney (Yipuy Koach Mitmashech):**
 
-This is the preferred option -- set it up BEFORE the parent loses capacity.
+This is the preferred option. Set it up BEFORE the parent loses capacity.
 
 - Allows the parent to appoint someone to manage their affairs if they lose mental competence
-- **Must be registered with the Apotropus Haklali (Administrator General)** -- without registration, it's not legally valid
+- **Must be registered with the Apotropus Haklali (Administrator General).** Without registration, it's not legally valid
 - Covers three areas: personal matters, medical matters, property/financial matters
 - Must be drafted by a lawyer who has completed special training
 - The appointed person (memunaneh) only steps in when the parent loses capacity
@@ -163,7 +163,7 @@ Key milestones and deadlines for elder care planning:
 ### Example 1: Planning for Aging Parents
 User says: "My parents are in their 60s and still healthy. What should we do now to prepare?"
 Actions:
-1. Check if they have siudi insurance -- if not and under 65, enroll immediately
+1. Check if they have siudi insurance. If not and under 65, enroll immediately
 2. Set up enduring power of attorney for both parents while they're competent
 3. Review their old-age pension eligibility with Bituach Leumi
 4. Discuss their preferences for future care (home vs. facility)
@@ -172,7 +172,7 @@ Result: Family has a plan before a crisis hits.
 ### Example 2: Parent Needs Daily Help
 User says: "My mother is 75 and can't bathe or dress herself anymore"
 Actions:
-1. Apply for gimlat siud (long-term care benefit) from Bituach Leumi -- call *6050
+1. Apply for gimlat siud (long-term care benefit) from Bituach Leumi by calling *6050
 2. An assessor will visit to evaluate her ADL level
 3. Based on level (1-6), she'll receive 5.5-30 hours/week of home care
 4. Check if she has siudi insurance through her kupat cholim for additional monthly benefit
@@ -186,14 +186,14 @@ Actions:
 2. File through a lawyer at the Family Court
 3. The Apotropus Haklali will be involved in the process
 4. Apply simultaneously for gimlat siud if he needs daily care assistance
-5. Emphasize this takes time -- for urgent medical decisions, consult the hospital social worker
+5. Emphasize this takes time. For urgent medical decisions, consult the hospital social worker
 Result: Family understands the legal process and immediate care options.
 
 ## Bundled Resources
 
 ### References
-- `references/elder-care-benefits.md` -- Detailed breakdown of Bituach Leumi long-term care benefit levels, old-age pension amounts, and eligibility criteria.
-- `references/housing-options.md` -- Comparison of nursing homes, assisted living, and retirement homes with cost ranges and what to look for.
+- `references/elder-care-benefits.md`. Detailed breakdown of Bituach Leumi long-term care benefit levels, old-age pension amounts, and eligibility criteria.
+- `references/housing-options.md`. Comparison of nursing homes, assisted living, and retirement homes with cost ranges and what to look for.
 
 ## Recommended MCP Servers
 
@@ -204,9 +204,9 @@ Result: Family understands the legal process and immediate care options.
 
 ## Gotchas
 
-1. **Gimlat siud vs. bituach siudi -- two completely different things.** Agents routinely confuse these. Gimlat siud is a government benefit from Bituach Leumi providing home care hours. Bituach siudi is private insurance purchased through kupot cholim providing money. They are from different systems, have different eligibility rules, and can be received simultaneously.
+1. **Gimlat siud vs. bituach siudi: two completely different things.** Agents routinely confuse these. Gimlat siud is a government benefit from Bituach Leumi providing home care hours. Bituach siudi is private insurance purchased through kupot cholim providing money. They are from different systems, have different eligibility rules, and can be received simultaneously.
 
-2. **Siudi insurance has a hard age-65 cutoff.** You CANNOT enroll in bituach siudi after age 65. Agents that suggest "looking into siudi insurance" for a 70-year-old parent are giving harmful advice -- the window has closed. Always ask the person's age before mentioning siudi.
+2. **Siudi insurance has a hard age-65 cutoff.** You CANNOT enroll in bituach siudi after age 65. Agents that suggest "looking into siudi insurance" for a 70-year-old parent are giving harmful advice; the window has closed. Always ask the person's age before mentioning siudi.
 
 3. **Women's retirement age is not 62 in 2026.** It's 63.5 and rising. The 2021 reform gradually increases women's retirement age from 62 to 65 by 2032. Using 62 gives wrong eligibility dates for long-term care benefits and old-age pension.
 
@@ -218,12 +218,12 @@ Result: Family understands the legal process and immediate care options.
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Bituach Leumi -- Long-Term Care | https://www.btl.gov.il/benefits/Long_Term_Care/Pages/default.aspx | Benefit levels, eligibility, application process |
-| Bituach Leumi -- Old-Age Pension | https://www.btl.gov.il/benefits/old_age/Pages/default.aspx | Pension amounts, retirement age, income test |
-| Bituach Leumi -- 2026 Rates | https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx | Updated NIS amounts for all benefits |
-| Kolzchut -- Elderly Rights | https://www.kolzchut.org.il/he/%D7%A7%D7%A9%D7%99%D7%A9%D7%99%D7%9D | Comprehensive rights guide for elderly in Israel |
-| Apotropus Haklali -- POA | https://www.gov.il/he/departments/topics/apotropos-general | Enduring power of attorney registration and procedures |
-| Ministry of Health -- Elder Services | https://www.health.gov.il | Nursing home licensing, subsidized placement codes |
+| Bituach Leumi (Long-Term Care) | https://www.btl.gov.il/benefits/Long_Term_Care/Pages/default.aspx | Benefit levels, eligibility, application process |
+| Bituach Leumi (Old-Age Pension) | https://www.btl.gov.il/benefits/old_age/Pages/default.aspx | Pension amounts, retirement age, income test |
+| Bituach Leumi (2026 Rates) | https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx | Updated NIS amounts for all benefits |
+| Kolzchut (Elderly Rights) | https://www.kolzchut.org.il/he/%D7%A7%D7%A9%D7%99%D7%A9%D7%99%D7%9D | Comprehensive rights guide for elderly in Israel |
+| Apotropus Haklali (POA) | https://www.gov.il/he/departments/topics/apotropos-general | Enduring power of attorney registration and procedures |
+| Ministry of Health (Elder Services) | https://www.health.gov.il | Nursing home licensing, subsidized placement codes |
 
 ## Troubleshooting
 
@@ -233,7 +233,7 @@ Solution: Families can request a reassessment. Prepare by documenting the person
 
 ### Problem: "Parent is over 65 and has no siudi insurance"
 Cause: Missed the enrollment deadline.
-Solution: Focus on maximizing the Bituach Leumi long-term care benefit (gimlat siud). Check the Ministry of Health for subsidized nursing home placement. Some kupot cholim offer limited supplementary programs (not full siudi) for those over 65 -- worth checking.
+Solution: Focus on maximizing the Bituach Leumi long-term care benefit (gimlat siud). Check the Ministry of Health for subsidized nursing home placement. Some kupot cholim offer limited supplementary programs (not full siudi) for those over 65, worth checking.
 
 ### Problem: "Nursing home costs exceed the family budget"
 Cause: Private nursing homes cost 15,000-30,000 NIS/month.

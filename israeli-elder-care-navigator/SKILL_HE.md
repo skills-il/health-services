@@ -28,7 +28,7 @@ license: MIT
 
 גיל פרישה (2026):
 - גברים: 67
-- נשים: 63.5 (עולה בהדרגה ל-65 עד 2032, לפי הרפורמה של 2021 -- עלייה של 3 חודשים בשנה מ-2025)
+- נשים: 63.5 (עולה בהדרגה ל-65 עד 2032, לפי הרפורמה של 2021; עלייה של 3 חודשים בשנה מ-2025)
 
 סכומים חודשיים (ינואר 2026):
 
@@ -179,8 +179,8 @@ license: MIT
 ## משאבים מצורפים
 
 ### מסמכי עזר
-- `references/elder-care-benefits.md` -- פירוט רמות גמלת סיעוד, סכומי קצבת זקנה ותנאי זכאות.
-- `references/housing-options.md` -- השוואה בין בתי אבות, דיור מוגן ואפשרויות מגורים עם טווחי מחירים.
+- `references/elder-care-benefits.md`. פירוט רמות גמלת סיעוד, סכומי קצבת זקנה ותנאי זכאות.
+- `references/housing-options.md`. השוואה בין בתי אבות, דיור מוגן ואפשרויות מגורים עם טווחי מחירים.
 
 ## שרתי MCP מומלצים
 
@@ -205,12 +205,12 @@ license: MIT
 
 | מקור | כתובת | מה לבדוק |
 |------|-------|----------|
-| ביטוח לאומי -- גמלת סיעוד | https://www.btl.gov.il/benefits/Long_Term_Care/Pages/default.aspx | רמות גמלה, זכאות, תהליך הגשה |
-| ביטוח לאומי -- קצבת זקנה | https://www.btl.gov.il/benefits/old_age/Pages/default.aspx | סכומי קצבה, גיל פרישה, מבחן הכנסות |
-| ביטוח לאומי -- עדכון 2026 | https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx | סכומים מעודכנים לכל הגמלאות |
-| כל-זכות -- קשישים | https://www.kolzchut.org.il/he/%D7%A7%D7%A9%D7%99%D7%A9%D7%99%D7%9D | מדריך זכויות מקיף לקשישים |
-| האפוטרופוס הכללי -- ייפוי כוח | https://www.gov.il/he/departments/topics/apotropos-general | רישום ייפוי כוח מתמשך והליכים |
-| משרד הבריאות -- שירותים לקשישים | https://www.health.gov.il | רישוי בתי אבות, צופני השמה |
+| ביטוח לאומי (גמלת סיעוד) | https://www.btl.gov.il/benefits/Long_Term_Care/Pages/default.aspx | רמות גמלה, זכאות, תהליך הגשה |
+| ביטוח לאומי (קצבת זקנה) | https://www.btl.gov.il/benefits/old_age/Pages/default.aspx | סכומי קצבה, גיל פרישה, מבחן הכנסות |
+| ביטוח לאומי (עדכון 2026) | https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx | סכומים מעודכנים לכל הגמלאות |
+| כל-זכות (קשישים) | https://www.kolzchut.org.il/he/%D7%A7%D7%A9%D7%99%D7%A9%D7%99%D7%9D | מדריך זכויות מקיף לקשישים |
+| האפוטרופוס הכללי (ייפוי כוח) | https://www.gov.il/he/departments/topics/apotropos-general | רישום ייפוי כוח מתמשך והליכים |
+| משרד הבריאות (שירותים לקשישים) | https://www.health.gov.il | רישוי בתי אבות, צופני השמה |
 
 ## פתרון בעיות
 
