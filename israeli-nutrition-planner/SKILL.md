@@ -145,7 +145,31 @@ When building shopping lists, use products available at major Israeli chains (Sh
 - Sweetened beverages (sodas, fruit drinks, energy drinks)
 - Commercial sauces and dressings (sodium)
 
-### Step 7: Generate Output
+### Step 7: Handle Religious Fasts and Special Days
+
+Israeli nutrition planning often runs into religious fasts. Hydration and electrolyte management matter more than caloric balance during these days.
+
+| Fast | Duration | Pre-fast meal (seuda mafseket / suhur) | Break-fast | Notes |
+|------|----------|---------------------------------------|-----------|-------|
+| Yom Kippur | ~25 hours, no food or water | Complex carbs (whole grains, legumes), low salt, plenty of water hours before. Avoid coffee taper for caffeine headaches. | Slow rehydration, light dairy or fruit before a heavier meal. | Pregnant, nursing, ill, children under 9: consult rabbi and doctor. Diabetics on insulin: fasting can be life-threatening; consult endocrinologist. |
+| Ramadan (suhur to iftar) | ~14-16 hours daily, no food or water during daylight | Suhur: oatmeal, eggs, dates, vegetables, plenty of water. | Iftar: dates and water first, then a balanced meal with protein, vegetables, complex carbs. | Avoid heavily salted or fried foods at iftar. Diabetics: consult kupat cholim before fasting. |
+| Tisha B'Av, 17 Tammuz, Tzom Gedalia, Asara b'Tevet, Ta'anit Esther | Sunrise to sunset (or full day for Tisha B'Av) | Light meal beforehand, hydrate well | Light food first | Pregnant and nursing women are exempt from minor fasts; check with a rabbi. |
+
+For diabetic, hypertensive, pregnant, or chronically ill users planning to fast, the standard advice is to consult their kupat cholim primary doctor or endocrinologist (covered by sal briut), not to provide a meal plan for the fast.
+
+### Step 8: Connect Users to Kupat Cholim Resources
+
+When users have specific health goals, route them to the appropriate kupat cholim service rather than providing clinical advice:
+
+| Need | Where to refer |
+|------|---------------|
+| Weight management, BMI counseling | Kupat cholim dietitian (diyetanit) - included in sal briut for adults with BMI greater than or equal to 30 or a chronic condition |
+| Diabetes prevention or management | National Diabetes Program (Tochnit Sukeret Leumit) - kupat cholim-based, includes free dietitian visits and education |
+| Pediatric nutrition | Tipat Halav (well-baby clinics) for children under 6, school nurse for school-age |
+| Eating disorders | Specialized clinics at Sheba, Ichilov, Soroka (referral required) |
+| Pregnancy nutrition | OB-GYN and kupat cholim dietitian, free vitamins (folic acid, iron) included |
+
+### Step 9: Generate Output
 
 Provide the user with:
 
@@ -201,6 +225,16 @@ Result: Complete Shabbat meal plan with kosher designations.
 
 - `references/nutritional-rainbow.md` -- Complete Nutritional Rainbow food groups, frequencies, and portion guidance. Consult when building meal plans or answering questions about Israeli dietary guidelines.
 - `references/red-green-labels.md` -- Front-of-package labeling thresholds (Phase 2, January 2021) with per-100g and per-100ml limits. Consult when evaluating food products.
+
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Efsharibari (MoH Healthy Living portal) | https://efsharibari.health.gov.il/en/ | Official Nutritional Rainbow guidance, recipes, public-health campaigns |
+| MoH Food Labeling Regulations | https://efsharibari.health.gov.il/en/governance/legislation/unhealthy-food-labeling-law/ | Red and green label thresholds, regulation text, enforcement updates |
+| MoH Nutrition Department | https://www.gov.il/en/departments/units/nutrition_department | Dietary guidelines, recommended intakes by age and population |
+| Israel Diabetes Association | https://www.sukeret.co.il/ | National Diabetes Program (Tochnit Sukeret Leumit), patient resources |
+| Tipat Halav (well-baby clinics) | https://www.gov.il/en/service/family-health-clinics-tipat-chalav | Pediatric nutrition, infant feeding guidance |
 
 ## Gotchas
 
