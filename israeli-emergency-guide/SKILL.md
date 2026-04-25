@@ -135,7 +135,43 @@ Under Israeli law (Patient Rights Law, חוק זכויות החולה), patients
 
 Important: If a patient is unconscious or unable to give consent, medical staff may perform life-saving procedures under the emergency exception (pikuach nefesh, פיקוח נפש).
 
-### Step 7: Blood Donation Through MDA
+### Step 7: Mental Health Crisis Hotlines
+
+When a user reports suicidal ideation, panic attack, trauma flashback (especially Iron Swords / October 7th related), or severe emotional distress, route them to a dedicated crisis line. Do NOT default to MDA 101 unless there is also a medical emergency or active suicide attempt in progress.
+
+| Service | Hebrew Name | Phone | Hours | Notes |
+|---------|-------------|-------|-------|-------|
+| ERAN | ער"ן (עזרה ראשונה נפשית) | 1201 (in Israel) / +972-76-884-4400 (abroad) | 24/7 | Hebrew, Arabic, Russian, English. Free, anonymous, by phone or online chat. |
+| NATAL | נט"ל | 1-800-363-363 | 24/7 | Trauma and resilience: war, terror, October 7th and Iron Swords-related distress. Free. |
+| SAHAR | סה"ר | (chat only, no phone) | 24/7 Hebrew, partial Arabic | Israel's only text-based mental-health helpline. Live chat at sahar.org.il and WhatsApp. |
+| MoH Mental Health First Aid | קווי סיוע נפשי ראשוני | Listed on health.gov.il | Varies | Ministry of Health-curated list of regional first-aid centers. |
+| Police suicide rescue | משטרה | 100 | 24/7 | When a person is actively attempting suicide or in immediate physical danger. |
+
+When to call which:
+- Active attempt or imminent danger: 100 (police) and 101 (MDA) together
+- Suicidal ideation, panic, anxiety, loneliness: ERAN 1201 or SAHAR chat
+- Combat / terror / October 7th trauma, PTSD flashbacks: NATAL 1-800-363-363
+- Child or adolescent in distress: ERAN 1201 (handles all ages)
+
+### Step 8: Wartime Emergencies (Iron Swords Era)
+
+Since October 7, 2023, Israel has been in an active conflict period. Emergency behavior differs from peacetime:
+
+| Situation | Action |
+|-----------|--------|
+| Red-alert siren (azaka, אזעקה) | Enter the nearest mamad / miklat / stairwell within the time window for your region (15 sec south, 90 sec center, 3 min Eilat). Wait 10 minutes after the siren stops before leaving. |
+| No shelter available | Lie flat on the ground, cover head with hands, stay away from windows. |
+| Driving when siren sounds | Stop the car safely, exit, lie flat next to the vehicle (not under it) or behind a concrete barrier. |
+| Suspected missile/rocket impact | Call 100 (police) and 101 (MDA). Do not approach unexploded ordnance. |
+| Aerial intrusion (drone, infiltration) | Follow Pikud Haoref (Home Front Command) instructions on the official app or 104 hotline. |
+| Acute stress reaction after siren | Call ERAN 1201 or NATAL 1-800-363-363. Children especially benefit from grounding and reassurance; NATAL has dedicated parent guidance. |
+
+Key tools:
+- **Home Front Command app** ("פיקוד העורף" / "Pikud HaOref"): real-time alerts, shelter guidance, regional countdown timers. Available on iOS and Android.
+- **Red Alert (Tzeva Adom)** community apps mirror official alerts but are unofficial. Always corroborate with the official Pikud Haoref app or the 104 hotline.
+- **104**: Pikud Haoref information hotline (not a medical emergency line).
+
+### Step 9: Blood Donation Through MDA
 
 MDA Blood Services (שירותי הדם של מד"א) manages Israel's entire blood supply.
 
@@ -228,6 +264,11 @@ Result: MDA dispatches a Mobile Intensive Care Unit (MICU) staffed by paramedics
 | MDA Blood Donation | https://www.mdais.org/en/blood-donation/who-can-donate | Donation eligibility criteria |
 | Poison Control (Rambam) | https://www.rambam.org.il/en/patient_info/contact_us/ | Poison hotline: 04-7771900 |
 | Dam.org.il (Blood Donors) | https://www.dam.org.il/en/qa/ | Blood donation FAQ and eligibility details |
+| ERAN Emotional First Aid | https://en.eran.org.il/ | 24/7 mental-health hotline 1201, multilingual |
+| NATAL (Trauma) | https://www.natal.org.il/en/ | War and terror trauma support, 1-800-363-363 |
+| SAHAR (Online chat) | https://sahar.org.il/en/ | Text-based emotional support, 24/7 Hebrew chat |
+| Pikud Haoref (Home Front Command) | https://www.oref.org.il/eng | Red-alert app, shelter rules, 104 hotline |
+| MoH Mental Health Crisis | https://me.health.gov.il/en/mental-health/therapy-and-rehabilitation/crisis-support/first-aid/ | Curated first-aid hotlines and centers |
 
 ## Gotchas
 
