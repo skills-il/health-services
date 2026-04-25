@@ -21,7 +21,7 @@ Since 2015, mental health care in Israel has been covered under the National Hea
 | Current system | Kupot cholim (Clalit, Maccabi, Meuhedet, Leumit) |
 | What is covered | Psychiatric consultation, psychotherapy, psychological assessment, medication |
 | Who is eligible | All Israeli residents registered with a kupat cholim |
-| Cost to patient | Subsidized copay, approximately 34 NIS per quarter for therapy sessions |
+| Cost to patient (2026) | Subsidized copay, approximately 33 NIS per quarter for psychiatrist visits. Visits to psychologists, social workers, and expressive arts therapists at kupat cholim mental health clinics are typically free of charge. |
 
 Key rights:
 - Every Israeli resident has the right to mental health treatment through their kupat cholim
@@ -43,12 +43,12 @@ Each of the four kupot cholim provides mental health services. The process for s
 
 Cost breakdown by kupat cholim (approximate, subject to change):
 
-| Kupat Cholim | Quarterly Copay | Sessions Per Quarter | Notes |
-|-------------|----------------|---------------------|-------|
-| Clalit (כללית) | ~34 NIS | Varies by plan | Largest network of therapists |
-| Maccabi (מכבי) | ~34 NIS | Varies by plan | Online therapy options available |
-| Meuhedet (מאוחדת) | ~34 NIS | Varies by plan | Shorter wait times in some areas |
-| Leumit (לאומית) | ~34 NIS | Varies by plan | Smaller but growing network |
+| Kupat Cholim | Quarterly Copay (2026) | Sessions Per Quarter | Notes |
+|-------------|------------------------|---------------------|-------|
+| Clalit (כללית) | ~33 NIS for psychiatrist; psychologist/social worker visits free at clinic | Varies by plan | Largest network of therapists |
+| Maccabi (מכבי) | 33 NIS for psychiatrist; psychologist/social worker visits free at clinic | Varies by plan | Online therapy options available |
+| Meuhedet (מאוחדת) | ~33 NIS for psychiatrist; psychologist/social worker visits free at clinic | Varies by plan | Shorter wait times in some areas |
+| Leumit (לאומית) | ~33 NIS for psychiatrist; psychologist/social worker visits free at clinic | Varies by plan | Smaller but growing network |
 
 Important notes:
 - Wait times can be 2-8 weeks depending on location and demand
@@ -180,7 +180,7 @@ Actions:
 1. Call your kupat cholim's mental health department (machleket briut hanefesh)
 2. Request an intake appointment; describe your symptoms (panic attacks, anxiety)
 3. You will be assigned to a therapist, likely a CBT practitioner for anxiety
-4. Cost will be approximately 34 NIS per quarter through the subsidized program
+4. Cost will be approximately 33 NIS per quarter for psychiatrist visits, or free for psychologist/social worker visits at the clinic, through the subsidized program
 5. If wait times exceed 4 weeks, ask about external therapist reimbursement options
 
 Result: Patient begins weekly CBT sessions through their kupat cholim. Sessions are subsidized under the 2015 mental health reform. If the assigned therapist is not a good match, the patient can request reassignment.
@@ -225,11 +225,11 @@ Result: Patient is connected to trauma-specialized treatment through their kupat
 ## Bundled Resources
 
 ### References
-- `references/crisis-hotlines-directory.md` -- Complete directory of mental health crisis lines in Israel: ERAN (1201), Sahar, Natal (*3362), AMCHA, and lines for specific communities (Arabic, Russian, Ethiopian, LGBTQ+, youth, women, elderly, veterans). Includes hours, languages, and specializations. Consult when a user needs immediate crisis support contact information or when helping someone find population-specific services.
-- `references/therapy-types-guide.md` -- Guide to therapy types available in Israel: CBT, EMDR, psychodynamic, DBT, group therapy, family therapy, art therapy, and play therapy. Covers what each treats, typical duration, availability through kupat cholim, and private costs. Consult when a user needs help choosing the right therapy type or understanding treatment options.
+- `references/crisis-hotlines-directory.md`. Complete directory of mental health crisis lines in Israel: ERAN (1201), Sahar, Natal (*3362), AMCHA, and lines for specific communities (Arabic, Russian, Ethiopian, LGBTQ+, youth, women, elderly, veterans). Includes hours, languages, and specializations. Consult when a user needs immediate crisis support contact information or when helping someone find population-specific services.
+- `references/therapy-types-guide.md`. Guide to therapy types available in Israel: CBT, EMDR, psychodynamic, DBT, group therapy, family therapy, art therapy, and play therapy. Covers what each treats, typical duration, availability through kupat cholim, and private costs. Consult when a user needs help choosing the right therapy type or understanding treatment options.
 
 ### Scripts
-- `scripts/therapy-cost-estimator.py` -- Estimates therapy costs by treatment setting (kupat cholim, private, university clinic, sliding scale), therapist type, and city. Run: `python scripts/therapy-cost-estimator.py --sessions-per-month 4 --type private --city tel-aviv`
+- `scripts/therapy-cost-estimator.py`. Estimates therapy costs by treatment setting (kupat cholim, private, university clinic, sliding scale), therapist type, and city. Run: `python scripts/therapy-cost-estimator.py --sessions-per-month 4 --type private --city tel-aviv`
 
 ## Recommended MCP Servers
 
