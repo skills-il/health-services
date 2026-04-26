@@ -100,7 +100,7 @@ These are smaller organizations with more specific focus. Verify current activit
 A national medical-aid umbrella that operates two programs particularly relevant for cancer patients:
 
 - **Free Pharmacy Project (פרויקט בית המרקחת)**: collects unused prescription medications via 1,075+ collection points across Israel and redistributes free of charge to patients who cannot afford their medications. Sorted and dispensed by volunteer pharmacists. Source: Jerusalem Post coverage — https://www.jpost.com/health-and-wellness/article-836161
-- **"Save A Life" Funds (קרנות הצלת חיים)**: gathers earmarked donations for individual patient cases the system has failed, including cancer cases. Donors can contribute to a specific named case. Source: https://www.haverim.org.il/e/funds/list/
+- **"Save A Life" Funds (קרנות הצלת חיים)**: gathers earmarked donations for individual patient cases the system has failed, including cancer cases. Donors can contribute to a specific named case. Source: https://www.haverim.org.il/funds
 
 Use Haverim when a cancer patient has been refused funding by every other channel and cannot afford the drug out-of-pocket.
 
