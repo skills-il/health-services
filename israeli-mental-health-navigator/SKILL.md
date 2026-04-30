@@ -235,20 +235,20 @@ Result: Patient is connected to trauma-specialized treatment through their kupat
 
 | MCP | What It Adds |
 |-----|-------------|
-| [Israel Mental Health Services](https://agentskills.co.il/he/mcps/health-services/israel-mental-health) | Search community mental health clinics by city, HMO, therapy type, or specialization with wait time data from official Ministry of Health data |
-| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcps/government-services/kolzchut) | Look up rights and entitlements including disability benefits, health insurance rights, and Bituach Leumi eligibility |
-| [Israel Drugs](https://agentskills.co.il/he/mcps/health-services/israel-drugs) | Check psychiatric medication details, health basket coverage status, generic alternatives, and kupat cholim formulary alignment |
+| [Israel Mental Health Services](https://agentskills.co.il/en/mcp/israel-mental-health) | Search community mental health clinics by city, HMO, therapy type, or specialization with wait time data from official Ministry of Health data |
+| [Kolzchut (All-Rights)](https://agentskills.co.il/en/mcp/kolzchut) | Look up rights and entitlements including disability benefits, health insurance rights, and Bituach Leumi eligibility |
+| [Israel Drugs](https://agentskills.co.il/en/mcp/israel-drugs) | Check psychiatric medication details, health basket coverage status, generic alternatives, and kupat cholim formulary alignment |
 
 ## Reference Links
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Ministry of Health - Mental Health | me.health.gov.il/en/mental-health | Official crisis line numbers, service listings, policy updates |
-| ERAN | en.eran.org.il | ERAN hotline details, languages, operating hours |
-| Natal | natal.org.il | Natal contact number, trauma services, operating hours |
-| Sahar | sahar.org.il | Online chat availability, WhatsApp contact, hours |
-| BeTipulNet | betipulnet.co.il | Therapist directory, crisis line listings, therapy type guides |
-| Get Help Israel | gethelpisrael.com | English-language hotline directory, therapist finder |
+| Ministry of Health - Mental Health | https://me.health.gov.il/en/mental-health | Official crisis line numbers, service listings, policy updates |
+| ERAN | https://en.eran.org.il/ | ERAN hotline details, languages, operating hours |
+| Natal | https://natal.org.il/ | Natal contact number, trauma services, operating hours |
+| Sahar | https://sahar.org.il/ | Online chat availability, WhatsApp contact, hours |
+| BeTipulNet | https://betipulnet.co.il/ | Therapist directory, crisis line listings, therapy type guides |
+| Get Help Israel | https://gethelpisrael.com/ | English-language hotline directory, therapist finder |
 
 ## Gotchas
 

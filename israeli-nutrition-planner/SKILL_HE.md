@@ -206,7 +206,7 @@ license: MIT
 | אפשריבריא (פורטל אורח חיים בריא של משרד הבריאות) | https://efsharibari.health.gov.il/ | הנחיות הקשת התזונית, מתכונים, קמפיינים לבריאות הציבור |
 | תקנות תיוג מזון - משרד הבריאות | https://efsharibari.health.gov.il/governance/legislation/unhealthy-food-labeling-law/ | ספי תיוג אדום וירוק, נוסח התקנות, עדכוני אכיפה |
 | מחלקת התזונה - משרד הבריאות | https://www.gov.il/he/departments/units/nutrition_department | הנחיות תזונתיות, צריכות מומלצות לפי גיל ואוכלוסייה |
-| האגודה הישראלית לסוכרת | https://www.sukeret.co.il/ | תוכנית סוכרת לאומית, חומרים למטופלים |
+| תכנית לאומית למניעה וטיפול בסוכרת (משרד הבריאות) | https://www.gov.il/he/pages/diabetesnationalproject | תוכנית סוכרת לאומית, חומרים למטופלים, שילוב עם קופות החולים |
 | טיפת חלב | https://www.gov.il/he/service/family-health-clinics-tipat-chalav | תזונת ילדים, הנחות הזנה לתינוקות |
 
 ## מלכודות נפוצות

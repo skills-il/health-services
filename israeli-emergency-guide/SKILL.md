@@ -248,11 +248,11 @@ Result: MDA dispatches a Mobile Intensive Care Unit (MICU) staffed by paramedics
 
 | MCP | What It Adds |
 |-----|-------------|
-| [IL Health](https://agentskills.co.il/he/mcps/health-services/il-health) | Access Israeli Ministry of Health data: hospital quality metrics, patient surveys, and health fund information |
-| [Pikud Haoref](https://agentskills.co.il/he/mcps/security-compliance/pikud-haoref) | Real-time emergency alerts from Home Front Command (rocket alerts, earthquakes, aerial intrusions) |
-| [Israel Clinical Trials](https://agentskills.co.il/he/mcps/health-services/israel-clinical-trials) | Search active clinical trials at Israeli hospitals (Sheba, Hadassah, Ichilov, Rambam) |
-| [Israel Drugs](https://agentskills.co.il/he/mcps/health-services/israel-drugs) | Israel's pharmaceutical database with health basket status, drug interactions, and generic alternatives |
-| [Miklat](https://agentskills.co.il/he/mcps/security-compliance/miklat) | Find public shelters (miklatim) in Israel by location |
+| [IL Health](https://agentskills.co.il/en/mcp/il-health) | Access Israeli Ministry of Health data: hospital quality metrics, patient surveys, and health fund information |
+| [Pikud Haoref](https://agentskills.co.il/en/mcp/pikud-haoref) | Real-time emergency alerts from Home Front Command (rocket alerts, earthquakes, aerial intrusions) |
+| [Israel Clinical Trials](https://agentskills.co.il/en/mcp/israel-clinical-trials) | Search active clinical trials at Israeli hospitals (Sheba, Hadassah, Ichilov, Rambam) |
+| [Israel Drugs](https://agentskills.co.il/en/mcp/israel-drugs) | Israel's pharmaceutical database with health basket status, drug interactions, and generic alternatives |
+| [Miklat](https://agentskills.co.il/en/mcp/miklat) | Find public shelters (miklatim) in Israel by location |
 
 ## Reference Links
 

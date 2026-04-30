@@ -233,7 +233,7 @@ Result: Complete Shabbat meal plan with kosher designations.
 | Efsharibari (MoH Healthy Living portal) | https://efsharibari.health.gov.il/en/ | Official Nutritional Rainbow guidance, recipes, public-health campaigns |
 | MoH Food Labeling Regulations | https://efsharibari.health.gov.il/en/governance/legislation/unhealthy-food-labeling-law/ | Red and green label thresholds, regulation text, enforcement updates |
 | MoH Nutrition Department | https://www.gov.il/en/departments/units/nutrition_department | Dietary guidelines, recommended intakes by age and population |
-| Israel Diabetes Association | https://www.sukeret.co.il/ | National Diabetes Program (Tochnit Sukeret Leumit), patient resources |
+| MoH National Diabetes Program | https://www.gov.il/he/pages/diabetesnationalproject | National Diabetes Prevention & Treatment Program (Tochnit Sukeret Leumit), patient resources, kupot cholim integration |
 | Tipat Halav (well-baby clinics) | https://www.gov.il/en/service/family-health-clinics-tipat-chalav | Pediatric nutrition, infant feeding guidance |
 
 ## Gotchas

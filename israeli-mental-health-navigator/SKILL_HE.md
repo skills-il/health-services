@@ -240,20 +240,20 @@ license: MIT
 
 | MCP | מה הוא מוסיף |
 |-----|-------------|
-| [Israel Mental Health Services](https://agentskills.co.il/he/mcps/health-services/israel-mental-health) | חיפוש מרפאות בריאות נפש קהילתיות לפי עיר, קופה, סוג טיפול או התמחות, עם נתוני זמני המתנה ממשרד הבריאות |
-| [Kolzchut (כל-זכות)](https://agentskills.co.il/he/mcps/government-services/kolzchut) | חיפוש זכויות וזכאויות כולל קצבאות נכות, זכויות ביטוח בריאות וזכאות ביטוח לאומי |
-| [Israel Drugs](https://agentskills.co.il/he/mcps/health-services/israel-drugs) | בדיקת תרופות פסיכיאטריות, סטטוס בסל הבריאות, תחליפים גנריים והתאמה לפורמולר של הקופות |
+| [Israel Mental Health Services](https://agentskills.co.il/he/mcp/israel-mental-health) | חיפוש מרפאות בריאות נפש קהילתיות לפי עיר, קופה, סוג טיפול או התמחות, עם נתוני זמני המתנה ממשרד הבריאות |
+| [Kolzchut (כל-זכות)](https://agentskills.co.il/he/mcp/kolzchut) | חיפוש זכויות וזכאויות כולל קצבאות נכות, זכויות ביטוח בריאות וזכאות ביטוח לאומי |
+| [Israel Drugs](https://agentskills.co.il/he/mcp/israel-drugs) | בדיקת תרופות פסיכיאטריות, סטטוס בסל הבריאות, תחליפים גנריים והתאמה לפורמולר של הקופות |
 
 ## קישורי עזר
 
 | מקור | כתובת | מה לבדוק |
 |------|--------|----------|
-| משרד הבריאות - בריאות הנפש | me.health.gov.il/mental-health | מספרי קווי חירום רשמיים, רשימות שירותים, עדכוני מדיניות |
-| ער"ן | eran.org.il | פרטי קו החירום, שפות, שעות פעילות |
-| נט"ל | natal.org.il | טלפון של נט"ל, שירותי טראומה, שעות פעילות |
-| סה"ר | sahar.org.il | זמינות צ'אט, וואטסאפ, שעות פעילות |
-| בטיפולנט | betipulnet.co.il | מאגר מטפלים, רשימות קווי חירום, מדריכים לסוגי טיפול |
-| Get Help Israel | gethelpisrael.com | מאגר קווי חירום באנגלית, חיפוש מטפלים |
+| משרד הבריאות - בריאות הנפש | https://me.health.gov.il/mental-health | מספרי קווי חירום רשמיים, רשימות שירותים, עדכוני מדיניות |
+| ער"ן | https://eran.org.il/ | פרטי קו החירום, שפות, שעות פעילות |
+| נט"ל | https://natal.org.il/ | טלפון של נט"ל, שירותי טראומה, שעות פעילות |
+| סה"ר | https://sahar.org.il/ | זמינות צ'אט, וואטסאפ, שעות פעילות |
+| בטיפולנט | https://betipulnet.co.il/ | מאגר מטפלים, רשימות קווי חירום, מדריכים לסוגי טיפול |
+| Get Help Israel | https://gethelpisrael.com/ | מאגר קווי חירום באנגלית, חיפוש מטפלים |
 
 ## מלכודות נפוצות
 

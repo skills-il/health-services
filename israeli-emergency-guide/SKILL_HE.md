@@ -253,11 +253,11 @@ compatibility: "עובד עם כל סוכני הקוד המרכזיים"
 
 | MCP | מה הוא מוסיף |
 |-----|-------------|
-| [IL Health](https://agentskills.co.il/he/mcps/health-services/il-health) | גישה לנתוני משרד הבריאות: מדדי איכות בתי חולים, סקרי מטופלים ומידע על קופות חולים |
-| [Pikud Haoref](https://agentskills.co.il/he/mcps/security-compliance/pikud-haoref) | התרעות חירום בזמן אמת מפיקוד העורף (רקטות, רעידות אדמה, חדירות אוויריות) |
-| [Israel Clinical Trials](https://agentskills.co.il/he/mcps/health-services/israel-clinical-trials) | חיפוש ניסויים קליניים פעילים בבתי חולים בארץ (שיבא, הדסה, איכילוב, רמב"ם) |
-| [Israel Drugs](https://agentskills.co.il/he/mcps/health-services/israel-drugs) | מאגר התרופות הישראלי עם סטטוס סל בריאות, אינטראקציות ותחליפים גנריים |
-| [Miklat](https://agentskills.co.il/he/mcps/security-compliance/miklat) | חיפוש מקלטים ציבוריים לפי מיקום |
+| [IL Health](https://agentskills.co.il/he/mcp/il-health) | גישה לנתוני משרד הבריאות: מדדי איכות בתי חולים, סקרי מטופלים ומידע על קופות חולים |
+| [Pikud Haoref](https://agentskills.co.il/he/mcp/pikud-haoref) | התרעות חירום בזמן אמת מפיקוד העורף (רקטות, רעידות אדמה, חדירות אוויריות) |
+| [Israel Clinical Trials](https://agentskills.co.il/he/mcp/israel-clinical-trials) | חיפוש ניסויים קליניים פעילים בבתי חולים בארץ (שיבא, הדסה, איכילוב, רמב"ם) |
+| [Israel Drugs](https://agentskills.co.il/he/mcp/israel-drugs) | מאגר התרופות הישראלי עם סטטוס סל בריאות, אינטראקציות ותחליפים גנריים |
+| [Miklat](https://agentskills.co.il/he/mcp/miklat) | חיפוש מקלטים ציבוריים לפי מיקום |
 
 ## קישורי עזר
 

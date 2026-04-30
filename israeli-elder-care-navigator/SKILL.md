@@ -199,8 +199,8 @@ Result: Family understands the legal process and immediate care options.
 
 | MCP | What It Adds |
 |-----|-------------|
-| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcps/kolzchut) | Search Israel's authoritative rights and entitlements knowledge base for elder care rights, benefit eligibility, and legal procedures |
-| [IL Health](https://agentskills.co.il/he/mcps/il-health) | Access Ministry of Health data on hospital quality, health fund information, and elder services |
+| [Kolzchut (All-Rights)](https://agentskills.co.il/en/mcp/kolzchut) | Search Israel's authoritative rights and entitlements knowledge base for elder care rights, benefit eligibility, and legal procedures |
+| [IL Health](https://agentskills.co.il/en/mcp/il-health) | Access Ministry of Health data on hospital quality, health fund information, and elder services |
 
 ## Gotchas
 
