@@ -1,0 +1,232 @@
+{
+  "skill_slug": "foreign-caregiver-payroll",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-06-29",
+  "claims": [
+    {
+      "id": "min-wage-2026",
+      "claim": "From 01.04.2026 the Israeli monthly minimum wage is 6,443.85 NIS for a full-time post and 35.40 NIS per hour",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/שכר_מינימום",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "החל מיום 01.04.2026 שכר המינימום הוא 6,443.85 ₪ לחודש למשרה מלאה ו-35.40 ₪ לשעה",
+      "confidence": "high"
+    },
+    {
+      "id": "caregiver-min-wage-applies",
+      "claim": "A foreign nursing caregiver must be paid at least the minimum wage, currently 6,443.85 NIS per month for a full-time post",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "שכרו של העובד לא יפחת משכר מינימום, העומד כיום על 6,443.85 ₪ לחודש למשרה מלאה",
+      "confidence": "high"
+    },
+    {
+      "id": "caregiver-no-overtime",
+      "claim": "Foreign caregivers employed in the patient's home are not entitled to overtime pay (Hours of Work and Rest Law does not apply to live-in caregivers, per the Yolanda Gluten ruling)",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "עובדים זרים בענף סיעוד המועסקים בבית המטופל, אינם זכאים לגמול עבור העסקה בשעות נוספות",
+      "confidence": "high"
+    },
+    {
+      "id": "caregiver-weekly-rest",
+      "claim": "A live-in foreign caregiver is entitled to 25 continuous hours of weekly rest, and work during that rest is paid at 150% of the regular wage",
+      "claim_type": "percentage",
+      "source_url": "https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "עובדים זרים בסיעוד המועסקים בבית המטופל, זכאים למנוחה שבועית של 25 שעות... על המעסיק לשלם לעובד 150% משכרו הרגיל עבור שעות עבודתו במהלך המנוחה השבועית",
+      "confidence": "high"
+    },
+    {
+      "id": "medical-insurance-mandatory",
+      "claim": "The employer must provide the foreign caregiver with private medical insurance from a licensed insurer for the entire employment period",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "המעסיק מחויב לדאוג לביטוח רפואי לעובד, אצל מבטח בעל רישיון בתוקף, עבור כל תקופת עבודתו",
+      "confidence": "high"
+    },
+    {
+      "id": "medical-insurance-deduction-cap",
+      "claim": "The employer may deduct from wages at most half of the medical-insurance cost, and no more than 154.29 NIS per month",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "רשאי המעסיק לנכות סכום שלא יעלה על מחצית הסכום שהוציא המעסיק... ולא יותר מ- 154.29 ₪",
+      "confidence": "high"
+    },
+    {
+      "id": "deposit-fund-standard-rate",
+      "claim": "The standard foreign-worker monthly deposit is 12.5% of wages (6% in lieu of severance plus 6.5% pension)",
+      "claim_type": "percentage",
+      "source_url": "https://www.kolzchut.org.il/he/הפקדת_פיקדון_חודשי_עבור_עובדים_זרים",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "סך כולל של 12.5% משכר העובד (כתחליף ל-6% במקום פיצויים ו-6.5% במקום תגמולי מעסיק)",
+      "confidence": "high"
+    },
+    {
+      "id": "deposit-fund-siud-home-exempt",
+      "claim": "A nursing patient who employs a foreign caregiver in their own home does NOT deposit into the central fund; instead they pay the worker directly at the end of employment",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/הפקדת_פיקדון_חודשי_עבור_עובדים_זרים",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "מטופל סיעודי שמעסיק עובד זר בביתו לא צריך להפקיד פיקדון, ובמקום זה יצטרך לשלם לעובד בסיום העסקתו",
+      "confidence": "high"
+    },
+    {
+      "id": "siud-home-pension-severance-direct",
+      "claim": "The private home employer owes the worker pension and severance equal to 12.5% of wages, paid directly (not into the fund) on termination",
+      "claim_type": "percentage",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_עובד_זר_בסיעוד_שהתפטר_מעבודתו",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "מעסיק פרטי לא יכול להפקיד פיקדון... תשלום בגובה ההפרשות... לביטוח פנסיוני ופיצויי פיטורים (12.5% משכר העובד)",
+      "confidence": "high"
+    },
+    {
+      "id": "siud-severance-one-month-per-year",
+      "claim": "Severance for a foreign caregiver equals one last-month salary multiplied by the number of years worked",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_עובד_זר_בסיעוד_שהתפטר_מעבודתו",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "זכאי לפיצויי פיטורים בסכום של שכר חודש אחרון כפול מספר השנים",
+      "confidence": "high"
+    },
+    {
+      "id": "bituach-leumi-3-6",
+      "claim": "A household employing a foreign caregiver pays National Insurance of 3.6% of wages from January 2025 (previously 2%)",
+      "claim_type": "percentage",
+      "source_url": "https://www.kolzchut.org.il/he/דיווח_ותשלום_דמי_ביטוח_לאומי_עבור_עובד_זר_בסיעוד",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "דמי ביטוח לאומי בשיעור 3.6% משכרו - החל מינואר 2025 (לפני כן התשלום היה בשיעור 2% משכר העובד)",
+      "confidence": "high"
+    },
+    {
+      "id": "bituach-leumi-no-ceiling",
+      "claim": "The previous reduced ceiling, under which the employer was exempt on wages up to 5,500 NIS/month, ended on 03.08.2022, so the rate now applies to the full wage",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/דיווח_ותשלום_דמי_ביטוח_לאומי_עבור_עובד_זר_בסיעוד",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "לפני 03.08.2022 בעלי היתר... היו פטורים מתשלום דמי ביטוח על השכר ששילמו לעובד עד לסכום של 5,500 ₪ בחודש",
+      "confidence": "high"
+    },
+    {
+      "id": "bituach-leumi-employer-borne",
+      "claim": "The 3.6% National Insurance is borne by the employer and computed on the wage paid to the worker",
+      "claim_type": "percentage",
+      "source_url": "https://www.btl.gov.il/Insurance/Maasik/Pages/mekabelSiud.aspx",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "שיעור דמי הביטוח מינואר 2025 - 3.6% משכר המשולם לעובד",
+      "confidence": "high"
+    },
+    {
+      "id": "havraa-tariff-418",
+      "claim": "The private-sector recuperation (havraa) tariff is 418 NIS per day",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "גובה דמי ההבראה במגזר הפרטי הוא 418 ₪ ליום",
+      "confidence": "high"
+    },
+    {
+      "id": "havraa-days-by-seniority",
+      "claim": "Havraa days by seniority: year 1 = 5 days; years 2-3 = 6; years 4-10 = 7; years 11-15 = 8; years 16-19 = 9; year 20+ = 10",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "שנה ראשונה: 5 ימים | שנה שנייה ושנה שלישית: 6 ימים | שנים רביעית עד עשירית: 7 ימים | שנים אחת עשרה עד חמש עשרה: 8 ימים | שנים שש עשרה עד תשע עשרה: 9 ימים | שנה עשרים ואילך: 10 ימים",
+      "confidence": "high"
+    },
+    {
+      "id": "havraa-eligibility-12mo",
+      "claim": "Havraa eligibility begins only after the worker completes at least one full year (12 months) of employment",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "עובדים שכירים שהשלימו לפחות שנת עבודה אחת אצל המעסיק",
+      "confidence": "high"
+    },
+    {
+      "id": "vacation-table-6day",
+      "claim": "Annual leave for a 6-day work week, gross days by seniority: years 1-5 = 16; year 6 = 18; year 7 = 21; year 8 = 22; year 9 = 23; year 10 = 24; year 11 = 25; year 12 = 26; year 13 = 27; year 14+ = 28",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/חישוב_מספר_ימי_החופשה_השנתית_לעובדים_במקומות_עבודה_שבהם_מונהג_שבוע_עבודה_בן_6_ימים",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "1-4 שנים | 14 | 16 ... 5 שנים | 14 | 16 ... 6 שנים | 16 | 18 ... 7 שנים | 18 | 21 ... 8 שנים | 19 | 22 ... 9 שנים | 20 | 23 ... 10 שנים | 21 | 24 ... 11 שנים | 22 | 25 ... 12 שנים | 23 | 26 ... 13 שנים | 24 | 27 ... 14 שנים ומעלה | 24 | 28",
+      "confidence": "high"
+    },
+    {
+      "id": "holidays-9-by-religion",
+      "claim": "Foreign caregivers are entitled to pay for 9 holidays a year, according to their own religion's holidays or the Israeli holidays, at their choice",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "עובדים זרים המועסקים בתחום הסיעוד זכאים לתשלום עבור 9 ימי חג בשנה על פי חגי דתם או חגי ישראל, לפי בחירתם",
+      "confidence": "high"
+    },
+    {
+      "id": "permit-required",
+      "claim": "Employing a foreign caregiver requires an employment permit from the Population and Immigration Authority",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/קבלת_היתר_להעסקת_עובד_זר_בסיעוד",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "כדי להעסיק עובד זר יש להגיש בקשה להיתר העסקה מרשות האוכלוסין וההגירה",
+      "confidence": "high"
+    },
+    {
+      "id": "permit-eligible-groups",
+      "claim": "Eligible recipients include seniors aged 85+, recipients of the special-services benefit (שר\"מ) at a rate below 112%, and cancer patients, among others",
+      "claim_type": "percentage",
+      "source_url": "https://www.kolzchut.org.il/he/קבלת_היתר_להעסקת_עובד_זר_בסיעוד",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "מקבלי קצבת שר\"מ בשיעור נמוך מ-112%... קשישים מגיל 85 ומעלה... חולי סרטן",
+      "confidence": "high"
+    },
+    {
+      "id": "bureau-mandatory",
+      "claim": "Both the employer and the foreign worker must be registered with one of the licensed private placement bureaus for the nursing sector",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_לגיוס_עובד_זר_בסיעוד",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "חובה על מעסיק ועובד זר להיות רשומים באחת מהלשכות המורשות",
+      "confidence": "high"
+    },
+    {
+      "id": "benefit-amounts-by-level",
+      "claim": "The long-term-care (nursing) benefit is paid by 6 levels; monthly cash amounts (01.04.2026) are level 1 = 1,705 NIS, level 2 = 2,480 NIS, level 3 = 3,472 NIS, level 4 = 4,464 NIS, level 5 = 5,456 NIS, level 6 = 6,448 NIS",
+      "claim_type": "currency",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/ovedZar.aspx",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "רמת הזכאות 1: 1,705 ש\"ח (החל ב- 01.04.2026)... רמת הזכאות 2: 2,480 ש\"ח... רמת הזכאות 3: 3,472 ש\"ח... רמת הזכאות 4: 4,464 ש\"ח... רמת הזכאות 5: 5,456 ש\"ח... רמת הזכאות 6: 6,448 ש\"ח (החל ב- 01.04.2026)",
+      "confidence": "high"
+    },
+    {
+      "id": "benefit-direct-or-company",
+      "claim": "A nursing-benefit recipient can employ a foreign caregiver in one of two ways: directly (cash benefit) or through a care company",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/ovedZar.aspx",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "להעסיק מטפל עובד זר באחת משתי הדרכים... 1. באופן ישיר... 2. באמצעות חברת סיעוד",
+      "confidence": "high"
+    },
+    {
+      "id": "gluten-20-percent-is-dissent",
+      "claim": "The idea that a live-in caregiver is owed a uniform global wage of 20% above the minimum wage was a dissenting opinion in the Yolanda Gluten ruling, not the binding majority holding",
+      "claim_type": "feature",
+      "source_url": "https://he.wikipedia.org/wiki/פרשת_יולנדה_גלוטן",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "גמול שכר אחיד, גלובלי וקבוע... בשיעור של 20% מעל לשכר המינימום",
+      "confidence": "high"
+    },
+    {
+      "id": "sick-days-accrual-and-pay",
+      "claim": "A full-time worker accrues 1.5 sick days per month (18 a year), up to a maximum of 90 days; the first day of illness is unpaid, the second and third days are paid at 50% of wage, and from the fourth day onward the full wage is paid",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_מחלה",
+      "source_fetched_at": "2026-06-29",
+      "raw_snippet": "בכל חודש עבודה מלא, העובד צובר 1.5 ימי מחלה (18 ימי מחלה בשנת עבודה מלאה)... הכמות המקסימלית של ימי מחלה שאפשר לצבור היא 90... על יום ההיעדרות הראשון העובדים לא זכאים לתשלום... על כל אחד מימי ההיעדרות השני והשלישי העובדים זכאים לתשלום בגובה 50% מהשכר... מיום ההיעדרות הרביעי והלאה העובדים זכאים לתשלום בגובה השכר המלא",
+      "confidence": "high"
+    }
+  ]
+}
