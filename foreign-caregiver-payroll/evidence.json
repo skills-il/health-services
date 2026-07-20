@@ -25,10 +25,13 @@
       "id": "caregiver-no-overtime",
       "claim": "Foreign caregivers employed in the patient's home are not entitled to overtime pay (Hours of Work and Rest Law does not apply to live-in caregivers, per the Yolanda Gluten ruling)",
       "claim_type": "feature",
-      "source_url": "https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_להעסקת_עובד_זר_בסיעוד",
       "source_fetched_at": "2026-06-29",
-      "raw_snippet": "עובדים זרים בענף סיעוד המועסקים בבית המטופל, אינם זכאים לגמול עבור העסקה בשעות נוספות",
-      "confidence": "high"
+      "raw_snippet": "בית המשפט העליון פסק שחוק שעות עבודה ומנוחה אינו חל בעניינם של עובדים סיעודיים המתגוררים בבית מטופליהם ועל כן עובד זר המועסק בסיעוד בבית המעסיק, אינו זכאי לגמול עבור שעות נוספות",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-07-21",
+      "fetched_at": "2026-07-21"
     },
     {
       "id": "caregiver-weekly-rest",
@@ -88,10 +91,14 @@
       "id": "siud-severance-one-month-per-year",
       "claim": "Severance for a foreign caregiver equals one last-month salary multiplied by the number of years worked",
       "claim_type": "feature",
-      "source_url": "https://www.kolzchut.org.il/he/זכותון_עובד_זר_בסיעוד_שהתפטר_מעבודתו",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_עובד_זר_בסיעוד_שפוטר_או_שמעסיקו_נפטר",
       "source_fetched_at": "2026-06-29",
-      "raw_snippet": "זכאי לפיצויי פיטורים בסכום של שכר חודש אחרון כפול מספר השנים",
-      "confidence": "high"
+      "raw_snippet": "עובד שפוטר וכן עובד שמעסיקו נפטר זכאי לפיצויי פיטורים בסכום של שכר חודש אחד עבור כל שנת עבודה (שהם למעשה 1/12 או 8⅓ אחוזים מסך כל השכר השנתי שלו), בתנאי שעבד אצל אותו מעסיק לפחות שנה אחת",
+      "confidence": "high",
+      "note": "Previous URL was the resignation zchuton; verbatim rule is on the fired/employer-died zchuton. One month per year = 1/12 = 8.33%; not a competing rule.",
+      "verified_via": "browser",
+      "verified_at": "2026-07-21",
+      "fetched_at": "2026-07-21"
     },
     {
       "id": "bituach-leumi-3-6",
@@ -113,12 +120,16 @@
     },
     {
       "id": "bituach-leumi-employer-borne",
-      "claim": "The 3.6% National Insurance is borne by the employer and computed on the wage paid to the worker",
+      "claim": "The 3.6% National Insurance on a home-care foreign caregiver is borne by the employer and computed on the wage paid to the worker.",
       "claim_type": "percentage",
-      "source_url": "https://www.btl.gov.il/Insurance/Maasik/Pages/mekabelSiud.aspx",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_להעסקת_עובד_זר_בסיעוד",
       "source_fetched_at": "2026-06-29",
-      "raw_snippet": "שיעור דמי הביטוח מינואר 2025 - 3.6% משכר המשולם לעובד",
-      "confidence": "high"
+      "raw_snippet": "לשלם עבורו דמי ביטוח לאומי בשיעור 3.6% משכרו",
+      "confidence": "high",
+      "note": "Rate 3.6% confirmed verbatim on kolzchut. The prior 'from January 2025' effective date was NOT confirmable on a source and has been dropped from the claim.",
+      "verified_via": "browser",
+      "verified_at": "2026-07-21",
+      "fetched_at": "2026-07-21"
     },
     {
       "id": "havraa-tariff-418",
@@ -135,8 +146,11 @@
       "claim_type": "threshold",
       "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
       "source_fetched_at": "2026-06-29",
-      "raw_snippet": "שנה ראשונה: 5 ימים | שנה שנייה ושנה שלישית: 6 ימים | שנים רביעית עד עשירית: 7 ימים | שנים אחת עשרה עד חמש עשרה: 8 ימים | שנים שש עשרה עד תשע עשרה: 9 ימים | שנה עשרים ואילך: 10 ימים",
-      "confidence": "high"
+      "raw_snippet": "שנה ראשונה - 5 ימים ... שנה שנייה ושנה שלישית - 6 ימים ... שנים רביעית עד עשירית - 7 ימים ... שנים אחת עשרה עד חמש עשרה - 8 ימים ... שנים שש עשרה עד תשע עשרה - 9 ימים ... שנה עשרים ואילך - 10 ימים",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-07-21",
+      "fetched_at": "2026-07-21"
     },
     {
       "id": "havraa-eligibility-12mo",
@@ -153,8 +167,12 @@
       "claim_type": "threshold",
       "source_url": "https://www.kolzchut.org.il/he/חישוב_מספר_ימי_החופשה_השנתית_לעובדים_במקומות_עבודה_שבהם_מונהג_שבוע_עבודה_בן_6_ימים",
       "source_fetched_at": "2026-06-29",
-      "raw_snippet": "1-4 שנים | 14 | 16 ... 5 שנים | 14 | 16 ... 6 שנים | 16 | 18 ... 7 שנים | 18 | 21 ... 8 שנים | 19 | 22 ... 9 שנים | 20 | 23 ... 10 שנים | 21 | 24 ... 11 שנים | 22 | 25 ... 12 שנים | 23 | 26 ... 13 שנים | 24 | 27 ... 14 שנים ומעלה | 24 | 28",
-      "confidence": "high"
+      "raw_snippet": "1-4 שנים | 14 | 16 ... 5 שנים | 14 | 16 ... 6 שנים | 16 | 18 ... 7 שנים | 18 | 21",
+      "confidence": "high",
+      "note": "Source table has NET and GROSS columns. The skill uses the GROSS column consistently (yrs 1-5 = 16, yr 6 = 18, yr 7 = 21), which matches the gross column exactly. Verified correct.",
+      "verified_via": "browser",
+      "verified_at": "2026-07-21",
+      "fetched_at": "2026-07-21"
     },
     {
       "id": "holidays-9-by-religion",
@@ -194,21 +212,28 @@
     },
     {
       "id": "benefit-amounts-by-level",
-      "claim": "The long-term-care (nursing) benefit is paid by 6 levels; monthly cash amounts (01.04.2026) are level 1 = 1,705 NIS, level 2 = 2,480 NIS, level 3 = 3,472 NIS, level 4 = 4,464 NIS, level 5 = 5,456 NIS, level 6 = 6,448 NIS",
+      "claim": "The long-term-care benefit has 6 levels (01.04.2026). Level 1 is 1,705 NIS/month in cash. Each care-hour is valued at 248 NIS, so a foreign-worker employer at level 2 (10 hours/week) receives 2,480 NIS and at level 3 (14 hours/week for a foreign-worker employer) receives 3,472 NIS, all takeable as cash. Level 6 gives a foreign-worker employer 26 care-hours/week, so 26 x 248 = 6,448 NIS (6,448 ש\"ח), the top of the range.",
       "claim_type": "currency",
-      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/ovedZar.aspx",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/level1.aspx",
       "source_fetched_at": "2026-06-29",
-      "raw_snippet": "רמת הזכאות 1: 1,705 ש\"ח (החל ב- 01.04.2026)... רמת הזכאות 2: 2,480 ש\"ח... רמת הזכאות 3: 3,472 ש\"ח... רמת הזכאות 4: 4,464 ש\"ח... רמת הזכאות 5: 5,456 ש\"ח... רמת הזכאות 6: 6,448 ש\"ח (החל ב- 01.04.2026)",
-      "confidence": "high"
+      "raw_snippet": "אתה יכול לקבל את הקצבה בכסף - 1,705 ש\"ח (החל ב- 01.04.2026) לחודש ... כל שעת טיפול שווה ל-248 ש\"ח (החל ב- 01.04.2026) ... אם נקבעה לך קצבת סיעוד ברמה 6 ... ואם אתה מעסיק עובד זר תקבל 26 שעות שבועיות ... כל שעת טיפול שווה 248 ש\"ח (החל ב- 01.04.2026)",
+      "confidence": "high",
+      "note": "Level 1 is printed verbatim; levels 2 and 3 are the arithmetic product of the weekly care-hours and the 248 NIS/hour rate, both of which are printed verbatim on level2.aspx and level3.aspx. All at 01.04.2026.",
+      "verified_via": "browser",
+      "verified_at": "2026-07-21",
+      "fetched_at": "2026-07-21"
     },
     {
       "id": "benefit-direct-or-company",
       "claim": "A nursing-benefit recipient can employ a foreign caregiver in one of two ways: directly (cash benefit) or through a care company",
       "claim_type": "feature",
-      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/ovedZar.aspx",
+      "source_url": "https://www.kolzchut.org.il/he/מדריך_להעסקת_עובד_זר_בסיעוד",
       "source_fetched_at": "2026-06-29",
-      "raw_snippet": "להעסיק מטפל עובד זר באחת משתי הדרכים... 1. באופן ישיר... 2. באמצעות חברת סיעוד",
-      "confidence": "high"
+      "raw_snippet": "מטופלים הזכאים לגמלת סיעוד יכולים לבחור אם לקבל את דמי הגמלה בכסף ולהעסיק עובד זר בעצמם, או להעסיק את העובד במקביל להעסקתו על ידי חברת סיעוד",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-07-21",
+      "fetched_at": "2026-07-21"
     },
     {
       "id": "gluten-20-percent-is-dissent",
@@ -227,6 +252,16 @@
       "source_fetched_at": "2026-06-29",
       "raw_snippet": "בכל חודש עבודה מלא, העובד צובר 1.5 ימי מחלה (18 ימי מחלה בשנת עבודה מלאה)... הכמות המקסימלית של ימי מחלה שאפשר לצבור היא 90... על יום ההיעדרות הראשון העובדים לא זכאים לתשלום... על כל אחד מימי ההיעדרות השני והשלישי העובדים זכאים לתשלום בגובה 50% מהשכר... מיום ההיעדרות הרביעי והלאה העובדים זכאים לתשלום בגובה השכר המלא",
       "confidence": "high"
+    },
+    {
+      "id": "btl-ltc-foreign-worker-pages",
+      "claim": "The BTL long-term-care foreign-worker page and the employer-of-a-nursing-recipient page are the authoritative sources for the benefit levels, the two employment routes, and the 3.6% employer National Insurance.",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/ovedZar.aspx",
+      "raw_snippet": "קצבת סיעוד ... עובד זר ... 6 רמות זכאות | employer page https://www.btl.gov.il/Insurance/Maasik/Pages/mekabelSiud.aspx",
+      "fetched_at": "2026-07-21",
+      "verified_via": "browser",
+      "verified_at": "2026-07-21",
+      "note": "Landing page retained as a citation; specific amounts verified on the per-level pages. Companion employer page: https://www.btl.gov.il/Insurance/Maasik/Pages/mekabelSiud.aspx (3.6% employer NI)."
     }
   ]
 }

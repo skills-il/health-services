@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "health-services",
   "tags": {
     "he": [
@@ -50,9 +50,21 @@
   "openclaw": true,
   "volatility": "legislative",
   "authoritative_sources": [
-    { "url": "https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל", "type": "aggregator", "language": "he" },
-    { "url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/ovedZar.aspx", "type": "regulator", "language": "he" },
-    { "url": "https://www.kolzchut.org.il/he/שכר_מינימום", "type": "aggregator", "language": "he" }
+    {
+      "url": "https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל",
+      "type": "aggregator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/ovedZar.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/שכר_מינימום",
+      "type": "aggregator",
+      "language": "he"
+    }
   ],
   "domain_checklist_version": 1
 }
