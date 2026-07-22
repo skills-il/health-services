@@ -42,6 +42,7 @@
     "gemini-cli"
   ],
   "openclaw": true,
+  "requires_filesystem": true,
   "volatility": "stable",
   "authoritative_sources": [
     { "url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/", "type": "regulator", "language": "he" },
