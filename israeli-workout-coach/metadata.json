@@ -1,0 +1,52 @@
+{
+  "display_name": {
+    "he": "מאמן כושר ישראלי",
+    "en": "Israeli Workout Coach"
+  },
+  "display_description": {
+    "he": "מאמן כושר בעברית שזוכר את התוכנית וההיסטוריה שלכם בין אימון לאימון. בהרצה הראשונה הוא קולט כל תוכנית שלכם (PPL, פלג גוף עליון-תחתון, גוף מלא או משהו משלכם) לפרופיל שאפשר לערוך, ואז עובד בחמישה תפקידים: מאמן שיודע מה האימון הבא בסבב (כולל גרסת בית בלי חדר כושר), רשם שהופך תיאור חופשי בעברית ליומן אימונים מסודר, יועץ תזונה שמעביר את הפרטים לסקיל התזונה הישראלי, אנליסט שמזהה מגמות (1RM משוער, נפח, קצב ריצה ועליית מאמץ) כדי לתפוס פלאטו ואימון-יתר, ושובר שגרה מבוקר. השתמשו כשאתם רוצים לדעת מה האימון היום, לרשום אימון, לבדוק אם אתם מתקדמים או תקועים, או לנהל יומן אימונים שזוכר את ההקשר. כולל כללי חום והידרציה לקיץ הישראלי ומנגנון בטיחות ליחס בעייתי לאוכל. אל תשתמשו לשיקום או פציעה, לטיפול תזונתי רפואי, לתכנון ארוחות (זה israeli-nutrition-planner), או כתחליף למאמן, פיזיותרפיסט או דיאטן מוסמך.",
+    "en": "A Hebrew-first personal-training coach that remembers your program and history across sessions. It onboards any split (PPL, upper-lower, full-body, or custom) into an editable profile, then works as five roles: a coach that gives the next workout in your rotation with a home-equipment variant, a logger that turns free Hebrew text into a structured training log, a nutrition framer that hands specifics to the Israeli nutrition skill, an analyst that trends your estimated 1RM, volume, run pace and RPE creep to catch plateaus and overtraining, and a controlled routine-breaker. Use it to know today's workout, log a session, check whether you are progressing or stuck, or keep a training log that carries context between sessions. Includes Israeli-summer heat and hydration rules and a disordered-eating guardrail. Do NOT use for clinical rehab or injury prescription, medical dietary therapy, meal planning (use israeli-nutrition-planner), or as a substitute for a licensed trainer, physiotherapist, or dietitian."
+  },
+  "tags": {
+    "he": [
+      "כושר",
+      "אימון",
+      "יומן-אימונים",
+      "מאמן-אישי",
+      "חדר-כושר",
+      "התקדמות",
+      "בריאות",
+      "ישראל"
+    ],
+    "en": [
+      "fitness",
+      "workout",
+      "training-log",
+      "personal-trainer",
+      "gym",
+      "progression",
+      "health",
+      "israel"
+    ]
+  },
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "health-services",
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli"
+  ],
+  "openclaw": true,
+  "volatility": "stable",
+  "authoritative_sources": [
+    { "url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/", "type": "regulator", "language": "he" },
+    { "url": "https://www.nasm.org/resource-center/blog/training/how-to-use-rpe-and-rir-to-autoregulate-client-training", "type": "reference", "language": "en" },
+    { "url": "https://www.kolzchut.org.il/he/טיפולי_פיזיותרפיה_בבתי_חולים", "type": "reference", "language": "he" }
+  ],
+  "domain_checklist_version": 1
+}

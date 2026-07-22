@@ -1,0 +1,18 @@
+# Eval queries for israeli-workout-coach
+# Format: TYPE | query
+# TYPE = positive (should trigger) | negative (should NOT) | edge (ambiguous)
+
+positive | מה האימון שלי היום?
+positive | תרשום לי את האימון: בנץ' 4 סטים 80 קילו 8 חזרות
+positive | אני מרגיש תקוע בסקוואט כבר שבועיים, אני בפלאטו?
+positive | am I overtraining? show me my progress
+positive | give me my next push workout, I'm training at home today
+positive | תבנה לי סבב אימונים ותזכור אותו בין אימון לאימון
+
+negative | תבנה לי תפריט שבועי מאוזן עם ארוחות כשרות
+negative | כמה מס אני משלם על אופציות RSU
+negative | איך מגישים תביעה בבית משפט לתביעות קטנות
+
+edge | כמה חלבון כדאי לאכול אחרי אימון כוח?
+edge | כואב לי הכתף אחרי לחיצת חזה, מה לעשות?
+edge | אני רוצה לרדת 10 קילו מהר לפני החתונה
