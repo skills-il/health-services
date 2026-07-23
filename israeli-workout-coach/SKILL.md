@@ -31,7 +31,10 @@ turned into a real plateau. Generic AI can write a workout, but it forgets every
 moment the chat ends, gives the same advice to a beginner and an advanced lifter, logs
 nothing, and cannot tell heat-driven fatigue in an Israeli August from genuine overtraining.
 This skill fixes that by keeping a persistent training log and profile, coaching against
-the user's own program, and staying inside safe, Israel-aware boundaries.
+the user's own program, and staying inside safe, Israel-aware boundaries. And it works
+wherever you are: file-capable agents (Claude Code, Cursor, Claude Desktop with a filesystem
+MCP) remember everything automatically, while on chat apps like Claude.ai or ChatGPT you paste
+your log in and the coach hands you an updated copy to carry into the next session.
 
 ## Instructions
 
