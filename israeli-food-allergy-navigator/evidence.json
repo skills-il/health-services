@@ -1,0 +1,389 @@
+{
+  "skill_slug": "israeli-food-allergy-navigator",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-07-25",
+  "claims": [
+    {
+      "id": "moe-circular-number-and-date",
+      "claim": "The governing Ministry of Education instruction is הוראת קבע מספר 0042 (replacement), in force from 21.11.2017, published in חוזר מנכ\"ל תשע\"ח/4. It applies to all educational institutions and tzaharonim in all sectors.",
+      "claim_type": "law",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "התנהלות מוסדות החינוך והצהרונים לשם הבטחת בריאותם של תלמידים הסובלים מאלרגיות למוצרי מזון. הוראת קבע מספר 0042 - החלפה. תוקף הוראה מ-21.11.2017. תחולה: כלל מוסדות החינוך והצהרונים בכל המגזרים. חוזר מנכ\"ל תשע''ח/4, ג' בכסלו תשע''ח, 21 בנובמבר 2017",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "anaphylaxis-onset-window",
+      "claim": "In severe food allergy, swelling and airway edema with severe shortness of breath can develop within a few minutes to two hours of exposure, requiring immediate emergency adrenaline injection (EpiPen) to save life.",
+      "claim_type": "feature",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "במקרים קשים של אלרגיה למזון עלולות להיגרם בתוך זמן קצר, מכמה דקות עד שעתיים מהחשיפה, נפיחות ובצקת בדרכי הנשימה המלוות בקוצר נשימה קשה המחייב טיפול חירום מיידי של הזרקת אדרנלין )במזרק \"אפיפן\"( כדי להציל חיים.",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "prevalence-and-main-allergens",
+      "claim": "About 5% of children have food allergy. The main allergenic foods in Israel are milk protein, peanuts, nuts, sesame, eggs and fish. Milk and egg allergy usually resolves by age three, but about 10% to 15% of milk-allergic children continue to suffer from it after that age. Peanut, nut and fish allergy persists for long periods and sometimes first appears only at school age.",
+      "claim_type": "percentage",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "כ5%- מהילדים אלרגיים למזון. המזונות האלרגניים העיקריים בישראל הם חלבון חלב, בוטנים, אגוזים, סומסום, ביצים ודגים. האלרגיה לחלב ולביצים חולפת בדרך כלל עד גיל שלוש, אך כ10%-15%- מהילדים הסובלים מאלרגיה לחלב ממשיכים לסבול ממנה גם לאחר גיל זה. האלרגיה לבוטנים, לאגוזים ולדגים נמשכת תקופות ארוכות, ולעיתים היא מופיעה לראשונה רק בגיל בית הספר.",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "airborne-allergen-zone-and-signage",
+      "claim": "Where the allergen has an airborne-dispersal property (for example peanuts, nuts in natural form, or snacks containing peanuts), the institution or activity area must be defined as a zone clean of the allergen, and this must be marked prominently with signage visible to all, stating that the allergen and products containing it may not be brought in.",
+      "claim_type": "feature",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "במקרים שבהם האלרגיה היא לאלרגן שהוא בעל תכונה של פיזור באוויר )לדוגמה, בוטנים, אגוזים בצורתם הטבעית או חטיפים המכילים בוטנים( יש להגדיר את מוסד החינוך או את מסגרת הפעילות כשטח נקי מהאלרגן ולציין באופן בולט בשטח המוסד, באזור הפעילות ומחוצה לו, בשילוט הנראה לכול, שאין להכניס את האלרגן ומוצרים המכילים אותו לשטח המוסד ולאזור הפעילות.",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "contact-allergen-safe-space",
+      "claim": "For an allergen without airborne-dispersal property, where the reaction is caused by contact or ingestion, the classroom, the activity area and further agreed spaces are declared a safe environment into which the allergen may not be brought, announced by signs that must be prominent and identifiable during all activity hours.",
+      "claim_type": "feature",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "במקרים אחרים, של אלרגיה לאלרגן שאינו בעל תכונה של פיזור באוויר, ואשר בהם האלרגיה נגרמת בשל מגע עם האלרגן או בליעה שלו, יוכרזו הכיתה, שטח הפעילות וכן מרחבים נוספים שיוסכם לגביהם כסביבה בטוחה, שאין להכניס אליה את האלרגן. יש להכריז על כך באמצעות שלטים שייתלו במקומות הללו. השילוט חייב להיות בולט ולאפשר זיהוי בכל שעות הפעילות.",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "timetable-and-cleaning-arrangements",
+      "claim": "It is recommended that the allergic student's timetable be arranged so most lessons are in the home classroom and, as far as possible, eating takes place after the long break. When learning in other spaces, preparation is required in advance, for example the teacher assigning a duty student to wipe the allergic student's desk with a wipe before the lesson. Merging tzaharonim before the meal should be avoided and done only after the meal.",
+      "claim_type": "feature",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "מומלץ כי מערכת השעות של התלמיד הסובל מאלרגיה תאורגן באופן שמרבית השיעורים יילמדו בכיתת-האם ושככול האפשר תתקיים האכילה לאחר ההפסקה הגדולה. בכך תתאפשר הקפדה על הניקיון ועל מניעת החשיפה לאלרגנים. בעת למידה במרחבים אחרים יש להיערך מבעוד מועד; לדוגמה, עוד לפני השיעור או הפעילות ימנה המורה או המדריך תורן שיהיה אחראי לנגב במגבון את שולחן התלמיד הסובל מאלרגיה. יש להימנע במידת האפשר מאיחוד צהרונים לפני הגשת הארוחה ולבצעו רק לאחר הארוחה.",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "parent-health-declaration-annual",
+      "claim": "It is the responsibility of the parents of a student with food allergy to sign a health declaration every year, as required by the standing-instruction circular on parents' declaration of their child's health, and to attach to it a medical document from the treating allergist describing the allergy, detailing the foods and substances the child is allergic to and clarifying the actions to take on exposure to the allergen. Parents must report at tzaharon registration that their child has a food allergy.",
+      "claim_type": "feature",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "באחריות הוריו של התלמיד הסובל מאלרגיה למוצרי מזון לחתום על הצהרת בריאות מדי שנה, כנדרש בחוזר הוראות הקבע העוסק ב\"הצהרת הורים על בריאות ילדם\", ולצרף להצהרה מסמך רפואי מהאלרגולוג המטפל, שבו תתואר האלרגיה שהתלמיד סובל ממנה. במסמך יפורטו המזונות והחומרים שהילד אלרגי אליהם ויובהרו הפעולות שיש לנקוט במקרה של חשיפה לאלרגן. על ההורים לדווח בשלב ההרשמה לצהרון כי ילדם סובל מאלרגיה למוצרי מזון.",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "two-epipens-and-medication-forms",
+      "claim": "Parents must deposit a valid in-date auto-injector in the emergency medicine box at the school, gan or tzaharon facility, marked with the student's name and details plus a photocopy of the HMO card. A second injector bearing the name is kept in the student's personal bag. Parents are responsible for replacing the injector when it expires, and for signing the forms permitting medication to be administered, per section 2.2-74 of standing-instruction circular עב/1(ב) on administering medication in an educational institution.",
+      "claim_type": "form-number",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "באחריות הורי התלמיד הסובל מאלרגיה להפקיד בבית הספר או בגן הילדים או במתקן שבו הצהרון מתקיים מזרק בר-תוקף בקופסת התרופות לשעת חירום, תוך ציון שמו של התלמיד ופרטיו וכן תצלום של כרטיס קופת החולים שהוא מבוטח בה. מזרק נוסף, ועליו שם, יימצא בתיקו האישי של התלמיד. באחריות ההורים להחליף את המזרק כאשר תמה תקופת התוקף של המזרק. כמו כן באחריותם לחתום על טפסים המאפשרים מתן טיפול תרופתי לתלמיד על פי ההנחיות בסעיף 2.2-74 בחוזר הוראות הקבע עב)1/ב(, \"מתן טיפול תרופתי במוסד החינוך\".",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "inform-class-parents",
+      "claim": "All parents of the class and of the tzaharon framework must be informed, ahead of the start of the school year and at the first parents' meeting, of the dietary restrictions applying to the students and of the prohibition on bringing the allergen into the defined spaces or anywhere in the school, gan or tzaharon. The notification is done in coordination with the allergic student and their parents.",
+      "claim_type": "feature",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "יש ליידע את כל הורי הכיתה ואת הורי מסגרת הצהרון לקראת פתיחת שנת הלימודים, וכן באסיפת ההורים הראשונה, על המגבלות התזונתיות החלות על תלמידי הכיתה והמסגרת, וכן על האיסור להכניס את האלרגן למרחבי השהייה שיוגדרו או לכל מתחם בית הספר, גן הילדים או הצהרון. היידוע ייעשה בתיאום עם התלמיד הסובל מאלרגיה ועם הוריו.",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "trips-and-catering",
+      "claim": "Ahead of a trip, an out-of-school activity, or a tzaharon where food is served, parents should request the contact details of the catering provider, and it is their responsibility to approve the composition of the food their child will receive during the activity. If they do not approve it, they must be allowed to supply their child with suitable food themselves.",
+      "claim_type": "feature",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "לקראת יציאה לטיול או לפעילות חוץ-בית-ספרית או לצהרון שמוגש בהם מזון על ההורים לבקש את פרטי הקשר עם גורם ההסעדה, ובאחריותם לאשר את הרכב המזון שיקבל ילדם במהלך הפעילות. אם הם אינם מאשרים זאת, יש לאפשר להם לספק לילדם את המזון המותאם.",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "medical-assistant-criterion",
+      "claim": "A state of life-threatening food allergy is included in the criteria allowing focused assistance from the inter-ministerial committee for employing a personal escort (medical assistant) in mainstream education, per section 19-2.2 of standing-instruction circular עז/4(א) on medical assistants in mainstream education. However, parents may not be compelled to submit an application for assistance via the local authority, and a student may not be prevented from taking part in an educational activity at or on behalf of the institution in the absence of an assistant, even where the student is eligible.",
+      "claim_type": "law",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "מצב של אלרגיה למזון מסכנת חיים נכלל בתבחינים המאפשרים קבלת סיוע ממוקד מהוועדה הבין-משרדית להעסקת מלווה אישי )סייעת רפואית( בחינוך הרגיל )ראו בסעיף 19-2.2 בחוזר הוראות הקבע עז)4/א(, \"סייעות רפואיות בחינוך הרגיל\"(. עם זאת אין לחייב הורים להגיש בקשה לסיוע באמצעות הרשות המקומית, ואין למנוע מתלמיד להשתתף בפעילות חינוכית במוסד החינוכי או מטעמו בהיעדר סייעת, אף שהוא נמצא זכאי",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "emotional-support-and-nondiscrimination",
+      "claim": "The institution must arrange accompaniment of the student by the institution's counsellor or psychologist for support, the tzaharon manager must receive guidance from the psychologist or counsellor on the emotional support required, discrimination or exclusion on grounds of the allergy must be avoided, menus for holidays (such as mishloach manot), health meals, food sales and trips must be planned in advance so the allergen is excluded, and the allergic student should be allowed to present the nature of their allergy themselves at the start of the year, according to age and willingness and with parental involvement.",
+      "claim_type": "feature",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "יש להסדיר ליווי של התלמיד על ידי היועץ או הפסיכולוג של המוסד לשם תמיכה בו. מנהל הצהרון יקפיד לקבל מהפסיכולוג או מהיועץ הדרכה לגבי התמיכה הרגשית הנדרשת עבור תלמיד הסובל מאלרגיה למוצרי מזון. יש להימנע מאפליה או מהחרגה על רקע האלרגיה. יש לתכנן מראש את התפריט בחגים )כגון במשלוחי מנות(, בארוחות בריאות, במכירות של מזון, בטיולים וכד' ולהימנע מהכללת האלרגן בתפריט תוך רתימה של הנהגת ההורים והקהילה לתכנון זה. יש לאפשר לתלמיד הסובל מאלרגיה להציג בעצמו, בפתיחת השנה או בעת פתיחת פעילות הצהרון, את מהות האלרגיה שהוא סובל ממנה",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "ige-mechanism-and-trace-amounts",
+      "claim": "An allergic reaction to food is an abnormal over-reaction of the immune system to protein components in food, by producing IgE antibodies. Reactions develop from eating the allergenic food even in a minimal quantity. In rare cases contact alone with the allergen will cause a significant reaction.",
+      "claim_type": "feature",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "תגובה אלרגית למזון היא תגובת יתר חריגה של מערכת החיסון למרכיבים חלבוניים המצויים במזון על ידי יצירת נוגדנים מסוג IgE. התגובות האלרגיות מתפתחות מאכילת המזון האלרגני, ולו גם בכמות מזערית. במקרים נדירים יגרום מגע בלבד עם אלרגן לתגובה משמעותית.",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "reaction-severity-by-system",
+      "claim": "The allergic reaction may present in varying degrees, from a mild reaction involving one body system up to a severe life-threatening reaction involving all body systems, of the anaphylactic shock type: skin and mucous membranes (itching and rash, mild swelling and tingling in the mouth, up to severe widespread rash and swelling of lips and face), digestive system (abdominal discomfort, abdominal pain, nausea, vomiting, diarrhoea), respiratory system (itching in nose and eyes, sneezing and watery discharge, watering eyes, sensation of fullness in the throat, breathing difficulty up to shortness of breath, hoarseness, persistent cough and wheezing), and cardiovascular system (drop in blood pressure, fainting and loss of consciousness).",
+      "claim_type": "feature",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "בעור ובריריות: מִגרד ותפרחת, נפיחות קלה ועקצוץ בפה ועד לתפרחת קשה המפושטת בעור ונפיחות ובצקת בשפתיים ובפנים. במערכת העיכול: דרגות שונות של אי-נוחות בבטן, כאבי בטן, בחילות, הקאה, שלשול. במערכת הנשימה: גרד באף ובעיניים, עיטושים ונזלת מימית, עיניים דומעות, תחושת מלאות בגרון, קשיי נשימה עד קוצר נשימה, צרידות, שיעול טורדני וצפצופים. במערכת הקרדיו-וסקולרית: ירידה בלחץ הדם, עילפון ואיבוד ההכרה.",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "first-reaction-may-occur-at-school",
+      "claim": "Diagnosis of food allergy is not simple. An allergic reaction may appear for the first time within the educational institution or activity framework in a student who had no previous allergic manifestations, a situation demanding heightened alertness. The tools and experience of a physician specialising in allergy are required to determine the degree of risk, the preventive measures and the treatment on exposure to the allergen.",
+      "claim_type": "feature",
+      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "אבחנה של אלרגיה למזון אינה פשוטה. ייתכן שתגובה אלרגית תופיע לראשונה במסגרת המוסד החינוכי או במסגרת הפעילות אצל תלמיד שלא היו לו תופעות אלרגיות בעבר, מצב הדורש משנה עירנות. נדרשים כלים וניסיון של רופא מומחה לאלרגיה כדי לקבוע את מידת הסיכון, את אמצעי המניעה ואת הטיפול במקרים של חשיפה לאלרגן.",
+      "verified_via": "pdf",
+      "verified_at": "2026-07-25",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-allergy-age-range",
+      "claim": "The Bituach Leumi disabled-child allowance for a child with food allergy applies from age 9 months to age 10 years.",
+      "claim_type": "threshold",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:12:00Z",
+      "raw_snippet": "הורה לילד הסובל מאלרגיה עשוי להיות זכאי לקצבת ילד נכה, מגיל",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-allergy-rate-50-percent",
+      "claim": "The Bituach Leumi disabled-child allowance awarded for a qualifying food allergy is at a rate of 50%, amounting to 1,943 NIS.",
+      "claim_type": "percentage",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:12:00Z",
+      "raw_snippet": "קצבה בשיעור 50%, בסך 1,943 ש\"ח",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-allergy-required-tests",
+      "claim": "Bituach Leumi requires confirmation of allergy test criteria: auxiliary tests for diagnosing hypersensitivity of the skin prick test (SPT) type, blood test, or challenge test.",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:12:00Z",
+      "raw_snippet": "אישור תבחיני אלרגיה - בדיקות עזר לאבחנת רגישות יתר מסוג תבחין עורי (SPT), תבחין דם או מבחן תגר",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-allergy-epipen-recommendation",
+      "claim": "Bituach Leumi requires that there be a recommendation from a physician specialising in allergy to be permanently equipped with an EpiPen injector, or a reasoned justification for refraining from carrying one.",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:12:00Z",
+      "raw_snippet": "קיימת המלצה מ רופא מומחה לאלרגיה, להצטיידות באופן קבוע במזרק אפיפן (או הנמקה להימנעות מהצטיידות במזרק אפיפן).",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-allergy-realtime-documentation",
+      "claim": "Bituach Leumi requires real-time medical documentation of the treatment given during an attack that included a respiratory component or anaphylactic shock.",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:12:00Z",
+      "raw_snippet": "תיעוד רפואי, בזמן אמת לטיפול שניתן בזמן התקף הכולל רכיב נשמתי או שוק אניפלקטי",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-disabled-child-list-includes-allergy",
+      "claim": "Allergy appears as a named qualifying condition on the Bituach Leumi list of impairments for the disabled-child allowance, alongside prolonged feeding and nutrition problems.",
+      "claim_type": "url",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/default.aspx",
+      "source_fetched_at": "2026-07-25T19:55:00Z",
+      "raw_snippet": "אלרגיה",
+      "confidence": "high"
+    },
+    {
+      "id": "oit-not-in-health-basket",
+      "claim": "Oral immunotherapy (OIT) for food allergy is not included in the Israeli health basket and is provided privately. The Shamir (Assaf Harofeh) Medical Center programme has treated a large cohort, the waiting list is long with a wait of roughly 3 to 4 years, registration is from age 3 and treatment begins from age 4.",
+      "claim_type": "feature",
+      "source_url": "https://allergysite.co.il/%D7%9E%D7%A9%D7%AA%D7%AA%D7%A4%D7%99-%D7%94%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA-%D7%9C%D7%92%D7%9E%D7%99%D7%9C%D7%94-%D7%9E%D7%90%D7%9C%D7%A8%D7%92%D7%99%D7%94-%D7%9C%D7%9E%D7%96%D7%95%D7%9F%D7%9E/",
+      "source_fetched_at": "2026-07-25T20:14:00Z",
+      "raw_snippet": "הטיפול עדיין לא בסל הבריאות. העלות נופלת על המטופל אלא א",
+      "confidence": "medium"
+    },
+    {
+      "id": "allergen-labelling-guidance",
+      "claim": "The Ministry of Health publishes a guide on providing consumers with information about allergens and substances causing food intolerance.",
+      "claim_type": "law",
+      "source_url": "https://www.gov.il/he/pages/allergens-guidance",
+      "source_fetched_at": "2026-07-25T20:14:00Z",
+      "raw_snippet": "מדריך בנושא מסירת מידע לצרכנים בקשר לאלרגנים ולחומרים הגורמים לאי סבילות במזון",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-07-26"
+    },
+    {
+      "id": "allergen-labelling-reform-2025",
+      "claim": "The Ministry of Health updates that the way allergens are marked on food packaging in Israel changes when the food import reform enters into force (1.1.2025) and will be similar to that in Europe.",
+      "claim_type": "date",
+      "source_url": "https://www.gov.il/he/pages/02012025-01",
+      "source_fetched_at": "2026-07-25T20:14:00Z",
+      "raw_snippet": "משרד הבריאות מעדכן כי אופן סימון האלרגנים על גבי אריזות מזון בישראל ישתנה עם כניסת רפורמת ייבוא המזון (1.1.2025) לתוקף ויהיה דומה לזה שבאירופה.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-07-26"
+    },
+    {
+      "id": "allergyisrael-association-site",
+      "claim": "The Israeli food allergy association operates at allergyisrael.org.il and publishes the Ministry of Education circular and school guidance for families.",
+      "claim_type": "url",
+      "source_url": "https://www.allergyisrael.org.il/",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "allergyisrael",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-07-25"
+    },
+    {
+      "id": "btl-disabled-child-main-page",
+      "claim": "Bituach Leumi publishes the disabled-child allowance landing page describing the benefit and the claim filing route.",
+      "claim_type": "url",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/default.aspx",
+      "source_fetched_at": "2026-07-25T19:55:00Z",
+      "raw_snippet": "ילד נכה - קצבאות והטבות",
+      "confidence": "high"
+    },
+    {
+      "id": "moe-mankal-portal",
+      "claim": "Ministry of Education standing instructions (חוזרי מנכ\"ל) are published on the mankal application portal at apps.education.gov.il/mankal.",
+      "claim_type": "url",
+      "source_url": "https://apps.education.gov.il/mankal/",
+      "source_fetched_at": "2026-07-25T20:01:00Z",
+      "raw_snippet": "מנכ",
+      "verified_via": "browser",
+      "verified_at": "2026-07-25",
+      "confidence": "medium"
+    },
+    {
+      "id": "mda-emergency-number",
+      "claim": "Magen David Adom, Israel's national emergency medical service, is reached by dialling 101 for medical emergencies.",
+      "claim_type": "threshold",
+      "source_url": "https://www.mdais.org/",
+      "source_fetched_at": "2026-07-25T20:15:00Z",
+      "raw_snippet": "101",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-07-25"
+    },
+    {
+      "id": "btl-allergy-four-qualifying-events",
+      "claim": "Eligibility requires meeting the general conditions AND one of four alternative qualifying events: a food allergy event characterised by anaphylactic shock; a food allergy event expressed as an anaphylactic reaction meaning clinical response of two different body systems; a food allergy event expressed as shortness of breath characterised by a drop in oxygen saturation; or a food allergy event that required treatment with injected adrenaline (EpiPen).",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:40:00Z",
+      "raw_snippet": "הזכאות לקצבה היא למי שעונה על תנאי הזכאות , ו על",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-allergy-asthma-fallback",
+      "claim": "If the required real-time documentation does not exist, current documentation from a pulmonologist or allergist stating that active asthma disease is present should be brought instead.",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:40:00Z",
+      "raw_snippet": "אם לא קיים תיעוד כנדרש יש להביא תיעוד עדכני מרופא ריאות או אלרגיה כי קיימת מחלת אסטמה פעילה.",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-allergy-retroactive-12-months",
+      "claim": "The allowance is paid up to one year retroactively from the date the claim was filed.",
+      "claim_type": "threshold",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:40:00Z",
+      "raw_snippet": "הקצבה משולמת עד שנה רטרואקטיבית ממועד הגשת התביעה",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-allergy-award-duration",
+      "claim": "A first determination grants eligibility for two years. After two years, and according to the child's condition, eligibility is determined for a further three years. Subsequently eligibility is determined up to age 10.",
+      "claim_type": "threshold",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:40:00Z",
+      "raw_snippet": "קביעת זכאות בפעם הראשונה תיקבע הזכאות לקצבה למשך שנתיים. בתום שנתיים ובהתאם למצב הילד, תיקבע זכאות ל-3 שנים נוספות. בהמשך, תיקבע זכאות עד גיל 10.",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-allergy-committee-and-documents",
+      "claim": "Attaching comprehensive documents to the claim allows Bituach Leumi to examine eligibility without summoning the child to a committee. If eligibility is determined on the basis of documents, the option is preserved to request within 45 days to be examined by a committee with the child present. Current medical documents from the last year should be brought.",
+      "claim_type": "threshold",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:40:00Z",
+      "raw_snippet": "צירוף מסמכים מקיפים לתביעה, יאפשר לנו לבחון את הזכאות לקצבה",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-free-committee-prep-yad-machvana",
+      "claim": "Free consultation and preparation for the committee is available at the service centres of Yad Machvana (יד מכוונת).",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:50:00Z",
+      "raw_snippet": "באפשרותכם לקבל ייעוץ והכנה לוועדה בחינם במרכזי השירות של יד מכוונת",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-adl-exclusion-request",
+      "claim": "If summoned to a committee with the child, and the child does not need help with daily-living activities (dressing, eating, bathing, mobility inside the home, personal hygiene), it is possible to request that these activities not be examined before the committee.",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:50:00Z",
+      "raw_snippet": "אם זומנתם לוועדה עם הילד, וילדכם אינו זקוק לעזרה ב פעולות היום-יום הלבשה, אכילה, רחצה, ניידות בתוך הבית והיגיינה אישית. – ניתן לבקש",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-committee-preparation-tip",
+      "claim": "It is recommended to prepare a page listing all the child's medical problems, and to state during the committee how the medical problems affect the functioning of the child and the parents.",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:50:00Z",
+      "raw_snippet": "מומלץ להכין דף עם כל הבעיות הרפואיות של הילד, ולציין במהלך הוועדה כיצד משפיעות הבעיות הרפואיות על תפקוד הילד וההורים",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-allowance-unlocks-other-benefits",
+      "claim": "Receiving the disabled-child allowance confers entitlement to benefits at other institutions and organisations.",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:50:00Z",
+      "raw_snippet": "קבלת קצבת ילד נכה מזכה בהטבות במוסדות וארגונים אחרים",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-claim-submission-route",
+      "claim": "The claim for the disabled-child allowance can be filled in and sent online, or downloaded for manual completion.",
+      "claim_type": "form-number",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-07-25T20:50:00Z",
+      "raw_snippet": "תביעה לקצבת ילד נכה ( מילוי ושליחת תביעה באופן",
+      "confidence": "high"
+    }
+  ]
+}
