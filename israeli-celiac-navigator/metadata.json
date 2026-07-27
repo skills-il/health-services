@@ -4,8 +4,8 @@
     "en": "Israeli Celiac Navigator"
   },
   "display_description": {
-    "he": "כל מה שמשפחה עם צליאק בישראל צריכה לדעת, לפי הסדר הנכון. הסקיל מתחיל מהטעות היקרה ביותר, מעבר לתזונה ללא גלוטן עוד לפני בדיקת הדם והביופסיה, שעלול להטעות ולהקשות על האבחון, ומסביר מה בודקים ומתי נדרשת ביופסיה חוזרת. אחרי האבחון הוא מרכז את הזכויות שכמעט אף אחד לא מכיר: מה מוסדות החינוך חייבים לספק בכל פעילות כולל טיולים, ולמה המנות צריכות להיות ארוזות בצבע שונה עם סימון בולט, איך קוראים תוויות מזון בישראל, הזכות לחלופה תרופתית כשתרופה בסל לא מתאימה, סיוע חומרי דרך המחלקה לשירותים חברתיים, ומסלול הצבא כולל פרופיל 97 ודמי כלכלה. הוא גם מסביר את מלכודת הפסח, שכשר לפסח לא אומר ללא גלוטן. השתמשו בו כשחושדים בצליאק, כשמסדרים גן או בית ספר, או לקראת גיוס. לא מתאים לאלרגיה למזון ולאנפילקסיס, לתכנון תפריט כללי או לאבחון רפואי.",
-    "en": "Everything a family with celiac in Israel needs, in the right order. The skill opens with the most expensive mistake, going gluten-free before the blood test and biopsy, which can mislead and obstruct diagnosis, and explains what is actually tested and when a repeat biopsy is required. After diagnosis it consolidates the entitlements almost nobody knows: what educational institutions must provide in every activity including trips, why portions must be packaged in a different colour with prominent marking, how to read Israeli food labels, the right to a suitable medication alternative when a health-basket drug is unsuitable, municipal welfare funding for therapeutic food, and the IDF track including profile 97 and the food stipend. It also covers the Passover trap, where kosher-for-Passover does not mean gluten-free. Use it when celiac is suspected, when arranging gan or school, or ahead of enlistment. Do NOT use for IgE food allergy or anaphylaxis, general meal planning, or clinical diagnosis."
+    "he": "כל מה שמשפחה עם צליאק בישראל צריכה לדעת, לפי הסדר הנכון. הסקיל מתחיל מהטעות היקרה ביותר, מעבר לתזונה ללא גלוטן עוד לפני בדיקת הדם והביופסיה, שעלול להטעות ולהקשות על האבחון, ומסביר מה בודקים ומתי נדרשת ביופסיה חוזרת. אחרי האבחון הוא מרכז את הזכויות שכמעט אף אחד לא מכיר: מה מוסדות החינוך חייבים לספק בכל פעילות כולל טיולים, ולמה המנות צריכות להיות ארוזות בצבע שונה עם סימון בולט, איך קוראים תוויות מזון בישראל, הזכות לחלופה תרופתית כשתרופה בסל לא מתאימה, סיוע חומרי דרך המחלקה לשירותים חברתיים, ומסלול הצבא כולל פרופיל 97 ודמי כלכלה. הוא גם מסביר את מלכודת הפסח, שכשר לפסח לא אומר ללא גלוטן, ומוסיף פרק על ימי הולדת ומדף החטיפים הארוזים: אילו חטיפים וממתקים מתאימים, מהן המלכודות כמו ביסלי, בייגלה רגיל, קליק וקינדר ג'וי, ולמה הסימון על האריזה הוא שקובע. השתמשו בו כשחושדים בצליאק, כשמסדרים גן או בית ספר, כשקונים חטיפים למסיבה, או לקראת גיוס. לא מתאים לאלרגיה למזון ולאנפילקסיס, לתכנון תפריט כללי או לאבחון רפואי.",
+    "en": "Everything a family with celiac in Israel needs, in the right order. The skill opens with the most expensive mistake, going gluten-free before the blood test and biopsy, which can mislead and obstruct diagnosis, and explains what is actually tested and when a repeat biopsy is required. After diagnosis it consolidates the entitlements almost nobody knows: what educational institutions must provide in every activity including trips, why portions must be packaged in a different colour with prominent marking, how to read Israeli food labels, the right to a suitable medication alternative when a health-basket drug is unsuitable, municipal welfare funding for therapeutic food, and the IDF track including profile 97 and the food stipend. It also covers the Passover trap, where kosher-for-Passover does not mean gluten-free, and adds a section on birthday parties and the packaged-snack shelf: which Israeli snacks and sweets work, the traps such as Bisli, regular beigele, Click and Kinder Joy, and why the marking on the pack is what decides. Use it when celiac is suspected, when arranging gan or school, when buying party snacks, or ahead of enlistment. Do NOT use for IgE food allergy or anaphylaxis, general meal planning, or clinical diagnosis."
   },
   "tags": {
     "he": [
@@ -20,7 +20,9 @@
       "פרופיל רפואי",
       "פסח",
       "ילדים",
-      "ישראל"
+      "ישראל",
+      "חטיפים",
+      "ימי הולדת"
     ],
     "en": [
       "celiac",
@@ -34,11 +36,13 @@
       "idf-profile",
       "passover",
       "children",
-      "israel"
+      "israel",
+      "snacks",
+      "birthday-party"
     ]
   },
   "author": "skills-il",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "health-services",
   "supported_agents": [
     "claude-code",
@@ -58,9 +62,21 @@
   "openclaw": true,
   "volatility": "annual",
   "authoritative_sources": [
-    { "url": "https://www.kolzchut.org.il", "type": "aggregator", "language": "he" },
-    { "url": "https://www.schneider.org.il/?CategoryID=832&ArticleID=2439", "type": "hospital", "language": "he" },
-    { "url": "https://www.leumit.co.il/nutrition/celiac-nutrition-without-gluten/", "type": "hmo", "language": "he" }
+    {
+      "url": "https://www.kolzchut.org.il",
+      "type": "aggregator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.schneider.org.il/?CategoryID=832&ArticleID=2439",
+      "type": "hospital",
+      "language": "he"
+    },
+    {
+      "url": "https://www.leumit.co.il/nutrition/celiac-nutrition-without-gluten/",
+      "type": "hmo",
+      "language": "he"
+    }
   ],
-  "domain_checklist_version": 1
+  "domain_checklist_version": 2
 }

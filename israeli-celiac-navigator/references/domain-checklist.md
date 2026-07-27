@@ -29,7 +29,8 @@ Leumi disabled-child impairment list.
 - [x] Kitniyot is a kashrut category and says nothing about gluten, why: the most common vocabulary confusion in this domain
 - [x] Label-reading method plus written manufacturer confirmation, source: Leumit
 - [x] Government helplines, source: Kol-Zchut
-- [ ] Named gluten-free product brands and prices, deliberately NOT included, they change constantly; pair with the `supermarket-prices` MCP instead
+- [x] Birthday parties and the packaged-snack shelf: the three-tier sorting method, the named traps (Bisli, regular beigele, Click, wafers and biscuits, Pesek Zman, Kif Kif, Kinder Joy, Krembo, KitKat and Twix, ice-cream cones, soup nuts), the same-brand-two-versions pattern, the party table and cake cross-contamination rules, the gan-party link back to the Step 3 entitlement, the unpackaged-food category, and the read-the-pack rule, source: Celiac Rights Organisation plus Osem product line, v1.1.0
+- [~] Named gluten-free product brands, SCOPE REOPENED 2026-07-27. Previously excluded because brand lists age badly. Reopened because "what can my child eat at a birthday party" is the single most common parent question and silence was not an answer. Resolved 2026-07-27 by shipping a dated community shortlist in `references/birthday-snacks.md` that is explicitly not certification, with the marking-on-the-pack rule attached to every quote. Prices remain out of scope; pair with the `supermarket-prices` MCP. Closure criterion: every row carries an explicit shelf-verification cell, no row grants brand-wide clearance, and the file is re-verified at each skill update. Re-check next cycle.
 
 ## Out of scope (explicit, with rationale)
 
@@ -47,6 +48,8 @@ Leumi disabled-child impairment list.
 - https://www.leumit.co.il/nutrition/celiac-nutrition-without-gluten/, grains, contamination, Pesach, medication starch
 - https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/default.aspx, whether celiac has been ADDED as a criterion, this is the single highest-value thing to re-check
 - https://www.gov.il/he/pages/allergens-guidance, labelling requirement changes
+- https://celiacrights.org.il, which product categories contain gluten, and the maintained food guide that supersedes any static shortlist
+- https://lelogluten.schaer.com/travels, Israeli retail availability of dedicated gluten-free ranges
 
 ## Re-check priorities for the next update cycle
 
@@ -54,3 +57,4 @@ Leumi disabled-child impairment list.
 2. Whether the allergen labelling reform changed the required gluten declaration format
 3. Whether the IDF unit-exclusion list has changed
 4. Whether European diagnostic guidance has shifted on biopsy-free diagnosis in children, which would change Step 1 materially
+5. Re-verify every row in `references/birthday-snacks.md`. It is community-sourced and ages faster than anything else in this skill. Any row a family relies on repeatedly should be confirmed against the manufacturer in writing or dropped

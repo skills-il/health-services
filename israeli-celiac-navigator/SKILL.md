@@ -1,6 +1,6 @@
 ---
 name: israeli-celiac-navigator
-description: "Navigator for celiac (tzeliak) and gluten-free life in Israel, focused on children. Opens with the costliest mistake: going gluten-free BEFORE the blood test and biopsy, which can mislead and obstruct diagnosis. Covers the IgA serology panel (anti-TTG, anti-endomysium), the IgA-deficiency caveat, and when a repeat biopsy is needed. Covers the education entitlement (substitutes in every activity inside or outside the institution, gluten-free offering wherever food is sold, portions in a different colour with prominent marking), Israeli gluten labelling, the right to a suitable medication alternative, municipal welfare funding, the Pesach trap where kosher-for-Passover is not gluten-free, and the IDF track (profile 97, unit exclusions, food stipend). Notes that celiac is not a Bituach Leumi disabled-child criterion. Use when celiac is suspected, arranging gan or school, or nearing enlistment. Do NOT use for IgE food allergy or anaphylaxis (use israeli-food-allergy-navigator) or meal planning."
+description: "Navigator for celiac (tzeliak) and gluten-free life in Israel, focused on children. Opens with the costliest mistake: going gluten-free BEFORE the blood test and biopsy, which can mislead and obstruct diagnosis. Covers the IgA serology panel, the IgA-deficiency caveat, and when a repeat biopsy is needed. Covers the education entitlement (substitutes in every activity, gluten-free offering wherever food is sold, portions marked distinctly), Israeli gluten labelling, the right to a suitable medication alternative, municipal welfare funding, the Pesach trap where kosher-for-Passover is not gluten-free, and the IDF track (profile 97, unit exclusions, stipend). Also covers birthday parties and the snack shelf: which snacks work, the traps such as Bisli, beigele, Click and Kinder Joy, and why the pack marking decides. Use when celiac is suspected, arranging gan or school, buying party snacks, or nearing enlistment. Do NOT use for IgE food allergy or anaphylaxis (use israeli-food-allergy-navigator) or meal planning."
 license: MIT
 ---
 
@@ -32,6 +32,7 @@ The single most important branch in this skill is whether a diagnosis exists yet
 | Already went gluten-free, now wants testing | Step 1, and read the warning carefully. This is the hard case. |
 | Diagnosed, arranging gan or school | Step 3 |
 | Diagnosed, shopping and labels | Step 4 |
+| Birthday party, what snacks can the child have | Step 4b |
 | Diagnosed, Pesach approaching | Step 5 |
 | Teen approaching enlistment | Step 6 |
 | Asking about allowances and funding | Step 7. Manage expectations first. |
@@ -81,6 +82,34 @@ Draft the request in Hebrew, short and factual, and keep it separate from any al
 
 1. Check whether the drug contains **flour or starch originating from wheat**. Excipients are where gluten hides in a medicine cabinet.
 2. When a celiac patient needs drug treatment but the treatment in the **health basket is not suitable** for celiac patients, there is a **right to receive a suitable alternative**. This is a real entitlement and is worth raising with the physician and the kupah rather than paying privately for an alternative formulation.
+
+### Step 4b: Birthday parties and the packaged-snack shelf
+
+This is the most frequent real-world question a celiac parent has, and it is not meal planning. It is one narrow decision made under time pressure in a supermarket aisle: which packaged party snacks can go in the bag so the child's plate looks like everyone else's.
+
+Sort the shelf into three tiers rather than memorising products.
+
+| Tier | What it means | How to treat it |
+|---|---|---|
+| Naturally gluten-free base | Corn, potato or peanut based snacks with no flour in the recipe | Never a blanket clearance for the brand. The seasoning is where wheat enters, so check flavour by flavour, and never say "the whole range is fine" |
+| Same brand, two versions | The brand sells both a regular and a marked gluten-free product side by side | Only the pack carrying **"ללא גלוטן"** is suitable. The regular one is not. **A "כשר לפסח" marking is not a substitute**, see Step 5 |
+| Dedicated gluten-free brands | Ranges made only gluten-free, such as Schär, widely stocked including Nitzat HaDuvdevan, Anis and the large chains | Safe by design, but the least "party-looking", so pair with tier one |
+
+Anything **unpackaged** falls outside all three tiers: homemade cake, a platter someone brought, bulk-bin sweets, a bakery cake, a chocolate fountain. No pack means no ingredient list and no traceability, so the answer is no, however confident the person offering it is.
+
+**The traps, which is the higher-value half.** Bisli is a wheat-flour snack: wheat flour is the leading ingredient at roughly 80 to 85 percent of the product. Regular beigele is wheat. Treat as out unless the pack in hand says otherwise: Click, standard wafers, cookies and biscuits, Pesek Zman, Kif Kif, Krembo, KitKat and Twix, ice-cream cones and soup nuts. The one that catches families every time is that the regular Kinder Surprise egg and Kinder Joy are not the same product. Teach that as the transferable rule: **same brand, different product**, so the marking is checked on the specific box rather than inferred from the logo.
+
+**The cake is the centre of the event and needs its own answer.** Send an equivalent individually-wrapped gluten-free cupcake so the child has something at the candle moment. Ask that it be cut with a clean knife and served from its own wrapper, because one knife through the gluten cake and then the child's portion undoes everything. Treat a "gluten-free" cake baked in a home kitchen with shared tins, a shared oven and flour in the air as a different risk class from a sealed packaged product.
+
+**The party table is where a correctly-shopped child still gets glutened.** Serve the child's portion first, from its own sealed pack onto its own plate, never from a communal bowl. No shared dips, no double-dipped pita, no shared serving tongs. Wipe the table space before the child sits. Give the child and the host a short scripted answer for the adult who says a little bite will not hurt, because that is a safety rule and not a matter of feelings.
+
+**A party inside the gan or school is a different situation from a home party.** In an educational institution this is not shopping, it is the Step 3 entitlement: substitutes in every activity, a gluten-free offering wherever food is supplied, and portions in a different colour with prominent marking. Ask the staff to apply that mechanism. At a private home party there is no entitlement, only a conversation with another parent, so the parent supplies the food themselves.
+
+**The rule that must accompany any list.** Israeli law makes this checkable at the shelf: on a product containing gluten, the ingredient list must name the source plant and state **"מכיל גלוטן"**. So the instruction is always to read the pack in hand, not to trust a remembered product name. Manufacturers change recipes and production lines, which is precisely why a circulated list ages badly.
+
+`references/birthday-snacks.md` carries a community shortlist of specific products commonly used for Israeli birthday parties. Present it as a starting point for the aisle, never as certification, and repeat the read-the-pack rule whenever you quote from it.
+
+**Practical party moves.** Ask the host in advance what is being served, send an equivalent-looking portion in the child's own packaging, and keep the wrapper until the party is over so the marking can be re-checked if anyone asks.
 
 ### Step 5: Pesach, where intuition fails
 
@@ -141,6 +170,7 @@ Answer honestly that celiac is not a named criterion on the disabled-child impai
 | `references/diagnosis-pathway.md` | Serology, IgA caveat, biopsy, repeat-biopsy triggers, and the pre-test gluten rule |
 | `references/entitlements-and-education.md` | Education obligations, medication alternative, municipal welfare funding, IDF track |
 | `references/labels-and-pesach.md` | Israeli gluten labelling, cross-contamination, and the Passover distinctions |
+| `references/birthday-snacks.md` | Community shortlist of birthday-party snacks and sweets, the traps, and the read-the-pack rule |
 
 ## Recommended MCP Servers
 
@@ -161,6 +191,8 @@ These are agent failure modes, not user errors.
 5. **Do not quote an IDF stipend figure.** The amount is not published as a fixed number and varies by open or closed base.
 6. **Do not equate kosher-for-Passover with gluten free, or kitniyot with gluten.** Two separate vocabularies, and conflating them puts matza flour on a celiac plate.
 7. **Do not treat a single negative serology as conclusive** without noting the IgA-deficiency caveat.
+8. **Do not present the birthday-snack shortlist as certification.** It is a community list with a compilation date, and recipes and production lines change. Every quote from it must carry the read-the-pack rule. An agent that answers "yes, that product is gluten free" instead of "that product is on a shortlist, check the marking on the pack" has converted a shopping aid into a safety claim it cannot back.
+9. **Do not generalise a marking from a brand to its whole range.** Beigele, Petit Beurre and the Kinder eggs all have a safe version and an unsafe version sold beside each other.
 
 ## Reference Links
 
@@ -171,6 +203,7 @@ These are agent failure modes, not user errors.
 | Leumit, celiac nutrition | https://www.leumit.co.il/nutrition/celiac-nutrition-without-gluten/ | Grains, cross-contamination, Passover, medication starch |
 | Bituach Leumi, impairment list | https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/default.aspx | Whether celiac has been added as a criterion |
 | Ministry of Health allergen guidance | https://www.gov.il/he/pages/allergens-guidance | Current labelling requirements |
+| Celiac Rights Organisation, gluten-free nutrition | https://celiacrights.org.il | Which product categories contain gluten, and the duty to re-check labels |
 
 ## Troubleshooting
 

@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-celiac-navigator",
   "schemaVersion": "1.0",
-  "generated_at": "2026-07-26",
+  "generated_at": "2026-07-27T12:00:00Z",
   "claims": [
     {
       "id": "gluten-free-diet-before-diagnosis-misleads",
@@ -217,10 +217,10 @@
       "claim": "The Ministry of Health publishes binding guidance on providing consumers with information about allergens and substances causing hypersensitivity, which governs current labelling requirements.",
       "claim_type": "url",
       "source_url": "https://www.gov.il/he/pages/allergens-guidance",
-      "source_fetched_at": "2026-07-26T09:40:00Z",
-      "raw_snippet": "מדריך בנושא מסירת מידע לצרכנים בקשר לאלרגנים ולחומרים הגורמים לרגישות יתר",
+      "source_fetched_at": "2026-07-27T12:00:00Z",
+      "raw_snippet": "מדריך בנושא מסירת מידע לצרכנים בקשר לאלרגנים ולחומרים הגורמים לאי סבילות במזון",
       "verified_via": "browser",
-      "verified_at": "2026-07-26",
+      "verified_at": "2026-07-27T12:00:00Z",
       "confidence": "medium"
     },
     {
@@ -232,6 +232,87 @@
       "raw_snippet": "כל זכות",
       "verified_via": "browser",
       "verified_at": "2026-07-26",
+      "confidence": "high"
+    },
+    {
+      "id": "bisli-wheat-flour-leading-ingredient",
+      "claim": "Bisli is a wheat-flour snack; wheat flour containing gluten is the leading ingredient at roughly 80 to 85 percent of the product.",
+      "claim_type": "fact",
+      "source_url": "https://www.foodsdictionary.co.il/Products/4/%D7%91%D7%99%D7%A1%D7%9C%D7%99%20%D7%91%D7%98%D7%A2%D7%9D%20%D7%92%D7%A8%D7%99%D7%9C",
+      "source_fetched_at": "2026-07-27T12:00:00Z",
+      "raw_snippet": "קמח חיטה (מכיל גלוטן) (84%)",
+      "confidence": "high"
+    },
+    {
+      "id": "gluten-containing-snack-categories",
+      "claim": "Cakes, cookies, wafers, Pesek Zman and Kif Kif contain gluten, as do flour-based snacks such as Bisli and Kabukim.",
+      "claim_type": "fact",
+      "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
+      "source_fetched_at": "2026-07-27T12:00:00Z",
+      "raw_snippet": "עוגות, עוגיות, וופלים, פסק זמן, כיף כיף ... חטיפים המכילים קמח כמו ביסלי וקבוקים",
+      "confidence": "high"
+    },
+    {
+      "id": "labelling-duty-gluten-source-in-ingredients",
+      "claim": "Israeli Ministry of Health rules require a product containing gluten to state so and to name its source in the ingredient list.",
+      "claim_type": "regulation",
+      "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
+      "source_fetched_at": "2026-07-27T12:00:00Z",
+      "raw_snippet": "לפי תקנות משרד הבריאות חובה לציין כי המוצר מכיל גלוטן ואת מקורו ברשימת הרכיבים",
+      "confidence": "high"
+    },
+    {
+      "id": "osem-marked-gluten-free-beigele-line",
+      "claim": "Osem sells a beigele line explicitly marked gluten-free alongside its regular beigele, so only the marked pack is suitable.",
+      "claim_type": "fact",
+      "source_url": "https://www.shufersal.co.il/online/he/p/P_7290112967138",
+      "source_fetched_at": "2026-07-27T12:00:00Z",
+      "raw_snippet": "בייגלה שמיניות ללא גלוטן",
+      "confidence": "high"
+    },
+    {
+      "id": "schar-sold-outside-standard-snack-aisle",
+      "claim": "Schaer gluten-free products are widely stocked in Israel, including Nitzat HaDuvdevan, Anis and the large supermarket chains.",
+      "claim_type": "fact",
+      "source_url": "https://lelogluten.schaer.com/travels/היכן-לקנות-מוצרי-שר-בישראל.html",
+      "source_fetched_at": "2026-07-27T12:00:00Z",
+      "raw_snippet": "ניצת הדובדבן",
+      "confidence": "medium"
+    },
+    {
+      "id": "birthday-snack-shortlist-is-community-sourced",
+      "claim": "The named product shortlist in references/birthday-snacks.md is a parents' community list compiled 2026-07-27, not manufacturer certification, and the marking on the pack decides.",
+      "claim_type": "provenance",
+      "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
+      "source_fetched_at": "2026-07-27T12:00:00Z",
+      "raw_snippet": "אינו מכיל גלוטן",
+      "confidence": "high"
+    },
+    {
+      "id": "celiacrights-home",
+      "claim": "Celiac Rights Organisation site, the patient organisation whose gluten-free nutrition guidance this skill cites.",
+      "claim_type": "reference",
+      "source_url": "https://celiacrights.org.il",
+      "source_fetched_at": "2026-07-27T12:00:00Z",
+      "raw_snippet": "ארגון זכויות הצליאק",
+      "confidence": "high"
+    },
+    {
+      "id": "common-gluten-containing-party-items",
+      "claim": "Wafer, biscuit and cake based party items commonly contain gluten; the skill lists them as items to treat as unsuitable unless the pack says otherwise, rather than as verified per-product facts.",
+      "claim_type": "fact",
+      "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
+      "source_fetched_at": "2026-07-27T12:00:00Z",
+      "raw_snippet": "עוגות, עוגיות, וופלים, פסק זמן, כיף כיף",
+      "confidence": "medium"
+    },
+    {
+      "id": "schaer-il-retail-index",
+      "claim": "Schaer Israel publishes an index of the retail chains stocking its products.",
+      "claim_type": "reference",
+      "source_url": "https://lelogluten.schaer.com/travels",
+      "source_fetched_at": "2026-07-27T12:00:00Z",
+      "raw_snippet": "הכנו עבורכם את רשימת הרשתות בהן ניתן להשיג את מוצרינו",
       "confidence": "high"
     }
   ]
