@@ -152,7 +152,7 @@ Finding a private therapist:
 - University training clinics offer reduced rates. Ask the specific clinic for its current rate
 
 Tax benefits:
-- Mental health expenses may be partially tax-deductible under section 17 of the Income Tax Ordinance if prescribed as medical treatment
+- Mental health expenses may be partially tax-deductible if prescribed as medical treatment. Confirm the applicable provision with a tax adviser or the Tax Authority rather than relying on a section number quoted here
 - Keep all receipts (kabbalot, קבלות) for tax filing
 
 ### Step 6: Workplace Mental Health
@@ -195,7 +195,7 @@ Bituach Leumi general disability recognition (mental health track):
 2. Attach a psychiatric or psychological opinion plus relevant medical documentation
 3. Attend a medical committee evaluation (vaada refuit, ועדה רפואית)
 4. Eligibility requires medical disability of at least 60%, or at least 40% if there are multiple impairments and one of them reaches 25%
-5. As of January 2026, the full single pension (kitzva yechid male'a, קצבת יחיד מלאה) is around 4,711 NIS per month for those with at least 75% loss of earning capacity, with earnings tested against a monthly threshold of around 8,261 NIS
+5. As of 01.01.2026 Bituach Leumi publishes a full monthly pension of 4,711 NIS at a full incapacity grade (100% or 75%), 3,211 NIS at 74%, 2,894 NIS at 65% and 2,718 NIS at 60%, plus 1,214 NIS per child and 1,518 NIS for a spouse at the full grade (spouse income ceiling 7,848 NIS gross per month). Eligibility is also income-tested; the current earnings threshold is published on the Bituach Leumi eligibility page and should be read there rather than quoted from memory
 6. The mental health rehabilitation basket (sal shikum, סל שיקום) is a SEPARATE Ministry of Health entitlement at a lower bar. It does not require a pension or an earning-capacity finding. Israeli residents aged 18 and over with at least 40% psychiatric disability qualify, determined either by Bituach Leumi or by a psychiatrist authorized by the Ministry of Health. Application is to a regional rehabilitation committee. Covered services include housing (hostels, supported and assisted living), employment, education, dental treatment, leisure, therapy coordination, initial-equipment funding, social mentorship, and family counseling centers. Your outpatient clinic is obliged to help you prepare the committee application; that assistance is itself part of the health basket.
 
 For terror or war-related trauma, the hostility-victims track at Bituach Leumi (medical/financial benefits via the Ministry of Defense determining authority) is usually faster and more generous than the general disability track. Use Form 571 for Iron Swords claims.
@@ -282,10 +282,10 @@ Result: Patient is connected to trauma-specialized treatment through their kupat
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Ministry of Health - Mental Health | https://me.health.gov.il/en/mental-health | Official crisis line numbers, service listings, policy updates |
-| ERAN | https://en.eran.org.il/ | ERAN hotline details, languages, operating hours |
-| Natal | https://natal.org.il/ | Natal contact number, trauma services, operating hours |
-| Sahar | https://sahar.org.il/ | Online chat availability, WhatsApp contact, hours |
+| Ministry of Health, official helpline index | https://me.health.gov.il/mental-health/therapy-rehabilitation/crisis-support/first-aid/ | Official crisis line numbers, service listings, policy updates |
+| ERAN | https://www.eran.org.il/online-emotional-help/ | ERAN hotline details, languages, operating hours |
+| Natal | https://www.natal.org.il/קו-הסיוע-של-נטל/ | Natal contact number, trauma services, operating hours |
+| Sahar | https://sahar.org.il/help/ | Online chat availability, WhatsApp contact, hours |
 | BeTipulNet | https://betipulnet.co.il/ | Therapist directory, crisis line listings, therapy type guides |
 | Get Help Israel | https://gethelpisrael.com/ | English-language hotline directory, therapist finder |
 

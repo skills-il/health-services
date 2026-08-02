@@ -105,7 +105,7 @@ Note: *8944 was previously listed here as a youth line. It is not. *8944 is Nefe
 | Sexual assault support centers (Merkazei Siyua) | 1202 (answered by women), 1203 (answered by men), 052-836-1202. Online chat at 1202.org.il | 24/7, 7 days a week | Sexual assault support, legal guidance, accompaniment through medical and criminal proceedings |
 | Family violence emergency line | 1-800-220-000 | 24/7 | Domestic violence. Note: this number is NOT the sexual assault line; the two are frequently confused |
 
-Three further numbers previously listed in this section (WIZO 1-800-353-300, No2Violence *6310, Na'amat 1-800-28-1201) were removed because they could not be confirmed on the operating organisation's own page. For domestic violence, route to 118 or to the family violence line above; for sexual assault, route to 1202 or 1203.
+Three further numbers previously listed in this section (for WIZO, No2Violence and Na'amat) were removed because they could not be confirmed on the operating organisation's own page. For domestic violence, route to 118 or to the family violence line above; for sexual assault, route to 1202 or 1203.
 
 ### LGBTQ+
 
@@ -123,7 +123,7 @@ Three further numbers previously listed in this section (WIZO 1-800-353-300, No2
 | Sexual assault support centers | 1202 (women), 1203 (men) | 24/7 | The association includes a Nazareth center serving Arab women |
 | Ministry of Welfare | 118 | 24/7 | Welfare emergencies and domestic violence |
 
-Note: the Arabic ERAN line is an extension of 1201, not a separate number, and its hours are narrow. Outside 10:00-12:00 and 19:00-21:00, route Arabic speakers to the main 1201 line, to Sahar's chat, or to 118. Three numbers previously listed in this section (Kav LaHaim *2784, Sawa 1-800-500-600, Na'am *6438) were removed because they could not be confirmed on the operating organisation's own page.
+Note: the Arabic ERAN line is an extension of 1201, not a separate number, and its hours are narrow. Outside 10:00-12:00 and 19:00-21:00, route Arabic speakers to the main 1201 line, to Sahar's chat, or to 118. Three numbers previously listed in this section (for Kav LaHaim, Sawa and Na'am) were removed because they could not be confirmed on the operating organisation's own page.
 
 ### Russian-Speaking Community
 

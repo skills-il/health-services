@@ -77,7 +77,7 @@ UNIVERSITY_CLINIC_COSTS = {
 # Sliding scale options
 SLIDING_SCALE = {
     "description": "Some therapists offer reduced fees based on financial need",
-    "typical_discount": 0.30,  # 30% typical discount
+    "typical_discount": 0.30,  # fraction off the private rate, illustrative only
 }
 
 VALID_CITIES = ["tel-aviv", "jerusalem", "haifa", "beer-sheva", "herzliya", "other"]
@@ -164,7 +164,7 @@ def estimate_costs(sessions_per_month, treatment_type, city, therapist_type):
             "per_session_low": low,
             "per_session_high": high,
             "notes": [
-                "University training clinics offer reduced rates (150-250 NIS/session)",
+                "University training clinics offer reduced rates; ask the clinic for its current rate",
                 "Therapists are graduate students supervised by licensed professionals",
                 "Quality is generally good; supervisors review all cases",
                 "Availability may be limited to academic year (October-June)",
@@ -289,7 +289,7 @@ def format_result(result):
     lines.append("  COST-SAVING OPTIONS:")
     lines.append("  * Start with kupat cholim (often free; up to 41 NIS/quarter)")
     lines.append("  * Check SHABAN for additional covered sessions")
-    lines.append("  * University training clinics: 150-250 NIS/session")
+    lines.append("  * University training clinics offer reduced rates")
     lines.append("  * Ask private therapists about sliding scale fees")
     lines.append("  * EAP through employer: 3-6 free sessions")
     lines.append("")

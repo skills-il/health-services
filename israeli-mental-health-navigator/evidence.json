@@ -9,7 +9,10 @@
       "source_url": "https://hw.haifa.ac.il/%D7%A8%D7%A4%D7%95%D7%A8%D7%9E%D7%94-%D7%91%D7%AA%D7%97%D7%95%D7%9D-%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA-%D7%94%D7%A0%D7%A4%D7%A9/",
       "raw_snippet": "הרפורמה בבריאות הנפש נכנסה לתוקף ביולי 2015, ובמסגרתה הועברה האחריות למתן הטיפול ממשרד הבריאות לקופות החולים",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "mh-budget-increase-2025-2026",
@@ -17,7 +20,10 @@
       "source_url": "https://publichealth.doctorsonly.co.il/2025/11/357456/",
       "raw_snippet": "להגדיל את עלות סל שירותי הבריאות ב-366 מיליון שקלים ב-2025 וב-175 מיליון שקלים נוספים ב-2026 לטובת שיפור שירותי בריאות הנפש",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "mh-kupot-budget-jump",
@@ -25,7 +31,10 @@
       "source_url": "https://www.ynet.co.il/health/article/s12gyxgdzg",
       "raw_snippet": "תקציב בריאות הנפש זינק מ-347 מיליון ב-2024 ל-591 מיליון ב-2025",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "eran-1201-whatsapp-sms-split",
@@ -33,7 +42,11 @@
       "source_url": "https://www.eran.org.il/online-emotional-help/",
       "raw_snippet": "צ'אט בווטסאפ ... מ- 08:00 עד 02:00 ... SMS ... מ- 08:00 עד חצות ... 052-999-3544",
       "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/crisis-hotlines-directory.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
+      ]
     },
     {
       "claim_id": "nefesh-achat-8944",
@@ -41,7 +54,11 @@
       "source_url": "https://shikum.mod.gov.il/contactus/call-center",
       "raw_snippet": "קו תמיכה 'נפש אחת' למתמודדים עם פוסט טראומה 8944* פעיל 7 ימים בשבוע, 24 שעות ביממה כולל בחגים.",
       "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/crisis-hotlines-directory.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
+      ]
     },
     {
       "claim_id": "mod-rehab-general-8150",
@@ -49,7 +66,11 @@
       "source_url": "https://shikum.mod.gov.il/contactus/call-center",
       "raw_snippet": "המוקד של אגף השיקום במשרד הביטחון *8150 ... מספר טלפון: 8150* או 03-7776777. שעות פעילות: המוקד פעיל בימים ראשון עד חמישי, מ-8:00 עד 18:00",
       "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/crisis-hotlines-directory.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
+      ]
     },
     {
       "claim_id": "beyadayim-tovot-3757",
@@ -57,7 +78,11 @@
       "source_url": "https://shikum.mod.gov.il/contactus/call-center",
       "raw_snippet": "מרכז 'בידיים טובות' לסיוע חינמי בהגשת בקשה להכרה כנכי צה\"ל והכנה לוועדות הרפואיות 3757* פעיל בימים ראשון עד חמישי בין השעות 8:00 עד 17:00.",
       "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/crisis-hotlines-directory.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
+      ]
     },
     {
       "claim_id": "combat-reaction-unit-phone",
@@ -65,7 +90,11 @@
       "source_url": "https://shikum.mod.gov.il/about/harvot-barzel/moked-harvot",
       "raw_snippet": "היחידה לתגובות קרב - נותנת מענה רפואי-נפשי לאזרחים הסובלים ממצוקה בעקבות השתתפותם בלחימה או בפעילות מבצעית בעת שירותם הצבאי (סדיר או מילואים). טלפון: 03-6401400, ימי ושעות פעילות: ראשון עד חמישי, בין השעות 09:00 עד 17:00",
       "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/crisis-hotlines-directory.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
+      ]
     },
     {
       "claim_id": "mod-6500-hours",
@@ -73,7 +102,11 @@
       "source_url": "https://shikum.mod.gov.il/about/harvot-barzel/moked-harvot",
       "raw_snippet": "מספר טלפון: 6500* או 03-7776777. שעות פעילות: מ-8:00 עד 18:00 בימים ראשון עד חמישי",
       "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/crisis-hotlines-directory.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
+      ]
     },
     {
       "claim_id": "sexual-assault-1202-1203",
@@ -81,7 +114,11 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A8%D7%9B%D7%96%D7%99_%D7%94%D7%A1%D7%99%D7%95%D7%A2_%D7%9C%D7%A0%D7%A4%D7%92%D7%A2%D7%95%D7%AA_%D7%95%D7%A0%D7%A4%D7%92%D7%A2%D7%99_%D7%AA%D7%A7%D7%99%D7%A4%D7%94_%D7%9E%D7%99%D7%A0%D7%99%D7%AA",
       "raw_snippet": "קווי החירום הארציים של איגוד מרכזי הסיוע: לנשים - 1202, לגברים - 1203 ... קווי החירום של האיגוד ומרכזי הסיוע פועלים 7 ימים בשבוע, 24 שעות ביממה",
       "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/crisis-hotlines-directory.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
+      ]
     },
     {
       "claim_id": "aguda-listening-line-2982",
@@ -89,7 +126,9 @@
       "source_url": "https://www.lgbt.org.il/yesh",
       "raw_snippet": "yesh@lgbt.org.il במייל 058-620-5591 בוואטסאפ 2982* בטלפון ... בימים א'-ה': 14:00-17:00, 19:30-22:30 שבת: 19:30-22:30 ... באיזה שפה ניתן השירות? השירות ניתן בשפה העברית. ... האם השירות כרוך בתשלום? לא. השירות ללא עלות.",
       "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": ["references/crisis-hotlines-directory.md"]
+      "appears_in": [
+        "references/crisis-hotlines-directory.md"
+      ]
     },
     {
       "claim_id": "mh-copay-by-setting",
@@ -97,15 +136,24 @@
       "source_url": "https://call.gov.il/product-page/1007419",
       "raw_snippet": "השתתפות עצמית מרפאה בקהילה - בהתאם לרופא שניוני. מרפאות חוץ בבית חולים כללי - בהתאם לביקור במרפאות חוץ. מרפאות חוץ בבית חולים פסיכיאטרי - בהתאם לרופא שניוני. פנה לרופא המשפחה לקבלת טופס הפנייה. בדוק מול הקופה האם נדרש טופס 17.",
       "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "scripts/therapy-cost-estimator.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/therapy-cost-estimator.py"
+      ]
     },
     {
       "claim_id": "maccabi-mh-entitlement-2026",
-      "claim": "Maccabi's published mental health entitlement: 2 assessment sessions (one diagnostic plus one treatment meeting) and a 15-session kartisiya within one year at Ministry of Health public clinics and hospital outpatient clinics; at private clinics under agreement, assessment plus a course of treatment at the therapist's discretion with no cap. Copay 41 NIS quarterly at a public-hospital outpatient clinic, free at a psychiatric hospital, free at public or agreement clinics. A referral plus a pre-authorization request is required. No reimbursement is given for private mental health services.",
+      "claim": "Maccabi's published mental health entitlement: 2 assessment sessions (one diagnostic plus one treatment meeting) and a 15-session kartisiya within one year at Ministry of Health public clinics and hospital outpatient clinics; at private clinics under agreement, assessment plus a course of treatment at the therapist's discretion with no cap. Copay 41 NIS (41 ש\"ח) quarterly at a public-hospital outpatient clinic, free at a psychiatric hospital, free at public or agreement clinics. A referral plus a pre-authorization request is required. No reimbursement is given for private mental health services.",
       "source_url": "https://www.maccabi4u.co.il/eligibilites/2064/",
       "raw_snippet": "אבחון לילדים או למבוגרים - 2 מפגשים. פגישת אבחון + מפגש טיפול. כרטיסייה לילדים ולמבוגרים - 15 מפגשים טיפוליים מתוך רשימה מוגדרת ועד שנה מיום הטיפול הראשון, המוקדם מביניהם. במרפאות פרטיות שבהסכם עם מכבי אבחון וסדרת טיפולים, בהתאם לשיקול דעת המטפל/ת. כמה זה עולה? במרפאות חוץ בבית חולים ציבורי - 41 ₪ השתתפות עצמית רבעונית. בבית חולים פסיכיאטרי - ללא עלות. במרפאות ציבוריות או שבהסכם - ללא עלות. לא יינתן החזר עבור שירותים פרטיים בתחום בריאות הנפש. יש לקבל הפניה ממטפל במערך בריאות הנפש או מכל רופא מטפל. יש להגיש בקשת התחייבות למכבי",
       "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/therapy-types-guide.md", "scripts/therapy-cost-estimator.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/therapy-types-guide.md",
+        "scripts/therapy-cost-estimator.py"
+      ]
     },
     {
       "claim_id": "sal-shikum-40-percent-age-18",
@@ -113,15 +161,22 @@
       "source_url": "https://me.health.gov.il/mental-health/therapy-rehabilitation/rehabilitation/rehabilitation-basket/about/",
       "raw_snippet": "תושבי ישראל בגיל 18 שנים ומעלה שנקבעו להם בביטוח הלאומי 40% ומעלה של נכות נפשית ... אחוזי הנכות במסלול זה נקבעים על ידי פסיכיאטר שהוסמך לכך על ידי משרד הבריאות",
       "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "natal-3362",
       "claim": "Natal hotline *3362 available 24/7; chat Sun-Thu 16:00-24:00.",
-      "source_url": "https://www.natal.org.il/%D7%A7%D7%95-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%A9%D7%9C-%D7%A0%D7%98%D7%9C/",
-      "raw_snippet": "נט\"ל מספקת תמיכה 24/7 בטלפון *3362 או בצ'אט בימים ראשון-חמישי בין השעות 16:00-24:00",
-      "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/crisis-hotlines-directory.md"]
+      "source_url": "https://www.natal.org.il/קו-הסיוע-של-נטל/",
+      "raw_snippet": "קו הסיוע 3362* זמין עבורכם 24/7 ... אל תסחבו את זה לבד, התקשרו לקו הסיוע שלנו 24/7 במספר 3362* או בצ'אט פה באתר בימים א'-ה' בשעות 16:00-24:00",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
+      ]
     },
     {
       "claim_id": "sahar-whatsapp",
@@ -129,7 +184,10 @@
       "source_url": "https://sahar.org.il/help/",
       "raw_snippet": "שירות בעברית זמין 24/7 בוואטסאפ - 0559571399 ובצ'אט אנונימי דרך https://sahar.org.il",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "sal-2026-auvelity-riagility",
@@ -137,7 +195,10 @@
       "source_url": "https://www.maariv.co.il/news/health/article-1286878",
       "raw_snippet": "Auvelity... פועלת על קולטני NMDA במוח... Riagility... פועלת על קולטני דופמין בצורה שונה מהשיטות המקובלות, ובעיקר יעילה בשיפור 'התסמינים השליליים'",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "form-7801-disability",
@@ -145,7 +206,10 @@
       "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/tfasimMkuvanim/Pages/nechutKlalit.aspx",
       "raw_snippet": "תביעה לקצבת נכות כללית ובקשה להענקה מטעמי צדק (7801)",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "disability-eligibility-criteria",
@@ -153,15 +217,21 @@
       "source_url": "https://me.health.gov.il/mental-health/therapy-and-rehabilitation/social-benefits/mental-disability/",
       "raw_snippet": "צריך שהוועדה תיקבע לך נכות רפואית בשיעור של 60% לפחות או 40 לפחות - אם יש לך כמה ליקויים רפואיים ועל ליקוי מסוים נקבעה לך נכות רפואית בשיעור של 25% לפחות",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "full-pension-2026",
-      "claim": "Full single disability pension as of January 1, 2026 is approximately 4,711 NIS per month for 75%+ loss of earning capacity, with monthly income threshold around 8,261 NIS.",
-      "source_url": "https://me.health.gov.il/mental-health/therapy-and-rehabilitation/social-benefits/mental-disability/",
-      "raw_snippet": "גובה הקצבה למי שדרגת אי הכושר שלה היא 75% או יותר (קצבת יחיד מלאה) היא 4,711 ש\"ח לחודש (נכון ליום 01/01/2026)... הכנסה כשכיר או כעצמאי נמוכה מ-8,261 ש\"ח, נכון לינואר 2026",
-      "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim": "Bituach Leumi published rates from 01.01.2026: full monthly pension 4,711 NIS at a full incapacity grade (100% or 75%), 3,211 NIS at 74%, 2,894 NIS at 65%, 2,718 NIS at 60%; child supplement 1,214 NIS each and spouse supplement 1,518 NIS at the full grade, with a spouse gross income ceiling of 7,848 NIS per month.",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "להלן סכומי הקצבאות (החל מ- 01.01.2026): דרגה מלאה (100% או 75%) - קצבה חודשית מלאה בסך 4,711 ש\"ח . דרגה חלקית בשיעור 74% - קצבה חודשית חלקית בסך 3,211 ש\"ח . דרגה חלקית בשיעור 65% - קצבה חודשית חלקית בסך 2,894 ש\"ח . דרגה חלקית בשיעור 60% - קצבה חודשית חלקית בסך 2,718 ש\"ח . ... דרגה מלאה (100% או 75%) - סכום התוספת הוא 1,214 ש\"ח עבור כל ילד. ... סכומי ההכנסה של בן הזוג הם עד 7,848 ש\"ח ברוטו בחודש. ... דרגה מלאה (100% או 75%) - סכום התוספת הוא 1,518 ש\"ח .",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "form-571-iron-swords",
@@ -169,7 +239,10 @@
       "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/tfassim-mekuvanim/Pages/Fill571.aspx",
       "raw_snippet": "בקשה לתגמול לנפגע פעולות איבה ממלחמת חרבות ברזל (טופס 571)",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "mod-rehab-82400-31000",
@@ -177,7 +250,10 @@
       "source_url": "https://publichealth.doctorsonly.co.il/2025/12/360044/",
       "raw_snippet": "אגף השיקום מטפל כיום ב-82,400 פצועים, מתוכם 31,000 שמתמודדים עם בעיות נפשיות ופוסט טראומה... כ-1,500 בקשות חדשות להכרה מוגשות מדי חודש, ובסוף 2026 צפויים להתקבל עוד 10,000 פצועים",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "mod-6500-iron-swords-hotline",
@@ -185,7 +261,10 @@
       "source_url": "https://shikum.mod.gov.il/about/harvot-barzel/moked-harvot",
       "raw_snippet": "מוקד טלפוני 6500* לפצועי מלחמת התקומה (חרבות ברזל)",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "reservist-30-days-therapy",
@@ -193,7 +272,10 @@
       "source_url": "https://www.btl.gov.il/HaravotBarzel1/KizbeotHB/MiloeimHB/Pages/MsrtimMiloeim.aspx",
       "raw_snippet": "מי ששירת 30 ימים או יותר בצו 8 החל מה-1 בינואר 2025, זכאים להחזרים על טיפול פסיכולוגי, רגשי וזוגי למשרתי מילואים ובני משפחותיהם",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "resilience-centers-1.3m",
@@ -201,15 +283,21 @@
       "source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2025/Swords-of-Iron-1/2025-Swords-of-Iron-200-Taktzir.pdf",
       "raw_snippet": "משרד הבריאות הפעיל מרכזי חוסן באזור הדרום, הצפון ויהודה ושומרון, אשר שירתו כ-1.3 מיליון אזרחים... רק עם פרוץ המלחמה הקים את המרכז הארצי",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "private-rates-2025-hebpsy",
-      "claim": "HebPsy 2025 survey: national average around 395 NIS per session (2% above 2024); psychologists 421±54, social workers 371±57, art therapists 366±49; Tel Aviv/Shfela premium ~40 NIS.",
+      "claim": "HebPsy 2025 survey: national average around 395 NIS per session (2% above 2024); psychologists 421 NIS, social workers 371 NIS, art therapists 366 NIS; Tel Aviv/Shfela premium about 40 NIS.",
       "source_url": "https://www.hebpsy.net/page.asp?id=101",
       "raw_snippet": "מגמת התייקרות כללית של כ-2% בתעריף הטיפול הנפשי - מממוצע של 386 ש\"ח ל-395 ש\"ח... פסיכולוגים: 421 ש\"ח ± 54 ש\"ח, אצל עובדים סוציאליים: 371 ש\"ח ± 57 ש\"ח, אצל מטפלים באמצעות אמנויות: 366 ש\"ח ± 49 ש\"ח... הפער... 40 ש\"ח",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "sick-pay-structure",
@@ -217,7 +305,10 @@
       "source_url": "https://www.kolzchut.org.il/he/%D7%99%D7%9E%D7%99_%D7%9E%D7%97%D7%9C%D7%94",
       "raw_snippet": "1.5 ימי מחלה לכל חודש עבודה מלא, עד למקסימום של 90 יום... יום העדרות ראשון אינו משולם, ימים שני ושלישי 50%, מהיום הרביעי - 100%",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "hostility-victims-ptsd-flexibility-late-2025",
@@ -225,7 +316,99 @@
       "source_url": "https://www.btl.gov.il/benefits/Victims_of_Hostilities/Casualties_benefits/Pages/default.aspx",
       "raw_snippet": "שינוי משמעותי בסוף 2025 הוא ההכרה שפוסט-טראומה (PTSD) אינה תופעה חולפת... מתבטא בהארכת טיפולים פסיכולוגיים, ויש כעת גמישות רבה יותר באישור סדרות טיפול נוספות לנפגעי טראומה",
       "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "moh-helpline-index-2026",
+      "claim": "Ministry of Health official helpline index (page dated 2 March 2026) lists the four kupah mental health support lines (Clalit *8703, Maccabi *3555, Meuhedet *3833, Leumit *507), each also offering 3 telephone therapy calls; ERAN 1201 with WhatsApp 052-8451201 and SMS 052-9993544, 24/7; Sahar 24/7 via chat; the immigrant support line *3201 in Amharic, Russian, French, Spanish and English; Tene Briut 04-6323544; and the Ministry of Health line *5400 / 08-6241010.",
+      "source_url": "https://me.health.gov.il/mental-health/therapy-rehabilitation/crisis-support/first-aid/",
+      "raw_snippet": "מוקדי תמיכה נפשית של קופות החולים: בקופות החולים יש מוקד תמיכה נפשית ובנוסף אפשרות לטיפולי תמיכה רגשית באמצעות 3 שיחות טיפוליות בטלפון על ידי אנשי המקצוע. כללית: 8703* מכבי: 3555* מאוחדת: 3833* לאומית: 507* ... ער\"ן: עזרה ראשונה נפשית ... המוקד פעיל 24 שעות ביממה, במשך כל ימות השנה. טלפון: 1201 ... הוואטסאפ: 052-8451201 באמצעות מסרונים: 052-9993544 ... סהר ... המוקד פעיל 24 שעות ביממה, במשך כל ימות השנה, דרך צ'אט באתר ... מוקד תמיכה וסיוע לעולים: שמופעל על ידי אנשי מקצוע ונותן מענה בשפות: אמהרית, רוסית, צרפתית, ספרדית, ואנגלית. טלפון: 3201* ... טנא בריאות ... טלפון: 04-6323544 ... צרו איתנו קשר 5400* או 08-6241010",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
+      ]
+    },
+    {
+      "claim_id": "psychiatric-er-cost",
+      "claim": "A visit to a psychiatric emergency room at a psychiatric hospital is free of charge and needs no referral; a psychiatric consult in a general hospital ER carries a fee that is reduced with a Form 17 commitment from the kupah and waived entirely if the patient is admitted.",
+      "source_url": "https://me.health.gov.il/mental-health/therapy-rehabilitation/crisis-support/first-aid/",
+      "raw_snippet": "עלות: ביקור בחדר מיון בבית חולים פסיכיאטרי לא כרוך בתשלום, ולמרות העובדה שלא נדרשת הפנייה, רצוי להתייעץ לפני ההגעה עם המוקד הנפשי בקופת החולים ... עלות: הביקור כרוך בתשלום אגרה. אפשר לבקש מקופת החולים טופס התחייבות (טופס 17) ואז התשלום מופחת. במקרה של אשפוז יינתן פטור מתשלום האגרה",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "eran-arabic-extension-7",
+      "claim": "ERAN's Arabic helpline is 1201 extension 7, operating only 10:00-12:00 and 19:00-21:00, free and fully anonymous, for all sectors of Arab society including Druze and Bedouin. It is NOT a 24/7 line.",
+      "source_url": "https://www.eran.org.il/eran-for-the-community/arabic-helpline/",
+      "raw_snippet": "קו הסיוע בערבית – 1201 שלוחה 7",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": [
+        "references/crisis-hotlines-directory.md"
+      ]
+    },
+    {
+      "claim_id": "sahar-24-7-he-ar",
+      "claim": "Sahar provides anonymous 24/7 support via chat and WhatsApp (055-957-1399, linked on the page as wa.me/972559571399), with no registration or identification required, currently in Hebrew and Arabic only.",
+      "source_url": "https://sahar.org.il/help/",
+      "raw_snippet": "אנחנו כאן להקשיב ולהטעין אותך בכוחות חדשים 24/7. אפשר לשתף מה שמתאים לך ובקצב שלך ואין צורך להרשם או להזדהות. *כרגע השירות ניתן בשפה העברית וערבית בלבד",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
+      ]
+    },
+    {
+      "claim_id": "betipulnet-directory",
+      "claim": "BeTipulNet is an Israeli portal offering psychological services in one place, including an index of mental health professionals.",
+      "source_url": "https://betipulnet.co.il/",
+      "raw_snippet": "פורטל בטיפולנט מציע מגוון שירותים פסיכולוגים במקום אחד, ביניהם אינדקס לאנשי מקצוע",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/therapy-types-guide.md"
+      ]
+    },
+    {
+      "claim_id": "gethelpisrael-directory",
+      "claim": "Get Help Israel provides English speakers with access to verified mental health specialists plus resources on navigating the Israeli mental health system.",
+      "source_url": "https://gethelpisrael.com/",
+      "raw_snippet": "provides English-speakers with access to verified mental health specialists as well as resources and information on navigating the mental health system in Israel.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "btl-6050-call-center",
+      "claim": "*6050 is the Bituach Leumi national call center, not a mental health or youth crisis line.",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "*6050",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": [
+        "references/crisis-hotlines-directory.md"
+      ]
+    },
+    {
+      "claim_id": "form-7801-hebrew-label",
+      "claim": "Bituach Leumi form 7801, written in Hebrew as טופס 7801, is the general disability pension claim form.",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/tfasimMkuvanim/Pages/nechutKlalit.aspx",
+      "raw_snippet": "תביעה לקצבת נכות כללית ובקשה להענקה מטעמי צדק (7801)",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }
