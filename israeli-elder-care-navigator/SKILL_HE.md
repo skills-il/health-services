@@ -353,13 +353,13 @@ license: MIT
 | כל-זכות (סכומי קצבת זקנה) | https://www.kolzchut.org.il/he/קצבת_זיקנה_בסיסית | סכומי הקצבה ל-2026 לפי גיל ומצב משפחתי |
 | כל-זכות (קשישים) | https://www.kolzchut.org.il/he/קשישים | מדריך זכויות מקיף לקשישים |
 | כל-זכות (ביטוח סיעודי קבוצתי) | https://www.kolzchut.org.il/he/ביטוח_סיעודי_קבוצתי_אחיד_של_קופות_החולים | כללי ביטוח סיעודי אחיד בקופות |
-| האפוטרופוס הכללי (ייפוי כוח) | https://www.gov.il/he/departments/topics/apotropos-general | רישום ייפוי כוח מתמשך והליכים |
+| האפוטרופוס הכללי (ייפוי כוח) | https://www.gov.il/he/service/edit_and_deposit_continuous_power_of_attorney | רישום ייפוי כוח מתמשך והליכים |
 | משרד הבריאות (הנחיות מקדימות) | https://www.gov.il/he/service/dying-patient-request | טפסי חוק החולה הנוטה למות |
-| משרד הבריאות (שירותים לקשישים) | https://www.health.gov.il | רישוי בתי אבות, צופני השמה |
+| משרד הבריאות (שירותים לקשישים) | https://www.gov.il/he/departments/ministry_of_health/govil-landing-page | רישוי בתי אבות, צופני השמה |
 | רשות האוכלוסין (היתר עובד זר) | https://www.gov.il/he/service/nursing_foreign_worker | היתר להעסקת עובד זר בסיעוד |
 | יד שרה | https://yad-sarah.net | השאלת ציוד, לחצן מצוקה, מוקד *6444 |
 | קרן סעיף 2 ועידת התביעות | https://www.claimscon.org | קצבה חודשית לניצולי שואה |
-| הרשות לזכויות ניצולי השואה | https://www.gov.il/he/departments/holocaust_survivors_rights_authority | השלמות ישראליות לניצולים |
+| הרשות לזכויות ניצולי השואה | https://www.gov.il/he/departments/holocaust-survivors-rights | השלמות ישראליות לניצולים |
 | לוח גיל פרישה לנשים | https://www.gov.il/he/pages/women_retirement_age_news | גיל פרישה לפי שנת לידה |
 
 ## פתרון בעיות

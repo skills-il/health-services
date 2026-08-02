@@ -81,11 +81,11 @@ This is a **government benefit** (not insurance). It provides home care hours fo
 | Level 5 | 8-9 | 26 hours | 22 hours | 4, or 9 with social worker approval |
 | Level 6 | 9.5-10.5 | 30 hours | 26 hours | 4, or 10 with social worker approval |
 
-**Reduced (50%) benefit:** anyone who fails the full-benefit income band but stays under the cut-off (see the means test below) receives **half the units at every level and in every option they choose**. A level 6 recipient on the reduced rate gets 15 hours (13 with a foreign worker), not 30.
+**Reduced (50%) benefit:** anyone above the full-benefit income band but under the cut-off receives **half the units at every level, in every option**. A level 6 recipient on the reduced rate gets 15 hours (13 with a foreign worker), not 30.
 
 **Level 1 is a four-way election, not a flat 5.5 hours.** A level 1 recipient chooses one of: 5.5 weekly hours of personal home care; services worth **9 service units** that exclude personal home care (day centre, supportive community, absorbent products, panic button, laundry); the whole benefit as cash at 1,705 NIS/month; or a mix of cash and services worth 5.5 units.
 
-Day-centre attendance converts at a published rate per level (level 1: one day = 2 units; level 6: one day = 2.45 units). See `references/elder-care-benefits.md` for the weekly caps and the pre-2018 grandfathering.
+Day centre converts per level (level 1: one day = 2 units; level 6: 2.45 units). Weekly caps and pre-2018 grandfathering: `references/elder-care-benefits.md`.
 
 **Cash benefit option (kitzva b'kesef):** Since the 2018 reform, part of the benefit can be taken as monthly cash instead of caregiving hours. **The conversion is capped: at levels 2 to 6 you may convert up to 4 weekly hours, or up to a third of your hours with the approval of a Bituach Leumi social worker.** Taking the benefit entirely as cash is possible only at level 1, or where a live-in caregiver is employed on the terms below, or by exception (see below). The table shows the maximum cash payable in the live-in-caregiver case (from April 2026):
 
@@ -100,7 +100,7 @@ Day-centre attendance converts at a published rate per level (level 1: one day =
 
 Hour-to-cash conversion rate (April 2026): 310 NIS/hour for Level 1, 248 NIS/hour for Levels 2-6. Full cash requires a documented full-time caregiver (12+ hours/day, 6 days/week, non-family member, written contract). Where personal care at home is impossible because of the elder's distress, full cash can be requested by exception with medical documents, on **\*2637**.
 
-Mixed packages are allowed: e.g., at Level 3 you can take 13 hours/week + 992 NIS cash (instead of 17 hours/week). Anyone approved for full cash may still add a day centre, panic button, absorbent products and laundry on top. Choices are made on **\*2637** (Sun-Thu 08:00-17:00) or through the BL service-basket calculator, and can be changed at any time.
+Mixed packages are allowed: e.g., at Level 3 you can take 13 hours/week + 992 NIS cash (instead of 17 hours/week). Full-cash recipients may still add a day centre, panic button, absorbent products and laundry. Choices are made on **\*2637** (Sun-Thu 08:00-17:00) or in the BL service-basket calculator, changeable at any time.
 
 **Means test (mivchan hachnasot).** Income is averaged over the three months before the claim, and the thresholds depend on the month the claim is filed. Filing April to December 2026:
 
@@ -112,7 +112,7 @@ Mixed packages are allowed: e.g., at Level 3 you can take 13 hours/week + 992 NI
 
 **Couples get the full benefit up to 1.5x the individual threshold, not the individual figure.** January, February and March each have their own slightly lower ceilings. See `references/elder-care-benefits.md` for all four monthly bands. Half benefit pays half the units, or 829 NIS at Level 1 and 3,618 NIS at Level 6 if taken as cash.
 
-**Income that is NOT counted:** private siudi insurance payouts, mobility allowance, attendance allowance (shirutim meyuchadim), child allowances, and every Holocaust survivor payment (Finance Ministry rente, Claims Conference Article 2, ZRBG, French and Dutch pensions).
+**Income NOT counted:** private siudi payouts, mobility allowance, attendance allowance (shirutim meyuchadim), child allowances, and every Holocaust survivor payment (Finance Ministry rente, Claims Conference Article 2, ZRBG, French and Dutch pensions).
 
 **Expenses deducted from income:** court-ordered alimony; rent paid (including in diur mugan) up to the amount of rent received; the cost of maintaining a spouse, parent or child in an institution.
 
@@ -155,7 +155,7 @@ This is **private insurance**, most commonly purchased through the kupat cholim 
 | At home | 5,000 NIS | 4,100 NIS | 3,200 NIS |
 | In an institution | 10,000 NIS | 6,500 NIS | 4,500 NIS |
 
-Four terms that decide whether the policy is worth buying, and that families are routinely surprised by:
+Four terms that decide whether the policy is worth buying:
 - The benefit is paid for **5 years only**, not for life (the frozen expanded tier added 10 more).
 - There is a **60-day waiting period** after becoming ADL-dependent before anything is paid.
 - The institutional payout is **indemnity capped at 80% of what was actually paid** to the institution.
@@ -176,14 +176,14 @@ It acts as a supplement to the Bituach Leumi long-term care benefit and is not c
 | Assisted living | דיור מוגן עם סיוע | Semi-independent with some help | Similar to a retirement home |
 | Dementia ward | מחלקת תשושי נפש | Alzheimer's, cognitive decline | Monthly fee, the most expensive option |
 
-Prices move and vary sharply by region, so quote current figures from the facility itself rather than a remembered range. Ask every facility for the full monthly fee, what the deposit refund terms are, and what is charged extra.
+Prices move and vary sharply by region, so quote current figures from the facility itself. Ask for the full monthly fee, deposit refund terms, and what is charged extra.
 
 **Government-subsidized placement ("code" / tzofan):**
-- Apply to the district health office (lishkat habriut), not only to local social services. A nurse or social worker visits within 14 working days of the file being complete, then a classification committee (vaadat siyug) decides whether the elder is "siudi", "tashush nefesh", or something else. The Ministry of Welfare handles "frail" (tashush) elderly.
+- Apply to the district health office (lishkat habriut), not only local social services. A nurse or social worker visits within 14 working days of a complete file, then a classification committee (vaadat siyug) decides "siudi", "tashush nefesh", or other. The Ministry of Welfare handles "frail" (tashush) elderly.
 - **The co-payment is means-tested on the elder, their spouse, AND their adult children.** Each child files a sworn declaration questionnaire signed before a lawyer or court clerk, disclosing income, savings, deposits and any private siudi policy. Tell families this before they apply; it is the single largest financial surprise in elder care.
-- The classification decision can be appealed in writing to the committee, and then to the Head of the Geriatrics Division at the Ministry of Health (\*5400).
-- A classification goes stale if the elder has not been admitted within 3 months, and has to be refreshed.
-- Verify the facility holds a current Ministry of Health licence before choosing it. Waiting lists can be significant, especially in central Israel.
+- Appeal the classification in writing to the committee, then to the Head of the Geriatrics Division at the Ministry of Health (\*5400).
+- A classification expires if the elder is not admitted within 3 months.
+- Verify the facility's Ministry of Health licence before choosing it. Waiting lists are significant, especially in central Israel.
 
 **What nursing homes include:**
 - Full board (3 meals + snacks)
@@ -360,13 +360,13 @@ Result: Family understands the legal process and immediate care options.
 | Kolzchut (old-age pension amounts) | https://www.kolzchut.org.il/he/קצבת_זיקנה_בסיסית | 2026 pension amounts by age and status |
 | Kolzchut (Elderly Rights) | https://www.kolzchut.org.il/he/קשישים | Comprehensive rights guide for elderly in Israel |
 | Kolzchut (Siudi insurance) | https://www.kolzchut.org.il/he/ביטוח_סיעודי_קבוצתי_אחיד_של_קופות_החולים | Unified group siudi plan rules |
-| Apotropus Haklali (POA) | https://www.gov.il/he/departments/topics/apotropos-general | Enduring power of attorney registration and procedures |
+| Apotropus Haklali (POA) | https://www.gov.il/he/service/edit_and_deposit_continuous_power_of_attorney | Enduring power of attorney registration and procedures |
 | Ministry of Health (Advance Directives) | https://www.gov.il/he/service/dying-patient-request | Hok HaCholeh HaNote forms and filing |
-| Ministry of Health (Elder Services) | https://www.health.gov.il | Nursing home licensing, subsidized placement codes |
+| Ministry of Health (Elder Services) | https://www.gov.il/he/departments/ministry_of_health/govil-landing-page | Nursing home licensing, subsidized placement codes |
 | PIBA (Foreign Caregiver Permits) | https://www.gov.il/he/service/nursing_foreign_worker | Permit to employ a foreign caregiver in elder care |
 | Yad Sarah | https://yad-sarah.net | Equipment loans, emergency button, hotline *6444 |
 | Claims Conference Article 2 Fund | https://www.claimscon.org | Holocaust survivor monthly pension |
-| Rashut Lezchuyot Nitzolei HaShoah | https://www.gov.il/he/departments/holocaust_survivors_rights_authority | Israeli supplements for Holocaust survivors |
+| Rashut Lezchuyot Nitzolei HaShoah | https://www.gov.il/he/departments/holocaust-survivors-rights | Israeli supplements for Holocaust survivors |
 | Women's retirement age schedule | https://www.gov.il/he/pages/women_retirement_age_news | Retirement age by birth year |
 
 ## Troubleshooting

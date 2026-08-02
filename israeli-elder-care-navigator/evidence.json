@@ -205,7 +205,9 @@
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-02T03:10:00+00:00"
     },
     {
       "claim_id": "yad-sarah-basic-emergency-button-package-starts-at-18-nis-mo",
@@ -221,15 +223,17 @@
     },
     {
       "claim_id": "hok-hacholeh-hanote-lamut-2005-lets-adults-file-advance-dire",
-      "claim": "Hok HaCholeh HaNote LaMut (2005) lets adults file advance directives; valid 5 years, renewable, anyone 17+.",
+      "claim": "By law anyone aged 17 and over may state in advance the medical treatment they will or will not accept if found to have an incurable illness; the Centre for Advance Medical Directives was established under the Terminally Ill Patient Law",
       "source_url": "https://www.gov.il/he/service/dying-patient-request",
-      "raw_snippet": "Anyone from age 17 who is lucid, fully conscious, and competent to make decisions can give advance medical directives",
+      "raw_snippet": "על פי חוק, כל בני ובנות 17 ומעלה יכולים להביע מראש את רצונם לגבי הטיפול הרפואי שיקבלו או לא יקבלו, במקרה שייקבע כי הם חולים במחלה ללא אפשרות להחלמה ... המרכז להנחיות רפואיות מקדימות ומאגר המידע שבו, הוקמו בהתאם לחוק החולה הנוטה למות.",
       "fetched_at": "2026-08-02T02:48:50.038900+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-02T03:10:00+00:00"
     },
     {
       "claim_id": "terminally-ill-patient-defined-as-life-expectancy-under-6-mo",
@@ -281,15 +285,17 @@
     },
     {
       "claim_id": "yipuy-koach-mitmashech-must-be-filed-with-the-apotropus-hakl",
-      "claim": "Yipuy koach mitmashech must be filed with the Apotropus Haklali (General Custodian) to be valid.",
+      "claim": "An enduring power of attorney must be deposited in the register managed by the Administrator General, and the deposit counts as approved only once a deposit confirmation and stamp are issued",
       "source_url": "https://www.gov.il/he/service/edit_and_deposit_continuous_power_of_attorney",
-      "raw_snippet": "ייפוי כוח מתמשך נכנס לתוקף רק לאחר שהופקד אצל האפוטרופוס הכללי",
+      "raw_snippet": "קיימת חובת הפקדה של ייפוי הכוח המתמשך במרשם המנוהל על-ידי האפוטרופוס הכללי. ... רק לאחר קבלת אישור הפקדה והטבעת חותמת ההפקדה על גבי ייפוי הכוח המתמשך, ניתן לראות את ההפקדה כמאושרת.",
       "fetched_at": "2026-08-02T02:48:50.038900+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-02T03:10:00+00:00"
     },
     {
       "claim_id": "bituach-siudi-joiners-can-switch-between-kupot-cholim-withou",
@@ -685,7 +691,9 @@
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-02T03:10:00+00:00"
     },
     {
       "claim_id": "the-bituach-leumi-long-term-care-benefit-landing-page-docume",
@@ -737,63 +745,73 @@
     },
     {
       "claim_id": "the-holocaust-survivors-rights-authority-administers-israeli",
-      "claim": "The Holocaust Survivors Rights Authority administers Israeli supplements for survivors",
-      "source_url": "https://www.gov.il/he/departments/holocaust_survivors_rights_authority",
-      "raw_snippet": "הרשות לזכויות ניצולי השואה",
+      "claim": "The Holocaust Survivors Rights Authority, under the Prime Minister's Office, administers Israeli entitlements for survivors",
+      "source_url": "https://www.gov.il/he/departments/holocaust-survivors-rights",
+      "raw_snippet": "משרד ראש הממשלה הרשות לזכויות ניצולי השואה",
       "fetched_at": "2026-08-01T23:55:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-02T03:10:00+00:00"
     },
     {
       "claim_id": "the-administrator-general-registers-the-enduring-power-of-at",
       "claim": "The Administrator General registers the enduring power of attorney",
-      "source_url": "https://www.gov.il/he/departments/topics/apotropos-general",
+      "source_url": "https://www.gov.il/he/service/edit_and_deposit_continuous_power_of_attorney",
       "raw_snippet": "האפוטרופוס הכללי",
       "fetched_at": "2026-08-01T23:55:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-02T03:10:00+00:00"
     },
     {
       "claim_id": "the-published-retirement-age-schedule-by-birth-year-is-maint",
-      "claim": "The published retirement age schedule by birth year is maintained on gov.il",
+      "claim": "Under the amendment to the Retirement Age Law, from January 2022 the retirement age for women rises gradually from 62 to 65",
       "source_url": "https://www.gov.il/he/pages/women_retirement_age_news",
-      "raw_snippet": "גיל פרישה לנשים",
+      "raw_snippet": "בהתאם לתיקון חוק גיל פרישה, תשס\"ד-2004 החל מ - 1.2022 גיל הפרישה לנשים עולה בהדרגה מגיל 62 לגיל 65",
       "fetched_at": "2026-08-01T23:55:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-02T03:10:00+00:00"
     },
     {
       "claim_id": "piba-operates-the-permit-service-for-employing-a-foreign-car",
-      "claim": "PIBA operates the permit service for employing a foreign caregiver in nursing care",
+      "claim": "PIBA operates the permit service for employing foreign workers in the nursing care branch",
       "source_url": "https://www.gov.il/he/service/nursing_foreign_worker",
-      "raw_snippet": "היתר להעסקת עובד זר בסיעוד",
+      "raw_snippet": "בקשת היתרים להעסקת עובדים זרים בענף הסיעוד ... ניתן לבדוק סטטוס הטיפול בבקשה ואם הבקשה אושרה, ניתן גם להפיק עותק דיגיטלי של ההיתר.",
       "fetched_at": "2026-08-01T23:55:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-02T03:10:00+00:00"
     },
     {
       "claim_id": "the-ministry-of-health-site-lists-licensed-geriatric-institu",
-      "claim": "The Ministry of Health site lists licensed geriatric institutions and elder services",
-      "source_url": "https://www.health.gov.il",
+      "claim": "The Ministry of Health department page on gov.il is the entry point for licensed geriatric institutions and elder services",
+      "source_url": "https://www.gov.il/he/departments/ministry_of_health/govil-landing-page",
       "raw_snippet": "משרד הבריאות",
       "fetched_at": "2026-08-01T23:55:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-02T03:10:00+00:00"
     },
     {
       "claim_id": "yad-sarah-lends-medical-equipment-and-operates-the-emergency",
