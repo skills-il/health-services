@@ -57,7 +57,7 @@ Monthly pension amounts (January 2026):
 
 Above the work ceiling, 60% of the excess is deducted from the supplement. Kibbutz and moshav shitufi members are not eligible. Apply through Bituach Leumi.
 
-**Free public transport from age 67:** Since April 2025, citizens aged 67+ ride all public transport (buses, trains, light rail, Metronit) for FREE with a Rav-Kav loaded with the "Zahav-Kav" (gold profile). Women aged 62-67 get 50% discount. Setup: upload ID + sefach (attached birth certificate slip) to the Rav-Kav profile.
+**Free public transport from age 67:** Since April 2025, citizens aged 67+ ride all public transport free with a Rav-Kav loaded with the "Zahav-Kav" (gold profile). Women aged 62-67 get 50% discount. Setup: upload ID + sefach to the Rav-Kav profile.
 
 ### Step 3: Long-Term Care Benefit from Bituach Leumi (Gimlat Siud)
 
