@@ -1,6 +1,6 @@
 ---
 name: israeli-emergency-guide
-description: Guide to Israeli emergency services, hospitals, trauma centers, and urgent care. Use when a user needs information about calling MDA (Magen David Adom), visiting Terem urgent care, navigating hospital ERs, understanding triage, or learning about patient rights during emergencies in Israel. Covers the 5 Level-1 trauma centers, ER copay rules, blood donation through MDA, and when to call 101 vs go to Terem. Do NOT use for non-Israeli emergency systems or medical diagnosis.
+description: Guide to Israeli emergency services, hospitals, trauma centers, and urgent care. Use when a user needs information about calling MDA (Magen David Adom), visiting Terem urgent care, navigating hospital ERs, understanding triage, or learning about patient rights during emergencies in Israel. Covers emergency numbers and non-voice channels for deaf and hard-of-hearing users, siren and shelter guidance, mental-health crisis lines, Israel's Level-1 trauma centers, ER copay rules, blood donation through MDA, and when to call 101 vs go to Terem. Do NOT use for non-Israeli emergency systems or medical diagnosis.
 license: MIT
 compatibility: Works with all major AI coding agents
 ---
@@ -22,7 +22,28 @@ Israel has dedicated emergency numbers. Provide the correct number based on the 
 | 104 | Home Front Command | פיקוד העורף | Wartime guidance, shelter info, aerial threats (NOT a medical line) |
 | 105 | Child Online Protection | מטה הגנה על ילדים ברשת | Online harm to minors: extortion, sexual abuse, suicide threats |
 | 118 | Welfare and Social Services | מוקד הרווחה | Domestic violence, at-risk children/elderly, social distress (24/7) |
-| 112 | Unified Emergency | מספר חירום אחיד | Works from any phone, routes to correct service |
+| 110 | Israel Police information line | מוקד המידע של משטרת ישראל | Non-emergency police information. Also hosts the accessible text position (see below) |
+| 112 | Police, from a locked or SIM-less phone | מוקד משטרה מכל מכשיר | Reaches Israel Police, NOT a unified dispatcher. See the warning below |
+| 1202 / 1203 | Sexual assault crisis lines | מרכזי הסיוע לנפגעות ולנפגעי תקיפה מינית | 24/7. 1202 for women, 1203 for men. SMS 052-8361202 |
+| 04-7771900 | National Poison Information Center (Rambam) | מכון מידע בהרעלות | Poisoning, overdose, chemical exposure, snake and scorpion bites. 24/7 |
+
+**112 is not a unified emergency number.** Israel has no single emergency dispatcher. Dialing 112 reaches the nearest Israel Police district centre, exactly like 100, and it does not route to MDA or to Fire and Rescue. What 112 uniquely gives you is that it dials from a locked handset and from a phone with no SIM card. For a medical emergency, always dial 101.
+
+Poison control note: 04-7771900 is staffed 24/7 for acute poisoning. Rambam's separate teratology line, for medication questions in pregnancy and breastfeeding, runs Sunday to Thursday 09:00 to 14:00 only. Do not present it as a 24/7 service.
+
+### Step 1b: Reaching Emergency Services Without a Voice Call
+
+Deaf and hard-of-hearing users, and anyone who cannot speak safely, have non-voice channels into the emergency system.
+
+| Service | Non-voice channel |
+|---------|-------------------|
+| MDA (101) | SMS or WhatsApp to 052-7000101 (hearing-disability line). Fax 1-800-500101. The MDA app also supports text chat with dispatch |
+| Israel Police (100) | The "אוזן קשבת" accessible position accepts SMS, fax and email. It moved to the 110 centre in 2015 and dispatches a patrol car when needed |
+| ERAN (1201) | WhatsApp 052-8451201, SMS 052-9993544, both 24/7 |
+| SAHAR | Anonymous chat and WhatsApp at sahar.org.il, plus the Talkit app |
+| Sexual assault lines | SMS 052-8361202 |
+
+Where a channel is not listed here, it is because it could not be confirmed at the operating authority's own site. Do not invent one.
 
 Key facts about MDA:
 - National emergency medical service, operating since 1950
@@ -49,21 +70,26 @@ Decision guide:
 
 ### Step 3: Israel's Hospital System and Trauma Centers
 
-Israel has 5 Level-1 trauma centers equipped for the most severe injuries.
+Israel designates Level-1 trauma centers (מרכזי-על לטראומה) for the most severe injuries. There are at least seven, and two more were upgraded in 2023. Do not tell a user there are five.
 
 | Hospital | Hebrew Name | City | Region | Specialties |
 |----------|-------------|------|--------|-------------|
 | Rambam Health Care Campus | רמב"ם | Haifa | North | Underground emergency hospital, mass casualty |
-| Hadassah Medical Center (Ein Kerem) | הדסה עין כרם | Jerusalem | Center | Organ transplants, complex surgeries |
+| Ziv Medical Center | זיו | Tzfat (Safed) | North | Upgraded to Level-1 in 2023, serves the Upper Galilee and the Lebanon and Syria border area |
+| Hadassah Medical Center (Ein Kerem) | הדסה עין כרם | Jerusalem | Jerusalem | Organ transplants, complex surgeries |
+| Shaare Zedek Medical Center | שערי צדק | Jerusalem | Jerusalem | Level-1 trauma, major maternity center, pediatrics |
 | Sheba Medical Center (Tel Hashomer) | שיבא תל השומר | Ramat Gan | Center (Tel Aviv area) | Largest hospital in Israel, national referral |
-| Soroka Medical Center | סורוקה | Beer Sheva | South (Negev) | Only Level-1 trauma in the Negev |
+| Ichilov (Sourasky Medical Center) | איכילוב (סוראסקי) | Tel Aviv | Center (Tel Aviv area) | Level-1 trauma, central Tel Aviv location |
 | Rabin Medical Center (Beilinson) | רבין (בילינסון) | Petach Tikva | Center | Major cardiac and pediatric center |
+| Soroka Medical Center | סורוקה | Beer Sheva | South (Negev) | Level-1 trauma for the Negev |
+| Barzilai Medical Center | ברזילי | Ashkelon | South | Upgraded to Level-1 in 2023, serves the Gaza-adjacent area, fortified ER |
 
 Additional major hospitals:
-- Ichilov (Sourasky), Tel Aviv: major ER, central location
 - Kaplan, Rehovot: serves southern coastal area
-- Ziv, Tzfat: serves upper Galilee
 - Wolfson, Holon: southern Tel Aviv metropolitan area
+- Galilee Medical Center, Nahariya: serves the Western Galilee
+
+Never assert that a given hospital is the "only" Level-1 center in its region. That was true of Soroka in the Negev and Rambam in the north before the 2023 upgrades, and it is no longer true. When a user needs the nearest trauma center, call 101 and let MDA route the patient.
 
 ### Step 4: ER Process (Chadar Miyun)
 
@@ -79,6 +105,9 @@ When arriving at a hospital ER (chadar miyun, חדר מיון), expect the follo
 
 Cost information (as of 2026, per Ministry of Health tariff):
 - ER copay (hishtatfut atzmit): 1,199 NIS for self-referral during 06:00 to 23:00 without a doctor's referral or qualifying medical reason
+- With a doctor's referral, the patient pays a much smaller self-participation (269 NIS as of January 2026), not the full 1,199 NIS and not nothing
+- Arriving at night carries a reduced fee (259 NIS as of January 2026) rather than the full self-referral amount
+- These amounts are re-indexed by the Ministry of Health every 1 January, so always state the year alongside the figure and tell the user to confirm with the hospital or their kupat cholim
 - Copay is waived entirely if the patient is admitted to the hospital
 - Copay is waived (or reduced to the ER fee only) if referred by MDA when the call is marked as a medical emergency
 - Many medical conditions trigger a full exemption: fractures and dislocations, severe burns, deep wounds needing stitches, head injuries in children under 2 or adults 70+, severe allergic reactions, asthma attacks, seizures, poisoning, animal/snake/scorpion bites, pregnancy emergencies (labor contractions, severe bleeding), psychiatric crises, work injuries (within 7 days with employer confirmation), traffic accidents (with police report), and violence victims
@@ -147,13 +176,15 @@ When a user reports suicidal ideation, panic attack, trauma flashback (especiall
 |---------|-------------|-------|-------|-------|
 | ERAN | ער"ן (עזרה ראשונה נפשית) | 1201 (in Israel) / +972-76-884-4400 (abroad) | 24/7 | Hebrew, Arabic, Russian, English. Free, anonymous, by phone or online chat. |
 | NATAL | נט"ל | *3362 (current shortcode) | 24/7 | Trauma and resilience: war, terror, October 7th and Iron Swords-related distress. Free. |
-| SAHAR | סה"ר | (chat only, no phone) | Sun-Thu 16:00-03:00, Fri/Sat/holiday eve 18:00-00:00 | Text-based emotional support in Hebrew and Arabic. Live chat at sahar.org.il and WhatsApp. NOT 24/7. |
+| SAHAR | סה"ר | (chat only, no phone) | 24/7 | Text-based emotional support. Anonymous chat and WhatsApp at sahar.org.il, plus the Talkit app. Hebrew chat is round the clock; the Arabic chat runs about 6 hours a day. Also runs a dedicated chat for first responders and their families. |
 | MoH Mental Health First Aid | קווי סיוע נפשי ראשוני | Listed on health.gov.il | Varies | Ministry of Health-curated list of regional first-aid centers. |
 | Police suicide rescue | משטרה | 100 | 24/7 | When a person is actively attempting suicide or in immediate physical danger. |
 
 When to call which:
 - Active attempt or imminent danger: 100 (police) and 101 (MDA) together
-- Suicidal ideation, panic, anxiety, loneliness: ERAN 1201 (24/7) or SAHAR chat during operating hours
+- Suicidal ideation, panic, anxiety, loneliness: ERAN 1201 (24/7) or SAHAR chat (24/7). Both are always open, so never tell a user that one of them is closed
+- Sexual assault: 1202 (women) or 1203 (men), 24/7, or SMS 052-8361202
+- Someone who cannot make a voice call: see the non-voice channels in Step 1b
 - Combat, terror, October 7th trauma, PTSD flashbacks: NATAL *3362 (24/7)
 - Child or adolescent in distress: ERAN 1201 (handles all ages)
 - Online harm to a minor (cyberbullying, sextortion, online suicide threats): 105 (Child Online Protection Bureau)
@@ -164,12 +195,22 @@ Since October 7, 2023, Israel has been in an active conflict period. Emergency b
 
 | Situation | Action |
 |-----------|--------|
-| Red-alert siren (azaka, אזעקה) | Enter the nearest mamad / miklat / stairwell within the time window for your region. Israel is divided into around 1,700 alert zones with windows ranging from immediate to 3 minutes (Gaza Envelope: 15 sec, most central areas: 90 sec, Arava and Eilat: up to 3 min). Stay in the protected space for 10 minutes after the siren stops before leaving. Look up your specific zone at oref.org.il. |
+| Red-alert siren (azaka, אזעקה) | Enter the nearest mamad / miklat / stairwell within the time window for your region. Israel is divided into around 1,700 alert zones with windows ranging from immediate to 3 minutes (Gaza Envelope: 15 sec, most central areas: 90 sec, Arava and Eilat: up to 3 min). Zone timings are published per locality and are revised, so look up the specific locality in the Home Front Command app rather than quoting these figures as final. For how long to stay inside, see the exit rule below. |
 | No shelter available | Lie flat on the ground, cover head with hands, stay away from windows. |
 | Driving when siren sounds | Stop the car safely, exit, lie flat next to the vehicle (not under it) or behind a concrete barrier. |
 | Suspected missile/rocket impact | Call 100 (police) and 101 (MDA). Do not approach unexploded ordnance. |
 | Aerial intrusion (drone, infiltration) | Follow Pikud Haoref (Home Front Command) instructions on the official app or 104 hotline. |
 | Acute stress reaction after siren | Call ERAN 1201 or NATAL *3362. Children especially benefit from grounding and reassurance. NATAL has dedicated parent guidance. |
+
+**When it is safe to leave the protected space (read this before answering any siren question):**
+
+There is no single timer. Two different regimes apply, and using the wrong one is dangerous.
+
+1. **Rocket fire (Gaza, Lebanon):** remain in the protected space for at least 10 minutes after the siren.
+2. **Ballistic missile fire:** there is no automatic timed exit. Remain until an official all-clear (הודעת רגיעה) arrives through the Home Front Command app and the national Cell Broadcast SMS. Salvos arrive in sequence, and fragments from interceptions keep falling for several minutes after an intercept is seen or heard. Those fragments are lethal on their own, which is why seeing a successful interception is not a signal to step outside.
+3. **When you cannot tell which regime applies, wait for the official all-clear.**
+
+Do not tell a user a flat "wait 10 minutes and then leave". The alert screen in the Home Front Command app has itself displayed a 10-minute line left over from earlier operations while the standing instruction was to wait for the release message, so an agent repeating the 10-minute rule unconditionally is reproducing a known hazard.
 
 Key tools:
 - **Home Front Command app** ("פיקוד העורף" / "Pikud HaOref"): real-time alerts, shelter guidance, regional countdown timers. Available on iOS and Android.
@@ -225,7 +266,7 @@ User says: "I'm a tourist in Tel Aviv and I think I broke my arm. What should I 
 
 Actions:
 1. If the bone is not protruding and bleeding is controlled, go to Terem or a hospital ER
-2. In Tel Aviv, Ichilov (Sourasky Medical Center) is centrally located
+2. In Tel Aviv, Ichilov (Sourasky Medical Center) is centrally located and is itself a Level-1 trauma center
 3. Bring your passport and travel insurance documents
 4. ER copay is 1,199 NIS (for self-referral); travel insurance should cover this
 5. Hospitals are required to treat you regardless of insurance status
@@ -238,7 +279,7 @@ User says: "There's been a serious car accident near Beer Sheva. Which hospital 
 Actions:
 1. Call 101 (MDA). For major trauma, MDA will transport to the nearest Level-1 trauma center
 2. In the Beer Sheva area, Soroka Medical Center is the Level-1 trauma center
-3. Soroka is the only Level-1 trauma center in the Negev region
+3. Barzilai in Ashkelon is also a Level-1 center since 2023, so do not tell the user Soroka is the only option in the south. MDA decides which center the patient goes to
 4. Do not attempt to transport a severely injured person yourself unless MDA instructs you to
 
 Result: MDA dispatches a Mobile Intensive Care Unit (MICU) staffed by paramedics for major trauma cases.
@@ -246,7 +287,7 @@ Result: MDA dispatches a Mobile Intensive Care Unit (MICU) staffed by paramedics
 ## Bundled Resources
 
 ### References
-- `references/hospital-directory.md` -- Complete directory of Israeli hospitals by region (North, Center, South, Jerusalem), including all 5 Level-1 trauma centers, emergency department phone numbers, clinical specialties, and pediatric and psychiatric facilities. Consult when a user needs to find the nearest hospital, identify which hospital handles specific specialties, or locate a trauma center.
+- `references/hospital-directory.md` -- Complete directory of Israeli hospitals by region (North, Center, South, Jerusalem), including all of Israel's Level-1 trauma centers, emergency department phone numbers, clinical specialties, and pediatric and psychiatric facilities. Consult when a user needs to find the nearest hospital, identify which hospital handles specific specialties, or locate a trauma center.
 - `references/first-aid-basics.md` -- Quick reference for basic first aid procedures (CPR for adults/children/infants, severe bleeding, burns, choking, heatstroke) with Israeli-specific context including desert snake bite response, Mediterranean jellyfish sting treatment, earthquake procedures, and regional heat risks. Consult when a user needs step-by-step first aid instructions or faces a region-specific emergency.
 
 ## Recommended MCP Servers
@@ -274,15 +315,20 @@ Result: MDA dispatches a Mobile Intensive Care Unit (MICU) staffed by paramedics
 | 105 Child Online Protection | https://www.gov.il/en/departments/units/105_call_center | National hotline for online harm to minors |
 | Welfare 118 Hotline | https://www.gov.il/he/departments/general/molsa-118 | 24/7 welfare and social services, all languages |
 | SAHAR (Online chat) | https://sahar.org.il/en/ | Text-based emotional support, 24/7 Hebrew chat |
-| Pikud Haoref (Home Front Command) | https://www.oref.org.il/eng | Red-alert app, shelter rules, 104 hotline |
+| Sexual assault crisis lines | https://www.1202.org.il/ | 1202 (women), 1203 (men), 24/7, SMS 052-8361202 |
+| Poison Control (Rambam) | https://www.rambam.org.il/departmentsandclinics/laboratories-division/clinical-pharmacology-and-toxicology/national-center-for-the-treatment-of-poisoning/ | Poison hotline 04-7771900, 24/7 |
+| Pikud Haoref (Home Front Command) | https://www.oref.org.il/heb/life-saving-guidelines/rocket-and-missile-attacks | Shelter entry times per locality, exit rules, life-saving guidelines |
 | MoH Mental Health Crisis | https://me.health.gov.il/en/mental-health/therapy-and-rehabilitation/crisis-support/first-aid/ | Curated first-aid hotlines and centers |
 
 ## Gotchas
 
-- Agents often default to US emergency numbers (911). Israel uses 101 (MDA), 100 (police), and 102 (fire). The unified number 112 works but is not the primary line.
+- Agents often default to US emergency numbers (911). Israel uses 101 (MDA), 100 (police), and 102 (fire).
+- 112 is NOT a unified emergency number in Israel. It reaches Israel Police, the same as 100, and does not route to MDA or Fire. Its one advantage is that it dials from a locked or SIM-less handset. Never send a medical emergency to 112.
+- Israel has more than five Level-1 trauma centers, and no hospital is any longer the "only" one in its region. Ziv (Tzfat) and Barzilai (Ashkelon) were upgraded in 2023.
+- The shelter exit rule is not a flat 10 minutes. Under ballistic missile fire the instruction is to wait for the official all-clear message. See Step 8.
 - ER copay amounts change periodically. Agents may cite outdated figures. As of 2026, the ER copay for self-referral during regular hours (06:00 to 23:00) is 1,199 NIS per Ministry of Health pricing, but verify with the specific hospital or kupat cholim.
 - NATAL changed its hotline to the shortcode *3362. The legacy 1-800-363-363 may still route but the official current number on natal.org.il is *3362.
-- SAHAR is NOT 24/7. It runs Sunday-Thursday 16:00 to 03:00 and Friday/Saturday/holiday evenings 18:00 to 00:00. Outside those windows, default to ERAN 1201 (which is genuinely 24/7).
+- SAHAR is 24/7 and should never be described as closed. Older write-ups list limited evening hours; those are out of date. The roughly 6-hours-a-day limit applies to SAHAR's Arabic-language chat, not to the Hebrew chat.
 - Terem urgent care locations and hours change. The Jerusalem Romema branch is 24/7, but other branches have limited evening and weekend hours that agents may not reflect accurately.
 - Agents may confuse Israeli triage color codes with international ones. Israel uses a 4-level system (red, orange, yellow, green) that differs from some international 5-level systems.
 - Hospital names have multiple forms: agents may not connect "Ichilov" with "Sourasky Medical Center" or "Tel Aviv Medical Center," which are the same institution.
@@ -291,7 +337,7 @@ Result: MDA dispatches a Mobile Intensive Care Unit (MICU) staffed by paramedics
 
 ### Error: "I called 101 but no one answers in English"
 Cause: MDA dispatchers primarily speak Hebrew. English availability varies by region and time.
-Solution: Say "English" or "Anglit" (אנגלית) clearly. If no English-speaking dispatcher is available, try calling 112 (the unified European emergency number), which may route to an English-capable operator. Alternatively, ask a nearby Hebrew speaker to assist with the call.
+Solution: Stay on 101. Say "English" or "Anglit" (אנגלית) clearly and wait. Do NOT hang up and dial 112 in the hope of an English operator: 112 reaches Israel Police, not MDA, so it moves a medical call further from the people who can help. If speech is not working, send an SMS or WhatsApp to MDA on 052-7000101, or use the text chat in the MDA app. Asking a nearby Hebrew speaker to take over the call is also faster than redialing.
 
 ### Error: "The ER is charging me even though I came by ambulance"
 Cause: Not all ambulance transports automatically waive the ER copay. The waiver typically applies when MDA determines the transport is medically necessary.

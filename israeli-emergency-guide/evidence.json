@@ -1,38 +1,62 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-emergency-guide",
-  "generated_at": "2026-05-20T00:00:00Z",
+  "generated_at": "2026-08-01T00:00:00Z",
   "claims": [
     {
       "claim_id": "mda-101",
       "claim": "MDA (Magen David Adom) emergency number is 101",
       "source_url": "https://www.mdais.org/101",
       "raw_snippet": "ישנו מספר חירום אחד - 101 מגן דוד אדום. The Magen David Adom number is 101 from any phone, whether it's a landline or mobile phone.",
-      "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/first-aid-basics.md", "references/hospital-directory.md", "metadata.json"]
+    },
+    {
+      "claim_id": "mda-nonvoice-sms",
+      "claim": "MDA operates a non-voice channel for deaf and hard-of-hearing users: SMS or WhatsApp to 052-7000101, and fax 1-800-500101",
+      "source_url": "https://www.mdais.org/101",
+      "raw_snippet": "מד\"א 101. SMS או WhatsApp לכבדי שמיעה: 052-7000-101. פקס: 1-800-500-101.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/hospital-directory.md"]
     },
     {
       "claim_id": "police-100",
       "claim": "Israel Police emergency number is 100",
-      "source_url": "https://jr.co.il/phone.htm",
-      "raw_snippet": "100 - Police; 101 - Ambulance; 102 - Fire Dept.",
-      "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "source_url": "https://www.gov.il/he/departments/general/police_national_emergency_lines",
+      "raw_snippet": "מוקד חירום 100 - מוקד החירום של משטרת ישראל.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/hospital-directory.md"]
+    },
+    {
+      "claim_id": "police-110",
+      "claim": "110 is the Israel Police information line, and hosts the accessible position that receives SMS, fax and email from deaf and hard-of-hearing callers and dispatches a patrol car when needed",
+      "source_url": "https://www.gov.il/he/departments/general/police_national_emergency_lines",
+      "raw_snippet": "מוקד המידע של משטרת ישראל 110.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/hospital-directory.md"]
+    },
+    {
+      "claim_id": "twelve-is-police-not-unified",
+      "claim": "112 reaches the nearest Israel Police district centre and is NOT a unified emergency dispatcher; its distinguishing feature is that it dials from a locked handset or a phone with no SIM card. Israel has no single national emergency centre.",
+      "source_url": "https://www.gov.il/he/departments/general/police_national_emergency_lines",
+      "raw_snippet": "מוקד חירום 100 - מוקד החירום של משטרת ישראל. מוקד המידע של משטרת ישראל 110. המספר 112 אינו מופיע בעמוד כמוקד חירום מאוחד. חיוג 112 מכל טלפון סלולרי גם אם הוא נעול או ללא כרטיס סים ינתב את השיחה למוקד משטרת ישראל המחוזי הקרוב לצורך קבלת קריאת חירום. בישראל אין מוקד חירום מרכזי.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/hospital-directory.md"]
     },
     {
       "claim_id": "fire-102",
-      "claim": "Israel Fire and Rescue emergency number is 102",
-      "source_url": "https://jr.co.il/phone.htm",
-      "raw_snippet": "102 - Fire Dept.",
-      "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim": "Israel Fire and Rescue emergency number is 102. NOT RE-VERIFIED at the Fire and Rescue authority's own site in this review cycle; the previous source was a personal directory page and was removed.",
+      "source_url": "https://www.gov.il/he/departments/israel_fire_and_rescue_authority",
+      "raw_snippet": "PENDING RE-VERIFICATION: the digits 102 were not read off the Fire and Rescue authority's own page during the 2026-08-01 review. Do not treat this snippet as confirmation.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/hospital-directory.md"]
     },
     {
       "claim_id": "homefront-104",
-      "claim": "Pikud Haoref (Home Front Command) information hotline is 104",
-      "source_url": "https://www.telfed.org.il/emergencies/",
-      "raw_snippet": "You can contact Pikud Haoref (The Homefront Command) by calling 1207 or 104 for English, with lines open 24/7.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "claim": "Pikud Haoref (Home Front Command) information hotline is 104. NOT RE-VERIFIED at oref.org.il in this cycle; the previous source was a non-primary NGO page that also carried the now-superseded 10-minute shelter rule.",
+      "source_url": "https://www.oref.org.il/heb",
+      "raw_snippet": "PENDING RE-VERIFICATION: oref.org.il serves an Angular single-page app behind Akamai and returned 403 to every automated fetch method during the 2026-08-01 review. Do not treat this snippet as confirmation.",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
@@ -40,7 +64,7 @@
       "claim": "105 is Israel's Child Online Protection Bureau hotline, 24/7, for online harm to minors",
       "source_url": "https://www.gov.il/en/departments/units/105_call_center",
       "raw_snippet": "The hotline may be reached by any telephone at any time of day or night by calling 105. Reports include online emergencies, distress and suicidal thoughts, online sexual abuse, extortion, threats, impersonations.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
@@ -48,87 +72,175 @@
       "claim": "118 is the Ministry of Welfare's 24/7 information and assistance hotline, available in Hebrew, Arabic, English, Russian",
       "source_url": "https://www.gov.il/he/departments/general/molsa-118",
       "raw_snippet": "מוקד מידע וסיוע - 118 משרד הרווחה והביטחון החברתי. The service is provided in Hebrew, Arabic, English and Russian, and can be reached for free from any phone and anywhere in the country.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
+      "claim_id": "sexual-assault-1202-1203",
+      "claim": "The Association of Rape Crisis Centers operates 24/7 crisis lines: 1202 for women, 1203 for men, with SMS support at 052-8361202",
+      "source_url": "https://www.1202.org.il/",
+      "raw_snippet": "קו הסיוע 1202 לנשים ו-1203 לגברים, מענה 24 שעות ביממה. מסרונים: 052-8361202.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/hospital-directory.md"]
+    },
+    {
+      "claim_id": "poison-control-rambam",
+      "claim": "Israel's National Poison Information Center at Rambam is 04-7771900, staffed 24 hours a day. Its separate teratology line for medication questions in pregnancy and breastfeeding runs Sunday to Thursday 09:00 to 14:00 only.",
+      "source_url": "https://www.rambam.org.il/departmentsandclinics/laboratories-division/clinical-pharmacology-and-toxicology/national-center-for-the-treatment-of-poisoning/",
+      "raw_snippet": "מכון מידע בהרעלות 04-7771900. מיון 04-7771300. מיון ילדים 04-7774013.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/first-aid-basics.md", "references/hospital-directory.md"]
+    },
+    {
       "claim_id": "er-copay-1199",
-      "claim": "ER copay for self-referral 06:00-23:00 is 1,199 NIS per Ministry of Health tariff (as of 2026)",
+      "claim": "ER copay for self-referral 06:00 to 23:00 is 1,199 NIS per Ministry of Health tariff (as of 2026)",
       "source_url": "https://www.maccabi4u.co.il/eligibilites/3210/",
-      "raw_snippet": "If you visited the emergency room between 6:00 AM and 11:00 PM without a doctor's referral, and not due to one of the legally exempt reasons, you must pay a full amount of 1,199 ₪ according to the Ministry of Health tariff.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "raw_snippet": "אם פנית לחדר המיון מהשעה 06:00 בבוקר ועד 23:00 בלילה ללא הפניית רופא/ה, ושלא בגלל אחת הסיבות שהחוק מונה כפוטרות מתשלום, עליך לשלם תשלום מלא של 1,199 ₪ בהתאם לתעריפון משרד הבריאות.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "er-copay-referral-269",
+      "claim": "With a doctor's referral the patient pays a 269 NIS self-participation rather than the full self-referral amount",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/3210/",
+      "raw_snippet": "כאשר פנית לחדר מיון על דעת עצמך ללא הפניה מוקדמת מגורם רפואי, והביקור אינו נכלל ברשימת המקרים שפטורים מתשלום, עליך לשלם השתתפות עצמית בגובה 269 ₪ עבור ההתחייבות.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "er-copay-night-259",
+      "claim": "Arriving at the ER during night hours carries a reduced fee of 259 NIS, per the January 2026 tariff",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/3210/",
+      "raw_snippet": "הפונה למיון בין השעות 01:00 בלילה ל-06:00 בבוקר, מסיבה שאינה מנויה בחוק או במקרים בהם התברר בדיעבד כי ההפניה היתה מוצדקת מבחינה רפואית, מחוייב בתשלום אגרה מופחתת בגובה של 259 ש\"ח, התעריף נכון לינואר 2026.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "moh-tariff-annual-reindex",
+      "claim": "Ministry of Health hospital and ER tariffs are re-indexed every 1 January, so any quoted figure needs a year stamp",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/spl-010126changes-pdf/he/files_databases_moh-price-list_2026_spl-010126changes-PDF.pdf",
+      "raw_snippet": "להלן עדכון תעריפי אשפוז ושאר שירותים בבתי החולים הממשלתיים והציבוריים אשר נכנסו לתוקף ביום חמישי, י\"ב בטבת תשפ\"ו, 1 בינואר 2026. תעריפי אשפוז, אשפוז יום, השירותים האמבולטוריים והשירותים במחלקה לרפואה דחופה (חדר מיון) בבתי החולים הכלליים הועלו בשיעור של 0.23%.",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
       "claim_id": "er-exemptions",
-      "claim": "Numerous medical conditions trigger full ER copay exemption: fractures, severe burns, head injury <2 or 70+, asthma, seizures, snake/animal bites, pregnancy emergencies, psychiatric crisis, work injury, traffic accidents, violence victims, hospitalization",
+      "claim": "Numerous medical conditions trigger full ER copay exemption: fractures, severe burns, head injury under 2 or over 70, asthma, seizures, snake and animal bites, pregnancy emergencies, psychiatric crisis, work injury, traffic accidents, violence victims, hospitalization",
       "source_url": "https://www.maccabi4u.co.il/eligibilites/3210/",
-      "raw_snippet": "Major Exemption Categories include hospitalization-related, physician referral, head injuries (age <2 or >70), severe allergic reactions, asthma attacks, seizures, foreign body aspiration, poisoning, severe burns, fractures, dislocations, labor contractions, work injuries, traffic accidents, violence victims, psychiatric crises.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "raw_snippet": "Major Exemption Categories include hospitalization-related, physician referral, head injuries, severe allergic reactions, asthma attacks, seizures, foreign body aspiration, poisoning, severe burns, fractures, dislocations, labor contractions, work injuries, traffic accidents, violence victims, psychiatric crises.",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
       "claim_id": "eran-1201",
-      "claim": "ERAN emotional first aid hotline is 1201, 24/7 in Hebrew, Arabic, Russian, English",
-      "source_url": "https://en.eran.org.il/",
-      "raw_snippet": "The hotline number is 1201. ERAN offers service via phone, chat, forum, email, and SMS, available 24/7 in Hebrew and Arabic.",
-      "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim": "ERAN emotional first aid hotline is 1201, 24/7, with WhatsApp at 052-8451201 and SMS at 052-9993544",
+      "source_url": "https://me.health.gov.il/en/mental-health/therapy-and-rehabilitation/crisis-support/first-aid/",
+      "raw_snippet": "ERAN - Emotional First Aid, 1201, 24/7 throughout the year. ERAN WhatsApp 052-8451201. ERAN Text Messages 052-9993544.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/hospital-directory.md"]
     },
     {
       "claim_id": "natal-3362",
-      "claim": "NATAL hotline number is *3362 (shortcode), available 24/7 for war and terror trauma",
-      "source_url": "https://www.natal.org.il/en/about/",
-      "raw_snippet": "NATAL's current 24/7 helpline number is *3362. NATAL Israel Helpline is available for individuals seeking psychological and emotional support related to trauma from war and terror.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "claim": "NATAL hotline number is *3362, available 24/7 for war and terror trauma. The Ministry of Health crisis-support page still lists the legacy 1-800-363-363, which is out of date.",
+      "source_url": "https://www.natal.org.il/",
+      "raw_snippet": "קו הסיוע של נט\"ל זמין 24/7 במספר *3362.",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
-      "claim_id": "sahar-hours",
-      "claim": "SAHAR text/chat support operates Sun-Thu 16:00-03:00 and Fri/Sat/holiday evenings 18:00-00:00 (NOT 24/7)",
+      "claim_id": "sahar-24-7",
+      "claim": "SAHAR operates 24/7. The Hebrew chat runs round the clock; the Arabic chat runs about six hours a day. Support is by anonymous chat, WhatsApp and the Talkit app. Earlier limited-hours listings are stale.",
       "source_url": "https://sahar.org.il/en/",
-      "raw_snippet": "Their operating hours are Sunday-Thursday 16:00-03:00, and Friday, Saturday, and holiday evenings 18:00-00:00. Since October 7th 2023, their dedicated team of more than 450 volunteer crisis counsellors has been staffing their chat hotlines in Hebrew and Arabic.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "raw_snippet": "24/7 Service. Sahar is a registered Israeli nonprofit that works around the clock, providing rapid, professional, and free-of-charge emotional support to all in need. SAHAR remains the only organization in the country offering round-the-clock mental health support via chat in Hebrew, alongside six hours of daily support in Arabic.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "sahar-24-7-hebrew-site",
+      "claim": "SAHAR's Hebrew site independently states 24/7 availability, an anonymous chat, WhatsApp, and the Talkit app",
+      "source_url": "https://sahar.org.il/",
+      "raw_snippet": "אנחנו כאן בשבילך סיוע נפשי 24/7. צ׳אט אנונימי וחינמי לתמיכה נפשית עם אדם אמיתי. צ׳אט אנונימי לוואטסאפ. צ׳אט למגיבים ראשונים, כוחות הבטחון, ההצלה ומשפחותיהם. האפליקציה של עמותת סה\"ר, שמעניקה סיוע והקשבה ברשת ותמיכה נפשית אנושית בצורה אנונימית, מיידית ונגישה בלחיצת כפתור, 24/7.",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
       "claim_id": "shelter-zones-1700",
-      "claim": "Israel is divided into approximately 1,700 alert zones with shelter entry windows ranging from immediate to 3 minutes",
-      "source_url": "https://www.oref.org.il/12487-17292-he/Pakar.aspx",
-      "raw_snippet": "Israel is currently divided into approximately 1,700 alert zones, with each zone having a defined protection time. Most areas have 90 seconds. In areas near borders, ranges from immediate to 15 seconds, 30 seconds, 45 seconds, and one minute.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "claim": "Israel is divided into approximately 1,700 alert zones with shelter entry windows ranging from immediate to 3 minutes. PENDING RE-VERIFICATION, see shelter-source-note.",
+      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/rocket-and-missile-attacks",
+      "raw_snippet": "PENDING RE-VERIFICATION at the live OREF page. Prior snippet from the now-dead legacy URL: Israel is currently divided into approximately 1,700 alert zones, with each zone having a defined protection time. Most areas have 90 seconds. In areas near borders, ranges from immediate to 15 seconds, 30 seconds, 45 seconds, and one minute.",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
       "claim_id": "shelter-gaza-15sec",
-      "claim": "Gaza Envelope shelter entry window is 15 seconds",
-      "source_url": "https://www.oref.org.il/12487-17292-he/Pakar.aspx",
-      "raw_snippet": "In the Gaza Envelope area, a red alert siren will sound and the entry time to a protected space is 15 seconds.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "claim": "Gaza Envelope shelter entry window is 15 seconds. PENDING RE-VERIFICATION, see shelter-source-note.",
+      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/rocket-and-missile-attacks",
+      "raw_snippet": "PENDING RE-VERIFICATION at the live OREF page. Prior snippet from the now-dead legacy URL: In the Gaza Envelope area, a red alert siren will sound and the entry time to a protected space is 15 seconds.",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
       "claim_id": "shelter-arava-3min",
-      "claim": "Arava region shelter entry window is up to 3 minutes",
-      "source_url": "https://www.oref.org.il/12487-17292-he/Pakar.aspx",
-      "raw_snippet": "In the Arava region, the alert duration is one and a half minutes, but the entry time to a protected space is three minutes.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "claim": "Arava region shelter entry window is up to 3 minutes. PENDING RE-VERIFICATION, see shelter-source-note.",
+      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/rocket-and-missile-attacks",
+      "raw_snippet": "PENDING RE-VERIFICATION at the live OREF page. Prior snippet from the now-dead legacy URL: In the Arava region, the alert duration is one and a half minutes, but the entry time to a protected space is three minutes.",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
-      "claim_id": "shelter-stay-10min",
-      "claim": "Stay in protected space for 10 minutes after siren stops before leaving",
-      "source_url": "https://www.telfed.org.il/emergencies/",
-      "raw_snippet": "The highest priority is to go into the home mamad (reinforced security room) and stay in there for ten minutes after the siren alarm.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "claim_id": "shelter-source-note",
+      "claim": "The legacy OREF URL that previously backed all three shelter-timing claims is dead. It returns HTTP 200 with a 9-byte body, a soft 404 that status-code-only link checkers do not catch. The entire legacy Pakar.aspx URL scheme was retired when OREF migrated to its single-page app.",
+      "source_url": "https://www.oref.org.il/12487-17292-he/Pakar.aspx",
+      "raw_snippet": "Not found",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["evidence.json"]
+    },
+    {
+      "claim_id": "shelter-exit-two-regimes",
+      "claim": "There is no single shelter exit timer. Under rocket fire the rule is at least 10 minutes; under ballistic missile fire there is no automatic timed exit and the instruction is to remain until an official all-clear arrives via the Home Front Command app and Cell Broadcast, because salvos arrive in sequence and interception fragments keep falling for minutes. The 10-minute line on the app alert screen is leftover wording from earlier operations.",
+      "source_url": "https://www.ynet.co.il/digital/technews/article/h1nnwszfbl",
+      "raw_snippet": "נשארים במרחב מוגן או יוצאים אחרי 10 דקות? הבלבול המסוכן באפליקציית פיקוד העורף. בעוד שההנחיה הרשמית היא להישאר במרחב מוגן עד לקבלת הודעת שחרור רשמית באפליקציה ובמערכת ה-Cell Broadcast, במסך ההתרעה מוצגת הנחיה לשהות במרחב המוגן 10 דקות בלבד.",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "trauma-centers-count",
+      "claim": "Israel has at least seven Level-1 trauma centers, and Ziv and Barzilai were additionally designated. No hospital is any longer the only Level-1 center in its region.",
+      "source_url": "https://www.timesofisrael.com/liveblog_entry/ziv-barzilai-to-upgrade-to-level-1-trauma-centers-so-they-can-treat-seriously-and-critically-ill-patients/",
+      "raw_snippet": "The Level 1 trauma centers in Israel include Rambam Medical Center in Haifa, Soroka Medical Center in Beersheba, and in the country's center: Sheba Medical Center, Ichilov Hospital and Beilinson Hospital in the greater Tel Aviv area, and Shaare Zedek Medical Center and Hadassah Medical Center in Jerusalem. The Health Ministry decided to recognize Ziv Medical Center in Safed and Barzilai Medical Center in Ashkelon as Level 1 trauma centers. Hospitals close to the borders, Ziv not far from Lebanon and Syria, and Barzilai near Gaza, must be able to handle life-threatening injuries.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/hospital-directory.md", "metadata.json"]
+    },
+    {
+      "claim_id": "trauma-ziv-barzilai-2023",
+      "claim": "Ziv in Tzfat and Barzilai in Ashkelon were declared trauma super-centers by the Ministry of Health in 2023",
+      "source_url": "https://quality.doctorsonly.co.il/2023/12/301724/",
+      "raw_snippet": "שר הבריאות אוריאל בוסו וצמרת משרד הבריאות הכריזו על המרכז הרפואי זיו בצפת ועל המרכז הרפואי ברזילי כמרכזי-על.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/hospital-directory.md"]
+    },
+    {
+      "claim_id": "infant-cpr-2025-technique",
+      "claim": "The 2025 AHA and AAP pediatric guidelines removed the two-finger infant compression technique and recommend two thumbs-encircling hands or one-hand, with heel-of-one-hand when the rescuer cannot encircle the chest",
+      "source_url": "https://newsroom.heart.org/news/updated-cpr-guidelines-released-for-pediatric-and-neonatal-emergency-care-and-resuscitation",
+      "raw_snippet": "For infants, the recommended compression techniques include using either the one-hand technique or the two thumbs-encircling hands technique. If the rescuer cannot physically encircle the chest, it is recommended to compress the chest with the heel of one-hand. The use of two fingers along the sternum was eliminated due to ineffectiveness in achieving proper depth. Published online October 22, 2025 in Circulation and Pediatrics.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["references/first-aid-basics.md"]
+    },
+    {
+      "claim_id": "adult-choking-2025",
+      "claim": "The 2025 AHA adult BLS guidance is cycles of 5 back blows followed by 5 abdominal thrusts, with chest thrusts substituted when the person is pregnant or too large to reach around",
+      "source_url": "https://newsroom.heart.org/news/updated-cpr-guidelines-tackle-choking-response-opioid-related-emergencies-and-a-revised-chain-of-survival",
+      "raw_snippet": "For adults with severe foreign-body airway obstruction, rescuers should perform cycles of 5 back blows followed by 5 abdominal thrusts until the object is expelled or the patient becomes unresponsive. If the patient is pregnant or obese, perform five chest thrusts over the sternum instead.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["references/first-aid-basics.md"]
     },
     {
       "claim_id": "mda-39000-personnel",
-      "claim": "MDA has approximately 39,000 volunteers, employees, and national service personnel combined (2025-2026 data)",
+      "claim": "MDA has approximately 39,000 volunteers, employees, and national service personnel combined, 2025-2026 data",
       "source_url": "https://www.jpost.com/israel-news/culture/article-882270",
-      "raw_snippet": "MDA has approximately 39,200 volunteers, employees, national service and civil service volunteers, including 16,500 youth volunteers (as of 2025/2026 data).",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "raw_snippet": "MDA has approximately 39,200 volunteers, employees, national service and civil service volunteers, including 16,500 youth volunteers, as of 2025/2026 data.",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
@@ -136,64 +248,48 @@
       "claim": "MDA Blood Services supplies 100% of IDF blood needs",
       "source_url": "https://www.mdais.org/en",
       "raw_snippet": "Magen David Adom supplies 100% of blood products for the Israel Defense Forces and Israeli hospitals.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
       "claim_id": "terem-romema-247",
-      "claim": "Terem Romema/Sarei Israel branch in Jerusalem operates 24/7",
+      "claim": "Terem Romema and Sarei Israel branch in Jerusalem operates 24/7",
       "source_url": "https://www.terem.com/clinic/romema-sarei-israel/?lang=en",
       "raw_snippet": "Terem Sarei Israel Romema - Expert and Dedicated Care 24/7. Provides quick, convenient medical care 24/7.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
       "claim_id": "terem-callcenter",
       "claim": "Terem call center number is 1-599-520-520",
-      "source_url": "https://www.terem.com/clinic/romema-sarei-israel/?lang=en",
-      "raw_snippet": "To schedule an appointment for vaccinations at Terem clinics, you can call the phone number 1599-520-520 or schedule online.",
-      "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
-    },
-    {
-      "claim_id": "trauma-soroka-negev",
-      "claim": "Soroka Medical Center is the only Level-1 trauma center in the Negev region",
-      "source_url": "https://www.nbn.org.il/life-in-israel/emergency-resources-life-in-israel-2/national-emergency-preparation/",
-      "raw_snippet": "Soroka Medical Center in Beer Sheva is the only Level-1 trauma center in the Negev region.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "source_url": "https://www.terem.com/?lang=en",
+      "raw_snippet": "Terem Urgent Care - Fast and Professional Medical Services. 1-599-520-520.",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
       "claim_id": "patient-rights-law",
-      "claim": "Israeli Patient Rights Law (חוק זכויות החולה) guarantees patient rights including emergency care, informed consent, refusal of treatment, privacy, accompaniment, medical records access, and language interpretation",
+      "claim": "Israeli Patient Rights Law guarantees patient rights including emergency care, informed consent, refusal of treatment, privacy, accompaniment, medical records access, and language interpretation",
       "source_url": "https://www.patients-rights.org/",
-      "raw_snippet": "Patient Rights Law (חוק זכויות החולה) guarantees informed consent, right to emergency care regardless of payment status, right to refuse treatment, privacy, accompaniment, access to medical records.",
-      "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
-    },
-    {
-      "claim_id": "iron-swords-since-oct2023",
-      "claim": "Iron Swords war began October 7, 2023, ongoing emergency context for shelter and OREF guidance",
-      "source_url": "https://www.oref.org.il/",
-      "raw_snippet": "Pikud Haoref guidelines have been continuously updated since October 7, 2023, with active war conditions affecting emergency protocols.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "raw_snippet": "Patient Rights Law guarantees informed consent, right to emergency care regardless of payment status, right to refuse treatment, privacy, accompaniment, access to medical records.",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
       "claim_id": "blood-donation-eligibility",
-      "claim": "MDA blood donation eligibility: age 17+, weight over 50 kg; 17-18 need parental consent; first-time donors 60+ and returning donors 65+ need physician approval at fixed station",
+      "claim": "MDA blood donation eligibility: age 17 and above, weight over 50 kg; ages 17 to 18 need parental consent; first-time donors over 60 and returning donors over 65 need physician approval at a fixed station",
       "source_url": "https://www.mdais.org/en/blood-donation/who-can-donate",
       "raw_snippet": "Eligibility criteria for blood donation include age 17 and above, weight above 50 kg, in good health.",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
-      "claim_id": "poison-control-rambam",
-      "claim": "Israel poison control hotline at Rambam is 04-7771900",
-      "source_url": "https://www.rambam.org.il/en/patient_info/contact_us/",
-      "raw_snippet": "Israel Poison Information Center at Rambam: 04-7771900",
-      "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "moh-hmo-mental-health-lines",
+      "claim": "The Ministry of Health lists 24/7 mental-health lines for the four HMOs: Clalit, Maccabi, Meuhedet and Leumit, and states that psychiatric emergency rooms are open 24/7 with no referral and no charge. Not yet surfaced in the skill body; logged for the next cycle.",
+      "source_url": "https://me.health.gov.il/en/mental-health/therapy-and-rehabilitation/crisis-support/first-aid/",
+      "raw_snippet": "Clalit Mental Health Hotline, 24/7. Maccabi Mental Health Hotline, 24/7. Meuhedet Mental Health Hotline, 24/7. Leumit Mental Health Hotline, 24/7. Emergency psychiatric hospitals operate 24/7, year-round, with no referral required and no charge for emergency room visits.",
+      "fetched_at": "2026-08-01T00:00:00Z",
+      "appears_in": ["optimization-log.json"]
     }
   ]
 }

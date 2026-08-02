@@ -54,9 +54,17 @@ PRIVATE_COSTS = {
 
 # Kupat cholim subsidized therapy costs
 KUPAT_CHOLIM_COSTS = {
-    "quarterly_copay": 34,       # Approximate quarterly copay in NIS
-    "sessions_per_quarter": 4,   # Typical sessions covered per quarter
-    "sessions_per_year": 16,     # Typical maximum sessions per year
+    # Copay depends on the SETTING, not on the kupah. Maccabi's published figures
+    # (page last updated 29.7.2026): 41 NIS quarterly at a public-hospital outpatient
+    # clinic, free at a psychiatric hospital, free at public and agreement clinics.
+    # 41 is used here as the worst-case (highest) published figure.
+    # Clalit / Meuhedet / Leumit publish their secondary-physician tariffs separately
+    # and have NOT been read; do not assume they match.
+    "quarterly_copay": 41,
+    # Published entitlement: 2 assessment sessions + a 15-session kartisiya within
+    # one year = 17 sessions. Agreement clinics have no session cap.
+    "sessions_per_quarter": 4,
+    "sessions_per_year": 17,
 }
 
 # University training clinic costs (reduced rates)
@@ -123,9 +131,17 @@ def estimate_costs(sessions_per_month, treatment_type, city, therapist_type):
             "sessions_covered": sessions_per_year,
             "excess_sessions": excess_sessions,
             "notes": [
-                f"Kupat cholim typically covers {sessions_per_year} sessions per year",
-                f"Quarterly copay: approximately {quarterly_copay} NIS",
-                "Wait times may be 2-8 weeks for initial appointment",
+                f"Published entitlement: {sessions_per_year} sessions per year "
+                "(2 assessment + a 15-session kartisiya within one year)",
+                f"Quarterly copay used here: {quarterly_copay} NIS. This is Maccabi's "
+                "published public-hospital outpatient figure (29.7.2026) and is the "
+                "worst case. At a public Ministry of Health clinic, at an agreement "
+                "clinic, or at a psychiatric hospital the cost may be zero. Check "
+                "your own kupah's copay booklet",
+                "At a private clinic UNDER AGREEMENT with your kupah there is no "
+                "session cap and no cost",
+                "Wait times may be 2-8 weeks for initial appointment (observational, "
+                "not a published standard)",
                 "SHABAN (supplementary insurance) may provide additional sessions",
             ],
         })
@@ -271,7 +287,7 @@ def format_result(result):
 
     lines.append("")
     lines.append("  COST-SAVING OPTIONS:")
-    lines.append("  * Start with kupat cholim (subsidized, ~34 NIS/quarter)")
+    lines.append("  * Start with kupat cholim (often free; up to 41 NIS/quarter)")
     lines.append("  * Check SHABAN for additional covered sessions")
     lines.append("  * University training clinics: 150-250 NIS/session")
     lines.append("  * Ask private therapists about sliding scale fees")

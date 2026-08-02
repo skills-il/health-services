@@ -33,11 +33,15 @@ Cardiopulmonary Resuscitation for adults, children, and infants.
 
 | Difference from Adult | Details |
 |----------------------|---------|
-| Compression technique | Use 2 fingers on the lower half of the breastbone |
-| Compression depth | 4 cm (about 1.5 inches) |
+| Compression technique | Use the two thumbs-encircling hands technique (thumbs on the lower half of the breastbone, hands wrapped around the chest). If you cannot encircle the chest, use the heel of one hand. See the guideline note below |
+| Compression depth | 4 cm (about 1.5 inches), or one-third of the chest depth |
 | Rescue breaths | Cover mouth AND nose, use gentle puffs |
 | Compression-to-breath ratio | 30:2 (single rescuer) |
 | Call timing | 2 minutes of CPR before calling 101 if alone |
+
+**Guideline note on infant compressions:** the 2025 AHA and AAP pediatric guidelines (published 22 October 2025) removed the two-finger technique, because it consistently failed to reach adequate depth. They recommend the two thumbs-encircling hands technique or the one-hand technique, and the heel of one hand when the rescuer cannot encircle the chest. Israeli lay-rescuer courses follow the Israeli Resuscitation Council and ERC, which may still teach two fingers in older course material. If a user tells you they were trained on the two-finger technique, do not stop them mid-resuscitation to correct technique: any compressions are better than none. The priority order is always call 101, push hard and fast in the centre of the chest, and follow the dispatcher.
+
+**Whatever the technique, the dispatcher on 101 will talk you through compressions in real time. Calling is the first action, not the last.**
 
 ### AED (Defibrillator, דפיברילטור)
 
@@ -114,6 +118,7 @@ Many public locations in Israel have AED machines. Look for the green heart-shap
 | 4 | Deliver 5 back blows between the shoulder blades with the heel of your hand |
 | 5 | If still choking: perform Heimlich maneuver (5 abdominal thrusts) |
 | 6 | Alternate 5 back blows and 5 abdominal thrusts until the object is expelled |
+| 6b | If the person is pregnant or too large for you to reach around, give 5 chest thrusts over the breastbone instead of abdominal thrusts |
 | 7 | If the person becomes unconscious, lower them to the ground and begin CPR |
 
 ### Infant Choking (Under 1 Year)

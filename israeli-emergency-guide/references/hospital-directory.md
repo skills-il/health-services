@@ -4,15 +4,21 @@ A complete directory of Israeli hospitals organized by region, including Level-1
 
 ## Level-1 Trauma Centers
 
-Israel has 5 designated Level-1 trauma centers. These are equipped to handle the most severe injuries, including multi-system trauma, penetrating injuries, and mass casualty events.
+Israel designates Level-1 trauma centers (מרכזי-על לטראומה), equipped to handle the most severe injuries, including multi-system trauma, penetrating injuries, and mass casualty events. There are at least seven, plus Ziv and Barzilai which were upgraded in 2023. Earlier versions of this directory listed only five; that was wrong.
 
 | Hospital | Hebrew | City | Phone | Key Trauma Features |
 |----------|--------|------|-------|--------------------|
 | Rambam Health Care Campus | רמב"ם | Haifa | 04-7772222 | Underground emergency hospital (Sammy Ofer Fortified), designed for mass casualty events |
+| Ziv Medical Center | זיו | Tzfat (Safed) | 04-6828811 | Upgraded to Level-1 in 2023, serves the Upper Galilee and the northern border area |
 | Hadassah Medical Center (Ein Kerem) | הדסה עין כרם | Jerusalem | 02-6777111 | Complex trauma surgeries, organ transplant center |
+| Shaare Zedek Medical Center | שערי צדק | Jerusalem | 02-6555111 | Level-1 trauma, major maternity center, pediatrics |
 | Sheba Medical Center (Tel Hashomer) | שיבא תל השומר | Ramat Gan | 03-5303030 | Largest hospital in Israel, national referral center, burns unit |
-| Soroka Medical Center | סורוקה | Beer Sheva | 08-6400111 | Only Level-1 trauma center for the entire Negev region |
+| Ichilov (Sourasky Medical Center) | איכילוב (סוראסקי) | Tel Aviv | 03-6974444 | Level-1 trauma, central Tel Aviv |
 | Rabin Medical Center (Beilinson) | רבין (בילינסון) | Petach Tikva | 03-9377377 | Major cardiac center, pediatric trauma |
+| Soroka Medical Center | סורוקה | Beer Sheva | 08-6400111 | Level-1 trauma center for the Negev |
+| Barzilai Medical Center | ברזילי | Ashkelon | 08-6745555 | Upgraded to Level-1 in 2023, serves the Gaza-adjacent area, fortified ER |
+
+Hospital switchboard numbers in this directory were carried over from the previous version of the skill and have not been re-verified against each hospital's own site. Treat them as a starting point, not as dispatch-grade data. In an emergency, dial 101 rather than a hospital switchboard.
 
 ## Northern Region (Ezor HaTzafon, אזור הצפון)
 
@@ -59,7 +65,7 @@ Israel has 5 designated Level-1 trauma centers. These are equipped to handle the
 
 | Hospital | Hebrew | City | Phone | ER | Specialties |
 |----------|--------|------|-------|-----|-------------|
-| Soroka Medical Center | סורוקה | Beer Sheva | 08-6400111 | 24/7 | Level-1 trauma, only major hospital in the Negev |
+| Soroka Medical Center | סורוקה | Beer Sheva | 08-6400111 | 24/7 | Level-1 trauma, principal hospital of the Negev |
 | Kaplan Medical Center | קפלן | Rehovot | 08-9441211 | 24/7 | Serves southern coastal area, cardiology |
 | Barzilai Medical Center | ברזילי | Ashkelon | 08-6745555 | 24/7 | Serves Ashkelon/Ashdod area, fortified ER |
 | Yoseftal Hospital | יוספטל | Eilat | 08-6358011 | 24/7 | Southernmost hospital, serves Eilat and Arava |
@@ -91,9 +97,12 @@ Israel has 5 designated Level-1 trauma centers. These are equipped to handle the
 | MDA (Ambulance) | 101 | Medical emergency |
 | Police | 100 | Crime, security |
 | Fire and Rescue | 102 | Fire, hazmat, rescue |
-| Unified Emergency | 112 | Any emergency (routes to correct service) |
-| ERAN (Emotional First Aid) | 1201 | Mental health crisis, suicidal thoughts |
-| Poison Control (Rambam) | 04-7771900 | Poisoning or toxic exposure |
+| Police, from a locked or SIM-less phone | 112 | Reaches Israel Police, NOT a unified dispatcher. For medical emergencies dial 101 |
+| Police information line | 110 | Non-emergency police information, and the accessible text position |
+| ERAN (Emotional First Aid) | 1201 | Mental health crisis, suicidal thoughts. WhatsApp 052-8451201, SMS 052-9993544 |
+| Sexual assault crisis lines | 1202 / 1203 | 24/7. 1202 for women, 1203 for men. SMS 052-8361202 |
+| Poison Control (Rambam) | 04-7771900 | Poisoning or toxic exposure, 24/7 |
+| MDA, non-voice | 052-7000101 | SMS or WhatsApp to MDA dispatch for deaf and hard-of-hearing users. Fax 1-800-500101 |
 
 ## Notes on Hospital Selection
 

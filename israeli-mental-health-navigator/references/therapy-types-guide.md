@@ -6,18 +6,18 @@ Israel offers a wide range of evidence-based psychological treatments through bo
 
 ## Therapy Types at a Glance
 
-| Therapy | Hebrew Name | Best For | Typical Duration | Through Kupat Cholim | Private Cost (per session) |
-|---------|-------------|----------|-----------------|---------------------|--------------------------|
-| CBT | טיפול קוגניטיבי-התנהגותי | Anxiety, depression, OCD, phobias | 12-20 sessions | Yes | 300-600 NIS |
-| EMDR | EMDR | PTSD, trauma, distressing memories | 8-12 sessions | Yes (expanded since Oct 7) | 350-700 NIS |
-| Psychodynamic | טיפול פסיכודינמי | Personality issues, recurring patterns | 1-3+ years | Limited | 350-600 NIS |
-| DBT | טיפול דיאלקטי-התנהגותי | Borderline PD, self-harm, emotion dysregulation | 1-2 years | Some kupot | 400-700 NIS |
-| Group Therapy | טיפול קבוצתי | Social anxiety, grief, addiction, support | 6-12 months | Yes | 150-300 NIS |
-| Family Therapy | טיפול משפחתי | Family conflict, child behavioral issues | 10-20 sessions | Sometimes | 400-800 NIS |
-| Couples Therapy | טיפול זוגי | Relationship issues, communication | 10-30 sessions | Sometimes | 400-800 NIS |
-| Art Therapy | טיפול באומנות | Trauma, children, verbal difficulty | Varies | Sometimes | 250-500 NIS |
-| Play Therapy | טיפול במשחק | Children ages 3-12 | 20-40 sessions | Sometimes | 250-500 NIS |
-| Psychiatric Medication | טיפול תרופתי | Severe depression, bipolar, schizophrenia | Ongoing | Yes | 500-900 NIS (initial) |
+| Therapy | Hebrew Name | Best For | Typical Duration | Through Kupat Cholim |
+|---------|-------------|----------|-----------------|---------------------|
+| CBT | טיפול קוגניטיבי-התנהגותי | Anxiety, depression, OCD, phobias | 12-20 sessions | Yes |
+| EMDR | EMDR | PTSD, trauma, distressing memories | 8-12 sessions | Yes (expanded since Oct 7) |
+| Psychodynamic | טיפול פסיכודינמי | Personality issues, recurring patterns | 1-3+ years | Limited |
+| DBT | טיפול דיאלקטי-התנהגותי | Borderline PD, self-harm, emotion dysregulation | 1-2 years | Some kupot |
+| Group Therapy | טיפול קבוצתי | Social anxiety, grief, addiction, support | 6-12 months | Yes |
+| Family Therapy | טיפול משפחתי | Family conflict, child behavioral issues | 10-20 sessions | Sometimes |
+| Couples Therapy | טיפול זוגי | Relationship issues, communication | 10-30 sessions | Sometimes |
+| Art Therapy | טיפול באומנות | Trauma, children, verbal difficulty | Varies | Sometimes |
+| Play Therapy | טיפול במשחק | Children ages 3-12 | 20-40 sessions | Sometimes |
+| Psychiatric Medication | טיפול תרופתי | Severe depression, bipolar, schizophrenia | Ongoing | Yes |
 
 ## Detailed Guide by Therapy Type
 
@@ -44,7 +44,7 @@ Israel offers a wide range of evidence-based psychological treatments through bo
 - Available at all four kupot cholim
 - CBT is the most commonly offered therapy type in the public system
 - Wait time: typically 2-6 weeks
-- Number of sessions: usually 12-16 per treatment course
+- Number of sessions: the published structure is 2 assessment sessions plus a 15-session treatment card (kartisiya) within one year. At a private clinic under agreement with the kupah there is no session cap
 
 **Finding a CBT therapist:**
 - Through your kupat cholim (free/subsidized)
@@ -162,7 +162,7 @@ Israel offers a wide range of evidence-based psychological treatments through bo
 **Availability:**
 - Available through some kupat cholim programs (especially for children)
 - Tipat Chalav (well-baby clinics) may refer for family therapy
-- Private practice: 400-800 NIS per session (sessions are typically longer, 60-90 minutes)
+- Private practice: sessions are typically longer, 60-90 minutes; ask the therapist for the current rate
 
 ### Art Therapy (טיפול באומנות)
 
@@ -178,7 +178,7 @@ Israel offers a wide range of evidence-based psychological treatments through bo
 **Availability:**
 - Some kupot cholim offer art therapy, especially for children
 - Available at mental health centers and child development institutes
-- Private: 250-500 NIS per session
+- Private: ask the therapist for the current rate
 - Israel has a strong art therapy training tradition (academic programs at Haifa University and Lesley University)
 
 ### Play Therapy (טיפול במשחק)
@@ -215,13 +215,13 @@ Israel offers a wide range of evidence-based psychological treatments through bo
 
 ## Who Can Provide Therapy in Israel
 
-| Title | Hebrew | Training | Can Prescribe Medication | Typical Cost |
-|-------|--------|----------|------------------------|-------------|
-| Psychiatrist (Psikh'iater) | פסיכיאטר | MD + psychiatric residency | Yes | 500-900 NIS |
-| Clinical Psychologist (Psikholog Klini) | פסיכולוג קליני | MA/PhD + clinical internship | No | 300-600 NIS |
-| Clinical Social Worker (Oveid Sotsiali Klini) | עובד סוציאלי קליני | MSW + clinical specialization | No | 200-450 NIS |
-| Art Therapist (Metapel B'Omanut) | מטפל באומנות | MA in art therapy | No | 250-500 NIS |
-| Counseling Psychologist | פסיכולוג ייעוצי | MA + counseling internship | No | 250-500 NIS |
+| Title | Hebrew | Training | Can Prescribe Medication |
+|-------|--------|----------|------------------------|
+| Psychiatrist (Psikh'iater) | פסיכיאטר | MD + psychiatric residency | Yes |
+| Clinical Psychologist (Psikholog Klini) | פסיכולוג קליני | MA/PhD + clinical internship | No |
+| Clinical Social Worker (Oveid Sotsiali Klini) | עובד סוציאלי קליני | MSW + clinical specialization | No |
+| Art Therapist (Metapel B'Omanut) | מטפל באומנות | MA in art therapy | No |
+| Counseling Psychologist | פסיכולוג ייעוצי | MA + counseling internship | No |
 
 **Important:** Only a psychiatrist can prescribe psychiatric medication. Psychologists and social workers can provide therapy but not medication. If both therapy and medication are needed, the patient may see two different professionals.
 
@@ -237,4 +237,4 @@ Israel offers a wide range of evidence-based psychological treatments through bo
 
 5. **Combine approaches.** It is common and effective to combine therapy with medication, especially for moderate-to-severe depression and anxiety.
 
-6. **Explore external therapist reimbursement.** If wait times are too long, some kupot will partially reimburse sessions with approved private therapists (shlichut, שליחות).
+6. **Ask for an agreement clinic, not a reimbursement.** If wait times are too long, ask to be referred to a private clinic under agreement with your kupah (מרפאה פרטית שבהסכם). It costs nothing and the course of treatment is set by the therapist rather than capped. Kupot generally do NOT reimburse a private therapist you found on your own.

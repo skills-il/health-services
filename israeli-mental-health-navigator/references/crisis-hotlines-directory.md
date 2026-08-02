@@ -17,8 +17,11 @@ Israel has an extensive network of crisis hotlines and emotional support service
 | What They Do | Immediate emotional support for anyone in distress, including suicidal ideation, anxiety, loneliness, relationship crises, and general emotional difficulty |
 | Who Answers | Trained volunteers supervised by mental health professionals |
 | Anonymous | Yes, fully anonymous |
-| Chat Option | Available through the ERAN website |
-| Notes | Israel's primary and most well-known crisis line; handles over 500,000 calls per year |
+| Chat Option | Available through the ERAN website, 08:00-02:00 |
+| WhatsApp | 052-845-1201, 08:00-02:00 |
+| SMS | 052-999-3544, 08:00 to midnight (a different number from the WhatsApp line) |
+| Email | Answered within 48 hours |
+| Notes | Israel's primary and most well-known crisis line; handles over 500,000 calls per year. The phone line is 24/7; the text channels are not |
 
 ### Sahar (סה"ר) - Online Emotional Support
 
@@ -63,7 +66,7 @@ Israel has an extensive network of crisis hotlines and emotional support service
 
 | Detail | Information |
 |--------|-------------|
-| Phone | 02-5427127 |
+| Contact | Through the nearest AMCHA center. Locator at amcha.org. The single national number previously listed here (02-5427127) does not appear on AMCHA's own site and has been removed |
 | Full Name | AMCHA (Ami, My People) |
 | Hours | Office hours, Sunday-Thursday |
 | Languages | Hebrew, Yiddish, German, Russian, Polish, English |
@@ -83,29 +86,32 @@ Israel has an extensive network of crisis hotlines and emotional support service
 
 ## Population-Specific Services
 
+VERIFICATION STATUS: every number remaining in this file has been checked against either the operating organisation's own page or the Ministry of Health's official helpline index (me.health.gov.il, page dated 2.3.2026). Numbers that could not be confirmed were REMOVED rather than shipped with a warning, because a person in acute distress will not stop to verify a number. Where a removal left a population without a listed resource, it was replaced with a route that was verified. Removals are recorded in the notes under each section so that a stale number cannot silently return.
+
 ### Youth and Teens
 
 | Service | Phone/Access | Hours | Focus |
 |---------|-------------|-------|-------|
-| ERAN for Youth | 1201 (option for youth) | 24/7 | Emotional support for teens |
-| Goshen Center | *8944 | Sun-Thu 8:00-16:00 | At-risk youth services |
-| Elem (עלם) - Youth in Distress | *6050 or online at elem.org.il | Evening hours | Street outreach, online support for at-risk youth |
-| Kav HaChaim for Youth | *8655 | Evening hours | Teens in emotional crisis |
+| ERAN for Youth | 1201 | 24/7 | Emotional support for teens. ERAN runs a dedicated youth and young adults track |
+| Elem (עלם) - Youth in Distress | Chat and WhatsApp 054-942-4062, online at yelem.org.il | Sun-Thu 20:00-24:00 | Online counselling and support for ages 12-21 in distress or at risk |
+
+Note: *8944 was previously listed here as a youth line. It is not. *8944 is Nefesh Achat, the 24/7 post-trauma support line run by MoD Rehabilitation with Natal (see the IDF and Veterans section). *6050 was previously listed as Elem's number. It is not. *6050 is the Bituach Leumi national call center.
 
 ### Women and Domestic Violence
 
 | Service | Phone/Access | Hours | Focus |
 |---------|-------------|-------|-------|
-| WIZO Domestic Violence Hotline | 1-800-353-300 | 24/7 | Domestic violence support, safety planning, shelter referrals |
-| No2Violence (L'lo Alimut) | *6310 | Office hours | Support for domestic violence victims |
-| Rape Crisis Centers (Merkazei Siyua L'Nifgaot) | 1-800-22-0000 | 24/7 | Sexual assault support, legal guidance, accompaniment |
-| Na'amat Women's Hotline | 1-800-28-1201 | Office hours | Women's legal rights, domestic issues |
+| Ministry of Welfare emergency line | 118, silent SMS 050-227-0118 | 24/7 | Welfare emergencies and domestic violence. The silent SMS channel is for callers who cannot safely speak |
+| Sexual assault support centers (Merkazei Siyua) | 1202 (answered by women), 1203 (answered by men), 052-836-1202. Online chat at 1202.org.il | 24/7, 7 days a week | Sexual assault support, legal guidance, accompaniment through medical and criminal proceedings |
+| Family violence emergency line | 1-800-220-000 | 24/7 | Domestic violence. Note: this number is NOT the sexual assault line; the two are frequently confused |
+
+Three further numbers previously listed in this section (WIZO 1-800-353-300, No2Violence *6310, Na'amat 1-800-28-1201) were removed because they could not be confirmed on the operating organisation's own page. For domestic violence, route to 118 or to the family violence line above; for sexual assault, route to 1202 or 1203.
 
 ### LGBTQ+
 
 | Service | Phone/Access | Hours | Focus |
 |---------|-------------|-------|-------|
-| Aguda LGBTQ+ Hotline | *2223 | Sun-Thu 16:00-22:00 | Emotional support for LGBTQ+ individuals; coming out, family rejection, discrimination |
+| Aguda listening line, "Yesh Im Mi Ledaber" | *2982; WhatsApp 058-620-5591; email yesh@lgbt.org.il; chat at lgbt.org.il | Sun-Thu 14:00-17:00 and 19:30-22:30; Saturday 19:30-22:30 | Emotional support for LGBTQ+ individuals, family and friends; coming out, family rejection, discrimination. Hebrew only. Free and anonymous |
 | Hoshen Education | Through aguda.org.il | Varies | Educational resources and support groups |
 | Notes | ERAN and Sahar also provide LGBTQ+-aware support | | |
 
@@ -113,42 +119,50 @@ Israel has an extensive network of crisis hotlines and emotional support service
 
 | Service | Phone/Access | Hours | Focus |
 |---------|-------------|-------|-------|
-| ERAN (Arabic line) | 1201 (Arabic option) | 24/7 | General emotional support in Arabic |
-| Kav LaHaim (Arabic) | *2784 | 24/7 | Suicide prevention in Arabic |
-| Sawa (سوا) | 1-800-500-600 | 24/7 | Crisis support in Arabic for women and children |
-| Na'am (نعم) | *6438 | Office hours | Arab women support and empowerment |
+| ERAN Arabic line | 1201, extension 7 | 10:00-12:00 and 19:00-21:00 only. NOT 24/7 | General emotional support in Arabic for all sectors including Druze and Bedouin, any age, any topic. Free, fully anonymous. If no Arabic-speaking volunteer is on shift you can leave a number for a callback |
+| Sexual assault support centers | 1202 (women), 1203 (men) | 24/7 | The association includes a Nazareth center serving Arab women |
+| Ministry of Welfare | 118 | 24/7 | Welfare emergencies and domestic violence |
+
+Note: the Arabic ERAN line is an extension of 1201, not a separate number, and its hours are narrow. Outside 10:00-12:00 and 19:00-21:00, route Arabic speakers to the main 1201 line, to Sahar's chat, or to 118. Three numbers previously listed in this section (Kav LaHaim *2784, Sawa 1-800-500-600, Na'am *6438) were removed because they could not be confirmed on the operating organisation's own page.
 
 ### Russian-Speaking Community
 
 | Service | Phone/Access | Hours | Focus |
 |---------|-------------|-------|-------|
-| ERAN (Russian line) | 1201 (Russian option) | Select hours | Emotional support in Russian |
-| Natal (Russian) | *3362 | Select hours | Trauma support in Russian |
-| Amigour Hotline | 03-5142706 | Office hours | Support for elderly Russian-speaking immigrants |
+| Immigrant support line (מוקד תמיכה וסיוע לעולים) | *3201 | Staffed by professionals | Support in Amharic, Russian, French, Spanish and English. Listed by the Ministry of Health as the language-adapted support line |
+| Natal | *3362 | 24/7 | Trauma support. Natal states it serves Russian speakers among others |
+
+Note: Amigour 03-5142706 was removed because it could not be confirmed on the operating organisation's own page.
 
 ### Ethiopian-Israeli Community
 
 | Service | Phone/Access | Hours | Focus |
 |---------|-------------|-------|-------|
-| ERAN (Amharic line) | 1201 (Amharic option) | Select hours | Emotional support in Amharic |
-| Fidel Association | 02-5815622 | Office hours | Culturally adapted mental health support |
+| Immigrant support line | *3201 | Staffed by professionals | Includes Amharic |
+| Tene Briut (טנא בריאות) | 04-6323544 | Office hours | Health-system navigation support from the association for promoting the health of Ethiopian Israelis |
+
+Note: Fidel Association 02-5815622 was removed because it could not be confirmed on the operating organisation's own page.
 
 ### Elderly (Vatik, ותיק)
 
 | Service | Phone/Access | Hours | Focus |
 |---------|-------------|-------|-------|
-| Yad Riva | 02-5000572 | Office hours | Emotional support for elderly |
-| Melabev | 02-5611111 | Office hours | Support for elderly and families dealing with dementia |
-| ERAN Senior Line | 1201 | 24/7 | Dedicated option for elderly callers |
+| ERAN | 1201 | 24/7 | ERAN runs a dedicated track for older adults (הגיל השלישי) |
+
+Note: Yad Riva 02-5000572 and Melabev 02-5611111 were removed because they could not be confirmed on the operating organisation's own page.
 
 ## IDF and Veterans
 
 | Service | Phone/Access | Hours | Focus |
 |---------|-------------|-------|-------|
 | IDF Mental Health Division | Through unit medical officer | During service | Active soldiers' mental health |
-| Ministry of Defense Rehabilitation | *3104 | Office hours | Veterans with PTSD and service-related disabilities |
-| OneFamily Fund | 1-800-800-195 | Office hours | Terror victims and bereaved families |
-| Brothers for Life (Achim LaChaim) | 072-2500032 | Office hours | Support for combat veterans |
+| Nefesh Achat (נפש אחת) | *8944 | 24/7, 7 days a week including holidays | Post-trauma emotional support for IDF disabled, discharged soldiers and their families. Run by MoD Rehabilitation with Natal. This is the 24/7 line; the numbers below are information desks |
+| MoD Rehabilitation, general call center | *8150, also 03-7776777 | Sun-Thu 8:00-18:00 | Recognition process, medical committees, clinic, welfare and rehabilitation services |
+| MoD Rehabilitation, Iron Swords casualties | *6500, also 03-7776777 | Sun-Thu 8:00-18:00 | Dedicated desk for Iron Swords wounded and their families |
+| BeYadayim Tovot (בידיים טובות) | *3757 | Sun-Thu 8:00-17:00 | Free help filing an IDF-disability recognition claim and preparing for medical committees |
+| Combat Reaction Unit (היחידה לתגובות קרב) | 03-6401400 | Sun-Thu 9:00-17:00 | Medical and mental response for people in distress after combat or operational service |
+
+Note: *3104 was previously listed here as the MoD Rehabilitation number. It does not appear anywhere on shikum.mod.gov.il and should not be used. OneFamily 1-800-800-195 and Brothers for Life 072-2500032 were removed because they could not be confirmed on the operating organisation's own page; route veterans to *8944 (24/7) or *8150 instead.
 
 ## Emergency Numbers
 
@@ -173,4 +187,4 @@ If someone is in immediate physical danger or threatening to harm themselves or 
 
 5. **Language is not a barrier.** ERAN and Natal offer services in multiple languages. If the first responder does not speak your language, ask to be transferred.
 
-6. **These services are free.** No charge for any crisis line call in Israel.
+6. **Most of these services are free.** ERAN, Natal, Nefesh Achat, the sexual assault lines and the Aguda listening line are explicitly free of charge. Some other lines listed here are commercial short codes whose call cost we have not confirmed; if cost matters to you, check with the operator.
