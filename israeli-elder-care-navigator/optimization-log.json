@@ -36,7 +36,8 @@
       "version": "1.4.0",
       "lesson": "An earlier draft of this review asserted that 26 hours is the base at level 6 and 30 is base plus the Israeli-caregiver supplement, taken from a secondary source's historical framing. The official BTL level pages present 30 as the headline and 26 as the foreign-worker variant, which is how the skill already had it. Read the primary source before inverting a table's semantics.",
       "tag": "SELF-CORRECTION"
-    }
+    },
+    "CORRECTION to the v1.4.0 commit message: it states the hours-table columns were inverted and fixed. They were not. Phase 3 raised the inversion from Kol-Zchut's historical framing; the official BTL per-level pages present 30 as the headline and 26 as the foreign-worker variant, which is how the skill already had it. The table orientation was NOT changed. What WAS added to that table: the 50%-reduced row, the level 1 election, day-centre conversion, and the cash-conversion cap column. Levels 1-6 are now each read from a server-rendered levelN.aspx text layer with its own evidence entry, so nothing is inferred."
   ],
   "persistent_fail": [],
   "deferred": [
