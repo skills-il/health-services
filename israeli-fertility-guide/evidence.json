@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-fertility-guide",
-  "generated_at": "2026-08-09T00:00:00Z",
+  "generated_at": "2026-08-09",
   "claims": [
     {
       "claim_id": "ivf-2-children-not-pregnancies",
@@ -34,8 +34,8 @@
     {
       "claim_id": "ivf-cycle-rule-42-circular-6-2014",
       "claim": "MoH Medical Administration Circular 6/2014: a woman who has turned 42 may not perform more than 3 consecutive IVF cycles that did not reach embryo transfer, and any transfer restarts the count. A treating-team review (with a social worker) is mandatory after 4 consecutive cycles with no transfer or 8 IVF cycles with no clinical pregnancy.",
-      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_%28IVF%29",
-      "raw_snippet": "נשים שמלאו להן 42 לא יבצעו יותר מ-3 מחזורי IVF עוקבים, בהם לא הגיעו בטיפול לשלב של החזרת עוברים. במקרה שמתבצעת החזרת עוברים (אפילו במחזור השלישי) הספירה תתחיל מחדש. ... לאחר 4 מחזורי טיפול עוקבים, בהם לא הגיעו לשלב החזרת עוברים, או לאחר 8 מחזורי IVF ללא היריון קליני, ייערך דיון של הצוות המטפל בהשתתפות עובדת סוציאלית",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_(IVF)",
+      "raw_snippet": "נשים שמלאו להן 42 לא יבצעו יותר מ-3 מחזורי IVF עוקבים, בהם לא הגיעו בטיפול לשלב של החזרת עוברים. במקרה שמתבצעת החזרת עוברים (אפילו במחזור השלישי) הספירה תתחיל מחדש. דיון לגבי הטיפול - לאחר 4 מחזורי טיפול עוקבים, בהם לא הגיעו לשלב החזרת עוברים, או לאחר 8 מחזורי IVF ללא היריון קליני, ייערך דיון של הצוות המטפל בהשתתפות עובדת סוציאלית",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -43,20 +43,36 @@
         "scripts/fertility-coverage-checker.py",
         "references/ivf-process-detailed.md",
         "references/domain-checklist.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09"
     },
     {
-      "claim_id": "ivf-which-kupah-pays-male-factor",
-      "claim": "Fertility treatment is funded by the kupah where the woman is insured even when the infertility is male-factor; only treatment of the man's sperm is funded by his own kupah. The route also requires a fertility-committee approval and a Form 17 commitment to a public IVF unit.",
-      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_%28IVF%29",
-      "raw_snippet": "טיפולי הפוריות משולמים על ידי קופת החולים שבה מבוטחת האישה, גם כאשר הסיבה לאי הפוריות היא הגבר. הגבר יטופל בקופה בה הוא מבוטח רק כאשר יש צורך בטיפול בזרע הגבר. ... יש לקבל אישור של ועדת הפוריות בקופה. ... לאחר קבלת האישור ניתן לפנות לאחת מיחידות ההפריה החוץ גופית (IVF) שבבתי החולים הציבוריים. יש להצטייד בהתחייבות (טופס 17) מהקופה.",
+      "claim_id": "ivf-which-kupah-pays-male-factor-a",
+      "claim": "Fertility treatment is funded by the kupah where the woman is insured even when the infertility is male-factor; the man is treated by his own kupah only when his sperm itself needs treatment.",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_(IVF)",
+      "raw_snippet": "טיפולי הפוריות משולמים על ידי קופת החולים שבה מבוטחת האישה, גם כאשר הסיבה לאי הפוריות היא הגבר. הגבר יטופל בקופה בה הוא מבוטח רק כאשר יש צורך בטיפול בזרע הגבר. כל שאר הטיפולים יבוצעו בקופה בה האשה מבוטחת.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/fertility-coverage-checker.py",
         "references/domain-checklist.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "ivf-which-kupah-pays-male-factor-b",
+      "claim": "The IVF route requires a referral from a kupah fertility specialist, approval of the kupah's fertility committee, and a Form 17 commitment to a public-hospital IVF unit.",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_(IVF)",
+      "raw_snippet": "יש לפנות לרופא מומחה פוריות מטעם קופת חולים כדי לקבל הפניה לטיפולי הפריה חוץ גופית. יש לקבל אישור של ועדת הפוריות בקופה. הגשת הטפסים נעשית על פי רוב בסניף אליו שייכת המבוטחת. יש לברר פרטים נוספים מול קופת החולים. לאחר קבלת האישור ניתן לפנות לאחת מיחידות ההפריה החוץ גופית (IVF) שבבתי החולים הציבוריים. יש להצטייד ב התחייבות (טופס 17) מהקופה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "ivf-shaban-achshara",
@@ -110,16 +126,45 @@
     },
     {
       "claim_id": "medical-egg-freezing-indications",
-      "claim": "Medical fertility preservation is basket-funded for girls and women who are about to receive chemotherapy or radiation that may harm fertility, and for women up to age 39 at increased risk of premature ovarian failure (fragile-X premutation carriers, BRCA carriers before prophylactic oophorectomy, autoimmune or chromosomal syndromes).",
+      "claim": "Fertility preservation is basket-funded for girls and women who are about to receive chemotherapy or radiation that may harm their fertility, and for women up to age 39 at increased risk of premature ovarian failure, per the conditions.",
       "source_url": "https://www.kolzchut.org.il/he/הקפאת_ביציות",
-      "raw_snippet": "ילדות, נערות ונשים שמתעתדות לקבל טיפול בכימותרפיה או בהקרנות שעלול לפגוע בפוריותן. ... נשים עד גיל 39 עם סיכון מוגבר לאל וסת, בהתאם לתנאים.",
+      "raw_snippet": "הטיפולים יינתנו במסגרת סל הבריאות במקרים הבאים: ילדות, נערות ונשים שמתעתדות לקבל טיפול בכימותרפיה או בהקרנות שעלול לפגוע בפוריותן. טיפולי שימור הפוריות יינתנו לצורך הולדת ילד ראשון ושני לבני זוג שאין להם ילדים מהנישואים הנוכחיים או לילדות, נערות ונשים שאין להן ילדים. נשים עד גיל 39 עם סיכון מוגבר לאל וסת, בהתאם לתנאים.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/fertility-coverage-checker.py",
         "references/domain-checklist.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "medical-egg-freezing-indications-clalit",
+      "claim": "Carriers of a fragile-X premutation are listed among the medical fertility-preservation indications.",
+      "source_url": "https://www.clalit.co.il/he/myrights/fertility/Pages/fertility-preservation.aspx",
+      "raw_snippet": "נשאות של פרה־מוטציה לתסמונת X שביר.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "medical-egg-freezing-gonadotoxic",
+      "claim": "Fertility preservation is also indicated before gonadotoxic treatment that is not due to malignancy.",
+      "source_url": "https://www.clalit.co.il/he/myrights/fertility/Pages/fertility-preservation.aspx",
+      "raw_snippet": "לפני טיפול גונדוטוקסי שלא עקב ממאירות.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "sperm-vial-not-funded",
@@ -161,17 +206,32 @@
       ]
     },
     {
-      "claim_id": "egg-donation-recipient-18-54",
-      "claim": "An egg-donation recipient must be an Israeli resident who has turned 18 and not yet 54, with a medical opinion that she cannot conceive from her own eggs. Beyond the statutory fee the kupot fund the treatment as part of the health basket.",
+      "claim_id": "egg-donation-recipient-18-54-a",
+      "claim": "An egg-donation recipient must be an Israeli resident who has turned 18 and not yet 54, with a medical opinion that she cannot conceive from her own eggs.",
       "source_url": "https://www.kolzchut.org.il/he/קבלת_תרומת_ביצית",
-      "raw_snippet": "היא תושבת ישראל. מלאו לה 18 וטרם מלאו לה 54. ... מעבר לכך קופות החולים ממנות את הטיפול, וזאת כחלק מסל הבריאות, ומימון הוצאות הטיפול יחולו במלואן על קופת החולים של הנתרמת.",
+      "raw_snippet": "אישה זכאית לקבל תרומת ביצית, אם היא עונה על כל התנאים הבאים: היא תושבת ישראל. מלאו לה 18 וטרם מלאו לה 54. קיימת חוות דעת רפואית לפיה לאישה יש בעיה רפואית בגללה היא לא יכולה להיכנס להיריון מהביציות שלה, או שיש לה בעיה רפואית אחרת שמצדיקה שימוש בביציות של אישה אחרת לשם הולדת ילד.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/fertility-coverage-checker.py",
         "references/domain-checklist.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "egg-donation-recipient-18-54-b",
+      "claim": "The recipient pays roughly 10,000 NIS to the hospital as the approval fee; beyond that the kupot fund the treatment in full as part of the health basket.",
+      "source_url": "https://www.kolzchut.org.il/he/קבלת_תרומת_ביצית",
+      "raw_snippet": "הנתרמת נושאת בעלות של כ-10,000 ₪ לבית החולים, בעד תשלום אגרת לאישור קבלת תרומת הביצית. מעבר לכך קופות החולים ממנות את הטיפול, וזאת כחלק מ סל הבריאות , ומימון הוצאות הטיפול יחולו במלואן על קופת החולים של הנתרמת.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "reciprocal-ivf-not-permitted",
@@ -211,16 +271,30 @@
       ]
     },
     {
-      "claim_id": "work-leave-40-hours-and-sick-pay-ladder",
-      "claim": "Up to 40 hours a year (pro-rated for part-time) may be taken as single hours rather than whole days, and those hours are paid from the first hour. For whole days the sick-pay ladder is nothing on day 1, 50% of pay on days 2 and 3, and full pay from day 4; for men the full-pay tier runs from day 4 through day 12 and further days that year are unpaid.",
+      "claim_id": "work-leave-40-hours",
+      "claim": "A full-time employee may be absent for individual hours during the workday for fertility treatment, up to a cumulative 40 hours a year, pro-rated for part-time work.",
       "source_url": "https://www.kolzchut.org.il/he/היעדרות_מהעבודה_וימי_מחלה_בגין_טיפולי_פוריות",
-      "raw_snippet": "מי שעובד/ת משרה מלאה כנהוג במקום העבודה, זכאי/ת להיעדר מספר שעות במהלך יום העבודה לצורך טיפולי פוריות, עד למקסימום מצטבר של 40 שעות בשנה. ... זכאית לתשלום דמי מחלה בשווי של 50% מהשכר ... עבור ימי היעדרותו החל מיום ההיעדרות הרביעי ועד יום ההיעדרות ה-12 באותה שנה, העובד זכאי לתשלום דמי מחלה בשווי שכר מלא.",
+      "raw_snippet": "מי שעובד/ת משרה מלאה כנהוג במקום העבודה, זכאי/ת להיעדר מספר שעות במהלך יום העבודה לצורך טיפולי פוריות, עד למקסימום מצטבר של 40 שעות בשנה. מי שעובד/ת משרה חלקית, זכאי/ת להיעדר מספר שעות מתוך עד 40 שעות בשנה, באופן יחסי לחלקיות המשרה",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "work-leave-sick-pay-ladder",
+      "claim": "For whole days a female employee gets nothing on day 1 of each treatment series, 50% of pay on days 2 and 3, and full pay from day 4. For a male employee the tiers run per year: nothing on day 1, 50% on days 2 and 3, full pay from day 4 through day 12, and no pay for further days that year.",
+      "source_url": "https://www.kolzchut.org.il/he/היעדרות_מהעבודה_וימי_מחלה_בגין_טיפולי_פוריות",
+      "raw_snippet": "לגבי עובדת - היעדרות של יום או ימים שלמים מהעבודה לצורך טיפולי פוריות מזכה את העובדת בתשלום דמי מחלה בהתאם ל חוק : עבור יום ההיעדרות הראשון בכל סדרת טיפולים, העובדת אינה זכאית לתשלום. עבור יום ההיעדרות השני ויום ההיעדרות השלישי בכל סדרת טיפולים, העובדת זכאית לתשלום דמי מחלה בשווי של 50% מהשכר שהיתה זכאית לקבל אלמלא נעדרה מהעבודה בכל אחד מהימים הללו. עבור יום ההיעדרות הרביעי ואילך בכל סדרת טיפולים, העובדת זכאית לתשלום דמי מחלה בשווי שכר מלא. לגבי עובד - היעדרות של יום או ימים שלמים מהעבודה לצורך טיפולי פוריות יזכו את העובד בתשלום דמי מחלה באופן הבא: עבור יום ההיעדרות הראשון בכל שנה העובד אינו זכאי לתשלום. עבור יום ההיעדרות השני ויום ההיעדרות השלישי באותה שנה, העובד זכאי לתשלום דמי מחלה בשווי של 50% מהשכר שהיה זכאי לקבל אלמלא נעדר מהעבודה בכל אחד מהימים הללו. עבור ימי היעדרותו החל מיום ההיעדרות הרביעי ועד יום ההיעדרות ה-12 באותה שנה, העובד זכאי לתשלום דמי מחלה בשווי שכר מלא. עבור כל יום היעדרות נוסף באותה שנה שבו נעדר לצורך טיפולי פוריות, העובד אינו זכאי לתשלום דמי מחלה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "work-anti-dismissal-150-days",
@@ -265,18 +339,62 @@
       ]
     },
     {
-      "claim_id": "posthumous-sperm-retrieval-use",
-      "claim": "Israel has no statute on posthumous sperm retrieval and use; the state acts under the 2003 Attorney General directive. Retrieval is time critical because sperm viability after death is limited to hours, so requests are approved as a rule. A widow or steady partner usually needs no court for retrieval, parents apply to the Family Court, and during the Iron Swords war hospitals may approve retrieval at the parents' request without a court application. Use always requires Family Court approval. Iron Swords bereaved families can reach the MoH coordination desk at 02-5081673.",
+      "claim_id": "posthumous-sperm-iron-swords-hospital-approval",
+      "claim": "During the Iron Swords war, and as long as the fighting continues, hospitals may approve retrieval of sperm from a deceased man at the request of his parents as well, without referring them to court.",
       "source_url": "https://www.gov.il/he/service/sperm-preserving-after-death",
-      "raw_snippet": "המדינה פועלת בהתאם להנחיות היועץ המשפטי לממשלה בנושא \"נטילת זרע לאחר המוות ושימוש בו\" משנת 2003. ... בימי מלחמת \"חרבות ברזל\", וכל עוד נמשך מצב הלחימה, יכולים בתי החולים לאשר נטילת זרע מנפטר גם לבקשת הורי הנפטר, מבלי להפנות אותם לבית המשפט ... לפי הנחיית היועץ המשפטי לממשלה לצורך שימוש בזרע שניטל לאחר המוות, נדרש אישור של בית המשפט לענייני משפחה. ... קרובי חללי מערכת \"חרבות ברזל\" יכולים לפנות למתאמת החמ\"ל שהוקם במשרד הבריאות בטלפון 02-5081673.",
-      "verified_via": "browser",
-      "verified_at": "2026-08-09",
+      "raw_snippet": "בימי מלחמת \"חרבות ברזל\", וכל עוד נמשך מצב הלחימה, יכולים בתי החולים לאשר נטילת זרע מנפטר גם לבקשת הורי הנפטר, מבלי להפנות אותם לבית המשפט",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "posthumous-sperm-use-requires-family-court",
+      "claim": "Use of sperm retrieved after death always requires Family Court approval, under the Attorney General's directive.",
+      "source_url": "https://www.gov.il/he/service/sperm-preserving-after-death",
+      "raw_snippet": "לפי הנחיית היועץ המשפטי לממשלה לצורך שימוש בזרע שניטל לאחר המוות, נדרש אישור של בית המשפט לענייני משפחה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "posthumous-sperm-moh-coordination-desk",
+      "claim": "Relatives of Iron Swords fallen soldiers can contact the Ministry of Health coordination desk at 02-5081673.",
+      "source_url": "https://www.gov.il/he/service/sperm-preserving-after-death",
+      "raw_snippet": "קרובי חללי מערכת \"חרבות ברזל\" יכולים לפנות למתאמת החמ\"ל שהוקם במשרד הבריאות בטלפון 02-5081673.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "posthumous-sperm-ag-directive-basis",
+      "claim": "Posthumous sperm retrieval and use in Israel is governed by Attorney General Directive 1.2202 of 27.10.2003, 'Retrieval of sperm after death and its use'; there is no statute.",
+      "source_url": "https://www.kolzchut.org.il/he/הפקדת_זרע",
+      "raw_snippet": "הנחית היועץ המשפטי לממשלה מס' 1.2202 מיום 27.10.2003 - נטילת זרע לאחר המוות ושימוש בו.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "posthumous-sperm-viability-hours",
@@ -305,17 +423,29 @@
     },
     {
       "claim_id": "nahmani-embryo-dispute",
-      "claim": "In the Nahmani case (DN 2401/95) the Supreme Court allowed the woman to use jointly created frozen embryos over her former partner's objection, on the specific facts: she had changed her position irreversibly in reliance on his original agreement, she had borne the physical burden of treatment, and this was her only remaining chance at motherhood. Outcomes in such disputes are fact-specific.",
+      "claim": "In the Nahmani case the Supreme Court allowed the woman to use jointly created frozen embryos over her former partner's objection, on the specific facts: she had changed her position irreversibly in reliance on his original agreement, she had borne the physical burden and life risk of treatment, and this was her only remaining chance at motherhood. Outcomes in such disputes are fact-specific.",
       "source_url": "https://www.kolzchut.org.il/he/הזכות_להורות,_התנגדות_בן_הזוג_לשעבר_לשימוש_בביציות_המופרות",
-      "raw_snippet": "הזכות להורות",
-      "verified_via": "browser",
-      "verified_at": "2026-08-09",
+      "raw_snippet": "האישה שינתה את מצבה לרעה בעקבות ההסכמה המקורית של בעלה, באופן בלתי הפיך, ולכן הבעל מושתק מלחזור בו מהסכמה זו. בחברה האנושית, אחד הביטויים לשאיפה שבלא הגשמתה, לא יראו עצמם רבים כחופשיים במלוא מובן המילה, היא השאיפה להורות. לא מדובר בצורך טבעי-ביולוגי גרידא, אלא בחירות שבחברה האנושית מסמלת את ייחודו של האדם. אל מול הזכות הבסיסית להורות, יש לבחון את הזכות שלא להיות הורה. יש לעשות איזון בין הזכויות של שני בני הזוג בכל מקרה ומקרה בהתחשב בשלב שבו מצוי ההליך. אינו דומה מצב של סירוב להמשיך בתהליך של הפריה כשבן הזוג יכול לקיימו עם שותף אחר, למצב שבו הסירוב יגזור עקרות על בן הזוג השני. הכף של האישה במקרה הנדון כבדה יותר במאזני הצדק עקב שיקולים מצטברים כגון- ההליך של ההפריה היה כרוך בסבל פיזי קשה וממושך לאישה והיה כרוך בסיכון חיים עבורה, היתה הסתמכות מלאה על הסכמת הבעל, וזהו הסיכוי היחיד והאחרון עבור האישה לממש את שאיפתה העזה להיות הורה.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "nahmani-embryo-dispute-case",
+      "claim": "The Nahmani ruling is DN 2401/95, decided by the Supreme Court on 12/9/96.",
+      "source_url": "https://www.kolzchut.org.il/he/הזכות_להורות,_התנגדות_בן_הזוג_לשעבר_לשימוש_בביציות_המופרות",
+      "raw_snippet": "ערכאה: בית משפט עליון שם התיק: ד\"נ 2401/95, פ\"ד נ(4) 661 תאריך: 12/9/96",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "self-sperm-banking-oncology-5-years",
@@ -374,33 +504,101 @@
     },
     {
       "claim_id": "shaban-elective-freezing-clalit",
-      "claim": "Clalit Mushlam Platinum members aged 30 to 37 (until the 38th birthday) get subsidized elective egg freezing: up to 2 retrieval cycles and no more than 25 eggs at ages 30 to 35, up to 3 retrieval cycles and no more than 35 eggs at ages 36 to 37, at a copay of 3,500 NIS / 3,500 ש\"ח per treatment, including 5 years of storage.",
+      "claim": "Clalit Mushlam Platinum members aged 30 to 37 (until the 38th birthday) are eligible for subsidized elective egg freezing.",
       "source_url": "https://www.clalit.co.il/he/myrights/fertility/Pages/fertility-preservation.aspx",
-      "raw_snippet": "לקוחות כללית מושלם פלטינום בגיל 30 עד 37 (עד יום הולדת 38) ... זכאיות לעד 2 מחזורי שאיבה ולא יותר מ-25 ביציות ... זכאיות לעד 3 מחזורי שאיבה ולא יותר מ-35 ביציות ... השתתפות עצמית של הלקוח היא 3,500 ₪ לטיפול",
-      "verified_via": "browser",
-      "verified_at": "2026-08-09",
+      "raw_snippet": "לקוחות כללית מושלם פלטינום בגיל 30 עד 37 (עד יום הולדת 38)",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/fertility-coverage-checker.py",
         "references/domain-checklist.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "shaban-elective-freezing-clalit-cycles",
+      "claim": "Clalit members aged 36 to 37 get up to 3 retrieval cycles and no more than 35 eggs.",
+      "source_url": "https://www.clalit.co.il/he/myrights/fertility/Pages/fertility-preservation.aspx",
+      "raw_snippet": "לקוחות בגיל 36 עד 37 (יום הולדת 38): זכאיות לעד 3 מחזורי שאיבה ולא יותר מ-35 ביציות.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "shaban-elective-freezing-clalit-copay",
+      "claim": "The Clalit elective egg-freezing copay is 3,500 NIS per treatment cycle.",
+      "source_url": "https://www.clalit.co.il/he/myrights/fertility/Pages/fertility-preservation.aspx",
+      "raw_snippet": "השתתפות עצמית של הלקוח היא 3,500 ₪",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "shaban-elective-freezing-maccabi",
-      "claim": "Maccabi Sheli members aged 31 to 38 inclusive get subsidized elective egg freezing, up to 3 treatments or 25 eggs in total whichever comes first, at a copay of 3,500 NIS / 3,500 ש\"ח per treatment at a contracted hospital, available from 15.03.2026 and requiring 12 months of membership.",
+      "claim": "Maccabi members aged 31 to 38 inclusive who seek non-medical fertility preservation, and are not entitled to it under the health basket, are eligible.",
       "source_url": "https://www.maccabi4u.co.il/eligibilites/117173/",
-      "raw_snippet": "חברות מכבי בגיל 38-31 (כולל) ... הכיסוי כולל עד 3 טיפולים או עד השגת 25 ביציות בסך הכול, לפי המוקדם מביניהם ... תיגבה השתתפות עצמית בבית החולים שבהסכם בגובה 3500 ₪ לכל טיפול",
-      "verified_via": "browser",
-      "verified_at": "2026-08-09",
+      "raw_snippet": "חברות מכבי בגיל 38-31 (כולל) המבקשות לבצע שימור פוריות מסיבה שאינה רפואית, ושאינן זכאיות לשימור במסגרת סל הבריאות.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/fertility-coverage-checker.py",
         "references/domain-checklist.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "shaban-elective-freezing-maccabi-cover",
+      "claim": "Maccabi cover is up to 3 treatments or 25 eggs in total, whichever comes first.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/117173/",
+      "raw_snippet": "הכיסוי כולל עד 3 טיפולים או עד השגת 25 ביציות בסך הכול, לפי המוקדם מביניהם.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "shaban-elective-freezing-maccabi-copay",
+      "claim": "Maccabi charges a 3,500 NIS copay per treatment at the contracted hospital.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/117173/",
+      "raw_snippet": "תיגבה השתתפות עצמית בבית החולים שבהסכם בגובה 3500 ₪ לכל טיפול.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "shaban-elective-freezing-maccabi-start-date",
+      "claim": "The Maccabi elective egg-freezing benefit is available from 15.03.2026.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/117173/",
+      "raw_snippet": "השירות יינתן החל מ-15.03.2026",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "shaban-elective-freezing-meuhedet",
@@ -446,15 +644,40 @@
       ]
     },
     {
-      "claim_id": "chen-org-and-kol-habriut",
-      "claim": "Amutat Chen (fertility support) is at amotatchen.org, phone 03-5050345. The Ministry of Health information line Kol HaBriut is *5400. Kol Zchut also lists halachic fertility-support organizations (Puah Institute, Bonei Olam, Keren Gefen).",
-      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_%28IVF%29",
-      "raw_snippet": "קול הבריאות (משרד הבריאות) ... *5400 ... עמותת חן לפריון וחיים ... בוני עולם - תמיכה וסיוע בטיפולי פוריות על-פי ההלכה ... מכון פוע\"ה פוריות ורפואה על פי ההלכה ... קרן גפן",
+      "claim_id": "kol-habriut-hotline",
+      "claim": "Kol HaBriut is the Ministry of Health public information call centre.",
+      "source_url": "https://www.kolzchut.org.il/he/קול_הבריאות_-_מוקד_השירות_הטלפוני_של_משרד_הבריאות_5400*",
+      "raw_snippet": "קול הבריאות מספק מענה ומידע לציבור בכל התחומים שבאחריות משרד הבריאות",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "kol-habriut-hotline-number",
+      "claim": "Kol HaBriut is reached at *5400 or 08-6241010.",
+      "source_url": "https://www.kolzchut.org.il/he/קול_הבריאות_-_מוקד_השירות_הטלפוני_של_משרד_הבריאות_5400*",
+      "raw_snippet": "בטלפון: *5400 או 08-6241010",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "chen-org-and-kol-habriut-b",
+      "claim": "Amutat Chen LePiryon VeChaim supports people undergoing fertility treatment; its phone number is 03-5050345.",
+      "source_url": "https://www.kolzchut.org.il/he/עמותת_חן_לפריון_וחיים",
+      "raw_snippet": "עמותת חן לפריון וחיים הינה עמותה המסייעת בשיפור איכות חייהם של כל מי שעוברים טיפולי פוריות. תוכן עניינים פרטים תחומי עיסוק: טיפולי פוריות אתר: לאתר דוא\"ל: amotat_c@netvision.net.il כתובת: רח' ויתקין 13, חולון, 58510 טלפון: 03-5050345",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "btl-portal-url",
@@ -470,18 +693,32 @@
       ]
     },
     {
-      "claim_id": "scmother-march-2024-ruling",
-      "claim": "A March 2024 Supreme Court ruling requires the state to register both women of a female same-sex couple as mothers on the birth certificate for children born via sperm donation, alongside a judicial parenthood order (tzav horut psikati), without a lengthy adoption process. It is not a surrogacy ruling.",
-      "source_url": "https://www.kolzchut.org.il/he/צו_הורות_פסיקתי_ללא_צורך_בתסקיר_לאם_הלא_ביולוגית_שבת_זוגה_ילדה_מתרומת_זרע",
-      "raw_snippet": "צו הורות פסיקתי",
-      "verified_via": "browser",
-      "verified_at": "2026-08-09",
+      "claim_id": "cofmother-parenthood-order",
+      "claim": "For a female couple where one partner gave birth from anonymous sperm donation, the non-biological mother is recognised as a parent through a judicial parenthood order (tzav horut psikati) granted by the Family Court, without an adoption process.",
+      "source_url": "https://www.kolzchut.org.il/he/הכרה_בהורות_של_אדם_על_הילד_הביולוגי_של_בן_הזוג_מאותו_מין_ללא_צורך_בהליך_אימוץ_(צו_הורות_פסיקתי)",
+      "raw_snippet": "בן זוג מאותו מין יכול להירשם כהורה של ילדו הביולוגי של בן זוגו באמצעות \"צו הורות פסיקתי\" הניתן בבית משפט וללא צורך ב הליך אימוץ , וזאת כאשר הקטין נולד למערכת יחסים קיימת לא ניתן להעניק צו הורות לבן הזוג של ההורה הביולוגי אם שני ההורים הביולוגיים של הילד הינם בחיים ולא ניתק הקשר בינם ובין הילד (למשל במקרה של הורות משותפת) הדיון יתקיים ב בית המשפט לענייני משפחה ב דלתיים סגורות , אלא אם החליט בית המשפט אחרת למידע נוסף ראו פסקי הדין המפורטים בהמשך תוכן עניינים בקצרה בן זוג מאותו מין יכול להירשם כהורה של ילדו הביולוגי של בן זוגו באמצעות \"צו הורות פסיקתי\" הניתן בבית משפט וללא צורך ב הליך אימוץ . אפשרויות אלה מתייחסות למצב שבו רק לאחד מבני-הזוג יש קרבה גנטית לילד, ומבקשות לענות על המקרים הבאים: פונדקאות חו\"ל - כאשר שני בני הזוג הם גברים והתינוק נולד מזרעו של אחד מהם, וכאשר שני בני הזוג רשומים כהוריו של התינוק בתעודת הלידה. היריון מתרומת זרע אנונימית - כאשר שתי בנות-הזוג הן נשים והתינוק נולד מתרומת זרע.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "posthumous-sperm-who-may-request",
+      "claim": "A widow or steady partner of the deceased may request retrieval and usually needs no court application unless a relative objects, in which case Family Court approval is required; the deceased's parents (or any other relative) must apply to the Family Court.",
+      "source_url": "https://www.gov.il/he/service/sperm-preserving-after-death",
+      "raw_snippet": "אלמנה או בת זוג קבועה של הנפטר. בד\"כ אין צורך בפנייה לבית משפט, אלא אם אחד או יותר מקרובי המשפחה של הנפטר מתנגדים להליך, ואז יש לבקש את אישור בית המשפט לענייני משפחה. הורי הנפטר (או כל קרוב אחר) צריכים לפנות לבית משפט לענייני משפחה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
     }
   ]
 }

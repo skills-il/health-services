@@ -265,8 +265,9 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
             "Funded for girls and women facing chemotherapy or radiation that may "
             f"harm fertility, and up to age {MEDICAL_FREEZE_RISK_AGE} for women at "
             "increased risk of premature ovarian failure (fragile-X premutation "
-            "carriers, BRCA carriers before prophylactic oophorectomy, autoimmune or "
-            "chromosomal syndromes). Ovarian tissue freezing is a listed basket "
+            "carriers, a disease proven to raise that risk, gonadotoxic treatment "
+            "not due to malignancy, or prophylactic ovarian surgery). Ovarian "
+            "tissue freezing is a listed basket "
             "method too. Raise it BEFORE gonadotoxic treatment starts."
         ),
         "cost": "Covered; annual storage fees usually apply",

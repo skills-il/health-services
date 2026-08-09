@@ -41,7 +41,7 @@ The health basket (sal briut, סל בריאות) defines what is covered under t
 | Age, donated egg | Funded treatment with a donated egg runs to age 54. Turning 45 ends the own-egg track, not fertility coverage as a whole |
 | Cycle rule from 42 | Per MoH Circular 6/2014, a woman who has turned 42 may not perform more than 3 consecutive IVF cycles that did not reach embryo transfer. Any transfer, even in the third cycle, restarts the count |
 | Mandatory team review | After 4 consecutive cycles with no transfer, or 8 IVF cycles with no clinical pregnancy, the treating team (with a social worker) must review the causes and the plan going forward |
-| Single women and female couples | Single women (em yechidanit) get the same IVF and donor-insemination coverage as couples, and each partner in a female couple qualifies in her own right. A March 2024 Supreme Court ruling requires the state to register both women as mothers on the birth certificate for children born via sperm donation (alongside a judicial parenthood order, tzav horut), without a lengthy adoption process |
+| Single women and female couples | Single women (em yechidanit) get the same IVF and donor-insemination coverage as couples, and each partner in a female couple qualifies in her own right. For a child born from anonymous sperm donation, the non-biological mother is recognised as a parent through a judicial parenthood order (tzav horut psikati) from the Family Court, without an adoption process |
 | Reciprocal IVF | NOT permitted in Israel. One partner's egg may be fertilized here, but not transferred into her partner's uterus in Israel |
 | Relationship change | Entitlement attaches to children of the current relationship, so a new relationship can reopen the count (confirm with your kupah) |
 | Which kupah pays | The kupah where the WOMAN is insured funds treatment, even when the infertility is male-factor. Only treatment of the man's sperm is funded by his own kupah |
@@ -79,7 +79,7 @@ Important: without SHABAN, treatment for a third child or beyond is fully out-of
 
 | Aspect | Details |
 |--------|---------|
-| Medical egg freezing | Basket-funded for girls and women facing chemotherapy or radiation that may harm fertility, and up to age 39 for women at increased risk of premature ovarian failure (fragile-X premutation carriers, BRCA carriers before prophylactic oophorectomy, autoimmune or chromosomal syndromes), per the conditions |
+| Medical egg freezing | Basket-funded for girls and women facing chemotherapy or radiation that may harm fertility, and up to age 39 for women at increased risk of premature ovarian failure (fragile-X premutation carriers, women with a disease proven to raise that risk, women before gonadotoxic treatment not due to malignancy, and women facing prophylactic ovarian surgery), per the conditions |
 | Elective egg freezing | NOT in the basic basket at any age, but permitted since 2011 for women who have turned 30 and not yet 41, at their own expense. Circular 1/2011 caps it at 6 retrievals, 25 eggs at ages 30 to 35 and 35 eggs at 36 to 40. These are Ministry of Health limits on a self-funded procedure, not private SHABAN limits |
 | SHABAN subsidies (verify, these changed recently) | All at 3,500 NIS copay per cycle. Clalit Mushlam Platinum: 30 to 37 (`עד יום הולדת 38`), 2 retrievals / 25 eggs at 30 to 35, 3 retrievals / 35 eggs at 36 to 37, 5 years storage included. Maccabi Sheli: 31 to 38 inclusive, up to 3 treatments or 25 eggs, from 15.03.2026. Meuhedet Si: 30 to 41. Leumit Zahav: 30 to 37 inclusive, up to 4 rounds. Maccabi and Leumit require 12 months of membership. Leumit is no longer a holdout |
 | Storage term and cost | Eggs are kept up to 5 years. Without advance written notice that the woman wants storage extended, the unit may stop storing them 60 days after warning her, subject to MoH approval; non-payment triggers the same process. An annual fee applies and is usually not covered even when retrieval was funded (check the MoH tariff, taarifon) |
@@ -178,7 +178,7 @@ These are statutory rights and do not depend on which kupat cholim or SHABAN pla
 
 Financial help: some non-profits assist with fertility costs, some municipalities give grants, and large documented medical expenses may generate a tax credit (ask a tax advisor about the current threshold).
 
-Support: every licensed fertility unit has a social worker at no extra cost, and kupot run free support groups. Amutat Chen (עמותת חן לפריון ולחיים), amotatchen.org, 03-5050345, offers counseling and peer groups. Kol HaBriut, the MoH information line, is *5400. For halachic guidance there are the Puah Institute, Bonei Olam and Keren Gefen, and Maccabi publishes an entitlement to a supervisor for fertility treatment (mashgicha, משגיחה על טיפולי פוריות).
+Support: every licensed fertility unit has a social worker at no extra cost, and kupot run free support groups. Amutat Chen (עמותת חן לפריון ולחיים), 03-5050345, offers counseling and peer groups. Kol HaBriut, the MoH information line, is *5400. For halachic guidance there are the Puah Institute, Bonei Olam and Keren Gefen, and Maccabi publishes an entitlement to a supervisor for fertility treatment (mashgicha, משגיחה על טיפולי פוריות).
 
 ## Examples
 
@@ -210,7 +210,7 @@ User says: "I'm 33 and single. I want to freeze my eggs. Is this covered?"
 
 Actions:
 1. Elective egg freezing is NOT in the basic basket at any age. It is permitted from 30 until the 41st birthday at your own expense, capped by MoH circular 1/2011 at 6 retrievals and 25 eggs (ages 30 to 35) or 35 eggs (ages 36 to 40)
-2. Medical egg freezing IS funded with a documented indication (cancer treatment, increased risk of premature ovarian failure up to 39, BRCA carriers before oophorectomy)
+2. Medical egg freezing IS funded with a documented indication (cancer treatment, increased risk of premature ovarian failure up to 39, women facing prophylactic ovarian surgery)
 3. All four kupot now subsidize elective freezing through SHABAN at 3,500 NIS per cycle, on different age bands: Clalit Platinum 30 to 37, Maccabi Sheli 31 to 38, Meuhedet Si 30 to 41, Leumit Zahav 30 to 37. Most require about 12 months of membership first
 4. At 33 you are inside every band, so compare cycle counts and egg caps rather than assuming only one kupah offers it
 5. Plan for the 5-year storage term and the written renewal notice it requires
