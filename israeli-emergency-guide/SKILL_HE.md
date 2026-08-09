@@ -313,16 +313,15 @@ compatibility: "עובד עם כל סוכני הקוד המרכזיים"
 |------|--------|-----------|
 | מד"א (מגן דוד אדום) | https://www.mdais.org/en | שירותי חירום, תרומת דם, מיקומי תחנות |
 | טרם רפואה דחופה | https://www.terem.com/?lang=en | סניפים עדכניים, שעות פעילות, שירותים |
-| משרד הבריאות - חדר מיון | https://www.gov.il/en/service/emergency-room-payment | סכומי השתתפות עצמית וקריטריונים לפטור |
 | תרומת דם מד"א | https://www.mdais.org/en/blood-donation/who-can-donate | מי כשיר לתרום |
 | בקרת רעלים (רמב"ם) | https://www.rambam.org.il/en/patient_info/contact_us/ | קו חם לרעלים: 04-7771900 |
 | dam.org.il (תורמי דם) | https://www.dam.org.il/en/qa/ | שאלות נפוצות וכשירות לתרומת דם |
-| ער"ן עזרה ראשונה נפשית | https://en.eran.org.il/ | קו 24/7 לבריאות הנפש, 1201, רב-לשוני |
+| ער"ן עזרה ראשונה נפשית | https://en.eran.org.il/emotional-first-aid/ | קו 24/7 לבריאות הנפש, 1201, רב-לשוני |
 | נט"ל (טראומה) | https://www.natal.org.il/en/ | תמיכה בנפגעי טרור ומלחמה, קו *3362 (24/7) |
 | 105 הגנה על ילדים ברשת | https://www.gov.il/en/departments/units/105_call_center | קו חירום ארצי לפגיעה במקוון בקטינים |
 | מוקד הרווחה 118 | https://www.gov.il/he/departments/general/molsa-118 | מוקד רווחה ושירותים חברתיים 24/7, כל השפות |
 | סה"ר (צ'אט מקוון) | https://sahar.org.il/en/ | תמיכה רגשית בצ'אט, 24/7 בעברית |
-| קווי סיוע לנפגעות ולנפגעי תקיפה מינית | https://www.1202.org.il/ | 1202 (נשים), 1203 (גברים), 24/7, מסרון 052-8361202 |
+| קווי סיוע לנפגעות ולנפגעי תקיפה מינית | https://www.1202.org.il/contact | 1202 (נשים), 1203 (גברים), 24/7, מסרון 052-8361202 |
 | פיקוד העורף | https://www.oref.org.il/heb/life-saving-guidelines/rocket-and-missile-attacks | זמני כניסה למרחב מוגן לפי יישוב, כללי יציאה, הנחיות מצילות חיים |
 | משרד הבריאות - בריאות הנפש | https://me.health.gov.il/en/mental-health/therapy-and-rehabilitation/crisis-support/first-aid/ | רשימת קווי סיוע ומרכזים |
 

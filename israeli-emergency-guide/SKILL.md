@@ -306,16 +306,15 @@ Result: MDA dispatches a Mobile Intensive Care Unit (MICU) staffed by paramedics
 |--------|-----|---------------|
 | MDA (Magen David Adom) | https://www.mdais.org/en | Emergency services, blood donation, station locations |
 | Terem Urgent Care | https://www.terem.com/?lang=en | Current branch locations, hours, services |
-| Ministry of Health ER Info | https://www.gov.il/en/service/emergency-room-payment | ER copay amounts and exemption criteria |
 | MDA Blood Donation | https://www.mdais.org/en/blood-donation/who-can-donate | Donation eligibility criteria |
 | Poison Control (Rambam) | https://www.rambam.org.il/en/patient_info/contact_us/ | Poison hotline: 04-7771900 |
 | Dam.org.il (Blood Donors) | https://www.dam.org.il/en/qa/ | Blood donation FAQ and eligibility details |
-| ERAN Emotional First Aid | https://en.eran.org.il/ | 24/7 mental-health hotline 1201, multilingual |
+| ERAN Emotional First Aid | https://en.eran.org.il/emotional-first-aid/ | 24/7 mental-health hotline 1201, multilingual |
 | NATAL (Trauma) | https://www.natal.org.il/en/ | War and terror trauma support, hotline *3362 (24/7) |
 | 105 Child Online Protection | https://www.gov.il/en/departments/units/105_call_center | National hotline for online harm to minors |
 | Welfare 118 Hotline | https://www.gov.il/he/departments/general/molsa-118 | 24/7 welfare and social services, all languages |
 | SAHAR (Online chat) | https://sahar.org.il/en/ | Text-based emotional support, 24/7 Hebrew chat |
-| Sexual assault crisis lines | https://www.1202.org.il/ | 1202 (women), 1203 (men), 24/7, SMS 052-8361202 |
+| Sexual assault crisis lines | https://www.1202.org.il/contact | 1202 (women), 1203 (men), 24/7, SMS 052-8361202 |
 | Poison Control (Rambam) | https://www.rambam.org.il/departmentsandclinics/laboratories-division/clinical-pharmacology-and-toxicology/national-center-for-the-treatment-of-poisoning/ | Poison hotline 04-7771900, 24/7 |
 | Pikud Haoref (Home Front Command) | https://www.oref.org.il/heb/life-saving-guidelines/rocket-and-missile-attacks | Shelter entry times per locality, exit rules, life-saving guidelines |
 | MoH Mental Health Crisis | https://me.health.gov.il/en/mental-health/therapy-and-rehabilitation/crisis-support/first-aid/ | Curated first-aid hotlines and centers |
