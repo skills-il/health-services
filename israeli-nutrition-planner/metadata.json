@@ -4,8 +4,8 @@
     "en": "Israeli Nutrition Planner"
   },
   "display_description": {
-    "he": "תכנון ארוחות והחלטות תזונתיות על בסיס הנחיות הקשת התזונית של משרד הבריאות ותיוג מזון אדום/ירוק. השתמשו כשאתם צריכים לבנות תפריט שבועי מאוזן, להבין מה המספרים על תיוגי המזון אומרים, או לתכנן ארוחות כשרות עם הפרדת בשר-חלב. מכסה את חמשת פסי הקשת התזונית, ספי התיוג האדום (שלב 2, ינואר 2021), פטורים מסימון, חוסרים תזונתיים אופייניים לישראל (יוד, ויטמין D, ברזל, B12 לטבעונים), 14 ביקורי דיאטנית בשנה לסוכרת בכל ארבע הקופות, סטטוס תרופות GLP-1 (ויגובי בסל 2026 לבני נוער 12-18 עם השמנה חמורה, מבוגרים בתשלום פרטי) ותכנון לימי צום עם דגלים אדומים לסוכרתיים על אינסולין או סולפונילאוריאה. אל תשתמשו לטיפול תזונתי קליני, הפרעות אכילה, או מרשמים רפואיים.",
-    "en": "Plan meals and make dietary decisions based on Israeli Ministry of Health Nutritional Rainbow guidelines and front-of-package red/green labeling. Use when you need to build balanced weekly menus, understand what Israeli food labels mean, or plan kosher meals with proper meat-dairy separation. Covers the five rainbow bands, red label thresholds (Phase 2, January 2021), label exemptions, Israel-specific nutrient gaps (iodine, vitamin D, iron, B12 for vegans), 14 dietitian visits/year for diabetes across all four HMOs, GLP-1 medication status (Wegovy in the 2026 basket for adolescents 12-18 with severe obesity; adults out-of-pocket), and fasting-day planning with red flags for diabetics on insulin or sulfonylureas. Do NOT use for clinical nutrition therapy, eating disorders, or medical dietary prescriptions."
+    "he": "תכנון ארוחות והחלטות תזונתיות על בסיס הקשת התזונית של משרד הבריאות ותיוג מזון אדום/ירוק. השתמשו כשאתם צריכים לבנות תפריט שבועי מאוזן, להבין מה המספרים על תיוגי המזון אומרים, או לתכנן ארוחות כשרות או חלאל. מכסה את פסי הקשת, ספי התיוג האדום (שלב 2, ינואר 2021), הסימון הירוק שוועדה מדעית מעדכנת מדי שנה, פטורים מסימון, תכנון לפסח כולל שאלת הקטניות, חוסרים תזונתיים ישראליים עם רף עליון לתוספים ואינטראקציות עם תרופות, בטיחות מזון בהיריון, קריאת תוויות אלרגנים, 14 ביקורי דיאטנית בשנה לסוכרת בכל ארבע הקופות, וימי צום עם דגלים אדומים לסוכרתיים על אינסולין או סולפונילאוריאה. הסקיל מסרב לקבוע יעדי קלוריות או גירעון קלורי ומפנה כל סימן להפרעת אכילה לטיפול מקצועי. אל תשתמשו לטיפול תזונתי קליני, הפרעות אכילה או מרשמים רפואיים.",
+    "en": "Plan meals and make dietary decisions based on Israeli Ministry of Health Nutritional Rainbow guidelines and front-of-package red/green labeling. Use when you need to build balanced weekly menus, understand what Israeli food labels mean, or plan kosher or halal meals. Covers the rainbow bands, red label thresholds (Phase 2, January 2021), the green label that an independent scientific committee updates annually, label exemptions, Pesach planning including the kitniyot question, Israel-specific nutrient gaps with supplement upper limits and drug interactions, pregnancy food safety, allergen label reading, 14 dietitian visits/year for diabetes across all four HMOs, and fasting days with red flags for diabetics on insulin or sulfonylureas. The skill refuses to set calorie or deficit targets and routes any sign of disordered eating to professional care. Do NOT use for clinical nutrition therapy, eating disorders, or medical dietary prescriptions."
   },
   "tags": {
     "he": [
@@ -30,7 +30,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "category": "health-services",
   "supported_agents": [
     "claude-code",
@@ -39,7 +39,12 @@
     "windsurf",
     "opencode",
     "codex",
-    "gemini-cli"
+    "gemini-cli",
+    "claude-ai",
+    "claude-desktop",
+    "chatgpt",
+    "manus",
+    "gemini-spark"
   ],
   "openclaw": true
 }

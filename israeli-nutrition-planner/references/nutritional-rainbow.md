@@ -1,11 +1,11 @@
 # Israeli Nutritional Rainbow (Keshet Tazonit)
 
-Source: Israeli Ministry of Health, Nutrition Department, via Efsharibari program (2018)
+Source: Israeli Ministry of Health, Nutrition Department, via Efsharibari program
 Official page: https://efsharibari.health.gov.il/en/eat-healthy/healthy-nutrition/the-nutritional-rainbow/nutritional-rainbow-diet/
 
 ## Overview
 
-The Nutritional Rainbow replaced the traditional food pyramid in Israel in 2018. It organizes foods by recommended consumption frequency, emphasizing plant-based variety and Mediterranean diet principles.
+The Nutritional Rainbow replaced the traditional food pyramid in Israel. It organizes foods by recommended consumption frequency, emphasizing plant-based variety and Mediterranean diet principles.
 
 ## Rainbow Bands
 
@@ -71,3 +71,28 @@ The Nutritional Rainbow is explicitly grounded in Mediterranean dietary principl
 - Limited red meat
 - Minimal ultra-processed foods
 - Seasonal and local produce preference
+
+## Worked Daily Template (3 meals + 1-2 snacks)
+
+| Meal | Rainbow Bands | Example |
+|------|--------------|---------|
+| **Breakfast** | Green + Yellow | Whole-grain bread with tahini and sliced vegetables, or oatmeal with nuts and fruit |
+| **Morning snack** | Green | Fresh fruit, or vegetable sticks with hummus |
+| **Lunch** | Green + Yellow + Orange | Quinoa or bulgur salad with chickpeas, roasted vegetables, and grilled chicken or fish |
+| **Afternoon snack** | Yellow | Handful of nuts, or unsweetened yogurt with seeds |
+| **Dinner** | Green + Yellow | Lentil soup with whole-grain bread, or shakshuka with salad |
+
+## Weekly Protein Rotation (Orange + Pink bands)
+
+| Day | Protein Source | Notes |
+|-----|---------------|-------|
+| Sunday | Fish (salmon, tilapia, or local catch) | Omega-3 source, aim for twice a week. In pregnancy apply the mercury and listeria filter first |
+| Monday | Legume-based (mjadara, baked falafel, chickpea stew) | Meat-free day |
+| Tuesday | Poultry (chicken or turkey) | Baked, grilled, or in stew |
+| Wednesday | Eggs (shakshuka, frittata, boiled) | Versatile, pareve |
+| Thursday | Fish or legumes | Second fish day or extra legume day |
+| Friday | Poultry or red meat (Shabbat dinner) | If red meat, count toward the 300g weekly limit |
+| Saturday | Leftovers, dairy meals, or legumes | Shabbat lunch |
+
+On Pesach in an Ashkenazi household both the whole-grain column and the legume sub-group
+are unavailable. See the Pesach sub-step in SKILL.md Step 7.
