@@ -345,7 +345,7 @@ Result: a data-grounded call and a single, reversible fix.
 | MOH heat protection | https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/ | Heat-wave definition, shifting activity out of peak hours, hydration, heat-stroke signs |
 | NASM RPE / RIR | https://www.nasm.org/resource-center/blog/training/how-to-use-rpe-and-rir-to-autoregulate-client-training | RPE 6-10 to reps-in-reserve mapping for autoregulation |
 | One-rep-max estimation | https://en.wikipedia.org/wiki/One-repetition_maximum | Epley and Brzycki estimated-1RM formulas |
-| ERAN emotional first aid | https://www.eran.org.il/ | Anonymous support hotline 1201 |
+| ERAN emotional first aid | https://www.eran.org.il/services/ | Anonymous support hotline 1201 |
 | Israeli eating-disorder association | https://www.iaed.org.il/ | Finding an eating-disorder treatment provider in Israel |
 | Kolzchut: physiotherapy | https://www.kolzchut.org.il/he/טיפולי_פיזיותרפיה_בבתי_חולים | Physiotherapy referral is made by a physician |
 

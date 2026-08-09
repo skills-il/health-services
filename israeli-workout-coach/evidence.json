@@ -58,9 +58,9 @@
       "id": "eran-1201",
       "claim": "ERAN (עזרה ראשונה נפשית) runs an anonymous emotional-first-aid hotline reachable at 1201.",
       "claim_type": "hotline",
-      "source_url": "https://www.eran.org.il/",
-      "source_fetched_at": "2026-07-23T00:00:00Z",
-      "raw_snippet": "קו חם 1201",
+      "source_url": "https://www.eran.org.il/services/",
+      "source_fetched_at": "2026-08-09",
+      "raw_snippet": "כל הפניות הנן אנונימיות ודיסקרטיות וניתנות לכל אדם, בכל גיל ובכל סוג של מצוקה. אפשר לפנות אלינו לקבלת סיוע נפשי ותמיכה בקו החם במספר 1201",
       "confidence": "high"
     },
     {

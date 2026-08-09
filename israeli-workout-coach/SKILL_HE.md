@@ -306,7 +306,7 @@ Windsurf, GitHub Copilot, OpenCode, Codex, Gemini CLI, ו-Claude Desktop כשמ�
 | משרד הבריאות: הגנה מחום | https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/ | הגדרת גל חום, הזזת פעילות מהשעות החמות, שתייה, סימני מכת חום |
 | NASM: RPE / RIR | https://www.nasm.org/resource-center/blog/training/how-to-use-rpe-and-rir-to-autoregulate-client-training | מיפוי RPE 6-10 לחזרות ברזרבה לוויסות |
 | הערכת 1RM | https://en.wikipedia.org/wiki/One-repetition_maximum | נוסחאות Epley ו-Brzycki ל-1RM משוער |
-| ער"ן עזרה ראשונה נפשית | https://www.eran.org.il/ | קו תמיכה אנונימי 1201 |
+| ער"ן עזרה ראשונה נפשית | https://www.eran.org.il/services/ | קו תמיכה אנונימי 1201 |
 | העמותה הישראלית להפרעות אכילה | https://www.iaed.org.il/ | מציאת מטפל להפרעות אכילה בישראל |
 | כל-זכות: פיזיותרפיה | https://www.kolzchut.org.il/he/טיפולי_פיזיותרפיה_בבתי_חולים | הפניה לפיזיותרפיה נעשית על ידי רופא |
 

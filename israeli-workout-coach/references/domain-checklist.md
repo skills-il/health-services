@@ -59,7 +59,7 @@ Generated: 2026-07-23 via research on: Wikipedia (1RM formulas), NASM (RPE/RIR),
 - https://en.wikipedia.org/wiki/One-repetition_maximum  - Epley `w(1+r/30)` and Brzycki formulas.
 - https://www.nasm.org/resource-center/blog/training/how-to-use-rpe-and-rir-to-autoregulate-client-training  - RPE/RIR mapping.
 - https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/  - MOH heat thresholds, shift activity out of peak hours, 8 to 10 cups/day, heat-exhaustion vs heat-stroke.
-- https://www.eran.org.il/  - ERAN hotline 1201.
+- https://www.eran.org.il/services/  - ERAN hotline 1201.
 - https://www.iaed.org.il/  - Israeli eating-disorder professional association + provider directory.
 - https://www.kolzchut.org.il/he/טיפולי_פיזיותרפיה_בבתי_חולים  - physiotherapy referral made by a physician.
 - https://www.physioclick.co.il/blog/physiotherapy-lower-back-pain-health-fund-reimbursements/  - kupah physiotherapy needs a doctor referral.

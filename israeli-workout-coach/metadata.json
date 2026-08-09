@@ -30,7 +30,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "category": "health-services",
   "supported_agents": [
     "claude-code",
@@ -51,9 +51,21 @@
   "requires_filesystem": false,
   "volatility": "stable",
   "authoritative_sources": [
-    { "url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/", "type": "regulator", "language": "he" },
-    { "url": "https://www.nasm.org/resource-center/blog/training/how-to-use-rpe-and-rir-to-autoregulate-client-training", "type": "reference", "language": "en" },
-    { "url": "https://www.kolzchut.org.il/he/טיפולי_פיזיותרפיה_בבתי_חולים", "type": "reference", "language": "he" }
+    {
+      "url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nasm.org/resource-center/blog/training/how-to-use-rpe-and-rir-to-autoregulate-client-training",
+      "type": "reference",
+      "language": "en"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/טיפולי_פיזיותרפיה_בבתי_חולים",
+      "type": "reference",
+      "language": "he"
+    }
   ],
   "domain_checklist_version": 1
 }
