@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-food-allergy-navigator",
   "schemaVersion": "1.0",
-  "generated_at": "2026-07-25",
+  "generated_at": "2026-08-09",
   "claims": [
     {
       "id": "moe-circular-number-and-date",
@@ -278,22 +278,18 @@
       "claim": "Ministry of Education standing instructions (חוזרי מנכ\"ל) are published on the mankal application portal at apps.education.gov.il/mankal.",
       "claim_type": "url",
       "source_url": "https://apps.education.gov.il/mankal/",
-      "source_fetched_at": "2026-07-25T20:01:00Z",
-      "raw_snippet": "מנכ",
-      "verified_via": "browser",
-      "verified_at": "2026-07-25",
-      "confidence": "medium"
+      "source_fetched_at": "2026-08-09",
+      "raw_snippet": "מדינת ישראל משרד החינוך מאגר חוזרי מנכ\"ל",
+      "confidence": "high"
     },
     {
       "id": "mda-emergency-number",
-      "claim": "Magen David Adom, Israel's national emergency medical service, is reached by dialling 101 for medical emergencies.",
+      "claim": "Magen David Adom is Israel's national rescue organisation, recognised by law, and its telephone number is 101.",
       "claim_type": "threshold",
-      "source_url": "https://www.mdais.org/",
-      "source_fetched_at": "2026-07-25T20:15:00Z",
-      "raw_snippet": "101",
-      "confidence": "high",
-      "verified_via": "browser",
-      "verified_at": "2026-07-25"
+      "source_url": "https://www.kolzchut.org.il/he/מגן_דוד_אדום_(מד\"א)",
+      "source_fetched_at": "2026-08-09",
+      "raw_snippet": "מגן דוד אדום בישראל הוא ארגון ההצלה הלאומי המוכר על ידי החוק בישראל, מראשית הקמת המדינה. מטרות הארגון: להוות שירות עזר לכוחות הרפואה של צה\"ל בעת מלחמה, ולהתכונן לכך בזמן שלום לספק שירותי עזרה ראשונה לטובת כלל התושבים לספק שירותי אגירת דם, פלסמה ומוצרי לוואי שלהם לטובת כלל התושבים להדריך בתחומי העזרה הראשונה והרפואה הדחופה, טרם האשפוז לקיים מערך מתנדבים שיוכשרו להגשת עזרה ראשונה וסעד חיים בסיסי ומתקדם להסיע חולים ויולדות להסיע רופאים, אחיות וכוחות עזר רפואיים לפנות נפגעי תאונות, פצועים, הרוגים ונפטרים תוכן עניינים פרטים אתר: לאתר טלפון: 101",
+      "confidence": "high"
     },
     {
       "id": "btl-allergy-four-qualifying-events",
