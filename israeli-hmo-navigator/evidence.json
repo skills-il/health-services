@@ -157,17 +157,30 @@
       "source_note": "Circular section 17.2. Corroborated in HTML on call.gov.il, which defines the ceiling age as גיל פרישת חובה per the National Health Insurance Law."
     },
     {
-      "claim_id": "circular-exempt-populations-16-1",
-      "claim": "Circular section 16.1 exempts from all copays a member who has reached retirement age and receives an income-support benefit or a benefit under סעיף 11 of the Prisoners of Zion compensation law, and a member and dependants receiving a chapter 9 National Insurance disability benefit, and a member under 18 years and 3 months receiving a mobility-allowance benefit.",
+      "claim_id": "circular-exempt-populations-16-1-a",
+      "claim": "Circular section 16.1 exempts from copays a member who has reached retirement age and receives an income-support benefit or a benefit under section 11 of the Prisoners of Zion compensation law.",
       "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
-      "raw_snippet": "חבר שהגיע לגיל הפרישה ... ושמשתלמת בעדו גמלה לפי חוק הבטחת הכנסה ... או לפי סעיף 11 לחוק תגמולים לאסירי ציון",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "חבר שהגיע לגיל הפרישה (כמשמעותו בחוק גיל הפרישה ,התשס\"ד )2004-ושמשתלמת בעדו - גמלה לפי חוק הבטחת הכנסה ,התשמ\"א 1980-או לפי סעיף 11לחוק תגמולים לאסירי ציון ולבני משפחותיהם ,התשנ\"ב , 1992-ובלבד שהשתלמה לחבר בתכוף להגשת התביעה לקבלת תגמול לפי הסעיף האמור גמלה לפי חוק הבטחת הכנסה בעד תקופה של שישה חודשים לפחות.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "references/exemptions-and-ceilings.md"
       ],
       "verified_via": "pdf",
       "verified_at": "2026-08-09",
-      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
+      "source_note": "Circular 1/2025 PDF. Text layer confirmed readable on 2026-08-09 (curl + pdftotext -layout); snippet sliced programmatically from that extraction with bidi control marks stripped."
+    },
+    {
+      "claim_id": "circular-exempt-populations-16-1-b",
+      "claim": "Circular section 16.1 also exempts a member and dependants receiving a chapter 9 National Insurance disability benefit, and a member under 18 years and 3 months receiving a mobility-allowance benefit.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "חבר והתלויים בו שמשתלמת בעדם גמלה לפי פרק ט' לחוק הביטוח הלאומי וכן חבר שטרם - מלאו לו 18שנים ו 3 -חודשים ,שמשתלמת בעדו גמלה לפי הסכם בדבר גמלת ניידות שנערך לפי סעיף 9לחוק הביטוח הלאומי",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Text layer confirmed readable on 2026-08-09 (curl + pdftotext -layout); snippet sliced programmatically from that extraction with bidi control marks stripped."
     },
     {
       "claim_id": "circular-mobility-and-disability-exemption",
@@ -242,29 +255,29 @@
     },
     {
       "claim_id": "circular-road-accident-exemption",
-      "claim": "Circular section 16.4: a kupah may not charge a road-accident victim a copayment for Second Schedule services given because of that injury. Section 16.5 says the same for a work-accident victim as defined in chapter 5 of the National Insurance Law.",
+      "claim": "Circular section 16.4: a kupah may not charge a road-accident victim a copayment for Second Schedule services given because of that injury.",
       "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
-      "raw_snippet": "קופת חולים לא תגבה מנפגע תאונת דרכים תשלום השתתפות עצמית בעבור שירותים הכלולים בתוספת השניה ... הניתנים לו בשל הפגיעה האמורה",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "קופת חולים לא תגבה מנפגע תאונת דרכים תשלום השתתפות עצמית בעבור שירותים הכלולים בתוספת השניה",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "references/exemptions-and-ceilings.md"
       ],
       "verified_via": "pdf",
       "verified_at": "2026-08-09",
-      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
+      "source_note": "Circular 1/2025 PDF. Text layer confirmed readable on 2026-08-09 (curl + pdftotext -layout); snippet sliced programmatically from that extraction with bidi control marks stripped."
     },
     {
       "claim_id": "circular-work-accident-exemption",
       "claim": "Circular section 16.5: a kupah may not charge a work-accident victim a copayment for services given because of a work injury as defined in chapter 5 of the National Insurance Law.",
       "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
-      "raw_snippet": "קופת חולים לא תגבה מנפגע תאונת עבודה תשלום השתתפות עצמית ... בשל פגיעה בעבודה כהגדרתה בפרק ה' לחוק הביטוח הלאומי",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "קופת חולים לא תגבה מנפגע תאונת עבודה תשלום השתתפות עצמית בעבור שירותים הכלולים בתוספת השנייה ובצו לפי סעיף קטן (ז) הניתנים לו לפי חוק זה בשל פגיעה בעבודה כהגדרתה בפרק ה' לחוק הביטוח הלאומי",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "references/exemptions-and-ceilings.md"
       ],
       "verified_via": "pdf",
       "verified_at": "2026-08-09",
-      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
+      "source_note": "Circular 1/2025 PDF. Text layer confirmed readable on 2026-08-09 (curl + pdftotext -layout); snippet sliced programmatically from that extraction with bidi control marks stripped."
     },
     {
       "claim_id": "moh-family-ceilings-ge41",
@@ -418,8 +431,8 @@
       "claim_id": "leumit-senior-ceiling",
       "claim": "Leumit's reduced quarterly family ceiling for a senior citizen or an oleh in the first year is 156.70.",
       "source_url": "https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/",
-      "raw_snippet": "אזרח ותיק, עולה חדש בשנה הראשונה ... 156.70 ש\"ח",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "אזרח ותיק, עולה חדש בשנה הראשונה ההשתתפויות בשירותים רפואיים שבסל לא יעלו על 156.70 ש\"ח למשפחה לרבעון.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "references/copay-tables.md"
       ],
@@ -474,28 +487,28 @@
       "claim_id": "leumit-generic-rate",
       "claim": "Leumit, Meuhedet and Maccabi all charge 10% or 20.23, whichever is the higher, for a drug with a registered generic.",
       "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
-      "raw_snippet": "10% ... או 20.23 ש\"ח כגבוה מבניהם",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "תכשיר רפואי כאמור שנרשמה לו חלופה גנרית תהיה ההשתתפות העצמית עבורו ועבור חלופותיו הגנריות 10%ממחירם המרבי לצרכן לאריזה או ₪ 20.23כגבוה מבניהם לאריזה",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "references/copay-tables.md"
       ],
       "verified_via": "pdf",
       "verified_at": "2026-08-09",
-      "source_note": "Circular-era wording. Confirmed by entity-decoded fetch on 2026-08-09 that these exact strings are NOT on Leumit's live tariff page, which now publishes a 20.80 floor and a 156.30 threshold. Not forced to match; repointed to the statutory source."
+      "source_note": "Circular 1/2025 PDF. Text layer confirmed readable on 2026-08-09 (curl + pdftotext -layout); snippet sliced programmatically from that extraction with bidi control marks stripped. Leumit's own 2026 page now publishes a 20.80 floor and a 156.30 threshold, so the 20.23 figure is the 2025 circular value and is labelled as such in references/copay-tables.md."
     },
     {
       "claim_id": "leumit-phone-hours",
-      "claim": "Contact numbers, each from the organisation's own site: Clalit *2700, Maccabi *3555 (מכבי ללא הפסקה), Meuhedet *3833, Leumit *507 and 1700-507507, MoH קול הבריאות *5400 and 08-6241010 open Sunday to Thursday 8:00-18:00 and Friday and holiday eves 8:00-13:00, National Insurance Institute entitlement updates 02-6462000. Magen David Adom is 101 but that number could not be confirmed from mdais.org, which blocks automated reads.",
-      "source_url": "https://www.leumit.co.il/",
-      "raw_snippet": "פעיל בימים א'-ה' 7:00-20:00, שישי וערבי חג 7:00-12:00",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "claim": "Leumit's call centre is 1700-507507, or *507 from a mobile. Other numbers carried in the skill body (Clalit *2700, Maccabi *3555, Meuhedet *3833, MoH kol habriut *5400 / 08-6241010, NII 02-6462000, MDA 101) are NOT pinned to a primary source in this cycle.",
+      "source_url": "https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/",
+      "raw_snippet": "ניתן לפנות למוקד לאומית לטלפון מספר 1700-507507 (או 507* מכל טלפון נייד)",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "evidence-base",
+      "verified_via": "entity-decoded-fetch",
       "verified_at": "2026-08-09",
-      "source_note": "OPEN ITEM, still unpinned. Checked against BOTH Leumit deep links on 2026-08-09 (transferring-between-health-funds and appeals-committee): the *507 hours string, *507 itself and 1700-507507 appear on neither. Deliberately NOT stretched to fit either URL. Provenance is the compiled hmo-evidence-base.md. Pin the real page next cycle."
+      "source_note": "Repointed 2026-08-09 from the Leumit homepage to the tariff deep page, which states the two Leumit numbers verbatim. The *507 opening-hours string could not be found on any curl-readable Leumit page and has been REMOVED from SKILL.md and SKILL_HE.md rather than cited to a homepage. The remaining phone numbers stay unpinned; pin them next cycle."
     },
     {
       "claim_id": "leumit-switching-dates",
@@ -534,8 +547,8 @@
       "claim_id": "leumit-seniority-carries",
       "claim": "Supplementary-insurance seniority carries across a switch. The new kupah may not limit or prevent joining its supplementary plan, and under certain conditions the member is entitled to a waiver of the waiting period, but only if a seniority certificate is transferred from the old kupah. This corrects the false v1.3.0 claim that waiting periods cannot be waived. No 90-day window and no equivalent-tier definition is asserted, because neither has a primary source.",
       "source_url": "https://www.leumit.co.il/leumit-general/transferring-between-health-funds/",
-      "raw_snippet": "הקופה החדשה אינה רשאית להגביל או למנוע את הצטרפותך לביטוח המשלים, ובתנאים מסוימים אף תהיה זכאי לפטור מתקופת המתנה בקופה החדשה. ... על מנת לשמור על רצף זכויות עליך להעביר לקופה אליה עברת אישור וותק מהקופה הקודמת.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "הקופה החדשה אינה רשאית להגביל או למנוע את הצטרפותך לביטוח המשלים, ובתנאים מסוימים אף תהיה זכאי לפטור מתקופת המתנה בקופה החדשה. על מנת לשמור על רצף זכויות עליך להעביר לקופה אליה עברת אישור וותק מהקופה הקודמת.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -635,58 +648,58 @@
     {
       "claim_id": "maccabi-no-published-tariffs",
       "claim": "Maccabi publishes eligibility as client-rendered per-item cards with no consolidated tariff table, so no 2026 Maccabi copayment, ceiling, emergency-room, urgent-care or home-visit figure was retrievable. The circular's 2025 values are used for Maccabi and labelled 2025. Maccabi's own scheme details that are documented: a flat 20.23 but no more than the consumer price below a threshold of 161.81, 15% of the maximum consumer price at or above it, 10% or 20.23 whichever is higher with a registered generic, and 50% of the consumer price for drugs with cheap substitutes or outside the drug list.",
-      "source_url": "https://www.maccabi4u.co.il",
-      "raw_snippet": "מכבי",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": ".1תרופה שמחיר המרבי לצרכן הינו עד ₪ 161.81ישלם המבוטח ₪ 20.23אך לא יותר ממחיר התרופה לצרכן.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "references/copay-tables.md",
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "evidence-base",
+      "verified_via": "pdf",
       "verified_at": "2026-08-09",
-      "source_note": "Maccabi publishes no consolidated tariff table; eligibility is client-rendered per item. No 2026 Maccabi amount is asserted anywhere in this skill."
+      "source_note": "Maccabi publishes no consolidated tariff table on maccabi4u.co.il; eligibility is client-rendered per item. Repointed 2026-08-09 from the Maccabi homepage to the MoH circular 1/2025 PDF, section 'תוכנית הגבייה בתרופות במכבי', which is the primary source for every Maccabi figure this skill carries. Those figures are 2025 values and are labelled 2025. No 2026 Maccabi amount is asserted anywhere in this skill."
     },
     {
       "claim_id": "maccabi-cheap-substitute-rule",
       "claim": "Maccabi charges 50% of the consumer price for drugs that have cheap substitutes or that are not part of the drug list.",
-      "source_url": "https://www.maccabi4u.co.il",
-      "raw_snippet": "תרופות להן יש תחליפים זולים או שאינן חלק מספר התרופות (לפי הרשימה) – 50% מהמחיר לצרכן.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "תרופות להן יש תחליפים זולים או שאינן חלק מספר התרופות (לפי הרשימה)– 50%מהמחיר לצרכן",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "references/copay-tables.md",
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "evidence-base",
+      "verified_via": "pdf",
       "verified_at": "2026-08-09",
-      "source_note": "Maccabi publishes no consolidated tariff table; eligibility is client-rendered per item. No 2026 Maccabi amount is asserted anywhere in this skill."
+      "source_note": "Circular 1/2025 PDF. Text layer confirmed readable on 2026-08-09 (curl + pdftotext -layout); snippet sliced programmatically from that extraction with bidi control marks stripped. Maccabi drug-tariff section."
     },
     {
       "claim_id": "maccabi-below-threshold-rule",
       "claim": "Maccabi charges 20.23 but no more than the consumer price of the drug below its threshold of 161.81, and 15% of the maximum consumer price at or above it.",
-      "source_url": "https://www.maccabi4u.co.il",
-      "raw_snippet": "20.23 ש\"ח אך לא יותר ממחיר התרופה לצרכן",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": ".1תרופה שמחיר המרבי לצרכן הינו עד ₪ 161.81ישלם המבוטח ₪ 20.23אך לא יותר ממחיר התרופה לצרכן.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "references/copay-tables.md"
       ],
-      "verified_via": "evidence-base",
+      "verified_via": "pdf",
       "verified_at": "2026-08-09",
-      "source_note": "Maccabi publishes no consolidated tariff table; eligibility is client-rendered per item. No 2026 Maccabi amount is asserted anywhere in this skill."
+      "source_note": "Circular 1/2025 PDF. Text layer confirmed readable on 2026-08-09 (curl + pdftotext -layout); snippet sliced programmatically from that extraction with bidi control marks stripped. Maccabi drug-tariff section."
     },
     {
       "claim_id": "maccabi-percentage-rule",
       "claim": "Maccabi charges 15% of the maximum consumer price at or above its threshold.",
-      "source_url": "https://www.maccabi4u.co.il",
-      "raw_snippet": "15% מהמחיר המרבי לצרכן",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": ".2תרופה שהמחיר המרבי לצרכן הינו מעל ₪ 161.81ישלם המבוטח 15%מהמחיר המרבי לצרכן.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "references/copay-tables.md"
       ],
-      "verified_via": "evidence-base",
+      "verified_via": "pdf",
       "verified_at": "2026-08-09",
-      "source_note": "Maccabi publishes no consolidated tariff table; eligibility is client-rendered per item. No 2026 Maccabi amount is asserted anywhere in this skill."
+      "source_note": "Circular 1/2025 PDF. Text layer confirmed readable on 2026-08-09 (curl + pdftotext -layout); snippet sliced programmatically from that extraction with bidi control marks stripped. Maccabi drug-tariff section."
     },
     {
       "claim_id": "sban-only-drug-no-discount",
@@ -960,11 +973,25 @@
       "verified_at": "2026-08-09"
     },
     {
-      "claim_id": "er-kupah-extensions-maccabi",
-      "claim": "Maccabi has an all-hours emergency-room exemption list that includes referral by a Maccabi or contracted moked doctor, a nurse referral from Maccabi's round-the-clock service with arrival within 24 hours, jaw dislocation, head trauma up to age 2 or above age 70, snake or scorpion bite, chemical eye burn and third-degree burn, plus a separate partial-payment list covering 23:00 to 06:00, a known cardiac patient with chest pain, acute dyspnea, and a CT or MRI performed in the emergency room.",
+      "claim_id": "er-kupah-extensions-maccabi-a",
+      "claim": "Maccabi has an all-hours emergency-room exemption list that includes referral by a Maccabi or contracted moked doctor, a telephone referral from a Maccabi doctor given before arrival, and a nurse referral from 'מכבי ללא הפסקה' with arrival within 24 hours.",
       "source_url": "https://call.gov.il/product-page/1002629",
-      "raw_snippet": "מכבי ללא הפסקה",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "מכבי הרחיבה את מתן הפטורים במהלך כל שעות היום במקרים הבאים: 1. חבר שהופנה לחדר מיון על ידי רופא ממוקד מכבי או רופא ממוקד שבהסכם. 2. הפניה טלפונית למיון מרופא מכבי ובתנאי שניתנה לחבר טרם פנייתו למיון. 3. חבר שהופנה ע\"ל ידי אחות מוקד \"מכבי ללא הפסקה\" והגיע למיון תוך 24 שעות",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "references/er-waiver-list.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-kupah-extensions-maccabi-b",
+      "claim": "Maccabi has a separate partial-payment list covering an emergency-room visit between 23:00 and 06:00, a known cardiac patient with chest pain, acute dyspnea, renal colic needing IV treatment, and a CT or MRI performed in the emergency room.",
+      "source_url": "https://call.gov.il/product-page/1002629",
+      "raw_snippet": "מקרים המקנים השתתפות חלקית בתשלום אגרת חדר מיון 1. פנייה לחדר מיון מהשעה 23:00 בלילה ועד השעה 06:00 בבוקר שלא כלולה במקרים המקנים פטור מלא. 2. חבר עם מחלת לב מוכרת שנתקף כאבים בחזה. 3. התקף קוצר נשימה חריף. 4. התקף אסתמה בשעות הפעילות של המוקדים והמרכזים הרפואיים (הסניפים). 5. עווית כלייתית (Renal Colic) שדרשה טיפול תוך-ורידי במיון. 6. ביצוע CT או MRI במיון.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "references/er-waiver-list.md",
         "SKILL.md",
@@ -1068,16 +1095,17 @@
     },
     {
       "claim_id": "sal-briut-2026-circular-name-only",
-      "claim": "The 2026 health basket was issued as the director-general circular 1/2026 of 08.03.2026 on expanding the health services basket for 2026. This skill deliberately carries NO budget figure, NO technology count, NO patient count and NO list of named additions for it, because none of those could be verified from a primary source. The v1.3.0 figures of 650M, cancer, mental health and PGT for BRCA are removed and are not carried forward.",
-      "source_url": "https://www.gov.il/he/departments/ministry_of_health",
-      "raw_snippet": "משרד הבריאות",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "claim": "The 2026 health basket was issued as director-general circular 2/2026 of 8 March 2026, 'הרחבת סל שירותי הבריאות לשנת 2026'. This skill deliberately carries NO budget figure, NO technology count and NO patient count for it, because none of those could be verified from a primary source.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/mk02-2026/he/files_circulars_mk_mk02-2026.pdf",
+      "raw_snippet": "8מרץ2026 , מס'2/2026 : חוזר מנכל :הרחבת סל שירותי הבריאות לשנת 2026",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "CORRECTION 2026-08-09: the circular number was wrong in v2.0.0. The basket-expansion DG circular for 2026 is 2/2026 (8 March 2026), not 1/2026; mk01-2026 is the call for 2027 proposals (17 Feb 2026). Verified by curl + pdftotext of both PDFs. SKILL.md and SKILL_HE.md corrected."
     },
     {
       "claim_id": "moh-ceilings-maccabi-meuhedet",

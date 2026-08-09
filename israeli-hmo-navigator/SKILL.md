@@ -38,7 +38,6 @@ The bulk tables live in `references/`. Load the one you need:
 | Meuhedet | מאוחדת | `*3833` | מאוחדת עדיף, then מאוחדת עדיף Plus |
 | Leumit Health Fund | לאומית שירותי בריאות | `*507`, also 1700-507507 | לאומית כסף, then לאומית זהב |
 
-Leumit's `*507` line runs `פעיל בימים א'-ה' 7:00-20:00, שישי וערבי חג 7:00-12:00`.
 
 Other numbers: Ministry of Health `קול הבריאות` on `*5400` or 08-6241010, open `ראשון עד חמישי 8:00-18:00; שישי וערבי חג 8:00-13:00`. National Insurance Institute entitlement updates on 02-6462000. For a medical emergency, Magen David Adom is 101; that number is universally used but could not be confirmed against mdais.org in this cycle, which blocks automated reads.
 
@@ -221,8 +220,8 @@ When these are available, prefer them over the static tables here for anything t
 | Clalit tariff page | https://www.clalit.co.il/he/info/about_site/Pages/sherutim_betashlum.aspx | Clalit's current amounts and update date |
 | Leumit tariff page | https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/ | Leumit's current amounts and update date |
 | Meuhedet copayments page | https://www.meuhedet.co.il/מידע-ללקוח/השתתפויות-ופטורים/ | Meuhedet's current amounts |
-| Maccabi member site | https://www.maccabi4u.co.il | per-item eligibility, no consolidated tariff table |
-| Ministry of Health | https://www.gov.il/he/departments/ministry_of_health | circulars, complaints, service pages |
+| MoH DG circular 2/2026, the 2026 basket expansion | https://www.gov.il/BlobFolder/policy/mk02-2026/he/files_circulars_mk_mk02-2026.pdf | the technologies added to the basket for 2026 |
+| Maccabi member site | `maccabi4u.co.il` (no deep link: per-item eligibility is client-rendered and there is no consolidated tariff table) | use the 1/2025 circular for Maccabi amounts |
 
 ## Gotchas
 
@@ -236,7 +235,7 @@ When these are available, prefer them over the static tables here for anything t
 - A regular ambulance that does not end in hospital admission is **not** refunded at all. Only the intensive-care ambulance is partly refunded without admission, and the claim has a 60-day deadline.
 - Supplementary-insurance seniority **does** carry when switching kupot, subject to conditions, but only against an `אישור וותק` from the old kupah. It is not automatic and it is not impossible.
 - Adult dental care is not in the basic basket; children are covered to 18. Dental copays are also excluded from the family ceiling.
-- The 2026 health basket was issued as `חוזר מנכ"ל 1/2026 מיום 08.03.2026 – הרחבת סל שירותי הבריאות לשנת 2026`. **This skill deliberately carries no budget figure, technology count or list of additions for it**, because none could be verified from a primary source. Cite the circular by name and send the user to the Ministry of Health announcement.
+- The 2026 health basket was issued as `חוזר מנכ"ל 2/2026 מיום 08.03.2026 – הרחבת סל שירותי הבריאות לשנת 2026`. **This skill deliberately carries no budget figure, technology count or list of additions for it**, because none could be verified from a primary source. Cite the circular by name and send the user to the Ministry of Health announcement.
 - Amounts here are dated snapshots and are re-indexed. Treat every figure as needing confirmation against the kupah's own page, especially since no 2026 payments circular has been issued yet.
 
 ## Troubleshooting
