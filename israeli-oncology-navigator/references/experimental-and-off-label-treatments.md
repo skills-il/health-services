@@ -8,15 +8,15 @@
 |---------|-----------|----------|-------------|
 | Health basket | Drug is in the 2026 basket for the indication | HMO basic basket | Sal HaBriut |
 | Exceptions committee (ועדת חריגים) | HMO funds an out-of-basket drug case-by-case | HMO budget | Internal HMO procedure |
-| Form 29c (תקנה 29ג') | Permit to import an unregistered drug for one patient | Patient or another payer (separate) | Pharmacists Regulations (Preparations), 1986 §29 |
+| Form 29c (טופס 29ג') | Permit to import an unregistered drug for one patient | Patient or another payer (separate) | Pharmacists Regulations (Preparations), 1986, תקנה 29(ג) |
 | Compassionate use (טיפול חמלה) | Pharma company supplies an unregistered/experimental drug free under MOH approval | Pharmaceutical company sponsor | MOH circular (~2006) |
 | Clinical trial (ניסוי קליני) | Patient enrolled in a structured trial | Trial sponsor | People's Health Regulations (Medical Research on Human Subjects), 1980 |
 
 ## 1. Form 29c -- individual import of an unregistered drug
 
-**Legal basis**: תקנה 29 לתקנות הרוקחים (תכשירים), התשמ"ו-1986. The patient-level application is **טופס 29ג'**.
+**Legal basis**: **תקנה 29(ג)** לתקנות הרוקחים (תכשירים), התשמ"ו-1986. The patient-level application is **טופס 29ג'**.
 
-**Who files**: the **treating physician** files via the MOH **Pharmacy Division (אגף הרוקחות)**. The 29c is also the legal basis for an Israeli licensed pharmacy to import the drug.
+**Who files**: the application to the MOH **Pharmacy Division (אגף הרוקחות)** is filed by the **importer's responsible pharmacist (הרוקח האחראי של היבואן)**. The **treating physician signs the clinical justification** but is not the filer. Earlier versions of this file said the physician files it. The 29c is also the legal basis for an Israeli licensed pharmacy to import the drug.
 
 **Requirements**:
 - Medical justification by the physician
@@ -74,7 +74,7 @@
 | Meuhedet | Meuhedet Adif / Si | Similar clauses. Verify the 2026 regulations PDF for the patient's specific tier. |
 | Leumit | Leumit Kesef / Zahav | Similar clauses. Verify the 2026 regulations PDF. |
 
-**The 2008 reform boundary** (often missed): Israeli supplementary insurance plans have been prohibited since 2008 from covering **life-saving or life-extending drugs as their primary benefit**. The "expanded drug" clauses cover off-label, unregistered-indication, and unregistered-in-Israel scenarios within defined caps. They do NOT replace basket funding for life-saving cancer treatments.
+**The practical boundary** (often missed): a supplementary plan's "expanded drug" clauses cover off-label, unregistered-indication and unregistered-in-Israel scenarios within defined caps. They do **not** replace basket funding for life-saving cancer treatment, and a patient should never plan around שב"ן as the primary route for a life-saving drug. Earlier versions of this file attributed this boundary to a specific 2008 regulatory instrument; that instrument could not be sourced, so the claim is stated here as the practical shape of coverage only. **Verify the tier's תקנון PDF for what is actually covered.**
 
 **Sources**:
 - Kolzchut guide above
@@ -98,7 +98,7 @@
 - Trial sponsor (typically pharma) pays for the investigational drug and trial-specific procedures
 - HMO continues to fund standard-of-care procedures the patient would otherwise receive
 
-**Post-trial access to the drug** (המשך מתן מוצר המחקר לאחר סיום הניסוי): MOH procedure 14 chapter 4 includes a section on this. **Not an automatic patient right.** Sponsor may continue supplying responders subject to Helsinki + MOH agreement. **Discuss this with the principal investigator BEFORE signing the consent form**, not after.
+**Post-trial access to the drug** (המשך מתן מוצר המחקר לאחר סיום הניסוי): handled under the MOH clinical-trials procedure. **Not an automatic patient right.** Sponsor may continue supplying responders subject to Helsinki + MOH agreement. **Discuss this with the principal investigator BEFORE signing the consent form**, not after.
 
 **Source**: MOH clinical-trials procedure (procedure 14) -- https://www.gov.il/BlobFolder/policy/cth-14/he/files_publications_units_pharmaceutical_division_clinical_trials_cth-14.pdf
 
@@ -106,7 +106,7 @@
 
 International patients and some private insurers use the term "Named Patient Program". **Israel has no such named regulatory category.** The two pathways that map to NPP-style access are:
 
-- **Form 29c (תקנה 29)** for individual import
+- **Form 29c (תקנה 29(ג))** for individual import
 - **טיפול חמלה** for sponsor-provided experimental drugs
 
 If a foreign physician or document refers to "NPP in Israel", clarify which of the two they mean.
@@ -118,7 +118,7 @@ If a foreign physician or document refers to "NPP in Israel", clarify which of t
 | Drug is in 2026 basket for my indication | Standard prescription via HMO | -- |
 | Drug registered in Israel for my indication, HMO refused | Exceptions committee | Supplementary if enrolled |
 | Drug registered in Israel, off-label for my case | Supplementary off-label clause | Exceptions committee |
-| Drug unregistered in Israel, registered abroad | Form 29c by physician + funding via supplementary or exceptions | Private pay or NGO |
+| Drug unregistered in Israel, registered abroad | Form 29c filed by the importer's responsible pharmacist on the physician's clinical justification, funding via supplementary or exceptions | Private pay or NGO |
 | Drug experimental (Phase 2/3, unregistered anywhere) | טיפול חמלה -- physician finds pharma sponsor | Clinical trial enrollment if available |
 | There is a Phase 3 trial I might qualify for | MyTrial search + oncologist referral + Helsinki-approved enrollment | -- |
 
@@ -127,13 +127,13 @@ If a foreign physician or document refers to "NPP in Israel", clarify which of t
 1. **"Form 29c approved → HMO will pay."** WRONG. 29c is an import permit. Funding is separate.
 2. **"Compassionate use is a right."** WRONG. The pharma company can refuse, and many do.
 3. **"Helsinki committee = exceptions committee."** WRONG. Helsinki = research ethics. Exceptions = HMO funding.
-4. **"Supplementary insurance covers life-saving cancer drugs."** WRONG since the 2008 reform. Supplementary covers off-label and unregistered-indication scenarios within caps.
+4. **"Supplementary insurance covers life-saving cancer drugs as its headline benefit."** Do not plan around this. Supplementary covers off-label and unregistered-indication scenarios within caps; the basket and the exceptions committee are the route for life-saving treatment.
 5. **"I'll keep the trial drug forever after the trial."** Not automatic. Negotiated per protocol with Helsinki + MOH.
 6. **"There is a Named Patient Program in Israel."** No formal Israeli NPP category. The local terms are 29c and טיפול חמלה.
 
 ## Organizations that help with these pathways
 
-- **Israeli Cancer Association (ICA, האגודה למלחמה בסרטן)** -- rights helpdesk 03-5721678; advises on exceptions committees and out-of-basket drug applications
+- **Israeli Cancer Association (ICA, האגודה למלחמה בסרטן)** -- rights desk via Telemeda 1-800-599-995; advises on exceptions committees and out-of-basket drug applications
 - **Patients' Rights Association (האגודה לזכויות החולה)** -- generalist patient-rights advocacy
 - **Larger Than Life (גדולים מהחיים)** -- pediatric / young-adult cancer patient family support including out-of-basket drug situations
 - **Zichron Menachem, Ezer Mizion** -- practical support; not primary drug-funding routes but help patients locate sponsors and trials

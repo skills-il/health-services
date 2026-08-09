@@ -35,17 +35,17 @@ If steps 1 and 2 fail, the next venue is the Regional Labor Court -- the correct
 - A further appeal lies on legal grounds only to the National Labor Court
 - HMO bears the burden to justify a refusal of medically-recommended treatment
 
-## Landmark precedent
+## The governing doctrine
 
-### חב"ר (ת"א) 5942-09-12 (Tel Aviv Regional Labor Court, 17 October 2012)
+Israeli Labour Court case law establishes the procedural standard applied in HMO drug-funding disputes: **a drug's exclusion from the basket is not by itself grounds for refusal**. The exceptions committee must (a) evaluate clinical efficacy for the individual patient, (b) consider whether basket alternatives exist, and (c) support any budget argument with calculations rather than assertions.
 
-A biliary-tract cancer patient case. Established the procedural standards cited today in HMO drug-funding disputes: **a drug's exclusion from the basket is not by itself grounds for refusal**; the exceptions committee must (a) evaluate clinical efficacy, (b) consider whether basket alternatives exist, and (c) document budget arguments with calculations rather than assertions.
+**Do not cite a case number from memory.** A previous version of this file carried a citation that could not be traced in any Israeli court database; a fabricated citation gets a patient's submission dismissed and damages their credibility. Have an attorney pull the current authorities from Nevo or Takdin. The doctrine below is what matters procedurally, and it can be argued from the Kolzchut source without any case number.
 
 Source: Kolzchut "אי הכללת תרופה בסל התרופות אינה שיקול לסירוב למתן תרופה לחולי סרטן" -- https://www.kolzchut.org.il/he/%D7%90%D7%99_%D7%94%D7%9B%D7%9C%D7%9C%D7%AA_%D7%AA%D7%A8%D7%95%D7%A4%D7%94_%D7%91%D7%A1%D7%9C_%D7%94%D7%AA%D7%A8%D7%95%D7%A4%D7%95%D7%AA_%D7%90%D7%99%D7%A0%D7%94_%D7%A9%D7%99%D7%A7%D7%95%D7%9C_%D7%9C%D7%A1%D7%99%D7%A8%D7%95%D7%91_%D7%9C%D7%9E%D7%AA%D7%9F_%D7%AA%D7%A8%D7%95%D7%A4%D7%94_%D7%9C%D7%97%D7%95%D7%9C%D7%99_%D7%A1%D7%A8%D7%98%D7%9F
 
 ### Other patient-funding rulings
 
-Israeli labor courts have continued to issue rulings on HMO drug-funding disputes since 5942-09-12. Specific case names should be pulled directly from the Nevo or Takdin databases by an attorney -- the doctrine from 5942-09-12 (basket-exclusion alone is not grounds for refusal; HMO bears burden to justify) is the workhorse cited in current cases.
+Israeli labour courts continue to rule on HMO drug-funding disputes. Case names must be pulled from Nevo or Takdin by an attorney. The workhorse doctrine cited in current cases is the one above: basket-exclusion alone is not grounds for refusal, and the HMO bears the burden of justifying one.
 
 ## Building the appeals package
 
@@ -63,7 +63,7 @@ Whether for the internal HMO committee or for court, the package the patient (or
 ## NGO and legal-aid resources
 
 - **Patients' Rights Association (האגודה לזכויות החולה)** -- patients-rights.org -- represents patients in HMO disputes
-- **Israeli Cancer Association (האגודה למלחמה בסרטן)** -- rights helpdesk 03-5721678, shikum@cancer.org.il -- practical help with assembling the package
+- **Israeli Cancer Association (האגודה למלחמה בסרטן)** -- rights desk via Telemeda 1-800-599-995, shikum@cancer.org.il -- practical help with assembling the package
 - **One in Nine (אחת מתשע)** -- 03-602-1717 ext 2 -- in-house attorney for breast cancer patient rights
 
 ## Common mistakes to avoid

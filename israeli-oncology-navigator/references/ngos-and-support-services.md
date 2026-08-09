@@ -22,7 +22,7 @@ The main all-ages, all-cancer-types national organization.
 - **Wig fitting and loans** at Beit Mati (Givatayim HQ) and ~60 branches
 - **Cosmetics and makeup volunteers** who visit oncology wards
 - **Accommodation** for out-of-town patients near treating hospitals
-- **Rights-realization helpdesk** -- phone: **03-5721678**, email: **shikum@cancer.org.il**
+- **Rights-realization helpdesk** -- reach it through **Telemeda 1-800-599-995**, email **shikum@cancer.org.il**. (Do not publish a direct 03- number for this desk without re-verifying it against the ICA site; a previously carried number could not be confirmed.)
 - Medical and psycho-social information
 - Cancer research funding
 
@@ -142,7 +142,7 @@ General patient rights across all conditions. Relevant to oncology primarily for
 
 **Arabic-speaking patients:** the WhatsApp group **חלאס סלאמתק** is run by a community lead for Arabic-speaking patients, led by Hanadi Azzam.
 
-**Rights and benefits content** (זכויות / הטבות section): the org publishes its own guides to entitlements and discounts for young patients. This is community-curated, not legally authoritative -- use ICA Rights Center (03-5721678), Patients' Rights Association, or a hospital social worker for any binding rights advice.
+**Rights and benefits content** (זכויות / הטבות section): the org publishes its own guides to entitlements and discounts for young patients. This is community-curated, not legally authoritative -- use the ICA Rights Center (Telemeda 1-800-599-995), the Patients' Rights Association, or a hospital social worker for any binding rights advice.
 
 **Awareness campaigns** they run: cervical cancer (מעניין לי תיפות), testicular cancer (זמן אשך), colon cancer (#בושה בתחת).
 
@@ -185,7 +185,7 @@ For cancer patients facing terminal-stage decisions, two Israeli NGOs help with 
 - **LILACH / ליל"ך -- לחיות ולמות בכבוד** (To Live and Die With Dignity) -- https://www.lilach.org.il/living_will/ -- leading Israeli NGO for advance directives and dignified end-of-life
 - **Ematai** -- https://www.ematai.org/netivotil/ -- bilingual (Hebrew/English) advance-care-planning resource for Israel, including faith-sensitive options for religious patients
 
-These work alongside the **Dying Patient Law (חוק החולה הנוטה למות), 2005**, which is the legal framework for advance medical directives in Israel. Directives become operative only when (a) the patient is defined as a *terminally ill patient* with under 6 months life expectancy AND (b) the patient lacks capacity. Directives are registered with the Ministry of Health. Source: Kolzchut "Registering a Living Will" -- https://www.kolzchut.org.il/en/Registering_a_Living_Will
+These work alongside the **Dying Patient Law (חוק החולה הנוטה למות), 2005**, which is the legal framework for advance medical directives in Israel. Directives become operative only when (a) the patient is defined as a *terminally ill patient* with under 6 months life expectancy AND (b) the patient lacks capacity. Directives are registered with the Ministry of Health. Source: LILACH, https://www.lilach.org.il/living_will/ , and the Ministry of Health advance-directives registry.
 
 ## 12. Hospital oncology social worker vs. ICA Rights Center
 

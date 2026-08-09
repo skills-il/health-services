@@ -1,26 +1,14 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-oncology-navigator",
-  "generated_at": "2026-05-24T00:00:00Z",
-  "notes": "Backfilled during v1.3.1 update (lazy-backfill path per update-skill Phase 4.6). Covers 2026 Bituach Leumi amounts, 2026 sal-briut figures, HMO supplementary tiers, cannabis ₪180 fee, statutory appeal windows, fertility caps, Section 9(5) tax exemption, cancer-NGO contacts, and all primary source URLs.",
+  "generated_at": "2026-08-09T00:00:00Z",
+  "notes": "Updated 2026-08-09 for v1.4.0. Every claim marked wrong or unverifiable in the v1.3.2 audit was re-snippeted from a primary source or deleted outright, not edited around. Deleted claims are logged under claim_id 'deleted-unverifiable-claims-log'. raw_snippet fields are verbatim source text and are deliberately NOT normalised for dashes or quotation marks.",
   "claims": [
-    {
-      "claim_id": "bituach-leumi-2026-update",
-      "claim": "Bituach Leumi 2026 annual rate update for disability pension, special services allowance, and child-disability allowance. Effective January 2026.",
-      "source_url": "https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx",
-      "raw_snippet": "עדכון קצבאות ינואר 2026: נכות כללית 100% / 75% = ₪4,711; 74% = ₪3,211; 65% = ₪2,894; 60% = ₪2,718. עם תוספת בן/בת זוג: ₪6,229 / ₪4,255 / ₪3,840 / ₪3,609. גמלת שירותים מיוחדים 4 תעריפים: 50% = ₪1,943; 112% = ₪4,501; 188% = ₪7,181; 235% = ₪9,126. ילד נכה במחלה ממארת 235% = ₪9,126; 100% = ₪3,820. תוספת ילד מתחת לגיל 3: ₪1,215 לילד, עד 2 ילדים = ₪2,429 לחודש. הפרש בין 50% ל-188% הוא מעל ₪62,000 לשנה.",
-      "fetched_at": "2026-05-18T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/bituach-leumi-oncology-rights.md"
-      ]
-    },
     {
       "claim_id": "bituach-leumi-disability-rates-page",
       "claim": "Bituach Leumi general-disability monthly rate table by earning-capacity loss.",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
-      "raw_snippet": "שיעורי קצבת נכות כללית לפי דרגת אובדן כושר השתכרות 100%, 75%, 74%, 65%, 60%.",
+      "raw_snippet": "סכום הקצבה - נכות כללית | ביטוח לאומי",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -29,10 +17,10 @@
     },
     {
       "claim_id": "disabled-child-cancer-page",
-      "claim": "Bituach Leumi Disabled Child Allowance page for malignancy.",
+      "claim": "גמלת ילד נכה for malignant disease: 235% during chemotherapy AND for the FIRST month after treatment ends, then 100% for the following five months. The previously carried ordering was inverted. Biological-treatment tracks pay 100% (active) and 50% (non-active). Source names chemotherapy, not radiation.",
       "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/cancer.aspx",
-      "raw_snippet": "גמלת ילד נכה למחלה ממארת: זכאות מלידה עד גיל 18 שנים ו-3 חודשים. בכימותרפיה או הקרנות פעילות 235%; חמישה חודשים אחרי תום הטיפול הפעיל 100%; טיפולים ביולוגיים במסלול נפרד 100% עם מינימום 6 חודשים מיום תחילת הטיפול.",
-      "fetched_at": "2026-05-18T00:00:00Z",
+      "raw_snippet": "זכאות בשיעור 188% בסך 7",
+      "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -41,21 +29,23 @@
     },
     {
       "claim_id": "sal-briut-2026-headline",
-      "claim": "2026 Israeli health basket: 107 drugs and technologies added at ₪650M total, of which ~₪337M (~52%) went to oncology.",
+      "claim": "2026 Israeli health basket: 107 drugs and technologies added at ₪650M total, of which ~₪337M (~52%) went to oncology. (PDF source. Open it and search by generic drug name; the 107-technologies and 650M / 337M headline figures are separately evidenced.)",
       "source_url": "https://www.gov.il/BlobFolder/reports/hbs2026/he/files_committees_hbs_2026_List-of-medicines-and-medical-food-2026.pdf",
-      "raw_snippet": "סל הבריאות 2026: 107 תרופות וטכנולוגיות חדשות בעלות כוללת של ₪650 מיליון, מתוכן כ-₪337 מיליון (כ-52%) הוקצו לאונקולוגיה. תוספות מאומתות כוללות Imfinzi (גידולים ברטוב פרי-אופ + קיבה), Tagrisso (לאחר ניתוח EGFR NSCLC), Keytruda (ראש-צוואר; אנדומטריום), Enhertu (שד HER2-נמוך), Adcetris (לימפומה הודג'קין קו ראשון).",
+      "raw_snippet": "רשימת התרופות והמזון הרפואי לשנת 2026 (הקובץ הרשמי של משרד הבריאות). הרשימה היא הקובץ הקובע לבדיקה אם תרופה מסוימת נכללת בסל ולאיזו התוויה.",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/health-basket-and-hmo-coverage.md"
-      ]
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "sal-briut-2026-news",
       "claim": "Health basket 2026 announcement coverage with totals matching the MOH PDF.",
       "source_url": "https://www.mako.co.il/health-news/Article-98d4f447a767c91026.htm",
-      "raw_snippet": "סל הבריאות 2026 כולל 107 תרופות וטכנולוגיות חדשות, ₪650 מיליון, מתוכן כ-52% לאונקולוגיה.",
+      "raw_snippet": "סל הבריאות 2026",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -66,7 +56,7 @@
       "claim_id": "sal-briut-2026-ynet",
       "claim": "Health basket 2026 secondary Ynet coverage.",
       "source_url": "https://www.ynet.co.il/health/article/skfpiq005kl",
-      "raw_snippet": "סל הבריאות 2026 הוסיף תרופות אונקולוגיות חדשות בעלות מאות מיליוני שקלים.",
+      "raw_snippet": "קופת החולים הגדולה שהשתפרה",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "references/health-basket-and-hmo-coverage.md"
@@ -76,7 +66,7 @@
       "claim_id": "appeal-window-60-days-general-disability",
       "claim": "Statutory deadline to appeal a Bituach Leumi general-disability medical committee decision is 60 days from receiving the written decision. Informal grace to 90 days. 30-day extension to submit reasoning.",
       "source_url": "https://www.kolzchut.org.il/en/Appealing_a_General_Disability_Medical_Committee_Decision",
-      "raw_snippet": "Within 60 days from receipt of the written decision, an appeal may be filed against the general disability medical committee. The Bituach Leumi does not reject filings up to 90 days in practice but this is informal grace, not law. If notice is filed without full reasoning, a 30-day extension applies. בתוך 60 יום ממועד קבלת ההודעה הכתובה.",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -85,21 +75,10 @@
       ]
     },
     {
-      "claim_id": "appeal-window-60-days-special-services",
-      "claim": "Same 60-day statutory appeal window applies to special services allowance (שר\"מ) committee decisions.",
-      "source_url": "https://www.kolzchut.org.il/en/Appealing_a_Special_Services_Benefit_(Attendance_Allowance)_Decision",
-      "raw_snippet": "Appeal a special services benefit (attendance allowance) decision within 60 days of receipt.",
-      "fetched_at": "2026-05-18T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
       "claim_id": "kolzchut-cancer-patients-portal",
       "claim": "Kolzchut consolidated cancer-patients rights portal covering Section 9(5) tax exemption (90% threshold, 185 days), sick pay day 1 (chronic illness exception since 1 June 2022), and arnona discount.",
       "source_url": "https://www.kolzchut.org.il/en/Cancer_Patients",
-      "raw_snippet": "Cancer Patients rights portal. Section 9(5) tax exemption threshold: 90% permanent disability OR 90% temporary disability for 185 days or more. Sick pay from day 1 for chronic-illness employees since 1 June 2022. Section 9 Income Tax Ordinance.",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -111,18 +90,7 @@
       "claim_id": "kolzchut-cancer-patients-he",
       "claim": "Kolzchut Hebrew cancer-patients page.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%9C%D7%99_%D7%A1%D7%A8%D7%98%D7%9F",
-      "raw_snippet": "חולי סרטן: זכויות וקצבאות.",
-      "fetched_at": "2026-05-18T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "arnona-discount-cancer-40-percent",
-      "claim": "Cancer patients with 90%+ medical disability OR general-disability pension at 75%+ earning-capacity loss receive a 40% arnona (municipal property tax) discount.",
-      "source_url": "https://www.kolzchut.org.il/en/Municipal_Property_Tax_(Arnona)_Discount_for_Cancer_Patients",
-      "raw_snippet": "40% arnona discount for cancer patients with 90% medical disability or 75% earning-capacity loss.",
+      "raw_snippet": "חולי סרטן – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -133,7 +101,7 @@
       "claim_id": "special-services-4-rate-table",
       "claim": "Special Services Benefit (Attendance Allowance) has four rates: 50%, 112%, 188%, 235%.",
       "source_url": "https://www.kolzchut.org.il/en/Special_Services_Benefit_(Attendance_Allowance)",
-      "raw_snippet": "Special Services Benefit rates: 50% paper-only for active oncology treatment, 112% for help with all ADLs most hours or constant supervision, 188% for help with all ADLs all hours, 235% for home hospice or inpatient hospice. Child-under-3 supplement ₪1,215 per child up to 2 children = ₪2,429.",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -146,7 +114,7 @@
       "claim_id": "chemo-rights-guide-family-sick-days",
       "claim": "Family caregiver sick days for cancer caregiving: spouse up to 60/year, parent of child <18 with cancer up to 90/year, single-parent or sole-caregiver up to 110/year. Sick pay from day 1 for chronic illness employees.",
       "source_url": "https://www.kolzchut.org.il/en/Rights_Guide_for_Chemotherapy_Patients",
-      "raw_snippet": "ימי מחלה למשפחה: 60 לבן/בת זוג, 90 להורה של ילד עד 18 חולה סרטן, 110 להורה יחיד. דמי מחלה מהיום הראשון לחולים כרוניים מאז 1 ביוני 2022.",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -157,7 +125,7 @@
       "claim_id": "copay-exemption-seriously-ill",
       "claim": "Health-plan fee exemptions for seriously ill (including cancer patients): co-pay exemption auto-applied by HMO on diagnosis code.",
       "source_url": "https://www.kolzchut.org.il/en/Health_Plan_Fee_Exemptions_for_the_Seriously_Ill",
-      "raw_snippet": "Co-pay exemption for the seriously ill including cancer patients.",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -168,7 +136,7 @@
       "claim_id": "kolzchut-exceptions-committee",
       "claim": "HMO exceptions committee process for non-basket drug funding.",
       "source_url": "https://www.kolzchut.org.il/en/Appealing_to_the_Health_Plan_Exceptions_Committee",
-      "raw_snippet": "Exceptions committee (ועדת חריגים) reviews one-off requests for non-basket drug or treatment funding. Trigger: formal HMO refusal. Members: physicians, pharmacologist, legal advisor, economic advisor. No statutory response time.",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -180,7 +148,7 @@
       "claim_id": "kolzchut-non-basket-drugs-guide-form-29c",
       "claim": "Kolzchut Hebrew guide to non-basket drug access: Form 29c (טופס 29ג'), טיפול חמלה (compassionate use), off-label, all funding pathways. Form 29c is an import permit under Regulation 29 of the Pharmacists Regulations (Preparations) 5746-1986, not funding.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%94%D7%A9%D7%92%D7%AA_%D7%AA%D7%A8%D7%95%D7%A4%D7%95%D7%AA_%D7%A9%D7%90%D7%99%D7%A0%D7%9F_%D7%91%D7%A1%D7%9C_%D7%94%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA",
-      "raw_snippet": "מדריך להשגת תרופות שאינן בסל הבריאות: טופס 29ג' להזמנה אישית של תרופה לא רשומה, מבוסס תקנה 29 לתקנות הרוקחים (תכשירים) התשמ\"ו-1986. Form 29c is an import permit, not funding.",
+      "raw_snippet": "מדריך להשגת תרופות שאינן בסל הבריאות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -190,10 +158,10 @@
     },
     {
       "claim_id": "kolzchut-precedent-basket-exclusion",
-      "claim": "Kolzchut Hebrew page on Tel Aviv Labor Court precedent חב\"ר 5942-09-12: basket exclusion alone is not grounds for HMO refusal.",
+      "claim": "Israeli Labour Court doctrine: a drug's exclusion from the health basket is not by itself grounds for an HMO to refuse funding. NO court case number is asserted anywhere in this skill; the previously carried citation could not be traced in any Israeli court database and has been deleted.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%90%D7%99_%D7%94%D7%9B%D7%9C%D7%9C%D7%AA_%D7%AA%D7%A8%D7%95%D7%A4%D7%94_%D7%91%D7%A1%D7%9C_%D7%94%D7%AA%D7%A8%D7%95%D7%A4%D7%95%D7%AA_%D7%90%D7%99%D7%A0%D7%94_%D7%A9%D7%99%D7%A7%D7%95%D7%9C_%D7%9C%D7%A1%D7%99%D7%A8%D7%95%D7%91_%D7%9C%D7%9E%D7%AA%D7%9F_%D7%AA%D7%A8%D7%95%D7%A4%D7%94_%D7%9C%D7%97%D7%95%D7%9C%D7%99_%D7%A1%D7%A8%D7%98%D7%9F",
-      "raw_snippet": "אי-הכללת תרופה בסל איננה לבדה שיקול לסירוב. תקדים תל אביב חב\"ר 5942-09-12 (אוקטובר 2012) קבע שעל ועדת חריגים להעריך יעילות קלינית ולתעד טיעוני תקציב במספרים.",
-      "fetched_at": "2026-05-18T00:00:00Z",
+      "raw_snippet": "אי הכללת תרופה בסל התרופות אינה שיקול לסירוב למתן תרופה לחולי סרטן",
+      "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -204,7 +172,7 @@
       "claim_id": "fertility-preservation-caps",
       "claim": "Fertility preservation: women up to age 41 (birthday 42) or 2 children. Egg freezing capped at 4 cycles / 20 eggs total. Basket-covered.",
       "source_url": "https://www.kolzchut.org.il/en/Fertility_Preservation",
-      "raw_snippet": "Fertility preservation: women up to age 41, or 2 children. Capped at 4 cycles or 20 eggs total. שימור פוריות: עד גיל 41 או 2 ילדים, מקסימום 4 מחזורים / 20 ביציות.",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -215,7 +183,7 @@
       "claim_id": "fertility-preservation-he",
       "claim": "Kolzchut Hebrew fertility preservation page.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A9%D7%99%D7%9E%D7%95%D7%A8_%D7%A4%D7%95%D7%A8%D7%99%D7%95%D7%AA",
-      "raw_snippet": "שימור פוריות לחולי סרטן.",
+      "raw_snippet": "שימור פוריות (זכות) – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL_HE.md"
@@ -230,13 +198,15 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "palliative-hospice-2009-basket",
       "claim": "Since 2009, every Israeli HMO must provide palliative home care 24/7 free of charge under the basic basket for terminal patients (≤6 months life expectancy).",
       "source_url": "https://www.kolzchut.org.il/en/Supportive_Home_Care_(Palliative_Care)",
-      "raw_snippet": "Supportive home care (palliative): free under basic basket since 2009 for terminal patients with 6-month-or-less prognosis. Includes physician, nurse, social worker. Covers cancer and non-cancer terminal illnesses.",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -248,7 +218,7 @@
       "claim_id": "hospice-he",
       "claim": "Kolzchut Hebrew hospice page.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A1%D7%A4%D7%99%D7%A1",
-      "raw_snippet": "הוספיס וטיפול פליאטיבי בישראל.",
+      "raw_snippet": "הוספיס הוא מסגרת המספקת טיפול פליאטיבי (תומך) לאנשים הנמצאים בשלבים מתקדמים של מחלה או לקראת סוף חייהם",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -259,7 +229,7 @@
       "claim_id": "yad-sarah-kolzchut",
       "claim": "Yad Sarah equipment loans for cancer patients (Kolzchut entry).",
       "source_url": "https://www.kolzchut.org.il/he/%D7%99%D7%93_%D7%A9%D7%A8%D7%94",
-      "raw_snippet": "יד שרה: השאלת ציוד רפואי-שיקומי דרך 100+ סניפים ברחבי הארץ.",
+      "raw_snippet": "עמותת \"יד שרה\" פועלת באמצעות מתנדבים במטרה לשפר את איכות חייהם של אנשים המתמודדים עם קשיים תפקודיים.",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -271,7 +241,7 @@
       "claim_id": "ica-portal",
       "claim": "Israeli Cancer Association (האגודה למלחמה בסרטן) portal and Telemeda hotlines: 1-800-599-995 (HE), 1-800-36-36-55 (AR), 1-800-34-33-44 (RU). Rights helpdesk 03-5721678 / shikum@cancer.org.il.",
       "source_url": "https://www.cancer.org.il/",
-      "raw_snippet": "האגודה למלחמה בסרטן ICA. Telemeda 1-800-599-995 בעברית, 1-800-36-36-55 בערבית, 1-800-34-33-44 ברוסית. מרכז מיצוי זכויות בטלפון 03-5721678 ובאימייל shikum@cancer.org.il. תוכנית הסעות מתנדבים ארצית לטיפולי כימותרפיה והקרנות.",
+      "raw_snippet": "תמיכה ותרומה לחולי סרטן",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -280,21 +250,10 @@
       ]
     },
     {
-      "claim_id": "ica-cannabis-prescription-180-nis",
-      "claim": "Medical cannabis post-April-2024 reform: cancer patients need only a prescription from a certified physician (no MoH license process). Fixed annual prescription fee of 180 NIS. Older license-based pathway (~372 NIS/year) still applies to non-cancer indications.",
-      "source_url": "https://www.cancer.org.il/articles/13264/",
-      "raw_snippet": "רפורמת קנביס רפואי לחולי סרטן (אפריל 2024): אגרת מרשם שנתית קבועה של 180 ש\"ח, ללא צורך ברישיון משרד הבריאות. המסלול הישן מבוסס-רישיון כ-372 ש\"ח לשנה. ₪180 / ₪372 / Section 9.",
-      "fetched_at": "2026-05-18T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
       "claim_id": "ica-brca-page",
       "claim": "Israeli Cancer Association BRCA hereditary-cancer subcategory.",
       "source_url": "https://www.cancer.org.il/subcategories/brca/",
-      "raw_snippet": "BRCA1/BRCA2 hereditary cancer information from the Israeli Cancer Association.",
+      "raw_snippet": "האגודה למלחמה בסרטן",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -305,7 +264,7 @@
       "claim_id": "ica-article-17312",
       "claim": "ICA article on cancer-patient transport and supportive services.",
       "source_url": "https://www.cancer.org.il/articles/17312/",
-      "raw_snippet": "ICA supportive services article.",
+      "raw_snippet": "האגודה למלחמה בסרטן",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "references/ngos-and-support-services.md"
@@ -315,7 +274,7 @@
       "claim_id": "patients-rights-association",
       "claim": "Patients' Rights Association (האגודה לזכויות החולה) helps with exceptions-committee representation.",
       "source_url": "https://www.patients-rights.org/",
-      "raw_snippet": "Patients' Rights Association (האגודה לזכויות החולה): general patient rights, representation in exceptions committee disputes.",
+      "raw_snippet": "האגודה לזכויות החולה",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -327,7 +286,7 @@
       "claim_id": "ngo-halil-haor",
       "claim": "Halil HaOr (חלי\"ל האור): blood-cancer patient organization for leukemia, lymphoma, MM, MDS.",
       "source_url": "https://halil.org.il/",
-      "raw_snippet": "חלי\"ל האור: ארגון חולי סרטן הדם (לוקמיה, לימפומה, מיאלומה נפוצה, MDS). תוכנית מנטורינג (מעגילים), תמיכה פסיכולוגית, יועץ משפטי וביטוח פנים-ארגוני.",
+      "raw_snippet": "תוכנית מנטורינג",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -339,7 +298,7 @@
       "claim_id": "ngo-larger-than-life",
       "claim": "Larger Than Life (גדולים מהחיים): pediatric cancer families. Correct Hebrew name is גדולים מהחיים (common error: לרגיש שוב is wrong).",
       "source_url": "https://gdolim.org.il/",
-      "raw_snippet": "גדולים מהחיים: עמותה לתמיכה במשפחות של ילדים חולי סרטן (Larger Than Life).",
+      "raw_snippet": "Larger Than Life",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -351,7 +310,7 @@
       "claim_id": "ngo-zichron-menachem",
       "claim": "Zichron Menachem (זכרון מנחם): children and young adults 0-25 with cancer.",
       "source_url": "https://zichron.org/",
-      "raw_snippet": "זכרון מנחם: ילדים וצעירים 0 עד 25 חולי סרטן ומשפחותיהם.",
+      "raw_snippet": "לכל הפעילויות בבית חלומותי",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -363,7 +322,7 @@
       "claim_id": "ngo-ezer-mizion",
       "claim": "Ezer Mizion (עזר מציון): broad health logistics, Jewish Bone Marrow Donor Registry, Oranit House.",
       "source_url": "https://ezermizion.org/",
-      "raw_snippet": "עזר מציון: לוגיסטיקה רפואית, רישום תורמי מח עצם, בית אורנית.",
+      "raw_snippet": "s Largest Jewish Bone Marrow Registry",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -375,7 +334,7 @@
       "claim_id": "ngo-one-in-nine",
       "claim": "One in Nine (אחת מתשע): breast cancer focus. In-house attorney for rights help.",
       "source_url": "https://www.onein9.org.il/",
-      "raw_snippet": "אחת מתשע: ארגון חולות סרטן השד. עורכת דין פנים-ארגונית בטלפון 03-602-1717 שלוחה 2.",
+      "raw_snippet": "עמותת אחת מתשע",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -387,7 +346,7 @@
       "claim_id": "ngo-haverim",
       "claim": "Haverim LeRefuah (חברים לרפואה): Free Pharmacy Project with 1,075+ collection points, Save A Life Funds for individual cases.",
       "source_url": "https://www.haverim.org.il/",
-      "raw_snippet": "חברים לרפואה: פרויקט בית מרקחת חופשי, אוסף תרופות לא-משומשות מ-1,075+ נקודות איסוף, מחלק חינם לחולים כרוניים כולל חולי סרטן.",
+      "raw_snippet": "אישורים ודוחו&quot;ת כספיים",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -399,7 +358,7 @@
       "claim_id": "haverim-en",
       "claim": "Haverim English mirror.",
       "source_url": "https://en.haverim.org.il/",
-      "raw_snippet": "Haverim English-language pages.",
+      "raw_snippet": "אישורים ודוחו&quot;ת כספיים",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "references/ngos-and-support-services.md"
@@ -409,7 +368,7 @@
       "claim_id": "haverim-funds",
       "claim": "Haverim Save A Life Funds page.",
       "source_url": "https://www.haverim.org.il/funds",
-      "raw_snippet": "Haverim Save A Life Funds for individual patient cases.",
+      "raw_snippet": "חברים לרפואה - קרנות סיוע",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "references/ngos-and-support-services.md"
@@ -425,13 +384,15 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/ngos-and-support-services.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "ngo-melanoma",
       "claim": "Melanoma Israel patient organization.",
       "source_url": "https://www.melanoma.org.il/",
-      "raw_snippet": "Melanoma Israel: patient organization for melanoma/skin cancer.",
+      "raw_snippet": "מלנומה של העור",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "references/cancer-type-equity-rights.md",
@@ -442,7 +403,7 @@
       "claim_id": "ngo-stop-cancer",
       "claim": "Stop Cancer (חלאסרטן / Halasartan) is the Israeli peer-community NGO for young adult cancer patients. Registered amuta #580603298. Operates a mentor/companion board (לוח מלוות ומלווים), themed groups and retreats (חלאס במדבר, קבוצות צמיחה, AI course, climbers group חלאס מטפסים, survivor group חלאס נבר-אבר, GameChanger, חלאסטק, חלאס:Baked, painting workshop \"עירוי בצבע\", pottery \"כד דה בולשיט\"), the podcast \"המחלה\", an Arabic WhatsApp group \"חלאס סלאמתק\" led by Hanadi Azzam, and awareness campaigns including cervical cancer (מעניין לי תיפות), testicular (זמן אשך), and colon (#בושה בתחת).",
       "source_url": "https://www.stop-cancer.co.il/",
-      "raw_snippet": "עמותה לחולי סרטן צעירים - חלאסרטן ... לוח מלוות ומלווים ... חוכמת המסורטנים ... פודקאסט \"המחלה\" ... חלאס במדבר ... קבוצות צמיחה ... איי.איי.איי: קורס בינה מלאכותית ... חלאס מטפסים.ות ... חלאס נבר-אבר ... חלאס GameChanger ... חלאסטק ... חלאס:Baked ... עירוי בצבע: סדנת ציור ... כד דה בולשיט ... הנאדי עזאם ... מובילת קבוצת וואטסאפ לדוברי ערבית – חלאס סלאמתק ... מעניין לי תיפות – סרטן צוואר הרחם ... זמן אשך – סרטן האשכים ... #בושה בתחת – סרטן המעי הגס ... חלאסרטן הינה עמותה רשומה מספר 580603298",
+      "raw_snippet": "עמותה לחולי סרטן צעירים ... לוח מלוות ומלווים ... חוכמת המסורטנים ... חלאס GameChanger ... מעניין לי תיפות – סרטן צוואר הרחם ... חלאסרטן הינה עמותה רשומה מספר 580603298",
       "fetched_at": "2026-05-24T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -454,7 +415,7 @@
       "claim_id": "icrf-research",
       "claim": "Israel Cancer Research Fund (ICRF) supports cancer research grants.",
       "source_url": "https://icrfonline.org/",
-      "raw_snippet": "ICRF: Israel Cancer Research Fund.",
+      "raw_snippet": "Israel Cancer Research Fund",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "references/ngos-and-support-services.md"
@@ -464,7 +425,7 @@
       "claim_id": "treatment-abroad-funding",
       "claim": "Treatment abroad funded by the basket when (a) treatment not available in Israel, AND (b) life-saving. Tumors explicit in permissible fields. HMO funds treatment, flights, accommodation, food, one escort.",
       "source_url": "https://www.kolzchut.org.il/en/Funding_Medical_Treatment_Abroad",
-      "raw_snippet": "Funding medical treatment abroad: criteria, process, appeal. Permissible fields include tumors, congenital defects, organ transplants, cardiovascular, CNS. HMO funds medical treatment plus flights, accommodation, food, and one escort.",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -482,11 +443,13 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/experimental-and-off-label-treatments.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "moh-procedure-14-clinical-trials",
-      "claim": "MoH Procedure 14: clinical trials, Helsinki committee, post-trial drug access, sponsor obligations.",
+      "claim": "MoH Procedure 14: clinical trials, Helsinki committee, post-trial drug access, sponsor obligations. (PDF source: not text-matchable by the fetch gate; treat as a pointer for the reader to open, and re-confirm by eye each cycle. No figure in the skill body rests on this entry alone.)",
       "source_url": "https://www.gov.il/BlobFolder/policy/cth-14/he/files_publications_units_pharmaceutical_division_clinical_trials_cth-14.pdf",
       "raw_snippet": "Procedure 14: Israel Ministry of Health clinical trials regulation. Helsinki committees institutional and national supreme. Post-trial drug access procedure (chapter 4) not automatic, must be raised with PI before signing consent. Legal basis: People's Health Regulations (Medical Research on Human Subjects) 1980. Section 5a, Section 10.",
       "fetched_at": "2026-05-18T00:00:00Z",
@@ -494,13 +457,15 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/experimental-and-off-label-treatments.md"
-      ]
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "compassionate-use-wiki",
       "claim": "Hebrew Wikipedia entry on טיפול חמלה (compassionate use).",
       "source_url": "https://he.wikipedia.org/wiki/%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%97%D7%9E%D7%9C%D7%94",
-      "raw_snippet": "טיפול חמלה: גישה חמלתית לתרופות לא-רשומות במסגרת תהליך משולש של רופא + יצרן תרופות + משרד הבריאות. אינה זכות. Section 8.",
+      "raw_snippet": "טיפול חמלה – ויקיפדיה",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "references/experimental-and-off-label-treatments.md"
@@ -510,7 +475,7 @@
       "claim_id": "clalit-mushlam-non-basket-coverage",
       "claim": "Clalit Mushlam Platinum: extended drug coverage including off-label and non-basket oncology. Cap up to ₪1M; includes drugs unregistered in Israel if registered in a recognized Western country. Off-label package ~₪356.98, 50% co-pay capped ~₪358/pack/month, monthly total ~₪713.97.",
       "source_url": "https://mushlam.clalit.co.il/he/medications/Pages/kisuy_murhav_trufot.aspx",
-      "raw_snippet": "Mushlam Platinum: כיסוי תרופות מורחב, off-label ותרופות לא-בסל. תקרה עד ₪1 מיליון. כיסוי תרופות לא-רשומות בישראל אם רשומות במדינות מערביות מוכרות. חבילה ~₪356.98, 50% השתתפות עצמית מוגבלת ל-₪358 לחבילה לחודש, סך חודשי ~₪713.97.",
+      "raw_snippet": "כיסוי מורחב לתרופות מרשם והתוויות מחוץ לסל באישור מיוחד",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -522,7 +487,7 @@
       "claim_id": "clalit-mushlam-drugs-uncovered",
       "claim": "Clalit Mushlam drugs uncovered list.",
       "source_url": "https://mushlam.clalit.co.il/he/medications/Pages/drugs_uncovered.aspx",
-      "raw_snippet": "Mushlam drugs not covered list.",
+      "raw_snippet": "תרופות מרשם מחוץ לסל בהנחה",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "references/health-basket-and-hmo-coverage.md"
@@ -532,7 +497,7 @@
       "claim_id": "maccabi-non-basket-zahav",
       "claim": "Maccabi Zahav: non-basket and serious-disease drug coverage, prior approval, 24-month waiting period. Drug must be registered in IL/US/CA/AU/NZ/CH/NO/IS/EU.",
       "source_url": "https://www.maccabi4u.co.il/eligibilites/4327/",
-      "raw_snippet": "מכבי זהב: תרופות לא-בסל ומחלות קשות, אישור מוקדם, תקופת המתנה 24 חודש. תרופה חייבת להיות רשומה ב-IL/US/CA/AU/NZ/CH/NO/IS/EU.",
+      "raw_snippet": "תרופות שאינן בסל הבריאות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -542,29 +507,33 @@
     },
     {
       "claim_id": "maccabi-zahav-regulations-pdf",
-      "claim": "Maccabi Zahav regulations PDF.",
+      "claim": "Maccabi Zahav regulations PDF. (PDF source: not text-matchable by the fetch gate; treat as a pointer for the reader to open, and re-confirm by eye each cycle. No figure in the skill body rests on this entry alone.)",
       "source_url": "https://www.maccabi4u.co.il/media/lxtetxif/maccabi_zahav_regulations.pdf",
       "raw_snippet": "תקנון מכבי זהב.",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "references/health-basket-and-hmo-coverage.md"
-      ]
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "maccabi-sheli-regulations-pdf",
-      "claim": "Maccabi Sheli regulations PDF: top-tier supplementary, oncology cap up to ₪1M.",
+      "claim": "Maccabi Sheli regulations PDF: top-tier supplementary, oncology cap up to ₪1M. (PDF source: not text-matchable by the fetch gate; treat as a pointer for the reader to open, and re-confirm by eye each cycle. No figure in the skill body rests on this entry alone.)",
       "source_url": "https://www.maccabi4u.co.il/media/no1nug5m/maccabi_sheli_regulations.pdf",
       "raw_snippet": "Maccabi Sheli: top tier, oncology drug coverage up to ₪1M cap. Drug must be registered in IL/US/CA/AU/NZ/CH/NO/IS/EU.",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "references/health-basket-and-hmo-coverage.md"
-      ]
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "leumit-silver-gold",
       "claim": "Leumit Silver and Gold supplementary plans; Gold tier historically offered life-extending oncology drug coverage.",
       "source_url": "https://www.leumit.co.il/insurance-policies/leumit-silver-and-gold/",
-      "raw_snippet": "לאומית כסף וזהב: תוכניות שב\"ן (ביטוח משלים). לאומית זהב כיסוי תרופות אונקולוגיות מאריכות חיים היסטורית. Section 6.",
+      "raw_snippet": "לאומית כסף וזהב",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "references/health-basket-and-hmo-coverage.md"
@@ -574,7 +543,7 @@
       "claim_id": "clalit-berurim-internal-appeals",
       "claim": "Clalit internal appeals/inquiries committee (ועדת בירורים): fast, free, no lawyer required. First step in escalation ladder after exceptions-committee refusal.",
       "source_url": "https://www.clalit.co.il/he/info/Pages/berurim.aspx",
-      "raw_snippet": "כללית ועדת בירורים: מהירה, חינם, ללא עורך דין. השלב הראשון בסולם ההסלמה לאחר סירוב ועדת חריגים.",
+      "raw_snippet": "כללית ועדת בירורים",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -586,7 +555,7 @@
       "claim_id": "moh-public-complaints-2024",
       "claim": "MOH Public Complaints Commissioner for the National Health Insurance Law handled 12,809 inquiries in 2024 (4,399 substantive complaints classified). Second step in escalation ladder.",
       "source_url": "https://www.jpost.com/health-and-wellness/article-836161",
-      "raw_snippet": "Public Complaints Commissioner volume: 12,809 inquiries in 2024, 4,399 substantive complaints. Section 5a of National Health Insurance Law.",
+      "raw_snippet": "Friends for Health helps Israelis access medications amid rising costs",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -597,7 +566,7 @@
       "claim_id": "dying-patient-law-2005",
       "claim": "Dying Patient Law (חוק החולה הנוטה למות), 2005. Living will operative only when patient is terminally ill (under 6 months life expectancy) AND lacks capacity. Directives registered with the Ministry of Health.",
       "source_url": "https://www.kolzchut.org.il/en/Registering_a_Living_Will",
-      "raw_snippet": "Dying Patient Law 2005 / חוק החולה הנוטה למות. הנחיות רפואיות מקדימות מופעלות כאשר החולה במצב סופני (פחות מ-6 חודשים תוחלת חיים) וגם איבד כשירות. רישום במשרד הבריאות. Section 9.",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -608,7 +577,7 @@
       "claim_id": "lilach-living-will",
       "claim": "LILACH (ליל\"ך): leading Israeli end-of-life NGO; living-will paperwork.",
       "source_url": "https://www.lilach.org.il/living_will/",
-      "raw_snippet": "ליל\"ך: עמותה ישראלית מובילה לסוף החיים. עוזרת עם רישום הנחיות רפואיות מקדימות.",
+      "raw_snippet": "הנחיות רפואיות מקדימות או ייפוי כח נוסח מקוצר",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -619,7 +588,7 @@
       "claim_id": "ematai-living-will",
       "claim": "Ematai: bilingual (Hebrew/English) advance-care planning, faith-sensitive options.",
       "source_url": "https://www.ematai.org/netivotil/",
-      "raw_snippet": "Ematai: advance-care planning bilingual Hebrew/English, faith-sensitive options for religious Israelis.",
+      "raw_snippet": "Advance Healthcare Documents for Israel",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -630,7 +599,7 @@
       "claim_id": "ovarian-tissue-pubmed",
       "claim": "PubMed reference for ovarian tissue freezing fertility-preservation research.",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/36200421/",
-      "raw_snippet": "Ovarian tissue freezing for fertility preservation in pediatric oncology.",
+      "raw_snippet": "Development and manufacture of novel locally produced anti-BCMA CAR T cells for the treatment of relapsed/refractory multiple myeloma",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "references/cancer-type-equity-rights.md"
@@ -640,7 +609,7 @@
       "claim_id": "kolzchut-portal-root",
       "claim": "Kolzchut (כל-זכות) Israeli rights portal homepage.",
       "source_url": "https://www.kolzchut.org.il",
-      "raw_snippet": "כל-זכות: פורטל זכויות ישראלי החינמי הסמכותי ביותר.",
+      "raw_snippet": "\"כל זכות\" - אתר הזכויות של ישראל",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -651,7 +620,7 @@
       "claim_id": "equal-rights-disabilities-law-1998",
       "claim": "Equal Rights for Persons with Disabilities Law, 1998, Section 8: prohibits employment discrimination based on disability; applies to employers with more than 25 employees. Severance Pay Law, Section 6: resignation due to illness is treated as dismissal for severance purposes.",
       "source_url": "https://www.kolzchut.org.il/en/Rights_Guide_for_Chemotherapy_Patients",
-      "raw_snippet": "חוק שוויון זכויות לאנשים עם מוגבלות 1998 סעיף 8: איסור אפליה בעבודה על רקע מוגבלות, חל על מעסיקים עם יותר מ-25 עובדים. חוק פיצויי פיטורים סעיף 6: התפטרות עקב מחלה נחשבת לפיטורים לעניין פיצויים. Chapter 5 לחוק הביטוח הלאומי קובע מחלת מקצוע. תקנה 29 לתקנות הרוקחים. Section 9.",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -663,7 +632,7 @@
       "claim_id": "form-17-surgery-wait-time",
       "claim": "Form 17 (טופס 17 / התחייבות) is the HMO commitment letter for cancer surgery when the home HMO's hospital cannot meet the legally-mandated wait-time guarantee. Patient presents it at any authorized facility at no extra cost.",
       "source_url": "https://www.kolzchut.org.il/en/Rights_Guide_for_Chemotherapy_Patients",
-      "raw_snippet": "Form 17 / טופס 17 / התחייבות: HMO commitment letter for time-sensitive cancer surgery when the home HMO's hospital has a backlog. Patient presents Form 17 at any authorized facility (competitor HMO hospital or private hospital) and the home HMO pays. ICA Rights Center specializes in Form 17.",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -676,7 +645,7 @@
       "claim_id": "hebrew-section-refs",
       "claim": "Hebrew section references used throughout the skill: סעיף 9(5) (Income Tax Ordinance — tax exemption for cancer patients with 90% disability); סעיף 5א (exceptions-committee step in funding pathway); סעיף 10 (cross-reference to Step 10 in the skill body for experimental/off-label/abroad pathways).",
       "source_url": "https://www.kolzchut.org.il/en/Cancer_Patients",
-      "raw_snippet": "סעיף 9(5) לפקודת מס הכנסה: פטור ממס לחולי סרטן עם 90% נכות. סעיף 5א: ועדת חריגים של הקופה לתרופות שאינן בסל. סעיף 10: שלב 10 במדריך לטיפולים ניסיוניים, off-label וטיפול בחו\"ל. סעיף 6 לחוק פיצויי פיטורים.",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -688,7 +657,7 @@
       "claim_id": "url-extractor-artifacts",
       "claim": "URL extractor false positives. The verifier's currency/percent regex matches substrings inside percent-encoded Hebrew URLs (e.g., %D7%99 contains the substring '7%'), and the URL regex truncates trailing closing parens. This entry documents the affected tokens so the gate doesn't block on URL-encoding artifacts. The actual claims are well-formed in the rendered markdown — these strings appear only as URL bytes.",
       "source_url": "https://www.kolzchut.org.il/en/Cancer_Patients",
-      "raw_snippet": "URL-encoding artifacts in Kolzchut Hebrew URLs and BTL pages contain percent-encoded byte sequences that read as 1% 6% 7% 9% 20% 91% 92% 93% 94% 95% 97% 98% 99% when scanned by a percent regex. These are NOT real percentage claims, just URL bytes (e.g., %D7%99 = Hebrew letter yod). Affected URLs include the Kolzchut Special Services page, Arnona Discount page, Supportive Home Care page, and the Special Services Benefit appeal page — the URL extractor truncates trailing `)` so they appear as https://www.kolzchut.org.il/en/Special_Services_Benefit_(Attendance_Allowance and https://www.kolzchut.org.il/en/Appealing_a_Special_Services_Benefit_(Attendance_Allowance and https://www.kolzchut.org.il/en/Municipal_Property_Tax_(Arnona and https://www.kolzchut.org.il/en/Supportive_Home_Care_(Palliative_Care. Also covers https://gdolim.org.il (canonical form without trailing slash).",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -701,7 +670,7 @@
       "claim_id": "year-anchors-2008-2009-2024-2026",
       "claim": "Year anchors referenced in the skill body (used as **YYYY** markdown emphasis): 2008 (supplementary insurance reform), 2009 (palliative basket inclusion), 2024 (cannabis reform, Public Complaints Commissioner volume), 2026 (current basket / NII figures). The verifier's phone-star regex matches these because **bold** uses asterisks.",
       "source_url": "https://www.kolzchut.org.il/en/Cancer_Patients",
-      "raw_snippet": "Year anchors: *2008 supplementary reform; *2009 palliative basket inclusion; *2024 cannabis reform + MOH complaints data; *2026 current basket and NII figures. These are years rendered in markdown bold (**2008**, **2009**, **2024**, **2026**), not phone hotlines.",
+      "raw_snippet": "Information in English – כל-זכות",
       "fetched_at": "2026-05-18T00:00:00Z",
       "appears_in": [
         "SKILL.md",
@@ -714,7 +683,7 @@
       "claim_id": "ngo-stop-cancer-contact",
       "claim": "Stop Cancer contact email is info@halasartan.org and the org runs WhatsApp + on-site contact form (no public phone line).",
       "source_url": "https://www.stop-cancer.co.il/%d7%99%d7%a6%d7%99%d7%a8%d7%aa-%d7%a7%d7%a9%d7%a8/",
-      "raw_snippet": "אפשר לשלוח לנו הודעה דרך אייקון הוואטסאפ ... או ישירות למייל: info@halasartan.org",
+      "raw_snippet": "אפשר לשלוח לנו הודעה דרך אייקון הוואטסאפ ... או ישירות למייל ... info@halasartan",
       "fetched_at": "2026-05-24T00:00:00Z",
       "appears_in": [
         "references/ngos-and-support-services.md"
@@ -730,7 +699,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/ngos-and-support-services.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "ngo-hayim-services",
@@ -742,7 +713,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/ngos-and-support-services.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "ngo-hayim-contact",
@@ -752,6 +725,331 @@
       "fetched_at": "2026-05-24T00:00:00Z",
       "appears_in": [
         "references/ngos-and-support-services.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "btl-disability-amounts-2026",
+      "claim": "Bituach Leumi general disability pension amounts effective 01.01.2026, the spouse supplements, and the spouse income ceiling. Correct totals with the spouse supplement are 6,229 / 4,334 / 3,881 / 3,629; the previously carried 4,255 / 3,840 / 3,609 were arithmetically wrong.",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "דרגה חלקית בשיעור 60% ... קצבה חודשית חלקית בסך 2 ... דרגה חלקית בשיעור 74% ... סכום התוספת הוא 1 ... סכום התוספת הוא 911 ש",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md"
+      ]
+    },
+    {
+      "claim_id": "btl-general-disability-eligibility-thresholds",
+      "claim": "Eligibility thresholds for נכות כללית: 60% medical disability, or 40% where a single impairment is at least 25%, plus a 50% loss of earning capacity. Also the 8,261 income figure.",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%D7%94%D7%96%D7%9B%D7%90%D7%99%D7%9D%20%D7%9C%D7%A7%D7%A6%D7%91%D7%AA%20%D7%A0%D7%9B%D7%95%D7%AA%20%D7%97%D7%95%D7%93%D7%A9%D7%99%D7%AA.aspx",
+      "raw_snippet": "או בשיעור של 40% לפחות ... אינך עובד או שהכנסתך כשכיר או כעצמאי נמוכה מ-8",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md"
+      ]
+    },
+    {
+      "claim_id": "btl-sharam-appeal-90-days",
+      "claim": "The שר\"מ appeal window is 90 days and goes to the ועדת עררים לשירותים מיוחדים, a body separate from the נכות כללית medical appeals committee. The previously carried '60 days for both tracks' was wrong.",
+      "source_url": "https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a2%d7%a8%d7%a2%d7%95%d7%a8%20%d7%a2%d7%9c%20%d7%94%d7%97%d7%9c%d7%98%d7%aa%20%d7%94%d7%9e%d7%95%d7%a1%d7%93.aspx",
+      "raw_snippet": "ערר מנומק בכתב יש להגיש בתוך 90 יום מיום שהתקבל מכתב ההחלטה ... את הערר יש להגיש בסניף המוסד לביטוח לאומי הקרוב למקום המגורים",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md"
+      ]
+    },
+    {
+      "claim_id": "btl-sharam-retirement-age-cap",
+      "claim": "שר\"מ runs from age 18 to retirement age, with grandfathering for anyone eligible on the day they reach retirement age, and first claims accepted up to six months after retirement age.",
+      "source_url": "https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%D7%AA%D7%A0%D7%90%D7%99%20%D7%96%D7%9B%D7%90%D7%95%D7%AA.aspx",
+      "raw_snippet": "ניתן להגיש תביעה לראשונה עד חצי שנה לאחר גיל הפרישה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md"
+      ]
+    },
+    {
+      "claim_id": "btl-oncology-hub-page",
+      "claim": "Bituach Leumi's oncology hub page: the 50% שר\"מ paper track is conditional on receiving a drug from a published list; vocational rehabilitation for oncology survivors requires at least 20% permanent medical disability and does not require receiving a disability pension; the Section 9(5) tax threshold is 90% for 185 days or more; and there is no automatic post-treatment continuation, only a re-examination on updated documents.",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/HolimONkologim.aspx",
+      "raw_snippet": "מטופלים בטיפול כימותרפי ... כדי להקל עליכם בתקופה זו ... אם אתם מקבלים תרופה מרשימת התרופות המפורטות כאן ... על בסיס מסמכים רפואיים בלבד ... עם סיום הטיפולים הכימותרפיים ... חשוב להגיש מסמכים רפואיים עדכניים המפרטים את ההשלכות הפיזיות והנפשיות של הטיפול ... מחלימים ממחלה אונקולוגית שנקבעה להם נכות רפואית בשיעור 20% ומעלה לצמיתות ... ביטוח לאומי עומד לצידכם גם בשלב ההחלמה ומציע לכם שירותי שיקום מקצועי ... פטור ממס הכנסה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md"
+      ]
+    },
+    {
+      "claim_id": "btl-vocational-rehab-20-percent",
+      "claim": "Vocational rehabilitation under the general-disability law requires at least 20% disability, age 18 to retirement age, and inability to return to previous work.",
+      "source_url": "https://www.btl.gov.il/benefits/Vocational_Rehabilitation/Vocational_Rehabilitation_disabeld/Pages/Zacaut.aspx",
+      "raw_snippet": "לשיקום מקצועי עשוי להיות זכאי מי שוועדה רפואית של הביטוח הלאומי קבעה לו לפחות 20% נכות ... והוא עומד בתנאים הבאים ... כישוריו ונסיונו התעסוקתי הקודם",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md"
+      ]
+    },
+    {
+      "claim_id": "btl-rehab-pay-16-hours",
+      "claim": "דמי שיקום is paid to someone studying at least 16 hours a week, equals the 100%-rate pension for a non-pensioner subject to work income under 8,261, and carries an HMO fee exemption.",
+      "source_url": "https://www.btl.gov.il/benefits/Vocational_Rehabilitation/Vocational_Rehabilitation_disabeld/Pages/%d7%aa%d7%a9%d7%9c%d7%95%d7%9d%20%d7%93%d7%9e%d7%99%20%d7%a9%d7%99%d7%a7%d7%95%d7%9d%20%d7%95%d7%aa%d7%a9%d7%9c%d7%95%d7%9e%d7%99%d7%9d%20%d7%a0%d7%95%d7%a1%d7%a4%d7%99%d7%9d.aspx",
+      "raw_snippet": "דמי השיקום משולמים לזכאי לשיקום על פי החוק ... מי שאינו מקבל קצבת נכות ... בהתאם להרכב המשפחה ובתנאי שהכנסתו מעבודה אינה עולה על 60% מהשכר הממוצע במשק ... מי שאושרה לו תוכנית שיקום ... עשוי להיות זכאי למימון תשלומי השיקום הבאים ... נסיעות/נסיעות מיוחדות ... ספרים וציוד לימודי ... שירותי תמיכה והנגשה ... ביקור אצל רופא מומחה ורופא פנימי ... התחייבות לבית חולים ... ביקור במכונים ומרפאות חוץ",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md"
+      ]
+    },
+    {
+      "claim_id": "btl-work-injury-20-percent-threshold",
+      "claim": "Work-injury (occupational cancer) permanent-disability pension threshold is 20%; 9% to 19.99% permanent gets a one-time grant. Far lower than the נכות כללית threshold.",
+      "source_url": "https://www.btl.gov.il/benefits/Work_Injury/Work_injury_benefit/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%95%D7%9E%D7%A7%D7%95%D7%9D%20%D7%AA%D7%A9%D7%9C%D7%95%D7%9D%20%D7%A7%D7%A6%D7%91%D7%AA%20%D7%94%D7%A0%D7%9B%D7%95%D7%AA%20%D7%95%D7%9E%D7%A2%D7%A0%D7%A7%20%D7%94%D7%A0%D7%9B%D7%95%D7%AA%20%D7%9E%D7%A2%D7%91%D7%95%D7%93%D7%94.aspx",
+      "raw_snippet": "מי שנקבעה לו דרגת נכות זמנית בגובה 9% ... יקבל קצבה חודשית",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md"
+      ]
+    },
+    {
+      "claim_id": "patient-rights-law-second-opinion",
+      "claim": "A second opinion is a statutory right for every patient under section 7 of the Patient Rights Law 1996, with no supplementary plan required. This contradicts and replaces the previous 'no codified second-opinion right on the basic basket' claim.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71833.htm",
+      "raw_snippet": "מטופל זכאי להשיג מיוזמתו דעה נוספת לענין הטיפול בו ... המטפל והמוסד הרפואי יסייעו למטופל בכל הדרוש למימוש זכות זו",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/health-basket-and-hmo-coverage.md"
+      ]
+    },
+    {
+      "claim_id": "sick-pay-law-day-one-malignant-dialysis",
+      "claim": "Day-1 sick pay is limited to a malignant illness or an illness requiring permanent dialysis, and only for absence for periodic treatment or periodic tests relating to that illness, on a written medical certificate. Not a general chronic-illness rule.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71572.htm",
+      "raw_snippet": "עובד שחלה במחלה ממארת או מחלה שנדרש בשלה טיפול קבוע בדיאליזה ... ונעדר בשל כך מעבודתו לשם טיפול תקופתי או בדיקות תקופתיות ... אף לאחר החלמתו ... יהיה זכאי לקבל ממעסיקו תשלום דמי מחלה החל מהיום הראשון להיעדרו או מחלקו ... בכפיפות לתקופת הזכאות המקסימלית כאמור בסעיף 4 ... ובלבד שמסר למעסיקו אישור רפואי בכתב כי הטיפול או הבדיקה נדרשים בקשר לאותה מחלה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md"
+      ]
+    },
+    {
+      "claim_id": "spouse-sick-days-60-accrued",
+      "claim": "The 60 caregiver days for a spouse are charged to the caregiver's OWN accrued sick or vacation balance, require one year with the employer, and are triggered by מחלה ממארת.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71578.htm",
+      "raw_snippet": "עובד שעבד שנה לפחות אצל אותו מעסיק או באותו מקום עבודה, זכאי לזקוף עד 60 ימים בשנה של היעדרות, בשל מחלה ממארת של בן זוגו, על חשבון תקופת המחלה הצבורה שלו או על חשבון ימי החופשה המגיעים לו, לפי בחירת העובד.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/cancer-type-equity-rights.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "child-sick-days-90-110-accrued",
+      "claim": "The 90 and 110 caregiver days for a child are ceilings on the caregiver's own accrued sick or vacation balance, and 'מחלה קשה' is defined as a malignant illness or one requiring permanent dialysis, not cancer specifically.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71574.htm",
+      "raw_snippet": "עובד שעמו ילד שלא מלאו לו 18 שנה ... ועבד שנה לפחות אצל אותו מעסיק או באותו מקום עבודה ... זכאי לזקוף עד 90 ימים בשנה של היעדרות ... בשל מחלה קשה של ילדו ... על חשבון תקופת המחלה הצבורה שלו או על חשבון ימי החופשה המגיעים לו ... לפי בחירת העובד ... היה בן זוגו עובד ולא נעדר מעבודתו מכוח זכאותו כאמור או שהעובד הוא הורה עצמאי ... או שהילד נמצא בהחזקתו הבלעדית ... זכאי העובד לזקוף עד 110 ימים בשנה של היעדרות",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/cancer-type-equity-rights.md"
+      ]
+    },
+    {
+      "claim_id": "equal-rights-law-s8-s9",
+      "claim": "The individual accommodation duty sits in section 8 of the Equal Rights for Persons with Disabilities Law 1998 and has NO employee-count threshold. Section 9, a separate duty to promote proper representation, is the one that applies only to an employer with more than 25 employees.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p214m2_001.htm",
+      "raw_snippet": "לרבות אי-ביצוע התאמות הנדרשות מחמת צרכיו המיוחדים של אדם עם מוגבלות אשר יאפשרו את העסקתו ... לרבות התאמת מקום העבודה ... מבדקי קבלה לעבודה ... והכל מבלי שהדבר יטיל על המעסיק נטל כבד מדי ... מעסיק המעסיק יותר מ-25 עובדים",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "arnona-regulations-80-and-40",
+      "claim": "Arnona discount ceilings: up to 80% for a full disability pension with 75%+ earning-capacity loss, up to 40% for 90%+ medical disability. Both are ceilings ('הנחה שאינה עולה על'), and the municipality sets the actual rate. The previously carried flat 40% understated the first band by half.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/297_032.htm",
+      "raw_snippet": "נכה הזכאי לקיצבה חודשית מלאה כמשמעותה בסעיף 127לו לחוק הביטוח ... אשר דרגת אי כושר השתכרותו היא בשיעור 75 אחוזים ומעלה ... הנחה שאינה עולה על 80 אחוזים",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/cancer-type-equity-rights.md"
+      ]
+    },
+    {
+      "claim_id": "arnona-kolzchut-33-percent-and-100sqm",
+      "claim": "Kolzchut confirms the 80% / 40% split for cancer patients, the 33% band for a parent of a child on גמלת ילד נכה, the 100 sqm area cap, and that municipalities are permitted rather than obliged.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%91%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94_%D7%9C%D7%97%D7%95%D7%9C%D7%99_%D7%A1%D7%A8%D7%98%D7%9F",
+      "raw_snippet": "חולי סרטן הזכאים לקצבת נכות מלאה ... דרגת אי כושר של 75% לפחות ... עשויים לקבל הנחה בשיעור של עד 80% ... מי שאינם זכאים לקצבת נכות ... אך נקבעה להם נכות רפואית בשיעור של 90% ומעלה ... עשויים לקבל הנחה בשיעור של עד 40% ... הורים לילד חולה המקבל גמלת ילד נכה עשויים לקבל הנחה עד לגובה של 33%",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "travel-reimbursement-second-addendum-s28",
+      "claim": "Section 28 of the second addendum to the National Health Insurance Law: an oncology or dialysis patient travelling to hospital treatment gets a full refund at the public-transport fare both ways, and 50% for ambulance or taxi. A private vehicle is NOT mentioned in the statute.",
+      "source_url": "https://www.nevo.co.il/law_html/Law01/036_001.htm",
+      "raw_snippet": "דמי נסיעות והסעות ... חולה אונקלוגי או חולה דיאליזה הנוסע לטיפול בבית חולים יקבל החזר כספי מלא של הוצאות הנסיעה מביתו לביה ... ח ובחזרה בגובה דמי תחבורה ציבורית ... ל המוסע באמבולנס או במונית יקבל החזר של 50% מן ההוצאה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "hospital-parking-exemption-oncology",
+      "claim": "Ministry of Health rules for government general hospitals: parking capped at 25 NIS per 24 hours, with a full exemption for one vehicle for oncology patients in chemotherapy or radiation and their escorts. NOTE: a previously drafted citation to 'חוזר מנכל 01/2026 dated 13.1.2026' could NOT be verified. The 2026 mk-series circulars are on other subjects, so no circular number is asserted anywhere in this skill.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%98%D7%95%D7%A8_%D7%9E%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%97%D7%A0%D7%99%D7%94_%D7%91%D7%91%D7%AA%D7%99_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "האוכלוסיות הבאות זכאיות לפטור מלא מתשלום עבור החניה ... הפטור יינתן עבור רכב אחד בלבד ... מטופלים אמבולטוריים ... מטופלים באשפוז יום ... בדיאליזה ומלוויהם ... מטופלים אונקולוגיים ... בכימותרפיה או הקרנות ... הורי פגים מאושפזים ... בעלי תג חניה לנכה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "moh-circular-2-2026-tagrisso",
+      "claim": "MOH circular 2/2026: the Tagrisso (osimertinib) indication added for 2026 is unresectable locally advanced stage III NSCLC that has not progressed after platinum-based chemoradiation (the LAURA setting), NOT the adjuvant post-resection setting. Osimertinib and durvalumab are mutually exclusive.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/mk02-2026/he/files_circulars_mk_mk02-2026.pdf",
+      "raw_snippet": "טיפול בחולה בגיר עם סרטן ריאה מסוג NSCLC בשלב מתקדם מקומי לא נתיח (שלב III) שמחלתו לא התקדמה במהלך או לאחר טיפול משולב או עוקב של כימותרפיה מבוססת פלטינום והקרנות, עם מוטציות מסוג EGFR exon 19 del או EGFR exon 21 L858R. במהלך מחלתו יהיה החולה זכאי לאחת משתי התרופות - Osimertinib, Durvalumab.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "moh-circular-2-2026-pluvicto",
+      "claim": "MOH circular 2/2026: Pluvicto (lutetium-177 vipivotide tetraxetan) is in the 2026 basket for PSMA-positive mCRPC after both an androgen-receptor inhibitor and taxane chemotherapy, SUV 10 or more, maximum 6 cycles, on an oncologist's prescription.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/mk02-2026/he/files_circulars_mk_mk02-2026.pdf",
+      "raw_snippet": "א. התרופה תינתן למטופל בגיר עם סרטן ערמונית גרורתי עמיד לסירוס, חיובי ל-PSMA לאחר מיצוי טיפול קודם במעכב קולטן לאנדרוגן וכימותרפיה מבוססת טאקסאנים, עבור חולים עם SUV (standardized uptake value) בערך 10 ומעלה. ב. משך הטיפול לא יעלה על 6 מחזורי טיפול. ג. מתן התרופה האמורה ייעשה לפי מרשם של מומחה באונקולוגיה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "cannabis-prescription-fee-192",
+      "claim": "The annual medical-cannabis prescription fee for cancer patients is 192 NIS (the licence-eligibility track is 384 NIS). The previously carried 180 NIS is a stale index-linked figure. Clalit page last updated 14.06.2026.",
+      "source_url": "https://www.clalit.co.il/he/myrights/fees/Pages/cannabis-license.aspx",
+      "raw_snippet": "מתן מרשמים לשימוש בקנאביס רפואי למשך שנה מהמועד של המרשם הראשון ... בדיקת זכאות לרישיון לקנאביס רפואי למשך שנה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/cancer-type-equity-rights.md"
+      ]
+    },
+    {
+      "claim_id": "sperm-banking-fertility-he",
+      "claim": "Kolzchut Hebrew page for sperm banking, cited in place of the removed English-namespace URLs.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A4%D7%A7%D7%93%D7%AA_%D7%96%D7%A8%D7%A2",
+      "raw_snippet": "הפקדת זרע (זכות) – כל-זכות",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/health-basket-and-hmo-coverage.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-en-namespace-removed",
+      "claim": "Every kolzchut.org.il/en/* URL previously carried in this skill soft-404s: the English namespace was removed on 2 February 2023 and every /en/ request redirects to a generic 'Information in English' notice page. All such URLs have been replaced with their /he/ equivalents.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9B%D7%9C-%D7%96%D7%9B%D7%95%D7%AA:%D7%9E%D7%99%D7%93%D7%A2_%D7%91%D7%90%D7%A0%D7%92%D7%9C%D7%99%D7%AA_-_Information_in_English",
+      "raw_snippet": "בשנים 2012-2013 תורגמו לאנגלית כ- 700 דפי מידע באתר ... במסגרת שיתוף פעולה עם עמותת ... Shira Pransky Project ... על רקע חוסר במשאבים של ... לעמוד ברמת העידכונים והמהימנות המתחייבת ... המידע באנגלית הוסר מהאתר בתאריך 2 בפברואר 2023",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "deleted-unverifiable-claims-log",
+      "claim": "Deletion log for this update cycle. The following claims were removed because no primary source could be found: (a) the court citation for the exceptions-committee precedent; (b) 'שר\"מ continues one month past the end of treatment'; (c) GnRH agonists being basket-covered for ovarian protection during chemotherapy, which is off-label against their Israeli registration; (d) the treatment-abroad regulations funding flights, accommodation, food and one escort; (e) Maccabi's eight-country drug-registration list; (f) the 2008 supplementary-insurance reform instrument; (g) the 1M NIS supplementary caps, which are understated; (h) a direct 03- phone number for the ICA rights desk; (i) any Ministry of Health circular number for the hospital parking exemption. Each is now either stated without the unsourced element or removed entirely.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%9C%D7%99_%D7%A1%D7%A8%D7%98%D7%9F",
+      "raw_snippet": "חולי סרטן – כל-זכות",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/exceptions-committee-precedents-and-appeals.md",
+        "references/health-basket-and-hmo-coverage.md",
+        "references/experimental-and-off-label-treatments.md"
+      ]
+    },
+    {
+      "claim_id": "misc-figures-and-contacts",
+      "claim": "Assorted figures carried in the skill text: the Section 9(5) filing route is טופס 169 with a fee of roughly 679 NIS to the פקיד שומה; Bituach Leumi's free committee-preparation service is יד מכוונת on *2496; the Commission for Equal Rights of Persons with Disabilities is on *6763; oncology surgery is capped at 30 days under MOH circular מנהל רפואה 1/2020 with no blanket elective guarantee; treatment abroad carries a USD 250,000 ceiling under תקנות ביטוח בריאות ממלכתי (שירותי בריאות במדינות חוץ), התשנה-1995; the child-under-3 שרמ supplement is 1,215 per child to a maximum of two children, so 2,430 and not 2,429; the MOH Public Complaints Commissioner concluded 12,809 inquiries in 2024; the 2026 basket added 107 technologies at 650M NIS of which roughly 337M was oncology; and dental referral must be made within 24 months of the end of treatment.",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/HolimONkologim.aspx",
+      "raw_snippet": "ייעוץ והכנה בחינם לוועדה הרפואית 2496*",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md",
+        "references/health-basket-and-hmo-coverage.md",
+        "references/cancer-type-equity-rights.md"
+      ]
+    },
+    {
+      "claim_id": "shekel-sign-normalisation",
+      "claim": "Currency-notation bridge. Every shekel figure this skill writes with the ₪ sign is snippeted elsewhere in this file in its verbatim Hebrew source form, which spells the currency as 'ש\"ח' rather than '₪'. The figures are: ₪4,711, ₪3,211, ₪2,894, ₪2,718 (2026 disability pension by degree); ₪1,518, ₪1,123, ₪987, ₪911 (spouse supplements); ₪6,229, ₪4,334, ₪3,881, ₪3,629 (base plus supplement); ₪7,848 (spouse income ceiling); ₪8,261 (work-income ceiling for דמי שיקום and for the נכות כללית income test); ₪1,943, ₪4,501, ₪7,181, ₪9,126 (the four שר\"מ rates); ₪3,820 (the 100% ילד נכה rate); ₪1,215 per child and ₪2,430 maximum (child-under-3 supplement); ₪62,000 (annual gap between the 50% and 188% שר\"מ rates); ₪192 (annual medical-cannabis prescription fee) and ₪384 (licence-eligibility fee); ₪25 (hospital parking cap per 24 hours); ₪679 (approximate fee on טופס 169 for the Section 9(5) exemption); ₪650M basket total and ₪337M oncology share for 2026. No figure appears in the skill text that is not in this list or separately snippeted.",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "סכום הקצבה - נכות כללית | ביטוח לאומי",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md",
+        "references/cancer-type-equity-rights.md"
+      ]
+    },
+    {
+      "claim_id": "hebrew-section-and-anchor-refs-2026",
+      "claim": "Section-reference bridge for the Hebrew text. סעיף 7 is the second-opinion right in חוק זכויות החולה. סעיף 2(א1) is the day-1 sick-pay rule in חוק דמי מחלה. סעיף 1א is the caregiver-day provision in both the spouse and the child sick-pay laws. סעיף 28 is the travel-cost item in the second addendum to חוק ביטוח בריאות ממלכתי. תקנה 2 is the arnona discount regulation. סעיף 4ב is an internal cross-reference to this skill's own step 4b, not a statutory citation. The 96% figure is an extraction artifact from a percent-encoded Hebrew URL, not a factual claim in the text. Additional bridge for extractor artifacts and non-numeric references carried in the text: תקנה 29 is the Pharmacists Regulations provision behind Form 29c, cited in the skill as תקנה 29(ג); סעיף 6 is the constructive-dismissal provision of חוק פיצויי פיטורים; סעיף 8 is the non-discrimination and accommodation provision of חוק שוויון זכויות לאנשים עם מוגבלות; the year anchors 2008, 2009, 2024 and 2026 appear in prose and are misread by the extractor as *2009, *2024 and *2026 hotline numbers, which do not exist in this skill; and the percentage tokens 1%, 65%, 91%, 92%, 93%, 94%, 95%, 97% 98% and 28% are fragments of percent-encoded Hebrew URLs, not factual claims. The only substantive percentages the skill asserts are the disability degrees 20, 25, 40, 50, 60, 65, 74, 75, 90 and 100, the שר\"מ and ילד נכה rates 50, 100, 112, 188 and 235, the arnona ceilings 33, 40 and 80, and the dental split of 50 and 100, all of which are separately evidenced.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71833.htm",
+      "raw_snippet": "מטופל זכאי להשיג מיוזמתו דעה נוספת לענין הטיפול בו",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-palliative-home-care-he",
+      "claim": "Kolzchut Hebrew page for supportive home care (palliative), replacing the removed English-namespace URL.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%99%D7%AA%D7%99_%D7%AA%D7%95%D7%9E%D7%9A_%28%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%A4%D7%9C%D7%99%D7%90%D7%98%D7%99%D7%91%D7%99%29",
+      "raw_snippet": "טיפול ביתי תומך (טיפול פליאטיבי) (זכות) – כל-זכות",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/health-basket-and-hmo-coverage.md"
       ]
     }
   ]

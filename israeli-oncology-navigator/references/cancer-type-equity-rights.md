@@ -105,7 +105,7 @@ As of 1 April 2024, the medical cannabis pathway changed. **Cancer patients no l
 2. If approved, the physician issues a prescription in the same visit (no MOH license process for cancer patients post-reform)
 3. Patient buys at any certified pharmacy
 
-**Costs:** fixed annual prescription fee of ₪180 under the post-April-2024 reform. The older license-based process (~₪372/year) still applies to non-cancer indications and edge cases.
+**Costs:** fixed annual prescription fee of **₪192** under the post-April-2024 reform (the tariff is index-linked and has risen; secondary sources still quoting older figures are stale). The older licence-based process, **₪384/year**, still applies to non-cancer indications and edge cases.
 
 **Source:** gov.il + ICA (cancer.org.il/articles/13264) + Kolzchut.
 
@@ -172,7 +172,7 @@ The Israeli Cancer Association runs a national volunteer-driver program for canc
 3. Stoma supplies (bags, barriers, accessories) -- ongoing basket entitlement via HMO rehab coordinator
 4. Co-pay exemption for follow-up clinic visits and imaging
 5. Section 9(5) tax exemption if eligibility threshold met
-6. 40% arnona discount once disability percentage is established
+6. Arnona discount once the disability percentage is established: **up to 80%** on a full disability pension with 75%+ earning-capacity loss, **up to 40%** on 90%+ medical disability without a pension. Both are ceilings and the municipality sets the actual rate.
 7. Spouse: up to 60 sick days/year for caregiving
 
 ### Example: Pediatric leukemia
@@ -191,7 +191,7 @@ The Israeli Cancer Association runs a national volunteer-driver program for canc
 4. Voice + swallowing therapy basket-covered post-radiation
 5. Medical cannabis for radiation pain and mucositis-related appetite/sleep issues -- prescription only post-April 2024
 6. Co-pay exemption for specialist follow-ups, imaging, dietitian (often essential during radiation when eating is impaired)
-7. ICA Rights Center (helpdesk 03-5721678) helps build the dental funding case if initially refused
+7. ICA Rights Center (via Telemeda 1-800-599-995) helps build the dental funding case if initially refused
 
 ### Example: Hereditary cancer (BRCA carrier without diagnosis)
 1. Genetic counselor referral via family doctor or oncology

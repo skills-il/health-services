@@ -1,6 +1,6 @@
 ---
 name: israeli-oncology-navigator
-description: "Bureaucracy navigator for cancer patients and caregivers in Israel. Covers Bituach Leumi (disability, full 4-rate שר\"מ table 50/112/188/235% + child-under-3 supplement, pediatric ילד נכה at 235%, Section 9(5) tax exemption, 40% arnona, 60-day appeal); 2026 sal habriut (drugs, exceptions committee, severe-illness co-pay exemption, dental funding, surgery wait-time + Form 17, hereditary-cancer genetic testing, home chemo, post-2024 cannabis reform, site-specific post-surgical rehab); supplementary tiers (Mushlam Platinum, Sheli, Si, Gold); palliative; fertility preservation and gonadal protection across all genders/ages; family caregiver sick days (60/90/110); cancer-type NGOs; experimental, off-label, treatment-abroad. Use when a patient or caregiver needs to understand entitlements, file applications, or appeal a refusal. Do NOT use for medical diagnosis, treatment decisions, drug dosing, or non-Israeli healthcare systems."
+description: "Bureaucracy navigator for cancer patients and caregivers in Israel. Covers Bituach Leumi (disability, 4-rate שר\"מ table 50/112/188/235%, pediatric ילד נכה, Section 9(5) tax exemption, arnona, vocational rehabilitation, occupational-cancer work-injury track, appeal windows of 60 days for נכות כללית and 90 days for שר\"מ); the 2026 health basket (drugs, exceptions committee, severe-illness co-pay exemption, dental funding, surgery wait-time and Form 17, hereditary-cancer genetic testing, home chemo, medical cannabis, statutory travel reimbursement, hospital parking exemption, post-surgical rehab and wigs); supplementary tiers; palliative care; fertility preservation; family caregiver sick days; cancer-type NGOs; experimental, off-label and treatment-abroad pathways. Use when a patient or caregiver needs to understand entitlements, file applications, or appeal a refusal. Do NOT use for medical diagnosis, treatment decisions, drug dosing, or non-Israeli healthcare systems."
 license: MIT
 ---
 
@@ -8,453 +8,337 @@ license: MIT
 
 ## Critical Disclaimer
 
-**Read this before using the skill. Every response based on this skill must repeat the relevant disclaimer.**
+**Every response based on this skill must repeat the relevant disclaimer.**
 
-This skill is a **bureaucracy navigator** for Israeli cancer patients and their families. It is NOT medical advice, NOT legal advice, and NOT a substitute for professional help. Specifically:
+This is a **bureaucracy navigator**, not medical or legal advice.
 
-1. **Always route the user to the hospital oncology social worker (עובד סוציאלי אונקולוגי / עו"ס אונקולוגי) as the first step.** Every oncology department in Israel has one. They know the current procedures at that specific hospital and file most of the paperwork on behalf of patients at no cost. Telling a patient to "apply on the Bituach Leumi site" before routing them to the social worker is a failure mode.
-2. **Never give medical advice.** Do not recommend treatments, drug dosages, or clinical decisions. Redirect medical questions to the treating oncologist.
-3. **Figures in this skill are 2026 values** and change annually. The 2026 health basket list, Bituach Leumi amounts, and HMO supplementary regulations all update every January. Always cite the effective year and point the user at the authoritative source URL.
-4. **HMO supplementary caps and exclusions vary by plan tier and renewal date.** This skill gives the shape of coverage; the patient must verify the current regulations PDF for their specific plan before acting on any financial figure.
-5. **Do not fabricate legal references.** If you cannot verify a law section, form number, or entitlement amount against the sources listed in the Reference Links section, say so plainly and point the user at the source, do not guess.
+1. **Route the user to the oncology social worker (עו"ס אונקולוגי) first.** They file most Bituach Leumi paperwork free. Sending a patient to the Bituach Leumi website first is a failure mode.
+2. **Never give medical advice.** Treatment, dosing and clinical questions go to the oncologist.
+3. **Figures are 2026 values** and change every January. Cite the year and the source URL.
+4. **שב"ן caps vary by tier and renewal date.** The patient must read their own תקנון PDF before acting on a figure.
+5. **Never invent a law section, form number, court citation or amount.** If you cannot verify it, say so plainly.
 
 ## Problem
 
-A cancer diagnosis in Israel triggers weeks of bureaucracy at the worst possible time. Entitlements are split across **four separate systems** that do not talk to each other: Bituach Leumi (nechut, special services, child-nechha, tax exemption, arnona discount), the health basket (drugs, co-pay exemptions, dental, surgery wait-time, home chemo, post-surgical rehab), the HMO supplementary insurance (non-basket drugs, second opinions, transport), and dozens of NGOs with overlapping but different eligibility. Patients and caregivers routinely discover entitlements months after they could have been claimed, or fight a valid claim through an appeal because nobody told them about the 60-day deadline. This skill consolidates the bureaucracy map so the family can act in the first weeks, while routing the hard decisions to the hospital oncology social worker who files the actual paperwork.
+A cancer diagnosis in Israel triggers weeks of bureaucracy at the worst possible time. Entitlements are split across **five systems** that do not talk to each other: Bituach Leumi, the health basket, the HMO supplementary plan, the Tax Authority plus Ministry of Transport (Section 9(5), תג חניה, pension withdrawal), and Ministry of Health rules on parking and wait times, plus dozens of NGOs with overlapping eligibility. Families discover entitlements months late or lose a valid claim to a missed deadline. This skill consolidates the map and routes hard decisions to the oncology social worker.
 
 ## Instructions
 
 ### Step 0: Route to the hospital oncology social worker FIRST
 
-Before anything else, tell the user:
+> Your first call, before Bituach Leumi and before the NGOs, is the **oncology social worker (עו"ס אונקולוגי)** at the treating hospital. They hold the current forms, file most Bituach Leumi claims for you at no cost, and refer to the right NGO. Ask the ward or switchboard for "the oncology social worker".
 
-> Your first call, before Bituach Leumi and before the NGOs, is the **oncology department social worker (עו"ס אונקולוגי)** at the treating hospital. They know your specific hospital's procedures, they have the current forms, they file most Bituach Leumi claims for you at no cost, and they refer to the right NGO based on your diagnosis and family situation. Ask the oncology ward or the hospital switchboard for "the oncology social worker".
-
-For rights-portal research the user can do in parallel (while waiting for the social worker appointment), also mention:
-- **Kolzchut (כל-זכות)** at https://www.kolzchut.org.il -- free, the most authoritative Israeli rights portal
-- **Israeli Cancer Association (ICA / האגודה למלחמה בסרטן) Telemeda hotline** -- free phone information line:
-  - Hebrew: 1-800-599-995
-  - Arabic: 1-800-36-36-55
-  - Russian: 1-800-34-33-44
+If the patient is hospitalized, Bituach Leumi's **"מחלקה ראשונה"** service lets the hospital social worker file the נכות כללית and שר"מ claims with the medical file, no branch visit. In parallel: **Kolzchut**, https://www.kolzchut.org.il, and the **ICA Telemeda** free line, Hebrew 1-800-599-995 / Arabic 1-800-36-36-55 / Russian 1-800-34-33-44. Bituach Leumi's **יד מכוונת** (*2496) prepares claimants for committees free.
 
 ### Step 1: Assess which track applies
 
 | Situation | Relevant Steps |
 |-----------|----------------|
-| Just diagnosed, active treatment (chemo / radiation / biological) | Steps 2, 3, 4, 7 |
-| Child diagnosed with cancer | Steps 3 (child-nechha), 9 (pediatric NGOs), 7 (fertility) |
-| Drug NOT in the 2026 basket | Steps 4a, 5 |
-| Co-pay exemption, dental, surgery wait-time, home chemo, cannabis, post-surgical rehab | Step 4b |
-| Hereditary cancer (BRCA, Lynch, Li-Fraumeni, FAP) | Steps 4b (genetic testing), 9 (Bracha) |
-| Preserve fertility before treatment (any gender, any age) | Step 7 |
-| Patient in terminal stage | Step 6 (palliative) + Step 11 (living will) |
-| Family caregiver sick days | Step 8b |
-| Summoned by NII for a שר"מ review, or self-requesting a higher rate | Step 3b + 3b-ii |
-| Threatened at work / accommodations | Step 8a |
-| Other NII-linked benefits (arnona, transport) | Step 3g |
-| Clinical trial or treatment abroad | Step 10 |
-| Emotional / logistical NGO help | Step 9 |
+| Just diagnosed, active treatment | 2, 3, 4, 7 |
+| Child diagnosed with cancer | 3c, 7, 9 |
+| Drug NOT in the 2026 basket, or a refusal | 4a, 5 |
+| Co-pay, dental, wait-time, home chemo, cannabis, rehab, genetic testing | 4b |
+| Terminal stage | 6, 11 |
+| Caregiver sick days; work threats or accommodations | 8 |
+| Arnona, travel costs, hospital parking, תג חניה | 3g |
+| Workplace-caused cancer; cannot return to the old job | 3h |
+| Clinical trial or treatment abroad | 10 |
+| NGO support | 9 |
 
-### Step 2: Nechut Refuit (medical disability) -- fast-track for active patients
+### Step 2: Nechut Refuit (medical disability) -- paper track for active patients
 
-**Cancer does NOT automatically set a fixed disability percentage.** A medical committee (ועדה רפואית) determines the percentage per cancer type, stage, and treatment. But:
+**Cancer does not set a fixed disability percentage.** A medical committee (ועדה רפואית) determines it per cancer type, stage and treatment. But:
 
-**Paper-only fast-track for active oncology patients:** Patients receiving qualifying drug treatments (chemotherapy, radiation, biological therapy) can have their Bituach Leumi eligibility determined from **submitted medical documents alone**, without attending a committee hearing. This is the most important thing new patients miss. Source: Kolzchut, "Determining Eligibility for Special Services Allowance for Cancer Patients Without Attending a Medical Committee".
+**Paper-only track:** a patient receiving a drug **from the closed list Bituach Leumi publishes, administered intravenously** (`ולא בטיפול פומי`, so oral regimens are excluded) gets **50% of the special services allowance for six months on medical documents alone**, no committee appearance. A regimen outside that list means a dependency committee instead, so check the list rather than promising the paper track. The oncology social worker files it.
 
-**What this unlocks:**
-- Automatic eligibility at **50% of the special services allowance** (see Step 3) for the duration of active treatment
-- Minimum eligibility period of **6 months** from the day treatment starts
-- Continuation **1 month past** the end of treatment at 235% (home hospice) or dropping to the appropriate lower rate
-
-The hospital oncology social worker files this. The patient does not need to visit a Bituach Leumi office in person.
+When treatment ends, submit updated documents on the physical and psychological after-effects so eligibility can be re-examined. There is no automatic continuation period.
 
 ### Step 3: Bituach Leumi core entitlements
 
 #### 3a. General disability pension (קצבת נכות כללית) -- 2026 amounts
 
-Eligible when medical disability is at least 60% AND earning-capacity loss is at least 50% (salaried) or 75% (housewife). Monthly amounts (January 2026):
+Eligible when medical disability is at least 60%, **or at least 40% where one single impairment is 25% or more**, AND earning-capacity loss is at least 50%. A married woman who has not worked 12 consecutive months in the last 48 is assessed on the **housewife track**: 50% medical disability plus **50%** loss of ability to function in the household, not 75%.
 
 | Earning-capacity loss | Monthly (individual) | With spouse supplement |
 |-----------------------|----------------------|------------------------|
 | 100% / 75% (full rate) | ₪4,711 | ₪6,229 |
-| 74% | ₪3,211 | ₪4,255 |
-| 65% | ₪2,894 | ₪3,840 |
-| 60% | ₪2,718 | ₪3,609 |
+| 74% | ₪3,211 | ₪4,334 |
+| 65% | ₪2,894 | ₪3,881 |
+| 60% | ₪2,718 | ₪3,629 |
 
-Source: Bituach Leumi announcement of 2026 updates (see Reference Links). Amounts are indexed annually.
+The spouse supplement (₪1,518 / ₪1,123 / ₪987 / ₪911) is **conditional**: the spouse's gross monthly income must not exceed **₪7,848** and the spouse must not receive another allowance. A child supplement is paid separately for the first two children. Effective 01.01.2026, indexed annually.
 
 #### 3b. Special services allowance (גמלת שירותים מיוחדים / שר"מ)
 
-Monthly cash benefit for adults who need help with daily activities. **Four rates are currently in effect** (2026 amounts, source: Kolzchut "קצבת שירותים מיוחדים"):
+Monthly cash benefit for adults needing help with daily activities. **Age limit: from 18 to retirement age.** Anyone already eligible on the day they reach retirement age keeps the allowance; a first claim is accepted up to six months after retirement age. Four rates (2026):
 
-| Situation | Rate | Monthly (2026) | How determined |
-|-----------|------|----------------|----------------|
-| Active chemo / radiation / listed biological treatments | 50% | ₪1,943 | Paper only, no committee |
-| Help with ALL ADLs most hours OR constant supervision | 112% | ₪4,501 | Committee hearing |
-| Help with ALL ADLs all hours | 188% | ₪7,181 | Committee hearing |
-| Home hospice or inpatient hospice (terminal) | 235% | ₪9,126 | Committee or paper |
+| Situation | Rate | Monthly |
+|-----------|------|---------|
+| Listed IV chemo / biological treatment, active (paper only) | 50% | ₪1,943 |
+| Help with ALL ADLs most hours, OR constant supervision | 112% | ₪4,501 |
+| Help with ALL ADLs all hours | 188% | ₪7,181 |
+| Home or inpatient hospice (terminal) | 235% | ₪9,126 |
 
-**The 50% paper track is the starting point, not the ceiling.** After the minimum 6 months, NII may summon for a committee review OR the patient can self-request a higher rate based on functional decline. Many active-treatment patients with severe side effects (neutropenia, neuropathy, fatigue, incontinence isolation, cognitive fog) qualify for 112% or 188% -- the difference between 50% and 188% is over ₪62,000/year.
+**50% is the starting point, not the ceiling.** After the six-month minimum, Bituach Leumi may summon a review or the patient may self-request a higher rate. Patients with severe side effects (neutropenia isolation, neuropathy, fatigue, incontinence, cognitive fog) **are assessed under the ADL framework** and may reach 112% or 188%; the gap between 50% and 188% is over ₪62,000 a year.
 
-**Child-under-3 supplement:** שר"מ recipients with children under 3 get an extra **₪1,215/month per child, max 2 children = ₪2,429/month**.
+**Child-under-3 supplement:** ₪1,215/month per child, maximum 2 children = **₪2,430/month**. Secondary sources say שר"מ and גמלת סיעוד cannot be held at once; check that with Bituach Leumi rather than stating it.
 
-##### 3b-ii. Preparing for the שר"מ committee (ADL framework)
-
-The committee scores 6 ADL categories (mobility, dressing, bathing, eating, toileting, continence) and a constant-supervision criterion. **Evaluate based on worst-case days, not averages**: for a chemo patient that means cycle days 1-7, not 14-21. Active-treatment side effects (neutropenia isolation, neuropathy, mucositis, post-surgical mobility, cognitive fog, seizure-supervision) count as functional impairments.
-
-**Full prep guide:** `references/sherum-committee-preparation.md` -- ADL-to-side-effect mapping by treatment type, "summoned vs self-requested" framing, document checklist for the committee package.
-
-**Who helps prepare:** the hospital oncology social worker is the first port of call. The **ICA Rights Center** (helpdesk 03-5721678, embedded in 10+ hospitals) and disease-specific NGO attorneys (One in Nine 03-602-1717 ext 2 for breast cancer) help build the evidence package.
+**Committee prep:** six ADL categories plus a constant-supervision criterion. **Evaluate on worst-case days, not averages** (for a chemo patient, cycle days 1-7). Mapping and the document checklist are in `references/sherum-committee-preparation.md`. One in Nine's attorney (03-602-1717 ext 2) and the ICA Rights Center build the evidence package.
 
 #### 3c. Disabled-child allowance for pediatric cancer (גמלת ילד נכה)
 
-A child with a malignancy is eligible from birth to age 18 years and 3 months. Rates (January 2026):
+Eligible from birth to age 18 years and 3 months. Rates (2026):
 
-| Situation | Rate | Monthly amount |
-|-----------|------|----------------|
-| Active chemo or radiation | 235% | ₪9,126 |
-| Five months after active treatment ends | 100% | ₪3,820 |
-| Biological treatments (separate track) | 100% | ₪3,820 -- minimum 6 months from day treatment starts |
+| Situation | Rate | Monthly |
+|-----------|------|---------|
+| During **chemotherapy** | 235% | ₪9,126 |
+| **First** month after chemotherapy ends | 235% | ₪9,126 |
+| The **following five** months | 100% | ₪3,820 |
+| Active disease on biological treatment | 100% | ₪3,820 (6 months minimum, or duration of treatment) |
+| Non-active disease on biological treatment | 50% | ₪1,943 (one year) |
 
-Source: Bituach Leumi "Disabled Child" benefit page and Kolzchut parents' guide.
+The 100% rate continues beyond those five months if the child has a prolonged, permanent, severe condition caused by the treatment. The source names chemotherapy, not radiation; a child on radiation alone may qualify under other criteria, so check rather than assume.
 
 #### 3d. Income tax exemption -- Section 9(5) of the Income Tax Ordinance
 
-Cancer patients often qualify for a large income-tax exemption. Threshold: the Bituach Leumi or Ministry of Finance medical committee has determined **at least 90% permanent disability, OR at least 90% temporary disability for 185 days or more**. Patients who had tumor-removal surgery followed by chemo or radiation typically qualify.
-
-Filed digitally through the Tax Authority "Green Wave" (גל ירוק) form. Source: Kolzchut, "Cancer Patients".
+Threshold: a Bituach Leumi or Ministry of Finance medical committee determined **at least 90% medical disability, permanent or for 185 days or more**. Patients who had tumour-removal surgery followed by chemo or radiation often qualify. The route is **טופס 169 with a fee of roughly ₪679** filed with the פקיד שומה. ("גל ירוק" is a narrow Tax Authority fast-track, not the name of this route.)
 
 #### 3e. Sick pay from day 1
 
-Since 1 June 2022, an employee with a chronic illness absent for treatment or tests is entitled to full sick pay **from the first day of absence**, overriding the standard 0% / 50% / 50% / 100% ladder. Source: Kolzchut, "Cancer Patients".
+Narrow and often overstated. Since 1 June 2022, an employee with a **malignant illness or an illness requiring permanent dialysis** who is absent **for periodic treatment or periodic tests** relating to that illness is entitled to sick pay **from the first day of absence**, overriding the 0/50/50/100 ladder, on presenting a written medical certificate. It is charged to the accrued sick-day balance and does not cover absence for unrelated reasons. Source: חוק דמי מחלה, תשל"ו-1976, סעיף 2(א1).
 
-#### 3f. Right to appeal (ערר)
+#### 3f. Right to appeal (ערר) -- two different windows
 
-The statutory appeal window is **60 days** from receiving the written decision, for both general disability (נכות כללית) and special services allowance (שר"מ) medical committees. File a written appeal to the Medical Appeals Committee (ועדה רפואית לעררים). Bituach Leumi in practice does not reject filings submitted within **90 days**, but this is informal grace, not law -- file by the 60-day statutory deadline whenever possible. The patient may be represented by a lawyer, social worker, or representative of their choice. A further appeal on legal grounds only lies to the Regional Labor Court. Source: Kolzchut, "ערר על החלטה רפואית בעניין נכות כללית" and "ערר על החלטה בעניין קצבת שירותים מיוחדים".
+The two tracks are **not** the same. Getting this wrong costs the claim.
 
-#### 3g. Other Bituach-Leumi-linked benefits
+| Decision | Window | Body |
+|----------|--------|------|
+| נכות כללית medical committee | **60 days** | ועדה רפואית לעררים |
+| שר"מ decision (amount, rejection, start date) | **90 days** | **ועדת עררים לשירותים מיוחדים** (a separate body) |
+| Claim rejected on a statutory ground only | 12 months | Regional Labour Court |
 
-**Arnona discount:** 40% off municipal property tax for cancer patients with either (a) general disability pension at 75%+ earning-capacity loss, or (b) 90%+ medical disability. Auto-applied via NII lists, but verify with the municipality. Source: Kolzchut "הנחה בארנונה לחולי סרטן".
+For שר"מ: `ערר מנומק בכתב יש להגיש בתוך 90 יום מיום שהתקבל מכתב ההחלטה`, filed at the local branch. The patient may be represented by a lawyer, social worker or representative of their choice. Do not carry over the "partial appeal now, reasons within 30 more days" rule -- that belongs to נכות מעבודה.
 
-**Volunteer transport:** ICA runs a national volunteer-driver program for chemo/radiation appointments -- via Telemeda 1-800-599-995 or the oncology social worker. Reimbursement of out-of-pocket travel: ask the hospital social worker or ICA Rights Center.
+#### 3g. Arnona, travel, parking
 
-### Step 4: Health basket coverage (drugs, exemptions, supportive services)
+**Arnona discount** (תקנות ההסדרים במשק המדינה (הנחה מארנונה), התשנ"ג-1993, תקנה 2). Municipalities are *permitted*, not obliged, and set the actual rate. These are ceilings (`הנחה שאינה עולה על`) on up to 100 m²: **up to 80%** on a full disability pension with 75%+ earning-capacity loss; **up to 40%** with 90%+ medical disability and no pension; 33% for a parent of a child on גמלת ילד נכה. Apply to the מדור להנחות מיוחדות with a Bituach Leumi certificate. Between the medical determination and the start of the pension, the 40% band can already be claimed.
 
-The basket covers far more than cancer drugs alone. **Full per-cancer-type detail** for sections 4b-4h is in `references/cancer-type-equity-rights.md`.
+**Travel costs are a statutory HMO obligation**, not a favour. Section 28 of the second addendum to the National Health Insurance Law: `חולה אונקלוגי או חולה דיאליזה הנוסע לטיפול בבית חולים יקבל החזר כספי מלא של הוצאות הנסיעה מביתו לביה"ח ובחזרה בגובה דמי תחבורה ציבורית. חולה כנ"ל המוסע באמבולנס או במונית יקבל החזר של 50% מן ההוצאה`. Full public-transport fare both ways, 50% for taxi or ambulance. **A private car is not in the statute**, so do not promise mileage. Claim through the HMO. Travelling two or three times a week for months is among the largest out-of-pocket costs and least-claimed rights. ICA also runs a volunteer-driver programme via Telemeda 1-800-599-995.
+
+**Hospital parking:** at **government general hospitals** the Ministry of Health caps parking at ₪25 per 24 hours and grants a **full exemption for one vehicle** to oncology patients in chemotherapy or radiation **and their escorts** (also dialysis patients, parents of premature babies, תג חניה holders). Other hospitals set their own arrangements, so ask on site. **תג חניה לנכה** and reduced licensing fees are separate Ministry of Transport entitlements.
+
+#### 3h. Two tracks the skill's users most often miss
+
+**Occupational cancer (מחלת מקצוע / נפגעי עבודה).** If the cancer is plausibly linked to workplace exposure (asbestos, benzene, ionising radiation, certain solvents), file under the **work-injury** branch, not נכות כללית. The threshold is far lower and it pays more: a permanent work-injury **pension starts at 20% medical disability** (9-19.99% gets a lump sum), against 60% plus a 50% earning-capacity loss for נכות כללית. Raise it at diagnosis, while the occupational history is easy to document.
+
+**Vocational rehabilitation (שיקום מקצועי).** Open to anyone a Bituach Leumi committee assessed at **at least 20% disability**, aged 18 to retirement age, who cannot return to their previous work. **It does not require receiving a disability pension.** It funds occupational assessment, academic or vocational tuition, travel, books, equipment, rent, subsistence, accessibility supports and job placement. Studying **at least 16 hours a week** also brings **דמי שיקום**, equal for a non-pensioner to the pension at the 100% rate (work income under ₪8,261), plus exemption from HMO fees for specialists, outpatient clinics and hospital referrals. This is the whole survivorship lane and it is almost never mentioned at discharge.
+
+### Step 4: Health basket coverage
+
+Full per-cancer-type detail for 4b is in `references/cancer-type-equity-rights.md`.
 
 #### 4a. Cancer drugs in the 2026 basket
 
-The **2026 basket** added 107 drugs and technologies at ₪650M total, of which ~₪337M (52%) went to oncology. Notable verified additions (full list in `references/health-basket-and-hmo-coverage.md`):
-- **Solid tumors:** Imfinzi (bladder/gastric peri-op), Tagrisso (post-op EGFR NSCLC), Keytruda (head-and-neck; endometrial), Enhertu (HER2-low breast)
-- **Hodgkin lymphoma:** Adcetris (first line)
+The 2026 basket added 107 drugs and technologies at ₪650M, roughly ₪337M of it oncology. Indications are narrow and a drug can be in the basket for a different stage than the patient's, so before saying a named drug is "in the basket", open MOH circular 2/2026 or the 2026 list PDF, search by **generic** name, and read the indication. Two commonly misstated 2026 entries:
 
-Bispecific-antibody and ADC additions for R/R MM and lymphoma have been reported -- verify against the MOH 2026 PDF before quoting. Drugs in the basket are dispensed by the HMO at standard co-pay; no separate application needed. **For a drug NOT in the basket,** the patient needs either the HMO exceptions committee (Step 5) OR a supplementary-insurance payout (also Step 5).
+- **Tagrisso (osimertinib)** was added for **unresectable locally advanced stage III NSCLC that has not progressed after platinum-based chemoradiation** (EGFR ex19del or ex21 L858R): `בשלב מתקדם מקומי לא נתיח (שלב III) שמחלתו לא התקדמה במהלך או לאחר טיפול משולב או עוקב של כימותרפיה מבוססת פלטינום והקרנות`. This is **not** the adjuvant post-resection setting, which is a separate, older entry. The patient receives osimertinib or durvalumab, not both.
+- **Pluvicto (lutetium-177 vipivotide tetraxetan)**, the first radioligand therapy in the basket, for **PSMA-positive metastatic castration-resistant prostate cancer after both an androgen-receptor inhibitor and taxane chemotherapy**, SUV 10 or more, **maximum 6 cycles**, on an oncologist's prescription. Patients routinely assume this one is not funded.
 
-#### 4b. Supportive services (apply across all cancer types)
+Basket drugs are dispensed at standard co-pay with no separate application. For a drug not in the basket, see Step 5.
 
-- **Co-pay exemption (severe illness):** free specialist visits, imaging, diagnostics, dietitian. Auto-applied by HMO on diagnosis code; request with specialist letter if missing.
-- **Dental treatment:** HMO covers 50% before chemo/radiation, 100% after (24-month window). **Head/neck radiation = no time limit. Jaw resection = full coverage incl. implants.**
-- **Surgery wait-time + Form 17:** if HMO can't meet the legally-mandated wait window, contact מוקד הסדרים -- they have 24h to find a date or issue Form 17 (התחייבות) for any authorized facility.
-- **Genetic testing (hereditary cancer):** BRCA, Lynch, Li-Fraumeni, FAP, MEN1/2, VHL, PTEN. Free for patients + first-degree relatives. Positive carriers get structured surveillance.
-- **Home chemotherapy:** selected regimens delivered at home via HMO nurse or portable infuser pump. Ask the oncologist about regimen eligibility.
-- **Medical cannabis (post-April 2024):** cancer patients need only a prescription from a certified physician -- no license process. Fixed annual prescription fee of ₪180/year.
-- **Post-surgical rehab and prosthetics:** site-specific (breast reconstruction, stoma supplies, voice/swallowing rehab, prosthetic limbs, continence supplies, cognitive rehab, wigs). Activate via HMO rehabilitation coordinator (רכז שיקום).
+#### 4b. Supportive services (all cancer types)
 
-Sources for all: Kolzchut + ICA + gov.il -- full URLs in Reference Links.
+- **Co-pay exemption (severe illness):** specialist visits, outpatient clinics, imaging, diagnostics. The HMOs list it as something to **apply for** with a specialist letter confirming the diagnosis, so do not tell a patient it is automatic.
+- **Dental treatment:** 50% before chemo/radiation, 100% after, referral within **24 months** of the end of treatment. **Head/neck radiation: no time limit. Jaw resection for a tumour: full coverage including implants.**
+- **Surgery wait-time + Form 17:** oncology surgery is capped at **30 days** under MOH circular מנהל רפואה 1/2020. There is **no blanket guarantee for elective surgery generally**. If the HMO cannot meet the window, מוקד הסדרים has 24 hours to find a date or issue **Form 17 (התחייבות)** for any authorised facility.
+- **Genetic testing:** BRCA, Lynch, Li-Fraumeni, FAP, MEN1/2, VHL, PTEN, for patients and first-degree relatives of known carriers, with structured surveillance for carriers.
+- **Home chemotherapy:** selected regimens via HMO nurse through an existing port, or a portable pump.
+- **Medical cannabis (post-April 2024):** cancer patients need only a prescription from a certified physician, no licence process. Annual prescription fee **₪192** (the licence track, for other indications, is ₪384).
+- **Rehab and prosthetics:** site-specific (breast reconstruction and external prosthesis, lymphoedema garments, stoma supplies, voice and swallowing rehab, limb prostheses, continence supplies, cognitive rehab). **Wigs are HMO-funded**; ICA also lends and fits them. Activate via the HMO rehabilitation coordinator (רכז שיקום).
 
 ### Step 5: HMO exceptions committee and supplementary insurance
 
 #### 5a. Exceptions committee (ועדת חריגים)
 
-Each HMO has a committee that reviews one-off requests to fund a drug or treatment outside the basket. Trigger: **formal refusal by the HMO** to fund the treatment.
+Reviews one-off requests to fund a treatment outside the basket. Trigger: a **written refusal**. Package: the committee form, the physician's recommendation with medical literature and evidence that basket alternatives were exhausted, and the medical records. There is **no statutory response time**.
 
-Application package:
-- Committee-review request form (from the HMO)
-- Treating physician's detailed recommendation with medical literature and evidence that basket alternatives were exhausted
-- All relevant medical records
+**Escalation when refused**, in this order and not straight to court: (1) the **internal HMO appeals committee (ועדת ערר / בירורים)**, fast, free, no lawyer; (2) the **MOH Public Complaints Commissioner** for the National Health Insurance Law (12,809 inquiries concluded in 2024); (3) the **Regional Labour Court**, where an interim order (צו ביניים) can issue within days if life is at stake.
 
-Committee members: physicians (including oncologists), pharmacologist, legal advisor, economic advisor.
+Labour Court case law holds that exclusion from the basket is not by itself a ground for refusal: the committee must assess clinical efficacy for this patient, consider basket alternatives, and support a budget argument with calculations rather than assertions. Ask a lawyer for the current authorities rather than citing a case number from memory. See `references/exceptions-committee-precedents-and-appeals.md`. The **Patients' Rights Association** and the **ICA Rights Center** (Telemeda 1-800-599-995) help build the package.
 
-There is NO statutory response time. **Escalation ladder when refused** -- go in this order, NOT straight to court:
+#### 5b. Second opinion, and supplementary insurance (ביטוח משלים)
 
-1. **Internal HMO appeals committee (ועדת ערר / בירורים)** -- fast, free, no lawyer required. Clalit example: https://www.clalit.co.il/he/info/Pages/berurim.aspx
-2. **MOH Public Complaints Commissioner for the National Health Insurance Law** if internal appeal fails (12,809 inquiries handled in 2024)
-3. **Regional Labor Court** -- request an interim order (צו ביניים) if life is at stake; these can issue within days
+**A second opinion is a statutory right for every patient, on the basic basket, with no supplementary plan required.** חוק זכויות החולה, התשנ"ו-1996, סעיף 7: `מטופל זכאי להשיג מיוזמתו דעה נוספת לענין הטיפול בו; המטפל והמוסד הרפואי יסייעו למטופל בכל הדרוש למימוש זכות זו`. What the top שב"ן tiers add is **funding and free choice of a private consultant**, not the right itself. Never tell a basic-basket patient they have no second-opinion right.
 
-**Landmark precedent** to cite (full discussion: `references/exceptions-committee-precedents-and-appeals.md`): **חב"ר (ת"א) 5942-09-12** (Tel Aviv Regional Labor Court, October 2012, biliary-tract cancer) established that a drug's exclusion from the basket is not by itself grounds for refusal -- the exceptions committee must evaluate clinical efficacy, consider whether basket alternatives exist, and document budget arguments with calculations rather than assertions.
-
-The **Patients' Rights Association** (https://www.patients-rights.org/) and **One in Nine** in-house attorney (03-602-1717 ext 2 for breast cancer) help with the package and representation. The **ICA Rights Center** is embedded in 10+ Israeli hospitals (rights helpdesk **03-5721678**, shikum@cancer.org.il) and specializes in NII rights, basket entitlements, exceptions committees, and Form 17.
-
-#### 5b. Supplementary insurance (ביטוח משלים) -- cancer coverage by HMO
-
-Each HMO sells a basic + top tier. Top tier covers non-basket oncology drugs (full table + 2025 caps in `references/health-basket-and-hmo-coverage.md`). Quick map:
-
-| HMO | Top tier (where non-basket oncology coverage sits) |
-|-----|---|
-| Clalit | **Mushlam Platinum** -- up to ₪1M cap, includes drugs unregistered in Israel if registered in a recognized Western country |
-| Maccabi | **Maccabi Sheli** -- up to ₪1M cap, drug must be registered in IL/US/CA/AU/NZ/CH/NO/IS/EU |
-| Meuhedet | **Meuhedet Si (שיא)** -- broader off-label and non-basket coverage; verify regulations PDF for 2026 caps |
-| Leumit | **Leumit Zahav (Gold)** -- life-extending oncology drug coverage historically offered; verify regulations PDF |
-
-**Second opinion in Israel or abroad** is a supplementary benefit, NOT a basic-basket right -- only patients on the top tiers above have it.
+Non-basket oncology coverage sits on the top tier: **Clalit Mushlam Platinum**, **Maccabi Sheli**, **Meuhedet Si (שיא)**, **Leumit Zahav**. Caps for non-basket oncology drugs run into the **millions of shekels per insured**, are launch-year figures indexed annually, and differ per tier; Clalit's also carries a רצף טיפולי exception. Foreign-registration rules differ per plan, and Clalit's condition is that the drug is `רשומות בישראל או שהוגשה בקשה לרישומן`. **Never quote a cap or a list of recognised countries from memory. Open the tier's תקנון PDF.**
 
 ### Step 6: Hospice and palliative care
 
-Since **2009**, every HMO must provide supportive palliative care **24/7, free of charge under the basic basket** for patients with a life-threatening illness in the terminal stage (treating physician estimates 6 months or less). The team includes a physician, nurse, and social worker. It covers cancer and non-cancer terminal illnesses (end-stage heart, lung, kidney disease, dementia).
-
-**How to access:** family doctor referral → HMO home-treatment unit (or the hospital HMO representative if the patient is hospitalized). Source: wikirefua, "Palliative Service (Hospice) Director General Circular"; Clalit "Home Hospice" page.
+Since **2009** every HMO must provide supportive palliative care **24/7, free under the basic basket**, to patients with a life-threatening illness in the terminal stage (physician estimates six months or less). The team is physician, nurse and social worker, and it covers non-cancer terminal illness too. Access via family doctor referral to the HMO home-treatment unit, or the hospital HMO representative if admitted.
 
 ### Step 7: Fertility preservation and gonadal protection
 
-Fertility-related rights apply across **all genders and pediatric/adult ages**. Two pathways:
+Applies across **all genders and all ages**, and is **time-critical**: one cycle of chemotherapy can foreclose options, so the referral to the HMO fertility unit must not wait.
 
 **Preservation (basket-covered):**
-- **Women:** egg, embryo, ovarian tissue freezing. Up to age 41 (birthday 42) or 2 children. Egg freezing capped at 4 cycles / 20 eggs total.
-- **Men:** sperm banking before any gonadotoxic treatment (chemo, pelvic/testicular radiation, TBI). Multiple deposits recommended.
-- **Children/adolescents:** ovarian tissue freezing (pre-pubertal girls); egg freezing (post-pubertal girls); sperm banking (post-pubertal boys); testicular tissue banking (pre-pubertal boys, experimental).
+- **Women:** egg, embryo and ovarian tissue freezing, up to age 41 (the 42nd birthday) or two children, whichever first. Egg freezing capped at 4 cycles / 20 eggs.
+- **Men:** sperm banking before any gonadotoxic treatment (chemotherapy, pelvic or testicular radiation, TBI). The number of deposits is a decision for the fertility unit.
+- **Children and adolescents:** ovarian tissue freezing (pre-pubertal girls), egg freezing (post-pubertal girls), sperm banking (post-pubertal boys), testicular tissue banking (pre-pubertal boys, experimental).
 
-**Gonadal protection during treatment** (distinct from preservation):
-- **Women:** GnRH agonists (Decapeptil / Triptorelin) suppress ovarian function during gonadotoxic chemo, reducing premature ovarian failure risk. Runs concurrent with chemo, does not delay treatment. Basket-covered.
-- **Men:** testicular shielding during pelvic radiation when anatomically feasible.
+**Gonadal protection during treatment** is a different thing. Testicular shielding during pelvic radiation is used where anatomically feasible. GnRH agonists are sometimes discussed for ovarian protection during chemotherapy; **their Israeli registration is for other indications, so this use is off-label and is not basket-funded for it.** Never let a patient forgo preservation believing protection is covered.
 
-**Time-critical.** All preservation must start BEFORE treatment begins -- even one cycle of chemo can foreclose options. Sources: gov.il "Oocyte cryopreservation"; Kolzchut "הקפאת ביצית, הפקדת זרע".
+### Step 8: Work rights during treatment
 
-### Step 8: Work rights during cancer treatment
+#### 8a. Sick leave and job protection
 
-#### 8a. Patient's own sick leave and job protection
-
-- **Sick leave (own illness):** Full sick pay from day 1 under the chronic-illness exception since June 2022 (see Step 3e).
-- **Job protection:** The **Equal Rights for Persons with Disabilities Law, 1998 (section 8)** prohibits discrimination in hiring, promotion, dismissal, or employment conditions on the basis of disability. It applies to employers with **more than 25 employees**.
-- **Resignation because of illness:** Under Severance Pay Law section 6, resignation forced by illness is treated as dismissal for severance purposes.
-- **Reasonable accommodation:** Employers with more than 25 employees must make reasonable accommodations (adjusted hours, remote work, physical adjustments) unless it would be an undue burden. Escalation: the Commission for Equal Rights of Persons with Disabilities.
+- **Sick leave:** see Step 3e for the narrow day-1 rule.
+- **Non-discrimination and accommodations:** the **Equal Rights for Persons with Disabilities Law, 1998, section 8** bars discrimination in hiring, conditions, promotion, training, dismissal and severance, and defines discrimination to *include* failing to make the accommodations a disabled employee needs (`"הפליה" - לרבות אי-ביצוע התאמות הנדרשות מחמת צרכיו המיוחדים של אדם עם מוגבלות אשר יאפשרו את העסקתו`). Section 8 has **no employee-count threshold**; the only limit is נטל כבד מדי. It also extends to family members caring for a disabled person. **Section 9** is a different duty, to promote proper representation, and *that* one applies only to an employer with **more than 25 employees**. Do not import the 25-employee threshold into the individual accommodation right.
+- **Resignation because of illness:** under Severance Pay Law section 6, resignation forced by illness counts as dismissal for severance.
+- **Escalation:** Commission for Equal Rights of Persons with Disabilities, *6763.
 
 #### 8b. Family sick days for cancer caregiving
 
-Cancer caregivers have entitlements deducted from their own accrued sick balance:
-- **Spouse:** up to **60 sick days/year** for care of a spouse with cancer
-- **Parent of a child under 18 with cancer:** up to **90/year** (110 if single parent / sole caregiver)
+These are **not extra days.** Statute lets the caregiver charge the absence `על חשבון תקופת המחלה הצבורה שלו או על חשבון ימי החופשה המגיעים לו, לפי בחירת העובד` -- their own accrued sick or vacation balance. The figures are annual ceilings on that balance, and the trigger is **מחלה ממארת or an illness requiring permanent dialysis** generally, not cancer specifically. Both need at least one year with the employer.
 
-No employer pre-approval beyond standard sick-leave procedures. Sources: Kolzchut "ימי מחלה בגין טיפול בבן משפחה" + chemo rights guide. The base 8-day parent-sick-day rule (child to 16) is superseded by the cancer-specific cap above.
+- **Spouse:** up to **60 days/year** (חוק דמי מחלה (היעדרות בשל מחלת בן זוג), התשנ"ח-1998, סעיף 1א).
+- **Parent of a child under 18:** up to **90 days/year**, or **110** where the employee is a sole caregiver, a single parent, or has sole custody (חוק דמי מחלה (היעדרות בשל מחלת ילד), התשנ"ג-1993, סעיף 1א).
+
+Days taken under the general 6-to-8-day rules count toward these ceilings.
 
 ### Step 9: NGOs and support services
 
-Do not tell the user to "contact an NGO" without specifying which one. The oncology social worker will refer based on diagnosis and age, but the user can also reach out directly.
+Never say "contact an NGO" without naming one. See `references/ngos-and-support-services.md`.
 
-| Organization | Hebrew name | Focus | Primary channel |
-|--------------|-------------|-------|-----------------|
-| Israeli Cancer Association (ICA) | האגודה למלחמה בסרטן | All cancer types, all ages. Free transportation to hospitals with trained volunteers. Wig fitting and loans at Beit Mati (Givatayim) and ~60 branches. Accommodation near hospitals for out-of-town patients. Rights-realization helpdesk. | https://www.cancer.org.il/ -- Telemeda 1-800-599-995 (HE) / 1-800-36-36-55 (AR) / 1-800-34-33-44 (RU) -- rehabilitation helpdesk 03-5721678 / shikum@cancer.org.il |
-| Larger Than Life | גדולים מהחיים | **Pediatric cancer families only.** Long-term support for children diagnosed with cancer and their families. | https://gdolim.org.il/ |
-| Hayim Association | עמותת חיים | **Pediatric cancer (children only), since 1984.** Operates inside Israeli pediatric oncology wards across the country as part of the oncology service infrastructure. Funds hospital-department equipment, treatment protocols and clinical staff positions, free shuttle service to treatments, welfare workers, family financial assistance, vacation breaks for high-risk families, and recreational programs. No religious/ethnic restriction. | https://www.hayim.org.il/ -- 03-6120494 -- hayim@hayim.org.il (Jabotinsky 138, Ramat Gan) |
-| Zichron Menachem | זכרון מנחם | Children and young adults aged 0-25 with cancer, plus families. Retreats, activities, parental and emotional support. | https://zichron.org/ |
-| Stop Cancer / Halasartan | חלאסרטן (עמותה לחולי סרטן צעירים) | **Young adult cancer patients.** Peer-community NGO (registered amuta #580603298) with mentor/companion board pairing new patients with survivors, Facebook support groups, beginner guide, podcast "המחלה", retreats, Arabic-language WhatsApp group "חלאס סלאמתק", and rights/benefits content. Distinct from ICA (all ages) and pediatric NGOs. | https://www.stop-cancer.co.il/ -- info@halasartan.org -- WhatsApp + contact form on-site |
-| Ezer Mizion | עזר מציון | Broad health logistics. Operates a large Jewish Bone Marrow Donor Registry. "Oranit House" accommodation for cancer patients and families during treatment. | https://ezermizion.org/ |
-| One in Nine | אחת מתשע | Breast cancer focus. | https://www.onein9.org.il/ |
-| Patients' Rights Association | האגודה לזכויות החולה | General patient rights, representation in exceptions committee disputes. | https://www.patients-rights.org/ |
-| Haverim LeRefuah | חברים לרפואה | **Free Pharmacy Project** -- collects unused prescription medications via 1,075+ collection points, redistributes free of charge to chronic patients including cancer patients. **"Save A Life" Funds** earmark donations for individual patient cases. | https://www.haverim.org.il/ |
-| Yad Sarah | יד שרה | Medical-rehabilitative equipment loans via 100+ branches across Israel -- relevant for cancer patients in end-stage home care, post-surgical recovery, and long-term outpatient treatment. | https://www.kolzchut.org.il/he/%D7%99%D7%93_%D7%A9%D7%A8%D7%94 |
-| Bracha | עמותת ברכה | **Hereditary cancer carriers.** Peer support, awareness, and surveillance guidance for BRCA1/BRCA2 carriers and other hereditary breast/ovarian cancer mutations. Founded 2009. | Guidestar registry: https://www.guidestar.org.il/organization/580508075 |
-| Chali"l HaOr | חלי"ל האור | **Blood cancer patients (leukemia, lymphoma, myeloma, MDS).** Mentoring program (Maagilim) pairing veteran patients with new patients, psychological support funding, rights help with in-house lawyer + insurance agent, professional conferences, disease-specific support groups. | https://halil.org.il/ |
+| Focus | Organisation |
+|-------|--------------|
+| All cancers, all ages; transport, wigs, lodging, rights desk | **ICA (האגודה למלחמה בסרטן)** https://www.cancer.org.il/, Telemeda 1-800-599-995 |
+| Pediatric | **גדולים מהחיים** https://gdolim.org.il/, **עמותת חיים** https://www.hayim.org.il/, **זכרון מנחם** https://zichron.org/ |
+| Young adults | **חלאסרטן** https://www.stop-cancer.co.il/ |
+| Breast | **אחת מתשע** https://www.onein9.org.il/ |
+| Hereditary carriers | **עמותת ברכה** + ICA BRCA https://www.cancer.org.il/subcategories/brca/ |
+| Blood cancers | **חלי"ל האור** https://halil.org.il/ |
+| Marrow registry, lodging | **Ezer Mizion** https://ezermizion.org/ |
+| Rights representation | **Patients' Rights Association** https://www.patients-rights.org/ |
+| Free leftover medication | **חברים לרפואה** https://www.haverim.org.il/ |
+| Equipment loans | **יד שרה** |
 
-**Agent notes:** "Larger Than Life" in Hebrew is **גדולים מהחיים** (NOT "לרגיש שוב" -- common error). **Bracha's homepage 404s** -- verify via the Guidestar link and route content questions to Kolzchut hereditary-cancer pages or ICA BRCA section (https://www.cancer.org.il/subcategories/brca/). **Do NOT confuse Road to Recovery (theroadtorecovery.org.il) with general Israeli cancer transport** -- that org transports Palestinian patients from West Bank/Gaza to Israeli hospitals; for Israeli cancer transport, use ICA volunteers via Telemeda 1-800-599-995.
+**Agent notes:** Larger Than Life in Hebrew is **גדולים מהחיים**, NOT "לרגיש שוב". **Bracha's homepage 404s** -- verify via Guidestar. **Road to Recovery** (theroadtorecovery.org.il) is not Israeli cancer transport; it transports Palestinian patients.
 
-**Cancer-type routing:** breast → One in Nine + ICA. Hereditary → Bracha + ICA BRCA section. Pediatric → Larger Than Life + Hayim + Zichron Menachem + Ezer Mizion. Young adults → Stop Cancer (Halasartan) + ICA. Hematological (leukemia/lymphoma/MM/MDS) → Chali"l HaOr + Ezer Mizion bone-marrow. All others → ICA + the oncology social worker for diagnosis-specific referrals. Transport → ICA volunteers. Equipment → ICA / Yad Sarah / Ezer Mizion. Full per-cancer-type breakdown: `references/cancer-type-equity-rights.md` section 11.
+### Step 10: Experimental, off-label and unregistered treatments
 
-### Step 10: Experimental, off-label, and unregistered treatments
-
-Patients with advanced or refractory cancer often hear phrases like "compassionate use", "Form 29c", "off-label", "expanded access", and "Named Patient Program" -- and these pathways are **not interchangeable**. Picking the wrong one wastes weeks.
-
-**See `references/experimental-and-off-label-treatments.md` for the full reference -- the summary below is the decision-critical information.**
+"Compassionate use", "Form 29c", "off-label" and "expanded access" are **not interchangeable**, and the wrong one wastes weeks. Full reference: `references/experimental-and-off-label-treatments.md`.
 
 #### 10.1 Form 29c (טופס 29ג') -- individual import of an unregistered drug
 
-- **Legal basis**: Regulation 29 of the Pharmacists Regulations (Preparations), 5746-1986. Patient-level application is Form 29c.
-- **Who files**: the **treating physician** via the MOH **Pharmacy Division (אגף הרוקחות)**.
-- **Requirements**: medical justification; drug registered in a recognized country for the same indication; no registered Israeli alternative.
-- **CRITICAL**: **Form 29c is an import permit, NOT funding.** Funding must be secured separately (exceptions committee, supplementary, private, NGO). LLMs routinely say "file 29c and the HMO will pay" -- this is wrong.
+- **Legal basis:** תקנה 29(ג) of the Pharmacists Regulations (Preparations), 5746-1986.
+- **Who files:** the application to the MOH Pharmacy Division (אגף הרוקחות) is filed by the **importer's responsible pharmacist**; the treating physician signs the clinical justification but is not the filer.
+- **Requirements:** medical justification, registration in a recognised country for the same indication, no registered Israeli alternative.
+- **CRITICAL: it is an import permit, NOT funding.** Funding is separate. "File 29c and the HMO will pay" is wrong.
 
-#### 10.2 Compassionate use / טיפול חמלה
+#### 10.2 Compassionate use (טיפול חמלה) and off-label
 
-- Pharma company provides an unregistered/experimental drug **free of charge** with MOH pre-approval.
-- **Three-party process**: physician → pharma sponsor → MOH Pharmacy Division.
-- **Not a right** -- "לא קיימת חובה לספק". Companies can refuse.
-- Different from a clinical trial (which has a protocol and Helsinki approval). Israel has no separate "Named Patient Program" category -- sponsor-provided experimental access is folded into טיפול חמלה.
+**טיפול חמלה:** the manufacturer supplies an unregistered or experimental drug **free** with MOH pre-approval, in a three-party process (physician, sponsor, Pharmacy Division). **Not a right** -- `לא קיימת חובה לספק`, and companies do refuse. Different from a clinical trial. Israel has no separate "Named Patient Program".
 
-#### 10.3 Off-label use
+**Off-label:** the drug IS registered here for one indication and is prescribed for another. **Legal**; the basket generally does not fund it, so the **exceptions committee** is the main public route. Supplementary off-label clauses differ per tier in co-pay, cap and waiting period -- verify the תקנון PDF rather than quoting a figure.
 
-- Drug IS registered in Israel for one indication, prescribed for a different indication.
-- **Legal** in Israel; basket generally does NOT fund off-label.
-- **Exceptions committee** is the main public route.
-- **Supplementary plans cover off-label within caps**:
-  - Clalit Mushlam Gold/Platinum: package > ~₪356.98, 50% co-pay capped ~₪358/pack/month, monthly total ~₪713.97 (https://mushlam.clalit.co.il/he/medications/Pages/kisuy_murhav_trufot.aspx)
-  - Maccabi Zahav: serious diseases, prior approval, 24-month waiting period (https://www.maccabi4u.co.il/eligibilites/4327/)
-  - Meuhedet and Leumit have similar clauses -- verify the tier's regulations PDF
-- **2008 reform boundary**: Israeli supplementary plans cannot cover life-saving/life-extending drugs as their primary benefit. Off-label clauses cover off-label and unregistered-indication scenarios only.
+#### 10.3 Clinical trials
 
-#### 10.4 Clinical trials
+Legal basis: People's Health Regulations (Medical Research on Human Subjects), 1980. The **Helsinki committee** is research ethics, **NOT** the HMO exceptions committee; it is institutional per hospital plus a National Supreme committee for elevated-risk categories. Search **MyTrial** (MOH) and ClinicalTrials.gov filtered to Israel. The **sponsor pays** for the investigational drug and trial-specific procedures while the HMO continues standard of care. **Post-trial access is not automatic**: it runs under the MOH clinical-trials procedure and needs Helsinki plus MOH sign-off, so raise it with the principal investigator **before** signing consent.
 
-- **Legal basis**: People's Health Regulations (Medical Research on Human Subjects), 1980.
-- **Helsinki committee** -- ethics for **research**, NOT the HMO funding exceptions committee. Institutional (per hospital) + National Supreme (elevated-risk categories).
-- Find Israeli oncology trials: MyTrial (MOH) via https://www.gov.il/he/departments/general/clinical-trials-website and ClinicalTrials.gov filtered to Israel.
-- **Sponsor pays** for investigational drug and trial-specific procedures; HMO continues standard of care.
-- **Post-trial drug access** (MOH procedure 14, chapter 4) is NOT automatic -- raise with the PI before signing consent.
-
-#### 10.5 Decision tree -- which route for which situation
+#### 10.4 Decision tree
 
 | Situation | Route |
 |-----------|-------|
-| Drug is in the 2026 basket for my indication | Standard prescription; HMO dispenses at basket co-pay |
-| Drug is registered in Israel for my indication but HMO refused funding | Exceptions committee (Section 5a) + supplementary if enrolled |
-| Drug is registered in Israel for a DIFFERENT indication (off-label) | Supplementary plan's off-label clause FIRST (fastest), parallel exceptions committee |
-| Drug is unregistered in Israel but registered abroad for my indication | Form 29c filed by physician + funding via exceptions / supplementary / private / NGO |
-| Drug is still experimental (in Phase 2/3 trials, not registered anywhere yet) | טיפול חמלה -- physician finds a pharma sponsor, MOH pre-approval |
-| There is a clinical trial I might qualify for | MyTrial search + referral from oncologist + Helsinki-committee-approved enrollment |
+| In the basket for my indication | Prescription at basket co-pay |
+| Registered in Israel for my indication, HMO refused | Exceptions committee (5a) + supplementary |
+| Registered for a DIFFERENT indication | Supplementary off-label clause first, exceptions committee in parallel |
+| Unregistered here, registered abroad for my indication | Form 29c + separate funding |
+| Still experimental | טיפול חמלה, sponsor plus MOH pre-approval |
+| A trial I might qualify for | MyTrial + oncologist referral + Helsinki enrolment |
 
-#### 10.6 Treatment abroad funded by the basket (life-saving, unavailable in Israel)
+#### 10.5 Treatment abroad funded by the basket
 
-Covered when both: (1) the insured cannot receive the treatment or a reasonable alternative in Israel, AND (2) the treatment is **life-saving**. Permissible fields include **tumors** explicitly (also congenital defects, organ transplants, cardiovascular, CNS).
+Governed by תקנות ביטוח בריאות ממלכתי (שירותי בריאות במדינות חוץ), התשנ"ה-1995. Covered when both: the insured cannot receive the treatment or a reasonable alternative in Israel, AND it is **life-saving**. Permitted fields include **tumours** explicitly, subject to a **ceiling of USD 250,000**. Apply to the HMO; on refusal, appeal to its internal appeals committee.
 
-When approved, the HMO funds: medical treatment, flights, accommodation, food, and **one escort**. Process: application to HMO → on refusal, appeal to HMO internal appeals committee. Supplementary plans (Mushlam Platinum, Sheli, Si, Gold) offer parallel, often more generous coverage.
+The regulations fund the **medical treatment**. Flights, accommodation, food and an escort are **not** part of the statutory entitlement. Where they are covered it is under a שב"ן plan, so check the tier and do not attribute them to the 1995 regulations.
 
-#### 10.7 Proton therapy in Israel
+#### 10.6 Proton therapy and CAR-T
 
-As of 2026, **no proton-therapy center is operational in Israel**. A proton-therapy program at Ichilov (Tel Aviv Sourasky) has been in the planning and construction phase, but verify the current status with the treating hospital before assuming local availability. Patients needing proton therapy are typically funded abroad through the basket treatment-abroad track (Section 10.7).
+**Proton therapy:** availability in Israel is changing and any blanket statement dates fast. There is **no routinely funded proton-therapy service**; where local access exists it is limited and not a substitute for the treatment-abroad track (10.5). **Verify current status with the treating hospital** before telling a patient either that it is available or that it is not. **CAR-T** is delivered at several major Israeli centres; rather than a list that goes stale, ask the treating department about availability and referral paths.
 
-#### 10.8 CAR-T cell therapy in Israel
+### Step 11: Advance directives (Dying Patient Law, 2005)
 
-CAR-T cell therapy is delivered at several major Israeli oncology centers. Rather than rely on a fixed list (which goes out of date), ask the treating oncology department about current CAR-T availability at their hospital and referral paths if they do not deliver it. The oncology social worker can coordinate referrals.
-
-### Step 11: Advance directives and end-of-life (Dying Patient Law, 2005)
-
-Israeli framework: **Dying Patient Law / חוק החולה הנוטה למות, 2005**. Advance medical directives (הנחיות רפואיות מקדימות / "living will") become operative only when both: (a) the patient is defined as a *terminally ill patient* with under 6 months life expectancy AND (b) the patient lacks capacity. Directives are registered with the Ministry of Health.
-
-For an oncology patient, the right time to set this up is **before** terminal-stage capacity loss -- typically when starting late-line treatment for advanced disease. Two NGOs help with the paperwork:
-- **LILACH (ליל"ך)** -- https://www.lilach.org.il/living_will/ -- leading Israeli end-of-life NGO
-- **Ematai** -- https://www.ematai.org/netivotil/ -- bilingual (Hebrew/English) advance-care planning, faith-sensitive options
-
-Source for the Dying Patient Law procedure: https://www.kolzchut.org.il/en/Registering_a_Living_Will
-
-Coordinate this with the oncology social worker and the palliative-care team (Step 6) -- these conversations are part of standard advanced-disease care.
-
-### Step 12: Do-NOT list for experimental pathways
-
-Common agent and patient mistakes:
-
-1. **Do NOT equate "Form 29c approved" with "HMO will pay".** Form 29c is an import permit. Funding is separate.
-2. **Do NOT confuse טיפול חמלה with a clinical trial.** Compassionate use is individual and outside a protocol; a trial is structured and Helsinki-approved.
-3. **Do NOT confuse the Helsinki committee (research ethics) with the exceptions committee (HMO funding).** LLMs swap these routinely. Helsinki = ניסויים; ועדת חריגים = מימון.
-4. **Do NOT assume supplementary insurance covers life-saving drugs as the primary benefit.** The 2008 reform prohibited that. Supplementary covers off-label, unregistered-indication, and second opinions -- not life-saving oncology drugs as the headline benefit.
-5. **Do NOT promise a patient post-trial access to the investigational drug.** It is negotiated per protocol and requires Helsinki + MOH sign-off.
-
-
+Advance medical directives (הנחיות רפואיות מקדימות) become operative only when both (a) the patient is defined as terminally ill with under six months' life expectancy and (b) capacity is lost. Registered with the Ministry of Health. The right time is **before** capacity loss, typically when starting late-line treatment. **LILACH (ליל"ך)** https://www.lilach.org.il/living_will/ and **Ematai** https://www.ematai.org/netivotil/ help with the paperwork. Coordinate with the social worker and the palliative team (Step 6).
 
 ## Examples
 
-### Example 1: Newly diagnosed adult, starting chemo next week
+### Example 1: Newly diagnosed adult, chemo next week
 
-"My wife was diagnosed with breast cancer; chemo starts next week."
+1. **Today:** the oncology social worker.
+2. Social worker files **שר"מ 50% on documents** if the regimen is on the IV list (2).
+3. Check Section 9(5) (3d), sick pay (3e), fertility preservation (7), travel reimbursement and parking exemption (3g).
+4. Call **ICA Telemeda 1-800-599-995** for transport and rights help.
+5. If a drug is not in the basket: check the שב"ן tier (5b), prepare the exceptions package (5a). On refusal note which clock started: **60 days** נכות כללית, **90 days** שר"מ (3f).
 
-1. **First call today**: oncology ward → oncology social worker (עו"ס אונקולוגי). They file paperwork for you free.
-2. Social worker files **special services allowance 50% paper-only** (Step 3b) -- no committee visit needed for active chemo.
-3. Check Section 9(5) tax exemption (Step 3d), sick-pay-from-day-1 (Step 3e), fertility preservation if relevant (Step 7).
-4. Call **ICA Telemeda 1-800-599-995** for transport + rights help.
-5. If a prescribed drug is not in the 2026 basket: check supplementary tier (Step 5b) + prepare exceptions-committee package (Step 5a). If a Bituach Leumi committee refusal arrives later, the **60-day appeal clock** starts (Step 3f).
+### Example 2: Pediatric diagnosis
 
-### Example 2: Pediatric cancer diagnosis
-
-"Our 7-year-old was diagnosed with leukemia."
-
-1. Oncology social worker at pediatric hospital first.
-2. **Disabled-child allowance** at **235% = ₪9,126/month** during active chemo/radiation (Step 3c).
-3. Parent expanded sick leave for severe child illness (Step 8).
-4. Pediatric NGOs: **Larger Than Life (גדולים מהחיים)** + **Zichron Menachem** (Step 9). Out-of-town families: Ezer Mizion's Oranit House.
+1. Pediatric oncology social worker first.
+2. **גמלת ילד נכה at 235% = ₪9,126** during chemotherapy, still 235% for the **first** month after it ends, then 100% = ₪3,820 for five months (3c).
+3. Parent sick days: up to 90/year from the parent's own accrued balance, 110 if sole caregiver (8b). NGOs and fertility preservation before treatment starts (7, 9).
 
 ### Example 3: HMO refused a drug
 
-"Clalit refused to fund the drug my oncologist recommended."
+1. Get the **written refusal**, then build the exceptions package (5a).
+2. Check the שב"ן tier and read its תקנון PDF for the actual cap (5b).
+3. Escalate: internal appeals committee, MOH Commissioner, then a Labour Court interim order if life is at stake.
+4. A **second opinion is a statutory right on the basic basket** (5b). Patients' Rights Association and One in Nine (03-602-1717 ext 2) assist with representation.
 
-1. Get **written refusal** from Clalit (triggers the exceptions process).
-2. Build exceptions-committee package (Step 5a): refusal letter + oncologist recommendation with literature + medical records.
-3. Check supplementary tier (Step 5b): Mushlam Platinum covers non-basket oncology up to ₪1M.
-4. Escalate via the **internal HMO appeals committee first**, then MoH Public Complaints Commissioner, then Regional Labor Court interim order if life is at stake (Step 5a). Cite the 5942-09-12 precedent.
-5. Patients' Rights Association (patients-rights.org) and One in Nine attorney (03-602-1717 ext 2 for breast cancer) help with representation.
+### Examples 4-6
 
-### Examples 4-6: Other cancer types
-
-The skill includes worked examples for **colorectal cancer with stoma**, **pediatric leukemia**, **head and neck cancer starting radiation**, and **hereditary cancer (BRCA carrier without diagnosis)** in `references/cancer-type-equity-rights.md` section 12. Each example walks the same Step 0-9 sequence but with cancer-type-specific entitlements (stoma supplies, dental-before-radiation, BRCA surveillance program, pediatric fertility preservation).
-
-The pattern across all three: oncology social worker first → Step 3 (Bituach Leumi) + Step 4 supportive services (co-pay, dental for head/neck, stoma supplies for colorectal, fertility for pediatric) → cancer-type-matched NGO from Step 9 (Halil HaOr for hematological, Bracha for hereditary, Larger Than Life for pediatric).
+Worked examples for **colorectal cancer with a stoma**, **head and neck cancer starting radiation**, and **a BRCA carrier without a diagnosis** are in `references/cancer-type-equity-rights.md` section 12.
 
 ## Bundled Resources
 
-### References
-- `references/bituach-leumi-oncology-rights.md` -- Detailed breakdown of nechut, special services, disabled-child allowance, tax exemption, and appeals, with 2026 amounts.
-- `references/health-basket-and-hmo-coverage.md` -- 2026 basket oncology additions, exceptions committee process, HMO supplementary-insurance comparison.
-- `references/cancer-type-equity-rights.md` -- Per-cancer-type entitlements (breast, colorectal, hematological, head-and-neck, pediatric, hereditary, lung, GU, gynecologic), worked examples, and cancer-type-to-NGO routing table.
-- `references/exceptions-committee-precedents-and-appeals.md` -- HMO exceptions-committee escalation ladder (internal appeals, MOH Public Complaints Commissioner, Regional Labor Court), חב"ר 5942-09-12 doctrine, and package-assembly guidance.
-- `references/experimental-and-off-label-treatments.md` -- Form 29c, טיפול חמלה, off-label, clinical trials, treatment-abroad, and the decision tree for picking the right pathway.
-- `references/sherum-committee-preparation.md` -- ADL-to-side-effect mapping by treatment type, "summoned vs self-requested" framing, document checklist for the שר"מ committee package.
-- `references/ngos-and-support-services.md` -- Verified list of cancer NGOs in Israel with Hebrew names, services, and contact channels.
+- `references/bituach-leumi-oncology-rights.md` -- nechut, שר"מ, ילד נכה, tax, appeals.
+- `references/health-basket-and-hmo-coverage.md` -- basket, exceptions committee, שב"ן.
+- `references/cancer-type-equity-rights.md` -- per-cancer-type entitlements, worked examples.
+- `references/exceptions-committee-precedents-and-appeals.md` -- escalation, package assembly.
+- `references/experimental-and-off-label-treatments.md` -- 29c, חמלה, off-label, trials, abroad.
+- `references/sherum-committee-preparation.md` -- ADL mapping, document checklist.
+- `references/ngos-and-support-services.md` -- NGO list and contact channels.
 
 ## Recommended MCP Servers
 
-| MCP | What It Adds |
-|-----|-------------|
-| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcp/kolzchut) | Search Israel's authoritative rights and entitlements knowledge base for current cancer patient rights articles, including nechut, special services allowance, and treatment abroad eligibility |
-| [IL Health](https://agentskills.co.il/he/mcp/il-health) | Ministry of Health hospital quality indicators and health-fund (kupat cholim) information for selecting oncology treatment centers |
-| [Israel Drugs](https://agentskills.co.il/he/mcp/israel-drugs) | Full Israeli pharmaceutical database with health-basket status, HMO formulary alignment (Clalit, Maccabi, Meuhedet, Leumit), and drug indication lookups for verifying basket coverage of a specific cancer drug |
-| [Israel Medical Research](https://agentskills.co.il/he/mcp/israel-medical-research) | Search 314K+ medical research papers from Israeli institutions (Sheba, Hadassah, Ichilov, Rambam, Weizmann, Technion) to compare oncology research depth across potential treating centers |
+[Kolzchut](https://agentskills.co.il/he/mcp/kolzchut) for rights articles, [Israel Drugs](https://agentskills.co.il/he/mcp/israel-drugs) for basket status and indications, [IL Health](https://agentskills.co.il/he/mcp/il-health) for MOH and HMO data, [Israel Medical Research](https://agentskills.co.il/he/mcp/israel-medical-research) for Israeli oncology research.
 
 ## Gotchas
 
-1. **Wrong Hebrew name for Larger Than Life.** The user or an agent may write **לרגיש שוב** -- this is incorrect. The correct Hebrew name is **גדולים מהחיים** (Gdolim MeHaChaim). URL: https://gdolim.org.il -- always use this name when referring Israeli pediatric-cancer families.
-
-2. **50% special services allowance is paper-only for active patients.** Agents routinely tell active-treatment patients to "book a Bituach Leumi committee appointment". This is wrong and wastes weeks. The oncology social worker files documents directly and the 50% rate is granted without a committee visit for at least 6 months. Never tell an active-treatment patient to wait for a committee.
-
-3. **Second opinion is a supplementary benefit, not a basic-basket right.** Agents often claim cancer patients have a "right to a second opinion in Israel". This is only true for patients enrolled in Clalit Platinum, Maccabi Sheli, Meuhedet Si, or Leumit Gold. For a patient on the basic basket only, there is no codified second-opinion right.
-
-4. **Proton therapy is not operational in Israel as of 2026.** Agents occasionally tell patients to "go to Ichilov for proton therapy". No proton-therapy center is clinically delivering treatment in Israel yet. Patients who need proton therapy today are funded abroad through the treatment-abroad track (Step 10b). Always verify the current status with the treating hospital.
-
-5. **Appeal window is 60 days, not 30 or 90.** Older skills and even some legal articles misstate this. The statutory window is **60 days** from receiving the written decision, for BOTH general disability (נכות כללית) and שר"מ committees. NII does not reject filings within 90 days as informal grace, but never rely on it. Filing a partial appeal on time preserves the right and extends the deadline for reasons by 30 more days.
-
-6. **שר"מ 50% is the starting point, not the ceiling.** Agents tell active-treatment patients "50% is what you get" and stop. Patients with significant functional impairment qualify for **112% (₪4,501)** or **188% (₪7,181)** through a committee. The difference between 50% and 188% is over ₪62,000/year. After 6 months on the paper track, always re-assess. Use the ADL framework in Step 3b-ii; the ICA Rights Center and NGO attorneys build the evidence package.
+1. **Never send an active-treatment patient to book a committee.** The 50% שר"מ rate is granted on documents for six months if the regimen is on the IV list.
+2. **A second opinion is a statutory right for every patient** (חוק זכויות החולה סעיף 7). שב"ן adds funding and choice of consultant, not the right. The opposite claim is wrong.
+3. **The appeal windows differ: 60 days for נכות כללית, 90 days for שר"מ, to a different body.** Sources giving one number for both are wrong.
+4. **Caregiver sick days come out of the caregiver's own accrued balance.** 60/90/110 are ceilings, not a separate budget.
+5. **The 25-employee threshold belongs to section 9 (representation), not to the individual accommodation right under section 8**, which has no size threshold.
+6. **Arnona is up to 80% with a full pension, up to 40% on medical disability alone**, and the municipality sets the rate.
+7. **Do NOT equate "Form 29c approved" with "the HMO will pay"**, confuse טיפול חמלה with a clinical trial, confuse the Helsinki committee (ניסויים) with the exceptions committee (מימון), or promise post-trial drug access.
+8. **Do NOT cite a court case, law section, form number or shekel figure you have not verified.** In oncology a fabricated entitlement is the worst thing this skill can produce.
 
 ## Reference Links
 
-| Source | URL | What to Check |
-|--------|-----|---------------|
-| Kolzchut -- Cancer Patients (EN) | https://www.kolzchut.org.il/en/Cancer_Patients | Authoritative consolidated rights entry point |
-| Kolzchut -- Special Services Allowance | https://www.kolzchut.org.il/en/Special_Services_Benefit_(Attendance_Allowance) | Full 4-rate table (50/112/188/235), child-under-3 supplement, ADL committee process |
-| Kolzchut -- Rights Guide for Chemotherapy Patients | https://www.kolzchut.org.il/en/Rights_Guide_for_Chemotherapy_Patients | Family sick days, home chemotherapy, work rights for cancer patients |
-| Bituach Leumi -- Disability Pension Amounts | https://www.btl.gov.il/benefits/Disability/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx | 2026 monthly amounts by earning-capacity loss percentage |
-| Bituach Leumi -- 2026 Rate Update | https://www.btl.gov.il/About/news/Pages/hadasaidkonkitzva2026.aspx | Annual rate update announcement |
-| Bituach Leumi -- Disabled Child (Malignancy) | https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/cancer.aspx | Pediatric cancer child-nechha eligibility and rates |
-| Kolzchut -- Appealing General Disability Decision (EN) | https://www.kolzchut.org.il/en/Appealing_a_General_Disability_Medical_Committee_Decision | 60-day appeal window, process, representation rules |
-| Kolzchut -- Appealing Special Services Decision (EN) | https://www.kolzchut.org.il/en/Appealing_a_Special_Services_Benefit_(Attendance_Allowance)_Decision | 60-day שר"מ appeal window |
-| Kolzchut -- Health Plan Fee Exemptions for the Seriously Ill | https://www.kolzchut.org.il/en/Health_Plan_Fee_Exemptions_for_the_Seriously_Ill | Co-pay exemption scope for cancer patients (Step 4b) |
-| Kolzchut -- Municipal Property Tax (Arnona) Discount for Cancer Patients | https://www.kolzchut.org.il/en/Municipal_Property_Tax_(Arnona)_Discount_for_Cancer_Patients | 40% arnona discount eligibility (Step 3g) |
-| ICA -- Medical Cannabis for Cancer Patients | https://www.cancer.org.il/articles/13264/ | Post-April-2024 reform: prescription-only flow for cancer patients (Step 4g) |
-| Halil HaOr (חלי"ל האור) | https://halil.org.il/ | Blood-cancer patient organization for leukemia, lymphoma, MM (Step 9) |
-| Kolzchut -- Exceptions Committee | https://www.kolzchut.org.il/en/Appealing_to_the_Health_Plan_Exceptions_Committee | Vaadat charigim process, package required |
-| Ministry of Health -- 2026 List of Medicines PDF | https://www.gov.il/BlobFolder/reports/hbs2026/he/files_committees_hbs_2026_List-of-medicines-and-medical-food-2026.pdf | Official 2026 basket drugs list |
-| Kolzchut -- Funding Medical Treatment Abroad | https://www.kolzchut.org.il/en/Funding_Medical_Treatment_Abroad | Criteria, process, appeal |
-| Kolzchut -- Fertility Preservation | https://www.kolzchut.org.il/en/Fertility_Preservation | Age limits, cycle caps, eligibility |
-| Kolzchut -- Supportive Home Care (Palliative) | https://www.kolzchut.org.il/en/Supportive_Home_Care_(Palliative_Care) | Free palliative care under the basket since 2009 |
-| Israeli Cancer Association | https://www.cancer.org.il/ | Telemeda hotline, rights helpdesk, transportation, wigs, accommodation |
-| Kolzchut -- Guide to Drugs Not in the Basket (HE) | https://www.kolzchut.org.il/he/%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%94%D7%A9%D7%92%D7%AA_%D7%AA%D7%A8%D7%95%D7%A4%D7%95%D7%AA_%D7%A9%D7%90%D7%99%D7%A0%D7%9F_%D7%91%D7%A1%D7%9C_%D7%94%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA | Form 29c, compassionate use (טיפול חמלה), off-label, all funding pathways |
-| MyTrial -- Israeli Clinical Trials Registry | https://www.gov.il/he/departments/general/clinical-trials-website | Mandatory MOH clinical trial registry, search by condition |
-| MOH Clinical Trials Procedure 14 (PDF) | https://www.gov.il/BlobFolder/policy/cth-14/he/files_publications_units_pharmaceutical_division_clinical_trials_cth-14.pdf | Helsinki, post-trial drug access, sponsor obligations |
-| Clalit Mushlam -- Extended Drug Coverage | https://mushlam.clalit.co.il/he/medications/Pages/kisuy_murhav_trufot.aspx | Off-label and unregistered-indication coverage caps |
-| Maccabi -- Non-Basket Drugs | https://www.maccabi4u.co.il/eligibilites/4327/ | Off-label and serious-disease drug coverage on Maccabi Zahav |
+| Source | URL |
+|--------|-----|
+| Kolzchut -- Cancer Patients (portal) | https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%9C%D7%99_%D7%A1%D7%A8%D7%98%D7%9F |
+| Bituach Leumi -- Oncology patients and survivors (hub for שיקום מקצועי, ילד נכה) | https://www.btl.gov.il/benefits/Disability/Pages/HolimONkologim.aspx |
+| Bituach Leumi -- שר"מ appeal, 90 days | https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a2%d7%a8%d7%a2%d7%95%d7%a8%20%d7%a2%d7%9c%20%d7%94%d7%97%d7%9c%d7%98%d7%aa%20%d7%94%d7%9e%d7%95%d7%a1%d7%93.aspx |
+| Bituach Leumi -- Pension amounts 2026 | https://www.btl.gov.il/benefits/Disability/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx |
+| Patient Rights Law 1996 (second opinion, s.7) | https://www.nevo.co.il/law_html/law00/71833.htm |
+| Equal Rights for Persons with Disabilities Law 1998 (s.8, s.9) | https://www.nevo.co.il/law_html/law01/p214m2_001.htm |
+| Arnona discount regulations 1993, reg. 2 | https://www.nevo.co.il/law_html/law01/297_032.htm |
+| National Health Insurance Law, second addendum (s.28 travel) | https://www.nevo.co.il/law_html/Law01/036_001.htm |
+| MOH circular 2/2026, 2026 basket additions (PDF) | https://www.gov.il/BlobFolder/policy/mk02-2026/he/files_circulars_mk_mk02-2026.pdf |
 
 ## Troubleshooting
 
-### Problem: "Bituach Leumi denied my disability claim"
-Cause: The medical committee decided the earning-capacity loss or disability percentage falls below threshold, or only paper documents were reviewed and key evidence was missing.
-Solution: File a written appeal within **60 days** to the Medical Appeals Committee (ועדה רפואית לעררים) -- same window for general disability (נכות כללית) and שר"מ committees. The patient may be represented by a lawyer or social worker. Strengthen the appeal with: the treating oncologist's detailed functional assessment, an occupational-therapy report, and evidence of worst-case days (not best). Bituach Leumi in practice accepts filings up to 90 days as informal grace, but do not rely on this window.
-
-### Problem: "My prescribed drug is not in the 2026 basket and the HMO refused to fund it"
-Cause: Drug is not yet in the basket, or is in the basket but for a different indication, or the HMO's internal protocol rejected it.
-Solution: Two parallel tracks. (1) **Exceptions committee** (Step 5a): ask for a written refusal, then submit a committee-review package (oncologist recommendation with medical literature, proof basket alternatives were tried, medical records). (2) **Supplementary insurance** (Step 5b) if enrolled in Mushlam Platinum, Maccabi Sheli, Meuhedet Si, or Leumit Gold -- check the plan's non-basket oncology-drug cap and foreign-registration rules. Route through the hospital oncology social worker and optionally the Patients' Rights Association for exceptions-committee representation.
-
-### Problem: "I want to preserve fertility but I am over 41" or "My employer pressured me to resign during treatment"
-Both cases are handled in the relevant step (Step 7 fertility, Step 8 work rights). Route to the oncology social worker first; for fertility specifically the HMO fertility unit can discuss private/supplementary options without delaying treatment; for work rights the ICA rights helpdesk (03-5721678) refers to employment counsel.
+- **"Bituach Leumi denied my claim"** -- appeal in writing: **60 days** to the ועדה רפואית לעררים (נכות כללית), **90 days** to the ועדת עררים לשירותים מיוחדים (שר"מ). יד מכוונת (*2496) prepares claimants free. Strengthen with the oncologist's functional assessment, an occupational-therapy report, and documentation of worst-case days.
+- **"My drug is not in the basket and the HMO refused"** -- run 5a and 5b in parallel, and read the תקנון PDF rather than trusting a remembered cap.
+- **"I am over 41 and want to preserve fertility"** -- Step 7; the HMO fertility unit can discuss private or שב"ן options without delaying treatment.
+- **"My employer pressured me to resign"** -- Step 8a, document in writing, escalate to the Commission for Equal Rights of Persons with Disabilities (*6763).

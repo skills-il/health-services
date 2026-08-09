@@ -59,8 +59,8 @@ Each of the four HMOs sells two supplementary tiers. Non-basket oncology drug co
 
 | HMO | Basic supplementary | Top supplementary | Non-basket oncology drug coverage |
 |-----|---------------------|-------------------|-----------------------------------|
-| Clalit | Mushlam Zahav | **Mushlam Platinum** | Up to ₪1M cap, including drugs unregistered in Israel if registered in a recognized Western country for the indication |
-| Maccabi | Maccabi Zahav | **Maccabi Sheli** | Up to ₪1M cap, drug must be registered in Israel, US, Canada, Australia, New Zealand, Switzerland, Norway, Iceland, or EU |
+| Clalit | Mushlam Zahav | **Mushlam Platinum** | Cap runs into the millions of shekels per insured, is a launch-year figure indexed annually, and carries a רצף טיפולי exception. Clalit's registration condition is that the drugs are `רשומות בישראל או שהוגשה בקשה לרישומן`. **Read the tier's תקנון PDF; do not quote a cap from memory.** |
+| Maccabi | Maccabi Zahav | **Maccabi Sheli** | Cap runs into the millions of shekels per insured and is indexed annually. A specific list of recognised registration countries was previously carried here and could not be sourced, so it has been removed. **Read the tier's תקנון PDF.** |
 | Meuhedet | Meuhedet Adif | **Meuhedet Si (שיא)** | Non-basket drug discounts on Adif; broader coverage on Si. Verify specific 2026 oncology caps in the plan's regulations PDF |
 | Leumit | Leumit Kesef (Silver) | **Leumit Zahav (Gold)** | Life-extending oncology drug coverage historically offered. Verify the 2026 regulations PDF |
 
@@ -72,9 +72,9 @@ Each of the four HMOs sells two supplementary tiers. Non-basket oncology drug co
 
 ## 4. Second Opinion (חוות דעת שנייה)
 
-- **NOT a codified right in the basic basket.** Do not tell a patient on basic-basket-only that they have a "right to a second opinion."
-- Delivered through supplementary plans: Mushlam Platinum, Maccabi Sheli, Meuhedet Si, and Leumit Gold all include second-opinion benefits, each with different rules (domestic only vs. domestic plus international, number of opinions covered, physician selection rules).
-- Leumit Gold explicitly advertises "second medical opinions" on its plan page.
+- **It IS a codified statutory right, for every patient, with no supplementary plan required.** Patient Rights Law, 1996, section 7: `מטופל זכאי להשיג מיוזמתו דעה נוספת לענין הטיפול בו; המטפל והמוסד הרפואי יסייעו למטופל בכל הדרוש למימוש זכות זו`. The right applies on the basic basket, and the treating clinician and institution must assist the patient in exercising it. Source: https://www.nevo.co.il/law_html/law00/71833.htm
+- **Never tell a basic-basket patient they have no second-opinion right.** Earlier versions of this file said exactly that, and it is contradicted by statute.
+- What the supplementary tiers (Mushlam Platinum, Maccabi Sheli, Meuhedet Si, Leumit Gold) add is **funding and free choice of a private consultant**, including consultations abroad on some tiers, with rules that differ per plan. That is a funding benefit layered on top of the statutory right, not the right itself.
 
 ## 5. Hospice and Palliative Care
 
@@ -110,7 +110,7 @@ Covered when both conditions are met:
 
 Permissible fields explicitly include: congenital defects, organ transplants, **tumors**, cardiovascular disease, CNS disease.
 
-When approved, the HMO funds: the medical treatment, flights, accommodation, food, and **one escort**.
+When approved, the regulations fund the **medical treatment**, subject to a **ceiling of USD 250,000**. Flights, accommodation, food and an escort are **not** part of the statutory entitlement under תקנות ביטוח בריאות ממלכתי (שירותי בריאות במדינות חוץ), התשנ"ה-1995. Where those are covered it is under a שב"ן plan, so check the patient's tier and never attribute them to the 1995 regulations.
 
 **Process:**
 1. Application to the HMO
@@ -120,13 +120,11 @@ Supplementary plans (Mushlam Platinum, Sheli, Si, Gold) offer parallel, often mo
 
 ## 8. Proton Therapy in Israel (2026 status)
 
-**No proton-therapy center is operational in Israel as of 2026.**
+Proton availability in Israel is changing, and any absolute statement in either direction dates fast and has been wrong before in this file.
 
-- Ichilov (Tel Aviv Sourasky) won the Ministry of Health tender in July 2020
-- Purchase agreement for two proton accelerators signed in January 2023
-- Expected opening around 2026 (verify current status before stating the center is open or not)
-
-Patients who need proton therapy today are funded abroad through the basket treatment-abroad track (section 7 above).
+- There is **no routinely funded proton-therapy service** in Israel. Where local access exists it is limited, and it is not a substitute for the treatment-abroad track (section 7 above).
+- Ichilov (Tel Aviv Sourasky) won the Ministry of Health tender in July 2020 and signed a purchase agreement for two proton accelerators in January 2023; the national centre is still not in routine service.
+- **Verify the current status with the treating hospital** before telling a patient either that proton therapy is available in Israel or that it is not.
 
 ## 9. CAR-T Cell Therapy Centers in Israel (mid-2025)
 
@@ -147,10 +145,10 @@ Source: PubMed entry for the HBI0101 phase Ia/b paper -- https://pubmed.ncbi.nlm
 ## Key source URLs
 
 - Ministry of Health -- 2026 List of Medicines PDF: https://www.gov.il/BlobFolder/reports/hbs2026/he/files_committees_hbs_2026_List-of-medicines-and-medical-food-2026.pdf
-- Kolzchut -- Appealing to the Health Plan Exceptions Committee: https://www.kolzchut.org.il/en/Appealing_to_the_Health_Plan_Exceptions_Committee
-- Kolzchut -- Supportive Home Care (Palliative Care): https://www.kolzchut.org.il/en/Supportive_Home_Care_(Palliative_Care)
-- Kolzchut -- Funding Medical Treatment Abroad: https://www.kolzchut.org.il/en/Funding_Medical_Treatment_Abroad
-- Kolzchut -- Fertility Preservation: https://www.kolzchut.org.il/en/Fertility_Preservation
+- Kolzchut -- Appealing to the Health Plan Exceptions Committee: https://www.kolzchut.org.il/he/%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%94%D7%A9%D7%92%D7%AA_%D7%AA%D7%A8%D7%95%D7%A4%D7%95%D7%AA_%D7%A9%D7%90%D7%99%D7%A0%D7%9F_%D7%91%D7%A1%D7%9C_%D7%94%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA
+- Kolzchut -- Supportive Home Care (Palliative Care): https://www.kolzchut.org.il/he/%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%99%D7%AA%D7%99_%D7%AA%D7%95%D7%9E%D7%9A_%28%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%A4%D7%9C%D7%99%D7%90%D7%98%D7%99%D7%91%D7%99%29
+- Kolzchut -- Funding Medical Treatment Abroad: https://www.kolzchut.org.il/he/%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%94%D7%A9%D7%92%D7%AA_%D7%AA%D7%A8%D7%95%D7%A4%D7%95%D7%AA_%D7%A9%D7%90%D7%99%D7%A0%D7%9F_%D7%91%D7%A1%D7%9C_%D7%94%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA
+- Kolzchut -- Fertility Preservation: https://www.kolzchut.org.il/he/%D7%94%D7%A4%D7%A7%D7%93%D7%AA_%D7%96%D7%A8%D7%A2
 - gov.il -- Oocyte cryopreservation: https://www.gov.il/he/service/oocyte-cryopreservation
 - Clalit -- Mushlam drugs page: https://mushlam.clalit.co.il/he/medications/Pages/drugs_uncovered.aspx
 - Maccabi -- Zahav regulations: https://www.maccabi4u.co.il/media/lxtetxif/maccabi_zahav_regulations.pdf
