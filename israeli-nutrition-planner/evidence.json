@@ -137,7 +137,7 @@
       "claim_id": "eran-1201-a",
       "claim": "ER\"N (Emotional First Aid) provides life-saving emotional first aid by phone or online in writing, and all contacts are anonymous. This is the only helpline number written into this skill, and it is general emotional first aid, not an eating-disorder service.",
       "source_url": "https://www.eran.org.il/online-emotional-help/",
-      "raw_snippet": "עמותת ער\"ן מעניקה עזרה ראשונה נפשית מצילה חיים בשיחה בטלפון או דרך המילה הכתובה, און ליין. הפניות כולן אנונימיות.",
+      "raw_snippet": "מעניקה עזרה ראשונה נפשית מצילה חיים בשיחה בטלפון או דרך המילה הכתובה, און ליין. הפניות כולן אנונימיות.",
       "fetched_at": "2026-08-09",
       "source_fetched_at": "2026-08-09",
       "appears_in": [
@@ -184,9 +184,9 @@
     },
     {
       "claim_id": "ul-iodine-iron-a",
-      "claim": "In the IOM Tolerable Upper Intake Levels (Elements) table the column order runs Arsenic, Boron, Calcium, Chromium, Copper, Fluoride, Iodine, Iron, Magnesium, ... so the 7th and 8th numeric columns are iodine (micrograms/day) and iron (milligrams/day).",
+      "claim": "In the IOM Tolerable Upper Intake Levels (Elements) table the iodine column follows the fluoride column.",
       "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t8/",
-      "raw_snippet": "Life Stage Group Arsenic a Boron (mg/d) Calcium (mg/d) Chromium Copper (μg/d) Fluoride (mg/d) Iodine (μg/d) Iron (mg/d) Magnesium (mg/d) b",
+      "raw_snippet": "Fluoride (mg/d) Iodine",
       "fetched_at": "2026-08-09",
       "source_fetched_at": "2026-08-09",
       "appears_in": [
@@ -196,9 +196,21 @@
     },
     {
       "claim_id": "ul-iodine-iron-b",
-      "claim": "For adults (Males 19-30 y and older) the tolerable upper intake levels are iodine 1,100 micrograms per day and iron 45 milligrams per day.",
+      "claim": "In the same header row the iron column, in mg/d, follows the iodine column and precedes magnesium, so the 7th and 8th numeric columns are iodine and iron.",
       "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t8/",
-      "raw_snippet": "19–30 y ND 20 2,500 ND 10,000 10 1,100 45 350 11 2,000 1.0 4 400 ND 1.8 40 2.3 3.6",
+      "raw_snippet": "g/d) Iron (mg/d) Magnesium (mg/d)",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8.5",
+        "SKILL_HE.md step 8.5"
+      ]
+    },
+    {
+      "claim_id": "ul-iodine-iron-c",
+      "claim": "In the adult rows the values in those two columns are 1,100 (iodine, micrograms/day) and 45 (iron, milligrams/day).",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t8/",
+      "raw_snippet": "10,000 10 1,100 45 350 11 2,000 1.0 4 400",
       "fetched_at": "2026-08-09",
       "source_fetched_at": "2026-08-09",
       "appears_in": [
