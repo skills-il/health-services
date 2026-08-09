@@ -90,19 +90,36 @@
       ]
     },
     {
-      "claim_id": "green-label-prepared-dishes-2026",
-      "claim": "The green-label criteria are reviewed by an independent professional scientific committee that updates them annually. On 23 February 2026 the Ministry of Health published an update adding a new eligible category, Prepared Dishes and Salads, covering ready-to-eat or packaged legume salads, vegetable- and whole-grain-based dishes, hearty soups, and combined meals whose every ingredient meets the criteria. This is why the green label must not be described as static.",
+      "claim_id": "green-label-prepared-dishes-2026-a",
+      "claim": "In an update dated 23.02.2026 the Ministry of Health added a new green-label category, Prepared Dishes and Salads, covering ready-to-eat or packaged legume salads, vegetable- and whole-grain-based dishes, hearty soups, and combined meals whose every ingredient meets the criteria.",
       "source_url": "https://www.gov.il/en/pages/23022026-01",
-      "raw_snippet": "The table of foods approved to carry the green label has been updated. As part of this update, a new category \"Prepared Dishes and Salads\" has been added. ... Products eligible for the label are reviewed by an independent professional scientific committee, which updates the criteria annually based on scientific advances, field inquiries, and public health needs.",
+      "raw_snippet": "The table of foods approved to carry the green label has been updated. As part of this update, a new category \"Prepared Dishes and Salads\" has been added. From now on, ready-to-eat or packaged items such as legume salads, vegetable- and whole-grain-based dishes, hearty soups, and combined meals can carry the green label, provided all ingredients meet the established nutritional requirements.",
       "fetched_at": "2026-08-09",
-      "verified_via": "browser",
-      "verified_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md Step 3",
         "SKILL.md Gotchas",
         "SKILL_HE.md step 3",
         "references/red-green-labels.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "green-label-prepared-dishes-2026-b",
+      "claim": "Green-label criteria are reviewed by an independent professional scientific committee that updates them annually, so the label must not be described as static.",
+      "source_url": "https://www.gov.il/en/pages/23022026-01",
+      "raw_snippet": "Products eligible for the label are reviewed by an independent professional scientific committee, which updates the criteria annually based on scientific advances, field inquiries, and public health needs.",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 3",
+        "SKILL.md Gotchas",
+        "SKILL_HE.md step 3",
+        "references/red-green-labels.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
     },
     {
       "claim_id": "red-meat-300g",
@@ -117,11 +134,25 @@
       ]
     },
     {
-      "claim_id": "eran-1201",
-      "claim": "ER\"N (Emotional First Aid) operates a free, anonymous national emotional-support hotline reachable on 1201, plus online chat, serving the whole Israeli public in a range of languages. This is the only helpline number written into this skill, and it is general emotional first aid, not an eating-disorder service.",
-      "source_url": "https://www.eran.org.il/",
-      "raw_snippet": "קו חם 1201",
+      "claim_id": "eran-1201-a",
+      "claim": "ER\"N (Emotional First Aid) provides life-saving emotional first aid by phone or online in writing, and all contacts are anonymous. This is the only helpline number written into this skill, and it is general emotional first aid, not an eating-disorder service.",
+      "source_url": "https://www.eran.org.il/online-emotional-help/",
+      "raw_snippet": "עמותת ער\"ן מעניקה עזרה ראשונה נפשית מצילה חיים בשיחה בטלפון או דרך המילה הכתובה, און ליין. הפניות כולן אנונימיות.",
       "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 1.5",
+        "SKILL.md Reference Links",
+        "SKILL_HE.md step 1.5"
+      ]
+    },
+    {
+      "claim_id": "eran-1201-b",
+      "claim": "The ER\"N phone line 1201 is available 24/7.",
+      "source_url": "https://www.eran.org.il/online-emotional-help/",
+      "raw_snippet": "התקשרו 1201 24/7 חייגו 1201",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md Step 1.5",
         "SKILL.md Reference Links",
@@ -152,22 +183,49 @@
       ]
     },
     {
-      "claim_id": "ul-iodine-iron",
-      "claim": "Institute of Medicine Dietary Reference Intakes, tolerable upper intake levels for adults: iodine 1,100 micrograms per day and iron 45 milligrams per day.",
+      "claim_id": "ul-iodine-iron-a",
+      "claim": "In the IOM Tolerable Upper Intake Levels (Elements) table the column order runs Arsenic, Boron, Calcium, Chromium, Copper, Fluoride, Iodine, Iron, Magnesium, ... so the 7th and 8th numeric columns are iodine (micrograms/day) and iron (milligrams/day).",
       "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t8/",
-      "raw_snippet": "Iodine ... 1,100 45 350",
+      "raw_snippet": "Life Stage Group Arsenic a Boron (mg/d) Calcium (mg/d) Chromium Copper (μg/d) Fluoride (mg/d) Iodine (μg/d) Iron (mg/d) Magnesium (mg/d) b",
       "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md Step 8.5",
         "SKILL_HE.md step 8.5"
       ]
     },
     {
-      "claim_id": "iodine-deficiency-israel",
-      "claim": "Israel has no mandatory salt-iodization policy and relies heavily on desalinated water, and national biomonitoring found a median urinary iodine concentration of 64.5 micrograms per litre in adults, below the WHO adequacy floor of 100.",
-      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8960077/",
-      "raw_snippet": "In light of Israel's lack of a mandatory salt fortification policy, heavy reliance on desalination ... The median UIC in adults was 64.5",
+      "claim_id": "ul-iodine-iron-b",
+      "claim": "For adults (Males 19-30 y and older) the tolerable upper intake levels are iodine 1,100 micrograms per day and iron 45 milligrams per day.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t8/",
+      "raw_snippet": "19–30 y ND 20 2,500 ND 10,000 10 1,100 45 350 11 2,000 1.0 4 400 ND 1.8 40 2.3 3.6",
       "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8.5",
+        "SKILL_HE.md step 8.5"
+      ]
+    },
+    {
+      "claim_id": "iodine-deficiency-israel-a",
+      "claim": "Israel has no mandatory salt-iodization policy and relies heavily on desalination, raising concern that the population is iodine deficient.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8960077/",
+      "raw_snippet": "In light of Israel's lack of a mandatory salt fortification policy, heavy reliance on desalination and low iodine intake from dairy products and seafood, there is concern in Israel that the population is iodine deficient.",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Gotchas",
+        "SKILL_HE.md gotchas",
+        "references/staples-and-nutrient-gaps.md"
+      ]
+    },
+    {
+      "claim_id": "iodine-deficiency-israel-b",
+      "claim": "National biomonitoring found a median urinary iodine concentration of 64.5 micrograms per litre in adults, below the WHO adequacy floor of 100.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8960077/",
+      "raw_snippet": "The median UIC in adults was 64.5 µg/L, even lower than that in children.",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md Gotchas",
         "SKILL_HE.md gotchas",
