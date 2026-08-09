@@ -1,22 +1,26 @@
 {
   "author": "skills-il",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "category": "health-services",
   "tags": {
     "he": [
       "קופת-חולים",
       "בריאות",
       "סל-בריאות",
+      "השתתפות-עצמית",
+      "חדר-מיון",
+      "טופס-17",
       "ביטוח-משלים",
-      "הפניה",
       "ישראל"
     ],
     "en": [
       "hmo",
       "healthcare",
       "health-basket",
+      "copayments",
+      "emergency-room",
+      "form-17",
       "supplementary-insurance",
-      "referral",
       "israel"
     ]
   },
@@ -25,8 +29,8 @@
     "en": "Israeli HMO Navigator"
   },
   "display_description": {
-    "he": "ניווט במערכת קופות החולים בארץ - השוואת שירותים, הפניות למומחים והחלטות כיסוי. השתמשו בזה כשהמשתמש שואל על כללית, מכבי, מאוחדת, לאומית, סל הבריאות, הפניות, ביטוח משלים או מעבר בין קופות. לא מתאים לייעוץ רפואי דחוף או מידע על תרופות.",
-    "en": "Navigate Israel's four HMOs (kupot cholim) and healthcare system for service comparisons, referrals, and coverage decisions. Use when user asks about Clalit, Maccabi, Meuhedet, Leumit, health basket, specialist referrals, supplementary insurance, or switching HMOs."
+    "he": "מה באמת עולה ביקור אצל מומחה, מוקד ערב או חדר מיון בכל אחת מארבע הקופות, מתי מגיע פטור מלא ממיון, איך מקבלים החזר בדיעבד, ומה עובר איתכם כשמחליפים קופה. השתמשו בזה כשהמשתמש שואל על כללית, מכבי, מאוחדת, לאומית, השתתפות עצמית, אגרת מיון, טופס 17, החזר על אמבולנס, תרופות מרשם או מעבר בין קופות. לא מתאים לייעוץ רפואי דחוף.",
+    "en": "What a specialist visit, an out-of-hours clinic or an emergency room actually costs at each of Israel's four HMOs, when the statutory emergency-room waiver applies, how to claim a refund after the fact, and what carries over when you switch funds. Use when the user asks about Clalit, Maccabi, Meuhedet, Leumit, copayments, the emergency-room fee, Form 17, ambulance refunds, prescription copays or switching HMOs."
   },
   "supported_agents": [
     "claude-code",
@@ -36,6 +40,10 @@
     "opencode",
     "codex",
     "antigravity",
-    "gemini-cli"
+    "gemini-cli",
+    "claude-ai",
+    "chatgpt",
+    "manus",
+    "gemini-spark"
   ]
 }

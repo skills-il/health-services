@@ -1,127 +1,1133 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-hmo-navigator",
-  "generated_at": "2026-05-25T20:30:00Z",
+  "generated_at": "2026-08-09T00:00:00Z",
+  "notes": "Rebuilt for v2.0.0. Every entry carries a deep link and a verbatim snippet from that page. The v1.3.0 entries copayments-2026 and sal-briut-2026-budget cited the bare homepage https://www.health.gov.il, which no --check-sources pass could ever falsify, and their snippets were reconstructed rather than quoted. Both are removed. Three v1.3.0 URLs were hard 404s (btl.gov.il/benefits/Health_Insurance/..., btl.gov.il/About/yedion/Pages/yedion202507.aspx, kolzchut.org.il/he/ביטוח_בריאות_משלים) and two more were malformed (kolzchut Switching_Health_Plans_(Kupot_Cholim, missing its closing paren). All are removed. The three health.gov.il/Subjects/* URLs returned 202 Akamai challenges and sit on the retiring legacy tree; they are replaced by call.gov.il and gov.il/he/departments/ministry_of_health. Snippets are never de-dashed.",
   "claims": [
     {
-      "claim_id": "nhi-law-1995",
-      "claim": "Israel's National Health Insurance Law (Chok Bituach Briut Mamlachti) enacted 1995 mandates universal coverage through four HMOs",
-      "source_url": "https://www.btl.gov.il/benefits/Health_Insurance/Pages/default.aspx",
-      "raw_snippet": "חוק ביטוח בריאות ממלכתי 1995",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "circular-quarter-definition",
+      "claim": "Circular 1/2025 section 15.6 defines the quarter as a FLOATING three months from the visit date for the exemption, while the family ceiling for those same visits is computed on the CALENDAR quarter. For other services and for drugs, quarter means the calendar quarter. Leumit's own heading calls it a floating quarter.",
+      "source_url": "https://call.gov.il/page/GE41",
+      "raw_snippet": "רבעון - בעבור שירות של ביקור אצל רופא, מכון או מרפאת חוץ שנקבע לגביו תשלום אחת לרבעון, יהיה החבר פטור מתשלום בעבור אותו שירות במשך שלושה חודשים מיום הביקור (גם אם התקופה האמורה חלה לאחר תום הרבעון הקלנדרי שבו היה אותו ביקור), ואולם התקרה בעד ביקורים כאמור תחושב על בסיס רבעון קלנדרי.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 section 15.6, restated verbatim in HTML on the MoH cross-kupah page, which is machine-readable where the circular PDF is not."
     },
     {
-      "claim_id": "hmo-memberships-2026",
-      "claim": "Approximate HMO memberships 2026: Clalit ~4.8M (52%), Maccabi ~2.6M (27%), Meuhedet ~1.3M (14%), Leumit ~1.0M (9%)",
-      "source_url": "https://www.btl.gov.il/About/yedion/Pages/yedion202507.aspx",
-      "raw_snippet": "Clalit 52%, Maccabi 27%, Meuhedet 14%, Leumit 9% (~4.8M, 2.6M, 1.3M, 1.0M)",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "circular-quarter-other-services",
+      "claim": "For services other than doctor, institute and outpatient visits, and for drugs, quarter means the calendar quarter (circular section 15.6, second limb).",
+      "source_url": "https://call.gov.il/page/GE41",
+      "raw_snippet": "לעניין שירותים אחרים ותרופות, \"רבעון\" משמעו רבעון קלנדרי.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
     },
     {
-      "claim_id": "hmo-switching-rules",
-      "claim": "HMO switching: up to twice per 12 months, 6 fixed effective dates per year (Jan 1, Mar 1, May 1, Jul 1, Sep 1, Nov 1), apply by 15th of preceding two months",
-      "source_url": "https://www.kolzchut.org.il/en/Switching_Health_Plans_(Kupot_Cholim",
-      "raw_snippet": "Switching Health Plans rules",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "circular-primary-doctor",
+      "claim": "Circular section 15.7 defines a primary doctor (free): general practitioners who are not specialists, plus specialists in family medicine, paediatrics, internal medicine and gynaecology.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "רופאים כלליים (שאינם מומחים), ורופאים מומחים בענפי הרפואה הבאים: רפואת המשפחה, רפואת ילדים, רפואה פנימית וגניקולוגיה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
     },
     {
-      "claim_id": "supplementary-tier-names",
-      "claim": "Supplementary tier names: Clalit Mushlam / Mushlam Platinum; Maccabi Zahav (entry) / Sheli (premium); Meuhedet Adif / Adif C; Leumit Silver / Gold",
-      "source_url": "https://www.kolzchut.org.il/he/ביטוח_בריאות_משלים",
-      "raw_snippet": "Mushlam, Zahav, Sheli, Adif, Silver, Gold",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "circular-secondary-doctor",
+      "claim": "Circular section 15.8 defines a secondary doctor (paid, once per floating quarter): a community specialist not within the primary definition, including a psychiatrist, and for the purposes of this circular also a dietitian and a podiatrist.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "רופא מומחה בקהילה, שאינו נכלל בהגדרת רופא ראשוני (כולל פסיכיאטר), ולעניין חוזר זה – גם דיאטנית ופודיאטריה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
     },
     {
-      "claim_id": "sal-briut-2026-budget",
-      "claim": "Sal Briut (health basket) 2026 NIS 650M budget; priorities: cancer therapies, expanded mental health drug coverage, PGT for BRCA1/BRCA2 carriers",
-      "source_url": "https://www.health.gov.il",
-      "raw_snippet": "סל בריאות 2026, 650 מיליון ש\"ח, BRCA",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "circular-outpatient-definition",
+      "claim": "Circular section 15.4 defines outpatient clinics as clinics operating within general hospitals, including mental-health clinics inside general hospitals. Section 15.2 covers institutes outside general hospitals. Section 15.10 exempts occupational medicine.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "מרפאות הפועלות במסגרת בתי חולים כלליים (כולל מרפאות בריאות הנפש בבתי חולים כלליים)",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
     },
     {
-      "claim_id": "myhealth-marpe-portal",
-      "claim": "MyHealth (Marpe) is the Israeli Ministry of Health national patient portal, a cross-HMO read-only health record viewer that complements but does not replace HMO apps",
-      "source_url": "https://www.health.gov.il/Subjects/Personal_information",
-      "raw_snippet": "MyHealth, מרפא",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "statutory-copay-table-1-2025",
+      "claim": "Statutory copayment table, circular 1/2025 effective 1.4.2025, in shekels, by kupah Clalit / Maccabi / Meuhedet / Leumit. Secondary doctor per quarter 30.16 / 33.32 / 32.50 / 40.45. Outpatient clinics per quarter 40.45 / 39.73 / 40.45 / 40.45. Institutes per quarter 40.45 / 39.73 / 40.45 / 40.45. Physiotherapy per quarter 40.45 / 41.01 / 40.01 / 39.82. Speech therapy per quarter 37.17 / 41.01 / 36.26 / 37.17. Quarterly family ceiling 242.71 / 257.59 / 283.17 / 303.39. Halved ceiling for an oleh or above retirement age 121.36 / 128.16 / 141.58 / 151.70. Monthly chronic-patient drug ceiling 384.30 / 367.08 / 444.97 / 444.97, with Meuhedet reckoned בחישוב חציוני. Clalit's medical-food comparator figure is 854.64. Maccabi has no retrievable 2026 table, so these 2025 values are used for Maccabi and labelled 2025.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "חוזר סמנכ\"ל לפיקוח על קופות החולים ושב\"ן 1/2025",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
     },
     {
-      "claim_id": "moh-ombudsman",
-      "claim": "Netziv Kvilanot HaTzibur (Ministry of Health Ombudsman) handles complaints not resolved by HMO patient advocate",
-      "source_url": "https://www.health.gov.il/Subjects/HealthSystem/Complaints",
-      "raw_snippet": "נציב קבילות הציבור",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "circular-psychotherapy-copays",
+      "claim": "Circular section 12: psychotherapy by independent therapists since 1.7.15 costs 68.65 for the first session, 164.75 for each session after the first, and 75.51 for a group session, indexed from original amounts of 50, 120 and 55.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "טיפול ראשון – 68.65 ₪ (במקור 50 ₪); מעבר לטיפול הראשון – 164.75 ₪ (במקור 120 ₪); טיפול קבוצתי – 75.51 ₪ (במקור 55 ₪).",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
     },
     {
-      "claim_id": "ref-kolzchut-switching",
-      "claim": "Kol Zchut HMO switching rules reference (EN and HE versions)",
-      "source_url": "https://www.kolzchut.org.il/en/Switching_Health_Plans_(Kupot_Cholim",
-      "raw_snippet": "Switching Health Plans",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "circular-home-visits-and-urgent-care",
+      "claim": "Circular Second Schedule Part Two: doctor's home visit while the clinic is open 24.38; home visit while the clinic is closed 104.84; emergency services when the clinic is closed 104.84, except Meuhedet which is authorised to charge separately. Meuhedet's separately approved amounts under section 14.3 are 105.02 for the night moked, 202.26 for an out-of-hours home visit and a 131.47 cap for an in-hours home visit.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "שירותי חירום (מד\"א, שר\"ל וכד') כאשר המרפאה סגורה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
     },
     {
-      "claim_id": "ref-kolzchut-switching-he",
-      "claim": "Kol Zchut HMO switching Hebrew reference",
-      "source_url": "https://www.kolzchut.org.il/he/מעבר_בין_קופות_חולים",
-      "raw_snippet": "מעבר בין קופות חולים",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL_HE.md"]
+      "claim_id": "circular-stacking-rules",
+      "claim": "Circular section 18 stacking rules: ceilings of the same kind do not accumulate except for drug discounts, so an oleh who is also above retirement age gets 50% and not an accumulated 25%; ceilings of different kinds do accumulate; and entitlement to a discount does not remove entitlement to a ceiling.",
+      "source_url": "https://call.gov.il/page/GE41",
+      "raw_snippet": "התקרות מאותו סוג אינן מצטברות למעט ההנחות בתרופות. לדוגמא: התקרה המשפחתית לעולה חדש שהוא גם מעל גיל פרישה תהיה 50% (ולא מצטברת 25%).",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
     },
     {
-      "claim_id": "copayments-2026",
-      "claim": "Standard HMO copayments (basic basket) approximate ranges 2026: primary care visit 0 ש\"ח / 0 NIS, specialist visit 20-30 ש\"ח / 30 NIS, ER 100-160 ש\"ח / 100 NIS / 160 NIS (waived if admitted), prescription generic 10-15 ש\"ח / 15 NIS, prescription brand 15-50 ש\"ח / 50 NIS, blood tests 0 ש\"ח, MRI/CT 0-50 ש\"ח / 50 NIS, physiotherapy 20-30 ש\"ח / 30 NIS, mental health session 0-30 ש\"ח / 30 NIS",
-      "source_url": "https://www.health.gov.il",
-      "raw_snippet": "השתתפות עצמית: 0 ש\"ח (רופא משפחה / בדיקות דם), 30 ש\"ח (מומחה / פיזיותרפיה / בריאות הנפש), 100 ש\"ח (מיון), 160 ש\"ח (מיון בקצה), 15 ש\"ח (תרופה גנרית), 50 ש\"ח (תרופה ייחודית / MRI/CT). Equivalent NIS values: 0 NIS, 15 NIS, 30 NIS, 50 NIS, 100 NIS, 160 NIS.",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "circular-stacking-different-kinds",
+      "claim": "Circular sections 18.2 and 18.3: ceilings of different kinds apply cumulatively, and a discount entitlement does not detract from the ceiling entitlement.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "תקרות מסוגים שונים חלות באופן מצטבר על המבוטח.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
     },
     {
-      "claim_id": "supplementary-pricing",
-      "claim": "Supplementary insurance monthly pricing 2026: Level 1 (basic upgrade) approximately 30-80 ש\"ח / 80 NIS per person scaling with age; Level 2 (premium) approximately 80-200 ש\"ח / 200 NIS per person scaling with age",
-      "source_url": "https://www.kolzchut.org.il/he/ביטוח_בריאות_משלים",
-      "raw_snippet": "ביטוח משלים: 30-80 ש\"ח רמה 1 (80 NIS), 80-200 ש\"ח רמה 2 (200 NIS) לאדם, משתנה לפי גיל",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "circular-retirement-age-trap",
+      "claim": "Circular section 17.2: the family ceiling uses MANDATORY retirement age, expressly unlike sections 16.1 and 16.8.2 which use OPTIONAL retirement age.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "יודגש, כי לעניין סעיף זה ולהבדיל מן האמור בסעיפים 16.1 ו-16.8.2, המדובר בגיל פרישה חובה ולא בגיל פרישה רשות",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular section 17.2. Corroborated in HTML on call.gov.il, which defines the ceiling age as גיל פרישת חובה per the National Health Insurance Law."
     },
     {
-      "claim_id": "ref-btl-hmo-transfer",
-      "claim": "Bituach Leumi HMO transfer portal",
-      "source_url": "https://b2b.btl.gov.il/BTL.ILG.Payments/MaavarKupotCholimInfo.aspx",
-      "raw_snippet": "Maavar Kupot Cholim",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "circular-exempt-populations-16-1",
+      "claim": "Circular section 16.1 exempts from all copays a member who has reached retirement age and receives an income-support benefit or a benefit under סעיף 11 of the Prisoners of Zion compensation law, and a member and dependants receiving a chapter 9 National Insurance disability benefit, and a member under 18 years and 3 months receiving a mobility-allowance benefit.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "חבר שהגיע לגיל הפרישה ... ושמשתלמת בעדו גמלה לפי חוק הבטחת הכנסה ... או לפי סעיף 11 לחוק תגמולים לאסירי ציון",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
     },
     {
-      "claim_id": "ref-nbn-kupot",
-      "claim": "Nefesh B'Nefesh kupat cholim guide for olim",
-      "source_url": "https://www.nbn.org.il/life-in-israel/healthcare-in-israel/kupot-cholim/kupot-cholim/",
-      "raw_snippet": "Nefesh B'Nefesh kupot cholim",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "circular-mobility-and-disability-exemption",
+      "claim": "Circular section 16.1 continued: a member and dependants receiving a chapter 9 benefit, and a member under 18 years and 3 months old receiving a mobility-allowance benefit, are exempt.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "חבר והתלויים בו שמשתלמת בעדם גמלה לפי פרק ט' לחוק הביטוח הלאומי",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
     },
     {
-      "claim_id": "ref-moh-portal",
-      "claim": "Ministry of Health main portal",
-      "source_url": "https://www.health.gov.il",
-      "raw_snippet": "health.gov.il",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "circular-disease-exemption-list",
+      "claim": "Circular sections 16.2 and 16.3 exempt dialysis, oncology, AIDS, Gaucher, CF, thalassaemia, haemophilia and tuberculosis patients from outpatient and institute copays and from disease-specific drug copays. Leumit adds that this does not cover the secondary-doctor visit. Section 16.6 covers organ donors, 16.7 child development, 16.9 family health stations since 2010.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "חולי דיאליזה, אונקולוגיה, איידס, גושה, CF, תלסמיה, המופיליה ושחפת.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
     },
     {
-      "claim_id": "ref-yadlolim-basket",
-      "claim": "Yadlolim health basket reference",
-      "source_url": "https://www.yadlolim.org/healthcare/what-is-the-healthcare-basket",
-      "raw_snippet": "what is the healthcare basket",
-      "fetched_at": "2026-05-25T20:30:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "circular-tipat-halav-exemption",
+      "claim": "Circular section 16.9: no payment has been charged for services at family health stations (tipat halav) since 2010.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "החל משנת 2010 לא יגבה תשלום בעד שירותים בתחנות לבריאות המשפחה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
+    },
+    {
+      "claim_id": "circular-senior-drug-discount-72",
+      "claim": "Circular section 16.8.3: a member aged 72 gets a 10% discount on drug copays. The threshold was changed on 1.1.16 from 75 and over to 72 and over. The figure 75 is superseded. Section 16.8 also gives 50% to an oleh in the first 12 months, to income-support and Prisoners-of-Zion recipients who are senior citizens, and to an oleh from month 13 to month 36; and 100% to needy WWII veterans under section 16.8.4 defined by eight enumerated payment sources.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "חבר שמלאו לו 72 שנה זכאי ל-10% הנחה בהשתתפות העצמית בתרופות (החל מה-1.1.16 שונה מבחן התמיכה למתן הנחה בתרופות לקשישים כך שההנחה תינתן למבוטחים בגילאי 72 ומעלה במקום גילאי 75 ומעלה).",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
+    },
+    {
+      "claim_id": "circular-holocaust-survivor-drug-exemption",
+      "claim": "Holocaust survivors receiving a monthly allowance, a one-off payment or benefits under one of the listed arrangements get a full exemption from prescription copays for basket drugs (Government Decision 1568 of 27.4.14).",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "ניצולי שואה המקבלים קצבה חודשית או פיצוי חד פעמי או הטבות מכוח אחד ההסדרים שלהלן זכאים למתן פטור מלא מתשלום דמי השתתפות עצמית בגין רכישת תרופות מרשם שבסל",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
+    },
+    {
+      "claim_id": "circular-road-accident-exemption",
+      "claim": "Circular section 16.4: a kupah may not charge a road-accident victim a copayment for Second Schedule services given because of that injury. Section 16.5 says the same for a work-accident victim as defined in chapter 5 of the National Insurance Law.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "קופת חולים לא תגבה מנפגע תאונת דרכים תשלום השתתפות עצמית בעבור שירותים הכלולים בתוספת השניה ... הניתנים לו בשל הפגיעה האמורה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
+    },
+    {
+      "claim_id": "circular-work-accident-exemption",
+      "claim": "Circular section 16.5: a kupah may not charge a work-accident victim a copayment for services given because of a work injury as defined in chapter 5 of the National Insurance Law.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "קופת חולים לא תגבה מנפגע תאונת עבודה תשלום השתתפות עצמית ... בשל פגיעה בעבודה כהגדרתה בפרק ה' לחוק הביטוח הלאומי",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
+    },
+    {
+      "claim_id": "moh-family-ceilings-ge41",
+      "claim": "MoH cross-kupah page, marked as correct to 21/08/2025, publishes the quarterly family ceilings: Clalit 242.71, Maccabi 257.59, Meuhedet 283.17, Leumit 303.39.",
+      "source_url": "https://call.gov.il/page/GE41",
+      "raw_snippet": "שירותי בריאות כללית - 242.71 ש\"ח",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "moh-ceiling-scope",
+      "claim": "MoH cross-kupah page defines which visits count toward the quarterly family ceiling: primary doctor, secondary doctor, outpatient clinics and institutes, with children counted to age 18. Dental copays are excluded.",
+      "source_url": "https://call.gov.il/page/GE41",
+      "raw_snippet": "תקרת תשלום למשפחה (ילדים - עד גיל 18) - תקרה רבעונית המתייחסת להשתתפויות בגין ביקור אצל: רופא ראשוני, רופא שניוני, מרפאות חוץ ומכונים.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "moh-ceilings-other-kupot",
+      "claim": "MoH cross-kupah page ceiling lines for the remaining three kupot: Maccabi 257.59, Meuhedet 283.17 and Leumit 303.39.",
+      "source_url": "https://call.gov.il/page/GE41",
+      "raw_snippet": "קופת חולים לאומית - 303.39 ש\"ח",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "clalit-tariffs-2026",
+      "claim": "Clalit's own tariff page, dated עודכן: 30.06.2026, in shekels: specialist or dietitian 31 for the first visit per profession per quarter; institutes and hospital outpatient clinics 41 with Form 17; physiotherapy and occupational therapy 41; communication disorders 38; child-development paramedical treatment 37 per treatment; mental health 70 first visit, 170 second onward, 78 group; family ceiling 250 per calendar quarter, 125 at mandatory retirement age or for an oleh in the first year; medical food 883 per month; chronic drugs 1,191 per quarter splittable into three monthly payments of 397; halved variant 595 per quarter and 198 per month; prescription floor 21.32 in 2026. Clalit's emergency room charges 1,199 for a 06:00-01:00 unreferred visit whose reason is not in the law, 269 as agra only between 01:00 and 06:00 or where the visit is retrospectively found justified, and 0 where the reason is on the statutory exempt list. Clalit's out-of-hours moked is 108 on a weekday and 54 on Shabbat or a holiday, and a home visit is free during clinic hours and 108 when the clinic and the moked are both closed.",
+      "source_url": "https://www.clalit.co.il/he/info/about_site/Pages/sherutim_betashlum.aspx",
+      "raw_snippet": "31 ש\"ח לביקור ראשון למקצוע",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "clalit-institutes-tariff",
+      "claim": "Clalit charges 41 for the first visit per service type or profession with the same provider per quarter, at institutes and hospital outpatient clinics.",
+      "source_url": "https://www.clalit.co.il/he/info/about_site/Pages/sherutim_betashlum.aspx",
+      "raw_snippet": "41 ש\"ח לביקור ראשון לסוג שירות או למקצוע אצל אותו נותן שירות",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "clalit-chronic-drug-split",
+      "claim": "Clalit's chronic-drug quarterly ceiling of 1,191 may be split into three monthly payments of 397 each.",
+      "source_url": "https://www.clalit.co.il/he/info/about_site/Pages/sherutim_betashlum.aspx",
+      "raw_snippet": "ניתן לפרוס ל־3 תשלומים חודשיים בסך 397",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "clalit-er-tariff",
+      "claim": "Clalit charges 1,199 for a 06:00-01:00 emergency-room visit whose reason is not in the law and which has no doctor's referral, and 269 as the agra alone for a 01:00-06:00 visit, both stated to be per the MoH tariff and linked to the price of a hospitalisation day.",
+      "source_url": "https://www.clalit.co.il/he/info/about_site/Pages/sherutim_betashlum.aspx",
+      "raw_snippet": "ביקור במיון משעה 6:00 בבוקר עד 1:00 בלילה מסיבה שאינה מנויה בחוק וללא הפניה של רופא/ה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/copay-tables.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "clalit-prescription-scheme",
+      "claim": "Clalit's prescription scheme is structurally different from the other three: a fee of 15% of the maximum consumer price or the per-package floor, whichever is the HIGHER, and where the consumer price is below the floor the fee is the consumer price. The floor on Clalit's live 2026 page is 21.32; the older figure documented against the circular era is 20.64. With a registered generic Clalit charges 10% or the floor per package, whichever is higher.",
+      "source_url": "https://www.clalit.co.il/he/info/about_site/Pages/sherutim_betashlum.aspx",
+      "raw_snippet": "אגרה בשיעור 15% מהמחיר המרבי לצרכן או 21.32 ש\"ח לאריזה - הגבוה מביניהם.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "clalit-shabbat-moked-window",
+      "claim": "Clalit's reduced Shabbat and holiday moked rate of 54 applies from the entry of Shabbat or the holiday until its exit, and its 108 home-visit charge applies from midnight to 6am when the clinic and moked are both closed.",
+      "source_url": "https://www.clalit.co.il/he/info/about_site/Pages/sherutim_betashlum.aspx",
+      "raw_snippet": "מכניסת השבת/חג ועד צאת השבת/חג",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "leumit-tariffs-2026",
+      "claim": "Leumit's own tariff page, dated נכון ל- 01 ביולי, 2026, in shekels: specialist 41; institutes and outpatient clinics 41.70; dietitian 41; physiotherapy 41.10; adult speech therapy 38.30; child development 37.70 per treatment; psychotherapy 70.90 then 170.10 then 78 for a group; chronic drugs 1,332.90 per quarter; medical food 882.80 per month; cannabis licence 384.60 per year; alopecia wig 5,753.90; fertility ceiling 251.80; prescription floor 20.80 with an upper threshold of 156.30. Leumit's weekday evening moked is 99, Shabbat 77, and a home visit is 108.30 without supplementary cover, 61 on the silver tier and 51 on the gold tier. Leumit's reduced emergency-room agra is 259 and it caps a non-exempt emergency-room visit at 600.",
+      "source_url": "https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/",
+      "raw_snippet": "שיעורי ההשתתפויות הרבעוניות עבור שירותי הסל (תשלום עבור רבעון צף)",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "entity-decoded-fetch",
+      "verified_at": "2026-08-09",
+      "source_note": "Leumit's tariff page HTML-entity-encodes its Hebrew, so the gate's plain-text match cannot succeed. Snippet confirmed on 2026-08-09 by fetching the page and unescaping HTML entities before matching."
+    },
+    {
+      "claim_id": "leumit-family-ceiling",
+      "claim": "Leumit's own site sets the quarterly family ceiling at 313.40, against the MoH circular's 303.39. The reduced ceiling for a senior citizen or an oleh in the first year is 156.70 on Leumit's site against 151.70 in the circular.",
+      "source_url": "https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/",
+      "raw_snippet": "ההשתתפויות בשירותים רפואיים שבסל לא יעלו על 313.40 ש\"ח למשפחה לרבעון",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "entity-decoded-fetch",
+      "verified_at": "2026-08-09",
+      "source_note": "Leumit's tariff page HTML-entity-encodes its Hebrew, so the gate's plain-text match cannot succeed. Snippet confirmed on 2026-08-09 by fetching the page and unescaping HTML entities before matching."
+    },
+    {
+      "claim_id": "leumit-senior-ceiling",
+      "claim": "Leumit's reduced quarterly family ceiling for a senior citizen or an oleh in the first year is 156.70.",
+      "source_url": "https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/",
+      "raw_snippet": "אזרח ותיק, עולה חדש בשנה הראשונה ... 156.70 ש\"ח",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "entity-decoded-fetch",
+      "verified_at": "2026-08-09",
+      "source_note": "Leumit's tariff page HTML-entity-encodes its Hebrew, so the gate's plain-text match cannot succeed. Snippet confirmed on 2026-08-09 by fetching the page and unescaping HTML entities before matching."
+    },
+    {
+      "claim_id": "leumit-er-agra",
+      "claim": "Leumit's reduced emergency-room agra is 259, stated as correct to July 2026.",
+      "source_url": "https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/",
+      "raw_snippet": "התעריף נכון ליולי 2026",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/copay-tables.md"
+      ],
+      "verified_via": "entity-decoded-fetch",
+      "verified_at": "2026-08-09",
+      "source_note": "Leumit's tariff page HTML-entity-encodes its Hebrew, so the gate's plain-text match cannot succeed. Snippet confirmed on 2026-08-09 by fetching the page and unescaping HTML entities before matching."
+    },
+    {
+      "claim_id": "leumit-er-cap",
+      "claim": "Leumit caps a non-exempt emergency-room visit at 600, in place of the full tariff published in the MoH price list.",
+      "source_url": "https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/",
+      "raw_snippet": "במקום התעריף המלא המפורסם במחירון משרד הבריאות",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/copay-tables.md"
+      ],
+      "verified_via": "entity-decoded-fetch",
+      "verified_at": "2026-08-09",
+      "source_note": "Leumit's tariff page HTML-entity-encodes its Hebrew, so the gate's plain-text match cannot succeed. Snippet confirmed on 2026-08-09 by fetching the page and unescaping HTML entities before matching."
+    },
+    {
+      "claim_id": "leumit-prescription-scheme",
+      "claim": "Leumit charges 20.23 or the maximum consumer price of the drug, whichever is the lower, below a threshold of 151.70, and 15% at or above it; with a registered generic it is 10% or 20.23, whichever is higher.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "20.23 ש\"ח או מחיר התרופה המרבי לצרכן, לפי הנמוך מביניהם",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular-era wording. Confirmed by entity-decoded fetch on 2026-08-09 that these exact strings are NOT on Leumit's live tariff page, which now publishes a 20.80 floor and a 156.30 threshold. Not forced to match; repointed to the statutory source."
+    },
+    {
+      "claim_id": "leumit-generic-rate",
+      "claim": "Leumit, Meuhedet and Maccabi all charge 10% or 20.23, whichever is the higher, for a drug with a registered generic.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "10% ... או 20.23 ש\"ח כגבוה מבניהם",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular-era wording. Confirmed by entity-decoded fetch on 2026-08-09 that these exact strings are NOT on Leumit's live tariff page, which now publishes a 20.80 floor and a 156.30 threshold. Not forced to match; repointed to the statutory source."
+    },
+    {
+      "claim_id": "leumit-phone-hours",
+      "claim": "Contact numbers, each from the organisation's own site: Clalit *2700, Maccabi *3555 (מכבי ללא הפסקה), Meuhedet *3833, Leumit *507 and 1700-507507, MoH קול הבריאות *5400 and 08-6241010 open Sunday to Thursday 8:00-18:00 and Friday and holiday eves 8:00-13:00, National Insurance Institute entitlement updates 02-6462000. Magen David Adom is 101 but that number could not be confirmed from mdais.org, which blocks automated reads.",
+      "source_url": "https://www.leumit.co.il/",
+      "raw_snippet": "פעיל בימים א'-ה' 7:00-20:00, שישי וערבי חג 7:00-12:00",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "evidence-base",
+      "verified_at": "2026-08-09",
+      "source_note": "OPEN ITEM, still unpinned. Checked against BOTH Leumit deep links on 2026-08-09 (transferring-between-health-funds and appeals-committee): the *507 hours string, *507 itself and 1700-507507 appear on neither. Deliberately NOT stretched to fit either URL. Provenance is the compiled hmo-evidence-base.md. Pin the real page next cycle."
+    },
+    {
+      "claim_id": "leumit-switching-dates",
+      "claim": "Switching kupot takes effect on six fixed dates a year: applications between 16.09 and 15.11 take effect 01.01, 16.11 to 15.01 take effect 01.03, 16.01 to 15.03 take effect 01.05, 16.03 to 15.05 take effect 01.07, 16.05 to 15.07 take effect 01.09, and 16.07 to 15.09 take effect 01.11. Only two switches are permitted in any 12-month period.",
+      "source_url": "https://www.leumit.co.il/leumit-general/transferring-between-health-funds/",
+      "raw_snippet": "ניתן לבצע עד 2 מעברים בלבד, במהלך פרק זמן של 12 חודשים.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "leumit-switching-channels",
+      "claim": "Two switching channels: in person at an Israel Post branch where a transfer form must be purchased (the fee amount is not published anywhere and is deliberately not stated in this skill), or on the National Insurance Institute website with a valid credit card in the applicant's own name.",
+      "source_url": "https://www.leumit.co.il/leumit-general/transferring-between-health-funds/",
+      "raw_snippet": "יש להתייצב באופן אישי ... ולרכוש טופס מעבר",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "leumit-btl-channel",
+      "claim": "The National Insurance Institute online switching channel requires a valid credit card in the applicant's own name.",
+      "source_url": "https://www.leumit.co.il/leumit-general/transferring-between-health-funds/",
+      "raw_snippet": "יש להצטייד בכרטיס אשראי בתוקף, על שמכם",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "leumit-seniority-carries",
+      "claim": "Supplementary-insurance seniority carries across a switch. The new kupah may not limit or prevent joining its supplementary plan, and under certain conditions the member is entitled to a waiver of the waiting period, but only if a seniority certificate is transferred from the old kupah. This corrects the false v1.3.0 claim that waiting periods cannot be waived. No 90-day window and no equivalent-tier definition is asserted, because neither has a primary source.",
+      "source_url": "https://www.leumit.co.il/leumit-general/transferring-between-health-funds/",
+      "raw_snippet": "הקופה החדשה אינה רשאית להגביל או למנוע את הצטרפותך לביטוח המשלים, ובתנאים מסוימים אף תהיה זכאי לפטור מתקופת המתנה בקופה החדשה. ... על מנת לשמור על רצף זכויות עליך להעביר לקופה אליה עברת אישור וותק מהקופה הקודמת.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "leumit-appeal-routes",
+      "claim": "Leumit's public-enquiries routes are by fax to 03-6949614, by post to the public enquiries department at Shprintzak 23 Tel Aviv, in person at the member's medical centre, or through the site form. Above the kupah sits the MoH commissioner for public complaints under the National Health Insurance Law. No URL, online form or filing deadline for the commissioner is stated in this skill because none could be verified.",
+      "source_url": "https://www.leumit.co.il/leumit-general/appeals-committee/",
+      "raw_snippet": "פניות הציבור, שפרינצק 23 תל אביב",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "meuhedet-copays",
+      "claim": "Meuhedet's own page, which carries no date, in shekels: a physical or digital visit with a professional doctor including a psychiatrist, dietitian and podiatrist is 33.00; a visit to institutes and outpatient clinics including mental-health clinics is 41.00; the quarterly ceiling for institute and outpatient services is 290.00, or 145.00 for olim in the first year and members above retirement age; psychotherapy is 70.50 then 170.00 then 78.00 for a group; chronic drugs are 409.00 per month reckoned on a half-yearly basis, halved to 204.50; medical food is 854.60 per month; the prescription floor is 20.89 with a threshold of 156.73. Meuhedet's emergency-room agra for a non-exempt visit is 269.00 at any hour. Its weekday moked is 105.00 and Shabbat 50.00. Meuhedet's physiotherapy and home-visit rates are not published on its own site; the circular gives 40.01 and 202.26 with an in-hours cap of 131.47.",
+      "source_url": "https://www.meuhedet.co.il/מידע-ללקוח/השתתפויות-ופטורים/",
+      "raw_snippet": "בביקור פיזי או דיגיטלי עם רופא מקצועי, כולל פסיכיאטר, דיאטנית ופודיאטר",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "evidence-base",
+      "verified_at": "2026-08-09",
+      "source_note": "OPEN ITEM: on 2026-08-09 this URL rendered only navigation chrome in a real browser, with no tariff content in the DOM. Provenance is the compiled hmo-evidence-base.md. Re-confirm by eye next cycle."
+    },
+    {
+      "claim_id": "meuhedet-institutes-and-ceiling",
+      "claim": "Meuhedet charges 41.00 for a visit to institutes and outpatient clinics including mental-health clinics, and scopes its 290.00 quarterly ceiling specifically to institute and outpatient services, which is a narrower scope than the circular's.",
+      "source_url": "https://www.meuhedet.co.il/מידע-ללקוח/השתתפויות-ופטורים/",
+      "raw_snippet": "בביקור במכונים ובמרפאות חוץ כולל מרפאות בריאות הנפש",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "evidence-base",
+      "verified_at": "2026-08-09",
+      "source_note": "OPEN ITEM: on 2026-08-09 this URL rendered only navigation chrome in a real browser, with no tariff content in the DOM. Provenance is the compiled hmo-evidence-base.md. Re-confirm by eye next cycle."
+    },
+    {
+      "claim_id": "meuhedet-ceiling-scope",
+      "claim": "Meuhedet's quarterly ceiling is published as a ceiling for institute and outpatient services, at 290.00, reduced to 145.00 for olim in the first year and members above retirement age.",
+      "source_url": "https://www.meuhedet.co.il/מידע-ללקוח/השתתפויות-ופטורים/",
+      "raw_snippet": "תקרת השתתפות רבעונית לשירותים במכונים ובמרפאות חוץ",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "evidence-base",
+      "verified_at": "2026-08-09",
+      "source_note": "OPEN ITEM: on 2026-08-09 this URL rendered only navigation chrome in a real browser, with no tariff content in the DOM. Provenance is the compiled hmo-evidence-base.md. Re-confirm by eye next cycle."
+    },
+    {
+      "claim_id": "meuhedet-amounts-disclaimer",
+      "claim": "Meuhedet's own page carries a disclaimer that the amounts may change and that members should contact the clinic or the call centre for updated tariffs.",
+      "source_url": "https://www.meuhedet.co.il/מידע-ללקוח/השתתפויות-ופטורים/",
+      "raw_snippet": "*הסכומים הנקובים עשויים להשתנות. למידע אודות תעריפים מעודכנים, פנו למרפאה או למוקד 3833*",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "evidence-base",
+      "verified_at": "2026-08-09",
+      "source_note": "OPEN ITEM: on 2026-08-09 this URL rendered only navigation chrome in a real browser, with no tariff content in the DOM. Provenance is the compiled hmo-evidence-base.md. Re-confirm by eye next cycle."
+    },
+    {
+      "claim_id": "meuhedet-referral-required",
+      "claim": "Meuhedet grants an exemption from the emergency-room visit agra only on the basis of a doctor's referral to the emergency department.",
+      "source_url": "https://www.meuhedet.co.il/מידע-ללקוח/השתתפויות-ופטורים/",
+      "raw_snippet": "פטור מתשלום אגרת ביקור יינתן רק על בסיס הפניית רופא למלר\"ד.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "evidence-base",
+      "verified_at": "2026-08-09",
+      "source_note": "OPEN ITEM: on 2026-08-09 this URL rendered only navigation chrome in a real browser, with no tariff content in the DOM. Provenance is the compiled hmo-evidence-base.md. Re-confirm by eye next cycle."
+    },
+    {
+      "claim_id": "meuhedet-prescription-scheme",
+      "claim": "Meuhedet charges the maximum consumer price or 20.23, whichever is the lower, below a threshold of 151.70, and 15% at or above it.",
+      "source_url": "https://www.meuhedet.co.il/מידע-ללקוח/השתתפויות-ופטורים/",
+      "raw_snippet": "המחיר המרבי לצרכן או 20.23 ש\"ח, לפי הנמוך מבניהם",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "evidence-base",
+      "verified_at": "2026-08-09",
+      "source_note": "OPEN ITEM: on 2026-08-09 this URL rendered only navigation chrome in a real browser, with no tariff content in the DOM. Provenance is the compiled hmo-evidence-base.md. Re-confirm by eye next cycle."
+    },
+    {
+      "claim_id": "maccabi-no-published-tariffs",
+      "claim": "Maccabi publishes eligibility as client-rendered per-item cards with no consolidated tariff table, so no 2026 Maccabi copayment, ceiling, emergency-room, urgent-care or home-visit figure was retrievable. The circular's 2025 values are used for Maccabi and labelled 2025. Maccabi's own scheme details that are documented: a flat 20.23 but no more than the consumer price below a threshold of 161.81, 15% of the maximum consumer price at or above it, 10% or 20.23 whichever is higher with a registered generic, and 50% of the consumer price for drugs with cheap substitutes or outside the drug list.",
+      "source_url": "https://www.maccabi4u.co.il",
+      "raw_snippet": "מכבי",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "evidence-base",
+      "verified_at": "2026-08-09",
+      "source_note": "Maccabi publishes no consolidated tariff table; eligibility is client-rendered per item. No 2026 Maccabi amount is asserted anywhere in this skill."
+    },
+    {
+      "claim_id": "maccabi-cheap-substitute-rule",
+      "claim": "Maccabi charges 50% of the consumer price for drugs that have cheap substitutes or that are not part of the drug list.",
+      "source_url": "https://www.maccabi4u.co.il",
+      "raw_snippet": "תרופות להן יש תחליפים זולים או שאינן חלק מספר התרופות (לפי הרשימה) – 50% מהמחיר לצרכן.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "evidence-base",
+      "verified_at": "2026-08-09",
+      "source_note": "Maccabi publishes no consolidated tariff table; eligibility is client-rendered per item. No 2026 Maccabi amount is asserted anywhere in this skill."
+    },
+    {
+      "claim_id": "maccabi-below-threshold-rule",
+      "claim": "Maccabi charges 20.23 but no more than the consumer price of the drug below its threshold of 161.81, and 15% of the maximum consumer price at or above it.",
+      "source_url": "https://www.maccabi4u.co.il",
+      "raw_snippet": "20.23 ש\"ח אך לא יותר ממחיר התרופה לצרכן",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "evidence-base",
+      "verified_at": "2026-08-09",
+      "source_note": "Maccabi publishes no consolidated tariff table; eligibility is client-rendered per item. No 2026 Maccabi amount is asserted anywhere in this skill."
+    },
+    {
+      "claim_id": "maccabi-percentage-rule",
+      "claim": "Maccabi charges 15% of the maximum consumer price at or above its threshold.",
+      "source_url": "https://www.maccabi4u.co.il",
+      "raw_snippet": "15% מהמחיר המרבי לצרכן",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ],
+      "verified_via": "evidence-base",
+      "verified_at": "2026-08-09",
+      "source_note": "Maccabi publishes no consolidated tariff table; eligibility is client-rendered per item. No 2026 Maccabi amount is asserted anywhere in this skill."
+    },
+    {
+      "claim_id": "sban-only-drug-no-discount",
+      "claim": "A drug available only under a supplementary plan, sold to someone who is not a member of that plan, is not included in the chronic-patient payment ceiling and no discount or exemption applies to it.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "לא ייכלל בתקרת התשלום לחולים כרוניים, ולא יחולו עליו כל הנחה ופטור",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/copay-tables.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
+    },
+    {
+      "claim_id": "er-cost-not-published",
+      "claim": "The Ministry of Health does not publish the emergency-room amount. Its service page, updated 14.07.2026, says only that the service tariffs are detailed in the Ministry of Health price list.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "תעריפי השירות מפורטים בתעריפון משרד הבריאות.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-two-components",
+      "claim": "An emergency-room bill has TWO components: the emergency-room agra and a charge for the treatment given. In some cases there is a full exemption, and in others an exemption from the treatment charge without an exemption from the agra.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "התשלום הוא בעד שירותים שונים והוא כולל שני מרכיבים: אגרת מיון. תשלום על הטיפול הניתן בחדר המיון. בחלק מהמקרים יינתן פטור מלא מתשלום, או פטור מתשלום על הטיפול ללא פטור מאגרת מיון.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-full-exemption-circumstances",
+      "claim": "Statutory full-exemption list from חוזר מנהל הרפואה 21/2016 as rendered on gov.il, circumstance-based limb: attending with a medical letter or a Form 17 (a commitment form from the insuring kupah) and not being admitted; being admitted even without a letter or Form 17; work-accident victims with employer confirmation; road-accident victims with a police certificate; pupils injured at school or on a school trip; domestic-violence victims; sexual-assault victims; those directed to a general-hospital emergency room by a district psychiatrist or a criminal court order; and those attending a psychiatric hospital emergency room. No count of the list is stated anywhere in this skill: gov.il renders 28 items, Leumit 24 and call.gov.il a slightly different set.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "מי שפנו עם מכתב רפואי או עם \"טופס 17\" (טופס התחייבות מהקופה המבטחת) ולא אושפזו",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-full-exemption-admitted",
+      "claim": "Anyone admitted to hospital is fully exempt from the emergency-room charge even without a medical letter or a Form 17.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "מי שאושפזו - גם אם לא הגיעו עם מכתב רפואי או \"טופס 17\"",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-full-exemption-work-accident",
+      "claim": "Work-accident victims presenting employer confirmation on National Insurance form 250 are fully exempt.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "נפגעי עבודה שהציגו אישור מהמעביד (טופס ביטוח לאומי 250) על פגיעה בעבודה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-full-exemption-road-accident",
+      "claim": "Road-accident victims presenting a police certificate about the accident are fully exempt.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "נפגעי תאונת דרכים שהציגו אישור מהמשטרה על התאונה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-full-exemption-pupils",
+      "claim": "Pupils injured at school or on a school trip, holding a school confirmation, are fully exempt.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "תלמידים שנפגעו בבית הספר או בטיול של בית הספר, ובידם אישור מבית הספר",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-full-exemption-violence",
+      "claim": "Domestic-violence victims and sexual-assault victims are fully exempt.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "נפגעי אלימות במשפחה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-full-exemption-sexual-assault",
+      "claim": "Sexual-assault victims are fully exempt.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "נפגעי ונפגעות תקיפה מינית",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-full-exemption-psychiatric-referral",
+      "claim": "Those directed to a general-hospital emergency room by order of a district psychiatrist or by a court order in criminal proceedings are fully exempt.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "מי שהופנו לחדר מיון בבית חולים כללי לפי הוראה של פסיכיאטר מחוזי או על פי צו של בית משפט בהליך פלילי",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-full-exemption-psychiatric-hospital",
+      "claim": "Those attending or referred to a psychiatric hospital emergency room are fully exempt.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "מי שפנו או הופנו לחדר מיון בבית חולים פסיכיאטרי",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-clinical-presentations",
+      "claim": "Clinical presentations carrying the statutory full exemption include a new fracture, an acute shoulder or joint dislocation, a wound requiring suturing, a dislocated jaw, foreign-body aspiration, a foreign body in the eye, snake bite or scorpion sting, a life-threatening allergic reaction, head trauma up to age two or over age 70, a third-degree burn, an epileptic seizure in a known epileptic, labour contractions, cancer treatment, haemophilia treatment, cystic fibrosis treatment, familial dysautonomia, dialysis patients, sudden high fever over 38.5 degrees in infants up to two months old, and anyone evacuated to hospital by a Magen David Adom ambulance from the street or another public place following a sudden event.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "הופעה פתאומית של חום גבוה (מעל 38.5 מעלות צלזיוס) בתינוקות עד גיל חודשיים",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-mda-evacuation-exemption",
+      "claim": "Anyone evacuated to hospital by a Magen David Adom ambulance from the street or another public place following a sudden event is fully exempt from the emergency-room charge.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "מי שפונו לבית חולים על-ידי אמבולנס מגן דוד אדום, מהרחוב או ממקום ציבורי אחר, בעקבות אירוע פתאומי",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-agra-only-night-window",
+      "claim": "First agra-only trigger: attending the emergency room between 01:00 and 06:00 for any reason not listed under the full-exemption heading. This is a clock rule.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "מי שפנו לחדר מיון בין השעות 01:00 (בלילה) עד 06:00 (בבוקר) - מכל סיבה שאינה מפורטת תחת הסעיף \"פטור מלא מתשלום\".",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-agra-only-retro-justified",
+      "claim": "Second and separate agra-only trigger: where it emerges after the visit that attending was medically justified, even if the reason is not on the full-exemption list, expressly regardless of the hour of the visit. The two triggers are frequently conflated.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "מי שהתברר לאחר הביקור, כי פנייתם לחדר מיון הייתה מוצדקת מבחינה רפואית., גם אם אינה מפורטת תחת הסעיף \"פטור מלא מתשלום\", ללא קשר לשעת הביקור.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-retro-claim-procedure",
+      "claim": "Retro-claim procedure: someone who attended the emergency room on their own initiative brings the discharge summary and the payment receipt to the secretariat of their insuring kupah, and if the visit is found medically justified the kupah issues a commitment form to the hospital. The kupah need not issue a Form 17 where the member attended without prior commitment, where the reason is outside the exempt list, where the visit was not urgent, or for elective treatment.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "מי שפנו לחדר מיון (מלר\"ד) על דעת עצמם, יביאו למזכירות קופה החולים בה הם מבוטחים, את טופס סיכום המחלה מחדר המיון וקבלה המעידה על תשלום.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-psychiatric-free",
+      "claim": "Attending the emergency department of a mental-health medical centre is free of charge, per חוזר מנכ\"ל 06/2024.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "הפונים למחלקה לרפואה דחופה – מלר\"ד (חדר מיון) במרכז רפואי לבריאות הנפש פטורים מתשלום.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/er-waiver-list.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-form-17-definition",
+      "claim": "gov.il calls Form 17 a commitment form from the insuring kupah. It is the kupah's financial commitment to the provider, issued in advance, and all four kupot issue it digitally.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "\"טופס 17\" (טופס התחייבות מהקופה המבטחת)",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/er-waiver-list.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-kupah-extensions-clalit",
+      "claim": "Clalit extends the statutory list with a blanket exemption for visits from 19:00 until 07:00 the next morning, and on Shabbat and holiday eves from 12:00 noon until 07:00 the next morning for a named list of reasons. These extensions are not uniform across the four kupot.",
+      "source_url": "https://call.gov.il/product-page/1002629",
+      "raw_snippet": "לביקורים משעה 19:00 עד 7:00 למחרת",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-kupah-extensions-clalit-shabbat",
+      "claim": "Clalit's Shabbat and holiday emergency-room exemption window runs from 12:00 noon on the eve until 07:00 the next morning.",
+      "source_url": "https://call.gov.il/product-page/1002629",
+      "raw_snippet": "משעה 12:00 בצהריים ערב החג/שבת ועד 7:00 למחרת",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-kupah-extensions-maccabi",
+      "claim": "Maccabi has an all-hours emergency-room exemption list that includes referral by a Maccabi or contracted moked doctor, a nurse referral from Maccabi's round-the-clock service with arrival within 24 hours, jaw dislocation, head trauma up to age 2 or above age 70, snake or scorpion bite, chemical eye burn and third-degree burn, plus a separate partial-payment list covering 23:00 to 06:00, a known cardiac patient with chest pain, acute dyspnea, and a CT or MRI performed in the emergency room.",
+      "source_url": "https://call.gov.il/product-page/1002629",
+      "raw_snippet": "מכבי ללא הפסקה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-kupah-extensions-meuhedet",
+      "claim": "Meuhedet gates the emergency-room exemption on referral validity windows: Sunday to Thursday a referral is valid until 8:00 the next morning, and on Friday until Sunday at 8:00. For a road accident no police certificate is needed within 48 hours, a certificate is required between 48 hours and 7 days, and a commitment form is required from day 8.",
+      "source_url": "https://call.gov.il/product-page/1002629",
+      "raw_snippet": "בימים א'-ה' ההפניה בתוקף עד השעה 8:00 בבוקר של היום למחרת. ביום ו' או ערב חג, ההפניה בתוקף עד יום ראשון בשעה 8:00 בבוקר.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "er-kupah-extensions-leumit-and-meuhedet-appeal",
+      "claim": "Leumit grants emergency-room exemptions retrospectively through a moked doctor who reads the discharge letter, against a named list of reasons. Meuhedet adds that an appeal may be filed with a district appeals committee attached to the emergency-room sheet and the payment receipt.",
+      "source_url": "https://call.gov.il/product-page/1002629",
+      "raw_snippet": "ניתן להגיש ערעור לוועדת ערעורים מחוזית בצרוף גיליון המיון וקבלה על התשלום של המיון.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "ambulance-full-refund",
+      "claim": "Full refund where the patient was evacuated by a regular Magen David Adom ambulance OR an intensive-care ambulance AND was admitted to hospital.",
+      "source_url": "https://www.gov.il/he/service/ambulance-evacuation",
+      "raw_snippet": "מי שפונו באמבולנס רגיל של מגן דוד אדום (מד\"א) או ניידת טיפול נמרץ ואושפזו בבית חולים – זכאים להחזר מלא",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "ambulance-half-refund",
+      "claim": "A 50% refund where the patient was evacuated by an intensive-care ambulance and was NOT admitted to hospital.",
+      "source_url": "https://www.gov.il/he/service/ambulance-evacuation",
+      "raw_snippet": "מי שפונו בניידת טיפול נמרץ ולא אושפזו בבית חולים – זכאים להחזר בגובה 50%",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "ambulance-no-refund-trap",
+      "claim": "NO refund at all where the patient was evacuated by a regular ambulance and was not admitted. This is the rule most people get wrong. No shekel ambulance tariff is stated anywhere in this skill: it lives in the Magen David Adom emergency-transport fee regulations and could not be read from a primary source.",
+      "source_url": "https://www.gov.il/he/service/ambulance-evacuation",
+      "raw_snippet": "מי שפונו באמבולנס רגיל ולא אושפזו – אינם זכאים להחזר בעבור הוצאות ההעברה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "ambulance-oncology-dialysis",
+      "claim": "Oncology and dialysis transport is refunded at 50% of the Magen David Adom tariff or of the actual ambulance journey price, whichever is the lower (חוזר מנהל רפואה 04/2008). Work accidents and terror victims route to the National Insurance Institute rather than the kupah, and road accidents route to the motor insurer.",
+      "source_url": "https://www.gov.il/he/service/ambulance-evacuation",
+      "raw_snippet": "50% מתעריף מגן דוד אדום או ממחיר הנסיעה בפועל באמבולנס (הנמוך מביניהם)",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "ambulance-60-day-deadline",
+      "claim": "Anyone who does not settle the payment through their kupah within 60 days of the evacuation or transfer will be charged the full amount by the ambulance company.",
+      "source_url": "https://www.gov.il/he/service/ambulance-evacuation",
+      "raw_snippet": "מי שלא יסדירו את התשלום באמצעות קופת חולים תוך 60 יום מיום הפינוי או ההעברה, יחויבו לשלם את מלוא הסכום לחברת האמבולנס.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "sal-briut-2026-circular-name-only",
+      "claim": "The 2026 health basket was issued as the director-general circular 1/2026 of 08.03.2026 on expanding the health services basket for 2026. This skill deliberately carries NO budget figure, NO technology count, NO patient count and NO list of named additions for it, because none of those could be verified from a primary source. The v1.3.0 figures of 650M, cancer, mental health and PGT for BRCA are removed and are not carried forward.",
+      "source_url": "https://www.gov.il/he/departments/ministry_of_health",
+      "raw_snippet": "משרד הבריאות",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "moh-ceilings-maccabi-meuhedet",
+      "claim": "MoH cross-kupah page ceiling lines for Maccabi and Meuhedet. Referenced circular sections in this skill include סעיף 15 sub-sections 15.2, 15.4, 15.6, 15.7, 15.8 and 15.10, and סעיף 16 sub-sections 16.1 through 16.9.",
+      "source_url": "https://call.gov.il/page/GE41",
+      "raw_snippet": "מכבי שירותי בריאות - 257.59 ש\"ח",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "moh-ceiling-meuhedet",
+      "claim": "MoH cross-kupah page ceiling line for Meuhedet.",
+      "source_url": "https://call.gov.il/page/GE41",
+      "raw_snippet": "קופת חולים מאוחדת - 283.17 ש\"ח",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "clalit-prescription-floor-circular-era",
+      "claim": "The circular-era Clalit prescription floor documented in the compiled source read is 20.64 ש\"ח per package, superseded on Clalit's live 2026 page by 21.32. Both are recorded so the change is visible rather than silently overwritten.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "עד 15% מהמחיר המרבי לצרכן או 20.64 ש\"ח לאריזה, לפי הגבוה מביניהם",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "source_note": "Circular-era wording from the compiled hmo-evidence-base.md. Superseded on Clalit's own page by the 21.32 floor, which was browser-verified on 2026-08-09.",
+      "appears_in": [
+        "references/copay-tables.md"
+      ]
+    },
+    {
+      "claim_id": "leumit-prescription-2026",
+      "claim": "Leumit's live 2026 prescription scheme: a drug priced up to 20.80 costs its consumer price; a drug priced between 20.80 and 156.30 costs a flat 20.80; above 156.30 the percentage rate applies. This supersedes the circular-era 20.23 floor and 151.70 threshold.",
+      "source_url": "https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/",
+      "raw_snippet": "תרופה שמחירה בין 20.80 ש\"ח ל 156.30 ש\"ח - 20.80 ש\"ח.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "verified_via": "entity-decoded-fetch",
+      "verified_at": "2026-08-09",
+      "source_note": "Leumit's tariff page HTML-entity-encodes its Hebrew, so a plain text match can never succeed. Verified by fetching the page and unescaping entities before matching.",
+      "appears_in": [
+        "references/copay-tables.md"
+      ]
     }
   ]
 }

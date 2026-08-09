@@ -1,240 +1,254 @@
 ---
 name: israeli-hmo-navigator
-description: Navigate Israel's four HMOs (kupot cholim) and healthcare system for service comparisons, referrals, and coverage decisions. Use when user asks about Clalit, Maccabi, Meuhedet, Leumit, "kupat cholim", health basket (sal briut), specialist referrals (hafnaya), supplementary insurance (biituach mashlim), or switching HMOs. Covers service tiers, digital platforms, copayments, and rights under the National Health Insurance Law. Do NOT use for emergency medical advice or pharmaceutical drug information.
+description: Navigate Israel's four HMOs (kupot cholim) and healthcare system for costs, referrals, emergency-room fees and coverage decisions. Use when user asks about Clalit, Maccabi, Meuhedet, Leumit, "kupat cholim", health basket (sal briut), copayments (hishtatfut atzmit), emergency room (miyun) fees and exemptions, Form 17 (tofes 17), ambulance refunds, prescription copays, supplementary insurance (bituach mashlim), or switching HMOs. Do NOT use for emergency medical advice or for clinical drug information.
 license: MIT
-compatibility: No network required. Works offline with reference data.
+compatibility: Static reference, no network required. Amounts carry an "as of" date and are re-indexed by the Ministry of Health and by each kupah. Verify any amount against the member's own kupah page before quoting it to them.
 ---
 
 # Israeli HMO Navigator
 
-## Instructions
+## How to use this skill, and its dating rule
 
-### Step 1: Understand Israel's Healthcare Structure
-Israel's National Health Insurance Law (Chok Bituach Briut Mamlachti, 1995) guarantees universal healthcare through four competing HMOs (kupot cholim):
+Israel's National Health Insurance Law of 1995 guarantees universal coverage through four kupot cholim. This skill routes a member to the right cost, the right exemption and the right form.
 
-| HMO | Hebrew | Members (approx.) | Market Share | Founded |
-|-----|--------|-------------------|-------------|---------|
-| Clalit Health Services | כללית שירותי בריאות | ~4.8 million | ~52% | 1911 (Histadrut) |
-| Maccabi Healthcare Services | מכבי שירותי בריאות | ~2.6 million | ~27% | 1941 |
-| Meuhedet | מאוחדת | ~1.3 million | ~14% | 1974 |
-| Leumit Health Fund | לאומית שירותי בריאות | ~1.0 million | ~9% | 1933 |
+Two vintages of amounts are in circulation right now: the Ministry of Health circular `חוזר סמנכ"ל לפיקוח על קופות החולים ושב"ן 1/2025` (published 12.08.2025, effective 1 April 2025), which is the statutory table, and each kupah's own tariff page, which carries 2026-indexed values roughly three percent higher. No 2026 payments circular exists yet.
 
-**Key principles:**
-- Every Israeli resident MUST belong to one HMO
-- HMOs cannot refuse membership (open enrollment)
-- Switching between HMOs: up to twice in 12 months, on 6 fixed effective dates per year
-- Funding: National Health Insurance tax (mas briut) collected by Bituach Leumi, distributed to HMOs per capita with risk-adjusted formula
-- Basic health basket (sal briut) services are identical across all HMOs by law
+**Rules for any answer you give from this skill:**
 
-### Step 2: Compare Service Tiers
-Each HMO offers multiple service levels:
+1. Always attach the "as of" date to an amount.
+2. Always say which of the two vintages the amount came from.
+3. Never average two conflicting figures, and never silently pick one. State both.
+4. Tell the user to confirm the amount on their own kupah's page before relying on it. The reference data here is exactly the thing that drifts.
+5. If a figure is not in this skill's reference files, say you do not have it rather than estimating.
 
-| Tier | Hebrew | Coverage | Monthly Cost (approx.) |
-|------|--------|----------|----------------------|
-| Basic (Sal Briut) | סל בריאות בסיסי | Mandated by law, identical across HMOs | Covered by health tax |
-| Supplementary (Mashlim, level 1) | ביטוח משלים | Extended coverage: contracted-surgeon private surgery, faster access, additional medications, child development, dental discounts | 30-80 NIS/person, scales with age |
-| Premium (Mashlim level 2) | משלים פרימיום | Adds lifestyle and abroad benefits: private trainer/dietitian, broader child development, pregnancy package, partial overseas surgery | 80-200 NIS/person, scales with age |
+The bulk tables live in `references/`. Load the one you need:
 
-The four kupot use different brand names for the same two-tier structure. Level 1 = basic upgrade; Level 2 = premium upgrade:
+| File | Contents |
+|---|---|
+| `references/copay-tables.md` | statutory table, all four kupot's own 2026 tables, urgent care and home visits, prescription schemes, the six open conflicts |
+| `references/er-waiver-list.md` | the full statutory `פטור מלא` list, the two agra-only triggers, the retro-claim procedure, each kupah's own extensions |
+| `references/exemptions-and-ceilings.md` | the section 16 population table, the ceilings, the stacking rules, the retirement-age trap |
 
-| Kupat Cholim | Level 1 (basic upgrade) | Level 2 (premium upgrade) |
+## The four kupot and how to reach them
+
+| Kupah | Hebrew | Phone | Supplementary tiers, entry then premium |
+|---|---|---|---|
+| Clalit Health Services | כללית שירותי בריאות | `*2700` | כללית מושלם, then כללית מושלם פלטינום |
+| Maccabi Healthcare Services | מכבי שירותי בריאות | `*3555` (`מכבי ללא הפסקה`) | מכבי זהב, then מכבי שלי |
+| Meuhedet | מאוחדת | `*3833` | מאוחדת עדיף, then מאוחדת עדיף Plus |
+| Leumit Health Fund | לאומית שירותי בריאות | `*507`, also 1700-507507 | לאומית כסף, then לאומית זהב |
+
+Leumit's `*507` line runs `פעיל בימים א'-ה' 7:00-20:00, שישי וערבי חג 7:00-12:00`.
+
+Other numbers: Ministry of Health `קול הבריאות` on `*5400` or 08-6241010, open `ראשון עד חמישי 8:00-18:00; שישי וערבי חג 8:00-13:00`. National Insurance Institute entitlement updates on 02-6462000. For a medical emergency, Magen David Adom is 101; that number is universally used but could not be confirmed against mdais.org in this cycle, which blocks automated reads.
+
+Tier-name trap: **מכבי זהב is the entry tier despite the "gold" name, and מכבי שלי is the premium tier above it.** Only Leumit puts כסף below זהב the way most countries would expect.
+
+## What will this actually cost me
+
+This is the single highest-value decision in the whole skill, and it is a ladder, not a lookup. Walk it downward and stop at the first rung that fits the clinical situation.
+
+| Route | Typical cost | Note |
 |---|---|---|
-| Clalit | Clalit Mushlam (כללית מושלם) | Clalit Mushlam Platinum (כללית מושלם פלטינום) |
-| Maccabi | Maccabi Zahav (מכבי זהב) | Maccabi Sheli (מכבי שלי) |
-| Meuhedet | Meuhedet Adif (מאוחדת עדיף) | Meuhedet Adif Plus / "C" (מאוחדת עדיף C) |
-| Leumit | Leumit Silver (לאומית כסף) | Leumit Gold (לאומית זהב) |
+| Clinic, primary doctor | 0 | a GP, family doctor, paediatrician, internist or gynaecologist is free |
+| Evening, night or weekend moked | 50 to 108 | varies by kupah and by day, see `references/copay-tables.md` |
+| Doctor's home visit | 51 to 202 | Leumit is the only kupah publishing a שב"ן tier differential here |
+| Emergency room, agra only | 259 to 269 | the agra alone, before any treatment charge |
+| Emergency room, full unreferred daytime visit | up to 1,199 | at Clalit; Leumit caps its non-exempt visit at 600 |
+| Emergency room, reason on the statutory waiver list | 0 | see `references/er-waiver-list.md` first, before anyone pays |
 
-Common myth to avoid: "Maccabi Sheli" is the premium tier, NOT the basic supplementary. Maccabi Zahav ("Gold") is the entry tier despite the gold name. Meuhedet's flagship plan is "Adif".
+Two things fall out of that ladder. Getting a referral or a Form 17 before going, where the situation allows it, is worth several hundred shekels. And checking the waiver list first is worth the whole amount, because people routinely pay for visits that are free by law.
 
-**Basic Sal Briut includes:**
-- Primary care physician (rofeh mishpacha) visits
-- Specialist consultations (with referral/hafnaya)
-- Hospitalization in general wards
-- Prescription medications (with copayment/hishttatfut atzmit)
-- Maternity and prenatal care
-- Pediatric care and vaccinations
-- Mental health services (expanded since 2015 reform)
-- Chronic disease management
-- Preventive screenings (age-appropriate)
+## The billing model is a floating quarter, not a per-visit fee
 
-**NOT included in basic basket (common gaps):**
-- Dental care for adults (children covered until age 18)
-- Cosmetic procedures
-- Most fertility treatments after age limits
-- Private room hospitalization
-- Choice of specific surgeon
-- Alternative/complementary medicine
+The most common mistake made about Israeli copays is billing a specialist "per visit". It is not per visit. The circular defines it in section 15.6, verbatim:
 
-### Step 3: Navigate Specialist Referrals (Hafnaya)
-The referral process (hafnaya) varies by HMO:
+`"רבעון" – בעבור שירות של ביקור אצל רופא, מכון או מרפאת חוץ שנקבע לגביו תשלום אחת לרבעון, יהיה החבר פטור מתשלום בעבור אותו שירות במשך שלושה חודשים מיום הביקור (גם אם התקופה האמורה חלה לאחר תום הרבעון הקלנדרי שבו היה אותו ביקור), ואולם התקרה בעד ביקורים כאמור תחושב על בסיס רבעון קלנדרי.`
 
-| Step | Process | Notes |
-|------|---------|-------|
-| 1. See primary care physician | rofeh mishpacha / rofeh rishoni | First point of contact |
-| 2. Get referral (hafnaya) | הפניה | Electronic referral in HMO system |
-| 3. Schedule specialist appointment | tor le'moomcheh | Through HMO call center or app |
-| 4. Wait time varies | zman hamtana | Basic: weeks-months; Mashlim: faster |
-| 5. Follow-up as needed | ma'akav | Results sent to primary care |
+`לעניין שירותים אחרים ותרופות – "רבעון" משמעו רבעון קלנדרי.`
 
-**Wait times (Sal Briut):**
-Each HMO publishes its own maximum wait time targets. The Ministry of Health has been moving toward mandatory national limits in recent years (with formal guidelines under consultation), but as of mid-2026 there is still no single legally binding national cap that applies uniformly across all four kupot. Typical published targets:
-- Dermatologist (rofe or): ~30 days
-- Orthopedist (ortoped): ~30 days
-- Ophthalmologist (rofe einayim): ~30 days
-- Cardiologist (kardiyolog): ~14 days for urgent
-- Oncologist: ~14 days
-- Gastroenterologist: ~30 days
+**Both halves matter and they use different clocks.** The exemption runs three months **from the date of the visit**, so it floats and can cross a calendar boundary. But the family **ceiling** for those same visits is computed on the **calendar** quarter. For all other services and for drugs, "quarter" simply means the calendar quarter. Leumit's own heading says the same thing: `שיעורי ההשתתפויות הרבעוניות עבור שירותי הסל (תשלום עבור רבעון צף)`.
 
-Actual wait times vary by region and HMO. Check your HMO's website or app for current availability. If your wait exceeds the HMO's published target, file a complaint with the HMO's patient advocate (netziv pniyot hatzibur) and escalate to the Ministry of Health Ombudsman (Netziv Kvilanot HaTzibur) if unresolved.
+Who is free and who is paid, from sections 15.7 and 15.8:
 
-**MyHealth (Marpe) national patient portal:** Israel rolled out a national health information exchange under the Ministry of Health, accessible via the `MyHealth` (Marpe) app and the national patient portal. It complements (does not replace) each HMO's app and gives patients a cross-HMO view of records, prescriptions, and visit history. Useful when a patient switches kupot mid-treatment and needs records to be visible to both old and new providers.
+- `רופא ראשוני`, verbatim `רופאים כלליים (שאינם מומחים), ורופאים מומחים בענפי הרפואה הבאים: רפואת המשפחה, רפואת ילדים, רפואה פנימית וגניקולוגיה`. **Free.**
+- `רופא שניוני`, verbatim `רופא מומחה בקהילה, שאינו נכלל בהגדרת רופא ראשוני (כולל פסיכיאטר), ולעניין חוזר זה – גם דיאטנית ופודיאטריה.` **Paid**, once per floating quarter.
+- `מכונים` are imaging and diagnostic institutes outside general hospitals (15.2). `מרפאות חוץ` are `מרפאות הפועלות במסגרת בתי חולים כלליים (כולל מרפאות בריאות הנפש בבתי חולים כלליים)` (15.4).
 
-**With supplementary insurance:** Wait times typically 3-14 days for most specialties.
+So a gynaecologist is free while a dermatologist is paid, and a dietitian and a podiatrist bill like a specialist even though neither is a physician.
 
-### Step 4: Compare HMO Digital Services
-| Feature | Clalit | Maccabi | Meuhedet | Leumit |
-|---------|--------|---------|----------|--------|
-| App Name | כללית Online | Maccabi Online | Meuhedet Online | Leumit Online |
-| Online appointment booking | Yes | Yes | Yes | Yes |
-| Video consultations (Telemedicine) | Yes | Yes | Yes | Yes |
-| Lab results online | Yes | Yes | Yes | Yes |
-| Prescription renewal online | Yes | Yes | Yes | Yes |
-| Referral requests online | Partial | Yes | Yes | Partial |
-| Chat with doctor | Yes | Yes | Yes | Limited |
-| Medical record access | Yes | Yes | Yes | Yes |
-| COVID/flu vaccine scheduling | Yes | Yes | Yes | Yes |
+## The emergency room is always two numbers, never one
 
-### Step 5: Understand Copayments (Hashtatfut Atzmit)
-Standard copayments across kupot cholim (basic basket):
+The Ministry of Health does **not** publish the emergency-room amount. Its own service page, updated 14.07.2026, says under `עלות השירות` only: `תעריפי השירות מפורטים בתעריפון משרד הבריאות.`
 
-| Service | Copayment (approx.) | Notes |
-|---------|---------------------|-------|
-| Primary care visit | 0 NIS | Free under basic basket |
-| Specialist visit (with hafnaya) | 20-30 NIS | Per visit |
-| Emergency room (meurav) | ~100 NIS | Waived if admitted |
-| Prescription medication (generic) | 10-15 NIS | Per item |
-| Prescription medication (brand) | 15-50 NIS | Varies by medication |
-| Blood tests (bdikot dam) | 0 NIS | Basic panels covered |
-| Imaging (MRI/CT) | 0-50 NIS | With referral |
-| Physiotherapy (fizioterapia) | 20-30 NIS | Per session, up to allocation |
-| Mental health session | 0-30 NIS | Expanded coverage since reform |
+What it does publish is the structure, verbatim:
 
-**Exemptions from copayments:**
-- Children under 18 for many services
-- Chronic disease patients (machala kronit) for related medications
-- Holocaust survivors (nitzolei shoah) for many services
-- Income-based exemptions through Bituach Leumi
+`הטיפול הרפואי במלר"ד (חדר מיון) כרוך בתשלום על-פי תעריף משרד הבריאות. התשלום הוא בעד שירותים שונים והוא כולל שני מרכיבים: אגרת מיון. תשלום על הטיפול הניתן בחדר המיון. בחלק מהמקרים יינתן פטור מלא מתשלום, או פטור מתשלום על הטיפול ללא פטור מאגרת מיון.`
 
-### Step 6: Switching HMOs (Ma'avar Kupat Cholim)
-Process for switching between kupot cholim:
+**So an emergency-room bill is an agra plus a treatment charge, and you must quote both.** Quoting the agra alone understates the bill by a factor of four or more, which is precisely how earlier versions of this skill told people an emergency room costs "about a hundred shekels".
 
-1. **Eligibility:** Any resident can switch up to twice in a 12-month period
-2. **How:** Apply online via the Bituach Leumi website, or visit a post office with ID and fill out a transfer form (Tofes Maavar)
-3. **Effective dates:** Switches take effect on 6 fixed dates per year. Submit by the 15th, two months before:
+The two components, as the kupot publish them:
 
-| Apply by | Switch effective |
-|----------|----------------|
-| November 15 | January 1 |
-| January 15 | March 1 |
-| March 15 | May 1 |
-| May 15 | July 1 |
-| July 15 | September 1 |
-| September 15 | November 1 |
+| Situation | Amount | Source and date |
+|---|---|---|
+| Clalit, 06:00-01:00, no referral, reason not on the statutory list | 1,199 ₪, being agra plus treatment | Clalit, `לפי תעריף משרד הבריאות, צמוד למחיר יום אשפוז` |
+| Clalit, 01:00-06:00, reason not on the statutory list | 269 ₪, agra only | Clalit |
+| Clalit, found retrospectively to have been medically justified | 269 ₪, agra only | Clalit |
+| Clalit, reason on the statutory exempt list | 0 | Clalit |
+| Leumit, reduced agra | 259 ₪ | Leumit, `התעריף נכון ליולי 2026` |
+| Leumit, non-exempt visit, capped | 600 ₪ | Leumit, `במקום התעריף המלא המפורסם במחירון משרד הבריאות` |
+| Meuhedet, agra, non-exempt, at any hour of the day | 269.00 ₪ | Meuhedet |
+| Maccabi | not published in retrievable form | see `references/copay-tables.md` |
 
-4. **Cancellation:** You can cancel your switch request up to 10 days before the effective date
-5. **During transition:** Your current HMO must continue providing services until the switch date
-6. **What transfers:** Basic basket coverage begins immediately at new HMO
-7. **What doesn't transfer:** Supplementary insurance may have waiting periods at new HMO
-8. **Pre-existing conditions:** Cannot be denied coverage for any condition (guaranteed acceptance)
-9. **Records:** Medical records should be transferred; request from old HMO
-10. **New immigrants:** Olim can change their initial HMO selection within 14 days of aliyah date
+Three consequences worth stating out loud to a member:
 
-**When to consider switching:**
-- Better clinic locations near home/work
-- Preferred doctors available at another HMO
-- Better supplementary insurance packages
-- Better digital services or appointment availability
-- Dissatisfaction with service quality
+1. The agra is roughly 259 to 269 depending on kupah, and all three kupot that publish it claim to be following `מחירון משרד הבריאות`, so the divergence is unexplained.
+2. The treatment charge is what makes the difference between an agra-only night visit and a 1,199 daytime one. Leumit caps its non-exempt visit at 600 while Clalit charges up to 1,199 for what may be the same presentation.
+3. **A psychiatric emergency room is free.** gov.il, verbatim: `הפונים למחלקה לרפואה דחופה – מלר"ד (חדר מיון) במרכז רפואי לבריאות הנפש פטורים מתשלום.` (per `חוזר מנכ"ל 06/2024`)
 
-### Step 7: Rights Under National Health Insurance Law
-Key patient rights (zkhuyot ha'mevutach):
+Before anyone pays an emergency-room bill, check `references/er-waiver-list.md`.
 
-- **Free choice of HMO** and right to switch (up to twice in 12 months)
-- **Access to basic basket** regardless of health status
-- **No discrimination** based on age, health, or pre-existing conditions
-- **Complaint mechanism:** Netziv Kvulanot HaTzibur (Public Complaints Commissioner)
-- **Second opinion:** Right to seek second opinion within the HMO
-- **Information access:** Right to full medical record
-- **Privacy:** Medical information confidentiality (Chok Haganat HaPratiyut)
+## The emergency-room waiver list
+
+The statutory list comes from `חוזר מנהל הרפואה 21/2016` and is shared by all four kupot. The full quoted list, the two separate agra-only triggers, the retro-claim procedure and each kupah's own non-uniform extensions are in `references/er-waiver-list.md`.
+
+Four things to carry in your head:
+
+- **Do not state a count** for the list. gov.il, Leumit and call.gov.il bullet the same statutory list into different numbers of items.
+- The **hour rule** (01:00-06:00) and the **retrospective-justification rule** are two different triggers. The second applies `ללא קשר לשעת הביקור`. They get conflated constantly.
+- If you already paid, you can still claim it back: bring the discharge summary and the receipt to the kupah's secretariat, and if the visit is found medically justified the kupah issues the commitment form to the hospital.
+- The kupot's extensions are **not uniform**. Clalit has a blanket 19:00 to 07:00 exemption, Maccabi has an all-hours list plus a separate partial-payment list, Meuhedet gates on referral validity windows and road-accident time bands, and Leumit grants exemptions retrospectively via a moked doctor. Check the member's own kupah, never another one's.
+
+## Copayments, ceilings and exemptions
+
+The basic basket of **services** is identical across the four kupot by law. **The ceilings and the copayment amounts are not.** They are the one place the four legally differ, and the spread is wide: the quarterly family ceiling runs from 242.71 to 303.39 under the circular, and from 250 to 313.40 on the kupot's own 2026 pages. Never tell a member "it costs the same everywhere".
+
+Full tables are in `references/copay-tables.md` and `references/exemptions-and-ceilings.md`. The load-bearing points:
+
+- Which visits count toward the family ceiling, verbatim: `תקרת תשלום למשפחה (ילדים - עד גיל 18) - תקרה רבעונית המתייחסת להשתתפויות בגין ביקור אצל: רופא ראשוני, רופא שניוני, מרפאות חוץ ומכונים.` Dental copays are excluded.
+- **Stacking**: reductions of the same kind do not compound, so an oleh who is also above retirement age gets the ceiling halved once, not quartered. Reductions of different kinds do apply on top of one another, and a discount never costs you the ceiling.
+- **The retirement-age trap**: the family ceiling uses **mandatory** retirement age, while the exemptions in 16.1 and the drug discount in 16.8.2 use **optional** retirement age. A member can qualify for one and not the other.
+- **The senior drug discount starts at 72, not 75.** Age 75 was superseded on 1.1.2016 and is the most common stale figure in circulation on this topic.
+- The mobility-allowance exemption runs to 18 years **and 3 months**, not to 18.
+- Organ donors, `טיפות חלב`, occupational medicine, child development for young children, and the named disease list `חולי דיאליזה, אונקולוגיה, איידס, גושה, CF, תלסמיה, המופיליה ושחפת` all carry their own exemptions. Holocaust survivors receiving a listed payment have a full prescription exemption.
+
+## Prescription copayments are four different schemes
+
+Do not give one generic prescription rule. **Clalit's scheme is structurally different from the other three.** Clalit charges 15 percent of the maximum consumer price or a low floor, whichever is the **higher**, from a threshold of 20.64. Maccabi, Meuhedet and Leumit charge a flat minimum up to a threshold of roughly 151.70 to 161.81 and only then switch to 15 percent.
+
+Two further rules people miss: Maccabi charges `תרופות להן יש תחליפים זולים או שאינן חלק מספר התרופות (לפי הרשימה) – 50% מהמחיר לצרכן.` And a drug available only under a שב"ן, sold to someone not in that שב"ן, gets neither discount nor ceiling: `לא ייכלל בתקרת התשלום לחולים כרוניים, ולא יחולו עליו כל הנחה ופטור`.
+
+Full per-kupah thresholds, floors and generic rates are in `references/copay-tables.md`.
+
+## Ambulance refunds, and the trap
+
+gov.il, updated 26.05.2026, verbatim:
+
+- Full refund: `מי שפונו באמבולנס רגיל של מגן דוד אדום (מד"א) או ניידת טיפול נמרץ ואושפזו בבית חולים – זכאים להחזר מלא`
+- Half refund: `מי שפונו בניידת טיפול נמרץ ולא אושפזו בבית חולים – זכאים להחזר בגובה 50%`
+- **No refund at all**: `מי שפונו באמבולנס רגיל ולא אושפזו – אינם זכאים להחזר בעבור הוצאות ההעברה.`
+
+The third line is the trap, and it is the one most people get wrong: a **regular** ambulance that does **not** end in admission is not refunded. Only the intensive-care ambulance carries a partial refund without admission.
+
+Routing matters too. A **work accident** or a **terror-victim** case routes to the National Insurance Institute, not the kupah. A **road accident** routes to the **motor insurer**. Oncology and dialysis transport is refunded at `50% מתעריף מגן דוד אדום או ממחיר הנסיעה בפועל באמבולנס (הנמוך מביניהם)`.
+
+**There is a 60-day deadline**, verbatim: `מי שלא יסדירו את התשלום באמצעות קופת חולים תוך 60 יום מיום הפינוי או ההעברה, יחויבו לשלם את מלוא הסכום לחברת האמבולנס.` Miss it and the full amount falls on the member.
+
+No shekel ambulance tariff is given in this skill. The tariff lives in `תקנות מגן דוד אדום (אגרות הסעת חירום באמבולנס)` and could not be read from a primary source, so do not state one.
+
+## Form 17
+
+gov.il calls it `"טופס 17" (טופס התחייבות מהקופה המבטחת)`. It is the kupah's **financial commitment** to a provider, issued **in advance**, and it is what converts a chargeable visit into a covered one. All four kupot issue it digitally through their app or site.
+
+The kupah does not have to issue one where the member attended without a prior commitment, where the reason is outside the exempt list, where the visit was not urgent, or where the treatment was elective. Those four cases are the usual reason a Form 17 request is refused.
+
+## Switching kupot, and שב"ן seniority
+
+A switch takes effect on one of six fixed dates a year, and a member may make `עד 2 מעברים בלבד, במהלך פרק זמן של 12 חודשים.`
+
+| Apply between | Effective |
+|---|---|
+| 16.09-15.11 | 01.01 |
+| 16.11-15.01 | 01.03 |
+| 16.01-15.03 | 01.05 |
+| 16.03-15.05 | 01.07 |
+| 16.05-15.07 | 01.09 |
+| 16.07-15.09 | 01.11 |
+
+Two channels: in person at an Israel Post branch, `יש להתייצב באופן אישי ... ולרכוש טופס מעבר`, where the transfer form must be **purchased** (the fee amount is not published, so do not state one); or on the National Insurance Institute website, where `יש להצטייד בכרטיס אשראי בתוקף, על שמכם`.
+
+**Supplementary-insurance seniority does carry across.** This corrects a false claim in earlier versions of this skill. Leumit, verbatim:
+
+`עם מעברך לקופה חדשה מסתיים הביטוח המשלים (שב"ן) בקופה הישנה ... הקופה החדשה אינה רשאית להגביל או למנוע את הצטרפותך לביטוח המשלים, ובתנאים מסוימים אף תהיה זכאי לפטור מתקופת המתנה בקופה החדשה. על מנת לשמור על רצף זכויות עליך להעביר לקופה אליה עברת אישור וותק מהקופה הקודמת.`
+
+Read that carefully before advising anyone. The new kupah may not refuse you supplementary cover. A waiver of the waiting period is available `בתנאים מסוימים`, which is a hedge, not a guarantee. And it is **not automatic**: the member must obtain an `אישור וותק` from the old kupah and hand it to the new one. Long-term-care continuity since 1.1.17 works the same way. Do not promise a specific waiting-period length or an "equivalent tier" rule; neither is established from a primary source.
 
 ## Examples
 
-### Example 1: HMO Comparison for New Immigrant
-**Input:** "I just made aliyah, which kupat cholim should I join?"
-**Output:** Compare all four HMOs by: clinic locations near the user's city, language services (Russian, English, Amharic, Arabic support), oleh benefits, supplementary insurance pricing, digital platform quality. Recommend based on user's location and needs. Note that all HMOs must accept new members and basic coverage is identical.
+### Example 1: "I went to the ER on Tuesday afternoon and got a bill"
+Ask three things before anything else: which kupah, what the reason for the visit was, and whether they were admitted. If admitted, it is free even without a referral or Form 17. If the reason is on the statutory `פטור מלא` list, it is free. If neither, quote the agra and the treatment charge as two components, give the kupah's published figure with its date, and walk them through the retro-claim route with the discharge summary and the receipt.
 
-### Example 2: Understanding a Referral
-**Input:** "My doctor gave me a hafnaya to an orthopedist, what do I do?"
-**Output:** Explain the referral process: log into HMO app, find available orthopedist appointments, compare wait times. If wait is too long under basic basket, explain supplementary insurance fast-track option. Mention copayment amount and what to bring to the appointment.
+### Example 2: "How much is a dermatologist?"
+Do not answer per visit. Explain the floating quarter: one charge covers that service for three months from the visit date, while the family ceiling is counted on the calendar quarter. Give the member's own kupah's figure from `references/copay-tables.md` with both vintages where they conflict, and check whether the family ceiling or an exemption already applies.
 
-### Example 3: Supplementary Insurance Decision
-**Input:** "Is it worth getting biituach mashlim at Maccabi?"
-**Output:** Compare Maccabi's two supplementary tiers: Maccabi Zahav (the entry tier, despite the "gold" name) versus Maccabi Sheli (the premium tier on top). Cover monthly cost by age bracket (typically 30-200 NIS depending on age), surgeon-choice benefits, private hospital access, dental discounts, abroad surgery, child development, and lifestyle benefits like personal trainer/dietitian (Sheli only). Help user assess based on age, health needs, and budget.
+### Example 3: "Is it worth switching kupot?"
+Cover the six effective dates, the two-per-12-months limit, and both channels. Correct the common belief that supplementary seniority is lost: it carries, but only if they get an `אישור וותק` from the old kupah. Point out that ceilings and copay amounts genuinely differ between the four, so it is a real financial comparison and not only a service one.
 
-### Example 4: Dental Coverage
-**Input:** "Does my kupat cholim cover dental?"
-**Output:** Explain that basic basket covers dental for children until age 18 only. Adults need supplementary insurance (mashlim/zahav) or private dental insurance. Compare dental coverage across HMO supplementary plans. Note preventive dental program for children (Tipul Meuni) covered by basic basket.
+### Example 4: "My mother is 73 and pays a lot for prescriptions"
+Check the 72-and-over drug discount, which uses optional retirement age. Check whether she is also in an exempt population under section 16. Check the chronic-drug monthly or quarterly ceiling for her kupah, noting that Meuhedet reckons it on a different period. Then give the per-kupah prescription scheme, because Clalit's works differently from the other three.
 
 ## Recommended MCP Servers
 
-For live healthcare data, pair this skill with:
-
 | MCP Server | What it provides | Install |
-|------------|-----------------|---------|
-| **il-health** | Israeli Ministry of Health data: hospital quality of service, patient surveys, child health checkups, health fund (kupat cholim) information, and beach water quality | [Install](https://agentskills.co.il/en/mcp/il-health) |
-| **kolzchut** | Israel's authoritative rights and entitlements knowledge base (Kol Zchut): rights for new immigrants, health insurance, disability, elderly care, and thousands of structured articles | [Install](https://agentskills.co.il/en/mcp/kolzchut) |
-| **israel-drugs** | Comprehensive Israeli pharmaceutical database from the Ministry of Health: 1,172+ therapeutic categories, medication profiles, health basket status, pricing, generic alternatives, and health fund formulary alignment | [Install](https://agentskills.co.il/en/mcp/israel-drugs) |
-| **israel-mental-health** | Community mental health clinics, psychiatric services, and quality metrics by city, HMO, therapy type, and specialization with wait time data | [Install](https://agentskills.co.il/en/mcp/israel-mental-health) |
-| **israel-clinical-trials** | Active and completed clinical trials at Israeli hospitals (Sheba, Hadassah, Ichilov, Rambam) from ClinicalTrials.gov | [Install](https://agentskills.co.il/en/mcp/israel-clinical-trials) |
+|---|---|---|
+| **il-health** | Ministry of Health data: hospital quality of service, patient surveys, child health checkups, kupat cholim information | [Install](https://agentskills.co.il/en/mcp/il-health) |
+| **kolzchut** | Israel's rights and entitlements knowledge base | [Install](https://agentskills.co.il/en/mcp/kolzchut) |
+| **israel-drugs** | Israeli pharmaceutical database: medication profiles, health basket status, pricing, generic alternatives | [Install](https://agentskills.co.il/en/mcp/israel-drugs) |
+| **israel-mental-health** | Community mental health clinics and psychiatric services by city, kupah and therapy type | [Install](https://agentskills.co.il/en/mcp/israel-mental-health) |
+| **israel-clinical-trials** | Active and completed clinical trials at Israeli hospitals | [Install](https://agentskills.co.il/en/mcp/israel-clinical-trials) |
 
-When these MCPs are available, use them for real-time healthcare data instead of the static reference tables in this skill. The `kolzchut` MCP is especially valuable for patient rights questions.
+When these are available, prefer them over the static tables here for anything time-sensitive.
 
 ## Reference Links
 
-| Source | URL | What to Check |
-|--------|-----|---------------|
-| Kol Zchut - Switching HMOs | https://www.kolzchut.org.il/en/Switching_Health_Plans_(Kupot_Cholim) | Current switching rules, effective dates, eligibility |
-| Bituach Leumi - HMO Transfer | https://b2b.btl.gov.il/BTL.ILG.Payments/MaavarKupotCholimInfo.aspx | Online HMO switch application portal |
-| Nefesh B'Nefesh - Kupot Cholim | https://www.nbn.org.il/life-in-israel/healthcare-in-israel/kupot-cholim/kupot-cholim/ | HMO comparison for olim, language services |
-| Ministry of Health - Wait Times | https://www.health.gov.il | Published specialist wait time data by region |
-| MyHealth (Marpe) national portal | https://www.health.gov.il/Subjects/Personal_information | National patient portal, cross-HMO record viewer |
-| Health Ministry Ombudsman | https://www.health.gov.il/Subjects/HealthSystem/Complaints | Netziv Kvilanot HaTzibur, escalation path beyond HMO advocate |
-| Yadlolim - Health Basket | https://www.yadlolim.org/healthcare/what-is-the-healthcare-basket | Basket coverage details, copayment information |
+| Source | URL | What to check |
+|---|---|---|
+| MoH circular 1/2025, the statutory table | https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf | definitions, ceilings, exemptions, all four kupot |
+| MoH cross-kupah copayment page | https://call.gov.il/page/GE41 | family ceilings, what counts toward them |
+| MoH emergency-room payment page | https://www.gov.il/he/service/emergency-room-payment | the two-component structure and the waiver list |
+| MoH ambulance evacuation page | https://www.gov.il/he/service/ambulance-evacuation | refund rules and the 60-day deadline |
+| ER exemptions, per kupah | https://call.gov.il/product-page/1002629 | each kupah's own non-uniform extensions |
+| Clalit tariff page | https://www.clalit.co.il/he/info/about_site/Pages/sherutim_betashlum.aspx | Clalit's current amounts and update date |
+| Leumit tariff page | https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/ | Leumit's current amounts and update date |
+| Meuhedet copayments page | https://www.meuhedet.co.il/מידע-ללקוח/השתתפויות-ופטורים/ | Meuhedet's current amounts |
+| Maccabi member site | https://www.maccabi4u.co.il | per-item eligibility, no consolidated tariff table |
+| Ministry of Health | https://www.gov.il/he/departments/ministry_of_health | circulars, complaints, service pages |
 
 ## Gotchas
 
-- Israel has exactly 4 HMOs (kupot cholim): Clalit, Maccabi, Meuhedet, and Leumit. Agents may reference US insurance terminology like "deductible," "copay maximum," or "in-network/out-of-network" which do not apply to the Israeli system.
-- The basic health basket (sal briut) is identical by law across all 4 HMOs. Agents may incorrectly suggest that one kupat cholim has better basic coverage than another. Differences exist only in supplementary tiers.
-- Maccabi's tier names confuse many agents: **Maccabi Zahav (Gold) is the entry-level supplementary**, while **Maccabi Sheli is the premium top tier**. Most other countries put "Gold" at the top, but in Israel "Zahav" was the original supplementary brand and "Sheli" was launched as the upgrade. Always verify which Maccabi tier a user actually has.
-- Copayment amounts (hashtatfut atzmit) are updated periodically by the Ministry of Health. Agents may cite outdated figures. Specialist visits are typically 20-50 NIS, ER visits ~100-160 NIS (waived if admitted), prescriptions 10-50 NIS. Always verify current amounts with the specific kupat cholim.
-- Supplementary insurance (mashlim) waiting periods apply when switching HMOs. The basic basket has no waiting period, but agents may not distinguish between basic and supplementary when discussing switching.
-- Adult dental care is not covered in the basic basket (only children up to 18). Agents trained on US-style health plans may assume dental is included.
-- The Ministry of Health has not set mandatory national maximum wait times for specialist appointments. Agents may claim specific mandatory limits exist. Each HMO publishes its own targets, which are not legally binding.
-- The 2026 health basket (approved early 2026, NIS 650M budget) prioritized cancer therapies, expanded mental health drug coverage, and added PGT for BRCA1/BRCA2 carriers. Agents working from older snapshots may miss these additions.
-- HMO membership numbers shift annually with Bituach Leumi's enrollment cycles. Use approximate figures and direct users to the Bituach Leumi annual report (latest publication) for current totals. Clalit remains the largest by far (~52%), but Maccabi has been narrowing the gap in Tel Aviv and central Israel.
-- The Iron Swords war (since October 2023) has shifted HMO operations: mental-health services demand surged, reservist family priority lanes were introduced at all four kupot, and supplementary insurance claims for stress-related care reached record highs in 2024-2025. Patients can ask their HMO about post-October-2023 reservist family entitlements.
-- A separate `MyHealth` (Marpe) national portal exists alongside the per-HMO apps; some users assume it replaces the HMO app, which it does NOT. Routine actions (appointments, prescriptions, lab requests) still happen through the HMO's own app; MyHealth is a cross-provider read-only health record viewer.
+- Israel has exactly four kupot cholim. US insurance vocabulary such as "deductible", "in-network" and "out-of-network" does not map onto this system.
+- **The basic basket of services is identical by law; the copays and ceilings are not.** Saying "it costs the same at every kupah" is wrong and is a real financial error for a member choosing between them.
+- Specialist copays are **not per visit**. They are a floating quarter, and the ceiling that caps them is a calendar quarter. Two different clocks.
+- A gynaecologist, paediatrician, internist and family doctor are **primary** and therefore free. A community specialist, a psychiatrist, a dietitian and a podiatrist are **secondary** and are charged.
+- An emergency-room answer with a single number is always wrong. Agra plus treatment, with the waiver list checked first.
+- **מכבי זהב is the entry supplementary tier, not the premium one.** מכבי שלי sits above it.
+- The senior drug discount threshold is **72**. The figure 75 was superseded on 1.1.2016 and is still widely repeated.
+- A regular ambulance that does not end in hospital admission is **not** refunded at all. Only the intensive-care ambulance is partly refunded without admission, and the claim has a 60-day deadline.
+- Supplementary-insurance seniority **does** carry when switching kupot, subject to conditions, but only against an `אישור וותק` from the old kupah. It is not automatic and it is not impossible.
+- Adult dental care is not in the basic basket; children are covered to 18. Dental copays are also excluded from the family ceiling.
+- The 2026 health basket was issued as `חוזר מנכ"ל 1/2026 מיום 08.03.2026 – הרחבת סל שירותי הבריאות לשנת 2026`. **This skill deliberately carries no budget figure, technology count or list of additions for it**, because none could be verified from a primary source. Cite the circular by name and send the user to the Ministry of Health announcement.
+- Amounts here are dated snapshots and are re-indexed. Treat every figure as needing confirmation against the kupah's own page, especially since no 2026 payments circular has been issued yet.
 
 ## Troubleshooting
 
-### Error: "Cannot schedule appointment - no available slots"
-Cause: High demand for certain specialties, especially in basic basket
-Solution: Try different clinic locations within same HMO. Ask about cancellation lists (reshimat hamilaot). Consider upgrading to supplementary insurance for faster access. If wait exceeds the HMO's published maximum target, file complaint with the HMO patient advocate (netziv pniyot hatzibur).
+### "I cannot get an appointment, there are no slots"
+Possible causes to check with the kupah, not assumptions to state as fact: whether the specialty is covered by a `הסדר` with a nearby provider at all, whether the shortage is geographic rather than system-wide, and whether the member is looking only at one clinic. Ask the kupah directly, ask about cancellation lists, try other clinics in the same kupah, and check whether a supplementary tier opens a faster lane. If the wait exceeds the kupah's own published target, go to the kupah's `פניות הציבור`.
 
-### Error: "Medication not covered by kupat cholim"
-Cause: Medication not in the national health basket (sal briut)
-Solution: Check if supplementary insurance covers it. Some medications require special approval (ishur meyuchad) from HMO medical committee. If denied, appeal process available. Check if generic alternative is in the basket.
+### "The medication is not covered"
+The drug is probably outside the national basket. Check whether the supplementary plan covers it, whether a special approval from the kupah's medical committee is possible, and whether a basket-listed generic exists. A refusal can be appealed. Note that a drug available only under a שב"ן, sold to a non-member of it, carries neither discount nor ceiling.
 
-### Error: "Supplementary insurance has waiting period for my condition"
-Cause: Some conditions have 6-18 month waiting periods when joining new supplementary plan
-Solution: This applies to supplementary/gold tiers only, not basic basket. Waiting periods are standard and cannot be waived. Plan ahead when switching HMOs. Basic basket coverage for the condition is immediate.
+### "My supplementary insurance says there is a waiting period"
+Possible causes to check with the kupah: whether an `אישור וותק` from the previous kupah was ever submitted, and which specific benefit the waiting period attaches to. Do **not** tell the member that waiting periods cannot be waived; that is false. The new kupah may not refuse supplementary cover, and a waiver is available `בתנאים מסוימים`. This skill does not state a waiting-period length, because no primary source establishes one. Basic-basket coverage is immediate either way.
+
+### Escalation ladder for any unresolved dispute
+Inside the kupah first: `ועדת חריגים`, `ועדת ערר`, and `פניות הציבור`. All four publish these routes. Leumit's are by fax to 03-6949614, by post to `פניות הציבור, שפרינצק 23 תל אביב`, in person at the member's medical centre, or through the site form. Meuhedet adds `ניתן להגיש ערעור לוועדת ערעורים מחוזית בצרוף גיליון המיון וקבלה על התשלום של המיון.` Above the kupah sits the Ministry of Health's `נציבות קבילות הציבור לחוק ביטוח בריאות ממלכתי`. This skill deliberately gives no URL or online-form address for the commissioner and states no filing deadline, because none could be verified. Do not claim that a kupah-level complaint is a precondition for going to the commissioner.
