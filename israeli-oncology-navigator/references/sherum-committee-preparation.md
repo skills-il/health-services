@@ -102,7 +102,7 @@ If the patient was **summoned by NII** for a committee review (rather than the p
 In order of cost-and-experience:
 
 1. **Hospital oncology social worker (עו"ס אונקולוגי)** -- first call. Free. Knows the local committee culture and what evidence wins.
-2. **ICA Rights Center (מרכז מיצוי זכויות)** -- embedded in 10+ hospitals, reachable via Telemeda 1-800-599-995, shikum@cancer.org.il. Free. Specialized in NII rights including שר"מ.
+2. **ICA rights and welfare services (מיצוי זכויות באגודה למלחמה בסרטן)** -- reachable via Telemeda 1-800-599-995. Free. Includes help with Bituach Leumi rights such as שר"מ.
 3. **Disease-specific NGO with in-house attorney**:
    - One in Nine for breast cancer: 03-602-1717 ext 2
    - Other diagnosis-specific groups via the oncology social worker

@@ -22,7 +22,7 @@ The main all-ages, all-cancer-types national organization.
 - **Wig fitting and loans** at Beit Mati (Givatayim HQ) and ~60 branches
 - **Cosmetics and makeup volunteers** who visit oncology wards
 - **Accommodation** for out-of-town patients near treating hospitals
-- **Rights-realization helpdesk** -- reach it through **Telemeda 1-800-599-995**, email **shikum@cancer.org.il**. (Do not publish a direct 03- number for this desk without re-verifying it against the ICA site; a previously carried number could not be confirmed.)
+- **Rights-realization helpdesk** -- reach it through **Telemeda 1-800-599-995**. General ICA email: **telemeyda@cancer.org.il**; the ICA information centre is **03-5721608 / info@cancer.org.il** (Kolzchut, ICA organisation page). A previously carried desk number 03-5721678 and address shikum@cancer.org.il could not be verified and must not be published.
 - Medical and psycho-social information
 - Cancer research funding
 
@@ -138,9 +138,9 @@ General patient rights across all conditions. Relevant to oncology primarily for
 - **יומן מלחמה** -- "war diary" content section spun up after October 2023.
 - **חמ"ל** -- the org's wartime situation room.
 
-**Programs and groups (קבוצות וסדנאות):** desert retreat (חלאס במדבר), growth groups (קבוצות צמיחה), AI course (איי.איי.איי), movement/healthy-lifestyle group, climbers group (חלאס מטפסים.ות), creative writing (סדנת כתיבה), painting workshop (עירוי בצבע), pottery (כד דה בולשיט), Baked, "Larger Than Life" survivor group (חלאס נבר-אבר), GameChanger, חלאסטק.
+**Programs and groups (קבוצות וסדנאות):** desert retreat (חלאס במדבר), growth groups (קבוצות צמיחה), AI course (איי.איי.איי), movement/healthy-lifestyle group, movement and climbing group (חלאס תנועה וטיפוס), creative writing (סדנת כתיבה), painting workshop (עירוי בצבע), pottery (כד דה בולשיט), Baked, "Larger Than Life" survivor group (חלאס נבר-אבר), GameChanger, חלאסטק.
 
-**Arabic-speaking patients:** the WhatsApp group **חלאס סלאמתק** is run by a community lead for Arabic-speaking patients, led by Hanadi Azzam.
+**Arabic-speaking patients:** the site runs an Arabic-language section (AR toggle in the site header). A previously carried claim about a named Arabic WhatsApp group and its community lead could not be verified on the site and has been removed.
 
 **Rights and benefits content** (זכויות / הטבות section): the org publishes its own guides to entitlements and discounts for young patients. This is community-curated, not legally authoritative -- use the ICA Rights Center (Telemeda 1-800-599-995), the Patients' Rights Association, or a hospital social worker for any binding rights advice.
 
@@ -148,7 +148,7 @@ General patient rights across all conditions. Relevant to oncology primarily for
 
 **When to refer:** young adults (roughly post-Zichron-Menachem age, 25+) who need a peer community and survivor mentor rather than (or in addition to) ICA's all-ages services. The peer-matching model is the signature offering and is what differentiates Stop Cancer from other Israeli cancer NGOs.
 
-Source: stop-cancer.co.il home page, contact page, and footer.
+Source: stop-cancer.co.il home page and https://www.stop-cancer.co.il/about/ .
 
 ## 8a. Other disease-specific organizations (smaller, focused)
 
@@ -162,7 +162,7 @@ Verify current activity before referring a patient -- smaller NGOs in Israel occ
 
 A national medical-aid umbrella that operates two programs particularly relevant for cancer patients:
 
-- **Free Pharmacy Project (פרויקט בית המרקחת)**: collects unused prescription medications via 1,075+ collection points across Israel and redistributes free of charge to patients who cannot afford their medications. Sorted and dispensed by volunteer pharmacists. Source: Jerusalem Post coverage -- https://www.jpost.com/health-and-wellness/article-836161
+- **Free Pharmacy Project (פרויקט בית המרקחת)**: a licensed pharmacy supervised by the Ministry of Health that dispenses prescription medicines at no charge to people who cannot afford them, stocked by donated and manufacturer-supplied medication collected through a national network of collection points. Source: https://www.haverim.org.il/contentpage?contentpageid=216 (the org's own home page reports 1,202 medication collection points nationwide; earlier Jerusalem Post coverage -- https://www.jpost.com/health-and-wellness/article-836161 -- reported 1,075+)
 - **"Save A Life" Funds (קרנות הצלת חיים)**: gathers earmarked donations for individual patient cases the system has failed, including cancer cases. Donors can contribute to a specific named case. Source: https://www.haverim.org.il/funds
 
 Use Haverim when a cancer patient has been refused funding by every other channel and cannot afford the drug out-of-pocket.
@@ -192,7 +192,7 @@ These work alongside the **Dying Patient Law (חוק החולה הנוטה למ�
 Two free resources help patients realize entitlements; both are useful, often complementary:
 
 - **Oncology social worker (עו"ס אונקולוגי)**: hospital-employed; psycho-social support, family counseling, practical guidance, hospital-internal paperwork.
-- **ICA Rights Center (מרכז מיצוי זכויות של האגודה למלחמה בסרטן)**: an ICA program embedded in 10+ Israeli hospitals. Helps with Bituach Leumi entitlements, basket coverage, exceptions committees, and Form 17. Source: https://www.cancer.org.il/articles/17312/
+- **ICA rights and welfare services (מיצוי זכויות באגודה למלחמה בסרטן)**: the ICA funds nursing, nutrition, welfare, support and social-work services for patients, survivors and their families in hospitals and in the community, and works to advance patient rights. Reach it via Telemeda 1-800-599-995. Source: Kolzchut, https://www.kolzchut.org.il/he/%D7%94%D7%90%D7%92%D7%95%D7%93%D7%94_%D7%9C%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%91%D7%A1%D7%A8%D7%98%D7%9F
 
 For complex rights-realization cases (multi-step funding battles, NII appeals), the ICA Rights Center is a strong resource. For psycho-social support and hospital-internal forms, the oncology social worker is the primary contact. Patients can use both.
 

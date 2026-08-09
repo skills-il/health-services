@@ -238,16 +238,34 @@
       ]
     },
     {
-      "claim_id": "ica-portal",
-      "claim": "Israeli Cancer Association (האגודה למלחמה בסרטן) portal and Telemeda hotlines: 1-800-599-995 (HE), 1-800-36-36-55 (AR), 1-800-34-33-44 (RU). Rights helpdesk 03-5721678 / shikum@cancer.org.il.",
-      "source_url": "https://www.cancer.org.il/",
-      "raw_snippet": "תמיכה ותרומה לחולי סרטן",
-      "fetched_at": "2026-05-18T00:00:00Z",
+      "claim_id": "ica-telemeda-hotlines",
+      "claim": "Israeli Cancer Association (האגודה למלחמה בסרטן) Telemeda hotlines, free and round the clock: 1-800-599-995 (Hebrew), 1-800-36-36-55 (Arabic), 1-800-34-33-44 (Russian). NOTE: the previously carried rights-desk number 03-5721678 and address shikum@cancer.org.il could NOT be verified; Kolzchut lists 03-5721608 / info@cancer.org.il for the ICA information centre.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%90%D7%92%D7%95%D7%93%D7%94_%D7%9C%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%91%D7%A1%D7%A8%D7%98%D7%9F",
+      "raw_snippet": "מרכזי מידע מידע טלפוני ניתן במשך כל שעות היממה לחולים, למחלימים, לבני המשפחה ולציבור הרחב: טלמידע בעברית: 1-800-599-995 טלמידע בערבית: 1-800-36-36-55 טלמידע ברוסית: 1-800-34-33-44",
+      "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/ngos-and-support-services.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "ica-info-centre-contact",
+      "claim": "ICA main office and general contact: Revivim 7, Givatayim; phone 1-800-599-995; email telemeyda@cancer.org.il; information centre 03-5721608 / info@cancer.org.il. All ICA activities are free of charge.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%90%D7%92%D7%95%D7%93%D7%94_%D7%9C%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%91%D7%A1%D7%A8%D7%98%D7%9F",
+      "raw_snippet": "כל פעילויות האגודה למלחמה בסרטן ניתנות ללא תשלום . תוכן עניינים פרטים תחומי עיסוק: הפחתת התחלואה והתמותה מסרטן בישראל והגברת הידע והמודעות אתר: עברית Русский العربية ENGLISH דוא\"ל: telemeyda@cancer.org.il כתובת: משרד ראשי: רח' רביבים 7, ת\"ד 437, גבעתיים לכתובות הסניפים טלפון: 1-800-599-995 שנת הקמה: 1952 גיידסטאר: הארגון בגיידסטאר מרכזי מידע מידע טלפוני ניתן במשך כל שעות היממה לחולים, למחלימים, לבני המשפחה ולציבור הרחב: טלמידע בעברית: 1-800-599-995 טלמידע בערבית: 1-800-36-36-55 טלמידע ברוסית: 1-800-34-33-44 טלתמיכה - תמיכה נפשית ראשונית בחולי סרטן ובקרוביהם: 1-800-200-444 יד להחלמה - נשים שהחלימו מסרטן השד תומכות בנשים שזה עתה חלו: 1-800-36-07-07 מוקד אונקולוגי תומך של שירותי בריאות כללית: *9585 מרכז מידע לשירותי מידע מתקדמים ומאגרים ממוחשבים בינלאומיים מהימנים ועדכניים: בטל' 03-5721608 , בדוא\"ל: info@cancer.org.il",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ngos-and-support-services.md"
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "ica-brca-page",
@@ -258,16 +276,6 @@
       "appears_in": [
         "SKILL.md",
         "references/cancer-type-equity-rights.md"
-      ]
-    },
-    {
-      "claim_id": "ica-article-17312",
-      "claim": "ICA article on cancer-patient transport and supportive services.",
-      "source_url": "https://www.cancer.org.il/articles/17312/",
-      "raw_snippet": "האגודה למלחמה בסרטן",
-      "fetched_at": "2026-05-18T00:00:00Z",
-      "appears_in": [
-        "references/ngos-and-support-services.md"
       ]
     },
     {
@@ -309,14 +317,17 @@
     {
       "claim_id": "ngo-zichron-menachem",
       "claim": "Zichron Menachem (זכרון מנחם): children and young adults 0-25 with cancer.",
-      "source_url": "https://zichron.org/",
-      "raw_snippet": "לכל הפעילויות בבית חלומותי",
-      "fetched_at": "2026-05-18T00:00:00Z",
+      "source_url": "https://zichron.org/%d7%90%d7%95%d7%93%d7%95%d7%aa-2/",
+      "raw_snippet": "התשוקה שלנו היא להיות שם בשביל צעירים חולי סרטן מגיל 0-25 ומשפחותיהם. להוציא אותם מהכאב, הפחד והסבל למקום שמח ומלא תקווה. להעצים את תחושת החיים ולהעניק מגוון שרותים פרקטיים מקיפים להתמודדות ביומיום.",
+      "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/ngos-and-support-services.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "ngo-ezer-mizion",
@@ -343,16 +354,34 @@
       ]
     },
     {
-      "claim_id": "ngo-haverim",
-      "claim": "Haverim LeRefuah (חברים לרפואה): Free Pharmacy Project with 1,075+ collection points, Save A Life Funds for individual cases.",
-      "source_url": "https://www.haverim.org.il/",
-      "raw_snippet": "אישורים ודוחו&quot;ת כספיים",
-      "fetched_at": "2026-05-18T00:00:00Z",
+      "claim_id": "ngo-haverim-free-pharmacy",
+      "claim": "Haverim LeRefuah (חברים לרפואה) runs a licensed pharmacy, supervised by the Ministry of Health, that dispenses prescription medicines at no charge to people who cannot afford them.",
+      "source_url": "https://www.haverim.org.il/contentpage?contentpageid=216",
+      "raw_snippet": "בית המרקחת של חברים לרפואה בניהולו של מר אלי סרברניק המשמש גם כרוקח אחראי, הוא מיזם פורץ דרך בישראל, בין היחידים מסוגו בעולם והראשון במדינות רווחה מפותחות. ממבט ראשון בית המרקחת של ״חברים לרפואה״ הוא בית מרקחת רגיל לחלוטין. בית המרקחת רשום כדין ומתנהל בכפוף לאישורים רגולטוריים ובפיקוח משרד הבריאות על ידי לשכת הבריאות המחוזית. בית המרקחת מנפק תרופות למטופלים על פי נהלים ברורים ומוקפדים ואך ורק בהתאם למרשם שניתן על ידי רופא. בשורה התחתונה, הוא עושה את כל מה שבית מרקחת אחר עושה. עם זאת, הוא שונה מבית מרקחת אחר כי הוא מספק את התרופות ללא כל תמורה למי שזקוק לה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/ngos-and-support-services.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "ngo-haverim-funds",
+      "claim": "Haverim LeRefuah opens per-patient fundraising funds (קרנות לגיוס תרומות) for anyone in a health crisis who needs private surgery or an expensive treatment not in the health basket or that they cannot fund, taking no percentage of the donations.",
+      "source_url": "https://www.haverim.org.il/contentpage?contentpageid=217",
+      "raw_snippet": "מי יכול לפתוח את קרן לגיוס תרומות באתר של חברים לרפואה? כל אדם, או מי מטעמו, שנקלע למשבר בריאותי וזקוק לניתוח פרטי/ טיפול יקר שלא נמצא בסל הבריאות או אין באפשרות החולה לממן אותו.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ngos-and-support-services.md"
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "haverim-en",
@@ -400,16 +429,34 @@
       ]
     },
     {
-      "claim_id": "ngo-stop-cancer",
-      "claim": "Stop Cancer (חלאסרטן / Halasartan) is the Israeli peer-community NGO for young adult cancer patients. Registered amuta #580603298. Operates a mentor/companion board (לוח מלוות ומלווים), themed groups and retreats (חלאס במדבר, קבוצות צמיחה, AI course, climbers group חלאס מטפסים, survivor group חלאס נבר-אבר, GameChanger, חלאסטק, חלאס:Baked, painting workshop \"עירוי בצבע\", pottery \"כד דה בולשיט\"), the podcast \"המחלה\", an Arabic WhatsApp group \"חלאס סלאמתק\" led by Hanadi Azzam, and awareness campaigns including cervical cancer (מעניין לי תיפות), testicular (זמן אשך), and colon (#בושה בתחת).",
-      "source_url": "https://www.stop-cancer.co.il/",
-      "raw_snippet": "עמותה לחולי סרטן צעירים ... לוח מלוות ומלווים ... חוכמת המסורטנים ... חלאס GameChanger ... מעניין לי תיפות – סרטן צוואר הרחם ... חלאסרטן הינה עמותה רשומה מספר 580603298",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "claim_id": "ngo-stop-cancer-community",
+      "claim": "Stop Cancer (חלאסרטן) is the Israeli peer-community NGO for young adult cancer patients, the only Israeli organisation dedicated solely to young patients, addressing loneliness, young couplehood, fertility, career, financial independence and young parenthood.",
+      "source_url": "https://www.stop-cancer.co.il/about/",
+      "raw_snippet": "אנחנו כאן כי בכל יום 10 צעירים וצעירות בגילאי 18-44, מתבשרים שהם חולים בסרטן, והמספרים עולים מידי שנה. מערכות הטיפול והתמיכה במדינת ישראל עדיין לא מכירות בקטגוריית הגיל הזו כאוכלוסייה בעלת צרכים ייחודים, ואנחנו כאן כדי לשנות את זה. חלאסרטן היא עמותה ובליבה פועמת קהילה, המחברת צעירים חולים ומחלימים מסרטן, ומהווה רשת תמיכה לכל תחומי החיים הנפגעים מהמחלה – בדידות, זוגיות צעירה, פוריות, קריירה, עצמאות כלכלית, הורות צעירה, וכו'.",
+      "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/ngos-and-support-services.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "ngo-stop-cancer-amuta-number",
+      "claim": "Stop Cancer / חלאסרטן is a registered Israeli amuta, number 580603298.",
+      "source_url": "https://www.stop-cancer.co.il/about/",
+      "raw_snippet": "חלאסרטן הינה עמותה רשומה מספר 580603298",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ngos-and-support-services.md"
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "icrf-research",
@@ -692,16 +739,17 @@
     {
       "claim_id": "ngo-hayim-mission",
       "claim": "Hayim Association (עמותת חיים) supports children with cancer in Israel, founded 1984. Operates within Israeli pediatric oncology wards across \"all medical centers in the country\" (כל המרכזים הרפואיים ברחבי הארץ) as part of the oncology service infrastructure. Treats all children regardless of religion, race, or gender.",
-      "source_url": "https://www.hayim.org.il/",
-      "raw_snippet": "עמותת \"חיים\" למען ילדים חולי סרטן בישראל פועלת משנת 1984 ... העמותה פועלת בנחישות למען הילדים ובני משפחותיהם בכל המרכזים הרפואיים ברחבי הארץ, והינה חלק מהמערך האונקולוגי במחלקות. העמותה מטפלת בכלל הילדים החולים ללא הבדלי דת, גזע ומין.",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "source_url": "https://www.hayim.org.il/About/visionandgoal",
+      "raw_snippet": "עמותת “חיים” למען ילדים חולי סרטן בישראל פועלת משנת 1984 בשאיפה לעתיד טוב יותר שבו ינצחו כל הילדים את מחלת הסרטן, ובמטרה לשיפור מתמיד באכות חייהם ובקידום אכות הטיפול הרפואי הניתן לילד המחלים. במדינת ישראל כ-3,000 ילדים חולי סרטן. מדי שנה מאובחנים עוד כ-400 ילדים המצטרפים למעגל הילדים החולים. שליחות העמותה במסע המייגע והכואב הזה הוא להקל על כאב הילדים. העמותה מחזקת אותם ומעניקה להם כוחות ותעצומות נפש במאבקם ובמסעם האמיץ לחיים!",
+      "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/ngos-and-support-services.md"
       ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-09T00:00:00Z"
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z",
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "ngo-hayim-services",
@@ -720,50 +768,75 @@
     {
       "claim_id": "ngo-hayim-contact",
       "claim": "Hayim Association office: Jabotinsky 138, Ramat Gan; phone 03-6120494; email hayim@hayim.org.il.",
-      "source_url": "https://www.hayim.org.il/",
-      "raw_snippet": "דרך ז'בוטינסקי 138, רמת-גן ... טל: 03-6120494 ... hayim@hayim.org.il",
-      "fetched_at": "2026-05-24T00:00:00Z",
+      "source_url": "https://www.hayim.org.il/Contact/office",
+      "raw_snippet": "משרדי העמותה טלפון: 03-6120494 פקס: 03-5751065 דואר אלקטרוני: hayim@hayim.org.il שעות פעילות המשרד: ימים א’-ה’ בין השעות 09:00-17:00 כתובת: דרך ז’בוטינסקי 138, רמת-גן 52602",
+      "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "references/ngos-and-support-services.md"
       ],
-      "verified_via": "browser",
-      "verified_at": "2026-08-09T00:00:00Z"
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z",
+      "source_fetched_at": "2026-08-09"
     },
     {
-      "claim_id": "btl-disability-amounts-2026",
-      "claim": "Bituach Leumi general disability pension amounts effective 01.01.2026, the spouse supplements, and the spouse income ceiling. Correct totals with the spouse supplement are 6,229 / 4,334 / 3,881 / 3,629; the previously carried 4,255 / 3,840 / 3,609 were arithmetically wrong.",
+      "claim_id": "btl-disability-amounts-2026-a",
+      "claim": "Bituach Leumi general disability pension amounts effective 01.01.2026 by incapacity degree: 4,711 (full 100%/75%), 3,211 (74%), 2,894 (65%), 2,718 (60%).",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
-      "raw_snippet": "דרגה חלקית בשיעור 60% ... קצבה חודשית חלקית בסך 2 ... דרגה חלקית בשיעור 74% ... סכום התוספת הוא 1 ... סכום התוספת הוא 911 ש",
+      "raw_snippet": "להלן סכומי הקצבאות (החל מ- 01.01.2026): סכום קצבת הנכות החודשית הוא בהתאם לדרגת אי-הכושר שנקבעה לך : דרגה מלאה (100% או 75%) - קצבה חודשית מלאה בסך 4,711 ש\"ח . דרגה חלקית בשיעור 74% - קצבה חודשית חלקית בסך 3,211 ש\"ח . דרגה חלקית בשיעור 65% - קצבה חודשית חלקית בסך 2,894 ש\"ח . דרגה חלקית בשיעור 60% - קצבה חודשית חלקית בסך 2,718 ש\"ח .",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/bituach-leumi-oncology-rights.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "btl-disability-amounts-2026-b",
+      "claim": "Spouse supplement amounts and the spouse gross income ceiling (7,848). Adding the supplement to the pension gives totals of 6,229 / 4,334 / 3,881 / 3,629; the previously carried 4,255 / 3,840 / 3,609 were arithmetically wrong.",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "סכומי ההכנסה של בן הזוג הם עד 7,848 ש\"ח ברוטו בחודש. בן הזוג אינו מקבל קצבה אחרת. סכום התוספת עבור בן/ בת זוג הוא בהתאם לדרגת אי-הכושר שנקבעה לך: דרגה מלאה (100% או 75%) - סכום התוספת הוא 1,518 ש\"ח . דרגה חלקית בשיעור 74% - סכום התוספת הוא 1,123 ש\"ח . דרגה חלקית בשיעור 65% - סכום התוספת הוא 987 ש\"ח . דרגה חלקית בשיעור 60% - סכום התוספת הוא 911 ש\"ח .",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md"
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "btl-general-disability-eligibility-thresholds",
       "claim": "Eligibility thresholds for נכות כללית: 60% medical disability, or 40% where a single impairment is at least 25%, plus a 50% loss of earning capacity. Also the 8,261 income figure.",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%D7%94%D7%96%D7%9B%D7%90%D7%99%D7%9D%20%D7%9C%D7%A7%D7%A6%D7%91%D7%AA%20%D7%A0%D7%9B%D7%95%D7%AA%20%D7%97%D7%95%D7%93%D7%A9%D7%99%D7%AA.aspx",
-      "raw_snippet": "או בשיעור של 40% לפחות ... אינך עובד או שהכנסתך כשכיר או כעצמאי נמוכה מ-8",
+      "raw_snippet": "תנאי שני: הכנסות מעבודה אינך עובד או שהכנסתך כשכיר או כעצמאי נמוכה מ- 8,261 ש\"ח (החל ב- 01.01.2026) במשך 90 ימים רצופים במהלך 15 חודשים שקדמו למועד הגשת התביעה. אם במהלך 90 הימים שולמו לך ימי מחלה - התשלום עבור ימי המחלה לא יילקח בחשבון בבחינת ההכנסות, יש לשלוח לנו אישור מהמעסיק על תשלום ימי מחלה. תשלומים נוספים מהמעסיק, כמו הבראה, ביגוד בונוסים וכד' - יילקחו בחשבון באופן יחסי לתקופת הבדיקה. ת נ א י ש ל י ש י : נכ ות רפ וא י ת רופא מטעם הביטוח הלאומי קבע לך נכות רפואית בשיעור של 60% לפחות, או בשיעור של 40% לפחות, אם יש לך כמה ליקויים רפואיים ועל ליקוי מסוים נקבעה לך נכות רפואית בשיעור של 25% לפחות. תנאי רביעי: דרגת אי-כושר נקבע שעקב נכותך אינך מסוגל לעבוד או יכולתך להשתכר ירדה ב-50% לפחות, ונקבעה לך דרגת אי כושר באחד מהשיעורים האלה: 60%, 65%, 74% או 100%.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/bituach-leumi-oncology-rights.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "btl-sharam-appeal-90-days",
       "claim": "The שר\"מ appeal window is 90 days and goes to the ועדת עררים לשירותים מיוחדים, a body separate from the נכות כללית medical appeals committee. The previously carried '60 days for both tracks' was wrong.",
       "source_url": "https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a2%d7%a8%d7%a2%d7%95%d7%a8%20%d7%a2%d7%9c%20%d7%94%d7%97%d7%9c%d7%98%d7%aa%20%d7%94%d7%9e%d7%95%d7%a1%d7%93.aspx",
-      "raw_snippet": "ערר מנומק בכתב יש להגיש בתוך 90 יום מיום שהתקבל מכתב ההחלטה ... את הערר יש להגיש בסניף המוסד לביטוח לאומי הקרוב למקום המגורים",
+      "raw_snippet": "ערעור לוועדת עררים לשירותים מיוחדים יכול להגיש מי שאינו שבע רצון מהחלטת המוסד לביטוח לאומי בגלל גובה הקצבה שאושרה לו, או משום שתביעתו נדחתה וכן אם אינו שבע רצון מתאריך תחילת הזכאות לקצבה שאושרה לו, ובתנאי שהוא אחד מאלה: מקבל קצבת נכות כללית ובעל נכות רפואית בשיעור 60% לפחות. אינו מקבל קצבת נכות כללית, ובעל נכות רפואית בשיעור של 75% לפחות. מי שהיה זכאי לקצבה לשירותים מיוחדים לפני שהגיע לגיל פרישה. ערר מנומק בכתב יש להגיש בתוך 90 יום מיום שהתקבל מכתב ההחלטה. את הערר יש להגיש בסניף המוסד לביטוח לאומי הקרוב למקום המגורים.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/bituach-leumi-oncology-rights.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "btl-sharam-retirement-age-cap",
@@ -778,76 +851,139 @@
       ]
     },
     {
-      "claim_id": "btl-oncology-hub-page",
-      "claim": "Bituach Leumi's oncology hub page: the 50% שר\"מ paper track is conditional on receiving a drug from a published list; vocational rehabilitation for oncology survivors requires at least 20% permanent medical disability and does not require receiving a disability pension; the Section 9(5) tax threshold is 90% for 185 days or more; and there is no automatic post-treatment continuation, only a re-examination on updated documents.",
+      "claim_id": "btl-oncology-hub-sherum-50",
+      "claim": "Bituach Leumi's oncology hub page: the 50% שר\"ם paper track is conditional on receiving a drug from a published list, is automatic for six months on medical documents alone, and there is no automatic post-treatment continuation, only a re-examination on updated documents.",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/HolimONkologim.aspx",
-      "raw_snippet": "מטופלים בטיפול כימותרפי ... כדי להקל עליכם בתקופה זו ... אם אתם מקבלים תרופה מרשימת התרופות המפורטות כאן ... על בסיס מסמכים רפואיים בלבד ... עם סיום הטיפולים הכימותרפיים ... חשוב להגיש מסמכים רפואיים עדכניים המפרטים את ההשלכות הפיזיות והנפשיות של הטיפול ... מחלימים ממחלה אונקולוגית שנקבעה להם נכות רפואית בשיעור 20% ומעלה לצמיתות ... ביטוח לאומי עומד לצידכם גם בשלב ההחלמה ומציע לכם שירותי שיקום מקצועי ... פטור ממס הכנסה",
+      "raw_snippet": "מטופלים בטיפול כימותרפי, שימו לב! כדי להקל עליכם בתקופה זו, אם אתם מקבלים תרופה מרשימת התרופות המפורטות כאן - תהיו זכאים באופן אוטומטי לקצבת שירותים מיוחדים בשיעור 50% למשך חצי שנה, על בסיס מסמכים רפואיים בלבד. במידה ואינך מקבל תרופה מרשימת התרופות , לאחר הגשת התביעה תזומן לוועדה רפואית לבדיקת רמת התלות. / התפקוד והיכולת לבצע פעולות יומיומיות. עם סיום הטיפולים הכימותרפיים, חשוב להגיש מסמכים רפואיים עדכניים המפרטים את ההשלכות הפיזיות והנפשיות של הטיפול ואת הליקויים שנגרמו בעקבותיו, לצורך המשך בחינת זכאותו לקצבה.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/bituach-leumi-oncology-rights.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "btl-oncology-hub-vocational-rehab",
+      "claim": "Bituach Leumi's oncology hub page: vocational rehabilitation for oncology survivors requires at least 20% permanent medical disability and does not require receiving a disability pension.",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/HolimONkologim.aspx",
+      "raw_snippet": "מחלימים ממחלה אונקולוגית שנקבעה להם נכות רפואית בשיעור 20% ומעלה לצמיתות ,ביטוח לאומי עומד לצידכם גם בשלב ההחלמה ומציע לכם שירותי שיקום מקצועי , במצבים בהם לא ניתן לחזר לתעסוקה הקודמת, בהתאם לקריטריונים שנקבעו. חשוב שתדעו! שיקום מקצוע ניתן גם אם אינכם מקבלים קצבת נכות.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md"
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "btl-oncology-hub-tax-90-185",
+      "claim": "Bituach Leumi's oncology hub page: the income-tax exemption threshold is 90% medical disability for a period of 185 days or more.",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/HolimONkologim.aspx",
+      "raw_snippet": "אם נקבעה לכם נכות רפואית בשיעור של 90% ומעלה לתקופה של 185 ימים ומעלה - אתם עשויים להיות זכאים לפטור ממס הכנסה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md"
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "btl-vocational-rehab-20-percent",
       "claim": "Vocational rehabilitation under the general-disability law requires at least 20% disability, age 18 to retirement age, and inability to return to previous work.",
       "source_url": "https://www.btl.gov.il/benefits/Vocational_Rehabilitation/Vocational_Rehabilitation_disabeld/Pages/Zacaut.aspx",
-      "raw_snippet": "לשיקום מקצועי עשוי להיות זכאי מי שוועדה רפואית של הביטוח הלאומי קבעה לו לפחות 20% נכות ... והוא עומד בתנאים הבאים ... כישוריו ונסיונו התעסוקתי הקודם",
+      "raw_snippet": "לשיקום מקצועי עשוי להיות זכאי מי שוועדה רפואית של הביטוח הלאומי קבעה לו לפחות 20% נכות, והוא עומד בתנאים הבאים: תושב/ת ישראל מי שמרכז חייו בישראל, לדוגמה מקום מגורים קבוע, מקום שהות המשפחה, מקום שבו מתחנכים הילדים, מקום עבודה עיקרי, מקום לימודים וכדומה. , אשר מלאו לו 18 שנים ועדיין לא הגיע ל גיל הפרישה עקב השלכות תפקודיות הנובעות מנכותו הוא אינו מסוגל לחזור לעבודתו או לעבוד בעבודה מתאימה אחרת התואמת את השכלתו, כישוריו ונסיונו התעסוקתי הקודם.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/bituach-leumi-oncology-rights.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "btl-rehab-pay-16-hours",
-      "claim": "דמי שיקום is paid to someone studying at least 16 hours a week, equals the 100%-rate pension for a non-pensioner subject to work income under 8,261, and carries an HMO fee exemption.",
+      "claim": "דמי שיקום is paid to someone studying at least 16 hours a week in vocational training, and for a non-pensioner equals the 100%-rate pension subject to work income not above 60% of the average wage (8,261).",
       "source_url": "https://www.btl.gov.il/benefits/Vocational_Rehabilitation/Vocational_Rehabilitation_disabeld/Pages/%d7%aa%d7%a9%d7%9c%d7%95%d7%9d%20%d7%93%d7%9e%d7%99%20%d7%a9%d7%99%d7%a7%d7%95%d7%9d%20%d7%95%d7%aa%d7%a9%d7%9c%d7%95%d7%9e%d7%99%d7%9d%20%d7%a0%d7%95%d7%a1%d7%a4%d7%99%d7%9d.aspx",
-      "raw_snippet": "דמי השיקום משולמים לזכאי לשיקום על פי החוק ... מי שאינו מקבל קצבת נכות ... בהתאם להרכב המשפחה ובתנאי שהכנסתו מעבודה אינה עולה על 60% מהשכר הממוצע במשק ... מי שאושרה לו תוכנית שיקום ... עשוי להיות זכאי למימון תשלומי השיקום הבאים ... נסיעות/נסיעות מיוחדות ... ספרים וציוד לימודי ... שירותי תמיכה והנגשה ... ביקור אצל רופא מומחה ורופא פנימי ... התחייבות לבית חולים ... ביקור במכונים ומרפאות חוץ",
+      "raw_snippet": "דמי השיקום משולמים לזכאי לשיקום על פי החוק, הלומד 16 שעות בשבוע לפחות בהכשרה מקצועית (מתוכן לפחות 12 שעות פרונטליות ועוד 4 שעות מעטפת). שעות אקדמיות שבועיות כוללות: שעות פרונטליות לימוד מתוקשב/מקוון שעות תרגול חובה בכיתה שעות למידה מרחוק התנסות/הכשרה מעשית שאינה בשכר, לדוגמה: הכשרה מעשית בעבודה סוציאלית. התמחות בשכר לא תיכלל במניין השעות לדמי שיקום. לדוגמה: התמחות לתעודת הוראה. שעות מעטפת כוללות: שעות שיעורי עזר והנגשות נוספות שעות תרגול ולמידה בבית כתיבת עבודות למידה למבחנים סכום דמי השיקום: מי שאינו מקבל קצבת נכות - עשוי להיות זכאי לדמי שיקום בסכום השווה לקצבת הנכות המשולמת לבעלי דרגת נכות בשיעור 100%, בהתאם להרכב המשפחה ובתנאי שהכנסתו מעבודה אינה עולה על 60% מהשכר הממוצע במשק - 8,261 ש\"ח (החל ב- 01.01.2026) .",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/bituach-leumi-oncology-rights.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "btl-rehab-pay-hmo-fee-exemption",
+      "claim": "Someone receiving דמי שיקום is exempt from HMO fees for specialist and internist visits, hospital commitments, and institute/outpatient-clinic visits.",
+      "source_url": "https://www.btl.gov.il/benefits/Vocational_Rehabilitation/Vocational_Rehabilitation_disabeld/Pages/%d7%aa%d7%a9%d7%9c%d7%95%d7%9d%20%d7%93%d7%9e%d7%99%20%d7%a9%d7%99%d7%a7%d7%95%d7%9d%20%d7%95%d7%aa%d7%a9%d7%9c%d7%95%d7%9e%d7%99%d7%9d%20%d7%a0%d7%95%d7%a1%d7%a4%d7%99%d7%9d.aspx",
+      "raw_snippet": "פטור מתשלום אגרות לקופת חולים א ם משולמים לך דמי שיקום , תהיה פטור מתשלום אגרות לקופת חולים עבור השירותים האלה: ביקור אצל רופא מומחה ורופא פנימי התחייבות לבית חולים ביקור במכונים ומרפאות חוץ",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bituach-leumi-oncology-rights.md"
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "btl-work-injury-20-percent-threshold",
       "claim": "Work-injury (occupational cancer) permanent-disability pension threshold is 20%; 9% to 19.99% permanent gets a one-time grant. Far lower than the נכות כללית threshold.",
       "source_url": "https://www.btl.gov.il/benefits/Work_Injury/Work_injury_benefit/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%20%D7%95%D7%9E%D7%A7%D7%95%D7%9D%20%D7%AA%D7%A9%D7%9C%D7%95%D7%9D%20%D7%A7%D7%A6%D7%91%D7%AA%20%D7%94%D7%A0%D7%9B%D7%95%D7%AA%20%D7%95%D7%9E%D7%A2%D7%A0%D7%A7%20%D7%94%D7%A0%D7%9B%D7%95%D7%AA%20%D7%9E%D7%A2%D7%91%D7%95%D7%93%D7%94.aspx",
-      "raw_snippet": "מי שנקבעה לו דרגת נכות זמנית בגובה 9% ... יקבל קצבה חודשית",
+      "raw_snippet": "הזכאות לקצבה או למענק נקבעת בהתאם לגובה דרגת הנכות שנקבעה ואם היא קבועה או לצמיתות, לפי הפירוט הבא: מי שנקבעה לו דרגת נכות זמנית בגובה 9% - 100% - יקבל קצבה חודשית. מי שנקבעה לו דרגת נכות לצמיתות בגובה 9% - 19.99%- יקבל מענק חד פעמי. מי שנקבעה לו דרגת נכות לצמיתות בגובה 20% - 100% - יקבל קצבה חודשית. מי שנקבעה לו דרגת נכות לצמיתות נמוכה מ-9% - אינו זכאי לקצבה.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/bituach-leumi-oncology-rights.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "patient-rights-law-second-opinion",
       "claim": "A second opinion is a statutory right for every patient under section 7 of the Patient Rights Law 1996, with no supplementary plan required. This contradicts and replaces the previous 'no codified second-opinion right on the basic basket' claim.",
       "source_url": "https://www.nevo.co.il/law_html/law00/71833.htm",
-      "raw_snippet": "מטופל זכאי להשיג מיוזמתו דעה נוספת לענין הטיפול בו ... המטפל והמוסד הרפואי יסייעו למטופל בכל הדרוש למימוש זכות זו",
+      "raw_snippet": "דעה נוספת 7. מטופל זכאי להשיג מיוזמתו דעה נוספת לענין הטיפול בו; המטפל והמוסד הרפואי יסייעו למטופל בכל הדרוש למימוש זכות זו.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/health-basket-and-hmo-coverage.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "sick-pay-law-day-one-malignant-dialysis",
       "claim": "Day-1 sick pay is limited to a malignant illness or an illness requiring permanent dialysis, and only for absence for periodic treatment or periodic tests relating to that illness, on a written medical certificate. Not a general chronic-illness rule.",
       "source_url": "https://www.nevo.co.il/law_html/law00/71572.htm",
-      "raw_snippet": "עובד שחלה במחלה ממארת או מחלה שנדרש בשלה טיפול קבוע בדיאליזה ... ונעדר בשל כך מעבודתו לשם טיפול תקופתי או בדיקות תקופתיות ... אף לאחר החלמתו ... יהיה זכאי לקבל ממעסיקו תשלום דמי מחלה החל מהיום הראשון להיעדרו או מחלקו ... בכפיפות לתקופת הזכאות המקסימלית כאמור בסעיף 4 ... ובלבד שמסר למעסיקו אישור רפואי בכתב כי הטיפול או הבדיקה נדרשים בקשר לאותה מחלה",
+      "raw_snippet": "עובד שחלה במחלה ממארת או מחלה שנדרש בשלה טיפול קבוע בדיאליזה, ונעדר בשל כך מעבודתו לשם טיפול תקופתי או בדיקות תקופתיות, אף לאחר החלמתו, יהיה זכאי לקבל ממעסיקו תשלום דמי מחלה החל מהיום הראשון להיעדרו או מחלקו, בכפיפות לתקופת הזכאות המקסימלית כאמור בסעיף 4, ובלבד שמסר למעסיקו אישור רפואי בכתב כי הטיפול או הבדיקה נדרשים בקשר לאותה מחלה.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/bituach-leumi-oncology-rights.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "spouse-sick-days-60-accrued",
@@ -867,69 +1003,144 @@
       "claim_id": "child-sick-days-90-110-accrued",
       "claim": "The 90 and 110 caregiver days for a child are ceilings on the caregiver's own accrued sick or vacation balance, and 'מחלה קשה' is defined as a malignant illness or one requiring permanent dialysis, not cancer specifically.",
       "source_url": "https://www.nevo.co.il/law_html/law00/71574.htm",
-      "raw_snippet": "עובד שעמו ילד שלא מלאו לו 18 שנה ... ועבד שנה לפחות אצל אותו מעסיק או באותו מקום עבודה ... זכאי לזקוף עד 90 ימים בשנה של היעדרות ... בשל מחלה קשה של ילדו ... על חשבון תקופת המחלה הצבורה שלו או על חשבון ימי החופשה המגיעים לו ... לפי בחירת העובד ... היה בן זוגו עובד ולא נעדר מעבודתו מכוח זכאותו כאמור או שהעובד הוא הורה עצמאי ... או שהילד נמצא בהחזקתו הבלעדית ... זכאי העובד לזקוף עד 110 ימים בשנה של היעדרות",
+      "raw_snippet": "עובד שעמו ילד שלא מלאו לו 18 שנה, ועבד שנה לפחות אצל אותו מעסיק או באותו מקום עבודה, זכאי לזקוף עד 90 ימים בשנה של היעדרות, בשל מחלה קשה של ילדו, על חשבון תקופת המחלה הצבורה שלו או על חשבון ימי החופשה המגיעים לו, לפי בחירת העובד; היה בן זוגו עובד ולא נעדר מעבודתו מכוח זכאותו כאמור או שהעובד הוא הורה עצמאי, או שהילד נמצא בהחזקתו הבלעדית, זכאי העובד לזקוף עד 110 ימים בשנה של היעדרות, בשל מחלה קשה של ילדו, כאמור. (ב) בחישוב מספר ימי ההיעדרות לפי סעיף זה, יבואו בחשבון ימי ההיעדרות שזקף העובד לפי סעיף 1. (ג) לעניין סעיף זה, \" מחלה קשה \" – מחלה ממארת, מחלה שנדרש לגביה טיפול קבוע בדיאליזה, או מחלה אחרת שקבע שר הכלכלה והתעשייה, בצו, בהתייעצות עם שר הבריאות ובאישור ועדת העבודה הרווחה והבריאות של הכנסת.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/cancer-type-equity-rights.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
-      "claim_id": "equal-rights-law-s8-s9",
-      "claim": "The individual accommodation duty sits in section 8 of the Equal Rights for Persons with Disabilities Law 1998 and has NO employee-count threshold. Section 9, a separate duty to promote proper representation, is the one that applies only to an employer with more than 25 employees.",
+      "claim_id": "equal-rights-law-s8-accommodation",
+      "claim": "The individual accommodation duty sits in section 8 of the Equal Rights for Persons with Disabilities Law 1998: failure to make accommodations is itself discrimination, bounded only by 'undue burden'. No employee-count threshold appears in section 8.",
       "source_url": "https://www.nevo.co.il/law_html/law01/p214m2_001.htm",
-      "raw_snippet": "לרבות אי-ביצוע התאמות הנדרשות מחמת צרכיו המיוחדים של אדם עם מוגבלות אשר יאפשרו את העסקתו ... לרבות התאמת מקום העבודה ... מבדקי קבלה לעבודה ... והכל מבלי שהדבר יטיל על המעסיק נטל כבד מדי ... מעסיק המעסיק יותר מ-25 עובדים",
+      "raw_snippet": "\"הפליה\" - לרבות אי-ביצוע התאמות הנדרשות מחמת צרכיו המיוחדים של אדם עם מוגבלות אשר יאפשרו את העסקתו; \"התאמה\", \"התאמות\" - לרבות התאמת מקום העבודה, הציוד שבו, דרישות התפקיד, שעות העבודה, מבדקי קבלה לעבודה, הכשרה והדרכה, נוהלי עבודה, והכל מבלי שהדבר יטיל על המעסיק נטל כבד מדי; \"נטל כבד מדי\" - נטל בלתי סביר בנסיבות הענין, בהתחשב, בין היתר, בעלות ההתאמה וטיבה, בגודל העסק ובמבנהו, בהיקף הפעילות, במספר העובדים, בהרכב כוח האדם, ובקיומם של מקורות מימון חיצוניים או ממלכתיים לביצוע ההתאמה.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
-      "claim_id": "arnona-regulations-80-and-40",
-      "claim": "Arnona discount ceilings: up to 80% for a full disability pension with 75%+ earning-capacity loss, up to 40% for 90%+ medical disability. Both are ceilings ('הנחה שאינה עולה על'), and the municipality sets the actual rate. The previously carried flat 40% understated the first band by half.",
+      "claim_id": "equal-rights-law-s9-25-employees",
+      "claim": "The >25-employee threshold belongs to section 9 (the separate duty to promote proper representation), not to the section 8 accommodation duty.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p214m2_001.htm",
+      "raw_snippet": "(ד) בסעיף זה – \"מעסיק\" – מעסיק המעסיק יותר מ-25 עובדים, למעט משרד הממשלתי או יחידת סמך שלו שהוראות סעיף 15א לחוק שירות המדינה (מינויים), התשי\"ט-1959, חלות עליהם; \"התאמות\" – כהגדרתן בסעיף 8(ה).",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "arnona-regulations-80",
+      "claim": "Arnona regulation 2(2)(a): a disabled person entitled to a full monthly pension whose earning-incapacity degree is 75% or more gets a discount 'not exceeding 80 percent'. It is a ceiling, and the municipality sets the actual rate. The previously carried flat 40% understated this band by half.",
       "source_url": "https://www.nevo.co.il/law_html/law01/297_032.htm",
-      "raw_snippet": "נכה הזכאי לקיצבה חודשית מלאה כמשמעותה בסעיף 127לו לחוק הביטוח ... אשר דרגת אי כושר השתכרותו היא בשיעור 75 אחוזים ומעלה ... הנחה שאינה עולה על 80 אחוזים",
+      "raw_snippet": "(2) (א) נכה הזכאי לקיצבה חודשית מלאה כמשמעותה בסעיף 127לו לחוק הביטוח, אשר דרגת אי כושר השתכרותו היא בשיעור 75 אחוזים ומעלה - הנחה שאינה עולה על 80 אחוזים;",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/cancer-type-equity-rights.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
-      "claim_id": "arnona-kolzchut-33-percent-and-100sqm",
-      "claim": "Kolzchut confirms the 80% / 40% split for cancer patients, the 33% band for a parent of a child on גמלת ילד נכה, the 100 sqm area cap, and that municipalities are permitted rather than obliged.",
+      "claim_id": "arnona-regulations-40",
+      "claim": "Arnona regulation 2(3): a disabled person with a proven medical disability of 90 percent or more gets a discount 'not exceeding 40 percent'.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/297_032.htm",
+      "raw_snippet": "(3) נכה אשר דרגת נכותו הרפואית המוכחת על פי כל דין היא בשיעור 90 אחוזים ומעלה, או מי שטרם קבלת קצבת הזקנה נקבעה לו נכות כאמור – הנחה שאינה עולה על 40 אחוזים;",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/cancer-type-equity-rights.md"
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "arnona-kolzchut-bands",
+      "claim": "Kolzchut confirms the 80% / 40% split for cancer patients and the 33% band for a parent of a child receiving גמלת ילד נכה.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%91%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94_%D7%9C%D7%97%D7%95%D7%9C%D7%99_%D7%A1%D7%A8%D7%98%D7%9F",
-      "raw_snippet": "חולי סרטן הזכאים לקצבת נכות מלאה ... דרגת אי כושר של 75% לפחות ... עשויים לקבל הנחה בשיעור של עד 80% ... מי שאינם זכאים לקצבת נכות ... אך נקבעה להם נכות רפואית בשיעור של 90% ומעלה ... עשויים לקבל הנחה בשיעור של עד 40% ... הורים לילד חולה המקבל גמלת ילד נכה עשויים לקבל הנחה עד לגובה של 33%",
+      "raw_snippet": "חולי סרטן הזכאים ל קצבת נכות מלאה , (דרגת אי כושר של 75% לפחות) עשויים לקבל הנחה בשיעור של עד 80%. מי שאינם זכאים לקצבת נכות, אך נקבעה להם נכות רפואית בשיעור של 90% ומעלה, עשויים לקבל הנחה בשיעור של עד 40%. הורים לילד חולה המקבל גמלת ילד נכה עשויים לקבל הנחה עד לגובה של 33%.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "arnona-kolzchut-100sqm-and-discretion",
+      "claim": "Kolzchut: the arnona discount for cancer patients applies to 100 sqm of the apartment, and local authorities are permitted rather than obliged to grant it.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%91%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94_%D7%9C%D7%97%D7%95%D7%9C%D7%99_%D7%A1%D7%A8%D7%98%D7%9F",
+      "raw_snippet": "חולי סרטן עשויים לקבל הנחה בארנונה עבור שטח של 100 מ\"ר מדירתם הרשויות המקומיות אינן מחוייבות במתן ההנחות",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "travel-reimbursement-second-addendum-s28",
       "claim": "Section 28 of the second addendum to the National Health Insurance Law: an oncology or dialysis patient travelling to hospital treatment gets a full refund at the public-transport fare both ways, and 50% for ambulance or taxi. A private vehicle is NOT mentioned in the statute.",
       "source_url": "https://www.nevo.co.il/law_html/Law01/036_001.htm",
-      "raw_snippet": "דמי נסיעות והסעות ... חולה אונקלוגי או חולה דיאליזה הנוסע לטיפול בבית חולים יקבל החזר כספי מלא של הוצאות הנסיעה מביתו לביה ... ח ובחזרה בגובה דמי תחבורה ציבורית ... ל המוסע באמבולנס או במונית יקבל החזר של 50% מן ההוצאה",
+      "raw_snippet": "28. דמי נסיעות והסעות – (1) חולה אונקלוגי או חולה דיאליזה הנוסע לטיפול בבית חולים יקבל החזר כספי מלא של הוצאות הנסיעה מביתו לביה\"ח ובחזרה בגובה דמי תחבורה ציבורית. חולה כנ\"ל המוסע באמבולנס או במונית יקבל החזר של 50% מן ההוצאה;",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "hospital-parking-price-cap",
+      "claim": "Ministry of Health rules for government general hospitals cap parking at 25 NIS per 24 hours from time of entry, with no limit on entries and exits during those hours. NOTE: a previously drafted citation to 'חוזר מנכל 01/2026 dated 13.1.2026' could NOT be verified, so no circular number is asserted anywhere in this skill.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%98%D7%95%D7%A8_%D7%9E%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%97%D7%A0%D7%99%D7%94_%D7%91%D7%91%D7%AA%D7%99_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "המחיר המקסימלי שניתן לגבות בחניונים הוא 25 ₪ עבור 24 שעות משעת הכניסה, ללא הגבלה על מספר הכניסות והיציאות מהמרכז הרפואי במהלך שעות אלה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "hospital-parking-exemption-oncology",
-      "claim": "Ministry of Health rules for government general hospitals: parking capped at 25 NIS per 24 hours, with a full exemption for one vehicle for oncology patients in chemotherapy or radiation and their escorts. NOTE: a previously drafted citation to 'חוזר מנכל 01/2026 dated 13.1.2026' could NOT be verified. The 2026 mk-series circulars are on other subjects, so no circular number is asserted anywhere in this skill.",
+      "claim": "Full parking exemption at government general hospitals, for one vehicle only, covering oncology patients in chemotherapy or radiation and their escorts.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%98%D7%95%D7%A8_%D7%9E%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%97%D7%A0%D7%99%D7%94_%D7%91%D7%91%D7%AA%D7%99_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
-      "raw_snippet": "האוכלוסיות הבאות זכאיות לפטור מלא מתשלום עבור החניה ... הפטור יינתן עבור רכב אחד בלבד ... מטופלים אמבולטוריים ... מטופלים באשפוז יום ... בדיאליזה ומלוויהם ... מטופלים אונקולוגיים ... בכימותרפיה או הקרנות ... הורי פגים מאושפזים ... בעלי תג חניה לנכה",
+      "raw_snippet": "האוכלוסיות הבאות זכאיות לפטור מלא מתשלום עבור החניה ( הפטור יינתן עבור רכב אחד בלבד ): מטופלים אמבולטוריים (מטופלים באשפוז יום) בדיאליזה ומלוויהם. מטופלים אונקולוגיים ( בכימותרפיה או הקרנות ) ומלוויהם.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "moh-circular-2-2026-tagrisso",
@@ -961,13 +1172,16 @@
       "claim_id": "cannabis-prescription-fee-192",
       "claim": "The annual medical-cannabis prescription fee for cancer patients is 192 NIS (the licence-eligibility track is 384 NIS). The previously carried 180 NIS is a stale index-linked figure. Clalit page last updated 14.06.2026.",
       "source_url": "https://www.clalit.co.il/he/myrights/fees/Pages/cannabis-license.aspx",
-      "raw_snippet": "מתן מרשמים לשימוש בקנאביס רפואי למשך שנה מהמועד של המרשם הראשון ... בדיקת זכאות לרישיון לקנאביס רפואי למשך שנה",
+      "raw_snippet": "מתן מרשמים לשימוש בקנאביס רפואי למשך שנה מהמועד של המרשם הראשון - אגרה בסך 192 שקלים לפי תעריף משרד הבריאות . בדיקת זכאות לרישיון לקנאביס רפואי למשך שנה - אגרה בסך 384 שקלים לפי תעריף משרד הבריאות",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/cancer-type-equity-rights.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "sperm-banking-fertility-he",
@@ -983,12 +1197,15 @@
       "claim_id": "kolzchut-en-namespace-removed",
       "claim": "Every kolzchut.org.il/en/* URL previously carried in this skill soft-404s: the English namespace was removed on 2 February 2023 and every /en/ request redirects to a generic 'Information in English' notice page. All such URLs have been replaced with their /he/ equivalents.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%9B%D7%9C-%D7%96%D7%9B%D7%95%D7%AA:%D7%9E%D7%99%D7%93%D7%A2_%D7%91%D7%90%D7%A0%D7%92%D7%9C%D7%99%D7%AA_-_Information_in_English",
-      "raw_snippet": "בשנים 2012-2013 תורגמו לאנגלית כ- 700 דפי מידע באתר ... במסגרת שיתוף פעולה עם עמותת ... Shira Pransky Project ... על רקע חוסר במשאבים של ... לעמוד ברמת העידכונים והמהימנות המתחייבת ... המידע באנגלית הוסר מהאתר בתאריך 2 בפברואר 2023",
+      "raw_snippet": "בשנים 2012-2013 תורגמו לאנגלית כ- 700 דפי מידע באתר 'כל זכות', במסגרת שיתוף פעולה עם עמותת 'Shira Pransky Project'. על רקע חוסר במשאבים של 'כל זכות' לעמוד ברמת העידכונים והמהימנות המתחייבת, המידע באנגלית הוסר מהאתר בתאריך 2 בפברואר 2023.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-09",
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     },
     {
       "claim_id": "deleted-unverifiable-claims-log",
@@ -1051,6 +1268,66 @@
       "appears_in": [
         "references/health-basket-and-hmo-coverage.md"
       ]
+    },
+    {
+      "claim_id": "ica-portal-site",
+      "claim": "Israeli Cancer Association official website (portal home).",
+      "source_url": "https://www.cancer.org.il/",
+      "raw_snippet": "מידע, תמיכה ותרומה לחולי סרטן - האגודה למלחמה בסרטן",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ngos-and-support-services.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "ngo-zichron-menachem-site",
+      "claim": "Zichron Menachem (זכרון מנחם) official website: children, youth and young adults with cancer.",
+      "source_url": "https://zichron.org/",
+      "raw_snippet": "תמיכה מעבר לכל דמיון בזכרון מנחם ילדים נוער וצעירים מעצימים את תחושת החיים ומנצחים את הסרטן ביחד",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ngos-and-support-services.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "ngo-haverim-site",
+      "claim": "Haverim LeRefuah (חברים לרפואה) official website: the organisation whose mission is that no person is left without medicine.",
+      "source_url": "https://www.haverim.org.il/",
+      "raw_snippet": "מקדימים תרופה לרפואה הארגון שדואג שלא ישאר אדם ללא תרופה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ngos-and-support-services.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "claim_id": "ngo-stop-cancer-site",
+      "claim": "Stop Cancer / חלאסרטן official website for young adult cancer patients.",
+      "source_url": "https://www.stop-cancer.co.il/",
+      "raw_snippet": "אנחנו יכולים להקשיב לך ולהבין באמת מה זה אומר סרטן כשאתה צעיר.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ngos-and-support-services.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-09T00:00:00Z"
     }
   ]
 }

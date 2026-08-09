@@ -63,7 +63,7 @@ Whether for the internal HMO committee or for court, the package the patient (or
 ## NGO and legal-aid resources
 
 - **Patients' Rights Association (האגודה לזכויות החולה)** -- patients-rights.org -- represents patients in HMO disputes
-- **Israeli Cancer Association (האגודה למלחמה בסרטן)** -- rights desk via Telemeda 1-800-599-995, shikum@cancer.org.il -- practical help with assembling the package
+- **Israeli Cancer Association (האגודה למלחמה בסרטן)** -- rights desk via Telemeda 1-800-599-995 -- practical help with assembling the package
 - **One in Nine (אחת מתשע)** -- 03-602-1717 ext 2 -- in-house attorney for breast cancer patient rights
 
 ## Common mistakes to avoid
