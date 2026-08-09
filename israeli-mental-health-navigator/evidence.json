@@ -166,9 +166,53 @@
     },
     {
       "claim_id": "aguda-listening-line-2982-a",
-      "claim": "The Aguda LGBTQ+ listening line is *2982 by phone, 058-620-5591 on WhatsApp, anonymous and discreet, Sun-Thu 14:00-17:00 and 19:30-22:30 and Saturday 19:30-22:30. It is NOT *2223.",
+      "claim": "The Aguda LGBTQ+ listening line (Kav HaKeshev) number is *2982. It is NOT *2223.",
       "source_url": "https://www.lgbt.org.il/yesh",
-      "raw_snippet": "yesh@lgbt.org.il במייל 058-620-5591 בוואטסאפ 2982* בטלפון הפנייה אנונימית ודיסקרטית. בימים א'-ה': 14:00-17:00, 19:30-22:30 שבת: 19:30-22:30",
+      "raw_snippet": "קו הקשב 2982*",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "references/crisis-hotlines-directory.md"
+      ]
+    },
+    {
+      "claim_id": "aguda-listening-line-2982-b",
+      "claim": "The same line is reachable on WhatsApp at 058-620-5591.",
+      "source_url": "https://www.lgbt.org.il/yesh",
+      "raw_snippet": "058-620-5591 בוואטסאפ",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "references/crisis-hotlines-directory.md"
+      ]
+    },
+    {
+      "claim_id": "aguda-listening-line-2982-c",
+      "claim": "The listed opening windows are 14:00-17:00 and 19:30-22:30, plus 19:30-22:30 on Saturday. (The Sunday-to-Thursday day label sits in HTML-escaped text on the page and cannot be quoted verbatim, so only the times are quoted here.)",
+      "source_url": "https://www.lgbt.org.il/yesh",
+      "raw_snippet": "14:00-17:00, 19:30-22:30 שבת: 19:30-22:30",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "references/crisis-hotlines-directory.md"
+      ]
+    },
+    {
+      "claim_id": "aguda-listening-line-2982-d",
+      "claim": "Contact to the line is anonymous and discreet, and the service is given in Hebrew.",
+      "source_url": "https://www.lgbt.org.il/yesh",
+      "raw_snippet": "השירות ניתן בשפה העברית",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "references/crisis-hotlines-directory.md"
+      ]
+    },
+    {
+      "claim_id": "aguda-listening-line-2982-e",
+      "claim": "The service is free of charge.",
+      "source_url": "https://www.lgbt.org.il/yesh",
+      "raw_snippet": "לא. השירות ללא עלות.",
       "fetched_at": "2026-08-09",
       "source_fetched_at": "2026-08-09",
       "appears_in": [
@@ -271,9 +315,9 @@
     },
     {
       "claim_id": "full-pension-2026-a",
-      "claim": "Bituach Leumi rates from 01.01.2026: full monthly pension 4,711 NIS at a full incapacity grade (100% or 75%), 3,211 NIS at 74%, 2,894 NIS at 65%, 2,718 NIS at 60%.",
-      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
-      "raw_snippet": "להלן סכומי הקצבאות (החל מ- 01.01.2026): סכום קצבת הנכות החודשית הוא בהתאם לדרגת אי-הכושר שנקבעה לך : דרגה מלאה (100% או 75%) - קצבה חודשית מלאה בסך 4,711 ש\"ח . דרגה חלקית בשיעור 74% - קצבה חודשית חלקית בסך 3,211 ש\"ח . דרגה חלקית בשיעור 65% - קצבה חודשית חלקית בסך 2,894 ש\"ח . דרגה חלקית בשיעור 60% - קצבה חודשית חלקית בסך 2,718 ש\"ח .",
+      "claim": "Disability pension rates for 2026, as stated by Kol Zchut in shekels: full incapacity grade (100% or 75%) 4,711 ש\"ח (4,711 NIS), 74% grade 3,211 ש\"ח (3,211 NIS), 65% grade 2,894 ש\"ח (2,894 NIS), 60% grade 2,718 ש\"ח (2,718 NIS)",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A7%D7%A6%D7%91%D7%AA_%D7%A0%D7%9B%D7%95%D7%AA_%D7%9B%D7%9C%D7%9C%D7%99%D7%AA",
+      "raw_snippet": "שיעורי הקצבה נכון ל-2026: סכום הקצבה לדרגת אי כושר של 100% או 75% (קצבה מלאה) הוא 4,711 ₪. סכום הקצבה לדרגת אי כושר של 74% (קצבה חלקית) הוא 3,211 ₪. סכום הקצבה לדרגת אי כושר של 65% (קצבה חלקית) הוא 2,894 ₪. סכום הקצבה לדרגת אי כושר של 60% (קצבה חלקית) הוא 2,718 ₪.",
       "fetched_at": "2026-08-09",
       "source_fetched_at": "2026-08-09",
       "appears_in": [
@@ -283,9 +327,9 @@
     },
     {
       "claim_id": "full-pension-2026-b",
-      "claim": "Child supplement at a full incapacity grade is 1,214 NIS per child.",
-      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
-      "raw_snippet": "סכום התוספת עבור הילדים הוא בהתאם לדרגת אי-הכושר שנקבעה לך: דרגה מלאה (100% או 75%) - סכום התוספת הוא 1,214 ש\"ח עבור כל ילד.",
+      "claim": "The spouse dependant supplement is paid only if the spouse's gross income does not exceed 7,848 ש\"ח (7,848 NIS) per month (2026).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A7%D7%A6%D7%91%D7%AA_%D7%A0%D7%9B%D7%95%D7%AA_%D7%9B%D7%9C%D7%9C%D7%99%D7%AA",
+      "raw_snippet": "תוספת זו משולמת למקבלי קצבת נכות עבור בני/בנות זוגם אם ההכנסה של בן/בת הזוג לא עולה על 7,848 ₪ ברוטו (נכון ל-2026)",
       "fetched_at": "2026-08-09",
       "source_fetched_at": "2026-08-09",
       "appears_in": [
@@ -295,9 +339,21 @@
     },
     {
       "claim_id": "full-pension-2026-c",
-      "claim": "Spouse supplement requires spouse gross income up to 7,848 NIS per month and is 1,518 NIS at a full incapacity grade.",
+      "claim": "Bituach Leumi lists the child supplement as 1,214 NIS per child at the full incapacity grade, the bullet immediately above the 74% partial grade at 898 NIS.",
       "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
-      "raw_snippet": "סכומי ההכנסה של בן הזוג הם עד 7,848 ש\"ח ברוטו בחודש. בן הזוג אינו מקבל קצבה אחרת. סכום התוספת עבור בן/ בת זוג הוא בהתאם לדרגת אי-הכושר שנקבעה לך: דרגה מלאה (100% או 75%) - סכום התוספת הוא 1,518 ש\"ח .",
+      "raw_snippet": "1,214 ש\"ח עבור כל ילד. דרגה חלקית בשיעור 74% - סכום התוספת 898 ש\"ח עבור כל ילד.",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "full-pension-2026-d",
+      "claim": "Bituach Leumi lists the spouse supplement as 1,518 NIS at the full incapacity grade, the bullet immediately above the 74% partial grade at 1,123 NIS.",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%A7%D7%A6%D7%91%D7%94.aspx",
+      "raw_snippet": "1,518 ש\"ח . דרגה חלקית בשיעור 74% - סכום התוספת הוא 1,123 ש\"ח .",
       "fetched_at": "2026-08-09",
       "source_fetched_at": "2026-08-09",
       "appears_in": [
