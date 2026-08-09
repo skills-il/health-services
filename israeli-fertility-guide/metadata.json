@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "category": "health-services",
   "tags": {
     "he": [
@@ -25,11 +25,16 @@
     "en": "Israeli Fertility Treatment Guide"
   },
   "display_description": {
-    "he": "מדריך לטיפולי פוריות, הפריה חוץ גופית וכיסוי ביטוחי בישראל",
-    "en": "Guide to fertility treatments in Israel including IVF coverage, health basket entitlements, surrogacy law, egg freezing, and navigating kupat cholim fertility services. Use when a user needs information about IVF funding through the national health system, understanding SHABAN supplementary insurance for fertility, the legal framework for surrogacy and sperm donation, or cost breakdowns for fertility treatments. Israel is a world leader in IVF per capita with generous public funding for first two live births. Do NOT use for medical fertility diagnosis or treatment recommendations."
+    "he": "מדריך לטיפולי פוריות בישראל: כיסוי הפריה חוץ גופית, זכאויות בסל הבריאות, ביטוח משלים, הקפאת ביציות ותרומות",
+    "en": "Guide to fertility treatments in Israel: IVF coverage and health basket entitlements, SHABAN supplementary insurance, egg freezing, sperm and egg donation, surrogacy law, posthumous sperm use, work rights during treatment, and cost breakdowns."
   },
   "supported_agents": [
     "claude-code",
+    "claude-ai",
+    "claude-desktop",
+    "chatgpt",
+    "manus",
+    "gemini-spark",
     "cursor",
     "github-copilot",
     "windsurf",

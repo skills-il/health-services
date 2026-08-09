@@ -2,7 +2,7 @@
 
 ## Overview
 
-Israel's IVF (in vitro fertilization, הפריה חוץ גופית) system is one of the most accessible in the world. The national health basket covers unlimited IVF cycles until two live births, for women up to age 45. This guide walks through every stage of the process, from initial consultation through pregnancy test.
+Israel's IVF (in vitro fertilization, הפריה חוץ גופית) system is one of the most accessible in the world. The national health basket funds treatment until two living children from the current relationship, with the woman's own eggs from 18 until her 45th birthday and with a donated egg until age 54. There is no general cycle cap, but from age 42 a woman may not run more than 3 consecutive cycles that did not reach embryo transfer (any transfer resets the count), and a treating-team review is mandatory after 4 consecutive no-transfer cycles or 8 cycles without clinical pregnancy (MoH Circular 6/2014). This guide walks through every stage of the process, from initial consultation through pregnancy test.
 
 ## Stage 1: Getting a Referral
 
@@ -103,7 +103,7 @@ After reviewing all test results, the fertility specialist creates a personalize
 |--------|---------|
 | Timing | 36 hours after trigger shot |
 | Duration | 15-30 minutes |
-| Anesthesia | Light sedation (hargaa, הרגעה) or local anesthesia |
+| Anesthesia | Light sedation (hargaa, הרגעה) or local anesthesia, decided by the unit |
 | Procedure | Ultrasound-guided needle through vaginal wall to aspirate follicles |
 | Recovery | Rest for 1-2 hours in recovery room, go home same day |
 | After retrieval | Mild cramping normal, avoid driving that day, rest recommended |
@@ -111,16 +111,7 @@ After reviewing all test results, the fertility specialist creates a personalize
 
 **What kupat cholim covers:** The entire retrieval procedure, anesthesia, facility fees.
 
-**Expected number of eggs by age (rough averages):**
-
-| Age | Typical Eggs Retrieved | Notes |
-|-----|----------------------|-------|
-| Under 30 | 10-20 | High response expected |
-| 30-35 | 8-15 | Good response typical |
-| 35-38 | 6-12 | Gradually declining |
-| 38-40 | 4-8 | Response may vary significantly |
-| 40-42 | 2-6 | Lower numbers expected |
-| 42-45 | 1-4 | Each egg is valuable |
+**Safety, OHSS (ovarian hyperstimulation syndrome, גירוי יתר שחלתי):** the most common serious complication of stimulation. Severe abdominal pain or swelling, rapid weight gain, vomiting, breathlessness or a sharp drop in urine output after retrieval are emergency symptoms. Contact the treating fertility unit immediately, and go to an emergency room or call 101 if severe. An OHSS admission is also one of the common triggers for the Bituach Leumi pregnancy-preservation benefit (shmirat heriyon) later in an IVF pregnancy.
 
 ## Stage 6: Fertilization and Embryo Development
 
@@ -223,5 +214,5 @@ If extra embryos were frozen, they can be used in future cycles without repeatin
 | Frozen embryo transfer | Yes |
 | Post-transfer medications | Yes |
 | Pregnancy blood test | Yes |
-| Number of cycles | Unlimited (until 2 live births) |
-| Age limit | Up to age 45 |
+| Number of cycles | No general cap, but see the age-42 consecutive-cycle rule (Circular 6/2014) |
+| Age limit | Own eggs until the 45th birthday; with a donated egg, funded to age 54 |

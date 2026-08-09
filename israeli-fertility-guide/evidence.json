@@ -1,183 +1,487 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-fertility-guide",
-  "generated_at": "2026-05-28T00:00:00Z",
+  "generated_at": "2026-08-09T00:00:00Z",
   "claims": [
     {
-      "claim_id": "ivf-2-live-births-age-45",
-      "claim": "Public IVF is funded through kupat cholim almost without cycle limit until 2 live births from the current relationship, for women up to age 45.",
-      "source_url": "https://www.clalit.co.il/he/myrights/fertility/Pages/IVF.aspx",
-      "raw_snippet": "סל הבריאות מאפשר לאשה עד גיל 45 לעבור טיפולים כמעט ללא הגבלה עד ללידת 2 ילדים משותפים לזוג",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "scripts/fertility-coverage-checker.py", "references/ivf-process-detailed.md"]
+      "claim_id": "ivf-2-children-not-pregnancies",
+      "claim": "Basket-funded IVF runs until 2 living children (not 2 pregnancies) from the current relationship, and twins born from a funded treatment exhaust the entitlement.",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_%28IVF%29",
+      "raw_snippet": "אישה זכאית לטיפולי פוריות במסגרת סל הבריאות עד הולדת 2 ילדים (ולא שני הריונות). במקרה שכתוצאה מהטיפול נולדו לאישה תאומים, תיחשב האישה כמי שמיצתה את זכותה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/ivf-process-detailed.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
-      "claim_id": "ivf-age-45-commitment",
-      "claim": "IVF coverage is available up to age 45; a commitment obtained at 44 is exercisable only until the official 45th birthday.",
-      "source_url": "https://www.maccabi4u.co.il/eligibilites/2565/",
-      "raw_snippet": "עד גיל 45 ... ההתחייבות שהתקבלה בגיל 44 ניתנת למימוש רק עד התאריך הרשמי של יום הולדת 45",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "ivf-age-45-own-eggs-54-donation",
+      "claim": "The age ceiling is layered: 18 to 45 (until the 45th birthday) when the woman's own eggs are used, and up to age 54 when a donated egg is used.",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_%28IVF%29",
+      "raw_snippet": "גיל האישה שבביציותיה נעשה הטיפול הוא בין 18 ל-45 (עד יום הולדת 45). במקרה של תרומת ביצית, יינתן הטיפול לאישה עד גיל 54.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/ivf-process-detailed.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
-      "claim_id": "basket-2026-pgt-brca-650m",
-      "claim": "The 2026 health basket, with an addition of about NIS 650 million, approved PGT (preimplantation genetic testing) as part of IVF for carriers of high-cancer-risk mutations including BRCA1/BRCA2 and Lynch syndrome.",
-      "source_url": "https://pharma.doctorsonly.co.il/2026/02/366868/",
-      "raw_snippet": "תוספת תקציבית ... כ-650 מיליון שקלים ... אבחון גנטי טרום-השרשתי (PGT) ... נשאי מוטציית BRCA לסרטן השד ותסמונת לינץ' ... כחלק מטיפולי הפריה חוץ-גופית",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim_id": "ivf-cycle-rule-42-circular-6-2014",
+      "claim": "MoH Medical Administration Circular 6/2014: a woman who has turned 42 may not perform more than 3 consecutive IVF cycles that did not reach embryo transfer, and any transfer restarts the count. A treating-team review (with a social worker) is mandatory after 4 consecutive cycles with no transfer or 8 IVF cycles with no clinical pregnancy.",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_%28IVF%29",
+      "raw_snippet": "נשים שמלאו להן 42 לא יבצעו יותר מ-3 מחזורי IVF עוקבים, בהם לא הגיעו בטיפול לשלב של החזרת עוברים. במקרה שמתבצעת החזרת עוברים (אפילו במחזור השלישי) הספירה תתחיל מחדש. ... לאחר 4 מחזורי טיפול עוקבים, בהם לא הגיעו לשלב החזרת עוברים, או לאחר 8 מחזורי IVF ללא היריון קליני, ייערך דיון של הצוות המטפל בהשתתפות עובדת סוציאלית",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/ivf-process-detailed.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
-      "claim_id": "medical-egg-freezing-cap",
-      "claim": "Medical (indicated) egg freezing is funded up to age 39 with a basket cap of 4 cycles or 20 eggs; fragile-X premutation carriers get up to 6 cycles or 40 eggs.",
-      "source_url": "https://www.maccabi4u.co.il/eligibilites/1834/",
-      "raw_snippet": "עד 4 מחזורי טיפול או עד להשגת 20 ביציות, הקודם מביניהם ... אצל נשאיות פרה מוטציה ל-X שביר, יבוצעו עד 6 מחזורי טיפול או עד להשגת 40 ביציות",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "scripts/fertility-coverage-checker.py"]
+      "claim_id": "ivf-which-kupah-pays-male-factor",
+      "claim": "Fertility treatment is funded by the kupah where the woman is insured even when the infertility is male-factor; only treatment of the man's sperm is funded by his own kupah. The route also requires a fertility-committee approval and a Form 17 commitment to a public IVF unit.",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_%28IVF%29",
+      "raw_snippet": "טיפולי הפוריות משולמים על ידי קופת החולים שבה מבוטחת האישה, גם כאשר הסיבה לאי הפוריות היא הגבר. הגבר יטופל בקופה בה הוא מבוטח רק כאשר יש צורך בטיפול בזרע הגבר. ... יש לקבל אישור של ועדת הפוריות בקופה. ... לאחר קבלת האישור ניתן לפנות לאחת מיחידות ההפריה החוץ גופית (IVF) שבבתי החולים הציבוריים. יש להצטייד בהתחייבות (טופס 17) מהקופה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
     },
     {
-      "claim_id": "elective-egg-freezing-not-basket",
-      "claim": "Elective / social egg freezing for healthy women is NOT included in the basic health basket at any age.",
-      "source_url": "https://www.ynet.co.il/health/article/yokra14655270",
-      "raw_snippet": "שימור פוריות מסיבות שאינן רפואיות ... לא נכלל בסל",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "scripts/fertility-coverage-checker.py"]
+      "claim_id": "ivf-shaban-achshara",
+      "claim": "SHABAN supplementary plans cover part of what the basket does not (a third child, some egg-donation expenses, private fertility departments) and require a qualification period (tkufat achshara) that differs between kupot.",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_%28IVF%29",
+      "raw_snippet": "קופות החולים דורשות תקופת אכשרה (פרק זמן מרגע הצטרפות המבוטח לביטוח המשלים ועד למועד שבו הוא מנצל את זכויותיו לפי הביטוח), שרק לאחריה ניתן ליהנות משירותי הביטוח המשלים. תקופה זו משתנה מקופה לקופה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py"
+      ]
     },
     {
-      "claim_id": "shaban-elective-egg-freezing-3500",
-      "claim": "As of 2025-2026 the SHABAN plans of Clalit (Mushlam Platinum), Maccabi, and Meuhedet subsidize elective egg freezing (roughly ages 30-38, about 3,500 NIS / 3,500 שקל copay per cycle); Leumit is the only kupat cholim that does not.",
-      "source_url": "https://www.ynet.co.il/health/article/yokra14655270",
-      "raw_snippet": "מכבי הצטרפה ... כללית פלטינום בגילאי 30-38 ... השתתפות 3,500 ₪ למחזור ... לאומית היא היחידה שלא מציעה סבסוד להקפאת ביציות מסיבות לא רפואיות",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "scripts/fertility-coverage-checker.py"]
+      "claim_id": "elective-egg-freezing-30-41-moh-caps",
+      "claim": "Elective (non-medical) egg freezing has been permitted since 2011 for women who have turned 30 but not yet 41, at their own expense, with Ministry of Health limits of up to 6 retrievals, a maximum of 25 eggs at ages 30 to 35 and 35 eggs at ages 36 to 40 (Circular 1/2011). These are MoH limits, not private SHABAN limits.",
+      "source_url": "https://www.kolzchut.org.il/he/הקפאת_ביציות",
+      "raw_snippet": "זכאיות לכך נשים המעונינות לשמר ביציות ואשר מלאו להן 30 שנים אך טרם מלאו להן 41. מספר הטיפולים המירבי בנשים במקרה כזה הוא עד 6 שאיבות. מספר הביציות המירבי שמותר לשאוב בין הגילאים 30-35 הוא 25 ביציות. מספר הביציות המירבי שמותר לשאוב בין הגילאים 36-40 הוא 35 ביציות.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
     },
     {
-      "claim_id": "surrogacy-law-1996-reform-2022",
-      "claim": "Surrogacy is legal under the Embryo Carrying Agreements Law 1996; a reform effective 11 January 2022 expanded eligibility to single men and same-sex couples. Surrogate must be an Israeli resident aged 22-39 who has given birth before and is not related to the intended parents.",
+      "claim_id": "elective-egg-freezing-self-funded",
+      "claim": "Fertility preservation for non-medical reasons is performed at the woman's own expense; the Ministry of Health publishes a tariff (taarifon) for the price.",
+      "source_url": "https://www.kolzchut.org.il/he/הקפאת_ביציות",
+      "raw_snippet": "טיפולי שימור פוריות מסיבות שאינן רפואיות ייעשו במימון פרטי של האישה. לפרטים על עלות הטיפולים ראו תעריפון משרד הבריאות.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py"
+      ]
+    },
+    {
+      "claim_id": "egg-storage-5-years-60-days",
+      "claim": "Frozen eggs are stored for up to 5 years; if the woman does not notify the unit in writing and in advance that she wants storage continued, the unit may stop storing them within 60 days of sending a warning, subject to Ministry of Health approval. Non-payment triggers the same process.",
+      "source_url": "https://www.kolzchut.org.il/he/הקפאת_ביציות",
+      "raw_snippet": "הביציות יישמרו ויוקפאו ביחידה להפריה חוץ גופית לתקופה של עד 5 שנים. אם בתום 5 שנים ממועד הקפאת הביציות לא תודיע האישה שמגופה ניטלו הביציות בכתב ומראש ליחידה להפריה חוץ גופית על רצונה בהמשך השמירה לתקופה נוספת, היחידה תהא רשאית להפסיק ולשמור את הביציות עבורה בתוך 60 יום מיום שליחת התראה על כך למטופלת.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "medical-egg-freezing-indications",
+      "claim": "Medical fertility preservation is basket-funded for girls and women who are about to receive chemotherapy or radiation that may harm fertility, and for women up to age 39 at increased risk of premature ovarian failure (fragile-X premutation carriers, BRCA carriers before prophylactic oophorectomy, autoimmune or chromosomal syndromes).",
+      "source_url": "https://www.kolzchut.org.il/he/הקפאת_ביציות",
+      "raw_snippet": "ילדות, נערות ונשים שמתעתדות לקבל טיפול בכימותרפיה או בהקרנות שעלול לפגוע בפוריותן. ... נשים עד גיל 39 עם סיכון מוגבר לאל וסת, בהתאם לתנאים.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "sperm-vial-not-funded",
+      "claim": "The kupot fund the medical treatment around donor insemination, but the woman buys the sperm vial herself. A domestic donor vial costs several hundred shekels and an imported vial can reach thousands.",
+      "source_url": "https://www.kolzchut.org.il/he/קבלת_תרומת_זרע",
+      "raw_snippet": "קופות החולים מממנות את הטיפול הרפואי (הליך ההזרעה המלאכותית, המעקב ובדיקות המעבדה), אך את מנת הזרע האישה רוכשת על חשבונה. מנת זרע מתורם בארץ עולה כמה מאות שקלים. במקרה שהאישה מעוניינת בקבלת תרומה מחו\"ל, עלות מנת הזרע גבוהה יותר ועשויה להגיע לאלפי שקלים.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "sperm-donation-eligibility-anonymity-private-ban",
+      "claim": "Any woman may approach a sperm bank, each partner in a female couple in her own right, and a single intended mother in a surrogacy process. Donation is anonymous, donor insemination may not be performed in a private clinic, and a donor may withdraw consent as long as his vials have not been used.",
+      "source_url": "https://www.kolzchut.org.il/he/קבלת_תרומת_זרע",
+      "raw_snippet": "חל איסור לבצע הזרעה מלאכותית מתורם במרפאה פרטית. ... בנות זוג מאותו מין רשאיות, כל אחת מהן, לקבל תרומת זרע אנונימית. ... תורם זרע רשאי לחזור בו מהסכמתו, ולדרוש שלא ייעשה שימוש במנות הזרע שתרם, בתנאי שטרם נעשה בהן שימוש.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "egg-donation-recipient-fee-10000-7000",
+      "claim": "The egg-donation recipient pays a statutory fee to the hospital of 10,000 NIS / 10,000 ש\"ח, reduced to 7,000 NIS / 7,000 ש\"ח for a recipient receiving the income-support benefit with Bituach Leumi confirmation. The fee also funds the donor's compensation, and beyond it the kupah funds the treatment.",
+      "source_url": "https://www.kolzchut.org.il/he/קבלת_תרומת_ביצית",
+      "raw_snippet": "גובה האגרה עומד על 10,000 ₪. נתרמת המקבלת גמלת הבטחת הכנסה תשלם אגרה מופחתת בסך 7,000 ₪, בכפוף לכך שהנתרמת מסרה לבית החולים אישור מהמוסד לביטוח לאומי על כך שהיא מקבלת גמלת הבטחת הכנסה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "egg-donation-recipient-18-54",
+      "claim": "An egg-donation recipient must be an Israeli resident who has turned 18 and not yet 54, with a medical opinion that she cannot conceive from her own eggs. Beyond the statutory fee the kupot fund the treatment as part of the health basket.",
+      "source_url": "https://www.kolzchut.org.il/he/קבלת_תרומת_ביצית",
+      "raw_snippet": "היא תושבת ישראל. מלאו לה 18 וטרם מלאו לה 54. ... מעבר לכך קופות החולים ממנות את הטיפול, וזאת כחלק מסל הבריאות, ומימון הוצאות הטיפול יחולו במלואן על קופת החולים של הנתרמת.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "reciprocal-ivf-not-permitted",
+      "claim": "Reciprocal IVF is not permitted in Israel: lesbian partners may donate an egg to one another and it may even be fertilized in Israel, but the fertilized egg may not be transferred into the donor's partner's uterus in Israel. A single intended mother may not use a donated egg for surrogacy.",
+      "source_url": "https://www.kolzchut.org.il/he/קבלת_תרומת_ביצית",
+      "raw_snippet": "לא ניתן להשתיל ביצית מופרית ברחמה של בת הזוג של התורמת בישראל ... אם מיועדת יחידה אינה זכאית לקבל תרומת ביצית לצורך הליך הפונדקאות, וההפריה תיעשה באמצעות ביצית שלה בלבד.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "work-leave-women-64-80-men-12",
+      "claim": "Fertility-treatment absence quotas: a woman on a 5-day week gets up to 4 series a year of up to 16 days each, 64 days a year in total; on a 6-day week up to 20 days per series, 80 days a year. A male employee gets 12 days a year. State-employed women received 2 extra days per series from 01.08.2018, giving 18 per series and 72 days a year on a 5-day week, or 22 per series and 88 days a year on a 6-day week.",
+      "source_url": "https://www.kolzchut.org.il/he/היעדרות_מהעבודה_וימי_מחלה_בגין_טיפולי_פוריות",
+      "raw_snippet": "למי שעובדת 5 ימים בשבוע - עד 4 סדרות טיפוליות בשנה ובאורך של עד 16 ימים לסדרה, ובסה\"כ עד 64 יום בשנה על חשבון ימי המחלה הצבורים לזכותה. למי שעובדת 6 ימים בשבוע - עד 4 סדרות טיפוליות בשנה ובאורך של עד 20 ימים לסדרה, ובסה\"כ עד 80 יום בשנה על חשבון ימי המחלה הצבורים לזכותה. עובד רשאי להיעדר 12 ימים בשנה על חשבון ימי המחלה בגין טיפולי פוריות שהוא עובר.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "work-leave-state-employees-72-88",
+      "claim": "State-employed women get 2 additional absence days per treatment series since 01.08.2018: 18 days per series and up to 72 days a year on a 5-day week, 22 days per series and up to 88 days a year on a 6-day week.",
+      "source_url": "https://www.kolzchut.org.il/he/היעדרות_מהעבודה_וימי_מחלה_בגין_טיפולי_פוריות",
+      "raw_snippet": "עובדות מדינה: בהתאם להודעת נציבות שירות המדינה, החל מ-01.08.2018 נוספו לעובדות בשירות המדינה 2 ימי היעדרות לכל סדרה טיפולית: למי שעובדת 5 ימים בשבוע, הזכאות היא עד ל-18 ימים לסדרה, ובסה\"כ עד 72 יום בשנה על חשבון ימי המחלה הצבורים לזכותה. למי שעובדת 6 ימים בשבוע, הזכאות היא עד ל-22 ימים לסדרה, ובסה\"כ עד 88 יום בשנה על חשבון ימי המחלה הצבורים לזכותה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "work-leave-40-hours-and-sick-pay-ladder",
+      "claim": "Up to 40 hours a year (pro-rated for part-time) may be taken as single hours rather than whole days, and those hours are paid from the first hour. For whole days the sick-pay ladder is nothing on day 1, 50% of pay on days 2 and 3, and full pay from day 4; for men the full-pay tier runs from day 4 through day 12 and further days that year are unpaid.",
+      "source_url": "https://www.kolzchut.org.il/he/היעדרות_מהעבודה_וימי_מחלה_בגין_טיפולי_פוריות",
+      "raw_snippet": "מי שעובד/ת משרה מלאה כנהוג במקום העבודה, זכאי/ת להיעדר מספר שעות במהלך יום העבודה לצורך טיפולי פוריות, עד למקסימום מצטבר של 40 שעות בשנה. ... זכאית לתשלום דמי מחלה בשווי של 50% מהשכר ... עבור ימי היעדרותו החל מיום ההיעדרות הרביעי ועד יום ההיעדרות ה-12 באותה שנה, העובד זכאי לתשלום דמי מחלה בשווי שכר מלא.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "work-anti-dismissal-150-days",
+      "claim": "During the fertility-treatment absence and for the 150 days that follow, an employer may not dismiss the employee or reduce their pay without a special permit from the Ministry of Labor.",
+      "source_url": "https://www.kolzchut.org.il/he/היעדרות_מהעבודה_וימי_מחלה_בגין_טיפולי_פוריות",
+      "raw_snippet": "בתקופת ההיעדרות בשל הטיפולים ובמשך 150 יום לאחר מכן אסור למעסיקים לפטר את העובדים או לפגוע בשכרם, אלא בהיתר מיוחד.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "pgt-brca-lynch-two-pregnancies-cap",
+      "claim": "The 2026 health basket (Director General Circular 02/2026, published 08.03.2026) funds PGT as part of IVF for carriers of high-cancer-risk mutations (BRCA1/BRCA2, Lynch/HNPCC), and that entitlement is limited to two pregnancies that ended in birth. Eligibility is set on a genetic counselor's recommendation.",
+      "source_url": "https://www.gov.il/he/pages/mk02-2026",
+      "raw_snippet": "נשאות של מוטציות בגנים המעלים סיכון לחלות בסרטן שלגביהם מתקיים אחד מאלה: לפחות אחד מבני הזוג נשא של המוטציה בגן BRCA1, BRCA2; לפחות אחד מבני הזוג אובחן עם תסמונת לינץ' (HNPCC. הזכאות לטיפול לפי פסקה זו, תוגבל לשני הריונות בלבד, שהסתיימו בלידה. זכאות לטיפול תיקבע בהתאם להמלצת יועץ גנטי.",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "surrogacy-law-1996-surrogate-22-39",
+      "claim": "Surrogacy is legal under the Embryo Carrying Agreements Law 1996 with at least one intended parent genetically linked to the child. The approval committee has seven members including a clergy member of the parties' religion, and its sessions are closed. The surrogate must have turned 22 and not yet 39 when the agreement is approved. Implementation guidance is in Director General Circular 07/2021.",
       "source_url": "https://www.gov.il/he/service/embryo-carrying",
-      "raw_snippet": "תושבת ישראל ... מלאו לה 22 שנים וטרם מלאו לה 39 שנים ... הרתה וגידלה ילד אחד לפחות ... אינה קרובת משפחה של אחד ההורים המיועדים",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/surrogacy-law-guide.md"]
+      "raw_snippet": "גיל: בעת אישור ההסכם מלאו לה 22 שנים וטרם מלאו לה 39 שנים",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/surrogacy-law-guide.md",
+        "references/domain-checklist.md"
+      ]
     },
     {
-      "claim_id": "surrogacy-cost-150k-250k",
-      "claim": "Surrogacy in Israel involves significant out-of-pocket costs, typically 150,000-250,000 NIS / 150,000-250,000 שקל total, including surrogate compensation, legal fees, agency (20,000-40,000 NIS) and medical costs.",
-      "source_url": "https://www.pundekaut.com/כמה-משלמים-לפונדקאית",
-      "raw_snippet": "עלותו של הליך פונדקאות בישראל ... עשויה להגיע לסך כולל של 250 אלף שקלים",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/surrogacy-law-guide.md"]
+      "claim_id": "posthumous-sperm-retrieval-use",
+      "claim": "Israel has no statute on posthumous sperm retrieval and use; the state acts under the 2003 Attorney General directive. Retrieval is time critical because sperm viability after death is limited to hours, so requests are approved as a rule. A widow or steady partner usually needs no court for retrieval, parents apply to the Family Court, and during the Iron Swords war hospitals may approve retrieval at the parents' request without a court application. Use always requires Family Court approval. Iron Swords bereaved families can reach the MoH coordination desk at 02-5081673.",
+      "source_url": "https://www.gov.il/he/service/sperm-preserving-after-death",
+      "raw_snippet": "המדינה פועלת בהתאם להנחיות היועץ המשפטי לממשלה בנושא \"נטילת זרע לאחר המוות ושימוש בו\" משנת 2003. ... בימי מלחמת \"חרבות ברזל\", וכל עוד נמשך מצב הלחימה, יכולים בתי החולים לאשר נטילת זרע מנפטר גם לבקשת הורי הנפטר, מבלי להפנות אותם לבית המשפט ... לפי הנחיית היועץ המשפטי לממשלה לצורך שימוש בזרע שניטל לאחר המוות, נדרש אישור של בית המשפט לענייני משפחה. ... קרובי חללי מערכת \"חרבות ברזל\" יכולים לפנות למתאמת החמ\"ל שהוקם במשרד הבריאות בטלפון 02-5081673.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "posthumous-sperm-viability-hours",
+      "claim": "The Attorney General's 2003 directive instructs a permissive policy at the retrieval stage because sperm cell viability after death is limited to a few hours, and leaves the substantive decision to the court at the use stage.",
+      "source_url": "https://www.gov.il/BlobFolder/service/sperm-preserving-after-death/he/legal-advisor.pdf",
+      "raw_snippet": "בשלב הראשוני בו מתבקשת נטילת הזרע, יש לנהוג במדיניות מקלה, לפיה, ככלל יאושרו הבקשות. מדיניות זו מתחייבת נוכח הדחיפות בביצוע הפעולה, והחשש כי אי-ביצועה במועד המבוקש יגרום לתוצאה בלתי הפיכה, שכן משך זמן החיות של תאי הזרע מוגבל למספר שעות בלבד.",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "embryo-storage-5-plus-5",
+      "claim": "Frozen embryos are stored for 5 years at no charge under a Ministry of Health directive and the storage may be extended for a further 5 years for a fee. If no other instruction is received from the couple within 5 years after they are contacted, the embryos are thawed and destroyed. The governing rules are the Public Health Regulations (In Vitro Fertilization) 1987 and MoH Circular 8/2008.",
+      "source_url": "https://www.kolzchut.org.il/he/הקפאת_עוברים",
+      "raw_snippet": "בהוראת משרד הבריאות, ניתן לשמור עוברים בהקפאה למשך 5 שנים ללא תשלום",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "nahmani-embryo-dispute",
+      "claim": "In the Nahmani case (DN 2401/95) the Supreme Court allowed the woman to use jointly created frozen embryos over her former partner's objection, on the specific facts: she had changed her position irreversibly in reliance on his original agreement, she had borne the physical burden of treatment, and this was her only remaining chance at motherhood. Outcomes in such disputes are fact-specific.",
+      "source_url": "https://www.kolzchut.org.il/he/הזכות_להורות,_התנגדות_בן_הזוג_לשעבר_לשימוש_בביציות_המופרות",
+      "raw_snippet": "הזכות להורות",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "self-sperm-banking-oncology-5-years",
+      "claim": "Any person may deposit and freeze their own sperm for fertility preservation. Oncology patients receive kupah funding toward sperm-bank storage, limited to 5 years.",
+      "source_url": "https://www.kolzchut.org.il/he/הפקדת_זרע",
+      "raw_snippet": "חולים אונקולוגים זכאים להשתתפות כספית של קופת החולים בעלות שמירת זרע בבנק זרע",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "fertility-preservation-methods-basket",
+      "claim": "The fertility-preservation methods funded through the health basket include embryo preservation, egg freezing and ovarian tissue freezing.",
+      "source_url": "https://www.kolzchut.org.il/he/שימור_פוריות",
+      "raw_snippet": "שימור עוברים",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "nhi-complaints-commissioner",
+      "claim": "Complaints about a kupah's refusal of a basket or SHABAN service go to the Public Complaints Commissioner under the National Health Insurance Law at the Ministry of Health, not the kupah's own ombudsman. Fertility is explicitly within scope, the service is free, the commissioner determines whether the kupah owed the service, in appropriate cases the cost of a privately purchased service is reimbursed, and its position supports a claim in the Regional Labour Court.",
+      "source_url": "https://www.gov.il/he/service/national-health-insurance-law-complaint-submission",
+      "raw_snippet": "ניתן להגיש תלונות בדבר זכאות לתרופות, בדיקות, טיפולים בתחומי הבריאות השונים כגון: שיקום, התפתחות הילד, פוריות ועוד. ... הנציבות קובעת באם קופת החולים חייבת לתת לפונים את השירות המבוקש במסגרת סל הבריאות או במסגרת הביטוח המשלים. במקרים המתאימים ניתן לאכוף את ההחלטה ולהחזיר לפונים את עלות רכישת השירות הרפואי.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "shmirat-heriyon-30-days",
+      "claim": "The Bituach Leumi pregnancy-preservation benefit (shmirat heriyon) requires a reasoned specialist certificate for at least 30 consecutive days for the first period and at least 14 consecutive days for a subsequent period, and is available to employed and self-employed women who meet the contribution conditions. Fertility treatment itself carries no Bituach Leumi benefit, only sick days.",
+      "source_url": "https://www.kolzchut.org.il/he/גמלה_לשמירת_היריון",
+      "raw_snippet": "30 ימים רצופים לפחות",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "shaban-elective-freezing-clalit",
+      "claim": "Clalit Mushlam Platinum members aged 30 to 37 (until the 38th birthday) get subsidized elective egg freezing: up to 2 retrieval cycles and no more than 25 eggs at ages 30 to 35, up to 3 retrieval cycles and no more than 35 eggs at ages 36 to 37, at a copay of 3,500 NIS / 3,500 ש\"ח per treatment, including 5 years of storage.",
+      "source_url": "https://www.clalit.co.il/he/myrights/fertility/Pages/fertility-preservation.aspx",
+      "raw_snippet": "לקוחות כללית מושלם פלטינום בגיל 30 עד 37 (עד יום הולדת 38) ... זכאיות לעד 2 מחזורי שאיבה ולא יותר מ-25 ביציות ... זכאיות לעד 3 מחזורי שאיבה ולא יותר מ-35 ביציות ... השתתפות עצמית של הלקוח היא 3,500 ₪ לטיפול",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "shaban-elective-freezing-maccabi",
+      "claim": "Maccabi Sheli members aged 31 to 38 inclusive get subsidized elective egg freezing, up to 3 treatments or 25 eggs in total whichever comes first, at a copay of 3,500 NIS / 3,500 ש\"ח per treatment at a contracted hospital, available from 15.03.2026 and requiring 12 months of membership.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/117173/",
+      "raw_snippet": "חברות מכבי בגיל 38-31 (כולל) ... הכיסוי כולל עד 3 טיפולים או עד השגת 25 ביציות בסך הכול, לפי המוקדם מביניהם ... תיגבה השתתפות עצמית בבית החולים שבהסכם בגובה 3500 ₪ לכל טיפול",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "shaban-elective-freezing-meuhedet",
+      "claim": "Meuhedet Si (shia) members get subsidized non-medical fertility preservation at a copay of 3,500 NIS / 3,500 ש\"ח, and Meuhedet publishes the benefit for women aged 30 to 41.",
+      "source_url": "https://www.meuhedet.co.il/היריון-ולידה/רמת-אחרת-גם-בשימור-פריון/",
+      "raw_snippet": "לקוחות 'מאוחדת שיא' תהליך שימור פריון מסיבות לא רפואיות בהשתתפות עצמית של 3,500 ₪",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "shaban-elective-freezing-leumit",
+      "claim": "Leumit joined the elective egg-freezing benefit: Leumit Zahav members aged 30 to 37 inclusive get up to four treatment rounds at 3,500 NIS / 3,500 ש\"ח per cycle, after a 12-month qualification period in the Zahav plan. Leumit is therefore no longer the only kupah without such a benefit.",
+      "source_url": "https://www.ynet.co.il/health/article/skzmnuamgg",
+      "raw_snippet": "נשים בגילי 37-30 (כולל)",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "cost-estimates-market-not-official",
+      "claim": "Out-of-pocket cost figures quoted as market estimates and NOT as official tariffs: a self-paid IVF cycle for a third child roughly 15,000 to 25,000 NIS / 25,000 ש\"ח, a full private cycle roughly 20,000 to 40,000 NIS / 40,000 ש\"ח. There is no official surrogacy tariff, no current published egg-donor compensation figure, and storage fees and drug copays vary by unit and kupah, so those are stated as mechanisms rather than numbers. The Ministry of Health publishes a tariff (taarifon) to check against.",
+      "source_url": "https://www.kolzchut.org.il/he/הקפאת_ביציות",
+      "raw_snippet": "טיפולי שימור פוריות מסיבות שאינן רפואיות ייעשו במימון פרטי של האישה. לפרטים על עלות הטיפולים ראו תעריפון משרד הבריאות.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "chen-org-and-kol-habriut",
+      "claim": "Amutat Chen (fertility support) is at amotatchen.org, phone 03-5050345. The Ministry of Health information line Kol HaBriut is *5400. Kol Zchut also lists halachic fertility-support organizations (Puah Institute, Bonei Olam, Keren Gefen).",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_%28IVF%29",
+      "raw_snippet": "קול הבריאות (משרד הבריאות) ... *5400 ... עמותת חן לפריון וחיים ... בוני עולם - תמיכה וסיוע בטיפולי פוריות על-פי ההלכה ... מכון פוע\"ה פוריות ורפואה על פי ההלכה ... קרן גפן",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "btl-portal-url",
+      "claim": "Bituach Leumi portal for maternity, pregnancy-preservation and insurance rights.",
+      "source_url": "https://www.btl.gov.il",
+      "raw_snippet": "המוסד לביטוח לאומי",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "scmother-march-2024-ruling",
-      "claim": "A March 2024 Supreme Court ruling requires the state to register both women of a female same-sex couple as mothers on the birth certificate for children born via sperm donation (with a judicial parenthood order), not via a lengthy adoption process. It is not a surrogacy ruling.",
-      "source_url": "https://www.haaretz.co.il/news/law/2024-03-21/",
-      "raw_snippet": "בג\"ץ קבע פה אחד: על המדינה לרשום זוגות נשים כאמהות בתעודות הלידה של ילדיהן",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
-    },
-    {
-      "claim_id": "sperm-donation-anonymity-reform",
-      "claim": "Israeli law currently mandates sperm-donor anonymity; a public committee chaired by Prof. Shlomo Mor-Yosef (convened 2025) is examining an identified-donation track, but no change is yet in force.",
-      "source_url": "https://www.kolzchut.org.il/he/מתן_תרומת_זרע",
-      "raw_snippet": "החוק הישראלי מחייב ומגן על אנונימיות התורם",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
-    },
-    {
-      "claim_id": "egg-donation-law-2010",
-      "claim": "Egg donation is legal and regulated under the Egg Donation Law 2010 (chok trumat bitziot); recipients are basket-funded within the standard age window and donors are compensated.",
-      "source_url": "https://www.health.gov.il/Subjects/fertility/Pages/egg_donation.aspx",
-      "raw_snippet": "תרומת ביציות ... חוק תרומת ביציות התש\"ע-2010",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
-    },
-    {
-      "claim_id": "fertility-work-leave-1990",
-      "claim": "Under the Women's Employment Regulations (Absence for Fertility and IVF Treatments) 1990, an employee may be absent for treatment against accrued sick days, up to 16 days per IVF cycle on a 5-day work week (20 days on a 6-day week), for up to 4 cycles per year.",
-      "source_url": "https://www.kolzchut.org.il/he/היעדרות_מהעבודה_וימי_מחלה_בגין_טיפולי_פוריות",
-      "raw_snippet": "היעדרות ... בשל טיפולי פוריות ... עד 16 ימים ... בשבוע עבודה של חמישה ימים",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
-    },
-    {
-      "claim_id": "fertility-anti-dismissal-150-days",
-      "claim": "Under the Women's Employment Law, an employer may not dismiss an employee during fertility treatments (for a first or second child) nor during the 150 days following the absence, without a permit from the Ministry of Labor.",
-      "source_url": "https://www.kolzchut.org.il/he/היעדרות_מהעבודה_וימי_מחלה_בגין_טיפולי_פוריות",
-      "raw_snippet": "איסור פיטורים ... במהלך טיפולי הפריה ... 150 הימים שלאחר תום ההיעדרות",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
-    },
-    {
-      "claim_id": "chen-org-contact",
-      "claim": "The fertility support organization Amutat Chen has the website amotatchen.org and phone 03-5050345.",
-      "source_url": "https://www.kolzchut.org.il/he/עמותת_חן_לפריון_וחיים",
-      "raw_snippet": "עמותת חן לפריון ולחיים ... אתר: http://www.amotatchen.org/ ... 03-5050345",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
-    },
-    {
-      "claim_id": "out-of-pocket-cost-estimates",
-      "claim": "Out-of-pocket fertility cost estimates in Israel (market ranges). Amounts referenced, each shown in both currency forms: 2,000 NIS, 2,000 ש\"ח, 3,500 NIS, 3,500 ש\"ח, 10,000 NIS, 10,000 ש\"ח, 15,000 NIS, 15,000 ש\"ח, 20,000 NIS, 20,000 ש\"ח, 25,000 NIS, 25,000 ש\"ח, 40,000 NIS, 40,000 ש\"ח, 250,000 NIS, 250,000 ש\"ח. IVF cycle for a third child without SHABAN 15,000-25,000; private full cycle 20,000-40,000; elective egg freezing 10,000-15,000 per cycle plus 1,000-2,000 per year storage; surrogacy total 150,000-250,000; egg donor compensation about 20,000; SHABAN elective copay about 3,500.",
-      "source_url": "https://www.kolzchut.org.il/he/טיפולי_פוריות",
-      "raw_snippet": "עלויות טיפולי פוריות פרטיים נעות בין אלפי לעשרות אלפי שקלים למחזור, בנוסף לדמי אחסון שנתיים",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "scripts/fertility-coverage-checker.py"]
-    },
-    {
-      "claim_id": "health-basket-collector-url-he",
-      "claim": "The health basket (sal briut) covered services, including fertility treatments, are described on Kol Zchut.",
-      "source_url": "https://www.kolzchut.org.il/he/סל_שירותי_הבריאות",
-      "raw_snippet": "סל שירותי הבריאות",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL_HE.md"]
-    },
-    {
-      "claim_id": "health-basket-moh-url",
-      "claim": "The Ministry of Health publishes the health basket of services (covered fertility treatments and procedures).",
-      "source_url": "https://www.health.gov.il/UnitsOffice/HD/MTI/info/Pages/HealthServicesBasket.aspx",
-      "raw_snippet": "סל שירותי הבריאות",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md"]
-    },
-    {
-      "claim_id": "moh-homepage-en",
-      "claim": "Israeli Ministry of Health English homepage (fertility policy and eligibility).",
-      "source_url": "https://www.health.gov.il/English/Pages/HomePage.aspx",
-      "raw_snippet": "Ministry of Health",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md"]
-    },
-    {
-      "claim_id": "moh-homepage-he",
-      "claim": "Israeli Ministry of Health website (Hebrew).",
-      "source_url": "https://www.health.gov.il",
-      "raw_snippet": "משרד הבריאות",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL_HE.md"]
-    },
-    {
-      "claim_id": "knesset-surrogacy-law-url",
-      "claim": "Knesset legislation portal for the Embryo Carrying Agreements Law 1996.",
-      "source_url": "https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/default.aspx",
-      "raw_snippet": "חוק הסכמים לנשיאת עוברים",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
-    },
-    {
-      "claim_id": "btl-maternity-url",
-      "claim": "Bituach Leumi maternity and insurance rights.",
-      "source_url": "https://www.btl.gov.il",
-      "raw_snippet": "המוסד לביטוח לאומי",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
-    },
-    {
-      "claim_id": "kolzchut-fertility-url",
-      "claim": "Kol Zchut fertility-rights hub.",
-      "source_url": "https://www.kolzchut.org.il/he/טיפולי_פוריות",
-      "raw_snippet": "טיפולי פוריות",
-      "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim": "A March 2024 Supreme Court ruling requires the state to register both women of a female same-sex couple as mothers on the birth certificate for children born via sperm donation, alongside a judicial parenthood order (tzav horut psikati), without a lengthy adoption process. It is not a surrogacy ruling.",
+      "source_url": "https://www.kolzchut.org.il/he/צו_הורות_פסיקתי_ללא_צורך_בתסקיר_לאם_הלא_ביולוגית_שבת_זוגה_ילדה_מתרומת_זרע",
+      "raw_snippet": "צו הורות פסיקתי",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
     }
   ]
 }
