@@ -145,8 +145,8 @@
       "claim": "Havraa days by seniority: year 1 = 5 days; years 2-3 = 6; years 4-10 = 7; years 11-15 = 8; years 16-19 = 9; year 20+ = 10",
       "claim_type": "threshold",
       "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
-      "source_fetched_at": "2026-06-29",
-      "raw_snippet": "שנה ראשונה - 5 ימים ... שנה שנייה ושנה שלישית - 6 ימים ... שנים רביעית עד עשירית - 7 ימים ... שנים אחת עשרה עד חמש עשרה - 8 ימים ... שנים שש עשרה עד תשע עשרה - 9 ימים ... שנה עשרים ואילך - 10 ימים",
+      "source_fetched_at": "2026-08-09",
+      "raw_snippet": "שנה ראשונה 5 ימים שנה שנייה ושנה שלישית 6 ימים שנים רביעית עד עשירית 7 ימים שנים אחת עשרה עד חמש עשרה 8 ימים שנים שש עשרה עד תשע עשרה 9 ימים שנה עשרים ואילך 10 ימים",
       "confidence": "high",
       "verified_via": "browser",
       "verified_at": "2026-07-21",
@@ -166,8 +166,8 @@
       "claim": "Annual leave for a 6-day work week, gross days by seniority: years 1-5 = 16; year 6 = 18; year 7 = 21; year 8 = 22; year 9 = 23; year 10 = 24; year 11 = 25; year 12 = 26; year 13 = 27; year 14+ = 28",
       "claim_type": "threshold",
       "source_url": "https://www.kolzchut.org.il/he/חישוב_מספר_ימי_החופשה_השנתית_לעובדים_במקומות_עבודה_שבהם_מונהג_שבוע_עבודה_בן_6_ימים",
-      "source_fetched_at": "2026-06-29",
-      "raw_snippet": "1-4 שנים | 14 | 16 ... 5 שנים | 14 | 16 ... 6 שנים | 16 | 18 ... 7 שנים | 18 | 21",
+      "source_fetched_at": "2026-08-09",
+      "raw_snippet": "1- 4 שנים (* החל מיום 01.01.2017) 14 16 5 שנים 14 16 6 שנים 16 18 7 שנים 18 21 8 שנים 19 22 9 שנים 20 23 10 שנים 21 24 11 שנים 22 25 12 שנים 23 26 13 שנים 24 27 14 שנים ומעלה 24 28",
       "confidence": "high",
       "note": "Source table has NET and GROSS columns. The skill uses the GROSS column consistently (yrs 1-5 = 16, yr 6 = 18, yr 7 = 21), which matches the gross column exactly. Verified correct.",
       "verified_via": "browser",
@@ -212,16 +212,25 @@
     },
     {
       "id": "benefit-amounts-by-level",
-      "claim": "The long-term-care benefit has 6 levels (01.04.2026). Level 1 is 1,705 NIS/month in cash. Each care-hour is valued at 248 NIS, so a foreign-worker employer at level 2 (10 hours/week) receives 2,480 NIS and at level 3 (14 hours/week for a foreign-worker employer) receives 3,472 NIS, all takeable as cash. Level 6 gives a foreign-worker employer 26 care-hours/week, so 26 x 248 = 6,448 NIS (6,448 ש\"ח), the top of the range.",
+      "claim": "The long-term-care benefit has 6 eligibility levels. For an employer of a foreign caregiver taking the benefit in cash, the maximum monthly amounts from 01.04.2026 are: level 1 = 1,705 NIS, level 2 = 2,480 NIS, level 3 = 3,472 NIS, level 4 = 4,464 NIS, level 5 = 5,456 NIS, level 6 = 6,448 NIS",
       "claim_type": "currency",
-      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/level1.aspx",
-      "source_fetched_at": "2026-06-29",
-      "raw_snippet": "אתה יכול לקבל את הקצבה בכסף - 1,705 ש\"ח (החל ב- 01.04.2026) לחודש ... כל שעת טיפול שווה ל-248 ש\"ח (החל ב- 01.04.2026) ... אם נקבעה לך קצבת סיעוד ברמה 6 ... ואם אתה מעסיק עובד זר תקבל 26 שעות שבועיות ... כל שעת טיפול שווה 248 ש\"ח (החל ב- 01.04.2026)",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/ovedZar.aspx",
+      "source_fetched_at": "2026-08-09",
+      "raw_snippet": "1,705 ש\"ח (החל ב- 01.04.2026) 2 2,480 ש\"ח (החל ב- 01.04.2026) 3 3,472 ש\"ח (החל ב- 01.04.2026) 4 4,464 ש\"ח (החל ב- 01.04.2026) 5 5,456 ש\"ח (החל ב- 01.04.2026) 6 6,448 ש\"ח (החל ב- 01.04.2026)",
       "confidence": "high",
       "note": "Level 1 is printed verbatim; levels 2 and 3 are the arithmetic product of the weekly care-hours and the 248 NIS/hour rate, both of which are printed verbatim on level2.aspx and level3.aspx. All at 01.04.2026.",
       "verified_via": "browser",
       "verified_at": "2026-07-21",
       "fetched_at": "2026-07-21"
+    },
+    {
+      "id": "care-hour-cash-value-248",
+      "claim": "A long-term-care care-hour may be exchanged for cash at 248 NIS per hour per month from 01.04.2026",
+      "claim_type": "currency",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/level2.aspx",
+      "source_fetched_at": "2026-08-09",
+      "raw_snippet": "אתה יכול להחליף עד 4 שעות טיפול לקצבה בכסף. כל שעת טיפול שווה ל- 248 ש\"ח (החל ב- 01.04.2026) בחודש.",
+      "confidence": "high"
     },
     {
       "id": "benefit-direct-or-company",
@@ -255,13 +264,23 @@
     },
     {
       "id": "btl-ltc-foreign-worker-pages",
-      "claim": "The BTL long-term-care foreign-worker page and the employer-of-a-nursing-recipient page are the authoritative sources for the benefit levels, the two employment routes, and the 3.6% employer National Insurance.",
+      "claim": "A long-term-care benefit recipient may employ a foreign caregiver by one of two routes: directly, receiving the benefit in cash to their own account to pay the caregiver, or through a nursing-care company",
       "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/ovedZar.aspx",
-      "raw_snippet": "קצבת סיעוד ... עובד זר ... 6 רמות זכאות | employer page https://www.btl.gov.il/Insurance/Maasik/Pages/mekabelSiud.aspx",
+      "raw_snippet": "באפשרותך להעסיק מטפל עובד זר באחת משתי הדרכים הבאות: באופן ישיר - אם תבחר באפשרות זאת תקבל קצבה בכסף שתועבר ישירות לחשבונך הפרטי לצורך תשלום ישיר למטפל. באמצעות חברת סיעוד המספקת לך שירותים.",
       "fetched_at": "2026-07-21",
       "verified_via": "browser",
       "verified_at": "2026-07-21",
-      "note": "Landing page retained as a citation; specific amounts verified on the per-level pages. Companion employer page: https://www.btl.gov.il/Insurance/Maasik/Pages/mekabelSiud.aspx (3.6% employer NI)."
+      "note": "Landing page retained as a citation; specific amounts verified on the per-level pages. Companion employer page: https://www.btl.gov.il/Insurance/Maasik/Pages/mekabelSiud.aspx (3.6% employer NI).",
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "id": "btl-employer-pays-on-full-wage",
+      "claim": "An employer of a foreign caregiver for nursing care must pay National Insurance contributions on the entire wage paid to the foreign worker",
+      "claim_type": "feature",
+      "source_url": "https://www.btl.gov.il/Insurance/Maasik/Pages/mekabelSiud.aspx",
+      "source_fetched_at": "2026-08-09",
+      "raw_snippet": "לשלם דמי ביטוח עבור כל השכר המשולם לעובד הזר",
+      "confidence": "high"
     }
   ]
 }
