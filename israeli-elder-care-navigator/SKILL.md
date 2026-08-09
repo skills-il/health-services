@@ -365,7 +365,7 @@ Result: Family understands the legal process and immediate care options.
 | Ministry of Health (Elder Services) | https://www.gov.il/he/departments/ministry_of_health/govil-landing-page | Nursing home licensing, subsidized placement codes |
 | PIBA (Foreign Caregiver Permits) | https://www.gov.il/he/service/nursing_foreign_worker | Permit to employ a foreign caregiver in elder care |
 | Yad Sarah | https://yad-sarah.net | Equipment loans, emergency button, hotline *6444 |
-| Claims Conference Article 2 Fund | https://www.claimscon.org | Holocaust survivor monthly pension |
+| Claims Conference Article 2 Fund | https://www.claimscon.org/what-we-do/compensation/background/article2/ | Holocaust survivor monthly pension |
 | Rashut Lezchuyot Nitzolei HaShoah | https://www.gov.il/he/departments/holocaust-survivors-rights | Israeli supplements for Holocaust survivors |
 | Women's retirement age schedule | https://www.gov.il/he/pages/women_retirement_age_news | Retirement age by birth year |
 

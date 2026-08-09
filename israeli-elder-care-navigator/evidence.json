@@ -55,13 +55,14 @@
       "claim_id": "women-s-retirement-age-in-2026-is-63-for-those-born-1962-pha",
       "claim": "Women's retirement age in 2026 is 63 (for those born 1962), phasing to 65 by 2032 for those born 1970+.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%92%D7%99%D7%9C_%D7%A4%D7%A8%D7%99%D7%A9%D7%94_%D7%9E%D7%A2%D7%91%D7%95%D7%93%D7%94",
-      "raw_snippet": "וללא שקילת בקשת העובד ברצינות, עלול להיות חשוף לתביעה בגין אפליה אסורה מחמת גיל. אני ילידת שנת 1964 ובשנת 2026 אגיע לגיל 62. ביקשתי מהמעסיק לפרוש לפנסיה, אבל המעסיק אמר לי שגיל הפרישה עבורי אינו 62 אלא 63 ו-6 חודשים ואם ... الصفحة بالعربية русский גיל פרישה, הגיל שבו ניתן לפרוש מעבודה לגמלאות, הוא 65-62 לנשים כמפורט בטבלה בהמשך ו-67 לגברים גיל פרישת חובה, הגיל שבו מעסיק רשאי לחייב עובד לפרוש לגמלאות,",
-      "fetched_at": "2026-08-02T02:48:50.038900+00:00",
+      "raw_snippet": "גיל הפרישה לנשים לנשים שנולדו בין אפריל 1944 לינואר 1970 גיל הפרישה נקבע בהתאם לחודש לידתן: תאריך הלידה של האישה גיל הזכאות עד מרץ 1944 60 אפריל עד אוגוסט 1944 60 ו-4 חודשים ספטמבר 1944 עד אפריל 1945 60 ו-8 חודשים מאי עד דצמבר 1945 61 ינואר עד אוגוסט 1946 61 ו-4 חודשים ספטמבר 1946 עד אפריל 1947 61 ו-8 חודשים מאי 1947 עד דצמבר 1959 62 ינואר עד דצמבר 1960 62 ו-4 חודשים ינואר עד דצמבר 1961 62 ו-8 חודשים ינואר עד דצמבר 1962 63 ינואר עד דצמבר 1963 63 ו-3 חודשים ינואר עד דצמבר 1964 63 ו-6 חודשים ינואר עד דצמבר 1965 63 ו-9 חודשים ינואר עד דצמבר 1966 64 ינואר עד דצמבר 1967 64 ו-3 חודשים ינואר עד דצמבר 1968 64 ו-6 חודשים ינואר עד דצמבר 1969 64 ו-9 חודשים 1970 ואילך 65",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "gimlat-siud-cash-benefit-at-level-1-max-is-1-705-nis-from-ap",
@@ -175,13 +176,14 @@
       "claim_id": "since-december-2023-new-siudi-joiners-can-only-buy-basic-tie",
       "claim": "Since December 2023, new siudi joiners can only buy basic tier; expanded tier frozen until January 2028.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A1%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%A7%D7%91%D7%95%D7%A6%D7%AA%D7%99_%D7%90%D7%97%D7%99%D7%93_%D7%A9%D7%9C_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%94%D7%97%D7%95%D7%9C%D7%99%D7%9D",
-      "raw_snippet": "ייפגע כפי שמפורט בהמשך) למידע רשמי ראו אתר כל הבריאות תוכן עניינים שימו לב החל מיום 05.12.2023 ועד 01.01.2028, תוקפא האפשרות לרכוש את הרובד הביטוחי המורחב או את תוספת סכום ביטוח. קופות החולים השונות מצי ... ט בהמשך) למידע רשמי ראו אתר כל הבריאות תוכן עניינים שימו לב החל מיום 05.12.2023 ועד 01.01.2028, תוקפא האפשרות לרכוש את הרובד הביטוחי המורחב או את תוספת סכום ביטוח. קופות החולים השונות מציעות למבוטחים אפ",
-      "fetched_at": "2026-08-02T02:48:50.038900+00:00",
+      "raw_snippet": "שימו לב החל מיום 05.12.2023 ועד 01.01.2028, תוקפא האפשרות לרכוש את הרובד הביטוחי המורחב או את תוספת סכום ביטוח.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "foreign-caregiver-minimum-wage-april-2026-is-6-443-85-nis-mo",
@@ -213,27 +215,40 @@
       "claim_id": "yad-sarah-basic-emergency-button-package-starts-at-18-nis-mo",
       "claim": "Yad Sarah basic emergency button package starts at ~18 NIS/month. Amounts in both notations: 18 NIS / 18 ש\"ח.",
       "source_url": "https://yad-sarah.net/posts/%D7%9E%D7%95%D7%A7%D7%93-%D7%9E%D7%A6%D7%95%D7%A7%D7%94-%D7%9C%D7%90-%D7%91%D7%9B%D7%9C-%D7%94%D7%9E%D7%97%D7%99%D7%A8/",
-      "raw_snippet": ":{\"id\":34142,\"signature\":\"f980bf7970407aabe5aeeda5d9c4fb8d\"},\"template_34150\":{\"id\":34150,\"signature\":\"5c9f8a618b3e0226fc8791de66e6b4dc\"},\"template_34153\":{\"id\":34153,\"signature\":\"88e2d0de9c599c48e617132b40fca75c\"},\"templa",
-      "fetched_at": "2026-08-02T02:48:50.038900+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified": true
-    },
-    {
-      "claim_id": "hok-hacholeh-hanote-lamut-2005-lets-adults-file-advance-dire",
-      "claim": "By law anyone aged 17 and over may state in advance the medical treatment they will or will not accept if found to have an incurable illness; the Centre for Advance Medical Directives was established under the Terminally Ill Patient Law",
-      "source_url": "https://www.gov.il/he/service/dying-patient-request",
-      "raw_snippet": "על פי חוק, כל בני ובנות 17 ומעלה יכולים להביע מראש את רצונם לגבי הטיפול הרפואי שיקבלו או לא יקבלו, במקרה שייקבע כי הם חולים במחלה ללא אפשרות להחלמה ... המרכז להנחיות רפואיות מקדימות ומאגר המידע שבו, הוקמו בהתאם לחוק החולה הנוטה למות.",
-      "fetched_at": "2026-08-02T02:48:50.038900+00:00",
+      "raw_snippet": "השיקה יד שרה בנוסף לסל המורחב גם סל בסיסי הכולל לחצן מצוקה מכל סוג, צירוף למוקד המצוקה ולמרכז להפגת בדידות – בתשלום חודשי של 18 ₪ בלבד!",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified": true,
-      "verified_via": "browser",
-      "verified_at": "2026-08-02T03:10:00+00:00"
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "hok-hacholeh-hanote-lamut-2005-lets-adults-file-advance-dire-a",
+      "claim": "By law anyone aged 17 and over may state in advance the medical treatment they will or will not accept if found to have an incurable illness; the Centre for Advance Medical Directives was established under the Terminally Ill Patient Law",
+      "source_url": "https://www.kolzchut.org.il/he/רישום_הנחיות_רפואיות_מקדימות",
+      "raw_snippet": "בקצרה חוק החולה הנוטה למות מאפשר לאדם להביע את רצונו מראש לגבי טיפול רפואי עתידי בו, אם וכאשר ייקבע שהוא חולה הנוטה למות אשר אינו כשיר לקבל החלטות בענייניו הרפואיים (למשל עקב אבדן הכרה). בין היתר, מאפשר החוק לאדם למנות מיופה כוח אשר יהיה מוסמך להחליט במקומו לגבי טיפול רפואי במצב זה. ניתן לשלב מתן הנחיות רפואיות מקדימות עם מינוי מיופה כוח . במקרה כזה, מומלץ לכלול הוראה מפורשת למקרה שבו יהיה ניגוד בין הנחיה רפואית מקדימה לבין הוראה של מיופה הכוח. ככלל, במקרה שלא קיימת הוראה כזו וקיים ניגוד, תינתן עדיפות להנחיה הרפואית המקדימה. במקרים בהם ייפוי הכוח ניתן תקופה משמעותית לאחר מתן ההנחיה המקדימה, ועדה מוסדית תקבע אם הוראת מיופה הכוח גוברת על ההנחיה הרפואית המקדימה, או לא. למי זה רלוונטי? מתן הנחיות רפואיות מקדימות אדם כשיר רשאי לתת הוראות מקדימות. אדם ייחשב ככשיר אם מתקיימים אצלו כל התנאים הבאים : מלאו לו 17 שנים.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "hok-hacholeh-hanote-lamut-2005-lets-adults-file-advance-dire-b",
+      "claim": "By law anyone aged 17 and over may state in advance the medical treatment they will or will not accept if found to have an incurable illness; the Centre for Advance Medical Directives was established under the Terminally Ill Patient Law",
+      "source_url": "https://www.kolzchut.org.il/he/רישום_הנחיות_רפואיות_מקדימות",
+      "raw_snippet": "המלצת משרד הבריאות היא לשמור את המסמכים במאגר המידע של המרכז להנחיות רפואיות מקדימות",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "terminally-ill-patient-defined-as-life-expectancy-under-6-mo",
@@ -310,28 +325,95 @@
       "verified": true
     },
     {
-      "claim_id": "level-1-gives-5-5-weekly-hours-of-personal-home-care-or-9-se",
+      "claim_id": "level-1-gives-5-5-weekly-hours-of-personal-home-care-or-9-se-a",
       "claim": "Level 1 gives 5.5 weekly hours of personal home care, OR 9 service units without personal home care, OR 1,705 NIS cash, OR a 5.5-unit mix; ADL 2.5 to 3 points; one hour converts at 310 NIS. Amounts in both notations: 1,705 NIS / 1,705 ש\"ח; 310 NIS / 310 ש\"ח.",
       "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/level1.aspx",
-      "raw_snippet": "קצבת סיעוד ברמה 1 נקבעת למי שצבר בין 2.5 ל-3 נקודות תלות ... יחידת שירות שווה ל- 310 ש\"ח",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "raw_snippet": "קצבת סיעוד ברמה 1 נקבעת למי שצבר בין 2.5 ל-3 נקודות תלות בבדיקת התפקוד . באפשרותך להיעזר",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
-      "claim_id": "level-2-gives-10-weekly-care-hours-adl-3-5-to-4-5-points-up",
-      "claim": "Level 2 gives 10 weekly care hours; ADL 3.5 to 4.5 points; up to 4 hours convertible to cash at 248 NIS/hour (992 NIS). Amounts in both notations: 248 NIS / 248 ש\"ח; 992 NIS / 992 ש\"ח.",
-      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/level2.aspx",
-      "raw_snippet": "קצבת סיעוד ברמה 2 נקבעת למי שצבר בין 3.5 ל-4.5 נקודות תלות ... אתה יכול להחליף עד 4 שעות טיפול לקצבה בכסף ... כל שעת טיפול שווה ל- 248 ש\"ח ... תוכל לקבל 6 שעות טיפול בשבוע וגם קצבה בסך 992 ש\"ח",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "claim_id": "level-1-gives-5-5-weekly-hours-of-personal-home-care-or-9-se-b",
+      "claim": "Level 1 gives 5.5 weekly hours of personal home care, OR 9 service units without personal home care, OR 1,705 NIS cash, OR a 5.5-unit mix; ADL 2.5 to 3 points; one hour converts at 310 NIS. Amounts in both notations: 1,705 NIS / 1,705 ש\"ח; 310 NIS / 310 ש\"ח.",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/level1.aspx",
+      "raw_snippet": "ראשונה – טיפול אישי בבית אתה יכול לקבל 5 וחצי שעות בשבוע עבור טיפול אישי בבית . אפשרות",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "level-1-gives-5-5-weekly-hours-of-personal-home-care-or-9-se-c",
+      "claim": "Level 1 gives 5.5 weekly hours of personal home care, OR 9 service units without personal home care, OR 1,705 NIS cash, OR a 5.5-unit mix; ADL 2.5 to 3 points; one hour converts at 310 NIS. Amounts in both notations: 1,705 NIS / 1,705 ש\"ח; 310 NIS / 310 ש\"ח.",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/level1.aspx",
+      "raw_snippet": "שנייה – שירותי סיעוד ללא טיפול אישי בבית אתה יכול לקבל שירותים לפי בחירתך בשווי 9 יחידות שירות. השירותים הם",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "level-1-gives-5-5-weekly-hours-of-personal-home-care-or-9-se-d",
+      "claim": "Level 1 gives 5.5 weekly hours of personal home care, OR 9 service units without personal home care, OR 1,705 NIS cash, OR a 5.5-unit mix; ADL 2.5 to 3 points; one hour converts at 310 NIS. Amounts in both notations: 1,705 NIS / 1,705 ש\"ח; 310 NIS / 310 ש\"ח.",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/level1.aspx",
+      "raw_snippet": "הקצבה בכסף - 1,705 ש\"ח (החל ב- 01.04.2026)",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "level-1-gives-5-5-weekly-hours-of-personal-home-care-or-9-se-e",
+      "claim": "Level 1 gives 5.5 weekly hours of personal home care, OR 9 service units without personal home care, OR 1,705 NIS cash, OR a 5.5-unit mix; ADL 2.5 to 3 points; one hour converts at 310 NIS. Amounts in both notations: 1,705 NIS / 1,705 ש\"ח; 310 NIS / 310 ש\"ח.",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/level1.aspx",
+      "raw_snippet": "כסף - יחידת שירות שווה ל- 310 ש\"ח (החל ב- 01.04.2026) בחודש. טיפול אישי בבית - יחידת שירות שווה לשעת טיפול אחת בשבוע. שירותים נוספים – ביקור במרכז",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "level-2-gives-10-weekly-care-hours-adl-3-5-to-4-5-points-up-a",
+      "claim": "Level 2 gives 10 weekly care hours; ADL 3.5 to 4.5 points; up to 4 hours convertible to cash at 248 NIS/hour (992 NIS). Amounts in both notations: 248 NIS / 248 ש\"ח; 992 NIS / 992 ש\"ח.",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/level2.aspx",
+      "raw_snippet": "קצבת סיעוד ברמה 2 נקבעת למי שצבר בין 3.5 ל-4.5 נקודות תלות בבדיקת התפקוד . אם נקבעה לך קצבת סיעוד ברמה 2 – תקבל 10 שעות טיפול בשבוע . באפשרותך להיעזר",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "level-2-gives-10-weekly-care-hours-adl-3-5-to-4-5-points-up-b",
+      "claim": "Level 2 gives 10 weekly care hours; ADL 3.5 to 4.5 points; up to 4 hours convertible to cash at 248 NIS/hour (992 NIS). Amounts in both notations: 248 NIS / 248 ש\"ח; 992 NIS / 992 ש\"ח.",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/level2.aspx",
+      "raw_snippet": "כדי לבנות את תוכנית הטיפול האישית שלך. החלפת שעות הטיפול בכסף אתה יכול להחליף עד 4 שעות טיפול לקצבה בכסף. כל שעת טיפול שווה ל- 248 ש\"ח (החל ב- 01.04.2026) בחודש. לדוגמה, תוכל לקבל 6 שעות טיפול בשבוע וגם קצבה בסך 992 ש\"ח (החל ב- 01.04.2026) בחודש. אם תבחר לקבל חלק מהקצבה בכסף, היא תשולם לחשבון הבנק שלך בחודש שלאחר ביצוע הבחירה. קבלת שירותי סיעוד באפשרותך להחליף חלק משעות הטיפול האישי בבית",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "level-3-gives-17-weekly-hours-or-14-with-a-foreign-worker-ad",
@@ -382,16 +464,43 @@
       "verified": true
     },
     {
-      "claim_id": "cash-conversion-at-levels-2-to-6-is-capped-at-4-weekly-hours",
+      "claim_id": "cash-conversion-at-levels-2-to-6-is-capped-at-4-weekly-hours-a",
       "claim": "Cash conversion at levels 2 to 6 is capped at 4 weekly hours, or a third of hours with a Bituach Leumi social worker approval; exceptional full cash is requested on *2637. Amounts in both notations: 248 NIS / 248 ש\"ח.",
       "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx",
-      "raw_snippet": "שעת טיפול ברמות האלה שווה ל- 248 ש\"ח ... יש לפנות אלינו באתר בצירוף מסמכים רפואיים או בטלפון 2637*",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "raw_snippet": "להחליף עד 4 שעות שבועיות לקצבה בכסף. להחליף שליש מהשעות לקצבה בכסף – אפשרות זאת מותנית בבדיקה ואישור של עובד סוציאלי מטעם הביטוח הלאומי.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "cash-conversion-at-levels-2-to-6-is-capped-at-4-weekly-hours-b",
+      "claim": "Cash conversion at levels 2 to 6 is capped at 4 weekly hours, or a third of hours with a Bituach Leumi social worker approval; exceptional full cash is requested on *2637. Amounts in both notations: 248 NIS / 248 ש\"ח.",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx",
+      "raw_snippet": "שעת טיפול ברמות האלה שווה ל- 248 ש\"ח (החל ב- 01.04.2026) בחודש. לדוגמה",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "cash-conversion-at-levels-2-to-6-is-capped-at-4-weekly-hours-c",
+      "claim": "Cash conversion at levels 2 to 6 is capped at 4 weekly hours, or a third of hours with a Bituach Leumi social worker approval; exceptional full cash is requested on *2637. Amounts in both notations: 248 NIS / 248 ש\"ח.",
+      "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx",
+      "raw_snippet": "יש לפנות אלינו באתר בצירוף מסמכים רפואיים או בטלפון 2637*, ועובד סוציאלי מטעמנו יחזור אליך. קבלת קצבה מלאה בכסף למי שמעסיק מטפל צמוד תוכל לקבל את כל קצבת הסיעוד בכסף אם אתה מעסיק מטפל צמוד לפי התנאים האלה",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "full-cash-recipients-may-still-add-a-day-centre-panic-button",
@@ -409,49 +518,53 @@
       "claim_id": "gimlat-siud-income-test-april-to-december-2026-individual-fu",
       "claim": "Gimlat siud income test April to December 2026: individual full up to 13,769 NIS, reduced 50% to 20,654 NIS, none above; couple full up to 20,654 NIS, reduced to 30,980 NIS, none above; per-child addition 6,885 NIS full and 10,327 NIS reduced. Amounts in both notations: 10,327 NIS / 10,327 ש\"ח; 13,769 NIS / 13,769 ש\"ח; 20,654 NIS / 20,654 ש\"ח; 30,980 NIS / 30,980 ש\"ח; 6,885 NIS / 6,885 ש\"ח.",
       "source_url": "https://www.kolzchut.org.il/he/מבחן_הכנסות_לצורך_קבלת_גמלת_סיעוד",
-      "raw_snippet": "סכומי ההכנסה המזכה אם מגישים את התביעה באפריל-דצמבר 2026 ... מעל 13,769 ₪ ועד 20,654 ₪ גמלה מופחתת (בשיעור 50%) ... מעל 20,654 ₪ אין זכאות לגמלה ... מעל 20,654 ₪ ועד 30,980 ₪ גמלה מופחתת ... מעל 30,980 ₪ אין זכאות ... מעל 6,885 ₪ ועד 10,327 ₪ גמלה מופחתת",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "raw_snippet": "סכומי ההכנסה המזכה אם מגישים את התביעה באפריל-דצמבר 2026 מצב משפחתי סכום ההכנסה החודשית (ברוטו) שיעורי הגמלה יחידים עד 13,769 ₪ גמלה מלאה מעל 13,769 ₪ ועד 20,654 ₪ גמלה מופחתת (בשיעור 50%) מעל 20,654 ₪ אין זכאות לגמלה זוגות עד 20,654 ₪ גמלה מלאה מעל 20,654 ₪ ועד 30,980 ₪ גמלה מופחתת (בשיעור 50%) מעל 30,980 ₪ אין זכאות לגמלה תוספת לסכום ההכנסה על כל ילד עד 6,885 ₪ גמלה מלאה מעל 6,885 ₪ ועד 10,327 ₪ גמלה מופחתת (בשיעור 50%)",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "gimlat-siud-income-test-january-2026-individual-13-316-and-1",
       "claim": "Gimlat siud income test January 2026: individual 13,316 and 19,974 NIS; couple 19,974 and 29,961 NIS; per child 6,658 and 9,987 NIS. Amounts in both notations: 13,316 NIS / 13,316 ש\"ח; 19,974 NIS / 19,974 ש\"ח; 29,961 NIS / 29,961 ש\"ח; 6,658 NIS / 6,658 ש\"ח; 9,987 NIS / 9,987 ש\"ח.",
       "source_url": "https://www.kolzchut.org.il/he/מבחן_הכנסות_לצורך_קבלת_גמלת_סיעוד",
-      "raw_snippet": "סכומי ההכנסה המזכה אם מגישים את התביעה בינואר 2026 ... מעל 13,316 ₪ ועד 19,974 ₪ גמלה מופחתת ... מעל 19,974 ₪ ועד 29,961 ₪ גמלה מופחתת ... מעל 29,961 ₪ אין זכאות ... מעל 6,658 ₪ ועד 9,987 ₪",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "raw_snippet": "סכומי ההכנסה המזכה אם מגישים את התביעה בינואר 2026 מצב משפחתי סכום ההכנסה החודשית (ברוטו) שיעורי הגמלה יחידים עד 13,316 ₪ גמלה מלאה מעל 13,316 ₪ ועד 19,974 ₪ גמלה מופחתת (בשיעור 50%) מעל 19,974 ₪ אין זכאות לגמלה זוגות עד 19,974 ₪ גמלה מלאה מעל 19,974 ₪ ועד 29,961 ₪ גמלה מופחתת (בשיעור 50%) מעל 29,961 ₪ אין זכאות לגמלה תוספת לסכום ההכנסה על כל ילד עד 6,658 ₪ גמלה מלאה מעל 6,658 ₪ ועד 9,987 ₪ גמלה מופחתת (בשיעור 50%)",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "gimlat-siud-income-test-february-2026-individual-13-467-and",
       "claim": "Gimlat siud income test February 2026: individual 13,467 and 20,201 NIS; couple 20,201 and 30,301 NIS; per child 6,734 and 10,100 NIS. Amounts in both notations: 10,100 NIS / 10,100 ש\"ח; 13,467 NIS / 13,467 ש\"ח; 20,201 NIS / 20,201 ש\"ח; 30,301 NIS / 30,301 ש\"ח; 6,734 NIS / 6,734 ש\"ח.",
       "source_url": "https://www.kolzchut.org.il/he/מבחן_הכנסות_לצורך_קבלת_גמלת_סיעוד",
-      "raw_snippet": "סכומי ההכנסה המזכה אם מגישים את התביעה בפברואר 2026 ... מעל 13,467 ₪ ועד 20,201 ₪ גמלה מופחתת ... מעל 20,201 ₪ ועד 30,301 ₪ גמלה מופחתת ... מעל 6,734 ₪ ועד 10,100 ₪",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "raw_snippet": "סכומי ההכנסה המזכה אם מגישים את התביעה בפברואר 2026 מצב משפחתי סכום ההכנסה החודשית (ברוטו) שיעורי הגמלה יחידים עד 13,467 ₪ גמלה מלאה מעל 13,467 ₪ ועד 20,201 ₪ גמלה מופחתת (בשיעור 50%) מעל 20,201 ₪ אין זכאות לגמלה זוגות עד 20,201 ₪ גמלה מלאה מעל 20,201 ₪ ועד 30,301 ₪ גמלה מופחתת (בשיעור 50%) מעל 30,301 ₪ אין זכאות לגמלה תוספת לסכום ההכנסה על כל ילד עד 6,734 ₪ גמלה מלאה מעל 6,734 ₪ ועד 10,100 ₪ גמלה מופחתת (בשיעור 50%)",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "gimlat-siud-income-test-march-2026-individual-13-618-and-20",
       "claim": "Gimlat siud income test March 2026: individual 13,618 and 20,427 NIS; couple 20,427 and 30,641 NIS; per child 6,809 and 10,214 NIS. Amounts in both notations: 10,214 NIS / 10,214 ש\"ח; 13,618 NIS / 13,618 ש\"ח; 20,427 NIS / 20,427 ש\"ח; 30,641 NIS / 30,641 ש\"ח; 6,809 NIS / 6,809 ש\"ח.",
       "source_url": "https://www.kolzchut.org.il/he/מבחן_הכנסות_לצורך_קבלת_גמלת_סיעוד",
-      "raw_snippet": "סכומי ההכנסה המזכה אם מגישים את התביעה במרץ 2026 ... מעל 13,618 ₪ ועד 20,427 ₪ גמלה מופחתת ... מעל 20,427 ₪ ועד 30,641 ₪ גמלה מופחתת ... מעל 6,809 ₪ ועד 10,214 ₪",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "raw_snippet": "סכומי ההכנסה המזכה אם מגישים את התביעה במרץ 2026 מצב משפחתי סכום ההכנסה החודשית (ברוטו) שיעורי הגמלה יחידים עד 13,618 ₪ גמלה מלאה מעל 13,618 ₪ ועד 20,427 ₪ גמלה מופחתת (בשיעור 50%) מעל 20,427 ₪ אין זכאות לגמלה זוגות עד 20,427 ₪ גמלה מלאה מעל 20,427 ₪ ועד 30,641 ₪ גמלה מופחתת (בשיעור 50%) מעל 30,641 ₪ אין זכאות לגמלה תוספת לסכום ההכנסה על כל ילד עד 6,809 ₪ גמלה מלאה מעל 6,809 ₪ ועד 10,214 ₪ גמלה מופחתת (בשיעור 50%)",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "income-not-counted-in-the-gimlat-siud-means-test-includes-pr",
@@ -466,16 +579,30 @@
       "verified": true
     },
     {
-      "claim_id": "reduced-benefit-recipients-receive-half-the-service-units-at",
+      "claim_id": "reduced-benefit-recipients-receive-half-the-service-units-at-a",
       "claim": "Reduced-benefit recipients receive half the service units; at level 6 that is 15 hours with an Israeli caregiver or 13 with a foreign worker; day centre at level 6 is 2.45 units per day up to 5.5 days a week, and 2 days for reduced recipients.",
       "source_url": "https://www.kolzchut.org.il/he/גמלת_סיעוד_רמה_6",
-      "raw_snippet": "מי שזכאי לגמלה מופחתת בשל גובה הכנסותיו זכאי למחצית מכמות היחידות ... ביקור יומי במרכז שווה בערכו ל-2.45 שעות טיפול ... ניתן לבקר במרכז יום עד 5.5 ימים בשבוע, או עד 2 ימים בשבוע למי שזכאי לגמלה מופחתת",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "raw_snippet": "מי שזכאי לגמלה מופחתת בשל גובה הכנסותיו זכאי למחצית מכמות היחידות",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "reduced-benefit-recipients-receive-half-the-service-units-at-b",
+      "claim": "Reduced-benefit recipients receive half the service units; at level 6 that is 15 hours with an Israeli caregiver or 13 with a foreign worker; day centre at level 6 is 2.45 units per day up to 5.5 days a week, and 2 days for reduced recipients.",
+      "source_url": "https://www.kolzchut.org.il/he/גמלת_סיעוד_רמה_6",
+      "raw_snippet": "ביקור יומי במרכז שווה בערכו ל-2.45 שעות טיפול בבית (2.45 יחידות שירות). ניתן לבקר במרכז יום עד 5.5 ימים בשבוע, או עד 2 ימים בשבוע למי שזכאי לגמלה מופחתת",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "a-gimlat-siud-recipient-admitted-to-a-general-hospital-keeps",
@@ -493,13 +620,14 @@
       "claim_id": "where-a-caregiver-is-employed-through-a-siud-company-the-fam",
       "claim": "Where a caregiver is employed through a siud company the family must top the post up to a full post of 42 weekly or 182 monthly hours.",
       "source_url": "https://www.kolzchut.org.il/he/גמלת_סיעוד_רמה_6",
-      "raw_snippet": "היקף המשרה שמשויך לחברת הסיעוד נקבע לפי מספר שעות גמלת הסיעוד שהמטופל זכאי להן ... היקף המשרה שמשויך למטופל הוא יתרת השעות הדרושות כדי להשלים את היקף המשרה למשרה מלאה (החל מה-01.04.2018 משרה מלאה מוגדרת כ-42 שעות שבועיות או 182 שעות חודשיות)",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "raw_snippet": "היקף המשרה שמשויך לחברת הסיעוד נקבע לפי מספר שעות גמלת הסיעוד שהמטופל זכאי להן. היקף המשרה שמשויך למטופל הוא יתרת השעות הדרושות כדי להשלים את היקף המשרה ל משרה מלאה (החל מה-01.04.2018 משרה מלאה מוגדרת כ-42 שעות שבועיות או 182 שעות חודשיות)",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "living-in-a-supervised-beit-avot-does-not-automatically-end",
@@ -562,40 +690,69 @@
       "verified": true
     },
     {
-      "claim_id": "basic-tier-siudi-pays-for-5-years-only-has-a-60-day-waiting",
+      "claim_id": "basic-tier-siudi-pays-for-5-years-only-has-a-60-day-waiting-a",
       "claim": "Basic tier siudi pays for 5 years only, has a 60-day waiting period, caps institutional indemnity at 80% of what was actually paid, and excludes nursing dependency caused by road or work accidents.",
-      "source_url": "https://www.kolzchut.org.il/he/ביטוח_סיעודי_קבוצתי_אחיד_של_קופות_החולים",
-      "raw_snippet": "תגמולי הביטוח החודשיים משולמים למבוטח במשך 5 שנים ... תקופת ההמתנה בפוליסה היא 60 ימים ... המשמעות היא שתגמולי הביטוח ישולמו רק לאחר 60 ימים מהמועד שבו המבוטח הפך לסיעודי ... סכום השיפוי שישולם למבוטח לא יעלה על שיעור של 80% מהסכום שהמבוטח שילם בפועל למוסד ... הפוליסה לא תכלול כיסוי מקרי סיעוד עקב, בין היתר, תאונות דרכים ותאונות עבודה",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A1%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%A7%D7%91%D7%95%D7%A6%D7%AA%D7%99_%D7%90%D7%97%D7%99%D7%93_%D7%A9%D7%9C_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%94%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "סכום השיפוי שישולם למבוטח לא יעלה על שיעור של 80% מהסכום שהמבוטח שילם בפועל למוסד. תקופת ההמתנה בפוליסה היא 60 ימים. המשמעות היא שתגמולי הביטוח ישולמו רק לאחר 60 ימים מהמועד שבו המבוטח הפך לסיעודי. הפוליסה לא תכלול כיסוי מקרי סיעוד עקב, בין היתר, תאונות דרכים ו תאונות עבודה .",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
-      "claim_id": "the-nursing-home-code-co-payment-is-means-tested-on-the-elde",
-      "claim": "The nursing home code co-payment is means-tested on the elder, their spouse and their adult children, with a classification committee, a visit within 14 working days, an appeal to the Head of the Geriatrics Division on *5400, and a classification that expires after 3 months without admission.",
-      "source_url": "https://www.kolzchut.org.il/he/סיוע_במימון_סידור_מוסדי_לקשישים_סיעודיים_ותשושי_נפש_(אשפוז_בקוד)",
-      "raw_snippet": "שאלון הצהרה לילדיהם הבגירים של המטופלים ... הביקור ייקבע תוך 14 ימי עבודה ממועד הגשת כל המסמכים ... אם עברו 3 חודשים או יותר ממתן ההחלטה של ועדת הסיווג והקשיש טרם אושפז, יהיה צורך בעדכון ההחלטה על סיווגו",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "claim_id": "basic-tier-siudi-pays-for-5-years-only-has-a-60-day-waiting-b",
+      "claim": "Basic tier siudi pays for 5 years only, has a 60-day waiting period, caps institutional indemnity at 80% of what was actually paid, and excludes nursing dependency caused by road or work accidents.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A1%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%A7%D7%91%D7%95%D7%A6%D7%AA%D7%99_%D7%90%D7%97%D7%99%D7%93_%D7%A9%D7%9C_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%94%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "תגמולי הביטוח החודשיים משולמים למבוטח במשך 5 שנים.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "the-nursing-home-code-co-payment-is-means-tested-on-the-elde-a",
+      "claim": "The nursing home code co-payment is means-tested on the elder, their spouse and their adult children, with a classification committee, a visit within 14 working days, an appeal to the Head of the Geriatrics Division on *5400, and a classification that expires after 3 months without admission.",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_במימון_סידור_מוסדי_לקשישים_סיעודיים_ותשושי_נפש_(אשפוז_בקוד)",
+      "raw_snippet": "הביקור ייקבע תוך 14 ימי עבודה ממועד הגשת כל המסמכים",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
+    },
+    {
+      "claim_id": "the-nursing-home-code-co-payment-is-means-tested-on-the-elde-b",
+      "claim": "The nursing home code co-payment is means-tested on the elder, their spouse and their adult children, with a classification committee, a visit within 14 working days, an appeal to the Head of the Geriatrics Division on *5400, and a classification that expires after 3 months without admission.",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_במימון_סידור_מוסדי_לקשישים_סיעודיים_ותשושי_נפש_(אשפוז_בקוד)",
+      "raw_snippet": "אם עברו 3 חודשים או יותר ממתן ההחלטה של ועדת הסיווג והקשיש טרם אושפז, יהיה צורך בעדכון ההחלטה על סיווגו",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "foreign-caregiver-permit-criteria-for-a-community-dwelling-s",
       "claim": "Foreign caregiver permit criteria for a community-dwelling senior past retirement age are 4.5 dependency points, or 4 points with the living-alone bonus, or 0.5 point in supervision with that bonus; age 90 and over needs 4 points; someone whose income disqualifies them from gimlat siud may still take the ADL test for the permit; the permit is available in diur mugan.",
       "source_url": "https://www.kolzchut.org.il/he/זכאות_להעסקת_עובד_זר_בסיעוד",
-      "raw_snippet": "הם צברו לפחות 4.5 נקודות תלות ... הם צברו לפחות 4 נקודות תלות בתוספת ניקוד שניתן להם כבודדים ... אם גובה ההכנסות אינו מזכה בגמלת סיעוד ניתן לעבור מבחן תלות רק לצורך בדיקת הזכאות להעסיק עובד זר ... מטופלים שלא שוהים במסגרת מוסדית (למעט בדיור מוגן או באשפוז יום)",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "raw_snippet": "אזרחים ותיקים המתגוררים בקהילה (כולל בית דיור מוגן ) ולא במסגרת מוסדית מי שהגיעו ל גיל פרישה מעבודה ב בדיקה להערכת תלות (ADL) שעברו, התקיים אחד מאלה: הם צברו לפחות 4.5 נקודות תלות. הם צברו לפחות 4 נקודות תלות בתוספת ניקוד שניתן להם כבודדים . הם צברו לפחות 0.5 נקודה בסעיף \"השגחה\" (השגחה חלקית לפחות), בתוספת ניקוד שניתן להם כבודדים. שימו לב: אם גובה ההכנסות אינו מזכה בגמלת סיעוד ניתן לעבור מבחן תלות רק לצורך בדיקת הזכאות להעסיק עובד זר",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "maximum-gimlat-siud-cash-by-level-from-01-04-2026-foreign-wo",
@@ -625,37 +782,40 @@
       "claim_id": "old-age-pension-spouse-supplement-is-924-nis-and-the-seniori",
       "claim": "Old-age pension spouse supplement is 924 NIS; the seniority supplement adds 2% per insured year up to a maximum of 50% of the basic pension, computed on 1,838 NIS below age 80. Amounts in both notations: 1,838 NIS / 1,838 ש\"ח; 924 NIS / 924 ש\"ח; 581 NIS / 581 ש\"ח.",
       "source_url": "https://www.kolzchut.org.il/he/תוספת_ותק_לקצבת_זיקנה",
-      "raw_snippet": "תוספת הוותק היא בשיעור 2% לכל שנת ביטוח מלאה שמחושבת לפי 12 חודשי ביטוח, רצופים ולא רצופים ... תוספת הוותק לא תעלה על 50% מהקצבה, כלומר היא תשולם עבור עד 25 שנות ביטוח ... התוספת מחושבת ביחס לסכום הקצבה הבסיסית - 1,838 ₪ עד גיל 80 ו-1,941 ₪ מגיל 80 ומעלה (נכון ל-2026) ... תוספת לבן/בת זוג היא בסך 924 ₪ ותוספת לכל ילד עד לשני ילדים היא בסך 581 ₪",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "raw_snippet": "תוספת הוותק היא בשיעור 2% לכל שנת ביטוח מלאה שמחושבת לפי 12 חודשי ביטוח, רצופים ולא רצופים. תוספת הוותק לא תעלה על 50% מהקצבה, כלומר היא תשולם עבור עד 25 שנות ביטוח (25X2%). לדוגמה גבר בן 67 היה מבוטח בביטוח הלאומי מגיל 30, כלומר הוא צבר 37 שנות ביטוח. היות שהיה מבוטח מעל 25 שנים, הוא יהיה זכאי לתוספת הוותק המקסימלית בשיעור 50%. שיעורי תוספת הוותק התוספת מחושבת ביחס לסכום הקצבה הבסיסית - 1,838 ₪ עד גיל 80 ו-1,941 ₪ מגיל 80 ומעלה (נכון ל-2026).",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "health-insurance-contribution-deducted-from-the-old-age-pens",
       "claim": "Health insurance contribution deducted from the old-age pension is 237 NIS for an individual and 340 NIS for a couple in 2026. Amounts in both notations: 237 NIS / 237 ש\"ח; 340 NIS / 340 ש\"ח.",
       "source_url": "https://www.kolzchut.org.il/he/דמי_ביטוח_בריאות_למקבלי_קצבת_זיקנה",
-      "raw_snippet": "מקבל/ת קצבת זיקנה ליחיד: מהקצבה ינוכו 237 ₪ (נכון לשנת 2026) ... עבור זוג: דמי ביטוח בריאות בשיעור של 340 ₪ (נכון לשנת 2026) ינוכו מקצבתו של הגבר",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "raw_snippet": "מקבל/ת קצבת זיקנה ליחיד : מהקצבה ינוכו 237 ₪ (נכון לשנת 2026). עבור זוג : דמי ביטוח בריאות בשיעור של 340 ₪ (נכון לשנת 2026) ינוכו מקצבתו של הגבר",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "foreign-caregiver-minimum-wage-from-april-2026-is-6-443-85-n",
       "claim": "Foreign caregiver minimum wage from April 2026 is 6,443.85 NIS gross per month for a full 24/6 post, a daily rate of 257.75 NIS and an hourly rate of 35.40 NIS. Amounts in both notations: 6,443.85 NIS / 6,443.85 ש\"ח; 257.75 NIS / 257.75 ש\"ח; 35.40 NIS / 35.40 ש\"ח.",
       "source_url": "https://mate-siudi.org/pays-2/",
-      "raw_snippet": "החל מאפריל 2026, שכר המינימום לחודש, עבור משרה מלאה בענף הסיעוד (24/6) הינו 6,443.85 ₪ ברוטו ... שכר יומי 257.75 ₪",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "raw_snippet": "החל מאפריל 2026 , שכר המינימום לחודש, עבור משרה מלאה בענף הסיעוד (24/6) הינו 6,443.85 ₪ ברוטו (שכר יומי 257.75 ₪, 35.40 ₪ לשעה).",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "section-227-a-of-the-national-insurance-law-is-the-provision",
@@ -734,14 +894,15 @@
     {
       "claim_id": "the-claims-conference-is-the-body-that-pays-the-article-2-fu",
       "claim": "The Claims Conference is the body that pays the Article 2 Fund pension to Holocaust survivors",
-      "source_url": "https://www.claimscon.org",
-      "raw_snippet": "Claims Conference",
-      "fetched_at": "2026-08-01T23:55:00+00:00",
+      "source_url": "https://www.claimscon.org/what-we-do/compensation/background/article2/",
+      "raw_snippet": "The Article 2 Fund is administered by the Claims Conference but is governed by eligibility criteria established by the German government.",
+      "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified": true
+      "verified": true,
+      "source_fetched_at": "2026-08-09"
     },
     {
       "claim_id": "the-holocaust-survivors-rights-authority-administers-israeli",
@@ -836,6 +997,21 @@
         "SKILL_HE.md"
       ],
       "verified": true
+    },
+    {
+      "claim_id": "advance-directives-forms-are-published-on-the-ministry-of-health-service-page",
+      "claim": "The Ministry of Health service page for advance medical directives states that anyone aged 17 and over may state in advance the medical treatment they will or will not accept, and that the Center for Advance Medical Directives and its database were established under the Terminally Ill Patient Law.",
+      "source_url": "https://www.gov.il/he/service/dying-patient-request",
+      "raw_snippet": "על פי חוק, כל בני ובנות 17 ומעלה יכולים להביע מראש את רצונם לגבי הטיפול הרפואי שיקבלו או לא יקבלו, במקרה שייקבע כי הם חולים במחלה ללא אפשרות להחלמה המרכז להנחיות רפואיות מקדימות ומאגר המידע שבו, הוקמו בהתאם לחוק החולה הנוטה למות.",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "verified_via": "browser (Playwright; gov.il blocks plain HTTP fetches with Cloudflare)",
+      "verified_at": "2026-08-09"
     }
   ],
   "version": "1.4.0",
