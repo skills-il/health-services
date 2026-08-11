@@ -45,25 +45,28 @@
       "claim_id": "police-110",
       "claim": "110 is the Israel Police information line, and hosts the accessible position that receives SMS, fax and email from deaf and hard-of-hearing callers and dispatches a patrol car when needed",
       "source_url": "https://www.gov.il/he/departments/general/police_national_emergency_lines",
-      "raw_snippet": "מוקד המידע של משטרת ישראל 110.",
+      "raw_snippet": "משטרה מוקד חירום - 100 מוקד מידע - 110 צ'אט בוט מוקד המידע המשטרתי אתר מוקד המידע המשטרתי כבאות והצלה לישראל מוקד כבאות והצלה - 102 אתר כבאות והצלה לישראל מגן דוד אדום לישראל - ארגון ההצלה הלאומי מוקד חירום - 101 אתר מגן דוד אדום פיקוד העורף מוקד פיקוד העורף - 104 אתר פיקוד העורף",
       "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/hospital-directory.md"
-      ]
+      ],
+      "verified_via": "gov.il content API (programmatic re-extraction)"
     },
     {
       "claim_id": "twelve-is-police-not-unified",
-      "claim": "112 reaches the nearest Israel Police district centre and is NOT a unified emergency dispatcher; its distinguishing feature is that it dials from a locked handset or a phone with no SIM card. Israel has no single national emergency centre.",
+      "claim": "Israel has no single national emergency dispatcher: the official emergency-lines page lists a separate centre per organisation - Police 100, Fire and Rescue 102, Magen David Adom 101 and Home Front Command 104 (plus the police information line 110).",
       "source_url": "https://www.gov.il/he/departments/general/police_national_emergency_lines",
-      "raw_snippet": "מוקד חירום 100 - מוקד החירום של משטרת ישראל. מוקד המידע של משטרת ישראל 110. המספר 112 אינו מופיע בעמוד כמוקד חירום מאוחד. חיוג 112 מכל טלפון סלולרי גם אם הוא נעול או ללא כרטיס סים ינתב את השיחה למוקד משטרת ישראל המחוזי הקרוב לצורך קבלת קריאת חירום. בישראל אין מוקד חירום מרכזי.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "משטרה מוקד חירום - 100 מוקד מידע - 110 צ'אט בוט מוקד המידע המשטרתי אתר מוקד המידע המשטרתי כבאות והצלה לישראל מוקד כבאות והצלה - 102 אתר כבאות והצלה לישראל מגן דוד אדום לישראל - ארגון ההצלה הלאומי מוקד חירום - 101 אתר מגן דוד אדום פיקוד העורף מוקד פיקוד העורף - 104 אתר פיקוד העורף",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/hospital-directory.md"
-      ]
+      ],
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "fire-102",
@@ -92,23 +95,26 @@
       "claim_id": "child-online-105",
       "claim": "105 is Israel's Child Online Protection Bureau hotline, 24/7, for online harm to minors",
       "source_url": "https://www.gov.il/en/departments/units/105_call_center",
-      "raw_snippet": "The hotline may be reached by any telephone at any time of day or night by calling 105. Reports include online emergencies, distress and suicidal thoughts, online sexual abuse, extortion, threats, impersonations.",
+      "raw_snippet": "The hotline may be reached by any telephone at any time of day or night by calling 105.",
       "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "gov.il content API (programmatic re-extraction)"
     },
     {
       "claim_id": "welfare-118",
-      "claim": "118 is the Ministry of Welfare's 24/7 information and assistance hotline, available in Hebrew, Arabic, English, Russian",
+      "claim": "118 is the Ministry of Welfare and Social Security information and assistance hotline; the service and the call are free, and answers are given in Hebrew, English, Russian, Arabic, Amharic and French",
       "source_url": "https://www.gov.il/he/departments/general/molsa-118",
-      "raw_snippet": "מוקד מידע וסיוע - 118 משרד הרווחה והביטחון החברתי. The service is provided in Hebrew, Arabic, English and Russian, and can be reached for free from any phone and anywhere in the country.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "באילו שפות ניתן לקבל מענה במוקד? המענה ניתן בשפות: עברית; אנגלית; רוסית; ערבית; אמהרית; צרפתית. האם הפניה למוקד כרוכה בתשלום? השירות ניתן חינם, כאשר גם שיחת הטלפון היא שיחת חינם.",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "sexual-assault-1202-1203-a",
@@ -197,14 +203,16 @@
     },
     {
       "claim_id": "moh-tariff-annual-reindex",
-      "claim": "Ministry of Health hospital and ER tariffs are re-indexed every 1 January, so any quoted figure needs a year stamp",
+      "claim": "Ministry of Health hospitalisation and ER tariffs are re-indexed on 1 January: effective 1 January 2026 the inpatient, day-hospitalisation, ambulatory and emergency-department tariffs in general hospitals were raised by 0.23%, so any quoted figure needs a year stamp",
       "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/spl-010126changes-pdf/he/files_databases_moh-price-list_2026_spl-010126changes-PDF.pdf",
       "raw_snippet": "להלן עדכון תעריפי אשפוז ושאר שירותים בבתי החולים הממשלתיים והציבוריים אשר נכנסו לתוקף ביום חמישי, י\"ב בטבת תשפ\"ו, 1 בינואר 2026. תעריפי אשפוז, אשפוז יום, השירותים האמבולטוריים והשירותים במחלקה לרפואה דחופה (חדר מיון) בבתי החולים הכלליים הועלו בשיעור של 0.23%.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "er-exemptions",
@@ -522,6 +530,19 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "welfare-118-hours",
+      "claim": "The 118 welfare hotline answers 24 hours a day, 7 days a week, 364 days a year (except Yom Kippur)",
+      "source_url": "https://www.gov.il/he/departments/general/molsa-118",
+      "raw_snippet": "המוקד נותן מענה 24 שעות ביממה, 7 ימים בשבוע, 364 ימים בשנה (למעט יום הכיפורים).",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-11"
     }
   ],
   "notes": [

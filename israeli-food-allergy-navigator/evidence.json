@@ -275,12 +275,15 @@
     },
     {
       "id": "moe-mankal-portal",
-      "claim": "Ministry of Education standing instructions (חוזרי מנכ\"ל) are published on the mankal application portal at apps.education.gov.il/mankal.",
+      "claim": "Ministry of Education director-general circulars are published in the מאגר חוזרי מנכ\"ל repository at apps.education.gov.il/mankal.",
       "claim_type": "url",
       "source_url": "https://apps.education.gov.il/mankal/",
-      "source_fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-11",
       "raw_snippet": "מדינת ישראל משרד החינוך מאגר חוזרי מנכ\"ל",
-      "confidence": "high"
+      "confidence": "high",
+      "fetched_at": "2026-08-11",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
     },
     {
       "id": "mda-emergency-number",

@@ -29,10 +29,10 @@
     },
     {
       "claim_id": "sal-briut-2026-headline",
-      "claim": "2026 Israeli health basket: 107 drugs and technologies added at ₪650M total, of which ~₪337M (~52%) went to oncology. (PDF source. Open it and search by generic drug name; the 107-technologies and 650M / 337M headline figures are separately evidenced.)",
+      "claim": "Official Ministry of Health 2026 basket file: the list of drug-inclusion requests for the 2026 basket update, giving each drug's registered indications in the national drug registry. Open it and search by generic drug name. NOTE: the headline figures the skill quotes (107 technologies, 650M NIS total, ~337M NIS to oncology, ~52% of the total) are NOT stated in this PDF and still need their own source.",
       "source_url": "https://www.gov.il/BlobFolder/reports/hbs2026/he/files_committees_hbs_2026_List-of-medicines-and-medical-food-2026.pdf",
-      "raw_snippet": "רשימת התרופות והמזון הרפואי לשנת 2026 (הקובץ הרשמי של משרד הבריאות). הרשימה היא הקובץ הקובע לבדיקה אם תרופה מסוימת נכללת בסל ולאיזו התוויה.",
-      "fetched_at": "2026-05-18T00:00:00Z",
+      "raw_snippet": "בקשות להכללת תרופות- 2026 עדכון סל",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -496,10 +496,10 @@
     },
     {
       "claim_id": "moh-procedure-14-clinical-trials",
-      "claim": "MoH Procedure 14: clinical trials, Helsinki committee, post-trial drug access, sponsor obligations. (PDF source: not text-matchable by the fetch gate; treat as a pointer for the reader to open, and re-confirm by eye each cycle. No figure in the skill body rests on this entry alone.)",
+      "claim": "MoH clinical-trials procedure 14-4/02 (submission of amendments to medical-trial documents) sets the submission requirements, the classification of changes and their handling by the institutional Helsinki committees and the Ministry of Health, under the People's Health Regulations (Medical Experiments on Human Beings) 1980. NOTE: this document does NOT cover post-trial drug access; that element of the skill's note is unsourced. Separately: the reference file's mention of \"Section 5a\" is an internal cross-reference to a section of this skill's own SKILL.md, not a statutory section of any law.",
       "source_url": "https://www.gov.il/BlobFolder/policy/cth-14/he/files_publications_units_pharmaceutical_division_clinical_trials_cth-14.pdf",
-      "raw_snippet": "Procedure 14: Israel Ministry of Health clinical trials regulation. Helsinki committees institutional and national supreme. Post-trial drug access procedure (chapter 4) not automatic, must be raised with PI before signing consent. Legal basis: People's Health Regulations (Medical Research on Human Subjects) 1980. Section 5a, Section 10.",
-      "fetched_at": "2026-05-18T00:00:00Z",
+      "raw_snippet": "נוהל זה בא להסדיר את דרישות ההגשה בבקשות לשינויים במסמכי ניסויים רפואיים .הנוהל מגדיר את התוכן הנדרש להגשה ,אופן סיווג השינויים והתנאים ליישומם ,מועד הגשת השינויים ,ואת אופן ההגשה והטיפול בבקשות אלו בוועדות הלסינקי המוסדיות ובמשרד הבריאות .הנוהל מתייחס לכל סוגי המחקרים הרפואיים בבני אדם בהתאם לתקנות בריאות העם (ניסויים רפואיים בבני-אדם) ,תשמ\"א – ( 1980להלן התקנות).",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -1144,10 +1144,10 @@
     },
     {
       "claim_id": "moh-circular-2-2026-tagrisso",
-      "claim": "MOH circular 2/2026: the Tagrisso (osimertinib) indication added for 2026 is unresectable locally advanced stage III NSCLC that has not progressed after platinum-based chemoradiation (the LAURA setting), NOT the adjuvant post-resection setting. Osimertinib and durvalumab are mutually exclusive.",
+      "claim": "MOH circular 2/2026 lists an osimertinib (Tagrisso) indication for unresectable locally advanced stage III NSCLC that has not progressed during or after platinum-based chemoradiation, with EGFR exon 19 deletion or exon 21 L858R mutations, and states that over the course of the disease the patient is entitled to ONE of the two drugs, Osimertinib or Durvalumab. (The circular separately lists an adjuvant stage IB-IIIA osimertinib indication, so the two settings are distinct entries.)",
       "source_url": "https://www.gov.il/BlobFolder/policy/mk02-2026/he/files_circulars_mk_mk02-2026.pdf",
-      "raw_snippet": "טיפול בחולה בגיר עם סרטן ריאה מסוג NSCLC בשלב מתקדם מקומי לא נתיח (שלב III) שמחלתו לא התקדמה במהלך או לאחר טיפול משולב או עוקב של כימותרפיה מבוססת פלטינום והקרנות, עם מוטציות מסוג EGFR exon 19 del או EGFR exon 21 L858R. במהלך מחלתו יהיה החולה זכאי לאחת משתי התרופות - Osimertinib, Durvalumab.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "טיפול בחולה בגיר עם סרטן ריאה מסוג NSCLCבשלב מתקדם מקומי לא נתיח (שלב ,)IIIשמחלתו לא התקדמה במהלך או לאחר טיפול משולב או עוקב של כימותרפיה מבוססת פלטינום והקרנות ,עם מוטציות מסוג EGFR exon 19 deletionאו EGFR .exon 21 L858R במהלך מחלתו יהיה החולה זכאי לאחת משתי התרופות – .Osimertinib, Durvalumab",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"

@@ -6,16 +6,16 @@
   "claims": [
     {
       "claim_id": "circular-quarter-definition",
-      "claim": "Circular 1/2025 section 15.6 defines the quarter as a FLOATING three months from the visit date for the exemption, while the family ceiling for those same visits is computed on the CALENDAR quarter. For other services and for drugs, quarter means the calendar quarter. Leumit's own heading calls it a floating quarter.",
+      "claim": "The Ministry of Health cross-kupah page restates circular 1/2025 סעיף 15.6: for a doctor, institute or outpatient visit charged once a quarter the exemption runs a FLOATING three months from the visit date, even past the end of the calendar quarter, while the ceiling for those same visits is computed on a calendar-quarter basis.",
       "source_url": "https://call.gov.il/page/GE41",
       "raw_snippet": "רבעון - בעבור שירות של ביקור אצל רופא, מכון או מרפאת חוץ שנקבע לגביו תשלום אחת לרבעון, יהיה החבר פטור מתשלום בעבור אותו שירות במשך שלושה חודשים מיום הביקור (גם אם התקופה האמורה חלה לאחר תום הרבעון הקלנדרי שבו היה אותו ביקור), ואולם התקרה בעד ביקורים כאמור תחושב על בסיס רבעון קלנדרי.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09",
+      "verified_at": "2026-08-11T00:00:00Z",
       "source_note": "Circular 1/2025 section 15.6, restated verbatim in HTML on the MoH cross-kupah page, which is machine-readable where the circular PDF is not."
     },
     {
@@ -23,13 +23,13 @@
       "claim": "For services other than doctor, institute and outpatient visits, and for drugs, quarter means the calendar quarter (circular section 15.6, second limb).",
       "source_url": "https://call.gov.il/page/GE41",
       "raw_snippet": "לעניין שירותים אחרים ותרופות, \"רבעון\" משמעו רבעון קלנדרי.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "circular-primary-doctor",
@@ -116,17 +116,17 @@
     },
     {
       "claim_id": "circular-stacking-rules",
-      "claim": "Circular section 18 stacking rules: ceilings of the same kind do not accumulate except for drug discounts, so an oleh who is also above retirement age gets 50% and not an accumulated 25%; ceilings of different kinds do accumulate; and entitlement to a discount does not remove entitlement to a ceiling.",
+      "claim": "Circular סעיף 18 stacking rules as restated on the Ministry of Health cross-kupah page: ceilings of the same kind do not accumulate except for drug discounts, so an oleh who is also above retirement age gets 50% and not an accumulated 25%.",
       "source_url": "https://call.gov.il/page/GE41",
       "raw_snippet": "התקרות מאותו סוג אינן מצטברות למעט ההנחות בתרופות. לדוגמא: התקרה המשפחתית לעולה חדש שהוא גם מעל גיל פרישה תהיה 50% (ולא מצטברת 25%).",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "references/exemptions-and-ceilings.md",
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "circular-stacking-different-kinds",
@@ -225,17 +225,15 @@
     },
     {
       "claim_id": "circular-senior-drug-discount-72",
-      "claim": "Circular section 16.8.3: a member aged 72 gets a 10% discount on drug copays. The threshold was changed on 1.1.16 from 75 and over to 72 and over. The figure 75 is superseded. Section 16.8 also gives 50% to an oleh in the first 12 months, to income-support and Prisoners-of-Zion recipients who are senior citizens, and to an oleh from month 13 to month 36; and 100% to needy WWII veterans under section 16.8.4 defined by eight enumerated payment sources.",
+      "claim": "Circular סעיף 16.8.3: a member aged 72 gets a 10% discount on the drug copay. The threshold was changed on 1.1.16 from 75 and over to 72 and over, so the figure 75 is superseded.",
       "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
-      "raw_snippet": "חבר שמלאו לו 72 שנה זכאי ל-10% הנחה בהשתתפות העצמית בתרופות (החל מה-1.1.16 שונה מבחן התמיכה למתן הנחה בתרופות לקשישים כך שההנחה תינתן למבוטחים בגילאי 72 ומעלה במקום גילאי 75 ומעלה).",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "חבר שמלאו לו 72 שנה זכאי ל 10%- הנחה בהשתתפות העצמית בתרופות (החל מה1.1.16-\nשונה מבחן התמיכה למתן הנחה בתרופות לקשישים כך שההנחה תינתן למבוטחים בגילאי\n72 ומעלה במקום גילאי 75 ומעלה).",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "references/exemptions-and-ceilings.md",
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "pdf",
-      "verified_at": "2026-08-09",
       "source_note": "Circular 1/2025 PDF. Provenance is the compiled hmo-evidence-base.md; the PDF has no curl-readable text layer, so re-read by eye each cycle."
     },
     {
@@ -281,43 +279,43 @@
     },
     {
       "claim_id": "moh-family-ceilings-ge41",
-      "claim": "MoH cross-kupah page, marked as correct to 21/08/2025, publishes the quarterly family ceilings: Clalit 242.71, Maccabi 257.59, Meuhedet 283.17, Leumit 303.39.",
+      "claim": "The Ministry of Health cross-kupah page, marked correct to 21/08/2025, publishes the quarterly family ceiling for Clalit as 242.71 ש\"ח.",
       "source_url": "https://call.gov.il/page/GE41",
       "raw_snippet": "שירותי בריאות כללית - 242.71 ש\"ח",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "references/exemptions-and-ceilings.md",
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "moh-ceiling-scope",
-      "claim": "MoH cross-kupah page defines which visits count toward the quarterly family ceiling: primary doctor, secondary doctor, outpatient clinics and institutes, with children counted to age 18. Dental copays are excluded.",
+      "claim": "The Ministry of Health cross-kupah page defines which visits count toward the quarterly family ceiling: primary doctor, secondary doctor, outpatient clinics and institutes, with children counted up to age 18.",
       "source_url": "https://call.gov.il/page/GE41",
       "raw_snippet": "תקרת תשלום למשפחה (ילדים - עד גיל 18) - תקרה רבעונית המתייחסת להשתתפויות בגין ביקור אצל: רופא ראשוני, רופא שניוני, מרפאות חוץ ומכונים.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "references/exemptions-and-ceilings.md",
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "moh-ceilings-other-kupot",
-      "claim": "MoH cross-kupah page ceiling lines for the remaining three kupot: Maccabi 257.59, Meuhedet 283.17 and Leumit 303.39.",
+      "claim": "The Ministry of Health cross-kupah page publishes the quarterly family ceiling for Leumit as 303.39 ש\"ח.",
       "source_url": "https://call.gov.il/page/GE41",
       "raw_snippet": "קופת חולים לאומית - 303.39 ש\"ח",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "references/exemptions-and-ceilings.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "clalit-tariffs-2026",
@@ -951,82 +949,82 @@
       "claim": "Clalit extends the statutory list with a blanket exemption for visits from 19:00 until 07:00 the next morning, and on Shabbat and holiday eves from 12:00 noon until 07:00 the next morning for a named list of reasons. These extensions are not uniform across the four kupot.",
       "source_url": "https://call.gov.il/product-page/1002629",
       "raw_snippet": "לביקורים משעה 19:00 עד 7:00 למחרת",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "references/er-waiver-list.md",
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "er-kupah-extensions-clalit-shabbat",
       "claim": "Clalit's Shabbat and holiday emergency-room exemption window runs from 12:00 noon on the eve until 07:00 the next morning.",
       "source_url": "https://call.gov.il/product-page/1002629",
       "raw_snippet": "משעה 12:00 בצהריים ערב החג/שבת ועד 7:00 למחרת",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "references/er-waiver-list.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "er-kupah-extensions-maccabi-a",
       "claim": "Maccabi has an all-hours emergency-room exemption list that includes referral by a Maccabi or contracted moked doctor, a telephone referral from a Maccabi doctor given before arrival, and a nurse referral from 'מכבי ללא הפסקה' with arrival within 24 hours.",
       "source_url": "https://call.gov.il/product-page/1002629",
       "raw_snippet": "מכבי הרחיבה את מתן הפטורים במהלך כל שעות היום במקרים הבאים: 1. חבר שהופנה לחדר מיון על ידי רופא ממוקד מכבי או רופא ממוקד שבהסכם. 2. הפניה טלפונית למיון מרופא מכבי ובתנאי שניתנה לחבר טרם פנייתו למיון. 3. חבר שהופנה ע\"ל ידי אחות מוקד \"מכבי ללא הפסקה\" והגיע למיון תוך 24 שעות",
-      "fetched_at": "2026-08-09",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "references/er-waiver-list.md",
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "er-kupah-extensions-maccabi-b",
       "claim": "Maccabi has a separate partial-payment list covering an emergency-room visit between 23:00 and 06:00, a known cardiac patient with chest pain, acute dyspnea, renal colic needing IV treatment, and a CT or MRI performed in the emergency room.",
       "source_url": "https://call.gov.il/product-page/1002629",
       "raw_snippet": "מקרים המקנים השתתפות חלקית בתשלום אגרת חדר מיון 1. פנייה לחדר מיון מהשעה 23:00 בלילה ועד השעה 06:00 בבוקר שלא כלולה במקרים המקנים פטור מלא. 2. חבר עם מחלת לב מוכרת שנתקף כאבים בחזה. 3. התקף קוצר נשימה חריף. 4. התקף אסתמה בשעות הפעילות של המוקדים והמרכזים הרפואיים (הסניפים). 5. עווית כלייתית (Renal Colic) שדרשה טיפול תוך-ורידי במיון. 6. ביצוע CT או MRI במיון.",
-      "fetched_at": "2026-08-09",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "references/er-waiver-list.md",
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "er-kupah-extensions-meuhedet",
-      "claim": "Meuhedet gates the emergency-room exemption on referral validity windows: Sunday to Thursday a referral is valid until 8:00 the next morning, and on Friday until Sunday at 8:00. For a road accident no police certificate is needed within 48 hours, a certificate is required between 48 hours and 7 days, and a commitment form is required from day 8.",
+      "claim": "Meuhedet gates the emergency-room exemption on referral validity windows: Sunday to Thursday a referral is valid until 8:00 the next morning, and on Friday or a holiday eve until Sunday at 8:00.",
       "source_url": "https://call.gov.il/product-page/1002629",
       "raw_snippet": "בימים א'-ה' ההפניה בתוקף עד השעה 8:00 בבוקר של היום למחרת. ביום ו' או ערב חג, ההפניה בתוקף עד יום ראשון בשעה 8:00 בבוקר.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "references/er-waiver-list.md",
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "er-kupah-extensions-leumit-and-meuhedet-appeal",
-      "claim": "Leumit grants emergency-room exemptions retrospectively through a moked doctor who reads the discharge letter, against a named list of reasons. Meuhedet adds that an appeal may be filed with a district appeals committee attached to the emergency-room sheet and the payment receipt.",
+      "claim": "Leumit grants emergency-room exemptions retrospectively at the medical discretion of a moked doctor, after reading the discharge letter from the emergency room, against a named list of cases.",
       "source_url": "https://call.gov.il/product-page/1002629",
-      "raw_snippet": "ניתן להגיש ערעור לוועדת ערעורים מחוזית בצרוף גיליון המיון וקבלה על התשלום של המיון.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "על פי שיקול דעת רפואי של רופא מוקד, לאחר קריאת מכתב שחרור מהמיון, יינתן פטור מאגרת מיון במקרים הבאים:",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "references/er-waiver-list.md",
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "ambulance-full-refund",
@@ -1109,27 +1107,27 @@
     },
     {
       "claim_id": "moh-ceilings-maccabi-meuhedet",
-      "claim": "MoH cross-kupah page ceiling lines for Maccabi and Meuhedet. Referenced circular sections in this skill include סעיף 15 sub-sections 15.2, 15.4, 15.6, 15.7, 15.8 and 15.10, and סעיף 16 sub-sections 16.1 through 16.9.",
+      "claim": "The Ministry of Health cross-kupah page publishes the quarterly family ceiling for Maccabi as 257.59 ש\"ח. The circular sections this skill relies on are סעיף 15 (definitions) and סעיף 16 (exemptions and discounts).",
       "source_url": "https://call.gov.il/page/GE41",
       "raw_snippet": "מכבי שירותי בריאות - 257.59 ש\"ח",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "references/exemptions-and-ceilings.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "moh-ceiling-meuhedet",
-      "claim": "MoH cross-kupah page ceiling line for Meuhedet.",
+      "claim": "The Ministry of Health cross-kupah page publishes the quarterly family ceiling for Meuhedet as 283.17 ש\"ח.",
       "source_url": "https://call.gov.il/page/GE41",
       "raw_snippet": "קופת חולים מאוחדת - 283.17 ש\"ח",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "references/exemptions-and-ceilings.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "clalit-prescription-floor-circular-era",
@@ -1155,6 +1153,107 @@
       "source_note": "Leumit's tariff page HTML-entity-encodes its Hebrew, so a plain text match can never succeed. Verified by fetching the page and unescaping entities before matching.",
       "appears_in": [
         "references/copay-tables.md"
+      ]
+    },
+    {
+      "claim_id": "circular-15-6-floating-quarter-pdf",
+      "claim": "Circular 1/2025 סעיף 15.6, primary text: the quarter for a doctor, institute or outpatient visit charged once a quarter is a floating three months from the visit date.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "רבעון\" – בעבור שירות של ביקור אצל רופא, מכון או מרפאת חוץ שנקבע לגביו תשלום אחת לרבעון, יהיה החבר פטור מתשלום בעבור אותו שירות במשך שלושה חודשים מיום הביקור",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "circular-15-6-ceiling-calendar-pdf",
+      "claim": "Circular 1/2025 סעיף 15.6, second sentence: the ceiling for those same visits is nevertheless computed on a calendar-quarter basis.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "התקרה בעד ביקורים כאמור תחושב על בסיס רבעון קלנדרי.",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "circular-15-6-other-services-pdf",
+      "claim": "Circular 1/2025 סעיף 15.6, second limb, primary text: for other services and for drugs \"quarter\" means the calendar quarter.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "לעניין שירותים אחרים ותרופות – \"רבעון\" משמעו רבעון קלנדרי.",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "circular-18-1-stacking-pdf",
+      "claim": "Circular 1/2025 סעיף 18.1, primary text: ceilings of the same kind do not accumulate except for drug discounts; the worked example gives an oleh who is also above retirement age 50% and not an accumulated 25%.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "התקרות מאותו סוג אינן מצטברות למעט ההנחות בתרופות.\nלדוגמה – התקרה המשפחתית לעולה חדש שהוא גם מעל גיל פרישה תהיה ( 50%ולא מצטברת",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "circular-ceiling-clalit-pdf",
+      "claim": "Circular 1/2025 Clalit table: the quarterly family ceiling for self-participation is 242.71 ש\"ח.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "השירות (שירותי בריאות כללית)\n\n40.45\n40.45\n242.71",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "circular-ceiling-maccabi-pdf",
+      "claim": "Circular 1/2025 Maccabi table: the quarterly family ceiling for self-participation (items 1,2,3 of that table) is 257.59 ש\"ח.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "257.59\nתקרה משפחתית רבעונית להשתתפויות עצמיות (בסעיפים",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "circular-ceiling-meuhedet-pdf",
+      "claim": "Circular 1/2025 Meuhedet table: the quarterly family ceiling for self-participation is 283.17 ש\"ח.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "תקרה למשפחה לרבעון להשתתפויות העצמיות\nבסעיפים ( 1,2,3 לעיל).\n\n283.17",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "circular-ceiling-leumit-pdf",
+      "claim": "Circular 1/2025 Leumit table: the quarterly family ceiling for self-participation is 303.39 ש\"ח.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "תקרה משפחתית ברבעון להשתתפויות (בסעיפים 1,2,3 לעיל)\n\n303.39",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "references/exemptions-and-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "er-meuhedet-appeal-committee",
+      "claim": "Meuhedet adds that an appeal may be filed with a district appeals committee, attaching the emergency-room sheet and the receipt for the emergency-room payment.",
+      "source_url": "https://call.gov.il/product-page/1002629",
+      "raw_snippet": "ניתן להגיש ערעור לוועדת ערעורים מחוזית בצרוף גיליון המיון וקבלה על התשלום של המיון.",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "references/er-waiver-list.md",
+        "SKILL.md",
+        "SKILL_HE.md"
       ]
     }
   ]

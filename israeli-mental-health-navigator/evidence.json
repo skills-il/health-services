@@ -79,20 +79,22 @@
       "claim_id": "nefesh-achat-8944",
       "claim": "Nefesh Achat (*8944) is the MoD Rehabilitation post-trauma emotional support line, active 24 hours a day, 7 days a week including holidays.",
       "source_url": "https://shikum.mod.gov.il/contactus/call-center",
-      "raw_snippet": "קו תמיכה 'נפש אחת' למתמודדים עם פוסט טראומה 8944* פעיל 7 ימים בשבוע, 24 שעות ביממה כולל בחגים.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "קו תמיכה 'נפש אחת' למתמודדים עם פוסט טראומה 8944* * 8 9 4 4 פעיל 7 ימים בשבוע, 24 שעות ביממה כולל בחגים.",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/crisis-hotlines-directory.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "mod-rehab-general-8150",
       "claim": "The general Ministry of Defense Rehabilitation Division call center is *8150 (also 03-7776777), open Sunday to Thursday 08:00-18:00. It replaces the incorrect *3104 previously listed.",
       "source_url": "https://shikum.mod.gov.il/contactus/call-center",
       "raw_snippet": "מספר טלפון: 8150* * 8 1 5 0 או 03-7776777 שעות פעילות: המוקד פעיל בימים ראשון עד חמישי, מ-8:00 עד 18:00",
-      "fetched_at": "2026-08-09",
+      "fetched_at": "2026-08-11",
       "source_fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
@@ -100,43 +102,49 @@
         "references/crisis-hotlines-directory.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-09"
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "beyadayim-tovot-3757",
       "claim": "The BeYadayim Tovot center (*3757) provides free assistance filing an IDF-disability recognition claim and preparing for medical committees, Sunday to Thursday 08:00-17:00.",
       "source_url": "https://shikum.mod.gov.il/contactus/call-center",
-      "raw_snippet": "מרכז 'בידיים טובות' לסיוע חינמי בהגשת בקשה להכרה כנכי צה\"ל והכנה לוועדות הרפואיות 3757* פעיל בימים ראשון עד חמישי בין השעות 8:00 עד 17:00.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "מרכז 'בידיים טובות' לסיוע חינמי בהגשת בקשה להכרה כנכי צה\"ל והכנה לוועדות הרפואיות 3757* * 3 7 5 7 פעיל בימים ראשון עד חמישי בין השעות 8:00 עד 17:00.",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/crisis-hotlines-directory.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "combat-reaction-unit-phone",
       "claim": "The Combat Reaction Unit provides a medical and mental response for people in distress following combat or operational service, at 03-6401400, Sunday to Thursday 09:00-17:00.",
       "source_url": "https://shikum.mod.gov.il/about/harvot-barzel/moked-harvot",
       "raw_snippet": "היחידה לתגובות קרב - נותנת מענה רפואי-נפשי לאזרחים הסובלים ממצוקה בעקבות השתתפותם בלחימה או בפעילות מבצעית בעת שירותם הצבאי (סדיר או מילואים). טלפון: 03-6401400, ימי ושעות פעילות: ראשון עד חמישי, בין השעות 09:00 עד 17:00",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/crisis-hotlines-directory.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "mod-6500-hours",
       "claim": "The Iron Swords casualties desk *6500 (also 03-7776777) is an information desk open Sunday to Thursday 08:00-18:00, not a 24/7 crisis line.",
       "source_url": "https://shikum.mod.gov.il/about/harvot-barzel/moked-harvot",
-      "raw_snippet": "מספר טלפון: 6500* או 03-7776777. שעות פעילות: מ-8:00 עד 18:00 בימים ראשון עד חמישי",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "מספר טלפון: 6500* * 6 5 0 0 או 03-7776777 שעות פעילות: מ-8:00 עד 18:00 בימים ראשון עד חמישי",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/crisis-hotlines-directory.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "sexual-assault-1202-1203-a",
@@ -224,12 +232,14 @@
       "claim": "The psychiatric-visit copay under the mental health basket is defined by treatment setting, not as a single national amount: community clinic and psychiatric-hospital outpatient clinic are charged at the secondary-physician tariff, general-hospital outpatient clinics at the standard outpatient tariff. A family-doctor referral form is required, and Form 17 may be required.",
       "source_url": "https://call.gov.il/product-page/1007419",
       "raw_snippet": "השתתפות עצמית מרפאה בקהילה - בהתאם לרופא שניוני. מרפאות חוץ בבית חולים כללי - בהתאם לביקור במרפאות חוץ. מרפאות חוץ בבית חולים פסיכיאטרי - בהתאם לרופא שניוני. פנה לרופא המשפחה לקבלת טופס הפנייה. בדוק מול הקופה האם נדרש טופס 17.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/therapy-cost-estimator.py"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "maccabi-mh-entitlement-2026",
@@ -246,15 +256,17 @@
     },
     {
       "claim_id": "sal-shikum-40-percent-age-18",
-      "claim": "Sal shikum eligibility is Israeli residents aged 18 and over recognised by Bituach Leumi with 40% or more permanent psychiatric disability; those with 40% temporary psychiatric disability are eligible as long as they are defined disabled.",
+      "claim": "Sal shikum eligibility is Israeli residents aged 18 and over recognised by Bituach Leumi with 40% or more psychiatric disability; those with temporary disability percentages are eligible as long as they are defined disabled.",
       "source_url": "https://me.health.gov.il/mental-health/therapy-rehabilitation/rehabilitation/rehabilitation-basket/about/",
-      "raw_snippet": "תושבי ישראל בגיל 18 שנים ומעלה שנקבעו להם בביטוח הלאומי 40% ומעלה של נכות נפשית לצמיתות. מי שקיבלו 40% אחוזי נכות נפשית זמניים זכאים לסל שיקום כל עוד הם מוגדרים נכים.",
-      "fetched_at": "2026-08-09",
+      "raw_snippet": "מי שהוכרו עם נכות נפשית בביטוח לאומי: תושבי ישראל, בגיל 18 שנים ומעלה, שהוכרו בביטוח הלאומי ושנקבעו להם 40% ומעלה של נכות נפשית. מי שקיבלו אחוזי נכות זמניים מהביטוח הלאומי, זכאים לסל שיקום כל עוד הם מוגדרים נכים.",
+      "fetched_at": "2026-08-11",
       "source_fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "natal-3362",
@@ -304,14 +316,16 @@
     },
     {
       "claim_id": "disability-eligibility-criteria",
-      "claim": "Disability eligibility requires medical disability of at least 60%, or at least 40% if multiple impairments and one is at least 25%.",
-      "source_url": "https://me.health.gov.il/mental-health/therapy-and-rehabilitation/social-benefits/mental-disability/",
-      "raw_snippet": "צריך שהוועדה תיקבע לך נכות רפואית בשיעור של 60% לפחות או 40 לפחות - אם יש לך כמה ליקויים רפואיים ועל ליקוי מסוים נקבעה לך נכות רפואית בשיעור של 25% לפחות",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "claim": "Bituach Leumi general-disability eligibility requires a medical disability of at least 60%, or at least 40% where there are several medical impairments and one specific impairment was assessed at at least 25%.",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/pages/%D7%94%D7%96%D7%9B%D7%90%D7%99%D7%9D%20%D7%9C%D7%A7%D7%A6%D7%91%D7%AA%20%D7%A0%D7%9B%D7%95%D7%AA%20%D7%97%D7%95%D7%93%D7%A9%D7%99%D7%AA.aspx",
+      "raw_snippet": "רופא מטעם הביטוח הלאומי קבע לך נכות רפואית בשיעור של 60% לפחות, או בשיעור של 40% לפחות, אם יש לך כמה ליקויים רפואיים ועל ליקוי מסוים נקבעה לך נכות רפואית בשיעור של 25% לפחות.",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "source_label": "ביטוח לאומי - הזכאים לקצבת נכות חודשית, תנאי שלישי: נכות רפואית",
+      "verified_at": "2026-08-11"
     },
     {
       "claim_id": "full-pension-2026-a",

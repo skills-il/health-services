@@ -311,17 +311,18 @@
     {
       "claim_id": "pgt-brca-lynch-two-pregnancies-cap",
       "claim": "The 2026 health basket (Director General Circular 02/2026, published 08.03.2026) funds PGT as part of IVF for carriers of high-cancer-risk mutations (BRCA1/BRCA2, Lynch/HNPCC), and that entitlement is limited to two pregnancies that ended in birth. Eligibility is set on a genetic counselor's recommendation.",
-      "source_url": "https://www.gov.il/he/pages/mk02-2026",
-      "raw_snippet": "נשאות של מוטציות בגנים המעלים סיכון לחלות בסרטן שלגביהם מתקיים אחד מאלה: לפחות אחד מבני הזוג נשא של המוטציה בגן BRCA1, BRCA2; לפחות אחד מבני הזוג אובחן עם תסמונת לינץ' (HNPCC. הזכאות לטיפול לפי פסקה זו, תוגבל לשני הריונות בלבד, שהסתיימו בלידה. זכאות לטיפול תיקבע בהתאם להמלצת יועץ גנטי.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/mk02-2026/he/files_circulars_mk_mk02-2026.pdf",
+      "raw_snippet": "נשאות של מוטציות בגנים המעלים סיכון לחלות בסרטן שלגביהם מתקיים אחד מאלה:\n.1\nלפחות אחד מבני הזוג נשא של המוטציה בגן ;BRCA1, BRCA2\n.2\nלפחות אחד מבני הזוג אובחן עם תסמונת לינץ' (.HNPCC\nהזכאות לטיפול לפי פסקה זו ,תוגבל לשני הריונות בלבד ,שהסתיימו בלידה.\n .2זכאות לטיפול תיקבע בהתאם להמלצת יועץ גנטי.",
       "verified_via": "pdf",
-      "verified_at": "2026-08-09",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "verified_at": "2026-08-11T00:00:00Z",
+      "fetched_at": "2026-08-11",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/fertility-coverage-checker.py",
         "references/domain-checklist.md"
-      ]
+      ],
+      "source_fetched_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "surrogacy-law-1996-surrogate-22-39",
@@ -719,6 +720,16 @@
       "source_fetched_at": "2026-08-09",
       "verified_via": "browser",
       "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "mk02-2026-page",
+      "claim": "Director General Circular 02/2026 \"הרחבת סל שירותי הבריאות לשנת 2026\" is published on gov.il and links the full circular PDF.",
+      "source_url": "https://www.gov.il/he/pages/mk02-2026",
+      "fetched_at": "2026-08-11",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "raw_snippet": "\"title\":\"הרחבת סל שירותי הבריאות לשנת 2026\",\"subTitle\":null,\"description\":\"חוזר מספר: 02/2026\"",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-11T00:00:00Z"
     }
   ]
 }
