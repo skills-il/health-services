@@ -243,7 +243,7 @@ Never say "contact an NGO" without naming one. See `references/ngos-and-support-
 
 #### 10.3 Clinical trials
 
-Legal basis: People's Health Regulations (Medical Research on Human Subjects), 1980. The **Helsinki committee** is research ethics, **NOT** the HMO exceptions committee; it is institutional per hospital plus a National Supreme committee for elevated-risk categories. Search **MyTrial** (MOH) and ClinicalTrials.gov filtered to Israel. The **sponsor pays** for the investigational drug and trial-specific procedures while the HMO continues standard of care. **Post-trial access is not automatic**: it runs under the MOH clinical-trials procedure and needs Helsinki plus MOH sign-off, so raise it with the principal investigator **before** signing consent.
+Legal basis: People's Health Regulations (Medical Research on Human Subjects), 1980. The **Helsinki committee** is research ethics, **NOT** the HMO exceptions committee; it is institutional per hospital plus a National Supreme committee for elevated-risk categories. Search **MyTrial** (MOH) and ClinicalTrials.gov filtered to Israel. The **sponsor pays** for the investigational drug and trial-specific procedures while the HMO continues standard of care. **Post-trial access is not automatic and no published entitlement guarantees it.** Continued supply depends on the sponsor and protocol: settle it in writing with the principal investigator **before** signing consent.
 
 #### 10.4 Decision tree
 

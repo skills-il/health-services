@@ -4,9 +4,14 @@
 
 ## 1. The 2026 health basket (at a glance)
 
-- **Total new additions:** 107 drugs and technologies
-- **Total budget:** ₪650 million (covering roughly 86,450 patients)
-- **Oncology share:** approximately ₪337 million (roughly 52% of total)
+- The Ministry of Health publishes the 2026 update as a numbered list of drug and
+  medical-food inclusion requests (see the source PDF in the skill's evidence).
+- **Aggregate headline figures are deliberately NOT stated here.** Earlier versions
+  of this file gave a total-additions count, a total budget, an oncology share and a
+  patient count. None of them appear in the cited Ministry list, whose numbering
+  coincidentally contains the same digits as row identifiers, so they could not be
+  confirmed. Quote aggregate basket figures only from the Ministry's own
+  announcement for the relevant year, and never from this file.
 
 **Notable 2026 oncology additions (verified):**
 

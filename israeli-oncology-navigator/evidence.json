@@ -29,7 +29,7 @@
     },
     {
       "claim_id": "sal-briut-2026-headline",
-      "claim": "Official Ministry of Health 2026 basket file: the list of drug-inclusion requests for the 2026 basket update, giving each drug's registered indications in the national drug registry. Open it and search by generic drug name. NOTE: the headline figures the skill quotes (107 technologies, 650M NIS total, ~337M NIS to oncology, ~52% of the total) are NOT stated in this PDF and still need their own source.",
+      "claim": "The Ministry of Health 2026 basket update is published as a numbered list of drug and medical-food inclusion requests. The list does NOT state aggregate figures: no total-additions count, budget, oncology share or patient count appears in it, so such figures must not be cited to this document.",
       "source_url": "https://www.gov.il/BlobFolder/reports/hbs2026/he/files_committees_hbs_2026_List-of-medicines-and-medical-food-2026.pdf",
       "raw_snippet": "בקשות להכללת תרופות- 2026 עדכון סל",
       "fetched_at": "2026-08-11",
