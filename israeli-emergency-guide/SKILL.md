@@ -195,7 +195,7 @@ Since October 7, 2023, Israel has been in an active conflict period. Emergency b
 
 | Situation | Action |
 |-----------|--------|
-| Red-alert siren (azaka, אזעקה) | Enter the nearest mamad / miklat / stairwell within the time window for your region. Israel is divided into around 1,700 alert zones with windows ranging from immediate to 3 minutes (Gaza Envelope: 15 sec, most central areas: 90 sec, Arava and Eilat: up to 3 min). Zone timings are published per locality and are revised, so look up the specific locality in the Home Front Command app rather than quoting these figures as final. For how long to stay inside, see the exit rule below. |
+| Red-alert siren (azaka, אזעקה) | Enter the nearest mamad / miklat / stairwell within the time window for your region. Home Front Command defines a protection time per locality, ranging from immediate to 15, 30, 45, 60 and up to 90 seconds (most of the country: 90 sec, Gaza Envelope: 15 sec, and in the "Golan North" and most "confrontation line" localities the siren lasts 15 sec but entry time is immediate). Zone timings are published per locality and are revised, so look up the specific locality in the Home Front Command app rather than quoting these figures as final. For how long to stay inside, see the exit rule below. |
 | No shelter available | Lie flat on the ground, cover head with hands, stay away from windows. |
 | Driving when siren sounds | Stop the car safely, exit, lie flat next to the vehicle (not under it) or behind a concrete barrier. |
 | Suspected missile/rocket impact | Call 100 (police) and 101 (MDA). Do not approach unexploded ordnance. |

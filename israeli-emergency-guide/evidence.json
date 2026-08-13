@@ -70,26 +70,30 @@
     },
     {
       "claim_id": "fire-102",
-      "claim": "Israel Fire and Rescue emergency number is 102. NOT RE-VERIFIED at the Fire and Rescue authority's own site in this review cycle; the previous source was a personal directory page and was removed.",
-      "source_url": "https://www.gov.il/he/departments/israel_fire_and_rescue_authority",
-      "raw_snippet": "PENDING RE-VERIFICATION: the digits 102 were not read off the Fire and Rescue authority's own page during the 2026-08-01 review. Do not treat this snippet as confirmation.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "claim": "Israel Fire and Rescue emergency number is 102",
+      "source_url": "https://www.gov.il/he/departments/general/police_national_emergency_lines",
+      "raw_snippet": "כבאות והצלה לישראל מוקד כבאות והצלה - 102",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/hospital-directory.md"
-      ]
+      ],
+      "verified_via": "gov.il content API (contentpage/police_national_emergency_lines, page update date 13.01.2026)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "homefront-104",
-      "claim": "Pikud Haoref (Home Front Command) information hotline is 104. NOT RE-VERIFIED at oref.org.il in this cycle; the previous source was a non-primary NGO page that also carried the now-superseded 10-minute shelter rule.",
-      "source_url": "https://www.oref.org.il/heb",
-      "raw_snippet": "PENDING RE-VERIFICATION: oref.org.il serves an Angular single-page app behind Akamai and returned 403 to every automated fetch method during the 2026-08-01 review. Do not treat this snippet as confirmation.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "claim": "Pikud Haoref (Home Front Command) information hotline is 104",
+      "source_url": "https://www.gov.il/he/departments/general/police_national_emergency_lines",
+      "raw_snippet": "פיקוד העורף מוקד פיקוד העורף - 104",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "gov.il content API (contentpage/police_national_emergency_lines, page update date 13.01.2026)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "child-online-105",
@@ -297,37 +301,56 @@
       ]
     },
     {
-      "claim_id": "shelter-zones-1700",
-      "claim": "Israel is divided into approximately 1,700 alert zones with shelter entry windows ranging from immediate to 3 minutes. PENDING RE-VERIFICATION, see shelter-source-note.",
-      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/rocket-and-missile-attacks",
-      "raw_snippet": "PENDING RE-VERIFICATION at the live OREF page. Prior snippet from the now-dead legacy URL: Israel is currently divided into approximately 1,700 alert zones, with each zone having a defined protection time. Most areas have 90 seconds. In areas near borders, ranges from immediate to 15 seconds, 30 seconds, 45 seconds, and one minute.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "claim_id": "shelter-protection-time-range",
+      "claim": "Every locality in Israel has a defined protection time (zman hitgonenut) for entering the protected space. It ranges from immediate to 15 seconds, 30 seconds, 45 seconds, one minute and up to a minute and a half.",
+      "source_url": "https://www.oref.org.il/heb/articles/protection-guidelines/preparing-protected-space/1103/",
+      "raw_snippet": "זמן ההגעה למרחב המוגן נע בין פרק זמן מיידי לבין 15 שניות, 30 שניות, 45 שניות, דקה ועד ודקה וחצי.",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "oref.org.il content API (api.oref.org.il/api/v1/articles//heb/articles/protection-guidelines/preparing-protected-space/1103/)",
+      "verified_at": "2026-08-13"
+    },
+    {
+      "claim_id": "shelter-most-areas-90sec",
+      "claim": "Most areas of the country have a defined protection time of a minute and a half; areas near the borders have a varying time between immediate and 15, 30, 45 seconds, a minute and a minute and a half.",
+      "source_url": "https://www.oref.org.il/heb/articles/protection-guidelines/preparing-protected-space/1103/",
+      "raw_snippet": "לרוב האזורים בארץ הוגדר זמן התגוננות של דקה וחצי. באזורים הקרובים לגבולות הוגדר זמן התגוננות משתנה שנע בין מיידי לבין 15 שניות, 30 שניות, 45 שניות, דקה ודקה וחצי.",
+      "fetched_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "oref.org.il content API (api.oref.org.il/api/v1/articles//heb/articles/protection-guidelines/preparing-protected-space/1103/)",
+      "verified_at": "2026-08-13"
+    },
+    {
+      "claim_id": "shelter-confrontation-line-immediate",
+      "claim": "In the \"Golan North\" guidance area and in most localities in the \"confrontation line\" guidance area the siren lasts 15 seconds but the entry time to the protected space is immediate.",
+      "source_url": "https://www.oref.org.il/heb/articles/protection-guidelines/preparing-protected-space/1103/",
+      "raw_snippet": "באזור הנחיות \"גולן צפון\" וכן ברוב היישובים המשתייכים לאזור הנחיה \"קו עימות\" – משך האזעקה 15 שניות, אך זמן ההגעה למרחב המוגן הוא מיידי.",
+      "fetched_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "oref.org.il content API (api.oref.org.il/api/v1/articles//heb/articles/protection-guidelines/preparing-protected-space/1103/)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "shelter-gaza-15sec",
-      "claim": "Gaza Envelope shelter entry window is 15 seconds. PENDING RE-VERIFICATION, see shelter-source-note.",
-      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/rocket-and-missile-attacks",
-      "raw_snippet": "PENDING RE-VERIFICATION at the live OREF page. Prior snippet from the now-dead legacy URL: In the Gaza Envelope area, a red alert siren will sound and the entry time to a protected space is 15 seconds.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "claim": "In the Gaza Envelope area a Tzeva Adom siren sounds and the entry time to a protected space is 15 seconds.",
+      "source_url": "https://www.oref.org.il/heb/articles/protection-guidelines/preparing-protected-space/1103/",
+      "raw_snippet": "בנוסף, באזור \"עוטף עזה\" – תישמע אזעקת \"צבע אדום\" וזמן ההגעה למרחב המוגן הוא 15 שניות.",
+      "fetched_at": "2026-08-13",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "shelter-arava-3min",
-      "claim": "Arava region shelter entry window is up to 3 minutes. PENDING RE-VERIFICATION, see shelter-source-note.",
-      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/rocket-and-missile-attacks",
-      "raw_snippet": "PENDING RE-VERIFICATION at the live OREF page. Prior snippet from the now-dead legacy URL: In the Arava region, the alert duration is one and a half minutes, but the entry time to a protected space is three minutes.",
-      "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "oref.org.il content API (api.oref.org.il/api/v1/articles//heb/articles/protection-guidelines/preparing-protected-space/1103/)",
+      "verified_at": "2026-08-13"
     },
     {
       "claim_id": "shelter-exit-two-regimes",
@@ -543,13 +566,32 @@
       ],
       "verified_via": "gov.il content API",
       "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "oref-rocket-guideline-url",
+      "claim": "OREF life-saving guideline page for rocket and missile attacks (shelter selection and what to do on alert)",
+      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/rocket-and-missile-attacks",
+      "raw_snippet": "ירי רקטות וטילים - הנחיות מצילות חיים",
+      "fetched_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "oref.org.il content API (api.oref.org.il/api/v1/guidelines//heb/life-saving-guidelines/rocket-and-missile-attacks/)",
+      "verified_at": "2026-08-13"
     }
   ],
   "notes": [
     {
       "note_id": "shelter-source-note",
-      "note": "The legacy OREF URL https://www.oref.org.il/12487-17292-he/Pakar.aspx that previously backed the shelter-timing claims is dead. Re-checked 2026-08-09: it returns HTTP 301 to https://www.oref.org.il/heb/articles/info/iron-swords/1103, which in turn resolves to a gov.il 404 error page. The whole legacy Pakar.aspx URL scheme was retired when OREF migrated to its single-page app. Recorded as a note, not a claim, because there is no page text to quote.",
+      "note": "The legacy OREF URL https://www.oref.org.il/12487-17292-he/Pakar.aspx that previously backed the shelter-timing claims is dead. Re-checked 2026-08-09: it returns HTTP 301 to https://www.oref.org.il/heb/articles/info/iron-swords/1103, which in turn resolves to a gov.il 404 error page. The whole legacy Pakar.aspx URL scheme was retired when OREF migrated to its single-page app. Recorded as a note, not a claim, because there is no page text to quote. Superseded 2026-08-13: the live article is readable through the oref.org.il content API and now backs the shelter-timing claims.",
       "checked_at": "2026-08-09"
+    },
+    {
+      "note_id": "shelter-arava-3min-dropped",
+      "note": "The former claims \"approximately 1,700 alert zones\" and \"Arava/Eilat up to 3 minutes\" were dropped on 2026-08-13. The live OREF article on protection time (articles/protection-guidelines/preparing-protected-space/1103) states the entry time ranges from immediate up to a minute and a half and never mentions 1,700 zones or a 3-minute window. The skill body was corrected to the sourced range.",
+      "checked_at": "2026-08-13"
     }
   ]
 }

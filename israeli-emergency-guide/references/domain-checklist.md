@@ -24,8 +24,8 @@ These are the seven official categories, taken from the route table of the live 
 |--------|---------|-----------------|--------------------------------------|
 | 101 | MDA | Yes | Pending, mdais.org blocks automated fetch |
 | 100 | Police | Yes | Yes |
-| 102 | Fire and Rescue | Yes | No, pending |
-| 104 | Home Front Command | Yes | No, pending, oref.org.il blocks automated fetch |
+| 102 | Fire and Rescue | Yes | Yes, gov.il emergency-lines page (police_national_emergency_lines) |
+| 104 | Home Front Command | Yes | Yes, gov.il emergency-lines page (police_national_emergency_lines) |
 | 105 | Child online protection | Yes | Pending, gov.il blocks automated fetch |
 | 110 | Police information, accessible text position | Yes | Yes |
 | 112 | Police, from a locked or SIM-less phone | Yes, with the "not unified" warning | Yes, by absence from the police emergency-lines page plus corroboration |
