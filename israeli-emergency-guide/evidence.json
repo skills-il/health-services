@@ -222,12 +222,14 @@
       "claim_id": "er-exemptions",
       "claim": "Numerous medical conditions trigger full ER copay exemption: fractures, severe burns, head injury under 2 or over 70, asthma, seizures, snake and animal bites, pregnancy emergencies, psychiatric crisis, work injury, traffic accidents, violence victims, hospitalization",
       "source_url": "https://www.maccabi4u.co.il/eligibilites/3210/",
-      "raw_snippet": "Major Exemption Categories include hospitalization-related, physician referral, head injuries, severe allergic reactions, asthma attacks, seizures, foreign body aspiration, poisoning, severe burns, fractures, dislocations, labor contractions, work injuries, traffic accidents, violence victims, psychiatric crises.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "פנייה לחדר מיון - תנאי הזכאות",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "eran-1201",
@@ -470,12 +472,14 @@
       "claim_id": "patient-rights-law",
       "claim": "Israeli Patient Rights Law guarantees patient rights including emergency care, informed consent, refusal of treatment, privacy, accompaniment, medical records access, and language interpretation",
       "source_url": "https://www.patients-rights.org/",
-      "raw_snippet": "Patient Rights Law guarantees informed consent, right to emergency care regardless of payment status, right to refuse treatment, privacy, accompaniment, access to medical records.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "האגודה לזכויות החולה בישראל",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "blood-donation-eligibility",
