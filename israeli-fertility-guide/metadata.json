@@ -1,0 +1,46 @@
+{
+  "author": "skills-il",
+  "version": "1.3.1",
+  "category": "health-services",
+  "tags": {
+    "he": [
+      "פוריות",
+      "הפריה",
+      "סל-בריאות",
+      "הריון",
+      "קופת-חולים",
+      "ישראל"
+    ],
+    "en": [
+      "fertility",
+      "ivf",
+      "health-basket",
+      "pregnancy",
+      "kupat-cholim",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "מדריך טיפולי פוריות בישראל",
+    "en": "Israeli Fertility Treatment Guide"
+  },
+  "display_description": {
+    "he": "מדריך לטיפולי פוריות בישראל: כיסוי הפריה חוץ גופית, זכאויות בסל הבריאות, ביטוח משלים, הקפאת ביציות ותרומות",
+    "en": "Guide to fertility treatments in Israel: IVF coverage and health basket entitlements, SHABAN supplementary insurance, egg freezing, sperm and egg donation, surrogacy law, posthumous sperm use, work rights during treatment, and cost breakdowns."
+  },
+  "supported_agents": [
+    "claude-code",
+    "claude-ai",
+    "claude-desktop",
+    "chatgpt",
+    "manus",
+    "gemini-spark",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity",
+    "gemini-cli"
+  ]
+}

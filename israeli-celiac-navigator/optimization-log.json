@@ -1,0 +1,28 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-07-27",
+      "holdout_before": 0.67,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": ["Birthday party at school tomorrow, which packaged snacks can my celiac daughter eat, is Bisli OK?"],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "Build me a weekly gluten-free meal plan with recipes and a shopping list (correctly rejected)",
+          "My daughter has celiac AND a nut allergy, what do I arrange with the school?"
+        ]
+      },
+      "lessons": [
+        "SCOPE REOPENED: named gluten-free product brands, previously out of scope because brand lists age badly. Reopened for birthday parties. references/birthday-snacks.md must be re-verified EVERY cycle, it ages faster than anything else in this skill.",
+        "Judge/Expert both caught a self-contradiction the author missed: Step 4b originally taught 'כשר לפסח' as a gluten-free marker while Step 5 warns against exactly that. Whenever a new section touches a topic an existing section already rules on, grep the existing rule and reconcile before the panel runs.",
+        "Community-sourced product rows: a table with blank note cells reads as unconditional clearance once screenshotted and forwarded without the header caveat. Every row needs its own verification cell, not a prose disclaimer above the table.",
+        "Expert MINOR deferred: the Israeli 'ללא גלוטן' declaration corresponds to a defined ppm threshold rather than zero. Highly-sensitive families ask this. Needs a sourced threshold before it can be stated, revisit next cycle.",
+        "Expert MINOR deferred: unpackaged food is handled in prose but is not a fourth row in the tier table, so an agent quoting only the table presents a three-way sort with no slot for the homemade cake.",
+        "Discretionary edits deferred over the Phase 4.1 cap: age-graded self-advocacy guidance for older children, and deep-linking the reference file's Sources table to per-product manufacturer pages.",
+        "The frontmatter description is at exactly the 1024-character validator ceiling. Any future addition requires removing something; the HE and EN descriptions drifted apart this cycle and had to be re-synced."
+      ]
+    }
+  ]
+}

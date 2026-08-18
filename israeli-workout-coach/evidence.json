@@ -1,0 +1,94 @@
+{
+  "skill_slug": "israeli-workout-coach",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-07-23",
+  "claims": [
+    {
+      "id": "epley-1rm",
+      "claim": "Estimated 1RM commonly uses the Epley and Brzycki formulas; the Epley formula is weight * (1 + reps/30). Epley and Brzycki return identical results for 10 repetitions.",
+      "claim_type": "formula",
+      "source_url": "https://en.wikipedia.org/wiki/One-repetition_maximum",
+      "source_fetched_at": "2026-07-23T00:00:00Z",
+      "raw_snippet": "Of the formulas, the Epley and the Brzycki formulas are most commonly used. Epley and Brzycki return identical results for 10 repetitions.",
+      "confidence": "high"
+    },
+    {
+      "id": "rpe-rir-scale",
+      "claim": "RIR (reps in reserve) is how many more reps could be completed before technical failure; RIR 2 = 2 reps left, RIR 0 = technical failure. RPE and RIR are used together to autoregulate training load. The widely used RIR-based RPE scale runs RPE 6 (about 4+ RIR) to RPE 10 (0 RIR).",
+      "claim_type": "definition",
+      "source_url": "https://www.nasm.org/resource-center/blog/training/how-to-use-rpe-and-rir-to-autoregulate-client-training",
+      "source_fetched_at": "2026-07-23T00:00:00Z",
+      "raw_snippet": "An RIR of 2 means the client could have done 2 more reps. An RIR of 0 means they were at technical failure.",
+      "confidence": "high"
+    },
+    {
+      "id": "heat-wave-shift-activity",
+      "claim": "Israeli MOH advises shifting out-of-home activities including fitness training (אימון כושר) to early morning or evening during heat, not the hottest hours. A heat wave (גל חום) is at least 3 days above 32.2C; heavy heat load combines temperature above 30C with relative humidity above 70 percent.",
+      "claim_type": "safety-guidance",
+      "source_url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
+      "source_fetched_at": "2026-07-23T00:00:00Z",
+      "raw_snippet": "חשוב לדעת: מזג אוויר חם יכול להיות גל חום, רצף של שלושה ימים לפחות בהם יש טמפרטורה גבוהה (מעל 32.2 מעלות צלזיוס) או עומס חום כבד שהוא שילוב של טמפרטורה גבוהה במיוחד (מעל 30 מעלות) עם רמת לחות גבוהה יחסית (מעל 70 אחוז).",
+      "confidence": "high",
+      "verified_via": "gov.il content API (programmatic re-extraction)",
+      "verified_at": "2026-07-23T00:00:00Z"
+    },
+    {
+      "id": "heat-hydration-cups",
+      "claim": "Israeli MOH hot-weather hydration baseline is 8 to 10 cups of water per day alongside light, balanced meals.",
+      "claim_type": "guidance",
+      "source_url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
+      "source_fetched_at": "2026-07-23T00:00:00Z",
+      "raw_snippet": "שתייה של 8-10 כוסות מים ביום לצד תזונה המורכבת מארוחות קלות ומאוזנות יכולה להקל על המצב.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-07-23T00:00:00Z"
+    },
+    {
+      "id": "heat-stroke-emergency",
+      "claim": "Heat stroke (מכת חום) is a medical emergency needing immediate ER referral; a sign is body temperature above 39.5C with hot, red, dry skin. Heat exhaustion signs include heavy sweating, cold clammy skin, dizziness, and weakness.",
+      "claim_type": "safety-guidance",
+      "source_url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
+      "source_fetched_at": "2026-07-23T00:00:00Z",
+      "raw_snippet": "הסימנים של מכת חום הם: טמפרטורת גוף גבוהה מ 39.5 מעלות צלזיוס. עור אדום, חם ויבש (ללא הזעה). הטיפול במצב של מכת חום: בראש ובראשונה פנייה מיידית לחדר מיון.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-07-23T00:00:00Z"
+    },
+    {
+      "id": "eran-1201",
+      "claim": "ERAN (עזרה ראשונה נפשית) runs an anonymous emotional-first-aid hotline reachable at 1201.",
+      "claim_type": "hotline",
+      "source_url": "https://www.eran.org.il/services/",
+      "source_fetched_at": "2026-08-09",
+      "raw_snippet": "כל הפניות הנן אנונימיות ודיסקרטיות וניתנות לכל אדם, בכל גיל ובכל סוג של מצוקה. אפשר לפנות אלינו לקבלת סיוע נפשי ותמיכה בקו החם במספר 1201",
+      "confidence": "high"
+    },
+    {
+      "id": "eating-disorder-assoc",
+      "claim": "The Israeli Association for Prevention, Treatment and Research of Eating Disorders (iaed.org.il) is a currently-operating multidisciplinary professional body with a public treatment-provider directory.",
+      "claim_type": "support-resource",
+      "source_url": "https://www.iaed.org.il/",
+      "source_fetched_at": "2026-07-23T00:00:00Z",
+      "raw_snippet": "העמותה הישראלית למניעה, טיפול ומחקר בהפרעות אכילה",
+      "confidence": "high"
+    },
+    {
+      "id": "physio-referral-physician",
+      "claim": "Physiotherapy in the Israeli health basket requires a doctor's referral; the referral to physiotherapy is made by a physician on a written, signed instruction in the medical record.",
+      "claim_type": "rule",
+      "source_url": "https://www.kolzchut.org.il/he/טיפולי_פיזיותרפיה_בבתי_חולים",
+      "source_fetched_at": "2026-07-23T00:00:00Z",
+      "raw_snippet": "הפניית מטופל בבית חולים לשירות פיזיותרפיה נעשית על-ידי רופא",
+      "confidence": "high"
+    },
+    {
+      "id": "physio-kupah-referral",
+      "claim": "To receive physiotherapy through your kupat cholim you need a referral from your fund's doctor.",
+      "claim_type": "rule",
+      "source_url": "https://www.physioclick.co.il/blog/physiotherapy-lower-back-pain-health-fund-reimbursements/",
+      "source_fetched_at": "2026-07-23T00:00:00Z",
+      "raw_snippet": "לקבלת הטיפולים נדרשת הפניה מרופא הקופה שלך",
+      "confidence": "medium"
+    }
+  ]
+}

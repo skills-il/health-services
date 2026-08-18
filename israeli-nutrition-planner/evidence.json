@@ -1,0 +1,498 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-nutrition-planner",
+  "version": "1.3.0",
+  "generated_at": "2026-08-09",
+  "audit_summary": "Version 1.3.0 is a safety repair, not a staleness repair. Red-label thresholds were re-read on the Ministry of Health regulation page in both languages and are unchanged (400 mg sodium / 10 g total sugars / 4 g saturated fat per 100 g solid; 300 / 5 / 3 per 100 ml liquid; Phase 1 500 / 13.5 / 5 and 400 / 5 / 3; 25 cm2 exemption; no Phase 3). Added: a blocking medical gate in Step 1 including renal disease, a hard refusal on calorie and deficit targets plus an eating-disorder screening and routing branch with the verified ER\"N 1201 line, supplement upper intake levels and the levothyroxine/calcium-iron and warfarin/vitamin-K interactions this skill's own advice creates, a pregnancy food-safety branch from the Ministry's own page, a Pesach kitniyot branch, a halal and Arab-Israeli branch grounded in the Ministry's own prevalence figures, and allergen label reading. Corrected: the green label is NOT frozen, its criteria are updated annually by an independent scientific committee and February 2026 added a Prepared Dishes and Salads category. Nutrient data is now pointed at the Israeli national database (Tzameret) instead of a US-derived site. Removed as unverifiable at this cycle: the specific Wegovy 2026 basket age band and eligibility count, the NIS price range, the vegan-prevalence percentage, the celiac prevalence percentage, the Ministry vitamin D dose range, and the tahini calcium/iron figures. Legacy evidence.json (id/claim/source/verified/note, no raw_snippet) migrated to canonical schema; every snippet below was taken from raw HTML via curl plus tag-strip, or read in a browser where the host blocks plain fetches.",
+  "claims": [
+    {
+      "claim_id": "fop-phase2-thresholds",
+      "claim": "Phase 2 (January 2021) red-label thresholds: 400 mg sodium, 10 g total sugars, 4 g saturated fat per 100 g solid food; 300 mg sodium, 5 g total sugars, 3 g saturated fat per 100 ml liquid food. Unchanged from version 1.2.0.",
+      "source_url": "https://efsharibari.health.gov.il/en/governance/legislation/unhealthy-food-labeling-law/",
+      "raw_snippet": "Second stage: January 2021 Labeled item Quantity in 100 g solid food Quantity in 100 ml liquid food Sodium 400 mg 300 mg Total sugars 10 g 5 g Total saturated fats 4 g 3 g",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 3",
+        "SKILL_HE.md step 3",
+        "references/red-green-labels.md"
+      ]
+    },
+    {
+      "claim_id": "fop-phase1-thresholds",
+      "claim": "Phase 1 (January 2020) thresholds were higher: 500 mg sodium, 13.5 g total sugars, 5 g saturated fat per 100 g solid; 400 mg sodium, 5 g sugars, 3 g saturated fat per 100 ml liquid. Historical only. The regulation defines two stages, so there is no Phase 3.",
+      "source_url": "https://efsharibari.health.gov.il/en/governance/legislation/unhealthy-food-labeling-law/",
+      "raw_snippet": "the process will have two stages where threshold values for labelling will be changed: First stage: January 2020 Labeled item Quantity in 100 g solid food Quantity in 100 ml liquid food Sodium 500 mg 400 mg Total sugars 13.5 g 5 g Total saturated fats 5 g 3 g",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Gotchas",
+        "SKILL_HE.md gotchas",
+        "references/red-green-labels.md"
+      ]
+    },
+    {
+      "claim_id": "fop-25cm2-exemption",
+      "claim": "Red front-of-package labels are not required on a food unit whose front packaging area is not larger than 25 cm2.",
+      "source_url": "https://efsharibari.health.gov.il/en/governance/legislation/unhealthy-food-labeling-law/",
+      "raw_snippet": "Red food labels will be placed on the front of packaging, except in a food unit whose front packaging area is not larger than 25 cm2",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 3",
+        "SKILL_HE.md step 3",
+        "references/red-green-labels.md"
+      ]
+    },
+    {
+      "claim_id": "arab-obesity-prevalence",
+      "claim": "Overweight and obesity rates in Arab society in Israel reach 38% among children and 70% among women of low socioeconomic status, per the Ministry of Health's regulatory impact assessment summary.",
+      "source_url": "https://efsharibari.health.gov.il/en/governance/legislation/unhealthy-food-labeling-law/",
+      "raw_snippet": "Overweight and obesity rates in Arab society reach 38% among children and 70%",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 5.5",
+        "SKILL_HE.md step 5.5",
+        "references/staples-and-nutrient-gaps.md"
+      ]
+    },
+    {
+      "claim_id": "arab-diabetes-ratio",
+      "claim": "The Ministry of Health's Arab-community prevention campaign records diabetes prevalence 2.5 times higher and heart disease 2.3 times higher in Arab society than in Jewish society.",
+      "source_url": "https://efsharibari.health.gov.il/eat-healthy/healthy-nutrition/the-nutritional-rainbow/diabetes-prevention/",
+      "raw_snippet": "השכיחות של מחלת הסכרת בחברה ערבית גבוהה פי 2.5 לעומת החברה היהודית, השכיחות של מחלות לב גבוהה פי 2.3 לעומת החברה יהודית",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 5.5",
+        "SKILL_HE.md step 5.5",
+        "references/staples-and-nutrient-gaps.md"
+      ]
+    },
+    {
+      "claim_id": "green-label-no-red",
+      "claim": "A food that carries a red label under the law cannot carry a green label, and green-label criteria are set by a special scientific committee appointed by the Ministry of Health.",
+      "source_url": "https://efsharibari.health.gov.il/eat-healthy/buy-healthy-food/food-labeling/green-labeling/",
+      "raw_snippet": "מזון שמכיל סמל אדום לפי חוק, לא יוכל להכיל סמל ירוק",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 3",
+        "SKILL_HE.md step 3",
+        "references/red-green-labels.md"
+      ]
+    },
+    {
+      "claim_id": "green-label-food-groups",
+      "claim": "Green-label eligibility is restricted to an enumerated list of food groups: milk, yogurts, cheeses, tofu, soy beverages, certain vegetable oils, seeds and nuts, grains, legumes, tahini, tahini salad, fish, eggs, poultry, fruits and vegetables.",
+      "source_url": "https://efsharibari.health.gov.il/eat-healthy/buy-healthy-food/food-labeling/green-labeling/",
+      "raw_snippet": "המזונות והמוצרים שיוכלו לקבל את הסימון הירוק הם מקבוצות המזון הבאות: חלב, יוגורטים, גבינות, טופו, משקאות סויה, שמנים צמחיים מסוימים, זרעים ואגוזים, דגנים, קטניות, טחינה, סלט טחינה, דגים, ביצים, עופות, פירות וירקות",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 3",
+        "SKILL_HE.md step 3",
+        "references/red-green-labels.md"
+      ]
+    },
+    {
+      "claim_id": "green-label-prepared-dishes-2026-a",
+      "claim": "In an update dated 23.02.2026 the Ministry of Health added a new green-label category, Prepared Dishes and Salads, covering ready-to-eat or packaged legume salads, vegetable- and whole-grain-based dishes, hearty soups, and combined meals whose every ingredient meets the criteria.",
+      "source_url": "https://www.gov.il/en/pages/23022026-01",
+      "raw_snippet": "The table of foods approved to carry the green label has been updated. As part of this update, a new category \"Prepared Dishes and Salads\" has been added. From now on, ready-to-eat or packaged items such as legume salads, vegetable- and whole-grain-based dishes, hearty soups, and combined meals can carry the green label, provided all ingredients meet the established nutritional requirements.",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 3",
+        "SKILL.md Gotchas",
+        "SKILL_HE.md step 3",
+        "references/red-green-labels.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "green-label-prepared-dishes-2026-b",
+      "claim": "Green-label criteria are reviewed by an independent professional scientific committee that updates them annually, so the label must not be described as static.",
+      "source_url": "https://www.gov.il/en/pages/23022026-01",
+      "raw_snippet": "Products eligible for the label are reviewed by an independent professional scientific committee, which updates the criteria annually based on scientific advances, field inquiries, and public health needs.",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 3",
+        "SKILL.md Gotchas",
+        "SKILL_HE.md step 3",
+        "references/red-green-labels.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "red-meat-300g",
+      "claim": "The Nutritional Rainbow pink band recommends no more than 300 grams per week of home-cooked red meat, excluding cured and highly processed products, which sit below the rainbow.",
+      "source_url": "https://efsharibari.health.gov.il/en/eat-healthy/healthy-nutrition/the-nutritional-rainbow/nutritional-rainbow-diet/",
+      "raw_snippet": "the recommendation is that you do not consume more than 300 grams of beef in home cooked meals (this recommendation does not include cured and highly-processed beef products such as pre-cooked sausages, hot dogs, kebabs and hamburgers)",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 2",
+        "SKILL_HE.md step 2",
+        "references/nutritional-rainbow.md"
+      ]
+    },
+    {
+      "claim_id": "eran-1201-a",
+      "claim": "ER\"N (Emotional First Aid) provides life-saving emotional first aid by phone or online in writing, and all contacts are anonymous. This is the only helpline number written into this skill, and it is general emotional first aid, not an eating-disorder service.",
+      "source_url": "https://www.eran.org.il/online-emotional-help/",
+      "raw_snippet": "מעניקה עזרה ראשונה נפשית מצילה חיים בשיחה בטלפון או דרך המילה הכתובה, און ליין. הפניות כולן אנונימיות.",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 1.5",
+        "SKILL.md Reference Links",
+        "SKILL_HE.md step 1.5"
+      ]
+    },
+    {
+      "claim_id": "eran-1201-b",
+      "claim": "The ER\"N phone line 1201 is available 24/7.",
+      "source_url": "https://www.eran.org.il/online-emotional-help/",
+      "raw_snippet": "התקשרו 1201 24/7 חייגו 1201",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 1.5",
+        "SKILL.md Reference Links",
+        "SKILL_HE.md step 1.5"
+      ]
+    },
+    {
+      "claim_id": "eran-scope",
+      "claim": "ER\"N provides anonymous emotional first aid by phone and online to the whole public, in a range of languages, and states itself that it is not a substitute for professional treatment.",
+      "source_url": "https://www.eran.org.il/",
+      "raw_snippet": "מעניקה עזרה ראשונה נפשית אנונימית מצילה חיים. השירות מוגש לכלל הציבור הישראלי על כל מגזריו, בכל גיל, בכל מצוקה וקושי ובמגוון שפות.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 1.5",
+        "SKILL_HE.md step 1.5"
+      ]
+    },
+    {
+      "claim_id": "ul-vitamind-folate",
+      "claim": "Institute of Medicine Dietary Reference Intakes, tolerable upper intake levels for adults: vitamin D 100 micrograms per day (4,000 IU) and folate from supplements 1,000 micrograms per day. The 5 mg folic acid dose used in higher-risk pregnancy is therefore five times the upper level and is a prescription decision, never self-selected.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t7/",
+      "raw_snippet": "3,000 2,000 100 1,000 ND ND ND 35 100 1,000",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8.5",
+        "SKILL_HE.md step 8.5",
+        "references/staples-and-nutrient-gaps.md"
+      ]
+    },
+    {
+      "claim_id": "ul-iodine-iron-a",
+      "claim": "In the IOM Tolerable Upper Intake Levels (Elements) table the iodine column follows the fluoride column.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t8/",
+      "raw_snippet": "Fluoride (mg/d) Iodine",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8.5",
+        "SKILL_HE.md step 8.5"
+      ]
+    },
+    {
+      "claim_id": "ul-iodine-iron-b",
+      "claim": "In the same header row the iron column, in mg/d, follows the iodine column and precedes magnesium, so the 7th and 8th numeric columns are iodine and iron.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t8/",
+      "raw_snippet": "g/d) Iron (mg/d) Magnesium (mg/d)",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8.5",
+        "SKILL_HE.md step 8.5"
+      ]
+    },
+    {
+      "claim_id": "ul-iodine-iron-c",
+      "claim": "In the adult rows the values in those two columns are 1,100 (iodine, micrograms/day) and 45 (iron, milligrams/day).",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK56068/table/summarytables.t8/",
+      "raw_snippet": "10,000 10 1,100 45 350 11 2,000 1.0 4 400",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8.5",
+        "SKILL_HE.md step 8.5"
+      ]
+    },
+    {
+      "claim_id": "iodine-deficiency-israel-a",
+      "claim": "Israel has no mandatory salt-iodization policy and relies heavily on desalination, raising concern that the population is iodine deficient.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8960077/",
+      "raw_snippet": "In light of Israel's lack of a mandatory salt fortification policy, heavy reliance on desalination and low iodine intake from dairy products and seafood, there is concern in Israel that the population is iodine deficient.",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Gotchas",
+        "SKILL_HE.md gotchas",
+        "references/staples-and-nutrient-gaps.md"
+      ]
+    },
+    {
+      "claim_id": "iodine-deficiency-israel-b",
+      "claim": "National biomonitoring found a median urinary iodine concentration of 64.5 micrograms per litre in adults, below the WHO adequacy floor of 100.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8960077/",
+      "raw_snippet": "The median UIC in adults was 64.5 µg/L, even lower than that in children.",
+      "fetched_at": "2026-08-09",
+      "source_fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Gotchas",
+        "SKILL_HE.md gotchas",
+        "references/staples-and-nutrient-gaps.md"
+      ]
+    },
+    {
+      "claim_id": "iodine-excess-harm",
+      "claim": "Both iodine deficiency and excess iodine intake carry adverse outcomes, and thyroid function needs ongoing surveillance where iodine intake changes. This is the basis for the skill's rule that iodine supplements and a switch to iodized salt are not appropriate for people with thyroid disease without their doctor.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8960077/",
+      "raw_snippet": "Considering potential adverse outcomes associated with both iodine deficiency and excess iodine intake, assessing population iodine status is a key public health measure.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8.5",
+        "SKILL.md Gotchas",
+        "SKILL_HE.md step 8.5"
+      ]
+    },
+    {
+      "claim_id": "levothyroxine-timing",
+      "claim": "Levothyroxine is taken on an empty stomach at least 30 to 60 minutes before breakfast or 3 to 4 hours after dinner, and must not be taken within 4 hours of products containing iron or calcium. This is what makes the skill's tahini-at-breakfast recommendation a real collision.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK539808/",
+      "raw_snippet": "Administer levothyroxine on an empty stomach (acidity increases absorption) at least 30 to 60 minutes before breakfast or 3 to 4 hours after dinner. Do not administer levothyroxine within 4 hours of administration of products that may contain iron or calcium.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8.5",
+        "SKILL_HE.md step 8.5"
+      ]
+    },
+    {
+      "claim_id": "warfarin-vitamin-k",
+      "claim": "Vitamin K reduces warfarin's effectiveness, so patients must be educated toward consistent dietary vitamin K intake rather than an increase. Dark leafy greens are named as high-vitamin-K foods, which is what the skill's green band recommends at every meal.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK470313/",
+      "raw_snippet": "reduces the effectiveness of warfarin in the body. Therefore, the patient should receive education on consistent dietary intake of vitamin K-containing foods.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8.5",
+        "SKILL_HE.md step 8.5"
+      ]
+    },
+    {
+      "claim_id": "pregnancy-mercury-fish",
+      "claim": "Ministry of Health guidance for pregnancy: avoid large fish that tend to carry high mercury, specifically large mackerel, swordfish, bluefin tuna, albacore tuna and shark, while eating a varied range of Israeli sea and pond fish including light canned tuna.",
+      "source_url": "https://me.health.gov.il/parenting/family-planning/healthy-pregnancy/healthy-lifestyle/food-safety/",
+      "raw_snippet": "דגים גדולים כמו מקרל גדול, דג חרב, טונה אדומה, טונה לבנה ואפילו כריש, נוטים להכיל כספית במינון גבוה",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8.7",
+        "SKILL_HE.md step 8.7"
+      ]
+    },
+    {
+      "claim_id": "pregnancy-cheese-listeria",
+      "claim": "Ministry of Health guidance for pregnancy: consume only pasteurised dairy from licensed producers, avoid mould-ripened cheeses (brie, camembert, gorgonzola, roquefort) and brined cheeses stored in water (feta, tzfatit, bulgarit), the latter being acceptable after thorough cooking. Listeria, toxoplasma and salmonella are the named risks from raw or undercooked foods.",
+      "source_url": "https://me.health.gov.il/parenting/family-planning/healthy-pregnancy/healthy-lifestyle/food-safety/",
+      "raw_snippet": "מומלץ לצרוך רק מוצרי חלב מחלב מפוסטר, להימנע מגבינות בשלות \"גבינות עובש\" כמו ברי, קממבר, גורגונזולה ורוקפור, ומגבינות במים, כמו פטה, צפתית ובולגרית",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8.7",
+        "SKILL_HE.md step 8.7"
+      ]
+    },
+    {
+      "claim_id": "pregnancy-raw-foods",
+      "claim": "Ministry of Health guidance for pregnancy names listeria, toxoplasma and salmonella as the infections carried by raw or partly cooked meat, eggs and fish, with listeria able to cause miscarriage, premature birth or stillbirth.",
+      "source_url": "https://me.health.gov.il/parenting/family-planning/healthy-pregnancy/healthy-lifestyle/food-safety/",
+      "raw_snippet": "ליסטריה: זיהום שעלול להוביל להפלה, ללידה מוקדמת ואפילו לעובר מת.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8.7",
+        "SKILL_HE.md step 8.7"
+      ]
+    },
+    {
+      "claim_id": "tzameret-database",
+      "claim": "The Israeli national nutrition database (Tzameret), published as open data by the Ministry of Health, is the Israeli source for per-food nutrient values. Its own dataset description records more than 4,500 food items with nutrient composition per 100 g, 74 nutrient components, roughly 1,400 Israeli recipes, and portion, unit and package weights. It replaces the US-derived nutritionvalue.org citation used in version 1.2.0.",
+      "source_url": "https://data.gov.il/api/3/action/package_show?id=nutrition-database",
+      "raw_snippet": "\"name\": \"nutrition-database\"",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 9",
+        "SKILL.md Reference Links",
+        "SKILL_HE.md step 9",
+        "references/staples-and-nutrient-gaps.md"
+      ]
+    },
+    {
+      "claim_id": "ingredient-list-order",
+      "claim": "Every packaged food sold in Israel must declare all ingredients, listed in descending order by their relative weight in the product, and specific additives such as tartrazine and sulphites must be named explicitly as well as by functional group. This is the basis of the allergen label-reading guidance.",
+      "source_url": "https://efsharibari.health.gov.il/eat-healthy/buy-healthy-food/food-labeling/nutrition-facts-labels/",
+      "raw_snippet": "הרכיבים גם חייבם להיות כתובים בסדר יורד, לפי תכולתם היחסית במשקל המוצר",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8.6",
+        "SKILL_HE.md step 8.6",
+        "references/red-green-labels.md"
+      ]
+    },
+    {
+      "claim_id": "gluten-free-threshold",
+      "claim": "A gluten-free claim follows the Codex Alimentarius threshold of under 20 mg/kg (20 ppm) gluten. Note: the cited article states the 20 ppm figure in an EU and international-harmonisation context, not specifically for Israel, so the Israel-specific standard reference was softened in this version.",
+      "source_url": "https://www.celiac.com/celiac-disease/the-evolution-of-gluten-free-labeling-what-you-need-to-know-in-2024-r6671/",
+      "raw_snippet": "products must also contain less than 20 ppm of gluten to be labeled gluten-free",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8.6",
+        "SKILL_HE.md step 8.6"
+      ]
+    },
+    {
+      "claim_id": "hmo-14-dietitian-visits",
+      "claim": "Under the health basket, every patient with diabetes is entitled to 14 dietitian sessions per year, with a quarterly copay. Confirmed on Clalit's own diabetes dietitian page.",
+      "source_url": "https://www.clalit.co.il/he/your_health/family/diabetes/Pages/meeting_a_dietitian.aspx",
+      "raw_snippet": "זכאי ל־14 פגישות עם תזונאית מדי שנה",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8",
+        "SKILL_HE.md step 8",
+        "metadata.json display_description"
+      ]
+    },
+    {
+      "claim_id": "maccabi-dietitian-eligibility",
+      "claim": "Maccabi publishes a dietitian eligibility page listing therapeutic nutrition sessions and consultations in the community, with eligibility driven by medical condition and tiered by insurance plan.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/3856/",
+      "raw_snippet": "מפגשים עם דיאטנים/יות לייעוץ וליווי מקצועי בתחום התזונה",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8",
+        "SKILL.md Reference Links",
+        "SKILL_HE.md step 8"
+      ]
+    },
+    {
+      "claim_id": "ozempic-off-label-end",
+      "claim": "Wegovy is the drug approved in Israel for chronic weight management, purchased privately by adults at high ongoing monthly cost, and in a letter to the medical community dated April 10 2024 the Health Ministry ended off-label Ozempic use for weight loss, allowing existing Form 29 holders to finish their period and then switch to Wegovy.",
+      "source_url": "https://www.timesofisrael.com/weight-loss-drug-wegovy-arrives-in-israel-ending-off-label-use-of-ozempic/",
+      "raw_snippet": "In a letter to the medical community dated April 10, the Health Ministry said that patients with a valid Form 29 for six months of off-label Ozempic use may continue to use the drug until the period expires. After that, they will need to switch to Wegovy.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8",
+        "SKILL.md Gotchas",
+        "SKILL_HE.md step 8",
+        "SKILL_HE.md gotchas"
+      ]
+    },
+    {
+      "claim_id": "ramadan-sulfonylurea-risk",
+      "claim": "Hypoglycemia during Ramadan is significantly associated with the use of sulfonylureas and insulin, which is why the skill routes people on those drug classes to their kupat cholim or an endocrinologist before fasting.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK581875/",
+      "raw_snippet": "Hypoglycemia during Ramadan was significantly associated with the use of sulfonylureas and insulin",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 7",
+        "SKILL_HE.md step 7"
+      ]
+    },
+    {
+      "claim_id": "folic-acid-israel-guideline",
+      "claim": "Preconceptional folic acid supplementation is an established Israeli Ministry of Health guideline studied in the peer-reviewed literature. The specific 400 microgram routine dose and the 5 milligram higher-risk dose are presented in this skill only alongside the upper intake level, and the 5 mg figure is explicitly framed as prescription strength.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17961644/",
+      "raw_snippet": "Preconceptional folic acid utilization in Israel: five years after the guidelines",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Step 8",
+        "SKILL_HE.md step 8",
+        "references/staples-and-nutrient-gaps.md"
+      ]
+    },
+    {
+      "claim_id": "moh-national-diabetes-program",
+      "claim": "The Ministry of Health runs a National Program for the Prevention and Treatment of Diabetes, with patient resources and integration with the HMOs. Page is live but blocks plain fetches, so it was confirmed in a browser.",
+      "source_url": "https://www.gov.il/he/pages/diabetesnationalproject",
+      "raw_snippet": "התכנית הלאומית למניעה ולטיפול בסוכרת",
+      "fetched_at": "2026-08-09",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Reference Links",
+        "SKILL_HE.md reference links"
+      ]
+    },
+    {
+      "claim_id": "efsharibari-portal",
+      "claim": "Efsharibari is the Ministry of Health's national healthy-living portal and the canonical public source for the Nutritional Rainbow and the food-labeling reform.",
+      "source_url": "https://efsharibari.health.gov.il/en/",
+      "raw_snippet": "About the National Program for an Active and Healthy Lifestyle",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md Reference Links",
+        "SKILL_HE.md reference links",
+        "references/nutritional-rainbow.md"
+      ]
+    },
+    {
+      "claim_id": "moh-labeling-regulation-he",
+      "claim": "The Hebrew mirror of the harmful-food labeling regulation page lives under /governance/regulation/, not /governance/legislation/, which is the English path. Do not pattern-match one onto the other.",
+      "source_url": "https://efsharibari.health.gov.il/governance/regulation/unhealthy-food-labeling-law/",
+      "raw_snippet": "מדובר במהלך פורץ דרך של משרד הבריאות כחלק מפעילותו בתכנית הלאומית אפשריבריא",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL_HE.md reference links"
+      ]
+    },
+    {
+      "claim_id": "efsharibari-portal-he",
+      "claim": "Hebrew root of the Efsharibari portal, the Ministry of Health's national healthy-living site.",
+      "source_url": "https://efsharibari.health.gov.il/",
+      "raw_snippet": "נא לסמן אישור קבלת תכנים, עדכונים וידיעות מאתר אפשריבריא",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL_HE.md reference links"
+      ]
+    }
+  ],
+  "removed_claims": [
+    {
+      "claim": "Wegovy added to the 2026 sal briut for adolescents 12-18 with severe obesity (BMI at or above the 95th percentile, weight 60 kg or more, plus a comorbidity), approximately 4,500 eligible; adults pay approximately NIS 600-1,300 per month.",
+      "reason": "The only source in v1.2.0 was a Haaretz URL that now returns HTTP 400. No reachable replacement was found this cycle (gov.il returns 403 to fetches and the guessed basket pages 404 in a browser; the Jerusalem Post cross-reference returns a near-empty body). The age band, the eligibility count and the price range were removed from the skill and replaced with a check-the-current-listing pointer."
+    },
+    {
+      "claim": "Israel has approximately 5% vegans plus 8-10% vegetarians.",
+      "reason": "Sole source was eathealthy365.com, which returns 403 and is a content farm. The percentage was removed; the qualitative statement that Israel has an unusually large vegan and vegetarian population, which is what drives the B12 guidance, was kept."
+    },
+    {
+      "claim": "Liquid-food thresholds per 100 ml sourced to regulatory.mxns.com.",
+      "reason": "That URL is a 404. The numbers were correct and are now sourced directly to the Ministry of Health page, which publishes the per-100-ml column in the same table."
+    },
+    {
+      "claim": "Raw tahini (100 g) contains approximately 426 mg calcium and 9 mg iron, per nutritionvalue.org.",
+      "reason": "nutritionvalue.org is a US, USDA-derived site, and tahini is the most Israeli food in the document. Rather than re-derive the numbers, the figures were dropped and the skill now points at the Israeli national database (Tzameret) for per-food nutrient values."
+    },
+    {
+      "claim": "Health Ministry recommends 800-1,000 IU/day vitamin D for adults with limited sun exposure, up to 2,000 IU/day with obesity.",
+      "reason": "The cited Times of Israel article contains no IU figures at all, so the dose range was unsupported. The skill now gives the tolerable upper intake level (4,000 IU/day) and routes the maintenance dose to the treating doctor, which is also the safer instruction."
+    },
+    {
+      "claim": "Celiac prevalence in Israel is approximately 1%, and Israeli Standard 1145 sets the gluten-free threshold.",
+      "reason": "The celiac.com source mentions neither Israel nor the 1% figure. The prevalence percentage was removed and the gluten-free threshold is now stated as the international Codex threshold, which the source does support."
+    },
+    {
+      "claim": "Consumer survey data: over 90% see red labels, nearly 70% check them, 48% read the back panel.",
+      "reason": "Present in references/red-green-labels.md in v1.2.0 with no source anywhere in evidence.json. Removed."
+    },
+    {
+      "claim": "The Nutritional Rainbow was adopted in 2018 (SKILL.md and references) / published 2019 (evidence claim 15).",
+      "reason": "The two statements contradicted each other and the Ministry's own rainbow page carries no year. Rather than pick one unsourced year, the year was removed from both SKILL.md and references/nutritional-rainbow.md."
+    },
+    {
+      "claim": "MoH Nutrition Department page at gov.il/{he,en}/departments/units/nutrition_department, and Tipat Halav at gov.il/{he,en}/service/family-health-clinics-tipat-chalav.",
+      "reason": "Both URLs return 404 in a browser in both languages, not merely a bot block. Removed from the reference tables."
+    },
+    {
+      "claim": "Diabetes prevalence in Israeli adults 10.1% (tradingeconomics/World Bank), Arab 12% vs Jewish 6.2%.",
+      "reason": "Replaced by the Ministry of Health's own figures, which are both more authoritative and directly citable: 2.5x higher diabetes prevalence in Arab society, and the 38%/70% obesity figures from the regulatory impact assessment."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "author": "skills-il",
+  "version": "2.0.1",
+  "category": "health-services",
+  "tags": {
+    "he": [
+      "קופת-חולים",
+      "בריאות",
+      "סל-בריאות",
+      "השתתפות-עצמית",
+      "חדר-מיון",
+      "טופס-17",
+      "ביטוח-משלים",
+      "ישראל"
+    ],
+    "en": [
+      "hmo",
+      "healthcare",
+      "health-basket",
+      "copayments",
+      "emergency-room",
+      "form-17",
+      "supplementary-insurance",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "ניווט קופות החולים",
+    "en": "Israeli HMO Navigator"
+  },
+  "display_description": {
+    "he": "מה באמת עולה ביקור אצל מומחה, מוקד ערב או חדר מיון בכל אחת מארבע הקופות, מתי מגיע פטור מלא ממיון, איך מקבלים החזר בדיעבד, ומה עובר איתכם כשמחליפים קופה. השתמשו בזה כשהמשתמש שואל על כללית, מכבי, מאוחדת, לאומית, השתתפות עצמית, אגרת מיון, טופס 17, החזר על אמבולנס, תרופות מרשם או מעבר בין קופות. לא מתאים לייעוץ רפואי דחוף.",
+    "en": "What a specialist visit, an out-of-hours clinic or an emergency room actually costs at each of Israel's four HMOs, when the statutory emergency-room waiver applies, how to claim a refund after the fact, and what carries over when you switch funds. Use when the user asks about Clalit, Maccabi, Meuhedet, Leumit, copayments, the emergency-room fee, Form 17, ambulance refunds, prescription copays or switching HMOs."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity",
+    "gemini-cli",
+    "claude-ai",
+    "chatgpt",
+    "manus",
+    "gemini-spark"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "author": "skills-il",
+  "version": "1.4.2",
+  "category": "health-services",
+  "tags": {
+    "he": [
+      "חירום",
+      "מדא",
+      "בית-חולים",
+      "טראומה",
+      "עזרה-ראשונה",
+      "ישראל"
+    ],
+    "en": [
+      "emergency",
+      "mda",
+      "hospital",
+      "trauma",
+      "first-aid",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "מדריך חירום ישראלי",
+    "en": "Israeli Emergency Guide"
+  },
+  "display_description": {
+    "he": "מדריך לשירותי חירום בארץ: מספרי החירום ואיך פונים אליהם גם בלי שיחת קול, מה עושים באזעקה וכמה זמן נשארים במרחב המוגן, קווי חירום לבריאות הנפש, חיוג למד\"א (מגן דוד אדום), מתי הולכים לטרם, איך מתנהלים בחדר מיון וזכויות המטופל. מכסה את מרכזי הטראומה דרג 1, כללי ההשתתפות העצמית בחדר מיון ותרומת דם דרך מד\"א. אל תשתמשו בזה למערכות חירום שאינן ישראליות או לאבחון רפואי.",
+    "en": "Guide to Israeli emergency services: the emergency numbers and how to reach them without a voice call, what to do during a siren and how long to stay in a protected space, mental-health crisis lines, calling MDA (Magen David Adom), visiting Terem urgent care, navigating hospital ERs, triage, and patient rights. Covers Israel's Level-1 trauma centers, ER copay rules, and blood donation through MDA. Do NOT use for non-Israeli emergency systems or medical diagnosis."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity",
+    "gemini-cli"
+  ]
+}
