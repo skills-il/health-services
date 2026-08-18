@@ -408,11 +408,13 @@
       "claim_id": "adult-choking-2025",
       "claim": "The 2025 AHA adult BLS guidance is cycles of 5 back blows followed by 5 abdominal thrusts, with chest thrusts substituted when the person is pregnant or too large to reach around",
       "source_url": "https://newsroom.heart.org/news/updated-cpr-guidelines-tackle-choking-response-opioid-related-emergencies-and-a-revised-chain-of-survival",
-      "raw_snippet": "For adults with severe foreign-body airway obstruction, rescuers should perform cycles of 5 back blows followed by 5 abdominal thrusts until the object is expelled or the patient becomes unresponsive. If the patient is pregnant or obese, perform five chest thrusts over the sternum instead.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "ing resuscitation guidelines, the Association ensures the CPR recommendations reflect the most advanced research from global experts around the world. “We know high-quality CPR saves lives, and we need dedicated support to ensure that everyone who needs high-quality CPR receives it,” said Panchal. “That starts with learning it yourself. We encourage everyone to take a CPR class to learn the skills and techniques to provide life-saving care in an emergency. Everyone has a role to play in the chain of survival.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "references/first-aid-basics.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 20 of 32 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"around\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "mda-39000-personnel",
@@ -490,11 +492,13 @@
       "claim_id": "moh-hmo-mental-health-lines",
       "claim": "The Ministry of Health lists 24/7 mental-health lines for the four HMOs: Clalit, Maccabi, Meuhedet and Leumit, and states that psychiatric emergency rooms are open 24/7 with no referral and no charge. Not yet surfaced in the skill body; logged for the next cycle.",
       "source_url": "https://me.health.gov.il/en/mental-health/therapy-and-rehabilitation/crisis-support/first-aid/",
-      "raw_snippet": "Clalit Mental Health Hotline, 24/7. Maccabi Mental Health Hotline, 24/7. Meuhedet Mental Health Hotline, 24/7. Leumit Mental Health Hotline, 24/7. Emergency psychiatric hospitals operate 24/7, year-round, with no referral required and no charge for emergency room visits.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "No referral is needed, and the service is free of charge. You can also go to the ER at general hospitals across the country. In this case, if you are not admitted after the evaluation, you will be required to pay the ER fee, unless you have a specific referral to the hospital from an authorized provider along with a guarantee of payment (Form 17). We all experience moments of emotional distress during our lives.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "optimization-log.json"
-      ]
+      ],
+      "verified_via": "cited page fetched; 22 of 32 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"hospitals\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "eran-en-site",
