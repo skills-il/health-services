@@ -233,13 +233,15 @@
       "claim_id": "eran-1201",
       "claim": "ERAN emotional first aid hotline is 1201, 24/7, with WhatsApp at 052-8451201 and SMS at 052-9993544",
       "source_url": "https://me.health.gov.il/en/mental-health/therapy-and-rehabilitation/crisis-support/first-aid/",
-      "raw_snippet": "ERAN - Emotional First Aid, 1201, 24/7 throughout the year. ERAN WhatsApp 052-8451201. ERAN Text Messages 052-9993544.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "The hotline operates 24/7, throughout the year. Telephone: 1201 or via an online chat WhatsApp 052-8451201 Text messages 052-9993544 ERAN website Sahar : online assistance operated by trained volunteers and accompanied by therapists from the mental health sector. The hotline operates 24/7, throughout the year, via an online chat. Sahar website Natal : trauma and resilience center for victims of hostile acts, terrorism and war-related trauma, operated by trained volunteers.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/hospital-directory.md"
-      ]
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"052\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "natal-3362-a",
@@ -269,12 +271,14 @@
       "claim_id": "sahar-24-7",
       "claim": "SAHAR operates 24/7. The Hebrew chat runs round the clock; the Arabic chat runs about six hours a day. Support is by anonymous chat, WhatsApp and the Talkit app. Earlier limited-hours listings are stale.",
       "source_url": "https://sahar.org.il/en/",
-      "raw_snippet": "24/7 Service. Sahar is a registered Israeli nonprofit that works around the clock, providing rapid, professional, and free-of-charge emotional support to all in need. SAHAR remains the only organization in the country offering round-the-clock mental health support via chat in Hebrew, alongside six hours of daily support in Arabic.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "During Israel’s most significant mental health crisis to date, SAHAR remains the only organization in the country offering round-the-clock mental health support via chat in Hebrew, alongside six hours of daily support in Arabic, strengthening Israel’s social and mental health resilience.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "sahar-24-7-hebrew-site-a",
@@ -392,11 +396,13 @@
       "claim_id": "infant-cpr-2025-technique",
       "claim": "The 2025 AHA and AAP pediatric guidelines removed the two-finger infant compression technique and recommend two thumbs-encircling hands or one-hand, with heel-of-one-hand when the rescuer cannot encircle the chest",
       "source_url": "https://newsroom.heart.org/news/updated-cpr-guidelines-released-for-pediatric-and-neonatal-emergency-care-and-resuscitation",
-      "raw_snippet": "For infants, the recommended compression techniques include using either the one-hand technique or the two thumbs-encircling hands technique. If the rescuer cannot physically encircle the chest, it is recommended to compress the chest with the heel of one-hand. The use of two fingers along the sternum was eliminated due to ineffectiveness in achieving proper depth. Published online October 22, 2025 in Circulation and Pediatrics.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "For infants, the recommended compression techniques include using either the one-hand technique or the two thumbs–encircling hands technique. If the rescuer cannot physically encircle the chest, it is recommended to compress the chest with the heel of one-hand. The use of two fingers along the sternum was eliminated due to ineffectiveness in achieving proper depth. Henry Lee, M.D.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "references/first-aid-basics.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "adult-choking-2025",
@@ -412,12 +418,14 @@
       "claim_id": "mda-39000-personnel",
       "claim": "MDA has approximately 39,000 volunteers, employees, and national service personnel combined, 2025-2026 data",
       "source_url": "https://www.jpost.com/israel-news/culture/article-882270",
-      "raw_snippet": "MDA has approximately 39,200 volunteers, employees, national service and civil service volunteers, including 16,500 youth volunteers, as of 2025/2026 data.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "” MDA Yearly Summary in Numbers MDA has approximately 39,200 volunteers, employees, national service and civil service volunteers, including 16,500 youth volunteers. In addition, approximately 18,000 “Life Guardians” (first responders) are active with MDA. MDA volunteers contributed more than 6.3 million volunteer hours. The average age of MDA volunteers is 26.8.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "mda-blood-idf",
@@ -434,23 +442,27 @@
       "claim_id": "terem-romema-247",
       "claim": "Terem Romema and Sarei Israel branch in Jerusalem operates 24/7",
       "source_url": "https://www.terem.com/clinic/romema-sarei-israel/?lang=en",
-      "raw_snippet": "Terem Sarei Israel Romema - Expert and Dedicated Care 24/7. Provides quick, convenient medical care 24/7.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "Terem Sarei Israel Romema - Expert and Dedicated Care 24/7 Skip to Main Content En עברית 1-599-520-520 תיק רפואי Services Urgent Care Centers Lobby Urgent Care Wound Care Kit Orthopedics Orthopedic Follow-up Clinic Lightweight Casts Orthopedic Support Equipment Knee Clinic Shoulder and Elbow Clinic X-Ray Services In-Home & Remote Care Online Doctor Nurse at Home Additional Services Ambulatory Bloo",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "terem-callcenter",
       "claim": "Terem call center number is 1-599-520-520",
       "source_url": "https://www.terem.com/?lang=en",
-      "raw_snippet": "Terem Urgent Care - Fast and Professional Medical Services. 1-599-520-520.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "Terem Urgent Care - Fast and Professional Medical Services Skip to Main Content En עברית 1-599-520-520 תיק רפואי Services Urgent Care Centers Lobby Urgent Care Wound Care Kit Orthopedics Orthopedic Follow-up Clinic Lightweight Casts Orthopedic Support Equipment Knee Clinic Shoulder and Elbow Clinic X-Ray Services In-Home & Remote Care Online Doctor Nurse at Home Additional Services Ambulatory Bloo",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "patient-rights-law",
