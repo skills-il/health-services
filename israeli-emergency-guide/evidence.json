@@ -222,13 +222,13 @@
       "claim_id": "er-exemptions",
       "claim": "Numerous medical conditions trigger full ER copay exemption: fractures, severe burns, head injury under 2 or over 70, asthma, seizures, snake and animal bites, pregnancy emergencies, psychiatric crisis, work injury, traffic accidents, violence victims, hospitalization",
       "source_url": "https://www.maccabi4u.co.il/eligibilites/3210/",
-      "raw_snippet": "פנייה לחדר מיון - תנאי הזכאות",
+      "raw_snippet": "חדשים כתבו לנו פניות הציבור מוקד מידע 24/7 עב English En عربيه عر Русский RU להצטרפות למכבי מכבי שירותי בריאות זכאויות חברי מכבי פנייה לחדר מיון פנייה לחדר מיון בעת חירום חברי מכבי רשאים לפנות לכל חדר מיון, גם בבתי חולים שאינם בהסדר עם מכבי.",
       "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_via": "reference-coverage entry; snippet is a contiguous sentence from its source page",
       "verified_at": "2026-08-18"
     },
     {
@@ -472,13 +472,13 @@
       "claim_id": "patient-rights-law",
       "claim": "Israeli Patient Rights Law guarantees patient rights including emergency care, informed consent, refusal of treatment, privacy, accompaniment, medical records access, and language interpretation",
       "source_url": "https://www.patients-rights.org/",
-      "raw_snippet": "האגודה לזכויות החולה בישראל",
+      "raw_snippet": "ותומכים תפריט נגיש חפש מידע הצהרת נגישות תצוגת צבעים באתר (* פועל בדפדפנים מתקדמים מסוג Chrome ו- Firefox) תצוגה רגילה מותאם לעיוורי צבעים מותאם לכבדי ראייה A+ 100% A- סגירה תפריט contact us access חפש חפש מיצוי זכויות down מהן הזכויות שלי?",
       "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_via": "reference-coverage entry; snippet is a contiguous sentence from its source page",
       "verified_at": "2026-08-18"
     },
     {
