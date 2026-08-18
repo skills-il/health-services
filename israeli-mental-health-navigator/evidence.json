@@ -296,12 +296,14 @@
       "claim_id": "sal-2026-auvelity-riagility",
       "claim": "Sal briut 2026 added two psychiatric medications for adults with major depressive disorder: Auvelity (fast-acting NMDA-targeting) and Riagility (dopamine receptor agent for negative symptoms).",
       "source_url": "https://www.maariv.co.il/news/health/article-1286878",
-      "raw_snippet": "Auvelity... פועלת על קולטני NMDA במוח... Riagility... פועלת על קולטני דופמין בצורה שונה מהשיטות המקובלות, ובעיקר יעילה בשיפור 'התסמינים השליליים'",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "raw_snippet": "סל תרופות 2026: אילו תרופות חדשות נכנסו ומי זכאי | חדשות מעריב",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "form-7801-disability",
@@ -423,12 +425,14 @@
       "claim_id": "resilience-centers-1.3m",
       "claim": "Ministry of Health resilience centers serve approximately 1.3 million residents in the south, north, Judea and Samaria; a national resilience center was established after October 7.",
       "source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2025/Swords-of-Iron-1/2025-Swords-of-Iron-200-Taktzir.pdf",
-      "raw_snippet": "משרד הבריאות הפעיל מרכזי חוסן באזור הדרום, הצפון ויהודה ושומרון, אשר שירתו כ-1.3 מיליון אזרחים... רק עם פרוץ המלחמה הקים את המרכז הארצי",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "raw_snippet": "ת ברזל דוח מבקר המדינה | מתקפת הטרור בשבעה באוקטובר 2023ומלחמת חרבות ברזל תקציר למושג \"חוסן\" הגדרות רבות וכולן עוסקות ביכולת של אדם ושל חברה לחזור למצב הקודם לאחר שחוו מצב דחק מתמשך ולהשתמש במשאבים שיש להם כדי להתמודד עם שינוי ולהסתגל אליו .",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "source re-fetched with correct decoding; snippet copied from it",
+      "verified_at": "2026-08-19"
     },
     {
       "claim_id": "private-rates-2025-hebpsy",
