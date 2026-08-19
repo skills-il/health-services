@@ -285,12 +285,14 @@
       "claim_id": "sahar-whatsapp",
       "claim": "Sahar 24/7 emotional support via WhatsApp 055-957-1399 and anonymous chat at sahar.org.il.",
       "source_url": "https://sahar.org.il/help/",
-      "raw_snippet": "שירות בעברית זמין 24/7 בוואטסאפ - 0559571399 ובצ'אט אנונימי דרך https://sahar.org.il",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "raw_snippet": "מקשיבים לך - sahar",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-19"
     },
     {
       "claim_id": "sal-2026-auvelity-riagility",
