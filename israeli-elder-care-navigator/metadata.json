@@ -30,7 +30,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "category": "health-services",
   "supported_agents": [
     "claude-code",

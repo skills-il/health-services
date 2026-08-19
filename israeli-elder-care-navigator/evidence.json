@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-elder-care-navigator",
-  "generated_at": "2026-08-02T02:48:50.038900+00:00",
+  "generated_at": "2026-08-19T02:22:22.153863+00:00",
   "claims": [
     {
       "claim_id": "old-age-pension-for-individual-up-to-age-80-is-1-838-nis-in-",
@@ -1012,6 +1012,217 @@
       "verified": true,
       "verified_via": "browser (Playwright; gov.il blocks plain HTTP fetches with Cloudflare)",
       "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "income-supplement-guaranteed-amounts-2026",
+      "claim": "Guaranteed monthly amount with the old-age income supplement from 01.01.2026, by household composition and age band",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/hashHachZ/Pages/schumim.aspx",
+      "raw_snippet": "החל מ- 01.01.2026 עד גיל 70: ליחיד/ה 4,375 ש\"ח, לזוג 6,912 ש\"ח, ליחיד/ה + ילד 7,305 ש\"ח, ליחיד/ה + 2 ילדים 8,426 ש\"ח, לזוג + ילד 8,035 ש\"ח, לזוג + 2 ילדים 9,156 ש\"ח. מגיל 70 עד גיל 80: ליחיד/ה 4,418 ש\"ח, לזוג 6,981 ש\"ח, ליחיד/ה + ילד 7,374 ש\"ח, ליחיד/ה + 2 ילדים 8,496 ש\"ח, לזוג + ילד 8,102 ש\"ח, לזוג + 2 ילדים 9,226 ש\"ח. מגיל 80 ומעלה: ליחיד/ה 4,460 ש\"ח, לזוג 7,048 ש\"ח, ליחיד/ה + ילד 7,442 ש\"ח, ליחיד/ה + 2 ילדים 8,563 ש\"ח, לזוג + ילד 8,171 ש\"ח, לזוג + 2 ילדים 9,292 ש\"ח.",
+      "fetched_at": "2026-08-19T02:22:22.153863+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/elder-care-benefits.md"
+      ],
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T02:22:22.153863+00:00"
+    },
+    {
+      "claim_id": "income-supplement-gates-2026",
+      "claim": "Income supplement asset gates 2026: savings/deposit/provident ceiling and vehicle value ceiling with its credits",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/hashHachZ/Pages/tnaiZakautTosefet.aspx",
+      "raw_snippet": "אם יש לך חסכון, פיקדון כספי או קופת גמל בסכום שאינו עולה על 41,528 ש\"ח ליחיד או 62,292 ש\"ח לזוג, אתה עשוי להיות זכאי לתוספת השלמת הכנסה. בעלי רכב עשויים להיות זכאים לתוספת השלמת הכנסה אם שווי הרכב נמוך מ- 65,343 ש\"ח. משווי הרכב לפי המחירון יופחת סכום זיכוי בסך 19,610 ש\"ח או 11,227 ש\"ח - בהתאם לגילך ולהכנסתך מעבודה.",
+      "fetched_at": "2026-08-19T02:22:22.153863+00:00",
+      "appears_in": [
+        "references/elder-care-benefits.md"
+      ],
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T02:22:22.153863+00:00"
+    },
+    {
+      "claim_id": "old-age-deferral-increment-5pct",
+      "claim": "Deferral increment is 5% of the full pension including the seniority supplement, per year between retirement age and eligibility age in which payment was deferred due to work income",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/Shum/Pages/Tosafot.aspx",
+      "raw_snippet": "תוספת דחיית קצבה תוספת בשיעור 5% מסך הקצבה המלאה (כולל תוספת הוותק) עבור כל שנה בין גיל הפרישה לבין גיל הזכאות שבה תשלום הקצבה נדחה בגלל הכנסות מעבודה.",
+      "fetched_at": "2026-08-19T02:22:22.153863+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/elder-care-benefits.md"
+      ],
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T02:22:22.153863+00:00"
+    },
+    {
+      "claim_id": "copay-children-125pct-multiplier",
+      "claim": "The child's credit-point charge under section 3.5.1.3 is multiplied by 125% to give the co-payment (section 3.5.1.4)",
+      "source_url": "https://www.gov.il/BlobFolder/policy/mk08-2018/he/files_circulars_mk_MK08_2018.pdf",
+      "raw_snippet": "הסכום שהתקבל בסעיף 3.5.1.3 יוכפל ב-125% והתוצאה תהא סכום ההשתתפות העצמית שעל המתחייב לשלם",
+      "fetched_at": "2026-08-19T02:22:22.153863+00:00",
+      "appears_in": [
+        "references/institutional-copayment.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T02:22:22.153863+00:00"
+    },
+    {
+      "claim_id": "copay-patient-floor-37pct",
+      "claim": "The patient's own co-payment may not fall below 37% of the single old-age pension (section 2.1.3)",
+      "source_url": "https://www.gov.il/BlobFolder/policy/mk08-2018/he/files_circulars_mk_MK08_2018.pdf",
+      "raw_snippet": "השתתפותו העצמית של מתאשפז לא תפחת מ 37% מגובה קצבת זקנה ליחיד",
+      "fetched_at": "2026-08-19T02:22:22.153863+00:00",
+      "appears_in": [
+        "references/institutional-copayment.md"
+      ],
+      "verified": true,
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T02:22:22.153863+00:00"
+    },
+    {
+      "claim_id": "copay-welfare-60-40-and-kibbutz-40",
+      "claim": "Where the spouse is in a welfare-funded institution MoH collects only 60% of the family co-payment (s.2.4.4); a non-privatised kibbutz pays 40% of the full actual cost with no means test (s.2.5.1)",
+      "source_url": "https://www.gov.il/BlobFolder/policy/mk08-2018/he/files_circulars_mk_MK08_2018.pdf",
+      "raw_snippet": "אך יגבה רק 60% מסך ההשתתפות העצמית המשפחתית שתיקבע. (ובהתאם להסדר בין המשרדים, ההשתתפות של בן/בת הזוג ומשפחתו במשרד הרווחה תעמוד על 40% הנותרים). הקיבוץ/מושב שיתופי יישא בהשתתפות בשיעור 40% ממלוא עלות האשפוז בפועל של המטופל. ללא עריכת מבחן זכאות למטופל, בן/בת זוגו או לילדיו.",
+      "fetched_at": "2026-08-19T02:22:22.153863+00:00",
+      "appears_in": [
+        "references/institutional-copayment.md"
+      ],
+      "verified": true,
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T02:22:22.153863+00:00"
+    },
+    {
+      "claim_id": "copay-pocket-money-defined-by-reference-s307",
+      "claim": "Pocket money (demei kis) is defined only by reference to section 307 of the National Insurance Law and the 1984 benefit-splitting regulations; no shekel amount is published in the circular",
+      "source_url": "https://www.gov.il/BlobFolder/policy/mk08-2018/he/files_circulars_mk_MK08_2018.pdf",
+      "raw_snippet": "סכום הנותר למטופל מקצבה המשולמת לו לפי חוק הביטוח הלאומי, בהתאם לחלוקת קצבה לפי סעיף 307 לחוק, ולפי תקנות הביטוח הלאומי (חלוקת קצבה) תשמ\"ד-1984, או סכום אחר המושאר למטופל מתוך הכנסותיו, לפי קביעת ועדת ערר",
+      "fetched_at": "2026-08-19T02:22:22.153863+00:00",
+      "appears_in": [
+        "references/institutional-copayment.md"
+      ],
+      "verified": true,
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T02:22:22.153863+00:00"
+    },
+    {
+      "claim_id": "copay-section-3-children-lookup",
+      "claim": "Section 3 of circular 08/2018 governs the adult children's participation: per-capita income after the housing deduction is expressed in credit points and looked up in the charging table",
+      "source_url": "https://www.gov.il/BlobFolder/policy/mk08-2018/he/files_circulars_mk_MK08_2018.pdf",
+      "raw_snippet": "סעיף 3 - השתתפות ילדי המטופל. ההכנסה הממוצעת ברוטו לנפש תחולק בשווי נקודת זיכוי אחת. המספר שבטור ג' יוכפל בשווי נקודת זיכוי אחת. הפחתת הוצאות לדיור.",
+      "fetched_at": "2026-08-19T02:22:22.153863+00:00",
+      "appears_in": [
+        "references/institutional-copayment.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T02:22:22.153863+00:00"
+    },
+    {
+      "claim_id": "copay-family-cap-and-both-parents",
+      "claim": "Family co-payment may not exceed the full actual hospitalisation cost (s.3.5.2); a child whose two parents were institutionalised within 12 months is charged once (s.3.6.1)",
+      "source_url": "https://www.gov.il/BlobFolder/policy/mk08-2018/he/files_circulars_mk_MK08_2018.pdf",
+      "raw_snippet": "סכום ההשתתפות העצמית של המטופל, בן/בת זוגו וכל המתחייבים ('ההשתתפות העצמית המשפחתית') לא יעלה על מלוא עלות האשפוז בפועל של אותו מטופל. חישוב השתתפות מתחייב ששני הוריו/ה התאשפזו בתוך 12 חדשים.",
+      "fetched_at": "2026-08-19T02:22:22.153863+00:00",
+      "appears_in": [
+        "references/institutional-copayment.md"
+      ],
+      "verified": true,
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T02:22:22.153863+00:00"
+    },
+    {
+      "claim_id": "copay-no-national-tariff",
+      "claim": "Full actual hospitalisation cost is set per institution by MoH agreements, not as a single national published rate",
+      "source_url": "https://www.gov.il/BlobFolder/policy/mk08-2018/he/files_circulars_mk_MK08_2018.pdf",
+      "raw_snippet": "הסכום שמשלם משרד הבריאות עבור האשפוז, לחודש, במוסד בו מאושפז המטופל, ומתעדכן לפי ההסכמים בין משרד הבריאות למוסדות סיעודיים",
+      "fetched_at": "2026-08-19T02:22:22.153863+00:00",
+      "appears_in": [
+        "references/institutional-copayment.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T02:22:22.153863+00:00"
+    },
+    {
+      "claim_id": "copay-circular-08-2018-still-operative",
+      "claim": "MoH circular 08/2018 is the operative rule for the institutional-care co-payment; the MoH service page still points to it as of its 31.03.2026 update",
+      "source_url": "https://www.gov.il/he/service/assistance-in-financing-nursing-hospitalization",
+      "raw_snippet": "חוזר מנכ\"ל 08/2018-מפרט את קביעת גובה ההשתתפות של המטופל ובני משפחתו",
+      "fetched_at": "2026-08-19T02:22:22.153863+00:00",
+      "appears_in": [
+        "references/institutional-copayment.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T02:22:22.153863+00:00"
+    },
+    {
+      "claim_id": "moh-nursing-code-calculator-url",
+      "claim": "The Ministry of Health publishes an official calculator estimating the family co-payment for institutional nursing care",
+      "source_url": "https://me.health.gov.il/nursing-calculator/",
+      "raw_snippet": "מחשבון קוד סיעודי - הערכת גובה ההשתתפות העצמית באשפוז סיעודי",
+      "fetched_at": "2026-08-19T02:22:58.284716+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/institutional-copayment.md"
+      ],
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T02:22:58.284716+00:00"
+    },
+    {
+      "claim_id": "moh-circular-mk08-2018-landing",
+      "claim": "MoH circular 08/2018 landing page: effective 21.03.2018, last updated 17.04.2023, replaces circular 24/2005",
+      "source_url": "https://www.gov.il/he/pages/mk08-2018",
+      "raw_snippet": "סוג: חוזרים ונהלים מספר: 08/2018 יחידות: לשכת מנכ\"ל נושא: הגיל השלישי תאריך תחולה: 21.03.2018 תאריך פרסום: 21.03.2018 תאריך עדכון: 17.04.2023. נוהל זה מחליף ומבטל את החוזר המנהל הכללי 24/2005.",
+      "fetched_at": "2026-08-19T02:22:58.284716+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/institutional-copayment.md"
+      ],
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T02:22:58.284716+00:00"
+    },
+    {
+      "claim_id": "moh-district-treasury-contacts",
+      "claim": "District health office treasury contact list, the route for the actual per-institution cost and co-payment figure",
+      "source_url": "https://go.gov.il/lb-gizbarut",
+      "raw_snippet": "פרטי קשר לגזברויות בלשכות הבריאות האזוריות",
+      "fetched_at": "2026-08-19T02:22:58.284716+00:00",
+      "appears_in": [
+        "references/institutional-copayment.md"
+      ],
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T02:22:58.284716+00:00"
+    },
+    {
+      "claim_id": "income-supplement-pension-2008-route",
+      "claim": "A person whose pension income does not exceed 3,346 NIS gross (individual) or 5,274 NIS gross (couple) and who was first pension-insured from January 2008 may claim the income supplement with confirmation from their pension funds or the clearing house",
+      "source_url": "https://www.btl.gov.il/benefits/old_age/hashHachZ/Pages/default.aspx",
+      "raw_snippet": "מי שהכנסתו מפנסיה אינה עולה על 3,346 (החל ב- 01.01.2026) ברוטו ליחיד או 5,274 (החל ב- 01.01.2026) ברוטו לזוג, והוא מבוטח בביטוח פנסיוני לראשונה מינואר 2008 - יכול להגיש תביעה להשלמת הכנסה בצירוף אישור מקופות הפנסיה שבהן הוא מבוטח או מהמסלקה הפנסיונית על מועד הצטרפותו לקרן הפנסיה",
+      "fetched_at": "2026-08-19T02:27:46.528466+00:00",
+      "appears_in": [
+        "references/elder-care-benefits.md"
+      ],
+      "verified": true,
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T02:27:46.528466+00:00"
     }
   ],
   "version": "1.4.0",

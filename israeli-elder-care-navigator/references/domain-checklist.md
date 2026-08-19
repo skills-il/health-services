@@ -38,8 +38,10 @@ went missing for three review cycles. Re-check every row on each update. A row m
 | Old-age pension amounts, seniority, deductions | covered, Step 2 |
 | Retirement age by birth year; absolute entitlement age 70 | covered, Step 2 + benefits reference |
 | Income supplement, per income type | covered, Step 2 |
+| Income supplement guaranteed amount by household composition and age band | covered, Step 2 + `references/elder-care-benefits.md` (added v1.5.0) |
 | Attendance allowance (shirutim meyuchadim) and its 6-month post-retirement deadline | NOT COVERED, open, high priority |
-| Deferral bonus; old-age pension for a disabled person; special pension for olim | NOT COVERED, open |
+| Deferral increment (5% per deferred year) | covered, Step 2 + `references/elder-care-benefits.md` (added v1.5.0) |
+| Old-age pension for a disabled person; special pension for olim | NOT COVERED, open |
 | Death grant; survivors | out of scope, belongs to israeli-bituach-leumi |
 | BL counselling service for seniors; national seniors hotline | NOT COVERED, open |
 
@@ -60,7 +62,12 @@ went missing for three review cycles. Re-check every row on each update. A row m
 |---|---|
 | Code placement: district health office route | covered, Step 5 |
 | Classification committee, 14-day visit, appeal path, 3-month expiry | covered, Step 5 |
-| Adult children means-tested for the co-payment | covered, Step 5 |
+| Adult children means-tested for the co-payment | covered, Step 5 + `references/institutional-copayment.md` |
+| Credit-point charging table for adult children, housing deduction, excluded income, 125% multiplier | covered, `references/institutional-copayment.md` (added v1.5.0; v1.4.2 asserted coverage but carried no scale at all) |
+| Family cap at full actual cost, 37% patient floor, both-parents-once rule | covered, `references/institutional-copayment.md` |
+| Welfare-funded-spouse 60/40 split and kibbutz 40% no-means-test track | covered, `references/institutional-copayment.md` |
+| Pocket money (demei kis) shekel amount | Out of scope (explicit), reviewed 2026-08-19. MoH defines it only by reference to the BL benefit-splitting regulations and publishes no figure. The skill states the mechanism and routes to Bituach Leumi; it must never state an amount. |
+| National institutional tariff | Out of scope (explicit), reviewed 2026-08-19. No such figure exists: "full actual cost" is per institution under its MoH agreement. The skill routes to the district health office treasury. |
 | Licence check before choosing a facility | covered, Step 5 |
 | Facility types and cost ranges | covered, Step 5 + housing reference |
 

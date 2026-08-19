@@ -71,5 +71,20 @@
       "item": "The 'switch kupot freely, no underwriting, no waiting period, no loss of rights' claim carries a Clalit-specific caveat flagged as of 2024 on the source page. Verify and qualify.",
       "reason": "Needs a source read before the qualification can be written accurately."
     }
+  ],
+  "cycles": [
+    {
+      "version": "1.5.0",
+      "date": "2026-08-19",
+      "lessons": [
+        "Fixed: the skill named the institutional co-payment as means-tested on the elder, spouse and every adult child, and gave no scale at all, while references/domain-checklist.md asserted 'covered, Step 5'. A checklist row may not claim coverage for one narrative sentence. Encoded the MoH 08/2018 credit-point charging table in references/institutional-copayment.md.",
+        "Two figures deliberately NOT written: demei kis has no MoH-published shekel amount (defined only by reference to the BL benefit-splitting regulations), and there is no national institutional tariff (per-institution under each MoH agreement). Both are now explicit 'Out of scope (explicit)' checklist rows so a later cycle does not invent them.",
+        "Expert-inline finding applied: the patient's home is not shielded. Rent is charged as co-payment, and for an ariri or publicly-guarded patient a charge for six months' cost is registered at the Land Registry (s.2.2.5). A family assuming the apartment is untouchable decides on a false premise.",
+        "Added: old-age deferral increment (5%/yr, retirement-age-to-eligibility-age window only) and the income-supplement guaranteed-amount table by household composition x three age bands.",
+        "Body was at 4,877/5,000 words at HEAD, so every addition had to be paid for by a trim. Future cycles on this skill must budget references/ first: the body has no headroom left.",
+        "38 pre-existing kolzchut citations are curl-403 (bot-blocked) and were recorded via --allow-unreachable. Two were opened in Playwright and render correctly, so they are alive, but they were not individually re-verified this cycle.",
+        "persistent_fail carried: circular 08/2018 was last updated 17.04.2023; re-check for a successor each cycle. Confirmed operative as of the MoH service page's 31.03.2026 update."
+      ]
+    }
   ]
 }

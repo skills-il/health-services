@@ -27,6 +27,29 @@ Ceilings are per income type, not one combined household figure:
 
 Above the work ceiling, 60% of the excess is deducted. Kibbutz and moshav shitufi members are not eligible.
 
+### Guaranteed Amount With the Income Supplement (from 01.01.2026)
+
+The ceilings above decide WHETHER a supplement is due. This table is the total the supplement tops the household up TO. It varies by household composition AND by age band, so quoting the individual figure to a household with children or to an 80-year-old understates the entitlement.
+
+| Household | Up to age 70 | Age 70 to 80 | Age 80+ |
+|---|---|---|---|
+| Individual | 4,375 NIS | 4,418 NIS | 4,460 NIS |
+| Couple | 6,912 NIS | 6,981 NIS | 7,048 NIS |
+| Individual + 1 child | 7,305 NIS | 7,374 NIS | 7,442 NIS |
+| Individual + 2 children | 8,426 NIS | 8,496 NIS | 8,563 NIS |
+| Couple + 1 child | 8,035 NIS | 8,102 NIS | 8,171 NIS |
+| Couple + 2 children | 9,156 NIS | 9,226 NIS | 9,292 NIS |
+
+Source: https://www.btl.gov.il/benefits/old_age/hashHachZ/Pages/schumim.aspx
+
+A separate gate applies to someone whose pension income does not exceed 3,346 NIS gross for an individual or 5,274 NIS gross for a couple and who was first covered by pension insurance from January 2008: they may claim with a confirmation from their pension funds or the pension clearing house.
+
+Asset gates: savings, deposits or provident funds up to 41,528 NIS for an individual or 62,292 NIS for a couple. Vehicle value below 65,343 NIS, less a credit of 19,610 NIS or 11,227 NIS depending on age and work income.
+
+### Deferral Increment (Tosefet Dchiyat Kitzva)
+
+5% of the full pension (including the seniority supplement) for each year between retirement age and eligibility age in which pension payment was deferred because of income from work. Paid for the years after retirement age in which work income meant no entitlement, or only a partial pension that the person chose to give up. Source: https://www.btl.gov.il/benefits/old_age/Shum/Pages/Tosafot.aspx
+
 ### Income Test
 - Under 70: pension is means-tested (income from work reduces pension)
 - 70+: everyone receives pension regardless of income
