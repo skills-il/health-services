@@ -1,94 +1,305 @@
 {
   "skill_slug": "israeli-workout-coach",
   "schemaVersion": "1.0",
-  "generated_at": "2026-07-23",
+  "generated_at": "2026-08-26T00:00:00Z",
   "claims": [
     {
-      "id": "epley-1rm",
+      "claim_id": "epley-1rm",
       "claim": "Estimated 1RM commonly uses the Epley and Brzycki formulas; the Epley formula is weight * (1 + reps/30). Epley and Brzycki return identical results for 10 repetitions.",
       "claim_type": "formula",
       "source_url": "https://en.wikipedia.org/wiki/One-repetition_maximum",
-      "source_fetched_at": "2026-07-23T00:00:00Z",
       "raw_snippet": "Of the formulas, the Epley and the Brzycki formulas are most commonly used. Epley and Brzycki return identical results for 10 repetitions.",
+      "fetched_at": "2026-07-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/progression-models.md",
+        "scripts/analyze_log.py"
+      ],
       "confidence": "high"
     },
     {
-      "id": "rpe-rir-scale",
+      "claim_id": "rpe-rir-scale",
       "claim": "RIR (reps in reserve) is how many more reps could be completed before technical failure; RIR 2 = 2 reps left, RIR 0 = technical failure. RPE and RIR are used together to autoregulate training load. The widely used RIR-based RPE scale runs RPE 6 (about 4+ RIR) to RPE 10 (0 RIR).",
       "claim_type": "definition",
       "source_url": "https://www.nasm.org/resource-center/blog/training/how-to-use-rpe-and-rir-to-autoregulate-client-training",
-      "source_fetched_at": "2026-07-23T00:00:00Z",
       "raw_snippet": "An RIR of 2 means the client could have done 2 more reps. An RIR of 0 means they were at technical failure.",
+      "fetched_at": "2026-07-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/progression-models.md"
+      ],
       "confidence": "high"
     },
     {
-      "id": "heat-wave-shift-activity",
+      "claim_id": "heat-wave-shift-activity",
       "claim": "Israeli MOH advises shifting out-of-home activities including fitness training (אימון כושר) to early morning or evening during heat, not the hottest hours. A heat wave (גל חום) is at least 3 days above 32.2C; heavy heat load combines temperature above 30C with relative humidity above 70 percent.",
       "claim_type": "safety-guidance",
       "source_url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
-      "source_fetched_at": "2026-07-23T00:00:00Z",
       "raw_snippet": "חשוב לדעת: מזג אוויר חם יכול להיות גל חום, רצף של שלושה ימים לפחות בהם יש טמפרטורה גבוהה (מעל 32.2 מעלות צלזיוס) או עומס חום כבד שהוא שילוב של טמפרטורה גבוהה במיוחד (מעל 30 מעלות) עם רמת לחות גבוהה יחסית (מעל 70 אחוז).",
-      "confidence": "high",
+      "fetched_at": "2026-07-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
       "verified_via": "gov.il content API (programmatic re-extraction)",
-      "verified_at": "2026-07-23T00:00:00Z"
+      "verified_at": "2026-07-23T00:00:00Z",
+      "confidence": "high"
     },
     {
-      "id": "heat-hydration-cups",
+      "claim_id": "heat-hydration-cups",
       "claim": "Israeli MOH hot-weather hydration baseline is 8 to 10 cups of water per day alongside light, balanced meals.",
       "claim_type": "guidance",
       "source_url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
-      "source_fetched_at": "2026-07-23T00:00:00Z",
       "raw_snippet": "שתייה של 8-10 כוסות מים ביום לצד תזונה המורכבת מארוחות קלות ומאוזנות יכולה להקל על המצב.",
-      "confidence": "high",
+      "fetched_at": "2026-07-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
       "verified_via": "browser",
-      "verified_at": "2026-07-23T00:00:00Z"
+      "verified_at": "2026-07-23T00:00:00Z",
+      "confidence": "high"
     },
     {
-      "id": "heat-stroke-emergency",
+      "claim_id": "heat-stroke-emergency",
       "claim": "Heat stroke (מכת חום) is a medical emergency needing immediate ER referral; a sign is body temperature above 39.5C with hot, red, dry skin. Heat exhaustion signs include heavy sweating, cold clammy skin, dizziness, and weakness.",
       "claim_type": "safety-guidance",
       "source_url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
-      "source_fetched_at": "2026-07-23T00:00:00Z",
       "raw_snippet": "הסימנים של מכת חום הם: טמפרטורת גוף גבוהה מ 39.5 מעלות צלזיוס. עור אדום, חם ויבש (ללא הזעה). הטיפול במצב של מכת חום: בראש ובראשונה פנייה מיידית לחדר מיון.",
-      "confidence": "high",
+      "fetched_at": "2026-07-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
       "verified_via": "browser",
-      "verified_at": "2026-07-23T00:00:00Z"
+      "verified_at": "2026-07-23T00:00:00Z",
+      "confidence": "high"
     },
     {
-      "id": "eran-1201",
+      "claim_id": "eran-1201",
       "claim": "ERAN (עזרה ראשונה נפשית) runs an anonymous emotional-first-aid hotline reachable at 1201.",
       "claim_type": "hotline",
       "source_url": "https://www.eran.org.il/services/",
-      "source_fetched_at": "2026-08-09",
       "raw_snippet": "כל הפניות הנן אנונימיות ודיסקרטיות וניתנות לכל אדם, בכל גיל ובכל סוג של מצוקה. אפשר לפנות אלינו לקבלת סיוע נפשי ותמיכה בקו החם במספר 1201",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
       "confidence": "high"
     },
     {
-      "id": "eating-disorder-assoc",
+      "claim_id": "eating-disorder-assoc",
       "claim": "The Israeli Association for Prevention, Treatment and Research of Eating Disorders (iaed.org.il) is a currently-operating multidisciplinary professional body with a public treatment-provider directory.",
       "claim_type": "support-resource",
       "source_url": "https://www.iaed.org.il/",
-      "source_fetched_at": "2026-07-23T00:00:00Z",
       "raw_snippet": "העמותה הישראלית למניעה, טיפול ומחקר בהפרעות אכילה",
+      "fetched_at": "2026-07-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
       "confidence": "high"
     },
     {
-      "id": "physio-referral-physician",
-      "claim": "Physiotherapy in the Israeli health basket requires a doctor's referral; the referral to physiotherapy is made by a physician on a written, signed instruction in the medical record.",
+      "claim_id": "physio-referral-physician",
+      "claim": "For physiotherapy in a HOSPITAL setting, the referral is made by a physician. This source is hospital-scoped and does not establish the community/kupah rule; the per-kupah rules are the kupah entries in this file.",
       "claim_type": "rule",
       "source_url": "https://www.kolzchut.org.il/he/טיפולי_פיזיותרפיה_בבתי_חולים",
-      "source_fetched_at": "2026-07-23T00:00:00Z",
       "raw_snippet": "הפניית מטופל בבית חולים לשירות פיזיותרפיה נעשית על-ידי רופא",
+      "fetched_at": "2026-07-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
       "confidence": "high"
     },
     {
-      "id": "physio-kupah-referral",
-      "claim": "To receive physiotherapy through your kupat cholim you need a referral from your fund's doctor.",
+      "claim_id": "physio-kupah-referral",
+      "claim": "Secondary cross-check only (private-clinic marketing blog). The operative per-kupah rules are the Clalit, Leumit and Maccabi entries in this file.",
       "claim_type": "rule",
       "source_url": "https://www.physioclick.co.il/blog/physiotherapy-lower-back-pain-health-fund-reimbursements/",
-      "source_fetched_at": "2026-07-23T00:00:00Z",
       "raw_snippet": "לקבלת הטיפולים נדרשת הפניה מרופא הקופה שלך",
-      "confidence": "medium"
+      "fetched_at": "2026-07-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "confidence": "low"
+    },
+    {
+      "claim_id": "maccabi-physio-no-referral",
+      "claim": "Maccabi allows booking diagnosis and treatment at Maccabi's own physiotherapy institutes without a doctor's referral. A referral is still required at therapists and institutes under contract with Maccabi, and for exercise consultations for diabetes, hypertension and cardiac patients, infant torticollis, and child development.",
+      "claim_type": "rule",
+      "source_url": "https://www.maccabi4u.co.il/maccabi_circles/exercise/physiotherapy-without-doctor/",
+      "raw_snippet": "קביעת תורים לאבחון וטיפול במכוני הפיזיותרפיה של מכבי בלי צורך בהפניית רופא",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-law-health-declaration",
+      "claim": "Under the Fitness Centres (Licensing and Supervision) Law, 5754-1994 s.4(a), an Israeli gym may admit a trainee only after receiving a medical questionnaire including a signed health declaration confirming no medical problems liable to endanger them while training.",
+      "claim_type": "statute",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf",
+      "raw_snippet": "מכון כושר יקבל מתאמן רק לאחר שהמציא לו שאלון רפואי הכולל הצהרת בריאות חתומה בידו המאשרת שאינו סובל מבעיות רפואיות העלולות לסכנו בשעת אימון במכון כושר",
+      "fetched_at": "2026-08-26",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-law-medical-certificate",
+      "claim": "s.4(b): a trainee who answers yes to any question on the health declaration may be admitted only after also supplying a doctor's certificate confirming there is no risk to their health in training at a gym.",
+      "claim_type": "statute",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf",
+      "raw_snippet": "השיב המתאמן בחיוב על אחת השאלות בהצהרת הבריאות, יקבל אותו מכון הכושר רק לאחר שהמציא לו גם תעודה רפואית שבה רופא אישר שאין סיכון לבריאותו של המתאמן באימון במכון כושר",
+      "fetched_at": "2026-08-26",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-law-renewal-periods",
+      "claim": "s.4(d): the gym must require a fresh health declaration once every two years, and for a trainee who supplied a medical certificate, a fresh certificate once a year.",
+      "claim_type": "statute",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf",
+      "raw_snippet": "מכון כושר ידרוש ממתאמן שימציא לו הצהרת בריאות אחת לשנתיים, ולעניין מתאמן שהמציא תעודה רפואית, ידרוש ממנו מכון הכושר להמציא לו תעודה רפואית אחת לשנה",
+      "fetched_at": "2026-08-26",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26",
+      "appears_in": [
+        "references/israeli-gym-rules.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-law-minor-parental-consent",
+      "claim": "s.4(c): where the trainee is a minor (under 18, s.1), written consent from one parent signed by the parent is attached to the health declaration or medical certificate; it may be given for one training session or types of training.",
+      "claim_type": "statute",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf",
+      "raw_snippet": "היה המתאמן קטין, תצורף להצהרת הבריאות או לתעודה הרפואית, לפי העניין, הסכמה בכתב של אחד מהוריו לאימון במכון כושר חתומה בידי ההורה",
+      "fetched_at": "2026-08-26",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-law-minor-instructor",
+      "claim": "s.3(b)(1): whenever minors are training at a gym, an instructor qualified to train minors must be present, and only that instructor may teach a minor how to operate the equipment and supervise their training.",
+      "claim_type": "statute",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf",
+      "raw_snippet": "בכל עת שקטינים מתאמנים במכון כושר יהיה נוכח במקום מדריך לאימון קטינים, והוא בלבד יהא רשאי",
+      "fetched_at": "2026-08-26",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "issn-protein-range",
+      "claim": "The ISSN position stand states that an overall daily protein intake of 1.4 to 2.0 g protein/kg bodyweight/day is sufficient for most exercising individuals to build and maintain muscle mass.",
+      "claim_type": "guidance",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/",
+      "raw_snippet": "an overall daily protein intake in the range of 1.4–2.0 g protein/kg body weight/day (g/kg/d) is sufficient for most exercising individuals",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "morton-protein-breakpoint",
+      "claim": "Morton et al.'s meta-analysis of protein supplementation and resistance training found a break point of 1.62 g/kg/day (95% CI 1.03 to 2.20) beyond which additional protein did not further increase fat-free mass.",
+      "claim_type": "study",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/",
+      "raw_snippet": "break point=1.62 (1.03, 2.20) g/kg/day",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-law-section-3",
+      "claim": "סעיף 3 of the Fitness Centres Law governs instructor presence, including the instructor-for-minors requirement.",
+      "claim_type": "statute",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf",
+      "raw_snippet": "סעיף 3 נוכחות מדריך",
+      "fetched_at": "2026-08-26",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26",
+      "appears_in": [
+        "references/israeli-gym-rules.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-law-section-4",
+      "claim": "סעיף 4 of the Fitness Centres Law governs medical fitness: health declaration, medical certificate, minors' parental consent, and renewal periods.",
+      "claim_type": "statute",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf",
+      "raw_snippet": "סעיף 4 כשירות רפואית",
+      "fetched_at": "2026-08-26",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26",
+      "appears_in": [
+        "references/israeli-gym-rules.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "clalit-physio-referral",
+      "claim": "Clalit requires a doctor's referral for physiotherapy, valid for two years from issue.",
+      "claim_type": "rule",
+      "source_url": "https://www.clalit.co.il/he/myrights/physiotherapy/Pages/physiotherapy-general.aspx",
+      "raw_snippet": "יש לקבל הפניה מרופא או מרופאה",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "leumit-physio-referral",
+      "claim": "Leumit requires a doctor's referral to receive physiotherapy treatment.",
+      "claim_type": "rule",
+      "source_url": "https://www.leumit.co.il/physiotherapy/",
+      "raw_snippet": "לקבלת טיפול פיזיותרפיה יש צורך בהפניה מהרופא/ה",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "confidence": "high"
     }
-  ]
+  ],
+  "skill": "israeli-workout-coach"
 }

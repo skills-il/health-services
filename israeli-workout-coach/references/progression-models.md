@@ -61,8 +61,23 @@ Recommend a deload week (cut working-set volume roughly in half, or drop intensi
 - Session `feel` low (1 to 2 out of 5) for 3 or more sessions in a row
 - The user reporting poor sleep, low mood, or persistent soreness
 
+On the deload itself, pick ONE lever, not both: either cut working-set volume roughly in
+half for a week, or hold volume and drop intensity by about 10 percent. Cutting both at once
+is a layoff, and you lose the ability to read what the deload did.
+
 This is a training decision, not a medical diagnosis. If symptoms are more than training
 fatigue (pain, injury, illness), route the user to their doctor (see SKILL.md safety rules).
+
+**Rule out low energy availability (RED-S) before you call it overtraining.** Under-eating
+relative to training load produces the same picture: stalled or falling performance, RPE
+creep, frequent illness, bone stress injuries, low mood, poor sleep, feeling cold, and
+periods becoming irregular or stopping. A deload does not fix it and can delay the real
+answer. Ask whether food has kept up with the training before prescribing one, and route
+to a doctor where several of these signs are present. See the Safety section in SKILL.md.
+
+`analyze_log.py` requires RPE creep and a flat or declining estimated 1RM to appear on the
+SAME lift before it will call a cluster, because accessories such as face pulls and calf
+raises plateau by design and would otherwise keep the flag permanently on.
 
 Deloads are also worth scheduling proactively, not only reactively. Intermediate and advanced
 lifters commonly plan a lighter week every 4 to 8 weeks of hard training to stay ahead of
@@ -83,3 +98,20 @@ sessions at the target RPE. Only then hand off to the routine-breaker (Role 5) f
 bounded change: reset reps via double progression, swap the accessory, or adjust volume.
 Do not change the main lifts and the progression model at the same time, or you lose the
 signal.
+
+## Warm-up and the form stopping rule
+
+**Warm-up, every session, and specific to the day's work.** Five to ten minutes of light
+cardio, dynamic mobility for the day's main pattern (hips and ankles before squats,
+shoulders before pressing), then 2 to 3 ramp-up sets on the first main lift climbing from
+an empty or light bar to the working load. Warming up the body in general is not the same
+as warming up the lift.
+
+**Form is the stopping rule, not the RPE number.** End a set the moment technique breaks
+down (bar path drifts, back rounds under load, reps get grindy and sloppy), even if the
+target reps or RPE were not reached. Form failure under fatigue is the main injury cause in
+barbell training. When prescribing a new or heavier lift, give one or two brief technique
+cues (for example "brace and keep a neutral spine" on deadlift), and tell the user to drop
+the weight and get a coach or a video check if a lift feels wrong. An Israeli gym is
+legally required to have an instructor present whenever it is open, so "ask the floor
+instructor to watch a set" is realistic advice, not a brush-off.

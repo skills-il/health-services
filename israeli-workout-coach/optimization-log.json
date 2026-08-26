@@ -1,0 +1,21 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.0",
+      "date": "2026-08-26",
+      "lessons": [
+        "Expert MAJOR deferred: female-athlete programming beyond the RED-S red flag (menstrual-cycle context, menopause and bone density, pelvic floor outside pregnancy). The `sex` profile field landed this cycle as the prerequisite; the programming guidance did not. See domain-checklist S9.",
+        "Discretionary deferred over the Phase 4.1 cap: fasting days and the Israeli calendar (Yom Kippur, Tisha B'Av, Ramadan) have no training rule. See domain-checklist S6.",
+        "Discretionary deferred over the Phase 4.1 cap: return from miluim as its own ramp rather than a bullet in the generic detraining list. See domain-checklist S7.",
+        "Discretionary deferred over the Phase 4.1 cap: training toward a dated fitness test (מבחן בר-אור, IDF/sherut-leumi) has no goal value, no test-date field and no taper logic. See domain-checklist S8.",
+        "Discretionary deferred over the Phase 4.1 cap: air quality (אובך) and extreme-heat regions (Eilat, Dead Sea); profile.md has no location field. See domain-checklist S10.",
+        "Discretionary deferred: no way to log a bodyweight SERIES over time, so checklist S4 (neutral bodyweight-trend tracking) is still not implementable; profile.md holds a single scalar.",
+        "Discretionary deferred: the disordered-eating guardrail has no persisted state, so a trigger is forgotten at the next session in a skill whose premise is persistent memory. Needs a profile flag and an exit condition.",
+        "Discretionary deferred: no rule for a session interrupted by a siren; the log schema cannot mark a session as partial, so it reads as a volume drop and feeds the fatigue signals.",
+        "Discretionary deferred: the Coach role advances `rotation` from the last logged `day` without validating that the label still exists in `rotation` after a split change. state-schema.md now tells the agent to validate the profile, but the wrap-around logic itself is still undefined against an orphan label.",
+        "TOOLING: verify-evidence.py extracted 0 facts from this skill at HEAD and 2 after this cycle's edits. Its fact extractor keys on currency and Hebrew statute patterns, so a domain whose numbers are percentages, RPE points, degrees, g/kg and cup counts is nearly invisible to it. The gate exited 0 on a skill it had never actually checked. Numeric claims here must be verified by the Judge and by --check-sources, not by the exit code.",
+        "UNSOURCED HEURISTICS: the progression conventions (regress 10 to 15 percent after a two-week gap; smallest increments of about 2.5 kg upper / 5 kg lower; deload by cutting volume about in half) are standard strength-and-conditioning practice but carry no evidence.json entry and no citation in Reference Links. They predate this cycle and were not introduced by it. Next cycle should either cite an S&C reference (NSCA/ACSM) for each or mark them explicitly as coaching convention rather than sourced fact."
+      ]
+    }
+  ]
+}

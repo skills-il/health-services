@@ -1,6 +1,6 @@
 # Domain Coverage Checklist  - israeli-workout-coach (health-services)
 
-Generated: 2026-07-23 via research on: Wikipedia (1RM formulas), NASM (RPE/RIR), MOH health.gov.il (heat), eran.org.il, iaed.org.il, kolzchut.org.il, physioclick.co.il
+Generated: 2026-07-23. Reviewed and extended 2026-08-26 (v1.2.0). Via research on: Wikipedia (1RM formulas), NASM (RPE/RIR), MOH health.gov.il (heat), eran.org.il, iaed.org.il, kolzchut.org.il, physioclick.co.il
 
 ## Must cover (core)
 
@@ -33,6 +33,14 @@ Generated: 2026-07-23 via research on: Wikipedia (1RM formulas), NASM (RPE/RIR),
 | 25 | **Special populations**  - pregnancy/postpartum, youth, deconditioned older beginners get medical clearance and conservative programming, not the generic plan. | (structural, safety) |
 | 26 | **Bodyweight-lift progression is tracked**  - pull-ups/dips tracked by reps (and weighted bodyweight by added load) so calisthenics progress is not invisible to the analyst. | (structural) |
 
+| 27 | **Israeli gym paperwork: health declaration, medical certificate, minors** - the gym must obtain a signed הצהרת בריאות before admitting a trainee; a yes answer requires a doctor's תעודה רפואית; declaration renews every two years and the certificate every year; a minor needs written parental consent AND a specifically qualified מדריך לאימון קטינים present. | חוק מכוני כושר (רישוי ופיקוח), תשנ"ד-1994 ss.3-4; see references/israeli-gym-rules.md |
+| 28 | **Per-kupah physiotherapy access** - naming which fund needs a doctor's referral. Maccabi allows direct booking at its own institutes; Clalit, Meuhedet and Leumit require a referral. A generic "usually needs a referral" hedge sends a Maccabi member to an appointment they do not need. | Maccabi physiotherapy-without-doctor page; Clalit / Leumit rights pages |
+| 29 | **Screening answers must change the program** - high BP or cardiac history caps Valsalva and grinding singles; anticoagulants restrict contact/impact; each stored flag needs a behaviour attached to it, not just a record. | (structural, safety); flags defined in row 19 |
+| 30 | **RED-S / low energy availability distinguished from overtraining** - under-eating relative to load produces the same signal cluster the Analyst reads as overreaching, and a deload does not fix it. Amenorrhoea in a training woman is a medical finding to route, not a training outcome. | (structural, safety); interacts with rows 7, 11, 16 |
+| 31 | **State durability** - back up log.jsonl before any write, append-only enforced in practice not just stated, trailing-newline check, single-writer rule, stable folder location (~/workout-coach/) rather than per-project, search-before-onboard, and a read-window for very long logs. | (structural); the log is the one irreplaceable artifact |
+| 32 | **Hand-edited profile.md contract** - validate rotation against day headings, detect orphan day labels, and re-run the health screen when health_flags are missing, since their absence silently disables the safety gates. | (structural, safety) |
+| 33 | **Superseded-line semantics are enforced by the analyzer** - a corrected session must count once. Documented-but-unenforced correction protocols corrupt every downstream number. | (structural); scripts/analyze_log.py dedupes by (date, day) |
+
 ## Should cover (advanced / edge cases)
 
 | # | Topic | Basis |
@@ -41,18 +49,24 @@ Generated: 2026-07-23 via research on: Wikipedia (1RM formulas), NASM (RPE/RIR),
 | S2 | **Mobility / flexibility work**  - allow logging and light programming without medicalizing. | (structural) |
 | S3 | **Beginner vs advanced autoregulation**  - beginners on linear progression + fixed RPE targets; advanced use RIR-based autoregulation. | fact #2 |
 | S4 | **Bodyweight-trend tracking without triggering the guardrail**  - allow neutral logging of a bodyweight number; do NOT solicit weight-loss goals or comment on appearance; watch red flags. | facts #4-#5 |
+| S6 | **Fasting days and the Israeli calendar** - Yom Kippur, Tisha B'Av and Ramadan interrupt training for a large share of Israeli users; no rule yet. Deferred 2026-08-26. | (structural) |
+| S7 | **Return from miluim as its own ramp** - distinct from a holiday layoff (sleep debt, load-carriage complaints, weeks of unaccustomed volume). Currently folded into the generic 10 to 15 percent regression. Deferred 2026-08-26. | (structural) |
+| S8 | **Training toward a dated fitness test** (מבחן בר-אור, IDF/sherut-leumi standards) - no goal value, no test-date field, no taper logic. Deferred 2026-08-26. | (structural) |
+| S9 | **Female-athlete programming beyond the RED-S red flag** - menstrual-cycle context, menopause and bone density, pelvic floor outside pregnancy. The `sex` field added in v1.2.0 is the prerequisite; the programming guidance is deferred. | (structural) |
+| S10 | **Air quality (אובך) and extreme-heat regions (Eilat, Dead Sea)** - the outdoor-training section handles heat nationally but has no location field and no sandstorm rule. Deferred 2026-08-26. | (structural) |
 | S5 | **RPE-creep + heat interaction**  - distinguish genuine fatigue from heat-driven performance dips before recommending a deload. | facts #2 + #3 |
 
 ## Out of scope (explicit, with rationale)
 
 | Topic | Why | Where it belongs |
 |-------|-----|------------------|
-| **Clinical rehab prescription** | Requires licensed physiotherapist + physician oversight. | Kupah physiotherapy (referral required, fact #6-#7); `israeli-hmo-navigator`. |
+| **Clinical rehab prescription** | Requires licensed physiotherapist + physician oversight, a regulated profession under חוק הסדרת העיסוק במקצועות הבריאות, תשס"ח-2008. Re-litigated 2026-08-26: still out of scope; the skill now routes per-kupah instead. | Kupah physiotherapy (referral required, fact #6-#7); `israeli-hmo-navigator`. |
 | **Medical dietary therapy / eating-disorder treatment** | Needs a multidisciplinary medical team. | `israeli-mental-health-navigator`; eating-disorder association (fact #5); ERAN 1201 (fact #4). |
 | **General nutrition / meal & calorie planning** | Separate competency. | `israeli-nutrition-planner`. |
 | **PED / anabolic-steroid guidance** | Illegal/harmful; refuse. | Physician. |
 | **Competition prep (peaking, weight-cutting)** | Specialized, high-risk, eating-disorder overlap. | Qualified human coach. |
-| **HMO coverage specifics** | Dedicated navigator exists. | `israeli-hmo-navigator`. |
+| **HMO coverage specifics** | Dedicated navigator exists, beyond the referral-yes/no question in row 28 which the coach must answer itself. Re-litigated 2026-08-26: still out of scope. | `israeli-hmo-navigator`. |
+| **Real-time between-sets tracking** | Wrong surface; the skill is a plan-and-review coach and a logbook. Re-litigated 2026-08-26: still out of scope, and stated explicitly in the skill body. | A phone gym-tracker app. |
 
 ## Authoritative sources
 
@@ -62,4 +76,8 @@ Generated: 2026-07-23 via research on: Wikipedia (1RM formulas), NASM (RPE/RIR),
 - https://www.eran.org.il/services/  - ERAN hotline 1201.
 - https://www.iaed.org.il/  - Israeli eating-disorder professional association + provider directory.
 - https://www.kolzchut.org.il/he/טיפולי_פיזיותרפיה_בבתי_חולים  - physiotherapy referral made by a physician.
-- https://www.physioclick.co.il/blog/physiotherapy-lower-back-pain-health-fund-reimbursements/  - kupah physiotherapy needs a doctor referral.
+- https://www.physioclick.co.il/blog/physiotherapy-lower-back-pain-health-fund-reimbursements/  - kupah physiotherapy needs a doctor referral. NOTE: a private-clinic marketing blog, retained only as a secondary cross-check. It is not authoritative for a statutory entitlement and is now wrong for Maccabi.
+- https://www.maccabi4u.co.il/maccabi_circles/exercise/physiotherapy-without-doctor/  - Maccabi direct-access physiotherapy, and the cases that still need a referral.
+- https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf  - חוק מכוני כושר, full updated text; ss.3-4 health declaration, medical certificate, minors.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/  - ISSN position stand, 1.4 to 2.0 g/kg/day.
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/  - Morton et al., 1.62 g/kg/day break point.

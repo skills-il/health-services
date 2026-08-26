@@ -8,14 +8,18 @@ Usage:
 
 Helper for the Analyst role. Per exercise it computes:
   - estimated 1RM over time for LOADED lifts (Epley: 1RM = w * (1 + reps/30))
-  - a rep-based progression proxy for BODYWEIGHT lifts (pull-ups, dips, etc.)
-  - weekly training volume (loaded sets = reps*kg; bodyweight sets = reps*bodyweight
-    if --bodyweight given, else reps)
+  - a rep-based progression proxy for BODYWEIGHT lifts (pull-ups, dips, etc.), plus an
+    e1RM for them too when --bodyweight is given (effective load = bodyweight + added kg)
+  - weekly training volume (loaded sets = reps*kg; bodyweight sets = reps*(bodyweight+added)
+    if --bodyweight given, else raw reps, which mixes units: pass --bodyweight)
   - load-conditioned RPE creep: the SAME working load drifting to a higher RPE
+Lines are de-duplicated by (date, day) first, so a corrected session logged per the
+supersede protocol counts once, not twice.
 It then flags, using the definitions in SKILL.md / references/progression-models.md:
   - PLATEAU: at a held load, top reps and e1RM not improving across >=3 sessions
-  - OVERTRAINING (overreaching): a CLUSTER of >=2 of {RPE creep at constant load,
-    flat/declining e1RM on the tracked lift, low session feel}
+  - OVERTRAINING (overreaching): RPE creep at a constant load AND a flat/declining e1RM
+    on the SAME lift, plus a second independent signal (low session feel, or a second
+    fatigued lift). Same-lift pairing is deliberate: accessories plateau by design.
   - ACUTE LOAD SPIKE: consecutive-calendar-week volume jump (injury-risk, NOT overtraining)
   - DETRAINING: a gap since the last session, so loads should be regressed
   - low-feel run
@@ -27,6 +31,24 @@ import json
 import sys
 from collections import defaultdict
 from datetime import datetime, timedelta
+
+
+def num(v, default=0.0):
+    """Coerce a log value to a number. The log is written by an agent, so a numeric
+    field routinely arrives quoted ("80"). Accept that; refuse anything else instead
+    of crashing the whole analysis on one bad field."""
+    if v is None:
+        return default
+    if isinstance(v, bool):
+        return default
+    if isinstance(v, (int, float)):
+        return float(v)
+    try:
+        return float(str(v).strip().replace(",", ""))
+    except (ValueError, AttributeError):
+        print(f"[warn] unreadable numeric value {v!r} treated as {default}; that set will "
+              f"not count toward volume or estimated 1RM", file=sys.stderr)
+        return default
 
 
 def epley_1rm(weight_kg: float, reps: int) -> float:
@@ -75,18 +97,83 @@ def load(path: str):
             except json.JSONDecodeError as e:
                 print(f"[warn] skipping malformed line {i}: {e}", file=sys.stderr)
     sessions.sort(key=lambda s: s.get("date", ""))
-    return sessions
+    return dedupe_superseded(sessions)
+
+
+def dedupe_superseded(sessions):
+    """SKILL.md and references/state-schema.md define the correction protocol as
+    'append a corrected line for the same date and day; the analyst reads the latest
+    matching entry'. Honour it here: for each (date, day) keep only the LAST line.
+    Without this, correcting one typo double-counts that session in weekly volume
+    (tripping the acute-load-spike flag) and leaves the wrong load in the e1RM series."""
+    by_date = {}
+    for s_ in sessions:
+        by_date.setdefault(s_.get("date"), set()).add(s_.get("day"))
+    for date_, days in by_date.items():
+        if len(days) > 1 and None in days:
+            print(f"[warn] {date_} has lines both with and without a `day` label. If one was "
+                  f"meant to correct the other, it must repeat the SAME day label or it will "
+                  f"be counted as a separate session.", file=sys.stderr)
+    latest = {}
+    for s_ in sessions:
+        latest[(s_.get("date"), s_.get("day"))] = s_
+    kept = list(latest.values())
+    dropped = len(sessions) - len(kept)
+    if dropped:
+        print(f"[info] {dropped} superseded session line(s) ignored "
+              f"(same date+day logged more than once; the latest line wins)", file=sys.stderr)
+    kept.sort(key=lambda s_: s_.get("date", ""))
+    return kept
 
 
 def is_bodyweight_exercise(ex: dict) -> bool:
-    return all(not (st.get("kg") or 0) for st in ex.get("sets", []))
+    """True only when the exercise has sets AND none of them carry external load.
+    An empty `sets` array is not a bodyweight lift, it is a missing record."""
+    sets = ex.get("sets", [])
+    return bool(sets) and all(not num(st.get("kg")) for st in sets)
+
+
+# Movements performed against bodyweight, where a logged kg is an ADDED load
+# (a belt, a vest, a dumbbell between the feet) rather than the whole load.
+CALISTHENIC_NAMES = (
+    "pull-up", "pull up", "chin-up", "chin up", "dip", "push-up", "push up",
+    "muscle-up", "muscle up", "inverted row", "ring row", "pistol squat",
+    "bodyweight squat", "sit-up", "sit up", "plank", "leg raise", "hanging leg raise",
+    "back extension", "nordic curl", "handstand push-up", "handstand push up",
+    "australian pull-up", "burpee", "lunge",
+)
+
+
+def bodyweight_pattern(ex: dict) -> bool:
+    """True for a lift performed against the user's own bodyweight (pull-up, dip,
+    push-up), whether or not a belt load was added.
+
+    Deliberately NOT "any set at kg=0". SKILL.md tells the Coach to prescribe ramp-up
+    sets "climbing from an empty or light bar", so a barbell lift routinely carries a
+    kg=0 warm-up set. Treating that as a bodyweight lift silently removes the user's
+    main lift from the e1RM series, the plateau flag and the fatigue cluster, and
+    collapses weekly volume to raw reps. Classify by name where the log carries any
+    load, and fall back to all-sets-unloaded otherwise."""
+    sets = ex.get("sets", [])
+    if not sets:
+        return False
+    if all(not num(st.get("kg")) for st in sets):
+        return True
+    name = (ex.get("name") or "").strip().lower()
+    return any(k in name for k in CALISTHENIC_NAMES)
+
+
+def effective_load(st: dict, bodyweight) -> float:
+    """Load actually moved in this set. For a bodyweight-pattern lift that is the
+    user's bodyweight plus any added load; without --bodyweight we cannot know it."""
+    return num(st.get("kg")) + (bodyweight or 0.0)
 
 
 def top_loaded_set(ex: dict):
     """Return (best_e1rm, load_of_best, top_reps_at_working_load). Loaded lifts only."""
     best_e1rm, best_load = 0.0, 0.0
     for st in ex.get("sets", []):
-        kg, reps = st.get("kg") or 0, st.get("reps") or 0
+        kg, reps = num(st.get("kg")), num(st.get("reps"))
         if kg and reps:
             e = epley_1rm(kg, reps)
             if e > best_e1rm:
@@ -96,7 +183,7 @@ def top_loaded_set(ex: dict):
 
 def working_load(ex: dict):
     """The heaviest load used for >=1 set (the 'working' load for creep tracking)."""
-    loads = [st.get("kg") or 0 for st in ex.get("sets", []) if (st.get("kg") or 0)]
+    loads = [num(st.get("kg")) for st in ex.get("sets", []) if num(st.get("kg"))]
     return max(loads) if loads else 0.0
 
 
@@ -131,37 +218,51 @@ def analyze(sessions, bodyweight):
 
     for s in sessions:
         d = s.get("date", "")
-        if s.get("feel") is not None:
-            feels.append((d, s["feel"]))
+        if s.get("feel") is not None and num(s.get("feel")):
+            feels.append((d, num(s["feel"])))
         wk = iso_week_ordinal(d) if d else None
         for ex in s.get("exercises", []):
             name = ex.get("name", "?")
-            if is_bodyweight_exercise(ex):
-                total_reps = sum(st.get("reps") or 0 for st in ex.get("sets", []))
+            if bodyweight_pattern(ex):
+                total_reps = sum(num(st.get("reps")) for st in ex.get("sets", []))
                 if total_reps:
-                    per_ex_bw_reps[name].append((d, total_reps))
-                vol = total_reps * (bodyweight or 1)  # if no bodyweight given, count reps
+                    per_ex_bw_reps[name].append((d, int(total_reps)))
+                if bodyweight:
+                    # Bodyweight known: fold it in so calisthenics reach volume AND e1RM,
+                    # which is what SKILL.md and state-schema.md promise --bodyweight does.
+                    vol = sum(effective_load(st, bodyweight) * num(st.get("reps"))
+                              for st in ex.get("sets", []))
+                    best = 0.0
+                    for st in ex.get("sets", []):
+                        r = num(st.get("reps"))
+                        if r:
+                            best = max(best, epley_1rm(effective_load(st, bodyweight), r))
+                    if best:
+                        per_ex_e1rm[name].append((d, round(best, 1)))
+                else:
+                    vol = total_reps  # reps only; see the unit warning printed below
             else:
                 e1, load_at = top_loaded_set(ex)
                 if e1:
                     per_ex_e1rm[name].append((d, round(e1, 1)))
                 wl = working_load(ex)
-                top_reps = max((st.get("reps") or 0) for st in ex.get("sets", [])
-                               if (st.get("kg") or 0) == wl) if wl else 0
+                top_reps = max(num(st.get("reps")) for st in ex.get("sets", [])
+                               if num(st.get("kg")) == wl) if wl else 0
                 if wl:
                     per_ex_topreps[name].append((d, top_reps, wl))
-                rpes = [st["rpe"] for st in ex.get("sets", [])
-                        if st.get("rpe") is not None and (st.get("kg") or 0) == wl]
+                rpes = [num(st["rpe"]) for st in ex.get("sets", [])
+                        if st.get("rpe") is not None and num(st.get("kg")) == wl
+                        and num(st["rpe"])]
                 if rpes and wl:
                     per_ex_load_rpe[name][wl].append((d, round(sum(rpes) / len(rpes), 2)))
-                vol = sum((st.get("kg") or 0) * (st.get("reps") or 0) for st in ex.get("sets", []))
+                vol = sum(num(st.get("kg")) * num(st.get("reps")) for st in ex.get("sets", []))
             if wk is not None:
                 if wk not in weekly_volume:
                     weekly_volume[wk] = [iso_week(d), 0.0]
                 weekly_volume[wk][1] += vol
         c = s.get("cardio")
-        if c and c.get("type") == "run" and c.get("distance_km") and c.get("duration_min"):
-            runs.append((d, round(c["duration_min"] / c["distance_km"], 2)))
+        if c and c.get("type") == "run" and num(c.get("distance_km")) and num(c.get("duration_min")):
+            runs.append((d, round(num(c["duration_min"]) / num(c["distance_km"]), 2)))
 
     return per_ex_e1rm, per_ex_topreps, per_ex_bw_reps, per_ex_load_rpe, weekly_volume, feels, runs
 
@@ -221,11 +322,25 @@ def main():
         # Plateau: at a held load, top reps not improving AND e1RM not improving, >=3 sessions
         tr = per_ex_topreps.get(name, [])
         if len(tr) >= 3:
-            loads = [ld for _, _, ld in tr[-3:]]
-            reps_series = [(d, r) for d, r, _ in tr]
-            if len(set(loads)) == 1 and trend(reps_series) in ("flat", "down") and e1_trend in ("flat", "down"):
-                print(f"      ^ PLATEAU FLAG: load held at {loads[-1]:.0f}kg, reps and e1RM not "
-                      f"improving over the last 3 sessions -> time for a controlled variation")
+            # Window BOTH trends to the current constant-load block. Reading the trend
+            # across a load increase makes the normal post-increase rep dip look like a
+            # stall, so a textbook double progression (80x12, 80x12, 85x8, x9, x10) would
+            # otherwise be flagged as a plateau while it is working exactly as intended.
+            held = tr[-1][2]
+            block = []
+            for entry in reversed(tr):
+                if entry[2] != held:
+                    break
+                block.append(entry)
+            block.reverse()
+            if len(block) >= 3:
+                block_dates = {d for d, _, _ in block}
+                block_reps = [(d, r) for d, r, _ in block]
+                block_e1rm = [(d, v) for d, v in series if d in block_dates]
+                block_e1_trend = trend(block_e1rm)
+                if trend(block_reps) in ("flat", "down") and block_e1_trend in ("flat", "down"):
+                    print(f"      ^ PLATEAU FLAG: load held at {held:.0f}kg for {len(block)} "
+                          f"sessions, reps and e1RM not improving -> time for a controlled variation")
 
     if per_ex_bw_reps:
         print("\n== Bodyweight lifts: total reps per session ==")
@@ -235,7 +350,9 @@ def main():
                 continue
             print(f"  {name:24s} latest {series[-1][1]:4d} reps  trend {trend(series):4s}  (n={len(series)})")
         if args.bodyweight is None:
-            print("  (pass --bodyweight <kg> to include these in volume and e1RM)")
+            print("  (pass --bodyweight <kg> to include these in volume and estimated 1RM; "
+                  "without it they contribute raw reps, so the weekly volume below mixes units "
+                  "and the acute-load-spike ratio is unreliable)")
 
     if weekly_volume:
         print("\n== Weekly volume ==")
@@ -262,26 +379,62 @@ def main():
             word = {"down": "improving (getting faster)", "up": "slowing", "flat": "flat"}[pace_trend]
             print(f"  pace trend: {word}")
 
-    # Overtraining (overreaching) = CLUSTER of >=2 signals, per the SKILL definition
+    # Overtraining (overreaching) = CLUSTER of >=2 signals, per the SKILL definition.
+    #
+    # The two lift-based signals must come from the SAME lift. Evaluating them with a
+    # bare any() over every exercise made the flag near-permanent: accessories such as
+    # face pulls, calf raises and lateral raises plateau by design, so "some lift has a
+    # flat e1RM" is true of any mature log, and a false deload is an expensive answer.
     low_feel = False
     if feels:
         recent = [f for _, f in feels][-3:]
         low_feel = len(recent) >= 3 and sum(recent) / len(recent) <= 2.0
-    creep = any(load_conditioned_rpe_creep(per_ex_load_rpe[n]) for n in per_ex_load_rpe)
-    declining_e1rm = any(trend(per_ex_e1rm[n]) in ("flat", "down") and len(per_ex_e1rm[n]) >= 3
-                         for n in per_ex_e1rm)
+
+    scope = [args.exercise] if args.exercise else sorted(per_ex_e1rm)
+    fatigued = []
+    for name in scope:
+        series = per_ex_e1rm.get(name, [])
+        if len(series) < 3:
+            continue
+        if (trend(series) in ("flat", "down")
+                and load_conditioned_rpe_creep(per_ex_load_rpe.get(name, {}))):
+            fatigued.append(name)
+
     signals = []
-    if creep:
-        signals.append("RPE creep at a constant load")
-    if declining_e1rm:
-        signals.append("flat/declining estimated 1RM")
+    if fatigued:
+        signals.append("RPE creep at a constant load WITH a flat/declining estimated 1RM on "
+                       + ", ".join(fatigued))
     if low_feel:
         signals.append("low session feel (<=2/5) for 3+ sessions")
-    if len(signals) >= 2:
+    if len(signals) >= 2 or (fatigued and len(fatigued) >= 2):
         print("\n== Overtraining ==")
-        print("  OVERREACHING FLAG (>=2 signals): " + "; ".join(signals))
+        print("  OVERREACHING FLAG: " + "; ".join(signals))
         print("  Consider a deload (cut working-set volume about in half for a week). This is a "
               "training judgment, not a medical diagnosis; if symptoms are pain/illness, route to a doctor.")
+        print("  Rule out the cheaper explanations FIRST: Israeli-summer heat, a fast day, sleep "
+              "debt, a return from miluim. If the user is also eating less than the training "
+              "demands, this pattern can be low energy availability (RED-S), which a deload does "
+              "not fix; see the Safety section in SKILL.md.")
+    elif signals:
+        print("\n== Overtraining ==")
+        print("  Single fatigue signal only, no cluster: " + "; ".join(signals))
+        print("  Not enough to call overreaching. Keep logging.")
+    else:
+        # Silence must not read as "you are fine". RPE creep needs >=3 sessions at ONE
+        # constant load, which linear progression (load up every session) and double
+        # progression (2-3 sessions per load) structurally rarely produce, so for many
+        # users the cluster is not evaluable rather than negative.
+        evaluable = [n for n in scope
+                     if len(per_ex_e1rm.get(n, [])) >= 3
+                     and any(len(v) >= 3 for v in per_ex_load_rpe.get(n, {}).values())]
+        print("\n== Overtraining ==")
+        if evaluable:
+            print("  No fatigue cluster on " + ", ".join(evaluable) + ".")
+        else:
+            print("  NOT EVALUABLE: no lift yet has 3+ sessions at one constant load with RPE "
+                  "logged, so the RPE-creep signal cannot be computed. This is not evidence "
+                  "that the user is fine. Judge from session feel, sleep, and what they tell "
+                  "you, and encourage logging RPE at a held load.")
 
 
 if __name__ == "__main__":
