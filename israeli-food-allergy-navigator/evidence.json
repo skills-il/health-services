@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-food-allergy-navigator",
   "schemaVersion": "1.0",
-  "generated_at": "2026-08-09",
+  "generated_at": "2026-08-26T19:00:31.874820+00:00",
   "claims": [
     {
       "id": "moe-circular-number-and-date",
@@ -114,17 +114,6 @@
       "confidence": "high"
     },
     {
-      "id": "medical-assistant-criterion",
-      "claim": "A state of life-threatening food allergy is included in the criteria allowing focused assistance from the inter-ministerial committee for employing a personal escort (medical assistant) in mainstream education, per section 19-2.2 of standing-instruction circular עז/4(א) on medical assistants in mainstream education. However, parents may not be compelled to submit an application for assistance via the local authority, and a student may not be prevented from taking part in an educational activity at or on behalf of the institution in the absence of an assistant, even where the student is eligible.",
-      "claim_type": "law",
-      "source_url": "https://www.allergyisrael.org.il/files/%D7%97%D7%95%D7%96%D7%A8%20%D7%9E%D7%A0%D7%9B%D7%9C%20%D7%9E%D7%A9%D7%A8%D7%93%20%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A.pdf",
-      "source_fetched_at": "2026-07-25T20:01:00Z",
-      "raw_snippet": "מצב של אלרגיה למזון מסכנת חיים נכלל בתבחינים המאפשרים קבלת סיוע ממוקד מהוועדה הבין-משרדית להעסקת מלווה אישי )סייעת רפואית( בחינוך הרגיל )ראו בסעיף 19-2.2 בחוזר הוראות הקבע עז)4/א(, \"סייעות רפואיות בחינוך הרגיל\"(. עם זאת אין לחייב הורים להגיש בקשה לסיוע באמצעות הרשות המקומית, ואין למנוע מתלמיד להשתתף בפעילות חינוכית במוסד החינוכי או מטעמו בהיעדר סייעת, אף שהוא נמצא זכאי",
-      "verified_via": "pdf",
-      "verified_at": "2026-07-25",
-      "confidence": "high"
-    },
-    {
       "id": "emotional-support-and-nondiscrimination",
       "claim": "The institution must arrange accompaniment of the student by the institution's counsellor or psychologist for support, the tzaharon manager must receive guidance from the psychologist or counsellor on the emotional support required, discrimination or exclusion on grounds of the allergy must be avoided, menus for holidays (such as mishloach manot), health meals, food sales and trips must be planned in advance so the allergen is excluded, and the allergic student should be allowed to present the nature of their allergy themselves at the start of the year, according to age and willingness and with parental involvement.",
       "claim_type": "feature",
@@ -223,15 +212,6 @@
       "confidence": "high"
     },
     {
-      "id": "oit-not-in-health-basket",
-      "claim": "Oral immunotherapy (OIT) for food allergy is not included in the Israeli health basket and is provided privately. The Shamir (Assaf Harofeh) Medical Center programme has treated a large cohort, the waiting list is long with a wait of roughly 3 to 4 years, registration is from age 3 and treatment begins from age 4.",
-      "claim_type": "feature",
-      "source_url": "https://allergysite.co.il/%D7%9E%D7%A9%D7%AA%D7%AA%D7%A4%D7%99-%D7%94%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA-%D7%9C%D7%92%D7%9E%D7%99%D7%9C%D7%94-%D7%9E%D7%90%D7%9C%D7%A8%D7%92%D7%99%D7%94-%D7%9C%D7%9E%D7%96%D7%95%D7%9F%D7%9E/",
-      "source_fetched_at": "2026-07-25T20:14:00Z",
-      "raw_snippet": "הטיפול עדיין לא בסל הבריאות. העלות נופלת על המטופל אלא א",
-      "confidence": "medium"
-    },
-    {
       "id": "allergen-labelling-guidance",
       "claim": "The Ministry of Health publishes a guide on providing consumers with information about allergens and substances causing food intolerance.",
       "claim_type": "law",
@@ -292,15 +272,6 @@
       "source_url": "https://www.kolzchut.org.il/he/מגן_דוד_אדום_(מד\"א)",
       "source_fetched_at": "2026-08-09",
       "raw_snippet": "מגן דוד אדום בישראל הוא ארגון ההצלה הלאומי המוכר על ידי החוק בישראל, מראשית הקמת המדינה. מטרות הארגון: להוות שירות עזר לכוחות הרפואה של צה\"ל בעת מלחמה, ולהתכונן לכך בזמן שלום לספק שירותי עזרה ראשונה לטובת כלל התושבים לספק שירותי אגירת דם, פלסמה ומוצרי לוואי שלהם לטובת כלל התושבים להדריך בתחומי העזרה הראשונה והרפואה הדחופה, טרם האשפוז לקיים מערך מתנדבים שיוכשרו להגשת עזרה ראשונה וסעד חיים בסיסי ומתקדם להסיע חולים ויולדות להסיע רופאים, אחיות וכוחות עזר רפואיים לפנות נפגעי תאונות, פצועים, הרוגים ונפטרים תוכן עניינים פרטים אתר: לאתר טלפון: 101",
-      "confidence": "high"
-    },
-    {
-      "id": "btl-allergy-four-qualifying-events",
-      "claim": "Eligibility requires meeting the general conditions AND one of four alternative qualifying events: a food allergy event characterised by anaphylactic shock; a food allergy event expressed as an anaphylactic reaction meaning clinical response of two different body systems; a food allergy event expressed as shortness of breath characterised by a drop in oxygen saturation; or a food allergy event that required treatment with injected adrenaline (EpiPen).",
-      "claim_type": "feature",
-      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
-      "source_fetched_at": "2026-07-25T20:40:00Z",
-      "raw_snippet": "הזכאות לקצבה היא למי שעונה על תנאי הזכאות , ו על",
       "confidence": "high"
     },
     {
@@ -382,6 +353,237 @@
       "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
       "source_fetched_at": "2026-07-25T20:50:00Z",
       "raw_snippet": "תביעה לקצבת ילד נכה ( מילוי ושליחת תביעה באופן",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-allergy-fifth-qualifying-condition",
+      "claim": "The BTL allergy criterion has FIVE alternative qualifying conditions, the fifth being a standing allergist recommendation to carry an EpiPen, requiring no documented event",
+      "claim_type": "regulatory",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "קיימת המלצה מ\nרופא מומחה לאלרגיה, להצטיידות באופן קבוע במזרק אפיפן (או הנמקה להימנעות מהצטיידות במזרק אפיפן).",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-allergy-one-of-these-conditions",
+      "claim": "BTL frames the alternatives as 'and one of these conditions'",
+      "claim_type": "regulatory",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "הזכאות לקצבה היא למי שעונה על\nתנאי הזכאות\n, ו\nעל\nאחד\nמהתנאים האלה:",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-allowance-effective-2026",
+      "claim": "The 50% / 1,943 NIS amount is the amount effective 01.01.2026",
+      "claim_type": "currency",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "סכום הקצבה החל מ- 01.01.2026",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moe-0042-in-force",
+      "claim": "MoE standing instruction 0042 is in force from 21.11.2017 and has not been superseded",
+      "claim_type": "regulatory",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=51",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "הוראת קבע מס' 0042 - החלפה תאריך פרסום: ג' בכסלו תשע\"ח, 21 בנובמבר 2017 | הוראה תקפה מתאריך: 21.11.2017",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moe-0042-assistant-section-2-2-91",
+      "claim": "The medical-assistant criterion is section 2.2-91 of standing instruction עז/4(א), and the two prohibitions are stated in 0042 section 5.14 itself",
+      "claim_type": "regulatory",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=51",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "ראו בסעיף 2.2-91 בחוזר הוראות הקבע עז/4(א), \"סייעות רפואיות בחינוך הרגיל\"). עם זאת אין לחייב הורים להגיש בקשה לסיוע באמצעות הרשות המקומית, ואין למנוע מתלמיד להשתתף בפעילות חינוכית במוסד החינוכי או מטעמו בהיעדר סייעת, אף שהוא נמצא זכאי לסיוע.",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moe-0042-no-liability-waiver",
+      "claim": "Section 5.16 prohibits having parents sign documents assigning or releasing responsibility",
+      "claim_type": "regulatory",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=51",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "5.16 אין להחתים הורים על מסמכים המטילים על גורם זה או אחר אחריות לטיפול בילד או משחררים אותו מאחריות.",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moe-0042-no-compelled-parent-escort",
+      "claim": "Section 6.14(g) prohibits compelling parents to escort a trip or conditioning participation on it",
+      "claim_type": "regulatory",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=51",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "למען הסר ספק, אין לחייב הורים לצאת כמלווים ואין להתנות בכך את יציאתו של תלמיד לפעילות.",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moe-0042-staff-training-injector-practice",
+      "claim": "Section 6.4 requires annual staff training including practical hands-on use of the injector, and briefing of substitutes and temporary workers",
+      "claim_type": "regulatory",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=51",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "ההדרכה תכלול את הכרת מהות התופעה, דרכי המניעה, ניהול מצב של חשיפה והתנסות מעשית בשימוש במזרק. יש להעביר מידע לכל עובד הוראה מחליף, למדריך או לעובד זמני",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moe-0042-exceptional-incident-report",
+      "claim": "Section 6.11 requires reporting a reaction needing evacuation or injector use as an exceptional incident; a tzaharon reports to the local authority or operator",
+      "claim_type": "regulatory",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=51",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "יש לדווח  על האירוע כחריג במערכות שבהן בית הספר מדווח על אירועים חריגים. אם האירוע התרחש בצהרון, יש לדווח עליו לאגף החינוך ברשות המקומית או למפעיל הצהרון מטעם הרשות.",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moe-0042-101-dispatcher-guides",
+      "claim": "Section 5.13: the 101 dispatcher guides the person giving aid until medical help arrives",
+      "claim_type": "regulatory",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=51",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "בעת הפנייה אל מוקד 101 של מד\"א ינחה המוקדן את מגיש העזרה בביצוע הפעולות הנדרשות עד להגעת העזרה הרפואית.",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moe-0042-first-aid-per-doctor-sheet",
+      "claim": "Section 5.12: initial treatment without delay per the training and the doctor's instruction sheet, and in parallel call 101",
+      "claim_type": "regulatory",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=51",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "יש לתת לו טיפול ראשוני ללא דיחוי, בהתאם להדרכה שניתנה ובהתאם לדף ההנחיות של הרופא",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moe-0042-own-food-proportional-refund",
+      "claim": "Section 5.8: parents may supply the meal independently and have the proportional part of the payment deducted",
+      "claim_type": "regulatory",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=51",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "יש לאפשר להורי התלמיד הסובל מאלרגיות להביא את המזון לארוחה באופן עצמאי  ובהתאם לקזז מהתשלום את חלקו היחסי.",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moe-0042-pre-year-meeting-liaison",
+      "claim": "Section 6.2: a pre-year meeting ending in a written summary that names the institution-side contact for the parents",
+      "claim_type": "regulatory",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=51",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "במפגש תסוכם ההיערכות, וייקבע האחראי במוסד החינוכי או בצהרון לקשר עם ההורים.",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moe-0042-post-protocol-two-places",
+      "claim": "Section 6.9: the attack protocol and family phone numbers must be posted in the office and one further prominent place",
+      "claim_type": "regulatory",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=51",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "יש להציג ב מזכירות בית הספר או בגן הילדים או במקום שמרוכזת בו עבודת הצהרון, וב מקום ידוע ובולט נוסף, את נוהל הטיפול בתלמיד הסובל מאלרגיה בעת התקף ואת מספרי ה טלפו ן של בני משפח תו.",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moe-0042-vending-machines",
+      "claim": "Section 6.8: an allergen-clean institution may not sell allergen-containing products in vending machines",
+      "claim_type": "regulatory",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=51",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "אם המוסד החינוכי הוגדר כשטח נקי מאלרגן, לא יימכרו במכונות האוטומטיות מוצרים הכוללים את האלרגן.",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moh-allergen-transition-2028",
+      "claim": "Allergen-marking transition period runs until 1.1.2028; until then both pre-reform and EU-aligned formats may appear",
+      "claim_type": "regulatory",
+      "source_url": "https://www.gov.il/he/pages/02012025-01",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "החל מהיום ועד סיום תקופת ההערכות ב-1.1.2028, יתכן כי יהיו בדרכי השיווק מוצרים שיסומנו הן באופן המקובל לפני כניסת הרפורמה לתוקף והן בתצורה החדשה המקבילה לרגולציה האירופית.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moh-may-contain-unregulated",
+      "claim": "'עלול להכיל' is not expressly regulated by the EU marking rules and remains unchanged",
+      "claim_type": "regulatory",
+      "source_url": "https://www.gov.il/he/pages/02012025-01",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "הסימון \"עלול להכיל {שם אלרגן}״ אינו מוסדר באופן מפורש בתקנות הסימון האירופיות ולכן, הוא יישאר ללא שינוי.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "shamir-oit-contact",
+      "claim": "Shamir Medical Center food-allergy treatment contact numbers",
+      "claim_type": "contact",
+      "source_url": "https://www.shamir.org/clinic/foodallergyclinic/",
+      "source_fetched_at": "2026-08-26T19:00:31.874820+00:00",
+      "raw_snippet": "טלפון משרד המכון : 08-9779817 או 08-9772409 ... טלפון לטיפול באלרגיה למזון : 08-9779820 foodallergyait@gmail.com",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:00:31.874820+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "btl-disabled-child-rate-table",
+      "claim": "The disabled-child allowance has five rate levels effective 01.01.2026; 50% is 1,943 NIS",
+      "claim_type": "currency",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%92%D7%9E%D7%9C%D7%94.aspx",
+      "source_fetched_at": "2026-08-26T19:01:05.969065+00:00",
+      "raw_snippet": "סכום הקצבה החל מ- 01.01.2026 הקצבה מחושבת באחוזים מקצבת יחיד מלאה שסכומה 3,820 ש\"ח ישנן חמש רמות זכאות לקצבת ילד נכה: 50% - סכום הקצבה הוא 1,943 ש\"ח",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:01:05.969065+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moh-allergens-eu-1169-section-3a",
+      "claim": "The MoH allergen guidance implements EU Regulation 1169/2011 as adopted in Israel under section 3a of the Public Health Protection (Food) Law 5776-2015",
+      "claim_type": "regulatory",
+      "source_url": "https://www.gov.il/he/pages/allergens-guidance",
+      "source_fetched_at": "2026-08-26T19:01:05.969065+00:00",
+      "raw_snippet": "מטרת מדריך זה היא להבהיר את הדרישות המפורטות בתקנה מס' 1169/2011 בנושא מסירת מידע על מזון לצרכנים (להלן 'התקנה'), כפי שאומצה בישראל בהתאם לסעיף 3א לחוק הגנה על בריאות הציבור (מזון) התשע\"ו 2015-",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T19:01:05.969065+00:00",
+      "confidence": "high"
+    },
+    {
+      "id": "moe-0042-no-conditioning-attendance",
+      "claim": "Section 5.15 prohibits conditioning a student's participation in the institution or tzaharon on their food allergy or other health impairment",
+      "claim_type": "regulatory",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=51",
+      "source_fetched_at": "2026-08-26T19:22:15.964234+00:00",
+      "raw_snippet": "5.15 אין להתנות השתתפות תלמיד במסגרת המוסד החינוכי או בצהרון בשל היותו אלרגי למזון או בעל לקות בריאות אחרת.",
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T19:22:15.964234+00:00",
       "confidence": "high"
     }
   ]

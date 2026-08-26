@@ -1,0 +1,32 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-08-26",
+      "holdout_before": 0.67,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": ["בקשו ממני לחתום שאני מוותרת על תביעות בגלל האלרגיה של הבת שלי"],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "ביטוח לאומי דחה לי את התביעה על אלרגיה כי אין תיעוד של התקף",
+          "מה המינון של אפיפן לילד במשקל 20 קילו"
+        ]
+      },
+      "lessons": [
+        "ROOT CAUSE OF THE CYCLE: two separate enumerations in this skill were labelled by the wrong axis. (a) The BTL criterion has FIVE qualifying alternatives; the skill shipped four because the allergist EpiPen recommendation was filed as an evidence document rather than as the standalone qualifying route it also is. (b) While fixing that, the new domain-checklist row itself said 'FOUR prohibitions' by counting SECTIONS (5.14, 5.15, 5.16, 6.14g) when 5.14 contains two, so section 5.15 fell out of both SKILL files. Rule adopted: every checklist row that counts something must name the unit it counts.",
+        "The v1.0.0 domain-checklist recorded 'ALL FIVE sub-dimensions enumerated' while naming five DOCUMENTS, so the Expert gate anchored to it and passed. A checklist can launder the very error it exists to catch. Do not trust a checked row; re-derive the enumeration from the source.",
+        "The evidence gate extracted only 7 facts from this skill on both runs. On prose-and-citation skills a green gate is evidence of almost nothing: none of the section numbers, the age window, the 45-day window, the duration schedule, or the four/five split were ever extracted. Manual source reading is the real gate here.",
+        "'19-2.2' was a bidi digit-reversal artifact of reading the instruction from a PDF; the correct section is 2.2-91 and the HTML at apps.education.gov.il renders it correctly. When a Hebrew source is only available as PDF, cross-check every dotted identifier against an HTML rendering before publishing it.",
+        "[CARRY] Kupat cholim funding for adrenaline auto-injectors: how many are funded per year, the co-pay, and the route to an aishur rofe for additional injectors. v1.1.0 adds the three questions the family should ask but deliberately carries no figures, because no authoritative per-kupah source was reachable. Next cycle: source it per kupah or confirm it can only be answered by the kupah.",
+        "[CARRY] OIT: the Shamir waiting time, registration age, treatment age and health-basket status were all REMOVED in v1.1.0. They rested on a single self-dated 'late 2022' personal essay by the unit's retired former director, and the clinic's own page carries none of them. Do not reinstate any of the four without a primary source. Also still unresolved: whether OIT entered the 2025 or 2026 basket (no positive search was possible this cycle, WebSearch budget was exhausted).",
+        "[CARRY] Expert MAJOR deferred: overnight and multi-day school trips (who holds the injectors at night, briefing the accompanying medic, multi-day medication consent, field-school kitchen) are not covered. Distinct from the day-trip material already present.",
+        "[CARRY] Expert MAJOR deferred: the maon (ages 0-3) versus MoE gan distinction. The skill serves families from age 9 months but writes school-shaped asks and cites an MoE instruction that may not bind a maon. Establish the regulator split before the next accommodations-letter revision.",
+        "[CARRY] Expert MAJOR deferred: adult workplace accommodation under the disability equal-rights framework, and restaurant/food-service allergen disclosure (a different regime from the packaged-food rules, noted as out of scope in references/allergen-labelling.md). Also deferred: a Hebrew chef card, IDF service, self-carry of the injector at the age-10 transition, and allergy alert bracelets.",
+        "[CARRY] The BTL appeal deadline is named as existing but not quantified, because it was not verified against btl.gov.il this cycle. Source the number or keep pointing at the rejection letter.",
+        "SAFETY: the emergency action-plan card carried an unqualified 'lie the child down, raise the legs' instruction with no source and no exception for respiratory distress or vomiting, inside a card whose header claimed 'no medical judgement calls'. It now defers positioning and repeat-dosing to the treating physician's instruction sheet and the 101 dispatcher, and adds the no-injector-available branch, the do-not-leave-the-child rule (0042 6.13) and the evacuation rule. Never add a clinical rule to that card."
+      ]
+    }
+  ]
+}

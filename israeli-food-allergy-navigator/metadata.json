@@ -4,8 +4,8 @@
     "en": "Israeli Food Allergy Navigator"
   },
   "display_description": {
-    "he": "מה מגיע לילד עם אלרגיה מסכנת חיים למזון בישראל, ואיך מקבלים את זה בפועל. הסקיל מסביר מה הגן, בית הספר והצהרון חייבים לעשות לפי הוראת הקבע של משרד החינוך (שטח נקי מהאלרגן ושילוט בולט, תפריט מתוכנן מראש בחגים ובטיולים, תמיכה רגשית ואיסור החרגה), בונה את תיק ההורים לפתיחת השנה (הצהרת בריאות שנתית, מסמך מהאלרגולוג, שני מזרקי אפיפן בתוקף וטפסי מתן טיפול תרופתי), ומנסח את מכתב הבקשה למסגרת. הוא מפרט את תביעת ילד נכה בביטוח לאומי בשיעור 50% לגילי 9 חודשים עד 10 שנים ואת שלוש הראיות שצריך לאסוף, כולל התיעוד בזמן אמת שרוב המשפחות מפספסות. הוא גם מסביר את שתי הזכויות שבתי ספר הכי מרבים לטעות בהן בנושא סייעת רפואית. השתמשו בו לפני פתיחת שנה, כשמסגרת מסרבת לסידור, או לפני הגשת תביעה. לא מתאים לצליאק וגלוטן, לתכנון תפריט כללי, לאבחון רפואי או להמלצות על מינון.",
-    "en": "What a child with life-threatening food allergy is entitled to in Israel, and how to actually obtain it. The skill explains what the gan, school and tzaharon must do under the Ministry of Education standing instruction (allergen-free zone with prominent signage, menus planned in advance for holidays and trips, emotional support, no exclusion), builds the parent packet for the start of the school year (annual health declaration, allergist letter, two in-date EpiPens, medication-administration forms), and drafts the accommodation-request letter to the institution. It details the Bituach Leumi disabled-child claim for allergy at 50% for ages 9 months to 10 years and the three pieces of evidence required, including the real-time episode documentation most families miss. It also covers the two medical-assistant rights schools most often get wrong. Use it before the school year, when an institution refuses an arrangement, or before filing a claim. Do NOT use for celiac or gluten, general meal planning, clinical diagnosis, or medication dosing."
+    "he": "אינו ייעוץ רפואי ואינו אבחון. מה מגיע לילד עם אלרגיה מסכנת חיים למזון בישראל, ואיך מקבלים את זה בפועל. הסקיל מסביר מה הגן, בית הספר והצהרון חייבים לעשות לפי הוראת הקבע של משרד החינוך (שטח נקי מהאלרגן ושילוט בולט, תפריט מתוכנן מראש בחגים ובטיולים, תמיכה רגשית ואיסור החרגה), בונה את תיק ההורים לפתיחת השנה (הצהרת בריאות שנתית, מסמך מהאלרגולוג, שני מזרקי אפיפן בתוקף וטפסי מתן טיפול תרופתי), ומנסח את מכתב הבקשה למסגרת. הוא מפרט את תביעת ילד נכה בביטוח לאומי בשיעור 50% לגילי 9 חודשים עד 10 שנים ואת חמשת התנאים המזכים ואת הראיות שצריך לאסוף, כולל התיעוד בזמן אמת שרוב המשפחות מפספסות. הוא גם מסביר את חמשת האיסורים שבתי ספר הכי מרבים להפר. השתמשו בו לפני פתיחת שנה, כשמסגרת מסרבת לסידור, או לפני הגשת תביעה. לא מתאים לצליאק וגלוטן, לתכנון תפריט כללי, לאבחון רפואי או להמלצות על מינון.",
+    "en": "Not medical advice and not a diagnosis. What a child with life-threatening food allergy is entitled to in Israel, and how to actually obtain it. The skill explains what the gan, school and tzaharon must do under the Ministry of Education standing instruction (allergen-free zone with prominent signage, menus planned in advance for holidays and trips, emotional support, no exclusion), builds the parent packet for the start of the school year (annual health declaration, allergist letter, two in-date EpiPens, medication-administration forms), and drafts the accommodation-request letter to the institution. It details the Bituach Leumi disabled-child claim for allergy at 50% for ages 9 months to 10 years and the five qualifying alternatives and the evidence required, including the real-time episode documentation most families miss. It also covers the five prohibitions schools most often breach. Use it before the school year, when an institution refuses an arrangement, or before filing a claim. Do NOT use for celiac or gluten, general meal planning, clinical diagnosis, or medication dosing."
   },
   "tags": {
     "he": [
@@ -38,7 +38,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "health-services",
   "supported_agents": [
     "claude-code",
@@ -58,9 +58,21 @@
   "openclaw": true,
   "volatility": "annual",
   "authoritative_sources": [
-    { "url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx", "type": "regulator", "language": "he" },
-    { "url": "https://apps.education.gov.il/mankal/", "type": "regulator", "language": "he" },
-    { "url": "https://www.gov.il/he/pages/allergens-guidance", "type": "regulator", "language": "he" }
+    {
+      "url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/allergy.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://apps.education.gov.il/mankal/",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/pages/allergens-guidance",
+      "type": "regulator",
+      "language": "he"
+    }
   ],
-  "domain_checklist_version": 1
+  "domain_checklist_version": 2
 }
