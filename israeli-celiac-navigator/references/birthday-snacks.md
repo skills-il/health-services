@@ -21,12 +21,18 @@ in writing.
 **Never treat `כשר לפסח` as a gluten-free marking.** Kosher-for-Passover products are
 routinely made from matza flour, which is wheat. See Step 5 of the skill.
 
-For anything beyond a one-off party purchase, use the Celiac organisation's
-maintained food guide, which tracks thousands of products continuously. This file
+For anything beyond a one-off party purchase, use the Israeli Celiac Rights Organisation at <https://celiacrights.org.il>, which maintains
+consumer guidance continuously. This file
 cannot. Review this file at each skill update and re-verify any row a family relies
 on repeatedly.
 
-Compiled 2026-07-27.
+Compiled 2026-07-27. **Structure checked 2026-08-27. THIS IS NOT A FRESHNESS STAMP and the rows below are no fresher than their compilation date.** What that check consisted of, stated plainly so
+nobody mistakes it for more than it was: every row was checked to confirm it still carries its own
+per-row verification cell rather than relying on the caveat above (it does), and the labelling rule
+was re-verified against the Kol Zchut celiac page. **No individual product formulation was
+re-verified against a manufacturer**, because that is not obtainable from any source this pipeline
+can reach, and it is exactly what changes between reviews. Treat every row as a pointer to a pack
+you must still turn over.
 
 ## Savoury
 
@@ -84,7 +90,7 @@ regardless of how confident the person offering it is.
    attached.
 3. Never state that a named product is certified gluten-free. State that it appears on
    a community shortlist and that the marking on the pack decides.
-4. Point the family at the Celiac organisation's maintained food guide for anything
+4. Point the family at the Israeli Celiac Rights Organisation (https://celiacrights.org.il) for anything
    beyond a one-off party purchase.
 
 ## Sources

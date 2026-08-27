@@ -1,319 +1,611 @@
 {
   "skill_slug": "israeli-celiac-navigator",
   "schemaVersion": "1.0",
-  "generated_at": "2026-07-27T12:00:00Z",
+  "generated_at": "2026-08-27T17:45:09.064852+00:00",
   "claims": [
     {
-      "id": "gluten-free-diet-before-diagnosis-misleads",
       "claim": "A gluten-free diet before the disease is diagnosed by biopsy of the duodenal lining may mislead and make diagnosis more difficult.",
       "claim_type": "feature",
       "source_url": "https://www.schneider.org.il/?CategoryID=832&ArticleID=2439",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "תזונה ללא גלוטן בטרם אבחון המחלה בביופסיה של רירית התריסיון עשויה להטעות ולהקשות על האבחון.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "gluten-free-diet-before-diagnosis-misleads",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "eating-gluten-before-test",
       "claim": "Before the test, for several months, the child being tested eats a menu containing gluten, and gluten must not be avoided before the biopsy.",
       "claim_type": "feature",
       "source_url": "https://www.schneider.org.il/?CategoryID=832&ArticleID=2439",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "ואין להימנע מאכילת גלוטן לפני הביופסיה.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "eating-gluten-before-test",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "celiac-antibodies-iga",
       "claim": "The most sensitive antibodies for celiac are of the IgA group: antibodies against TTG and antibodies against endomysium.",
       "claim_type": "feature",
       "source_url": "https://www.schneider.org.il/?CategoryID=832&ArticleID=2439",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "הרגישים ביותר לצליאק הם מקבוצת IgA : נוגדנים כנגד",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "celiac-antibodies-iga",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "celiac-prevalence-one-percent",
       "claim": "The prevalence of celiac in adults and children reaches one percent of the population.",
       "claim_type": "percentage",
       "source_url": "https://www.schneider.org.il/?CategoryID=832&ArticleID=2439",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "השכיחות של צליאק במבוגרים ובילדים מגיעה לכדי אחוז אחד מהאוכלוסייה",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "celiac-prevalence-one-percent",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "gluten-containing-grains",
       "claim": "Leumit lists oats products (quaker, granola, oat matza, oat bran) among the grains to avoid, alongside barley, rye and wheat.",
       "claim_type": "feature",
       "source_url": "https://www.leumit.co.il/nutrition/celiac-nutrition-without-gluten/",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "שיבולת שועל: קוואקר,",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "gluten-containing-grains",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "kosher-for-passover-not-gluten-free",
       "claim": "Products kosher for Passover that do not contain matza flour or Passover flour are suitable for celiac. Not everything kosher for Passover is suitable for people with celiac, for example matza flour.",
       "claim_type": "feature",
       "source_url": "https://www.leumit.co.il/nutrition/celiac-nutrition-without-gluten/",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "והמוצרים הכשרים לפסח שאינם מכילים קמח מצה או קמח פסח כשרים לצליאק. חשוב לשים לב שלא כל הכשר לפסח מתאים לאנשים עם צליאק, לדוגמת קמח מצה.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "kosher-for-passover-not-gluten-free",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "cross-contamination-harvest-milling",
       "claim": "There is concern about contamination with gluten-containing grains during harvest or milling.",
       "claim_type": "feature",
       "source_url": "https://www.leumit.co.il/nutrition/celiac-nutrition-without-gluten/",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "יש חשש מפני זיהום עם דגנים מכילי גלוטן בעת הקציר או הטחינה",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "cross-contamination-harvest-milling",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "education-institutions-must-provide-alternatives",
       "claim": "Educational institutions are obliged to provide suitable substitutes for students with celiac in every educational activity, inside the institution or outside it. Institutions where food products are supplied or sold must also ensure an offering of gluten-free food for students with celiac.",
       "claim_type": "feature",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "מוסדות חינוך מחויבים לדאוג לתחליפים מתאימים עבור תלמידים חולי צליאק בכל פעילות חינוכית, במוסד החינוכי או מחוצה לו. מוסדות חינוך שמסופקים או נמכרים בהם מוצרי מזון, חייבים להבטיח גם היצע של מזון ללא גלוטן עבור תלמידים חולי צליאק.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "education-institutions-must-provide-alternatives",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "education-portions-colour-coded",
       "claim": "Food portions intended for students with celiac must be packaged in a different colour and marked with special prominent marking. Parents are responsible for passing accurate information about their child's health condition to the educational team before the start of the year.",
       "claim_type": "feature",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "מנות מזון שמיועדות לתלמידים חולי צליאק צריכות להיות ארוזות בצבע שונה ומסומנות בסימון מיוחד ובולט. ההורים אחראים להעביר לצוות החינוכי מידע מדויק על מצבו הבריאותי של ילדם לפני תחילת השנה.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "education-portions-colour-coded",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "gluten-labelling-requirement",
       "claim": "On every food product sold in Israel that contains gluten, the ingredient list must show the name of the plant that is the source of the gluten and the words 'contains gluten', so that celiac patients know to avoid the product.",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "על כל מוצר מזון הנמכר בישראל אשר מכיל גלוטן, צריך להופיע ברשימת הרכיבים במזון שם הצמח מקור הגלוטן והמלים",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "gluten-labelling-requirement",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "idf-profile-97",
       "claim": "Celiac patients receive a regular enlistment medical profile together with a celiac clause, meaning that if there are no medical limitations besides the celiac they receive profile 97 with a celiac clause.",
       "claim_type": "threshold",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "חולי צליאק מקבלים פרופיל רפואי של גיוס רגיל, יחד עם סעיף צליאק (כלומר, אם אין מגבלות רפואיות מלבד הצליאק, יקבלו חולי הצליאק פרופיל 97, עם סעיף צליאק).",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "idf-profile-97",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "idf-unit-exclusions",
       "claim": "Celiac patients cannot enlist to the commando brigade, the paratroopers and the submarine flotilla, because in emergency situations it will not be logistically possible to supply them suitable food. Celiac patients cannot enlist to reconnaissance units apart from pilot, naval officers and naval combat.",
       "claim_type": "feature",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "חולי צליאק לא יכולים להתגייס לחטיבת הקומנדו, הצנחנים ושייטת הצוללות, משום שבמצבי חירום לא יתאפשר מבחינה לוגיסטית לספק להם מזון מתאים. חולי צליאק לא יכולים להתגייס לסיירות מלבד טייס, חובלים ולחימה ימית.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "idf-unit-exclusions",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "idf-food-stipend-varies",
       "claim": "Celiac patients are entitled to receive a food stipend for purchasing food, in addition to the nutritional response in military dining halls. The amount of the food stipend may change from time to time and is affected by the type of service, open base or closed base.",
       "claim_type": "currency",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "חולי צליאק זכאים לקבל דמי כלכלה לרכישת מזון, בנוסף למענה התזונתי בחדרי האוכל הצבאיים. סכום דמי הכלכלה עשוי להשתנות מעת לעת ומושפע מסוג השירות (בסיס פתוח או סגור).",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "idf-food-stipend-varies",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "material-assistance-working-age",
       "claim": "Celiac patients up to retirement age who are known to and treated by the social services department, and who purchase medicinal or dedicated food on a physician's recommendation, may be eligible for funding assistance. The assistance is given through the social services department, subject to budget limits and the priorities set in each local authority.",
       "claim_type": "feature",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "חולי צליאק (עד גיל פרישה) שמוכרים ומטופלים על-ידי המחלקה לשירותים חברתיים, הרוכשים מזון תרופתי/ייעודי על-פי המלצת רופא עשויים להיות זכאים לסיוע במימון. הסיוע ניתן באמצעות המחלקה לשירותים חברתיים, בכפוף למגבלות התקציב ולסדרי העדיפות שנקבעו בכל רשות מקומית.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "material-assistance-working-age",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "material-assistance-seniors",
       "claim": "Celiac patients who have reached retirement age and need special nutrition on the basis of a physician's recommendation may be eligible for funding assistance.",
       "claim_type": "feature",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "חולי צליאק שהגיעו ל גיל פרישה וזקוקים לתזונה מיוחדת על סמך המלצת רופא, עשויים להיות זכאים לסיוע במימון.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "material-assistance-seniors",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "medication-alternative-right",
       "claim": "When a celiac patient needs drug treatment but the drug treatment in the health basket is not suitable for celiac patients, there is a right to receive a suitable alternative.",
       "claim_type": "feature",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "כאשר חולה צליאק זקוק לטיפול תרופתי אולם הטיפול התרופתי שנמצא ב סל הבריאות איננו מתאים לחולי צליאק, קיימת זכות לקבלת חלופה מתאימה.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "medication-alternative-right",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "celiac-absent-from-btl-impairment-list",
       "claim": "Celiac does not appear as a named qualifying impairment on the Bituach Leumi disabled-child impairment list, which does name allergy as a criterion.",
       "claim_type": "url",
       "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/default.aspx",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "אלרגיה",
       "confidence": "medium",
       "verified_via": "browser",
-      "verified_at": "2026-07-26"
+      "verified_at": "2026-07-26",
+      "claim_id": "celiac-absent-from-btl-impairment-list",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "govt-helplines",
       "claim": "Government contact points listed for celiac patients include Kol HaBriut of the Ministry of Health at *5400, Bituach Leumi at *6050, and Yad Machvana at *2496.",
       "claim_type": "threshold",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
-      "source_fetched_at": "2026-07-26T09:00:00Z",
       "raw_snippet": "*5400 ביטוח לאומי אתר *6050 יד מכוונת (ביטוח לאומי) אתר *2496",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "govt-helplines",
+      "fetched_at": "2026-07-26T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "iga-deficiency-caveat",
       "claim": "Because these antibodies are of the IgA type, in a state of IgA deficiency, which is more common in celiac patients, the serology can be affected.",
       "claim_type": "feature",
       "source_url": "https://www.schneider.org.il/?CategoryID=832&ArticleID=2439",
-      "source_fetched_at": "2026-07-26T09:20:00Z",
       "raw_snippet": "מאחר שנוגדנים אילו הינם מסוג IgA , במצב של חסר IgA",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "iga-deficiency-caveat",
+      "fetched_at": "2026-07-26T09:20:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "israeli-prevalence-study",
       "claim": "An Israeli study by Prof. Raanan Shamir, Prof. Avraham Elikim, Prof. Aharon Lerner, Prof. Shenar and colleagues found a prevalence of at least 1:157, and this is apparently an underestimate of the disease prevalence.",
       "claim_type": "threshold",
       "source_url": "https://www.schneider.org.il/?CategoryID=832&ArticleID=2439",
-      "source_fetched_at": "2026-07-26T09:20:00Z",
       "raw_snippet": "נתגלתה שכיחות של 1:157",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "israeli-prevalence-study",
+      "fetched_at": "2026-07-26T09:20:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "repeat-biopsy-conditions",
       "claim": "A further biopsy is required when the first diagnosis was not certain, or was made before age two.",
       "claim_type": "feature",
       "source_url": "https://www.schneider.org.il/?CategoryID=832&ArticleID=2439",
-      "source_fetched_at": "2026-07-26T09:20:00Z",
       "raw_snippet": "כאשר האבחנה הראשונה לא הייתה ודאית, או שנעשתה לפני גיל שנתיים, יש לבצע בדיקה נוספת.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "repeat-biopsy-conditions",
+      "fetched_at": "2026-07-26T09:20:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "medication-wheat-starch-check",
       "claim": "For medications, it is necessary to check whether the drug contains flour or starch originating from wheat.",
       "claim_type": "feature",
       "source_url": "https://www.leumit.co.il/nutrition/celiac-nutrition-without-gluten/",
-      "source_fetched_at": "2026-07-26T09:20:00Z",
       "raw_snippet": "יש לברר אם התרופה מכילה קמח או עמילן שמקורו בחיטה.",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "medication-wheat-starch-check",
+      "fetched_at": "2026-07-26T09:20:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "label-reading-and-manufacturer-confirmation",
       "claim": "Practical guidance is to read food labels and to clarify with the manufacturer that the product does not contain gluten, obtaining confirmation in writing.",
       "claim_type": "feature",
       "source_url": "https://www.leumit.co.il/nutrition/celiac-nutrition-without-gluten/",
-      "source_fetched_at": "2026-07-26T09:20:00Z",
       "raw_snippet": "לקרוא תויות מזון לברר עם היצרן שהמוצר אינו מכיל גלוטן",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "label-reading-and-manufacturer-confirmation",
+      "fetched_at": "2026-07-26T09:20:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "moh-allergen-guidance-celiac",
       "claim": "The Ministry of Health publishes binding guidance on providing consumers with information about allergens and substances causing hypersensitivity, which governs current labelling requirements.",
       "claim_type": "url",
       "source_url": "https://www.gov.il/he/pages/allergens-guidance",
-      "source_fetched_at": "2026-07-27T12:00:00Z",
       "raw_snippet": "מדריך בנושא מסירת מידע לצרכנים בקשר לאלרגנים ולחומרים הגורמים לאי סבילות במזון",
       "verified_via": "browser",
       "verified_at": "2026-07-27T12:00:00Z",
-      "confidence": "medium"
+      "confidence": "medium",
+      "claim_id": "moh-allergen-guidance-celiac",
+      "fetched_at": "2026-07-27T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "kolzchut-portal",
       "claim": "Kol-Zchut (All Rights) publishes the consolidated Israeli rights page for celiac.",
       "claim_type": "url",
       "source_url": "https://www.kolzchut.org.il",
-      "source_fetched_at": "2026-07-26T09:40:00Z",
       "raw_snippet": "כל זכות",
       "verified_via": "browser",
       "verified_at": "2026-07-26",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "kolzchut-portal",
+      "fetched_at": "2026-07-26T09:40:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "bisli-wheat-flour-leading-ingredient",
       "claim": "Bisli is a wheat-flour snack; wheat flour containing gluten is the leading ingredient at roughly 80 to 85 percent of the product.",
       "claim_type": "fact",
       "source_url": "https://www.foodsdictionary.co.il/Products/4/%D7%91%D7%99%D7%A1%D7%9C%D7%99%20%D7%91%D7%98%D7%A2%D7%9D%20%D7%92%D7%A8%D7%99%D7%9C",
-      "source_fetched_at": "2026-07-27T12:00:00Z",
       "raw_snippet": "קמח חיטה (מכיל גלוטן) (84%)",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "bisli-wheat-flour-leading-ingredient",
+      "fetched_at": "2026-07-27T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "gluten-containing-snack-categories",
       "claim": "Cakes, cookies, wafers, Pesek Zman and Kif Kif contain gluten, as do flour-based snacks such as Bisli and Kabukim.",
       "claim_type": "fact",
       "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
-      "source_fetched_at": "2026-07-27T12:00:00Z",
       "raw_snippet": "עוגות, עוגיות, וופלים, פסק זמן, כיף כיף ... חטיפים המכילים קמח כמו ביסלי וקבוקים",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "gluten-containing-snack-categories",
+      "fetched_at": "2026-07-27T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "labelling-duty-gluten-source-in-ingredients",
       "claim": "Israeli Ministry of Health rules require a product containing gluten to state so and to name its source in the ingredient list.",
       "claim_type": "regulation",
       "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
-      "source_fetched_at": "2026-07-27T12:00:00Z",
       "raw_snippet": "לפי תקנות משרד הבריאות חובה לציין כי המוצר מכיל גלוטן ואת מקורו ברשימת הרכיבים",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "labelling-duty-gluten-source-in-ingredients",
+      "fetched_at": "2026-07-27T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "osem-marked-gluten-free-beigele-line",
       "claim": "Osem sells a beigele line explicitly marked gluten-free alongside its regular beigele, so only the marked pack is suitable.",
       "claim_type": "fact",
       "source_url": "https://www.shufersal.co.il/online/he/p/P_7290112967138",
-      "source_fetched_at": "2026-07-27T12:00:00Z",
       "raw_snippet": "בייגלה שמיניות ללא גלוטן",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "osem-marked-gluten-free-beigele-line",
+      "fetched_at": "2026-07-27T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "schar-sold-outside-standard-snack-aisle",
       "claim": "Schaer gluten-free products are widely stocked in Israel, including Nitzat HaDuvdevan, Anis and the large supermarket chains.",
       "claim_type": "fact",
       "source_url": "https://lelogluten.schaer.com/travels/היכן-לקנות-מוצרי-שר-בישראל.html",
-      "source_fetched_at": "2026-07-27T12:00:00Z",
       "raw_snippet": "ניצת הדובדבן",
-      "confidence": "medium"
+      "confidence": "medium",
+      "claim_id": "schar-sold-outside-standard-snack-aisle",
+      "fetched_at": "2026-07-27T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "birthday-snack-shortlist-is-community-sourced",
       "claim": "The named product shortlist in references/birthday-snacks.md is a parents' community list compiled 2026-07-27, not manufacturer certification, and the marking on the pack decides.",
       "claim_type": "provenance",
       "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
-      "source_fetched_at": "2026-08-09",
       "raw_snippet": "לשם כך יש לבדוק האם רשום על גבי האריזה באופן מפורש",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "birthday-snack-shortlist-is-community-sourced",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "celiacrights-home",
       "claim": "Celiac Rights Organisation site, the patient organisation whose gluten-free nutrition guidance this skill cites.",
       "claim_type": "reference",
       "source_url": "https://celiacrights.org.il",
-      "source_fetched_at": "2026-07-27T12:00:00Z",
       "raw_snippet": "ארגון זכויות הצליאק",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "celiacrights-home",
+      "fetched_at": "2026-07-27T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "common-gluten-containing-party-items",
       "claim": "Wafer, biscuit and cake based party items commonly contain gluten; the skill lists them as items to treat as unsuitable unless the pack says otherwise, rather than as verified per-product facts.",
       "claim_type": "fact",
       "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
-      "source_fetched_at": "2026-07-27T12:00:00Z",
       "raw_snippet": "עוגות, עוגיות, וופלים, פסק זמן, כיף כיף",
-      "confidence": "medium"
+      "confidence": "medium",
+      "claim_id": "common-gluten-containing-party-items",
+      "fetched_at": "2026-07-27T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "id": "schaer-il-retail-index",
       "claim": "Schaer Israel publishes an index of the retail chains stocking its products.",
       "claim_type": "reference",
       "source_url": "https://lelogluten.schaer.com/travels",
-      "source_fetched_at": "2026-07-27T12:00:00Z",
       "raw_snippet": "הכנו עבורכם את רשימת הרשתות בהן ניתן להשיג את מוצרינו",
-      "confidence": "high"
+      "confidence": "high",
+      "claim_id": "schaer-il-retail-index",
+      "fetched_at": "2026-07-27T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "celiac-presentations-wide",
+      "claim": "Recognised celiac presentations include anaemia, delayed sexual development, abdominal pain, vomiting, diarrhoea or constipation, mouth ulcers, dental enamel defects, joint inflammation, association with other autoimmune conditions including diabetes, and behavioural presentations including depression, hyperactivity and poor school performance. A disturbance in liver enzymes can be the ONLY presentation.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
+      "raw_snippet": "החולים עשויים להראות תסמינים שונים כגון אנמיה, איחור בהתפתחות המינית, כאבי בטן, הקאות, שלשולים או עצירות, קשר למחלות אוטואימוניות אחרות כולל סוכרת, הפרעה באנזימי כבד (שיכולה להיות ההסתמנות היחידה לצליאק)",
+      "fetched_at": "2026-08-27T17:36:33.389192+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "celiac-not-only-childhood",
+      "claim": "Celiac was formerly considered a childhood disease; as awareness rises more patients are diagnosed, including adults.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
+      "raw_snippet": "בעבר, מחלת הצליאק נחשבה כמחלת ילדות. ככל שעולה המודעות למחלה ולתסמיניה, יותר חולים מאובחנים, בהם חולים מבוגרים.",
+      "fetched_at": "2026-08-27T17:36:33.389192+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "idf-open-roles-named",
+      "claim": "Celiac patients can enlist in many field units in combat and combat-support roles, the source naming pilots, naval combatant (boys) and recruit-squad commander among them.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
+      "raw_snippet": "חולי צליאק יכולים להתגייס ליחידות שדה רבות, בתפקידי לוחמים ותומכי לחימה, בהם טייסים/ות, לוחם ימי (בנים), מפקד/ת כיתת טירונים, ועוד.",
+      "fetched_at": "2026-08-27T17:36:33.389192+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "idf-excluded-units",
+      "claim": "Celiac patients cannot enlist in the commando brigade, the paratroopers or the submarine flotilla because suitable food cannot logistically be supplied in emergencies, and cannot enlist in reconnaissance units other than pilot, naval officer and naval combat.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
+      "raw_snippet": "חולי צליאק לא יכולים להתגייס לחטיבת הקומנדו, הצנחנים ושייטת הצוללות, משום שבמצבי חירום לא יתאפשר מבחינה לוגיסטית לספק להם מזון מתאים.",
+      "fetched_at": "2026-08-27T17:36:33.389192+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "idf-profile-97-clause",
+      "claim": "Celiac patients receive a regular enlistment medical profile with a celiac clause; absent other medical limitations that is profile 97 with a celiac clause.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
+      "raw_snippet": "אם אין מגבלות רפואיות מלבד הצליאק, יקבלו חולי הצליאק פרופיל 97, עם סעיף צליאק",
+      "fetched_at": "2026-08-27T17:36:33.389192+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "education-entitlement-marking",
+      "claim": "Educational institutions must provide suitable substitutes for celiac pupils in every educational activity, inside the institution or outside it; where food is supplied or sold they must also ensure a gluten-free offering; and portions intended for celiac pupils must be packed in a different colour and marked with a special, prominent marking. Parents are responsible for giving the education team accurate information about the child's health before the year starts.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
+      "raw_snippet": "מנות מזון שמיועדות לתלמידים חולי צליאק צריכות להיות ארוזות בצבע שונה ומסומנות בסימון מיוחד ובולט. ההורים אחראים להעביר לצוות החינוכי מידע מדויק על מצבו הבריאותי של ילדם לפני תחילת השנה.",
+      "fetched_at": "2026-08-27T17:36:33.389192+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "gluten-labelling-rule",
+      "claim": "On every food product sold in Israel that contains gluten, the ingredient list must show the name of the plant that is the source of the gluten and the words 'מכיל גלוטן', so celiac patients know to avoid the product.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
+      "raw_snippet": "על כל מוצר מזון הנמכר בישראל אשר מכיל גלוטן, צריך להופיע ברשימת הרכיבים במזון שם הצמח מקור הגלוטן והמלים \"מכיל גלוטן\", כדי שחולי צליאק ידעו להימנע מהמוצר.",
+      "fetched_at": "2026-08-27T17:36:33.389192+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/birthday-snacks.md"
+      ]
+    },
+    {
+      "claim_id": "gluten-free-20ppm-threshold",
+      "claim": "Food containing up to 20 PPM of gluten is considered gluten-free and permitted to eat. Verified by rendering the page in a browser on 27 August 2026 with location.href asserted; curl is redirected to the host's abuse page, so this source needs the browser. NOTE for the next cycle: celiacrights.org.il 302-redirects plain fetches to the hosting provider abuse page but renders normally in a browser. Do NOT record it as a dead link on the strength of a curl result; that was nearly written up as a broken-link CRITICAL this cycle.",
+      "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
+      "raw_snippet": "מזון המכיל “עד PPM 20 הוא מזון הנחשב ללא גלוטן ומותר לאכילה.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T17:45:09.064852+00:00",
+      "fetched_at": "2026-08-27T17:45:09.064852+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "absence-of-contains-gluten-not-clearance",
+      "claim": "The Health Ministry regulations are not clear: where 'מכיל גלוטן' does not appear, that does not establish that the food is permitted, that it was produced in sterile conditions, or that there is no secondary contamination. The method is to look for an explicit 'אינו מכיל גלוטן' on the pack and to check the allergens list for 'מכיל או עלול להכיל גלוטן'.",
+      "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
+      "raw_snippet": "יחד עם זאת, התקנות אינן ברורות. במידה ולא מופיע “מכיל גלוטן” האם הדבר אומר כי המזון  מותר למאכל, האם  ייצורו נעשה בתנאים סטריליים ואין זיהום משני",
+      "fetched_at": "2026-08-27T17:45:09.064852+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T17:45:09.064852+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "when-in-doubt-do-not-consume",
+      "claim": "Where doubt remains, the product should not be consumed until it has been checked.",
+      "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
+      "raw_snippet": "במידה וקיים ספק – אין לצרוך את המוצר עד לבדיקתו.",
+      "fetched_at": "2026-08-27T17:45:09.064852+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T17:45:09.064852+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "home-kitchen-cross-contamination",
+      "claim": "Gluten-free food should be prepared separately from gluten-containing food on a completely clean surface, gluten-free first and gluten-containing last; wooden utensils and boards used with gluten-containing food must not be used; and dry gluten-free foods should be stored on separate shelves and in separate packaging.",
+      "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
+      "raw_snippet": "יש להקפיד על הכנת המזון ללא גלוטן בנפרד ממזונות המכילים גלוטן ולעבוד על משטח עבודה נקי לחלוטין. מומלץ להכין תחילה את המזון ללא גלוטן, ורק בסיום הכנתו להכין מזון המכיל גלוטן",
+      "fetched_at": "2026-08-27T17:45:09.064852+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T17:45:09.064852+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "no-wooden-utensils",
+      "claim": "Wooden utensils such as spoons or a cutting board that have been used with gluten-containing food must not be used for gluten-free food.",
+      "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
+      "raw_snippet": "אין להשתמש בכלים מעץ (כמו כפות או קרש חיתוך), אשר בשימוש למזונות המכילים גלוטן.",
+      "fetched_at": "2026-08-27T17:45:09.064852+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T17:45:09.064852+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "trace-gluten-still-damages",
+      "claim": "Food that may contain gluten above 20 ppm must not be consumed, because even minute quantities can damage the intestinal lining and carry long-term health consequences. The threshold is therefore not a tolerance to spend.",
+      "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
+      "raw_snippet": "אין לצרוך מזונות אשר עשויים להכיל גלוטן (מעל ppm20) משום שגם כמויות מזעריות עלולות לגרום נזק לרירית המעי וכן להשלכות בריאותיות ארוכות טווח",
+      "fetched_at": "2026-08-27T17:52:54.068622+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T17:52:54.068622+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }

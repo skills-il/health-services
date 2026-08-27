@@ -6,7 +6,9 @@
       "holdout_before": 0.67,
       "holdout_after": 1.0,
       "buckets": {
-        "improved": ["Birthday party at school tomorrow, which packaged snacks can my celiac daughter eat, is Bisli OK?"],
+        "improved": [
+          "Birthday party at school tomorrow, which packaged snacks can my celiac daughter eat, is Bisli OK?"
+        ],
         "regressed": [],
         "persistent_fail": [],
         "stable_success": [
@@ -22,6 +24,28 @@
         "Expert MINOR deferred: unpackaged food is handled in prose but is not a fourth row in the tier table, so an agent quoting only the table presents a three-way sort with no slot for the homemade cake.",
         "Discretionary edits deferred over the Phase 4.1 cap: age-graded self-advocacy guidance for older children, and deep-linking the reference file's Sources table to per-product manufacturer pages.",
         "The frontmatter description is at exactly the 1024-character validator ceiling. Any future addition requires removing something; the HE and EN descriptions drifted apart this cycle and had to be re-synced."
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-08-27",
+      "lessons": [
+        "LEGAL GATE WAS FAILING AT HEAD. verify_legal.py returned REVIEW at level 3 with 'SKILL.md is missing ## Legal notice' and the Hebrew equivalent missing too. The skill had a strong '## Critical Disclaimer' but not the section heading the site's renderer and the gate both key on, so the notice was never rendering above the fold on the skill page. Added '## Legal notice' and '## הבהרה משפטית' immediately after the H1, built on the nine-component structure and pointed at the right professions (physician, paediatric gastroenterologist, registered dietitian), and prefixed both descriptions and both display_descriptions with the short clause. Gate now clean.",
+        "The description was at the ceiling and the legal prefix pushed it over: 1,045 characters against the 1,023 limit, which Gemini Spark rejects. Trimmed to 1,020 by removing three redundant words with no trigger phrase touched. My first trim introduced a colon-space and broke the YAML frontmatter, which the validator caught; that is the exact trap the house rules warn about and it took one attempt to hit it.",
+        "NEW SECTION, and the gap was structural: a navigator whose headline advice is 'get tested before changing the diet' never said what would make anyone suspect celiac in the first place. Added Step 0.5 with the recognised presentations from Kol Zchut, including the one that matters most, that a disturbance in liver enzymes can be the ONLY presentation, and the point that celiac is no longer a childhood-only diagnosis so an adult presentation is not a reason to dismiss the question.",
+        "A CONFIDENT NEGATIVE NEEDED ITS POSITIVE. The IDF section listed the closed units precisely and summarised the open ones as 'many field units', when the source names pilot, naval combatant (boys) and recruit-squad commander. For an anxious seventeen-year-old the named open roles are the reassuring half and they were the half left out.",
+        "CARRY CLOSED: unpackaged food is now a fourth ROW in the tier table rather than prose underneath it, so an agent quoting only the table still has a slot for the homemade cake.",
+        "EVIDENCE SCHEMA normalized to canonical keys (id -> claim_id, source_fetched_at -> fetched_at). The file was not fully inert (it had raw_snippet and source_url) but it was not canonical either. --check-sources now reports 35 verified against live sources with zero failures across 42 entries.",
+        "birthday-snacks.md re-reviewed as the log requires. Every row still carries its own per-row verification cell, which was the v1.1.0 fix and it held. The review date is now stamped WITH a statement of what the review actually consisted of, because no individual product formulation was re-verified against a manufacturer and that is precisely what changes between cycles.",
+        "CARRY (re-logged): display_description.en is 1,254 characters. That is a site field rather than the frontmatter the Spark limit governs, so it does not fail any gate today, but it is long enough to truncate in a card and is worth shortening.",
+        "CARRY (re-logged from v1.1.0): age-graded self-advocacy guidance for older children, and deep-linking the reference file's Sources table to per-product manufacturer pages.",
+        "CARRY CLOSED WITH A NUMBER, and the number was already inside the skill's own evidence file. The 'ללא גלוטן' threshold has been deferred since v1.1.0 as unsourceable. It is 20 PPM, stated plainly by the Israeli Celiac Rights Organisation on a page this skill ALREADY cited for three other claims. I had first closed the carry 'honestly' by writing that the skill does not carry the number; the Judge pointed at the existing citation. Before declaring a fact unobtainable, read the sources already in the evidence file.",
+        "AND the more important half arrived with it: the same source says the Health Ministry regulations are NOT clear, so the ABSENCE of 'מכיל גלוטן' does not establish that a product is clean or free of secondary contamination. The method is an explicit clearance marking plus the allergens line, and where doubt remains, do not consume until checked. A skill that taught 'read for מכיל גלוטן' was teaching half a rule.",
+        "I NEARLY FILED A FALSE BROKEN-LINK CRITICAL. celiacrights.org.il 302-redirects plain fetches to its host's abuse page, which looks exactly like a suspended domain, and this skill cites it four times and routes families to it as the durable alternative to an ageing product list. It renders perfectly in a browser. The Phase 3f rule about retrying a curl-level block in a browser before flagging is what stopped a live, working, safety-relevant source from being torn out of a health skill.",
+        "EXPERT: the rights half was complete and the CARE half barely existed. No kupat cholim dietitian anywhere except inside the disclaimer naming who had NOT reviewed the output, in a condition whose entire treatment is the diet. No first-degree relative screening, no follow-up serology, no growth monitoring. Added as Step 2.5, framed strictly as referrals to ASK FOR, with an explicit instruction that intervals, targets and screening ages belong to the physician and dietitian.",
+        "EXPERT: wheat-flour play dough. For a skill aimed at pre-schoolers this is the most common chronic-exposure route after food itself, and the education request named only food, so a parent following the skill exactly left the dough table where it was. Added to the gan section.",
+        "EXPERT: Step 1 forbade designing a gluten challenge while supplying its duration and its imperative ('several months', 'gluten must not be avoided'). That is the one place the skill argued with itself about the line it exists to hold. Reframed so the standard pathway is described without handing a family a protocol to run on their own child.",
+        "PROCESS: my birthday-snacks 'Reviewed 2026-08-27' stamp raised apparent freshness without raising truth, since the review confirmed only that the per-row caveat cells still exist. Retitled 'Structure checked' with an explicit THIS IS NOT A FRESHNESS STAMP line. A dated stamp on a file of named products is read as currency whatever the small print says."
       ]
     }
   ]
