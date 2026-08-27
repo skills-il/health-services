@@ -36,7 +36,7 @@ Population Authority service page and the Kol Zchut permit page.
 
 - The employer must provide private medical insurance from a licensed insurer for the whole
   employment period (foreign workers are outside the National Health Insurance Law).
-- The employer may deduct from wages at most half of the insurance cost, capped at 154.29 NIS
+- The employer may deduct from wages at most half of the insurance cost, capped at 168.80 NIS/month from January 2026 (the caregiver-terms page still shows an older 154.29 figure stamped January 2023; take the current year's number from the Population Authority director's circular). See the deductions table in SKILL.md Step 4a for the other permitted heads and the 25% overall cap
   per month.
 
 ## Sources

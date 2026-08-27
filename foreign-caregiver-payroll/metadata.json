@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "category": "health-services",
   "tags": {
     "he": [
@@ -29,8 +29,8 @@
     "en": "Foreign Caregiver Payroll & Employment (Israel)"
   },
   "display_description": {
-    "he": "מלווה משפחות בהעסקה חוקית של מטפל סיעודי זר בבית, ומחשב כמה זה באמת עולה בחודש. מסביר את היתר רשות האוכלוסין והלשכה הפרטית, שכר מינימום, ביטוח לאומי (3.6%), הפרשות פנסיה ופיצויים, דמי הבראה, ימי חופשה וימי חג לפי מדינת המוצא, ואיך גמלת הסיעוד מקזזת את העלות. כדאי כשפותחים תיק מעסיק או בודקים אם משלמים נכון. לא מיועד למטפל שמועסק על ידי חברת סיעוד או למטפל ישראלי.",
-    "en": "Guides Israeli families through legally employing a foreign nursing caregiver at home and computes the true monthly cost. Covers the Population Authority permit and licensed bureau, minimum wage, National Insurance (3.6%), pension and severance, recuperation pay, annual leave, and holidays by the worker's country of origin, plus how the Bituach Leumi long-term-care benefit offsets the cost. Use when opening an employer file or checking you pay correctly. Do NOT use for caregivers employed by a care company or for Israeli caregivers."
+    "he": "אינו ייעוץ משפטי ואינו חישוב שכר מחייב. מלווה משפחות בהעסקה חוקית של מטפל סיעודי זר בבית, ומחשב כמה זה באמת עולה בחודש. מסביר את היתר רשות האוכלוסין והלשכה הפרטית, שכר מינימום, ביטוח לאומי (3.6%), הפרשות פנסיה ופיצויים, דמי הבראה, ימי חופשה וימי חג לפי מדינת המוצא, ואיך גמלת הסיעוד מקזזת את העלות. כדאי כשפותחים תיק מעסיק או בודקים אם משלמים נכון. לא מיועד למטפל שמועסק על ידי חברת סיעוד או למטפל ישראלי.",
+    "en": "Not legal advice and not a binding payroll calculation. Guides Israeli families through legally employing a foreign nursing caregiver at home and computes the true monthly cost. Covers the Population Authority permit and licensed bureau, minimum wage, National Insurance (3.6%), pension and severance, recuperation pay, annual leave, and holidays by the worker's country of origin, plus how the Bituach Leumi long-term-care benefit offsets the cost. Use when opening an employer file or checking you pay correctly. Do NOT use for caregivers employed by a care company or for Israeli caregivers."
   },
   "supported_agents": [
     "claude-code",
