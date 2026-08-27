@@ -24,10 +24,11 @@ Cardiopulmonary Resuscitation for adults, children, and infants.
 
 | Difference from Adult | Details |
 |----------------------|---------|
+| **Start with 5 rescue breaths** | Paediatric arrest is usually caused by lack of oxygen, not by a heart rhythm. ERC paediatric BLS, which Israeli lay-rescuer courses follow, opens with **5 initial rescue breaths BEFORE any compressions**. This is the single biggest difference from adult CPR and it is the step most often skipped |
 | Compression depth | 5 cm (about 2 inches), or one-third of chest depth |
 | Hand position | Use one hand for smaller children |
-| Compression-to-breath ratio | 30:2 (same as adult for single rescuer) |
-| Call timing | 2 minutes of CPR before calling 101 if alone with child |
+| Compression-to-breath ratio | 15:2 with two rescuers. 30:2 if you are alone and untrained, because a simpler cycle you can sustain beats a correct cycle you cannot |
+| Call timing | Put the phone on speakerphone, dial 101 IMMEDIATELY, and start CPR while the dispatcher talks you through it. The old "2 minutes of CPR first" rule is landline-era guidance and it delays dispatch. Do CPR before calling only if you genuinely have no phone within reach |
 
 ### Infant CPR (under 1 year)
 
@@ -35,9 +36,10 @@ Cardiopulmonary Resuscitation for adults, children, and infants.
 |----------------------|---------|
 | Compression technique | Use the two thumbs-encircling hands technique (thumbs on the lower half of the breastbone, hands wrapped around the chest). If you cannot encircle the chest, use the heel of one hand. See the guideline note below |
 | Compression depth | 4 cm (about 1.5 inches), or one-third of the chest depth |
-| Rescue breaths | Cover mouth AND nose, use gentle puffs |
-| Compression-to-breath ratio | 30:2 (single rescuer) |
-| Call timing | 2 minutes of CPR before calling 101 if alone |
+| **Start with 5 rescue breaths** | As for a child: 5 initial rescue breaths before compressions |
+| Rescue breaths | Cover mouth AND nose, use gentle puffs. Just enough to make the chest rise |
+| Compression-to-breath ratio | 15:2 with two rescuers, 30:2 alone |
+| Call timing | Put the phone on speakerphone, dial 101 IMMEDIATELY, and start CPR while the dispatcher talks you through it. Do CPR before calling only if you genuinely have no phone within reach |
 
 **Guideline note on infant compressions:** the 2025 AHA and AAP pediatric guidelines (published 22 October 2025) removed the two-finger technique, because it consistently failed to reach adequate depth. They recommend the two thumbs-encircling hands technique or the one-hand technique, and the heel of one hand when the rescuer cannot encircle the chest. Israeli lay-rescuer courses follow the Israeli Resuscitation Council and ERC, which may still teach two fingers in older course material. If a user tells you they were trained on the two-finger technique, do not stop them mid-resuscitation to correct technique: any compressions are better than none. The priority order is always call 101, push hard and fast in the centre of the chest, and follow the dispatcher.
 
@@ -56,6 +58,8 @@ Many public locations in Israel have AED machines. Look for the green heart-shap
 | 5 | Press "shock" button if the AED advises a shock |
 | 6 | Immediately resume CPR after the shock |
 
+**Situational rules people get wrong:** dry the chest and move the person off a wet or metal surface; shave or reposition over heavy chest hair; keep pads at least 8 cm from an implanted pacemaker; peel off any medication patch. For a child under 8 use paediatric pads or the paediatric mode, and **if you only have adult pads, use them** rather than withholding the shock. In Israel the MDA app and the Life Guardians (מגני חיים) responder network will locate the nearest AED and dispatch a nearby volunteer.
+
 **Common AED locations in Israel:**
 - Shopping malls (kaniyonim)
 - Train stations (tachanot rakevet)
@@ -71,12 +75,14 @@ Many public locations in Israel have AED machines. Look for the green heart-shap
 | 1 | Call 101 | Severe bleeding is a life-threatening emergency |
 | 2 | Apply direct pressure | Use a clean cloth or bandage, press firmly on the wound |
 | 3 | Do not remove the cloth | If blood soaks through, add more layers on top |
-| 4 | Elevate if possible | Raise the injured limb above heart level if the injury allows |
-| 5 | Apply tourniquet (if trained) | For life-threatening limb bleeding only, above the wound |
-| 6 | Keep the person still | Movement increases blood loss |
+| 4 | If pressure does not stop it, apply a tourniquet | Limb bleeding that direct pressure cannot control. **You do not need to be trained.** High and tight on the limb, above the wound, over clothing if necessary. Tighten until the bleeding STOPS, which will hurt. Write the time on it. **Never loosen it** |
+| 5 | Pack the wound where a tourniquet cannot go | Groin, armpit, neck, shoulder. Push gauze or clean cloth firmly INTO the wound until it is full, then press hard on top and hold. This is the commonest fatal wound pattern in a stabbing or a blast, and it is the one a tourniquet cannot reach |
+| 6 | Keep the person still and warm | Movement increases blood loss; a bleeding patient loses heat fast |
 | 7 | Monitor for shock | Pale skin, rapid breathing, confusion, rapid pulse |
 
-**Israeli context**: Many Israelis have first aid training from military service. If a trained bystander is present, let them take the lead. Tourniquets are more commonly available in Israel (many carry them in personal first aid kits). MDA volunteers often arrive before ambulances in populated areas.
+**Do NOT elevate the limb.** Elevation as a bleeding-control step was removed from guidance years ago; it does not work and it costs the seconds that decide the outcome. Direct pressure, then a tourniquet.
+
+**Israeli context**: Israel's civilian tourniquet programme exists precisely so that untrained bystanders apply them. Do not tell a user to wait for someone trained. Many Israelis carry a tourniquet in a personal kit and have military first-aid training; if such a bystander is present let them lead, but never stand and watch for want of training. MDA volunteer responders often arrive before ambulances in populated areas.
 
 ## Burns (Kviyot, כוויות)
 
@@ -84,9 +90,9 @@ Many public locations in Israel have AED machines. Look for the green heart-shap
 
 | Degree | Appearance | Treatment |
 |--------|-----------|-----------|
-| First degree (superficial) | Red, painful, no blisters | Cool water for 10-20 minutes, aloe gel, pain relief |
-| Second degree (partial thickness) | Red, blisters, very painful | Cool water for 10-20 minutes, do not pop blisters, cover loosely, seek medical care |
-| Third degree (full thickness) | White/charred, may be painless | Call 101 immediately, cover with clean dry cloth, do NOT apply water to large burns |
+| First degree (superficial) | Red, painful, no blisters | Cool running water for 20 minutes, then pain relief |
+| Second degree (partial thickness) | Red, blisters, very painful | Cool running water for 20 minutes, do not pop blisters, cover loosely (cling film is ideal), seek medical care |
+| Third degree (full thickness) | White/charred, may be painless | Call 101 immediately. **Still cool the burn**, but keep the REST of the patient warm: the danger in a large burn is hypothermia, not the water. Cover with a clean dry cloth or cling film |
 
 ### Israeli-Specific Burn Considerations
 
@@ -99,12 +105,21 @@ Many public locations in Israel have AED machines. Look for the green heart-shap
 
 ### Key Burn Rules
 
-- **DO**: Cool with clean running water for 10-20 minutes
+- **DO**: Cool with clean running water for **20 minutes**. Cooling still helps up to 3 hours after the injury, so it is never too late to start
+- **DO**: Remove rings, watches and bracelets immediately, before swelling starts
 - **DO**: Cover with a clean, non-stick bandage or cloth
 - **DO NOT**: Apply butter, toothpaste, or home remedies
 - **DO NOT**: Pop blisters (risk of infection)
 - **DO NOT**: Remove clothing stuck to a burn
 - **DO NOT**: Apply ice directly to a burn
+
+### Chemical, electrical and inhalation burns
+
+| Type | What changes |
+|------|--------------|
+| Chemical | Brush off DRY powder first, then irrigate with copious running water for at least 20 minutes and keep going. Call the National Poison Information Center on 04-7771900. Do not try to neutralise an acid with an alkali or the reverse |
+| Electrical | **Do not touch the casualty until the supply is off.** The visible entry and exit wounds hide the real injury, which runs through the tissue between them. Any electrical injury needs an ER because of the arrhythmia risk, even if the person looks fine |
+| Inhalation | After a mangal, a bonfire or any fire in an enclosed space: soot around the nose or mouth, a hoarse voice, singed nasal hair or a cough means the airway is burned and will swell shut. Call 101 immediately. This is time-critical and it looks deceptively mild at first |
 
 ## Choking (Chnika, חנק)
 
@@ -134,6 +149,12 @@ Many public locations in Israel have AED machines. Look for the green heart-shap
 
 **Do NOT** perform the Heimlich maneuver (abdominal thrusts) on infants.
 
+### After any choking episode
+
+Anyone who received abdominal thrusts must be checked by a doctor afterwards for internal injury, even if they feel fine. Anyone left with a persistent cough, difficulty swallowing, or a sensation that something is still stuck needs an ER: a retained foreign body is a full-exemption ER presentation (see `references/er-payment-exemptions.md`).
+
+**If you are alone and choking:** thrust your own upper abdomen forcefully against the back of a chair or a worktop edge, repeatedly.
+
 ## Heatstroke (Makat Chom, מכת חום)
 
 Heatstroke is a serious risk in Israel, especially from May through October.
@@ -153,10 +174,12 @@ Heatstroke is a serious risk in Israel, especially from May through October.
 | 1 | Call 101 immediately |
 | 2 | Move person to shade or air-conditioned area |
 | 3 | Remove excess clothing |
-| 4 | Cool rapidly: apply wet cloths, fan the person, place ice packs at neck, armpits, and groin |
-| 5 | If conscious, give small sips of cool water |
-| 6 | Do NOT give fluids if unconscious |
-| 7 | Monitor breathing and be ready for CPR |
+| 4 | Get them out of the heat and strip excess clothing |
+| 5 | **Cool first, transport second.** Cold-water immersion (a pool, a stream, a tub, even a filled tarp) is markedly better than anything else and is the first choice for exertional heatstroke, the Israeli case: hikers, soldiers, outdoor workers |
+| 6 | If immersion is impossible: soak them with water continuously, fan hard, and put ice packs at the neck, armpits and groin. This is the fallback, not the first move |
+| 7 | Give fluids by mouth ONLY if they are fully alert. Heatstroke is defined by confusion, so most patients must NOT be given anything to drink: it will go into the lungs |
+| 8 | Do NOT give paracetamol or ibuprofen. They do not lower a heatstroke temperature and they can damage the liver in this setting |
+| 9 | Monitor breathing and be ready for CPR |
 
 ### Israeli-Specific Heat Risks
 
@@ -188,9 +211,10 @@ Israel has several venomous snake species, particularly in desert and rural area
 
 | Snake | Hebrew | Location | Danger Level |
 |-------|--------|----------|-------------|
-| Palestine Viper (Efa) | אפעה ארצישראלית | Throughout Israel, especially rocky areas | High (most common venomous snake) |
+| Palestine Viper | צפע ארצישראלי (Daboia palaestinae) | Mediterranean zone, including gardens and settlements | **Highest. Responsible for the great majority of Israeli envenomings, and the species Israel's polyvalent antivenom is raised against.** Do not confuse it with the אפעה (Echis coloratus), a different desert species |
+| Saw-scaled Viper | אפעה מצוי (Echis coloratus) | Desert, rocky areas | High |
 | Desert Horned Viper | צפע חרטומים | Negev, Arava | High |
-| Black Desert Cobra | נחש שחור | Negev | High |
+| Black Desert Cobra | נחש שחור (Walterinnesia aegyptia) | Negev | High, and **neurotoxic rather than haemotoxic**. Onset can be delayed and the failure mode is respiratory paralysis, so watch the breathing, not the limb |
 | Carpet Viper | צפע מגוון | Arava, Jordan Valley | Moderate-High |
 
 ### Snake Bite First Aid
@@ -201,7 +225,7 @@ Israel has several venomous snake species, particularly in desert and rural area
 | 2 | Call 101 immediately |
 | 3 | Keep the person calm and still (movement spreads venom faster) |
 | 4 | Remove jewelry or tight clothing near the bite (swelling will occur) |
-| 5 | Keep the bitten limb at or below heart level |
+| 5 | Immobilise the limb, splinted, at roughly heart level. Do NOT let it hang down: a dependent limb worsens swelling and compartment pressure in viper envenomation, which is what almost all Israeli bites are |
 | 6 | Mark the border of any swelling with a pen and note the time |
 | 7 | Transport to the nearest hospital ER |
 
@@ -232,10 +256,11 @@ Jellyfish are common along the Israeli Mediterranean coast, particularly during 
 | 1 | Exit the water calmly |
 | 2 | Rinse the sting area with seawater (NOT fresh water) |
 | 3 | Remove visible tentacle fragments with tweezers or gloved hand |
-| 4 | Apply vinegar if available (helps deactivate remaining stinging cells) |
-| 5 | Apply hot water (40-45C) for 20-30 minutes, or a hot pack |
-| 6 | Take over-the-counter pain relief if needed |
-| 7 | Seek medical attention if difficulty breathing, chest pain, or severe reaction |
+| 4 | **Immerse in hot water (40-45C) for 20-30 minutes**, or use a hot pack. This is the step with the best evidence and it should lead. **Test the water on an unaffected limb first**: the stung skin is numb and the casualty cannot judge the temperature, so scalds happen |
+| 5 | Take over-the-counter pain relief if needed |
+| 6 | **Call 101** for any breathing difficulty, chest pain, or a large-area sting in a child |
+
+**On vinegar:** vinegar is validated for box jellyfish, which are not the Mediterranean problem. For Portuguese man-of-war (ספינת מלחמה) vinegar has been shown to make things worse by triggering remaining stinging cells, and it is not established for Rhopilema nomadica either. Do not lead with it, and do not use it if a man-of-war is suspected.
 
 **Do NOT:**
 - Rinse with fresh water (activates stinging cells)
@@ -243,7 +268,131 @@ Jellyfish are common along the Israeli Mediterranean coast, particularly during 
 - Urinate on the sting (this is a myth and does not help)
 - Apply pressure bandage
 
-**Beach resources**: Israeli beaches staffed by lifeguards (matzilim, מצילים) typically have vinegar and basic first aid supplies. Purple flag at the beach indicates jellyfish presence.
+**Beach resources**: Israeli beaches staffed by lifeguards (matzilim, מצילים) have basic first aid supplies. **Israel's beach flags are white (bathing permitted), red (dangerous, enter with caution) and black (bathing prohibited).** There is no purple flag in the Israeli system, so do not tell a bather to look for one; jellyfish presence is announced by the lifeguards and the municipality, not by a flag colour.
+
+## Recovery Position (Matzav Hatza'ah, מצב החלמה)
+
+For anyone who is **unconscious but breathing normally**. It keeps the airway open and stops
+vomit going into the lungs.
+
+Kneel beside them. Place the near arm out at right angles. Bring the far hand across to the near
+cheek and hold it there. Pull the far knee up and roll them towards you onto their side. Tilt the
+head back to open the airway. Call 101 and stay with them.
+
+Do not use it if you suspect a spinal injury unless you cannot keep the airway open otherwise, and
+recheck breathing every minute. If breathing stops or becomes gasping, roll them onto their back
+and start CPR.
+
+## Anaphylaxis (Tguva Anafilaktit, תגובה אנפילקטית)
+
+**Recognition.** A severe allergic reaction affecting breathing or circulation: swelling of the
+lips, tongue, throat or face; a hoarse voice; noisy breathing or wheeze; difficulty swallowing;
+sudden collapse, pallor or a feeling of impending doom. Usually with a rash, but not always.
+Common Israeli triggers are sesame, peanut, tree nuts, egg, milk, bee and wasp stings, and drugs.
+
+| Step | Action |
+|------|--------|
+| 1 | **Adrenaline first, immediately.** Auto-injector into the middle of the OUTER THIGH, straight through clothing. EpiPen Jr (0.15 mg) for roughly under 25-30 kg, EpiPen (0.3 mg) above that. Adrenaline is the only treatment that works; an antihistamine does not treat anaphylaxis |
+| 2 | Call 101 and say the word "anafilaxis" |
+| 3 | **Lay them FLAT with the legs raised.** Do not sit them up, do not stand them up, and do not walk them to a car. A change of posture is a documented cause of death in anaphylaxis. If they are struggling to breathe, let them sit but keep the legs up; if pregnant, lay them on the left side |
+| 4 | If there is no improvement after 5 to 10 minutes, give a SECOND dose in the other thigh |
+| 5 | If they stop breathing, start CPR |
+
+**Every anaphylaxis goes to hospital, even after a full recovery.** A biphasic reaction can return
+hours later with no new exposure. This is a full-exemption ER presentation.
+
+## Stroke (Shavatz Mochi, שבץ מוחי)
+
+Treatment is time-limited, so recognition by a bystander is what decides the outcome.
+
+**BE-FAST.** **B**alance, sudden loss. **E**yes, sudden loss or doubling of vision. **F**ace,
+one side droops, ask them to smile. **A**rms, ask them to raise both, one drifts down. **S**peech,
+slurred, wrong words, or cannot speak. **T**ime, call 101 at once. The balance and vision items
+catch the strokes that FAST alone misses.
+
+| Do | Do not |
+|----|--------|
+| Call 101 immediately, even if the symptoms pass (a TIA is a warning of a stroke about to happen) | Do not give aspirin. A bleed and a clot look identical from outside and aspirin makes a bleed worse |
+| **Write down the exact time they were last seen normal** and hand it to the MDA crew. This single fact decides eligibility for clot-busting drugs and clot retrieval | Do not give food, drink or medicines: swallowing is often impaired and it goes into the lungs |
+| Let MDA choose the hospital. They route to a stroke unit or a thrombectomy centre, which may not be the nearest ER | Do not drive them yourself, and never let them "sleep it off" |
+
+## Hypoglycaemia (Tat-Sukkar, תת-סוכר)
+
+Confusion, sweating, shaking, aggression or slurred speech in a diabetic, often mistaken for
+drunkenness. It is the commonest reversible cause of "someone collapsed".
+
+- **Conscious and able to swallow**: give fast sugar now (glucose tablets, juice, regular soft
+  drink, three teaspoons of sugar), then a longer-acting carbohydrate once they improve. If there
+  is no improvement in 10 to 15 minutes, repeat once and call 101.
+- **Drowsy, confused or unconscious**: nothing by mouth, ever. Recovery position, call 101.
+- If you cannot tell whether the sugar is high or low, treat as low: giving sugar to someone whose
+  sugar is already high does far less harm than withholding it from someone whose sugar is low.
+
+## Seizures (Pirkusim, פרכוסים)
+
+| Do | Do not |
+|----|--------|
+| Protect the head, cushion it, clear hard objects away | **Never put anything in the mouth.** They cannot swallow their tongue and you will break teeth or fingers |
+| **Time it from the start** | Do not restrain them or hold them down |
+| Once the shaking stops, put them in the recovery position and stay with them | Do not give food or drink until they are fully alert |
+
+**Call 101 if:** it lasts more than 5 minutes; a second seizure follows without full recovery; it
+is a first-ever seizure; they are injured, pregnant, diabetic, or in water; or they do not regain
+consciousness.
+
+**Febrile seizure in a young child** (roughly 6 months to 5 years, with a fever) looks terrifying
+and is usually harmless in itself. Same handling: on their side, nothing in the mouth, time it,
+undress them to cool. Call 101 if it lasts over 5 minutes, if it repeats, if the child is under 12
+months, or if the child does not return to normal afterwards. In an infant under 3 months, ANY
+fever goes to a hospital ER regardless of a seizure.
+
+## Carbon Monoxide (Cha'd-Chamtzani Pachman, חד-חמצני פחמן)
+
+Israel sees recurring winter deaths from indoor generators, gas heaters, boilers and mangalim on a
+closed balcony. It is odourless and colourless.
+
+**The tell is that everyone in the household, and often the pets, feels ill at once**: headache,
+nausea, dizziness, confusion, drowsiness, and worse indoors than outdoors.
+
+Get everyone out into the open air. Open windows if you can do it on the way out. **Do not go back
+in.** Call 102 (fire and rescue) and 101. Everyone exposed needs medical assessment even if they
+feel better outside, and a pregnant woman needs it regardless. A finger pulse oximeter reads
+normal in carbon-monoxide poisoning, so a normal reading proves nothing.
+
+## Drowning (Tvi'a, טביעה)
+
+Drowning is the exception to compression-only CPR. It is caused by lack of oxygen, so ventilation
+comes first.
+
+| Step | Action |
+|------|--------|
+| 1 | **Reach or throw, do not go.** Never enter the water untrained. Hold out a pole, a towel or a branch, or throw something that floats. Untrained rescuers drown alongside the casualty |
+| 2 | Alert the lifeguard (matzil) and call 101 |
+| 3 | Once out of the water, if they are not breathing normally: **give 5 initial rescue breaths first**, then start compressions 30:2 |
+| 4 | Do not try to press water out of the lungs or do abdominal thrusts. It does not work, and it makes vomiting and aspiration more likely |
+| 5 | Keep them warm and take them to hospital even after apparent recovery: deterioration hours later is real |
+
+Real drowning is silent and vertical, with no shouting and no waving. Israel's drowning toll is
+concentrated on the Mediterranean coast and the Kinneret, and heavily on unguarded beaches and
+outside lifeguard hours.
+
+## Scorpion Sting (Akitzat Akrav, עקיצת עקרב)
+
+Israel's dangerous species is the yellow scorpion (עקרב צהוב, *Leiurus quinquestriatus*), found
+across the Negev and the south. In a small child it can be lethal.
+
+**The danger sign is not the local pain.** Severe envenomation presents as an autonomic storm:
+agitation, sweating, drooling, vomiting, wandering eye movements, thrashing limbs, racing heart,
+difficulty breathing.
+
+- **Call 101 for ANY sting in a child, and for any systemic sign at any age.** Israeli hospitals
+  stock antivenom, and the paediatric indication is time-sensitive.
+- Keep the person still, immobilise the limb, cool the site with a cool damp cloth.
+- **Do not** apply ice directly, a tourniquet, or cut the site.
+- The National Poison Information Center at Rambam (04-7771900, 24/7) advises the treating team on
+  antivenom.
+
+Scorpion sting and snake bite are both full-exemption ER presentations.
 
 ## Earthquake Response (Re'idat Adama, רעידת אדמה)
 

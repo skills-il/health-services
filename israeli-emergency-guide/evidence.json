@@ -1,22 +1,8 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-emergency-guide",
-  "generated_at": "2026-08-01T00:00:00Z",
+  "generated_at": "2026-08-27T00:00:00Z",
   "claims": [
-    {
-      "claim_id": "mda-101",
-      "claim": "MDA (Magen David Adom) emergency number is 101",
-      "source_url": "https://www.mdais.org/101",
-      "raw_snippet": "ישנו מספר חירום אחד - 101 מגן דוד אדום. The Magen David Adom number is 101 from any phone, whether it's a landline or mobile phone.",
-      "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/first-aid-basics.md",
-        "references/hospital-directory.md",
-        "metadata.json"
-      ]
-    },
     {
       "claim_id": "mda-nonvoice-sms",
       "claim": "MDA operates a non-voice channel for deaf and hard-of-hearing users: SMS or WhatsApp to 052-7000101, and fax 1-800-500101",
@@ -40,19 +26,6 @@
         "SKILL_HE.md",
         "references/hospital-directory.md"
       ]
-    },
-    {
-      "claim_id": "police-110",
-      "claim": "110 is the Israel Police information line, and hosts the accessible position that receives SMS, fax and email from deaf and hard-of-hearing callers and dispatches a patrol car when needed",
-      "source_url": "https://www.gov.il/he/departments/general/police_national_emergency_lines",
-      "raw_snippet": "משטרה מוקד חירום - 100 מוקד מידע - 110 צ'אט בוט מוקד המידע המשטרתי אתר מוקד המידע המשטרתי כבאות והצלה לישראל מוקד כבאות והצלה - 102 אתר כבאות והצלה לישראל מגן דוד אדום לישראל - ארגון ההצלה הלאומי מוקד חירום - 101 אתר מגן דוד אדום פיקוד העורף מוקד פיקוד העורף - 104 אתר פיקוד העורף",
-      "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/hospital-directory.md"
-      ],
-      "verified_via": "gov.il content API (programmatic re-extraction)"
     },
     {
       "claim_id": "twelve-is-police-not-unified",
@@ -161,49 +134,19 @@
     },
     {
       "claim_id": "poison-control-rambam",
-      "claim": "Israel's National Poison Information Center at Rambam is 04-7771900, staffed 24 hours a day. Its separate teratology line for medication questions in pregnancy and breastfeeding runs Sunday to Thursday 09:00 to 14:00 only.",
+      "claim": "The National Poison Information Center at Rambam is on 04-7771900, staffed 24 hours a day for ACUTE poisoning only. Questions about medicines, chemicals and toxins in pregnancy and breastfeeding are answered on the same number, Sunday to Thursday 09:00 to 14:00 only. There is no separate teratology number.",
       "source_url": "https://www.rambam.org.il/departmentsandclinics/laboratories-division/clinical-pharmacology-and-toxicology/national-center-for-the-treatment-of-poisoning/",
-      "raw_snippet": "מכון מידע בהרעלות 04-7771900. מיון 04-7771300. מיון ילדים 04-7774013.",
+      "raw_snippet": "מספר הטלפון להתייעצות בנושאי הרעלות חדות (אקוטיות) הוא 04-7771900, 24 שעות ביממה.",
       "fetched_at": "2026-08-01T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/first-aid-basics.md",
         "references/hospital-directory.md"
-      ]
-    },
-    {
-      "claim_id": "er-copay-1199",
-      "claim": "ER copay for self-referral 06:00 to 23:00 is 1,199 ש\"ח (1,199 NIS) per Ministry of Health tariff (as of 2026)",
-      "source_url": "https://www.maccabi4u.co.il/eligibilites/3210/",
-      "raw_snippet": "אם פנית לחדר המיון מהשעה 06:00 בבוקר ועד 23:00 בלילה ללא הפניית רופא/ה, ושלא בגלל אחת הסיבות שהחוק מונה כפוטרות מתשלום, עליך לשלם תשלום מלא של 1,199 ₪ בהתאם לתעריפון משרד הבריאות.",
-      "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "er-copay-referral-269",
-      "claim": "With a doctor’s referral the patient pays a self-participation of 269 ש\"ח (269 NIS) rather than the full self-referral amount",
-      "source_url": "https://www.maccabi4u.co.il/eligibilites/3210/",
-      "raw_snippet": "כאשר פנית לחדר מיון על דעת עצמך ללא הפניה מוקדמת מגורם רפואי, והביקור אינו נכלל ברשימת המקרים שפטורים מתשלום, עליך לשלם השתתפות עצמית בגובה 269 ₪ עבור ההתחייבות.",
-      "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "er-copay-night-259",
-      "claim": "Arriving at the ER during night hours carries a reduced fee of 259 NIS, per the January 2026 tariff",
-      "source_url": "https://www.maccabi4u.co.il/eligibilites/3210/",
-      "raw_snippet": "הפונה למיון בין השעות 01:00 בלילה ל-06:00 בבוקר, מסיבה שאינה מנויה בחוק או במקרים בהם התברר בדיעבד כי ההפניה היתה מוצדקת מבחינה רפואית, מחוייב בתשלום אגרה מופחתת בגובה של 259 ש\"ח, התעריף נכון לינואר 2026.",
-      "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-27T00:00:00Z",
+      "notes": "Same page: 'בשאלות הנוגעות למידע תרופתי והשפעת תרופות, כימיקלים ורעלים אחרים על ההריון וההנקה ניתן לפנות רק בימים ראשון עד חמישי בשעות 9:00 עד 14:00.'"
     },
     {
       "claim_id": "moh-tariff-annual-reindex",
@@ -217,19 +160,6 @@
       ],
       "verified_via": "pdf",
       "verified_at": "2026-08-11"
-    },
-    {
-      "claim_id": "er-exemptions",
-      "claim": "Numerous medical conditions trigger full ER copay exemption: fractures, severe burns, head injury under 2 or over 70, asthma, seizures, snake and animal bites, pregnancy emergencies, psychiatric crisis, work injury, traffic accidents, violence victims, hospitalization",
-      "source_url": "https://www.maccabi4u.co.il/eligibilites/3210/",
-      "raw_snippet": "חדשים כתבו לנו פניות הציבור מוקד מידע 24/7 עב English En عربيه عر Русский RU להצטרפות למכבי מכבי שירותי בריאות זכאויות חברי מכבי פנייה לחדר מיון פנייה לחדר מיון בעת חירום חברי מכבי רשאים לפנות לכל חדר מיון, גם בבתי חולים שאינם בהסדר עם מכבי.",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "reference-coverage entry; snippet is a contiguous sentence from its source page",
-      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "eran-1201",
@@ -359,17 +289,6 @@
       "verified_at": "2026-08-13"
     },
     {
-      "claim_id": "shelter-exit-two-regimes",
-      "claim": "There is no single shelter exit timer. Under rocket fire the rule is at least 10 minutes; under ballistic missile fire there is no automatic timed exit and the instruction is to remain until an official all-clear arrives via the Home Front Command app and Cell Broadcast, because salvos arrive in sequence and interception fragments keep falling for minutes. The 10-minute line on the app alert screen is leftover wording from earlier operations.",
-      "source_url": "https://www.ynet.co.il/digital/technews/article/h1nnwszfbl",
-      "raw_snippet": "נשארים במרחב מוגן או יוצאים אחרי 10 דקות? הבלבול המסוכן באפליקציית פיקוד העורף. בעוד שההנחיה הרשמית היא להישאר במרחב מוגן עד לקבלת הודעת שחרור רשמית באפליקציה ובמערכת ה-Cell Broadcast, במסך ההתרעה מוצגת הנחיה לשהות במרחב המוגן 10 דקות בלבד.",
-      "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
       "claim_id": "trauma-centers-count",
       "claim": "Israel has at least seven Level-1 trauma centers, and Ziv and Barzilai were additionally designated. No hospital is any longer the only Level-1 center in its region.",
       "source_url": "https://www.timesofisrael.com/liveblog_entry/ziv-barzilai-to-upgrade-to-level-1-trauma-centers-so-they-can-treat-seriously-and-critically-ill-patients/",
@@ -408,39 +327,16 @@
     },
     {
       "claim_id": "adult-choking-2025",
-      "claim": "The 2025 AHA adult BLS guidance is cycles of 5 back blows followed by 5 abdominal thrusts, with chest thrusts substituted when the person is pregnant or too large to reach around",
+      "claim": "Adult and child choking is managed by alternating five back blows with five abdominal thrusts.",
       "source_url": "https://newsroom.heart.org/news/updated-cpr-guidelines-tackle-choking-response-opioid-related-emergencies-and-a-revised-chain-of-survival",
-      "raw_snippet": "resuscitation guidelines, the Association ensures the CPR recommendations reflect the most advanced research from global experts around the world. “We know high-quality CPR saves lives, and we need dedicated support to ensure that everyone who needs high-quality CPR receives it,” said Panchal. “That starts with learning it yourself. We encourage everyone to take a CPR class to learn the skills and techniques to provide life-saving care in an emergency. Everyone has a role to play in the chain of survival.",
+      "raw_snippet": "alternating five back blows followed by five abdominal thrusts",
       "fetched_at": "2026-08-18",
       "appears_in": [
         "references/first-aid-basics.md"
       ],
       "verified_via": "cited page fetched; 51 of 56 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"around\"",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "mda-39000-personnel",
-      "claim": "MDA has approximately 39,000 volunteers, employees, and national service personnel combined, 2025-2026 data",
-      "source_url": "https://www.jpost.com/israel-news/culture/article-882270",
-      "raw_snippet": "” MDA Yearly Summary in Numbers MDA has approximately 39,200 volunteers, employees, national service and civil service volunteers, including 16,500 youth volunteers. In addition, approximately 18,000 “Life Guardians” (first responders) are active with MDA. MDA volunteers contributed more than 6.3 million volunteer hours. The average age of MDA volunteers is 26.8.",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "source fetched and the passage copied verbatim from the cited page",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "mda-blood-idf",
-      "claim": "MDA Blood Services supplies 100% of IDF blood needs",
-      "source_url": "https://www.mdais.org/en",
-      "raw_snippet": "Magen David Adom supplies 100% of blood products for the Israel Defense Forces and Israeli hospitals.",
-      "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
+      "verified_at": "2026-08-18",
+      "notes": "The chest-thrust substitution for a pregnant or large casualty is standard first-aid practice where the rescuer cannot reach around the abdomen; it is not sourced to this page."
     },
     {
       "claim_id": "terem-romema-247",
@@ -467,30 +363,6 @@
       ],
       "verified_via": "source fetched and the passage copied verbatim from the cited page",
       "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "patient-rights-law",
-      "claim": "Israeli Patient Rights Law guarantees patient rights including emergency care, informed consent, refusal of treatment, privacy, accompaniment, medical records access, and language interpretation",
-      "source_url": "https://www.patients-rights.org/",
-      "raw_snippet": "ותומכים תפריט נגיש חפש מידע הצהרת נגישות תצוגת צבעים באתר (* פועל בדפדפנים מתקדמים מסוג Chrome ו- Firefox) תצוגה רגילה מותאם לעיוורי צבעים מותאם לכבדי ראייה A+ 100% A- סגירה תפריט contact us access חפש חפש מיצוי זכויות down מהן הזכויות שלי?",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "reference-coverage entry; snippet is a contiguous sentence from its source page",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "blood-donation-eligibility",
-      "claim": "MDA blood donation eligibility: age 17 and above, weight over 50 kg; ages 17 to 18 need parental consent; first-time donors over 60 and returning donors over 65 need physician approval at a fixed station",
-      "source_url": "https://www.mdais.org/en/blood-donation/who-can-donate",
-      "raw_snippet": "Eligibility criteria for blood donation include age 17 and above, weight above 50 kg, in good health.",
-      "fetched_at": "2026-08-01T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
     },
     {
       "claim_id": "moh-hmo-mental-health-lines",
@@ -600,6 +472,437 @@
       ],
       "verified_via": "oref.org.il content API (api.oref.org.il/api/v1/guidelines//heb/life-saving-guidelines/rocket-and-missile-attacks/)",
       "verified_at": "2026-08-13"
+    },
+    {
+      "claim_id": "shelter-stay-until-explicit-instruction",
+      "claim": "Home Front Command publishes one merged rocket-and-missile guideline whose exit rule is to remain in the protected space until an explicit instruction from Home Front Command. No fixed duration is published.",
+      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/rocket-and-missile-attacks",
+      "raw_snippet": "בעת קבלת התרעה על ירי רקטות וטילים, היכנסו למרחב מוגן מיטבי בהתאם לפרק הזמן העומד לרשותכם והישארו בו עד לקבלת הנחיה מפורשת מפיקוד העורף.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/oref-scenarios.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z",
+      "notes": "The same authored Hebrew is served without JavaScript from the oref.org.il public API, which mirrors each guideline path under its own API prefix. Verified by direct fetch on 2026-08-27."
+    },
+    {
+      "claim_id": "ten-minute-rule-belongs-to-siren-disruption",
+      "claim": "The only current Home Front Command guideline containing a 10-minute figure is the siren-system disruption scenario, where the alert arrives through the app instead of a siren.",
+      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/disruptions-in-the-siren-system",
+      "raw_snippet": "בקבלת התרעה, היכנסו למרחב המוגן ושהו בו למשך 10 דקות.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/oref-scenarios.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "interception-is-not-permission-to-leave",
+      "claim": "Hearing an explosion or seeing an interception is not permission to leave the protected space.",
+      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/infiltration-of-a-hostile-aerial-vehicle",
+      "raw_snippet": "לא. יש לשהות במרחב המוגן עד לקבלת הנחיה מפורשת המאפשרת לצאת.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/oref-scenarios.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "protection-time-bands",
+      "claim": "Protection time ranges from immediate to 15, 30, 45, 60 and 90 seconds, and most of the country is 90 seconds.",
+      "source_url": "https://www.oref.org.il/heb/articles/protection-guidelines/preparing-protected-space/1103",
+      "raw_snippet": "זמן ההגעה למרחב המוגן נע בין פרק זמן מיידי לבין 15 שניות, 30 שניות, 45 שניות, דקה וע",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/oref-scenarios.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z",
+      "notes": "Full sentence ends 'ד ודקה וחצי'; served verbatim from https://api.oref.org.il/api/v1/articles//heb/articles/protection-guidelines/preparing-protected-space/1103"
+    },
+    {
+      "claim_id": "gaza-envelope-15-seconds",
+      "claim": "In the Gaza Envelope the Tzeva Adom siren sounds and the protection time is 15 seconds; in most confrontation-line localities the siren lasts 15 seconds but entry is immediate.",
+      "source_url": "https://www.oref.org.il/heb/articles/protection-guidelines/preparing-protected-space/1103",
+      "raw_snippet": "באזור \"עוטף עזה\" – תישמע אזעקת \"צבע אדום\" וזמן ההגעה למרחב המוגן הוא 15 שניות.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/oref-scenarios.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "protection-time-same-for-all-threats",
+      "claim": "Protection time does not vary by threat type.",
+      "source_url": "https://www.oref.org.il/heb/articles/protection-guidelines/preparing-protected-space/1103",
+      "raw_snippet": "זמן ההתגוננות זהה לכלל האיומים",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/oref-scenarios.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "terrorist-infiltration-rocket-override",
+      "claim": "If a rocket alert arrives during a terrorist infiltration event, do not leave for a protected space outside the home, including the stairwell.",
+      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/terrorist-infiltration",
+      "raw_snippet": "אם מתקבלת התרעה על ירי רקטות וטילים בעת אירוע חדירת מחבלים - אין לצאת למרחב מוגן הנמצא מחוץ לבית, לרבות חדר המדרגות.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/oref-scenarios.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "mamad-door-handle-must-not-be-removed",
+      "claim": "The safe-room door handle must not be removed; doing so damages the door mechanism.",
+      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/terrorist-infiltration",
+      "raw_snippet": "אין לפרק את ידית דלת הממ\"ד. הסרת הידית פוגעת במנגנון ובתפקוד הדלת",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/oref-scenarios.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "hazmat-seal-in-building",
+      "claim": "In a hazardous-materials event the instruction is to stay inside the building, close doors and windows and switch off the air conditioning, not to go to a shelter.",
+      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/hazardous-materials-event",
+      "raw_snippet": "הישארו במבנה וסגרו את הדלתות והחלונות. • כבו את המזגן. • אין לצאת מהמבנה עד לקבלת הודעה על סיום האירוע.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/oref-scenarios.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "vehicle-exit-priority",
+      "claim": "Under a rocket alert while driving, the primary instruction is to stop, exit the vehicle and enter the nearest optimal protected space; staying in the car is the last resort.",
+      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/rocket-and-missile-attacks",
+      "raw_snippet": "עצרו בצד הדרך, צאו מהרכב והיכנסו למרחב המוגן המיטבי הקרוב ביותר.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/oref-scenarios.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "prolonged-stay-ventilation",
+      "claim": "During a prolonged stay in a protected space with no ventilation system, open the door every 4 hours.",
+      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/staying-in-a-protected-space",
+      "raw_snippet": "אם אין ברשותכם מערכת אוורור, פתחו את דלת המרחב המוגן מדי 4 שעות.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/oref-scenarios.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "tsunami-one-kilometre",
+      "claim": "On a tsunami alert, move at least one kilometre from the shore, or if impossible go to the fourth floor or above.",
+      "source_url": "https://www.oref.org.il/heb/life-saving-guidelines/fear-of-a-tsunami",
+      "raw_snippet": "בעת קבלת התרעה על צונמי, התרחקו מיד מהחוף קילומטר אחד לפחות. אם לא ניתן, עלו לקומה רביעית ומעלה",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/oref-scenarios.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "er-tariff-5044-1241",
+      "claim": "The global tariff for an ER visit at a general hospital (code 5044) is 1,241 NIS, effective 1 July 2026.",
+      "source_url": "https://www.gov.il/he/departments/dynamiccollectors/moh-price-list",
+      "raw_snippet": "ביקור במלר''ד בבית חולים כללי, תעריף גלובלי | 1241",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/er-payment-exemptions.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z",
+      "notes": "Read from the official xlsx files_databases_moh-price-list_2026_spl-010726.xlsx, sheet1, tariff effective 1.7.2026"
+    },
+    {
+      "claim_id": "er-agra-00964-281",
+      "claim": "The ER fee alone (agrat malrad, code 00964) is 281 NIS, effective 1 July 2026.",
+      "source_url": "https://www.gov.il/he/departments/dynamiccollectors/moh-price-list",
+      "raw_snippet": "אגרת מלר''ד | 281",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/er-payment-exemptions.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z",
+      "notes": "Same xlsx; row 00964. Codes 00962=418, 5738=840, 5740=310 read from the same sheet."
+    },
+    {
+      "claim_id": "er-two-component-charge",
+      "claim": "An ER visit is billed as two components: the ER fee and the cost of the treatment given, and exemptions apply to them separately.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "התשלום הוא בעד שירותים שונים והוא כולל שני מרכיבים:",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/er-payment-exemptions.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "er-full-exemption-with-referral-not-admitted",
+      "claim": "A patient who arrives with a medical letter or a Tofes 17 and is not admitted receives a FULL exemption, not a reduced fee.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "מי שפנו עם מכתב רפואי או עם \"טופס 17\" (טופס התחייבות מהקופה המבטחת) ולא אושפזו.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/er-payment-exemptions.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "er-night-window-0100-0600",
+      "claim": "Attendance between 01:00 and 06:00 waives the treatment cost only; the ER fee is still charged. There is no 23:00 boundary.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "מי שפנו לחדר מיון בין השעות 01:00 (בלילה) עד 06:00 (בבוקר) - מכל סיבה שאינה מפורטת תחת הסעיף \"פטור מלא מתשלום\".",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/er-payment-exemptions.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "er-psychiatric-free",
+      "claim": "Attendance at an ER in a mental-health medical centre is free of charge.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "הפונים למחלקה לרפואה דחופה – מלר\"ד (חדר מיון) במרכז רפואי לבריאות הנפש פטורים מתשלום.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/er-payment-exemptions.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "er-retroactive-justification-exemption",
+      "claim": "A visit later found to have been medically justified has the treatment cost waived regardless of the hour of attendance.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "מי שהתברר לאחר הביקור, כי פנייתם לחדר מיון הייתה מוצדקת מבחינה רפואית.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/er-payment-exemptions.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "er-exemption-clinical-list",
+      "claim": "The full-exemption clinical list includes new fracture, acute joint dislocation, injury needing suturing, dislocated jaw, aspirated foreign body, foreign body in the eye, snake bite or scorpion sting, life-threatening allergic reaction, head injury under 2 or over 70, third-degree burn, epileptic seizure in a known epileptic, labour contractions, cancer, haemophilia, cystic fibrosis, familial dysautonomia, dialysis, and fever above 38.5C in infants under two months.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "שבר חדש.\nפריקה חריפה של כתף או מפרק.\nפציעה הדורשת איחוי על ידי תפירה או אמצעי איחוי אחר.\nפריקת לסת.\nשאיפת גוף זר לדרכי הנשימה.\nחדירת גוף זר לעין.\nהכשת נחש או עקיצת עקרב.\nתגובה אלרגית מסכנת חיים.\nחבלת ראש עד גיל שנתיים או מעל גיל 70.\nכוויה מדרגה 3.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/er-payment-exemptions.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "er-exemption-victims",
+      "claim": "Victims of domestic violence and victims of sexual assault receive a full exemption.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "נפגעי אלימות במשפחה.\nנפגעי ונפגעות תקיפה מינית.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/er-payment-exemptions.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "er-exemption-mda-public-place",
+      "claim": "A patient evacuated by MDA ambulance from the street or another public place following a sudden event receives a full exemption.",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "מי שפונו לבית חולים על-ידי אמבולנס מגן דוד אדום, מהרחוב או ממקום ציבורי אחר, בעקבות אירוע פתאומי.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/er-payment-exemptions.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "police-ozen-kashevet-channels",
+      "claim": "The Israel Police 'Ozen Kashevet' emergency position for callers with a hearing or speech disability takes SMS on 052-2020100, fax 08-6525111 and email Listen@police.gov.il.",
+      "source_url": "https://www.gov.il/he/pages/police_accessibility",
+      "raw_snippet": "לשליחת מסרון: 052-2020100, פקס: 08-6525111. אימייל: Listen@police.gov.il",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "police-110-info-line",
+      "claim": "110 is the Israel Police information centre.",
+      "source_url": "https://www.gov.il/he/pages/police_accessibility",
+      "raw_snippet": "מוקד מידע משטרתי - 110",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "mda-101-and-nonvoice",
+      "claim": "MDA's emergency number is 101; SMS/WhatsApp 052-7000-101 is designated for the hearing impaired only, and the fax is 1-800-500-101.",
+      "source_url": "https://www.mdais.org/101",
+      "raw_snippet": "מספר חרום 101\nSMS / whatsapp\n052-7000-101\n\nמיועד ללקויי שמיעה בלבד\n\nפקס:\n1-800-500-101",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "mda-2024-figures",
+      "claim": "MDA operates 206 stations and dispatch points with over 2,650 emergency vehicles, employs about 37,500 staff, volunteers and service personnel, and its 101 centre took 3,644,612 calls in 2024.",
+      "source_url": "https://www.mdais.org/about/2024sikoum",
+      "raw_snippet": "מגן דוד אדום מפעיל 206 תחנות ונקודות הזנקה ברחבי הארץ, ובהן למעלה מ-2,650 ניידות לטיפול נמרץ, אמבולנסים, אופנועים של מד\"א ורכבים ייחודיים",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z",
+      "notes": "Same page: 'במד\"א פועלים כ-37,500 עובדים, מתנדבים, בני ובנות שירות לאומי ומשרתי שירות אזרחי, בהם כ-15,000 בני נוער' and 'במוקד 101 של מד\"א התקבלו בסה\"כ 3,644,612 שיחות'. MDA publishes NO average ambulance response time; the previously stated 8-minute figure was removed for that reason."
+    },
+    {
+      "claim_id": "blood-donation-age-and-interval",
+      "claim": "A first blood donation is for ages 18 to 60; ages 17-18 need parental consent; a first donation over 60 or a repeat over 65 needs the treating physician's approval renewed annually and a fixed donation site; at least 3 months must have passed since the previous donation.",
+      "source_url": "https://www.mdais.org/blood-donation/who-can-donate",
+      "raw_snippet": "תרומה ראשונה: 18-60 שנים.\nבגיל 17-18 נדרש אישור הורים או אפוטרופוס חוקי.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z",
+      "notes": "Same page: 'לתרומה ראשונה מעל גיל 60 ותרומה חוזרת מעל גיל 65 נדרש אישור מהרופא המטפל אחת לשנה' and 'יש לוודא שעברו 3 חודשים מתרומת הדם האחרונה' and 'משקל התורם/ת צריך להיות מעל 50 ק\"ג'."
+    },
+    {
+      "claim_id": "blood-donation-booking-number",
+      "claim": "Blood donations are booked through MDA Blood Services on 03-5300400, not on 101.",
+      "source_url": "https://www.mdais.org/blood-donation/who-can-donate",
+      "raw_snippet": "לתיאום התרמות דם ולשרותי הדם של מד\"א חייגו 03-5300400",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "child-online-105-hotline",
+      "claim": "The 105 Child Online Protection centre is reachable by dialling 105 from any device around the clock, and by WhatsApp on 052-1210105.",
+      "source_url": "https://www.gov.il/he/departments/units/105_call_center",
+      "raw_snippet": "ניתן לפנות למוקד באמצעות הטלפון בכל שעות היממה – חייגו 105 מכל מכשיר.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z",
+      "notes": "Same page: 'ניתן לפנות למוקד גם באמצעות קו וואטסאפ שמספרו 052-1210105.'"
+    },
+    {
+      "claim_id": "terem-info-line",
+      "claim": "Terem's information centre is reachable on 1-599-520-520.",
+      "source_url": "https://www.terem.com/contact/",
+      "raw_snippet": "1-599-520-520 תיק רפואי השירותים שלנו רפואה דחופה מרכזי טרם",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "welfare-118-and-silent-call",
+      "claim": "118 is the free Ministry of Welfare information and assistance hotline, staffed 24 hours a day 364 days a year (closed on Yom Kippur), in six languages, with a silent-call text channel on 050-2270118 for domestic violence and emergencies.",
+      "source_url": "https://www.gov.il/he/pages/molsa-118",
+      "raw_snippet": "ניתן לפנות למוקד באמצעות שליחת הודעת טקסט למספר 050-2270118 - \"שיחה שקטה\" בנושא אלימות במשפחה וסיוע במצבי חירום.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z",
+      "notes": "Same page: 'המוקד נותן מענה 24 שעות ביממה, 7 ימים בשבוע, 364 ימים בשנה (למעט יום הכיפורים).'"
+    },
+    {
+      "claim_id": "moh-kol-habriut-5400",
+      "claim": "The Ministry of Health's public information line is *5400 (Kol HaBriut).",
+      "source_url": "https://www.gov.il/he/service/emergency-room-payment",
+      "raw_snippet": "קול הבריאות - מוקד שירות ומידע טלפוני\n*5400",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/triage-and-red-flags.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
     }
   ],
   "notes": [
@@ -612,6 +915,7 @@
       "note_id": "shelter-arava-3min-dropped",
       "note": "The former claims \"approximately 1,700 alert zones\" and \"Arava/Eilat up to 3 minutes\" were dropped on 2026-08-13. The live OREF article on protection time (articles/protection-guidelines/preparing-protected-space/1103) states the entry time ranges from immediate up to a minute and a half and never mentions 1,700 zones or a 3-minute window. The skill body was corrected to the sourced range.",
       "checked_at": "2026-08-13"
-    }
+    },
+    "2026-08-27 cycle: the 10-minute shelter rule was REMOVED. Home Front Command publishes one merged rocket-and-missile guideline whose exit rule is open-ended ('עד לקבלת הנחיה מפורשת מפיקוד העורף'); the only guideline still containing 10 minutes is siren-system disruption. The ER figures 1,199 / 269 / 259 were all wrong and were replaced from the official MoH tariff (1,241 and 281, effective 1.7.2026) and the MoH exemption page. MDA's 8-minute average response time was removed because MDA publishes no such figure. api.oref.org.il/api/v1/guidelines//heb/<path> serves the authored Hebrew without JavaScript and is the cheapest way to re-verify the Home Front Command claims on a later cycle."
   ]
 }

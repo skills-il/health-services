@@ -9,6 +9,50 @@
       "drift_type": "E, safety-critical",
       "days_since_last_review": 73,
       "summary": "Corrected five errors that could cause harm: 112 described as a unified dispatcher, a flat 10-minute shelter exit rule, SAHAR marked as closed, five Level-1 trauma centers, and the superseded two-finger infant CPR technique. Added non-voice emergency channels, poison control and sexual assault lines to the numbers table, and the referral and night ER copay tiers."
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-08-27",
+      "lessons": [
+        "CARRY RESOLVED: terrorist infiltration, hazardous materials, tsunami, prolonged stay and siren-system disruption are now covered verbatim in references/oref-scenarios.md from the Home Front Command guidelines.",
+        "CARRY RESOLVED: MDA statistics re-sourced to MDA's own 2024 annual summary (206 stations, 2,650+ vehicles, ~37,500 personnel). The 8-minute average response time was REMOVED, not caveated: MDA publishes no such figure and it was being repeated as reassurance inside a worked example about someone collapsing.",
+        "CARRY RESOLVED: 101, 105, 110 and 118 are now cited at their operating authority's own site, and the deaf/hard-of-hearing channels now carry actual contact details (police SMS 052-2020100 / fax 08-6525111 / Listen@police.gov.il, welfare silent-call SMS 050-2270118, 105 WhatsApp 052-1210105). The previous version said the channels existed but gave a deaf user no way to use them.",
+        "SAFETY-CRITICAL CORRECTION: the 'at least 10 minutes for rocket fire' rule does not exist in current Home Front Command guidance. Rockets and ballistic missiles are ONE merged guideline whose exit rule is open-ended ('עד לקבלת הנחיה מפורשת מפיקוד העורף'). The two-regime framing the previous cycle introduced was itself the defect. The only guideline containing 10 minutes is siren-system disruption, a different scenario, and that is where every 'wait 10 minutes' answer in circulation comes from. Finding this required a POSITIVE search for where the number DOES live, not just a negative check that it was absent from the rocket page.",
+        "The ER figures 1,199 / 269 / 259 were all wrong. The referral case is a FULL exemption, not a 269 NIS reduced fee, so the skill was telling entitled users to pay. The night window is 01:00-06:00 and waives the treatment cost only; there is no 23:00 boundary anywhere in the regulations. Current tariff is 1,241 (code 5044) and 281 (code 00964), effective 1.7.2026.",
+        "The evidence gate is near-blind to this skill. It extracted 6-7 facts from a document made almost entirely of phone numbers, timings and protocol steps, and it went green in that state on the previous cycle while the shelter rule was wrong. A green gate here is evidence of nothing. Every safety claim in this cycle was verified by hand against the operating authority.",
+        "Eight LEGACY evidence entries had fabricated or mismatched snippets, including one asserting blood donation is open from age 17 and one asserting asthma triggers a full ER exemption, both contradicted by the skill's own text. A skill can pass the self-consistency gate for cycles with an evidence file that actively disagrees with it. Run --check-sources, not just the default pass.",
+        "The Expert returned TWELVE criticals, all in the areas references/domain-checklist.md had already recorded as 'not re-verified against a guideline source'. The checklist predicted exactly where the defects were and the previous version shipped anyway. Treat that marker as BLOCKING, not as a note.",
+        "first-aid-basics.md contained a direct internal contradiction: two rows told a lone rescuer to do 2 minutes of CPR before calling 101, and a bolded line two rows below said 'Calling is the first action, not the last'. It also printed a 30:2 paediatric algorithm with no initial rescue breaths while declaring in the same file that Israeli courses follow ERC, which opens with 5. Both are fixed. Anaphylaxis, stroke, hypoglycaemia, seizures, carbon monoxide, drowning, scorpion sting and the recovery position were absent entirely and are now added.",
+        "The skill refused on principle to quote an MDA response time and then quoted unsourced ER triage and Terem wait times. Both are removed, and the missing instruction (go back to the triage nurse if you deteriorate) is added.",
+        "A LEGAL NOTICE was added this cycle. Adding clinical protocol content (adrenaline dosing, CPR ratios) tripped verify_legal.py, which the skill had previously passed. The gate was right: the skill now emits clinical instruction and needed a medical notice, not a bureaucratic one."
+      ],
+      "persistent_fail": [],
+      "deferred": [
+        {
+          "id": "hospital-switchboard-numbers",
+          "text": "Every hospital phone number in references/hospital-directory.md has STILL never been verified against each hospital's own site, now across three cycles. A spot check this cycle found Rambam publishes a switchboard AND separate ER numbers which the directory does not distinguish. This is the largest remaining hazard in the skill. Next cycle must treat it as blocking."
+        },
+        {
+          "id": "remaining-oref-scenarios",
+          "text": "Radiological event, cluster rocket fire, blast, the two earthquake guidelines, means-of-alert, and Home Front Command's disability guidance are named in references/oref-scenarios.md but not quoted from the source."
+        },
+        {
+          "id": "unverified-numbers-remaining",
+          "text": "100, 102, 104, 110-as-dispatcher, 112, and the candidates 119 / 1-800-220-000 / 103 still have no citation at the operating authority's own site. gov.il 403s curl for every path and needs a browser session per page."
+        },
+        {
+          "id": "mass-casualty-and-uninsured-sourcing",
+          "text": "The mass-casualty and uninsured-person sections of references/triage-and-red-flags.md are written from practice and are not quoted from a cited source."
+        },
+        {
+          "id": "expert-majors-deferred",
+          "text": "Expert MAJOR M5 (ambulance charges) was added in summary only; the actual MDA transport tariff and the refund routes are not sourced. M11 (cardiac chest-pain bystander protocol) is not yet in the first-aid file."
+        },
+        {
+          "id": "tariff-cadence",
+          "text": "The skill says the tariff is revised several times a year; an older evidence note says 1 January annually. Reconcile against the MoH price-list collector."
+        }
+      ]
     }
   ],
   "lessons": [

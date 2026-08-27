@@ -13,8 +13,8 @@ These are the seven official categories, taken from the route table of the live 
 | Rocket and missile attacks | `life-saving-guidelines/rocket-and-missile-attacks` | COVERED, Step 8, including the two shelter-exit regimes |
 | Earthquake | `life-saving-guidelines/earthquake` | PARTIAL, in `references/first-aid-basics.md` only, not in SKILL.md |
 | Infiltration of a hostile aerial vehicle | `life-saving-guidelines/infiltration-of-a-hostile-aerial-vehicle` | PARTIAL, one row in Step 8 |
-| Terrorist infiltration | `life-saving-guidelines/terrorist-infiltration` | NOT COVERED. Highest-priority gap. This is the defining civilian scenario of 7 October and the skill invokes 7 October as its framing |
-| Hazardous materials event | `life-saving-guidelines/hazardous-materials-event` | NOT COVERED. Shelter-in-place versus evacuate is the inverse of the rocket decision, so getting them backwards is fatal |
+| Terrorist infiltration | `life-saving-guidelines/terrorist-infiltration` | COVERED as of 2026-08-27 in references/oref-scenarios.md|
+| Hazardous materials event | `life-saving-guidelines/hazardous-materials-event` | COVERED as of 2026-08-27 in references/oref-scenarios.md|
 | Radiological event | `life-saving-guidelines/radiological-event` | NOT COVERED |
 | Fear of a tsunami | `life-saving-guidelines/fear-of-a-tsunami` | NOT COVERED. The correct action after a felt coastal earthquake, moving inland and uphill without waiting for an alert, is counter-intuitive |
 
@@ -76,3 +76,40 @@ Required because a voice-only emergency guide is unusable for deaf and hard-of-h
 | Burns, heatstroke, snake bite, jellyfish | COVERED | Not re-verified against a guideline source |
 | Drowning | NOT COVERED |
 | Opioid overdose | NOT COVERED. The 2025 guidelines added dedicated guidance |
+
+
+## Coverage-contract refresh, 2026-08-27 (v1.5.0)
+
+CLOSED this cycle:
+- Terrorist infiltration, hazardous materials, tsunami, prolonged stay in a protected space, and
+  siren-system disruption are now covered verbatim from the Home Front Command guidelines in
+  `references/oref-scenarios.md`.
+- The shelter exit rule was corrected: there is no duration rule for rockets or missiles, they are
+  one merged guideline, and the only 10-minute rule belongs to siren-system disruption.
+- The ER payment section was rebuilt from the Ministry of Health tariff and exemption page.
+- Anaphylaxis, stroke, hypoglycaemia, seizures and febrile seizures, carbon monoxide, drowning,
+  scorpion sting and the recovery position were added to `references/first-aid-basics.md`, and the
+  paediatric CPR, bleeding-control, burns, heatstroke, snake-bite and jellyfish sections were
+  corrected against current guidance.
+- MDA figures were re-sourced to MDA's own annual summary, and the unsourced 8-minute response
+  time was removed.
+- Deaf and hard-of-hearing channels now carry actual contact details (police 052-2020100 /
+  08-6525111 / Listen@police.gov.il, welfare silent-call 050-2270118, 105 WhatsApp 052-1210105).
+
+STILL OPEN, carried to the next cycle:
+- **Hospital switchboard and ER numbers in `references/hospital-directory.md` have still never
+  been verified against each hospital's own site.** A spot check this cycle found Rambam publishes
+  a switchboard AND separate ER numbers, which the directory does not distinguish. In a
+  safety-critical skill this is the largest remaining hazard. Treat "not re-verified against a
+  source" as a BLOCKING state for this file next cycle, not a note.
+- Radiological event, cluster rocket fire, blast, and the earthquake guidelines are still not
+  quoted from the Home Front Command source.
+- Home Front Command's disability guidance is summarised but not quoted from its own page.
+- 100, 102, 104, 110, 112 and the 119 / 1-800-220-000 / 103 candidates still have no citation at
+  the operating authority's own site. 101, 105, 110 and 118 now do.
+- Mass-casualty and uninsured-person content in `references/triage-and-red-flags.md` is written
+  from practice, not quoted from a cited source.
+
+RULE ADDED: this file must be refreshed in the same cycle that changes coverage. It was stale
+going into this cycle and reported three closed gaps as open, which would have sent a reviewer
+chasing work already done while the real gaps sat unlisted.
