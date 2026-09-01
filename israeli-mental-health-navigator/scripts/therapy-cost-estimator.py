@@ -3,7 +3,10 @@
 Israeli Therapy Cost Estimator
 
 Estimates monthly and annual therapy costs based on treatment setting
-(kupat cholim vs. private), therapy type, session frequency, and city.
+(kupat cholim vs. private), therapy type and session frequency.
+
+Note: --city is accepted for backwards compatibility but does NOT change any figure.
+The private rates are the national HebPsy survey averages.
 
 Usage:
     python scripts/therapy-cost-estimator.py --sessions-per-month 4 --type private --city tel-aviv
@@ -58,7 +61,8 @@ UNIVERSITY_CLINIC_COSTS = {"average": None, "label": "University Training Clinic
 # Sliding scale options
 SLIDING_SCALE = {
     "description": "Some therapists offer reduced fees based on financial need",
-    "typical_discount": 0.30,  # fraction off the private rate, illustrative only
+    "typical_discount": 0.30,  # ILLUSTRATIVE ONLY. No survey publishes a sliding-scale
+    # discount, so this is a worked example, not a rate anyone is entitled to.
 }
 
 VALID_CITIES = ["tel-aviv", "jerusalem", "haifa", "beer-sheva", "herzliya", "other"]
@@ -170,7 +174,7 @@ def estimate_costs(sessions_per_month, treatment_type, city, therapist_type):
         discount = SLIDING_SCALE["typical_discount"]
         low = rate * (1 - discount)
         high = rate * (1 - discount)
-        costs = {"low": rate, "high": rate}
+        costs = {"low": rate, "high": rate}  # single sourced average, so no range
 
         result.update({
             "therapist": THERAPIST_DISPLAY[therapist_type],
@@ -184,7 +188,8 @@ def estimate_costs(sessions_per_month, treatment_type, city, therapist_type):
             "regular_low": costs["low"],
             "regular_high": costs["high"],
             "notes": [
-                f"Sliding scale assumes ~{int(discount * 100)}% reduction from standard rates",
+                f"ILLUSTRATIVE: assumes a ~{int(discount * 100)}% reduction. No source publishes a "
+                "standard sliding-scale discount; ask the individual therapist what they offer",
                 "Not all therapists offer sliding scale; ask when scheduling",
                 "Some therapists reserve sliding-scale slots for students and low-income clients",
                 "Be upfront about financial constraints when first contacting the therapist",
@@ -246,7 +251,7 @@ def format_result(result):
     if "therapist" in result:
         lines.append(f"  Therapist Type:      {result['therapist']}")
     if "city" in result:
-        lines.append(f"  City:                {result['city']}")
+        lines.append(f"  City:                {result['city']} (does not affect the figure; the survey rate is national)")
     lines.append(f"  Sessions/Month:      {result['sessions_per_month']}")
     lines.append("")
 
@@ -275,7 +280,10 @@ def format_result(result):
         lines.append(f"  Per session:         {result['per_session_low']:>8,.0f} - {result['per_session_high']:>8,.0f} NIS")
 
     if "regular_low" in result:
-        lines.append(f"  (Regular rate:       {result['regular_low']:>8,} - {result['regular_high']:>8,} NIS)")
+        if result['regular_low'] == result['regular_high']:
+            lines.append(f"  (Regular rate:       {result['regular_low']:>8,} NIS)")
+        else:
+            lines.append(f"  (Regular rate:       {result['regular_low']:>8,} - {result['regular_high']:>8,} NIS)")
 
     lines.append("")
 

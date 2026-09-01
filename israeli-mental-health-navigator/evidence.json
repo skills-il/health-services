@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-mental-health-navigator",
-  "generated_at": "2026-09-01T22:13:15+00:00",
+  "generated_at": "2026-09-01T22:37:51+00:00",
   "claims": [
     {
       "claim_id": "reform-year-july-2015",
@@ -405,7 +405,8 @@
         "SKILL_HE.md"
       ],
       "verified_via": "source re-fetched with correct decoding; snippet copied from it",
-      "verified_at": "2026-08-19"
+      "verified_at": "2026-08-19",
+      "source_note": "pdftotext renders this line with bidi control characters embedded (as כ‪ 1.3-‬ מיליון), so a naive substring check reports the snippet missing when it is present. Strip bidi controls before matching. Confirmed by eye 2026-09-02."
     },
     {
       "claim_id": "private-rates-2025-hebpsy",
@@ -802,12 +803,13 @@
       "claim": "Section 8 (סעיף 8): an examination order under sections 6 or 7 is valid for ten days from the day it is given.",
       "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%97%D7%95%D7%9C%D7%99_%D7%A0%D7%A4%D7%A9&action=raw",
       "raw_snippet": "תהיה בתוקף במשך עשרה ימים מיום נתינתה",
-      "fetched_at": "2026-09-01T22:13:15+00:00",
+      "fetched_at": "2026-09-01T22:37:51+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/patient-rights.md"
-      ]
+      ],
+      "source_note": "The quoted phrase is word-for-word identical in s.8 and in s.9(c), so the quote alone cannot establish which section it came from. Attributed to s.8 by reading the surrounding raw wikitext on 2026-09-02: the phrase follows the section marker {{ח:סעיף|8|תקפה של הוראת בדיקה}} and refers to an order under sections 6 or 7. The identical phrase under s.9(c) governs the validity of a hospitalization order, which is a different clock and is recorded separately."
     },
     {
       "claim_id": "mhl-minor-exam-child-psychiatrist",

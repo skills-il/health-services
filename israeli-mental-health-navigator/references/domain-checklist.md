@@ -49,6 +49,7 @@ Reviewed and re-affirmed 2026-09-02.
 | Recommending a named therapist, clinic or institute | No basis on which to rank them, and an endorsement carries a duty we cannot discharge |
 | Suicide-risk assessment conducted in the conversation | The skill routes to a crisis line or a psychiatric ER and stops |
 | A directory of individual district psychiatrists' or psychiatric hospitals' phone numbers | A wrong number in this context is a real-harm failure. Link to the official district and facility pages instead |
+| Routes for minors that sit outside the kupah, in particular school-based educational-psychology services | Reviewed 2026-09-02. Would an ordinary user ask? Yes, a parent would. It stays out of scope for now for a specific reason rather than by omission: no source for its terms could be read this cycle (the Kol Zchut page 404s and the gov.il page is bot-blocked), and the rule here is not to write an entitlement we cannot cite. The skill therefore says explicitly that these routes exist outside its scope and points the parent at the school or municipality, rather than asserting coverage it does not deliver. Re-open next cycle with a readable source. |
 | Substance-abuse and addiction treatment pathways as a primary subject | A distinct service network. Cross-reference only |
 | Non-Israeli mental health systems, and private (non-shaban) insurance policies | Outside the skill's stated scope |
 

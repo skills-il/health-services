@@ -46,6 +46,20 @@ Israel has an extensive network of crisis hotlines and emotional support service
 | What They Do | General mental health information, referrals to services, guidance on navigating the mental health system |
 | Notes | Not a crisis line per se, but useful for finding services and understanding your rights |
 
+### Kupat Cholim Mental Health Support Lines
+
+| Kupah | Line |
+|-------|------|
+| Clalit | *8703 |
+| Maccabi | *3555 |
+| Meuhedet | *3833 |
+| Leumit | *507 |
+
+Source: the Ministry of Health helpline index (me.health.gov.il), which lists all four and notes
+that alongside the support line each kupah offers up to 3 telephone therapeutic conversations with
+a professional. These are intake and support lines. Treatment through the kupah still needs the
+referral route described in SKILL.md Step 2.
+
 ## Trauma-Specific Services
 
 ### Natal (נט"ל) - Israel Trauma and Resiliency Center

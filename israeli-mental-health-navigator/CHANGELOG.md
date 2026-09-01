@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.5.1 - 2026-09-02
+
+Follow-up to 1.5.0, closing what a post-release review found. Nothing here is a fact correction; all of it is propagation and honesty about limits.
+
+### Fixed
+
+- `references/patient-rights.md` carried two of the three general-hospital ER limbs while the body carried all three. The reference is the file the body delegates to, so the shorter version was the one an agent would quote.
+- The cost estimator still accepted `--city`, still echoed "City: Tel Aviv", and the value no longer changed any figure after the per-city rates were removed in 1.5.0. A user could read a national survey average as a city-specific quote. The flag now says plainly that it does not affect the figure.
+- The sliding-scale mode printed a degenerate "421 - 421 NIS" range, and its 30% discount is now labelled ILLUSTRATIVE in the output as well as in the code, because no source publishes a standard sliding-scale discount.
+- The four kupah mental-health lines were sourced on the Ministry of Health index but appeared in neither reference file, so the skill's own instruction to verify every hotline number against the reference directory could not be satisfied for them. They are now in the directory with that source.
+
+### Changed
+
+- The children-and-adolescents bullet asserted coverage the skill does not route. It now says what is true (minors go through the same assessment-plus-kartisiya structure and often get priority placement) and says explicitly that routes outside the kupah for minors, such as school-based educational-psychology services, are NOT covered here, pointing the parent at the school or municipality. Naming those services properly needs a source that could not be read this cycle, and `references/domain-checklist.md` now records that as an explicit out-of-scope with the reason and a re-open date rather than as silence.
+- Two evidence entries gained a `source_note` recording HOW they were attributed, not merely that they were: the 10-day examination-order quote is word-for-word identical in section 8 and section 9(c), so the quote alone cannot establish which section it came from, and the resilience-centre figure sits behind bidi control characters in the PDF text layer, which makes a naive substring check report it missing when it is present.
+
 ## 1.5.0 - 2026-09-02
 
 ### Fixed

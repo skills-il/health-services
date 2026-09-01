@@ -1,7 +1,7 @@
 {
   "cycles": [
     {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "date": "2026-09-02",
       "holdout_before": 0.67,
       "holdout_after": 1.0,
@@ -18,6 +18,8 @@
       },
       "lessons": [
         "RESOLVED this cycle: the compulsory-examination route (ss.6-7), the MoH complaints commissioner, and the per-kupah referral disclosure. Do not re-log them as deferred.",
+        "RESOLVED in 1.5.1: the kupah hotline lines are now in the reference directory with their MoH source, so the 'verify against the directory' instruction is satisfiable for them. Their provenance was never actually missing, only their placement.",
+        "CARRY: naming the school-based educational-psychology route for minors. Recorded as an explicit out-of-scope row with its reason, not left silent. Both candidate sources were unreadable this cycle (Kol Zchut 404, gov.il bot-blocked); try a different route next cycle rather than re-deriving the gap.",
         "Expert MAJOR deferred: the psychiatric register and its confidentiality consequences (what is entered, who may access it, correction rights) are absent. This is the commonest reason Israelis avoid care, and the skill currently lets them decide on a false premise. Top of the next cycle.",
         "Expert MAJOR deferred: minors. The municipal educational-psychology service (שפ\"ח) is free, needs no kupah referral, and is the parent's best route past the waiting list the skill devotes a troubleshooting entry to. The reviewer called deferring this indefensible; it is one line and should ship next cycle at the latest.",
         "Expert MAJOR deferred: psychiatric day hospitalization (אשפוז יום), the level between weekly therapy and admission.",

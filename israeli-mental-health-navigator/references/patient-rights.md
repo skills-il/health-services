@@ -8,7 +8,7 @@ emergency door to send someone to, and what happens once an involuntary admissio
 | Route | Referral needed? | Cost | Hours |
 |-------|------------------|------|-------|
 | Psychiatric hospital emergency room | No | Free | 24 hours a day, all year |
-| General hospital emergency room | No | An ER fee applies. It is reduced if you obtain a Form 17 commitment (hitchayvut) from your kupah in advance, and waived entirely if the patient is admitted | 24/7 |
+| General hospital emergency room | No | An ER fee applies. A Form 17 commitment (hitchayvut) from your kupah reduces it; a specific referral to that medical centre from an authorized party TOGETHER WITH a Form 17 commitment avoids it; admission waives it entirely. The Ministry of Health page states all three, so give all three | 24/7 |
 | Community mental health clinic | Yes, from a family doctor or a mental health clinician. Some kupot also require a pre-authorization request | Depends on the setting, see SKILL.md Step 2 | Clinic hours |
 
 The referral and pre-authorization rules that govern the community route do NOT govern the

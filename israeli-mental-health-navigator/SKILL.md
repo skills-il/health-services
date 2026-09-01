@@ -54,9 +54,9 @@ Copay depends on the SETTING, not on which kupah you belong to. The National Hea
 | Outpatient clinic in a general hospital (מרפאת חוץ בבית חולים כללי) | Charged at the standard hospital outpatient tariff |
 | Outpatient clinic in a psychiatric hospital (מרפאת חוץ בבית חולים פסיכיאטרי) | Charged at the secondary-physician quarterly tariff |
 
-The only per-kupah figures published in a form we could read directly are Maccabi's (page last updated 29.7.2026): **41 NIS quarterly** at a public-hospital outpatient clinic, **free** at a psychiatric hospital, **free** at public Ministry of Health clinics and at private clinics under agreement with Maccabi.
+The only per-kupah figures we could read directly are Maccabi's (page updated 29.7.2026): **41 NIS quarterly** at a public-hospital outpatient clinic, and **free** at a psychiatric hospital, at public Ministry of Health clinics, and at private clinics under agreement with Maccabi.
 
-VERIFY BEFORE QUOTING: Clalit, Meuhedet and Leumit publish their secondary-physician quarterly tariffs in separate copay booklets (alon hishtatfuyot atzmiyot) we have not read. Do not assume they match Maccabi's 41 NIS. Direct the user to their own kupah's booklet or service line.
+VERIFY BEFORE QUOTING: Clalit, Meuhedet and Leumit publish their secondary-physician tariffs in separate copay booklets we have not read. Do not assume they match Maccabi's 41 NIS. Send the user to their own kupah's booklet or service line.
 
 Session entitlement (Maccabi's published structure, at Ministry of Health public clinics and hospital outpatient clinics):
 
@@ -66,16 +66,15 @@ Session entitlement (Maccabi's published structure, at Ministry of Health public
 | Treatment card (kartisiya, כרטיסייה) | 15 therapeutic sessions from a defined list, up to one year from the first treatment, whichever comes first |
 | At private clinics under agreement with the kupah | Assessment plus a course of treatment at the therapist's clinical discretion. No fixed session cap |
 
-The agreement-clinic route is the one that has no session cap and no cost. It is usually the best answer for someone who cannot afford private therapy.
+The agreement-clinic route has no session cap and no cost, and is usually the best answer for someone who cannot afford private therapy.
 
 Important notes:
 - Waits run to weeks or months in many regions, and there is no binding national maximum, so do not quote one as an entitlement.
-- The session structure is the 2 + 15 kartisiya described above, not an informal 12-16 range
 - If the therapist is not a good fit, you may request a different one
 - Do not promise anything from supplementary insurance (shaban, שב"ן). A shaban may not sell a service already inside the health basket, and adult psychotherapy has been inside it since 2015, so what it adds is a question for the user's own kupah
-- Children and adolescents often get priority placement
-- Do NOT expect reimbursement for a therapist you find on your own. Maccabi states plainly that no reimbursement is given for private mental health services. The correct route when the public clinic is full is a referral to a private clinic UNDER AGREEMENT with your kupah (מרפאה פרטית שבהסכם), where treatment length is at the therapist's clinical discretion at no cost to you.
-- Once treatment has started, a kupah may not cut it off over a contract dispute with the provider (Deputy Director General circular 01/2017).
+- Children and adolescents go through the same assessment-plus-kartisiya structure and often get priority placement. Routes outside the kupah for minors, such as school-based educational-psychology services, are not covered here; ask the school or municipality
+- Do NOT expect reimbursement for a therapist you find yourself; Maccabi states plainly that none is given for private mental health services. When the public clinic is full the correct route is a referral to a private clinic UNDER AGREEMENT with your kupah (מרפאה פרטית שבהסכם), where treatment length is at the therapist's discretion and costs you nothing.
+- Once treatment starts, a kupah may not cut it off over a contract dispute with the provider (Deputy DG circular 01/2017).
 
 ### Step 3: Crisis Hotlines and Emergency Support
 
