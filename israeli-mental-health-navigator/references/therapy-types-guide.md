@@ -17,7 +17,7 @@ Israel offers a wide range of evidence-based psychological treatments through bo
 | Couples Therapy | טיפול זוגי | Relationship issues, communication | 10-30 sessions | Sometimes |
 | Art Therapy | טיפול באומנות | Trauma, children, verbal difficulty | Varies | Sometimes |
 | Play Therapy | טיפול במשחק | Children ages 3-12 | 20-40 sessions | Sometimes |
-| Psychiatric Medication | טיפול תרופתי | Severe depression, bipolar, schizophrenia | Ongoing | Yes |
+| Psychiatric Medication | טיפול תרופתי | Suitability and prescribing are a physician's decision, not determined here | Set by the prescriber | Yes |
 
 ## Detailed Guide by Therapy Type
 
@@ -200,18 +200,21 @@ Israel offers a wide range of evidence-based psychological treatments through bo
 
 ## How to Choose the Right Therapy
 
-| If You Are Dealing With... | Consider Starting With |
-|---------------------------|----------------------|
-| Anxiety or panic attacks | CBT (most evidence-based for anxiety) |
-| PTSD or trauma flashbacks | EMDR (faster results for trauma) or trauma-focused CBT |
-| Depression (first episode) | CBT or medication (or both) |
-| Depression (chronic/recurring) | Psychodynamic therapy, possibly combined with medication |
-| Self-harm or emotional instability | DBT (specifically designed for these issues) |
-| Relationship problems (patterns) | Psychodynamic therapy |
-| Couple conflict | Couples therapy with a licensed family therapist |
-| Child behavioral issues | Play therapy (ages 3-12) or family therapy |
-| Social isolation or loneliness | Group therapy |
-| Not sure what I need | Start with your kupat cholim intake; they will assess and recommend |
+Choosing a modality is a clinical decision and it belongs to the intake assessment, not to this
+file and not to an agent. Matching a self-applied diagnosis or a self-rated severity to a treatment,
+or to medication, is exactly what this skill does not do. What you CAN do is arrive at intake able
+to ask well:
+
+| Ask the intake clinician | Why it matters |
+|---|---|
+| Which approaches do you consider suitable for what I described, and why those | Surfaces the reasoning rather than a label |
+| Is this approach time-limited, and roughly how many sessions | Sets expectations, and interacts with the session entitlement in SKILL.md Step 2 |
+| Is it available at this clinic, or only at a clinic under agreement | Determines the waiting time and the cost |
+| If medication is raised, who prescribes and who follows it up | Only a physician or psychiatrist prescribes |
+| What happens if this is not the right fit | You may request a different therapist |
+
+The tables above describe what each modality IS and what it is typically used for, which is
+background for that conversation, not a recommendation for any individual.
 
 ## Who Can Provide Therapy in Israel
 
@@ -229,12 +232,12 @@ Israel offers a wide range of evidence-based psychological treatments through bo
 
 1. **Know your rights.** Under the 2015 reform, mental health care is covered for all residents. You do not need a "serious" condition to qualify.
 
-2. **Ask about therapy type.** When contacting your kupat cholim, ask specifically for the therapy type that matches your needs (e.g., "I want CBT for anxiety" or "I need EMDR for trauma").
+2. **Ask what approaches the clinic offers.** When contacting your kupah, ask whether a particular approach is among the options there (for example "is CBT one of the options?"), rather than arriving with a modality already chosen for yourself.
 
 3. **Request a different therapist if needed.** If the assigned therapist is not a good fit after 2-3 sessions, you have the right to request reassignment.
 
-4. **Check SHABAN benefits.** Supplementary insurance may provide additional sessions, faster access, or coverage for private therapists.
+4. **Ask your kupah what, if anything, your supplementary insurance (shaban) adds here.** Do not assume it adds sessions or speed: a shaban may not sell a service that is already inside the health basket, and adult psychotherapy has been inside it since 2015. Treat it as a question for your kupah, not as a route to rely on.
 
-5. **Combine approaches.** It is common and effective to combine therapy with medication, especially for moderate-to-severe depression and anxiety.
+5. **Therapy and medication are sometimes used together.** Whether that applies to any individual, and when, is a decision for a physician or psychiatrist with the treating therapist. Do not infer it from a self-assessed severity.
 
 6. **Ask for an agreement clinic, not a reimbursement.** If wait times are too long, ask to be referred to a private clinic under agreement with your kupah (מרפאה פרטית שבהסכם). It costs nothing and the course of treatment is set by the therapist rather than capped. Kupot generally do NOT reimburse a private therapist you found on your own.

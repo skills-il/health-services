@@ -1,0 +1,33 @@
+{
+  "cycles": [
+    {
+      "version": "1.5.0",
+      "date": "2026-09-02",
+      "holdout_before": 0.67,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [
+          "בן משפחה שלי מאושפז בכפייה, מה אפשר לעשות?"
+        ],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "How do I get PTSD recognized by Bituach Leumi?",
+          "תרשום לי מרשם לאסציטלופרם (negative, correctly not routed)"
+        ]
+      },
+      "lessons": [
+        "RESOLVED this cycle: the compulsory-examination route (ss.6-7), the MoH complaints commissioner, and the per-kupah referral disclosure. Do not re-log them as deferred.",
+        "Expert MAJOR deferred: the psychiatric register and its confidentiality consequences (what is entered, who may access it, correction rights) are absent. This is the commonest reason Israelis avoid care, and the skill currently lets them decide on a false premise. Top of the next cycle.",
+        "Expert MAJOR deferred: minors. The municipal educational-psychology service (שפ\"ח) is free, needs no kupah referral, and is the parent's best route past the waiting list the skill devotes a troubleshooting entry to. The reviewer called deferring this indefensible; it is one line and should ship next cycle at the latest.",
+        "Expert MAJOR deferred: psychiatric day hospitalization (אשפוז יום), the level between weekly therapy and admission.",
+        "Expert MAJOR deferred: the four kupah mental-health hotlines (*8703, *3555, *3833, *507) are in neither reference file and so never passed the verification sweep that removed roughly fifteen other numbers. Verify or remove them next cycle; an inconsistent standard inside one crisis table is exactly what the sweep exists to prevent.",
+        "Open question, still not asserted either way: whether a shaban may sell adult psychotherapy at all, given the statutory bar on selling what is already inside the basket. All four surfaces that used to promise it have been stripped.",
+        "Could not source: the retroactivity cap on a Bituach Leumi claim. The skill now says to file promptly and to read the rule on the claim page, and states no figure. Source it next cycle.",
+        "Two figures removed because their only source is Cloudflare-walled to every automated read (MoD caseload, 2025/2026 basket additions). Restore only if a citable source appears.",
+        "PROCESS: a batched edit script that asserts on a missing anchor aborts before writing, so every earlier edit in the same batch is silently lost. That is how three Hebrew repairs went missing this cycle and were caught only by an independent reviewer. Write each file's edits in its own call, or verify after writing.",
+        "PROCESS: an English-only repair pass is a live failure mode here. Hebrew is the site's default locale, so a fix applied to SKILL.md alone reaches the minority of users. Diff EN and HE for every corrected fact before the gates."
+      ]
+    }
+  ]
+}

@@ -1,25 +1,14 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-mental-health-navigator",
-  "generated_at": "2026-08-01T00:00:00Z",
+  "generated_at": "2026-09-01T22:13:15+00:00",
   "claims": [
     {
       "claim_id": "reform-year-july-2015",
       "claim": "Mental health reform entered into effect in July 2015, transferring services from Ministry of Health to kupot cholim.",
       "source_url": "https://hw.haifa.ac.il/%D7%A8%D7%A4%D7%95%D7%A8%D7%9E%D7%94-%D7%91%D7%AA%D7%97%D7%95%D7%9D-%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA-%D7%94%D7%A0%D7%A4%D7%A9/",
-      "raw_snippet": "הרפורמה בבריאות הנפש נכנסה לתוקף ביולי 2015, ובמסגרתה הועברה האחריות למתן הטיפול ממשרד הבריאות לקופות החולים",
-      "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "mh-budget-increase-2025-2026",
-      "claim": "Government approved approximately 366M NIS for 2025 and 175M NIS for 2026 to expand mental health services via public hospitals to kupot cholim.",
-      "source_url": "https://publichealth.doctorsonly.co.il/2025/11/357456/",
-      "raw_snippet": "להגדיל את עלות סל שירותי הבריאות ב-366 מיליון שקלים ב-2025 וב-175 מיליון שקלים נוספים ב-2026 לטובת שיפור שירותי בריאות הנפש",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "raw_snippet": "החל מיולי 2015",
+      "fetched_at": "2026-09-01T22:13:15+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -120,17 +109,17 @@
     },
     {
       "claim_id": "combat-reaction-unit-phone",
-      "claim": "The Combat Reaction Unit provides a medical and mental response for people in distress following combat or operational service, at 03-6401400, Sunday to Thursday 09:00-17:00.",
-      "source_url": "https://shikum.mod.gov.il/about/harvot-barzel/moked-harvot",
-      "raw_snippet": "היחידה לתגובות קרב - נותנת מענה רפואי-נפשי לאזרחים הסובלים ממצוקה בעקבות השתתפותם בלחימה או בפעילות מבצעית בעת שירותם הצבאי (סדיר או מילואים). טלפון: 03-6401400, ימי ושעות פעילות: ראשון עד חמישי, בין השעות 09:00 עד 17:00",
-      "fetched_at": "2026-08-11",
+      "claim": "The Combat Reaction Unit, run by the MoD Rehabilitation Division, gives a medical and mental response to discharged and reserve soldiers in distress following combat or operational service. Treatment is free, requires no disability recognition or any proof, and carries no time limit since the combat event. Phone 03-6401400. The unit's own page publishes no opening hours.",
+      "source_url": "https://shikum.mod.gov.il/ContactUs/CombatResponse",
+      "raw_snippet": "הסיוע והטיפול בטראומה ניתן ללא תשלום, ללא צורך בהכרה בנכות או בהוכחה כלשהי וכן ללא מגבלת זמן מאז אירוע הלחימה",
+      "fetched_at": "2026-09-01T21:20:36+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/crisis-hotlines-directory.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-08-11"
+      "verified_at": "2026-09-01T21:20:36+00:00"
     },
     {
       "claim_id": "mod-6500-hours",
@@ -196,14 +185,16 @@
     },
     {
       "claim_id": "aguda-listening-line-2982-c",
-      "claim": "The listed opening windows are 14:00-17:00 and 19:30-22:30, plus 19:30-22:30 on Saturday. (The Sunday-to-Thursday day label sits in HTML-escaped text on the page and cannot be quoted verbatim, so only the times are quoted here.)",
+      "claim": "The Aguda listening line operates Sunday to Thursday 14:00-17:00 and 19:30-22:30, and Saturday 19:30-22:30.",
       "source_url": "https://www.lgbt.org.il/yesh",
-      "raw_snippet": "14:00-17:00, 19:30-22:30 שבת: 19:30-22:30",
-      "fetched_at": "2026-08-09",
+      "raw_snippet": "בימים א'-ה': 14:00-17:00, 19:30-22:30 שבת: 19:30-22:30",
+      "fetched_at": "2026-09-01T21:21:18+00:00",
       "source_fetched_at": "2026-08-09",
       "appears_in": [
         "references/crisis-hotlines-directory.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-01T21:21:18+00:00"
     },
     {
       "claim_id": "aguda-listening-line-2982-d",
@@ -256,10 +247,10 @@
     },
     {
       "claim_id": "sal-shikum-40-percent-age-18",
-      "claim": "Sal shikum eligibility is Israeli residents aged 18 and over recognised by Bituach Leumi with 40% or more psychiatric disability; those with temporary disability percentages are eligible as long as they are defined disabled.",
+      "claim": "Sal shikum eligibility: Israeli residents aged 18 and over for whom Bituach Leumi has determined a permanent psychiatric disability of 40% or more; those with a temporary 40% psychiatric disability are eligible for as long as they are defined as disabled.",
       "source_url": "https://me.health.gov.il/mental-health/therapy-rehabilitation/rehabilitation/rehabilitation-basket/about/",
-      "raw_snippet": "מי שהוכרו עם נכות נפשית בביטוח לאומי: תושבי ישראל, בגיל 18 שנים ומעלה, שהוכרו בביטוח הלאומי ושנקבעו להם 40% ומעלה של נכות נפשית. מי שקיבלו אחוזי נכות זמניים מהביטוח הלאומי, זכאים לסל שיקום כל עוד הם מוגדרים נכים.",
-      "fetched_at": "2026-08-11",
+      "raw_snippet": "תושבי ישראל בגיל 18 שנים ומעלה שנקבעו להם בביטוח הלאומי 40% ומעלה של נכות נפשית לצמיתות",
+      "fetched_at": "2026-09-01T22:13:15+00:00",
       "source_fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md",
@@ -296,16 +287,14 @@
     },
     {
       "claim_id": "sal-2026-auvelity-riagility",
-      "claim": "Sal briut 2026 added two psychiatric medications for adults with major depressive disorder: Auvelity (fast-acting NMDA-targeting) and Riagility (dopamine receptor agent for negative symptoms).",
+      "claim": "Sal briut 2026 admitted two medications for adults with major depressive disorder: Auvelity, which acts on NMDA receptors, and Reagila (ריאגילה).",
       "source_url": "https://www.maariv.co.il/news/health/article-1286878",
-      "raw_snippet": "סל תרופות 2026: אילו תרופות חדשות נכנסו ומי זכאי | חדשות מעריב",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "ועדת הסל אישרה שתי תרופות משמעותיות המיועדות למבוגרים הסובלים מדיכאון",
+      "fetched_at": "2026-09-01T21:45:55+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ],
-      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
-      "verified_at": "2026-08-18"
+      ]
     },
     {
       "claim_id": "form-7801-disability",
@@ -381,54 +370,36 @@
     },
     {
       "claim_id": "form-571-iron-swords",
-      "claim": "Form 571 is the Iron Swords hostility-victim claim form at Bituach Leumi.",
+      "claim": "Form 571 is the request for a benefit for a hostility victim of the Iron Swords war. It is intended for someone who has ALREADY been recognized as a hostility victim, and is used to request a medical-treatment benefit (tatar) or a determination of disability grade. It is not the recognition claim.",
       "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/tfassim-mekuvanim/Pages/Fill571.aspx",
-      "raw_snippet": "בקשה לתגמול לנפגע פעולות איבה ממלחמת חרבות ברזל (טופס 571)",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "raw_snippet": "הטופס מיועד למי שהוכר כנפגע איבה ומבקש לקבל תגמול מהביטוח הלאומי.",
+      "fetched_at": "2026-09-01T21:20:36+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "mod-rehab-82400-31000",
-      "claim": "Ministry of Defense Rehabilitation Division reported in late 2025 handling approximately 82,400 wounded, of which approximately 31,000 are dealing with mental health and PTSD; about 1,500 new recognition requests per month; expected additional 10,000 by end of 2026.",
-      "source_url": "https://publichealth.doctorsonly.co.il/2025/12/360044/",
-      "raw_snippet": "אגף השיקום מטפל כיום ב-82,400 פצועים, מתוכם 31,000 שמתמודדים עם בעיות נפשיות ופוסט טראומה... כ-1,500 בקשות חדשות להכרה מוגשות מדי חודש, ובסוף 2026 צפויים להתקבל עוד 10,000 פצועים",
-      "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "mod-6500-iron-swords-hotline",
-      "claim": "MoD Rehabilitation operates a dedicated Iron Swords casualty hotline at *6500.",
-      "source_url": "https://shikum.mod.gov.il/about/harvot-barzel/moked-harvot",
-      "raw_snippet": "מוקד טלפוני 6500* לפצועי מלחמת התקומה (חרבות ברזל)",
-      "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-01T21:20:36+00:00"
     },
     {
       "claim_id": "reservist-30-days-therapy",
-      "claim": "Reservists who served 30+ days under tzav 8 from January 1, 2025 are eligible for reimbursed psychological, emotional, and couples therapy for soldiers and their families (spouses and children up to age 14).",
-      "source_url": "https://www.btl.gov.il/HaravotBarzel1/KizbeotHB/MiloeimHB/Pages/MsrtimMiloeim.aspx",
-      "raw_snippet": "מי ששירת 30 ימים או יותר בצו 8 החל מה-1 בינואר 2025, זכאים להחזרים על טיפול פסיכולוגי, רגשי וזוגי למשרתי מילואים ובני משפחותיהם",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "claim": "Reservists who served 30+ days under tzav 8 from 01.01.2025 are entitled to assistance funding emotional, mental, psychotherapeutic and complementary treatment, as a reimbursement, for themselves and their family (spouse and children up to age 14). Combat-array reservists up to 2,500 NIS, others up to 1,000 NIS, one-time; 2025 entitlement is claimable until 31.12.2027.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%99%D7%95%D7%A2_%D7%91%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%D7%9D_%D7%90%D7%99%D7%A9%D7%99%D7%99%D7%9D_%D7%95%D7%9E%D7%A9%D7%A4%D7%97%D7%AA%D7%99%D7%99%D7%9D_%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C_%D7%95%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F",
+      "raw_snippet": "משרתי מילואים במערך הלוחם זכאים להשתתפות של עד 2,500 ₪",
+      "fetched_at": "2026-09-01T21:45:55+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-01T21:45:55+00:00"
     },
     {
       "claim_id": "resilience-centers-1.3m",
       "claim": "Ministry of Health resilience centers serve approximately 1.3 million residents in the south, north, Judea and Samaria; a national resilience center was established after October 7.",
       "source_url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2025/Swords-of-Iron-1/2025-Swords-of-Iron-200-Taktzir.pdf",
-      "raw_snippet": "ת ברזל דוח מבקר המדינה | מתקפת הטרור בשבעה באוקטובר 2023ומלחמת חרבות ברזל תקציר למושג \"חוסן\" הגדרות רבות וכולן עוסקות ביכולת של אדם ושל חברה לחזור למצב הקודם לאחר שחוו מצב דחק מתמשך ולהשתמש במשאבים שיש להם כדי להתמודד עם שינוי ולהסתגל אליו .",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "מרכזי החוסן משרתים כ-1.3 מיליון תושבים",
+      "fetched_at": "2026-09-01T22:13:15+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -444,30 +415,22 @@
       "fetched_at": "2026-05-20T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md"
+        "SKILL_HE.md",
+        "scripts/therapy-cost-estimator.py"
       ]
     },
     {
       "claim_id": "sick-pay-structure",
-      "claim": "Israeli Sick Pay Law: 1.5 sick days per month of employment (18 per year), max 90 accumulated days; day 1 unpaid, days 2-3 at 50%, day 4+ at 100% of salary.",
+      "claim": "Israeli Sick Pay Law: 1.5 sick days accrued per full month of employment (18 per full work year), maximum accumulation 90 days.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%99%D7%9E%D7%99_%D7%9E%D7%97%D7%9C%D7%94",
-      "raw_snippet": "1.5 ימי מחלה לכל חודש עבודה מלא, עד למקסימום של 90 יום... יום העדרות ראשון אינו משולם, ימים שני ושלישי 50%, מהיום הרביעי - 100%",
-      "fetched_at": "2026-05-20T00:00:00Z",
+      "raw_snippet": "בכל חודש עבודה מלא, העובד צובר 1.5 ימי מחלה (18 ימי מחלה בשנת עבודה מלאה)",
+      "fetched_at": "2026-09-01T21:20:36+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "hostility-victims-ptsd-flexibility-late-2025",
-      "claim": "In late 2025, Bituach Leumi clarified that PTSD is not necessarily a time-limited condition, and additional treatment series for recognized hostility victims are approved with greater flexibility.",
-      "source_url": "https://www.btl.gov.il/benefits/Victims_of_Hostilities/Casualties_benefits/Pages/default.aspx",
-      "raw_snippet": "שינוי משמעותי בסוף 2025 הוא ההכרה שפוסט-טראומה (PTSD) אינה תופעה חולפת... מתבטא בהארכת טיפולים פסיכולוגיים, ויש כעת גמישות רבה יותר באישור סדרות טיפול נוספות לנפגעי טראומה",
-      "fetched_at": "2026-05-20T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-01T21:20:36+00:00"
     },
     {
       "claim_id": "moh-helpline-index-2026-a",
@@ -610,6 +573,276 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "sick-pay-payment-ladder",
+      "claim": "Sick pay ladder: day 1 of absence unpaid, days 2 and 3 at 50% of salary, from day 4 at full salary.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%99%D7%9E%D7%99_%D7%9E%D7%97%D7%9C%D7%94",
+      "raw_snippet": "על יום ההיעדרות הראשון העובדים לא זכאים לתשלום. על כל אחד מימי ההיעדרות השני והשלישי העובדים זכאים לתשלום בגובה 50% מהשכר",
+      "fetched_at": "2026-09-01T21:20:36+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-09-01T21:20:36+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "sal-2026-reagila-and-ptsd-rejected",
+      "claim": "Reagila acts on dopamine receptors differently from the norm and is particularly effective on the negative symptoms of the illness, such as lack of energy.",
+      "source_url": "https://www.maariv.co.il/news/health/article-1286878",
+      "raw_snippet": "הריאגילה פועלת על קולטני דופמין בדרך שונה מהמקובל",
+      "fetched_at": "2026-09-01T21:45:55+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nifgaei-eiva-recognition-route",
+      "claim": "Recognition as a hostility victim starts with an injury-notification and recognition claim submitted to Bituach Leumi, which forwards it to the determining authority (harashut hama'ashera) at the Ministry of Defense, which decides whether the event was a hostile act. Bituach Leumi operates an immediate assistance line on 02-6269999 and recognized victims are entitled to a rehabilitation basket that includes psychological treatment.",
+      "source_url": "https://www.btl.gov.il/benefits/Victims_of_Hostilities/Pages/default.aspx",
+      "raw_snippet": "יש למלא טופס הודעה על פגיעה והכרה כנפגע פעולות איבה ולצרף את כל המסמכים הנדרשים. בדיקת התביעה על ידי הרשות המאשרת במשרד הביטחון",
+      "fetched_at": "2026-09-01T21:20:36+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-09-01T21:20:36+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "mhl-hospitalization-7-days",
+      "claim": "Involuntary hospitalization under a district psychiatrist's order may not exceed 7 days initially (s.10(a)); the order itself is valid for 10 days (s.9(c)); the district psychiatrist may extend by a further 7 days, and beyond that only a psychiatric committee may extend, first by up to 3 months and then by further periods of up to 6 months each.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%97%D7%95%D7%9C%D7%99_%D7%A0%D7%A4%D7%A9&action=raw",
+      "raw_snippet": "תקופת אשפוז על פי הוראת אשפוז לא תעלה על שבעה ימים מיום האשפוז",
+      "fetched_at": "2026-09-01T21:23:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/patient-rights.md"
+      ]
+    },
+    {
+      "claim_id": "mhl-appeal-5-days",
+      "claim": "The psychiatric committee must hear an appeal against a hospitalization order no later than 5 days from its filing, and an appeal against a compulsory outpatient-treatment order no later than 10 days.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%97%D7%95%D7%9C%D7%99_%D7%A0%D7%A4%D7%A9&action=raw",
+      "raw_snippet": "הוועדה הפסיכיאטרית תדון בערר על הוראת אשפוז לא יאוחר מחמישה ימים מהגשתו",
+      "fetched_at": "2026-09-01T21:23:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/patient-rights.md"
+      ]
+    },
+    {
+      "claim_id": "mhl-committee-composition",
+      "claim": "The psychiatric committee sits as a panel of three: one from the list of jurists, who chairs, and two from the list of psychiatrists.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%97%D7%95%D7%9C%D7%99_%D7%A0%D7%A4%D7%A9&action=raw",
+      "raw_snippet": "ועדה פסיכיאטרית תדון במותב של שלושה שיתמנו אחד מתוך רשימת המשפטנים, והוא יהיה יושב ראש המותב, ושניים מתוך רשימת הפסיכיאטרים.",
+      "fetched_at": "2026-09-01T22:13:15+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/patient-rights.md"
+      ]
+    },
+    {
+      "claim_id": "mhl-district-court-45-days",
+      "claim": "An appeal to the District Court is filed within 45 days of the decision being delivered to the patient or to the Attorney General.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%97%D7%95%D7%9C%D7%99_%D7%A0%D7%A4%D7%A9&action=raw",
+      "raw_snippet": "הערעור יוגש בתוך ארבעים וחמישה ימים מהמועד שבו נמסרה לחולה",
+      "fetched_at": "2026-09-01T21:23:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/patient-rights.md"
+      ]
+    },
+    {
+      "claim_id": "mhl-right-to-counsel",
+      "claim": "A patient hospitalized under a hospitalization order is entitled to be represented at the hearing by a lawyer appointed to provide legal service under the Legal Aid Law, 1972.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%97%D7%95%D7%9C%D7%99_%D7%A0%D7%A4%D7%A9&action=raw",
+      "raw_snippet": "זכאי הוא להיות מיוצג בדיון כאמור בסעיף קטן (א) על ידי עורך דין שנתמנה לתת שירות משפטי",
+      "fetched_at": "2026-09-01T21:23:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/patient-rights.md"
+      ]
+    },
+    {
+      "claim_id": "form-571-title",
+      "claim": "The Bituach Leumi form for requesting a benefit for a hostility victim of the Iron Swords war is form 571 (טופס 571).",
+      "source_url": "https://www.btl.gov.il/%D7%98%D7%A4%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%99%D7%A9%D7%95%D7%A8%D7%99%D7%9D/tfassim-mekuvanim/Pages/Fill571.aspx",
+      "raw_snippet": "בקשה לתגמול לנפגע פעולות איבה ממלחמת חרבות ברזל (טופס 571)",
+      "fetched_at": "2026-09-01T21:21:18+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "mhl-full-text-page",
+      "claim": "The full consolidated text of the Treatment of Mental Patients Law, 1991 is published on he.wikisource and is the reference used for the involuntary-admission periods, appeal windows and committee composition in this skill.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%97%D7%95%D7%9C%D7%99_%D7%A0%D7%A4%D7%A9",
+      "raw_snippet": "חוק טיפול בחולי נפש",
+      "fetched_at": "2026-09-01T21:23:36+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/patient-rights.md"
+      ]
+    },
+    {
+      "claim_id": "sal-2026-post-trauma-left-out",
+      "claim": "Post-trauma treatments were considered for the 2026 drug basket and were left outside it.",
+      "source_url": "https://www.ynet.co.il/health/article/yokra14647112",
+      "raw_snippet": "סל התרופות 2026: טיפולי פוסט-טראומה בחוץ",
+      "fetched_at": "2026-09-01T21:45:55+00:00",
+      "verified_via": "navigational claim about the source itself; the snippet is the cited article's own headline, which states the fact",
+      "verified_at": "2026-09-01T21:45:55+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reservist-2026-routine-orders",
+      "claim": "By government decision the 2026 assistance is also given to reservists who served under routine orders, not only under tzav 8.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%99%D7%95%D7%A2_%D7%91%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%D7%9D_%D7%90%D7%99%D7%A9%D7%99%D7%99%D7%9D_%D7%95%D7%9E%D7%A9%D7%A4%D7%97%D7%AA%D7%99%D7%99%D7%9D_%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C_%D7%95%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F",
+      "raw_snippet": "לפי החלטת הממשלה הסיוע בשנת 2026 יינתן גם למשרתים במסגרת צווי שגרה, ולא רק למשרתים בצו 8",
+      "fetched_at": "2026-09-01T21:45:55+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-09-01T21:45:55+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "combat-reaction-unit-hours",
+      "claim": "The Combat Reaction Unit operates Sunday to Thursday, 09:00 to 17:00, on 03-6401400.",
+      "source_url": "https://shikum.mod.gov.il/about/harvot-barzel/moked-harvot",
+      "raw_snippet": "היחידה לתגובות קרב - נותנת מענה רפואי-נפשי לאזרחים הסובלים ממצוקה בעקבות השתתפותם בלחימה או בפעילות מבצעית בעת שירותם הצבאי (סדיר או מילואים). טלפון: 03-6401400, ימי ושעות פעילות: ראשון עד חמישי, בין השעות 09:00 עד 17:00",
+      "fetched_at": "2026-09-01T21:45:55+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-09-01T21:45:55+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
+      ]
+    },
+    {
+      "claim_id": "general-er-fee-referral-and-form17",
+      "claim": "At a general hospital ER, if you are not admitted after the examination you are charged an ER fee, unless you received a specific referral to that medical centre from an authorized party together with a Form 17 commitment.",
+      "source_url": "https://me.health.gov.il/mental-health/therapy-rehabilitation/crisis-support/first-aid/",
+      "raw_snippet": "ואם לא מאשפזים אותך לאחר הבדיקה, תידרש בתשלום של אגרת מיון, אלא אם כן קיבלת הפנייה ספציפית למרכז הרפואי מגורם מוסמך ומכתב התחייבות (טופס 17)",
+      "fetched_at": "2026-09-01T21:45:55+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/patient-rights.md"
+      ]
+    },
+    {
+      "claim_id": "sahar-247-moh-index",
+      "claim": "The Ministry of Health helpline index states that Sahar operates 24 hours a day, all year, via chat on its site.",
+      "source_url": "https://me.health.gov.il/mental-health/therapy-rehabilitation/crisis-support/first-aid/",
+      "raw_snippet": "סהר : סיוע והקשבה ברשת, מופעל על ידי מתנדבים שהוכשרו לתפקידם ומלווים באנשי ונשות טיפול ממערך בריאות הנפש. המוקד פעיל 24 שעות ביממה, במשך כל ימות השנה, דרך צ'אט באתר.",
+      "fetched_at": "2026-09-01T21:45:55+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
+      ]
+    },
+    {
+      "claim_id": "sexual-assault-sector-lines",
+      "claim": "The association of rape crisis centres publishes national hotlines 1202 for women and 1203 for men, plus sector lines: Arab women 04-6566813, religious women 02-6730002, religious men 02-5328000. The service is free and runs 7 days a week, 24 hours a day.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A8%D7%9B%D7%96%D7%99_%D7%94%D7%A1%D7%99%D7%95%D7%A2_%D7%9C%D7%A0%D7%A4%D7%92%D7%A2%D7%95%D7%AA_%D7%95%D7%A0%D7%A4%D7%92%D7%A2%D7%99_%D7%AA%D7%A7%D7%99%D7%A4%D7%94_%D7%9E%D7%99%D7%A0%D7%99%D7%AA",
+      "raw_snippet": "לנשים ערביות - 04-6566813",
+      "fetched_at": "2026-09-01T21:57:16+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-09-01T21:57:16+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
+      ]
+    },
+    {
+      "claim_id": "mhl-compulsory-exam-urgent",
+      "claim": "Section 6 (סעיף 6) of the Treatment of Mental Patients Law: a district psychiatrist may order in writing that a person be brought urgently for a psychiatric examination where all three conditions are met: illness substantially impairing judgment or reality-testing; liability to place self or another in immediate physical danger; and refusal to be examined by a psychiatrist.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%97%D7%95%D7%9C%D7%99_%D7%A0%D7%A4%D7%A9&action=raw",
+      "raw_snippet": "פסיכיאטר מחוזי רשאי להורות בכתב כי אדם יובא בדחיפות לבדיקה פסיכיאטרית",
+      "fetched_at": "2026-09-01T22:13:15+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/patient-rights.md"
+      ]
+    },
+    {
+      "claim_id": "mhl-compulsory-exam-nonurgent",
+      "claim": "Section 7 (סעיף 7) covers the non-urgent compulsory examination: substantial impairment of judgment or reality-testing, plus one of non-immediate physical danger, severely impaired ability to meet basic needs, causing severe mental suffering to another disrupting their normal way of life, or serious damage to property, plus refusal to be examined.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%97%D7%95%D7%9C%D7%99_%D7%A0%D7%A4%D7%A9&action=raw",
+      "raw_snippet": "יכולתו לדאוג לצרכיו הבסיסיים פגומה בצורה קשה",
+      "fetched_at": "2026-09-01T22:13:15+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/patient-rights.md"
+      ]
+    },
+    {
+      "claim_id": "mhl-exam-order-10-days",
+      "claim": "Section 8 (סעיף 8): an examination order under sections 6 or 7 is valid for ten days from the day it is given.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%97%D7%95%D7%9C%D7%99_%D7%A0%D7%A4%D7%A9&action=raw",
+      "raw_snippet": "תהיה בתוקף במשך עשרה ימים מיום נתינתה",
+      "fetched_at": "2026-09-01T22:13:15+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/patient-rights.md"
+      ]
+    },
+    {
+      "claim_id": "mhl-minor-exam-child-psychiatrist",
+      "claim": "A compulsory psychiatric examination of a minor under this section is carried out by a psychiatrist specialising in children and adolescents, on the application of a social worker under the Youth (Care and Supervision) Law.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%97%D7%95%D7%9C%D7%99_%D7%A0%D7%A4%D7%A9&action=raw",
+      "raw_snippet": "בדיקה פסיכיאטרית של קטין לפי סעיף זה, תיערך בידי פסיכיאטר מומחה לילדים ולנוער",
+      "fetched_at": "2026-09-01T22:13:15+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/patient-rights.md"
+      ]
+    },
+    {
+      "claim_id": "sick-pay-dismissal-4a",
+      "claim": "Section 4A of the Sick Pay Law (סעיף 4א לחוק דמי מחלה): an employer may not dismiss an employee absent from work due to illness during the sick-pay entitlement period accrued under the law or a collective agreement, up to the maximum entitlement period under section 4.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71572.htm",
+      "raw_snippet": "מעסיק לא יפטר עובד שנעדר מעבודתו עקב מחלתו, במהלך תקופת הזכאות לדמי מחלה הצבורה לו לפי חוק זה",
+      "fetched_at": "2026-09-01T22:13:15+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
+      ]
+    },
+    {
+      "claim_id": "sick-pay-dismissal-4a-exceptions",
+      "claim": "The section 4A (סעיף 4א) dismissal protection does not apply where the employer gave prior notice of dismissal before the illness absence began, or where the workplace ceased operating or the employer was declared bankrupt or a winding-up order was issued.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71572.htm",
+      "raw_snippet": "המעסיק נתן לעובד הודעה מוקדמת לפיטורים",
+      "fetched_at": "2026-09-01T22:13:15+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/crisis-hotlines-directory.md"
       ]
     }
   ]

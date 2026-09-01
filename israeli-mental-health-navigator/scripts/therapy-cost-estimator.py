@@ -16,40 +16,23 @@ import argparse
 import sys
 
 
-# Private therapy cost ranges by therapist type and city (NIS per session)
+# Private therapy rates, NIS per session.
+#
+# These are the published averages from the HebPsy (Psychologia Ivrit) 2025 rate
+# survey, which is the only methodologically grounded price source for this market.
+# They are NOT invented ranges, and no per-city figure is quoted here: the survey
+# reports regional variation of a few tens of shekels, which is smaller than the
+# spread between individual therapists, so a per-city number would imply a
+# precision the source does not support.
+#
+# Psychiatrists are deliberately absent. The survey did not sample them, so this
+# script refuses to quote a psychiatrist rate rather than inventing one. That
+# matches SKILL.md Step 5, which tells the user to ask the practice directly.
 PRIVATE_COSTS = {
-    "psychologist": {
-        "tel-aviv": {"low": 400, "high": 600},
-        "jerusalem": {"low": 350, "high": 550},
-        "haifa": {"low": 300, "high": 500},
-        "beer-sheva": {"low": 280, "high": 450},
-        "herzliya": {"low": 400, "high": 600},
-        "other": {"low": 300, "high": 500},
-    },
-    "psychiatrist": {
-        "tel-aviv": {"low": 600, "high": 900},
-        "jerusalem": {"low": 550, "high": 800},
-        "haifa": {"low": 500, "high": 750},
-        "beer-sheva": {"low": 450, "high": 700},
-        "herzliya": {"low": 600, "high": 900},
-        "other": {"low": 500, "high": 750},
-    },
-    "social-worker": {
-        "tel-aviv": {"low": 250, "high": 450},
-        "jerusalem": {"low": 220, "high": 400},
-        "haifa": {"low": 200, "high": 380},
-        "beer-sheva": {"low": 180, "high": 350},
-        "herzliya": {"low": 250, "high": 450},
-        "other": {"low": 200, "high": 380},
-    },
-    "art-therapist": {
-        "tel-aviv": {"low": 300, "high": 500},
-        "jerusalem": {"low": 280, "high": 450},
-        "haifa": {"low": 250, "high": 420},
-        "beer-sheva": {"low": 230, "high": 400},
-        "herzliya": {"low": 300, "high": 500},
-        "other": {"low": 250, "high": 420},
-    },
+    "psychologist": {"average": 421},
+    "social-worker": {"average": 371},
+    "art-therapist": {"average": 366},
+    "psychiatrist": None,  # no sourced rate exists; handled explicitly below
 }
 
 # Kupat cholim subsidized therapy costs
@@ -67,12 +50,10 @@ KUPAT_CHOLIM_COSTS = {
     "sessions_per_year": 17,
 }
 
-# University training clinic costs (reduced rates)
-UNIVERSITY_CLINIC_COSTS = {
-    "low": 150,
-    "high": 250,
-    "label": "University Training Clinic",
-}
+# University training clinics publish their own rates and they differ widely
+# between institutions, so no figure is hard-coded here. The script reports the
+# route and tells the user to ask the specific clinic, which is what SKILL.md says.
+UNIVERSITY_CLINIC_COSTS = {"average": None, "label": "University Training Clinic"}
 
 # Sliding scale options
 SLIDING_SCALE = {
@@ -82,6 +63,7 @@ SLIDING_SCALE = {
 
 VALID_CITIES = ["tel-aviv", "jerusalem", "haifa", "beer-sheva", "herzliya", "other"]
 VALID_THERAPISTS = list(PRIVATE_COSTS.keys())
+PRICED_THERAPISTS = [k for k, v in PRIVATE_COSTS.items() if v]
 VALID_TYPES = ["private", "kupat-cholim", "university-clinic", "sliding-scale"]
 
 CITY_DISPLAY = {
@@ -99,6 +81,12 @@ THERAPIST_DISPLAY = {
     "social-worker": "Clinical Social Worker (Oveid Sotsiali Klini)",
     "art-therapist": "Art Therapist (Metapel B'Omanut)",
 }
+
+
+def survey_rate(therapist_type):
+    """Return the sourced average rate, or None where no source exists."""
+    entry = PRIVATE_COSTS.get(therapist_type)
+    return entry["average"] if entry else None
 
 
 def estimate_costs(sessions_per_month, treatment_type, city, therapist_type):
@@ -140,44 +128,49 @@ def estimate_costs(sessions_per_month, treatment_type, city, therapist_type):
                 "your own kupah's copay booklet",
                 "At a private clinic UNDER AGREEMENT with your kupah there is no "
                 "session cap and no cost",
-                "Wait times may be 2-8 weeks for initial appointment (observational, "
-                "not a published standard)",
-                "SHABAN (supplementary insurance) may provide additional sessions",
+                "Wait times run to weeks or months in many regions. There is no binding "
+                "national maximum waiting time, so do not treat one as an entitlement.",
+                "Whether supplementary insurance (shaban) adds anything here is a question "
+                "for your own kupah's shaban terms; this script does not assume it does.",
             ],
         })
 
         if excess_sessions > 0:
             result["notes"].append(
                 f"You requested {requested_annual} sessions/year, but kupat cholim covers ~{sessions_per_year}. "
-                f"The remaining {excess_sessions} sessions would need to be private or through SHABAN."
+                f"The remaining {excess_sessions} sessions would need another route, for example a clinic under agreement with your kupah, which has no session cap."
             )
 
     elif treatment_type == "university-clinic":
-        low = UNIVERSITY_CLINIC_COSTS["low"]
-        high = UNIVERSITY_CLINIC_COSTS["high"]
-
         result.update({
-            "monthly_low": low * sessions_per_month,
-            "monthly_high": high * sessions_per_month,
-            "annual_low": low * sessions_per_month * 12,
-            "annual_high": high * sessions_per_month * 12,
-            "per_session_low": low,
-            "per_session_high": high,
+            "unpriced": True,
+            "label": UNIVERSITY_CLINIC_COSTS["label"],
             "notes": [
-                "University training clinics offer reduced rates; ask the clinic for its current rate",
+                "University training clinics offer reduced rates, but each clinic sets and "
+                "publishes its own, so this script does not quote one. Ask the specific clinic.",
                 "Therapists are graduate students supervised by licensed professionals",
-                "Quality is generally good; supervisors review all cases",
-                "Availability may be limited to academic year (October-June)",
+                "Availability may be limited to the academic year (October-June)",
                 "Examples: TAU Psychological Services, Hebrew U clinic, BGU clinic",
             ],
         })
 
     elif treatment_type == "sliding-scale":
         # Use private rates with discount
-        costs = PRIVATE_COSTS[therapist_type][city]
+        rate = survey_rate(therapist_type)
+        if rate is None:
+            result.update({
+                "unpriced": True,
+                "therapist": THERAPIST_DISPLAY[therapist_type],
+                "notes": [
+                    "No sourced rate exists for this profession, so no figure is estimated. "
+                    "The HebPsy survey does not sample psychiatrists. Ask the practice directly.",
+                ],
+            })
+            return result
         discount = SLIDING_SCALE["typical_discount"]
-        low = costs["low"] * (1 - discount)
-        high = costs["high"] * (1 - discount)
+        low = rate * (1 - discount)
+        high = rate * (1 - discount)
+        costs = {"low": rate, "high": rate}
 
         result.update({
             "therapist": THERAPIST_DISPLAY[therapist_type],
@@ -199,9 +192,19 @@ def estimate_costs(sessions_per_month, treatment_type, city, therapist_type):
         })
 
     else:  # private
-        costs = PRIVATE_COSTS[therapist_type][city]
-        low = costs["low"]
-        high = costs["high"]
+        rate = survey_rate(therapist_type)
+        if rate is None:
+            result.update({
+                "unpriced": True,
+                "therapist": THERAPIST_DISPLAY[therapist_type],
+                "notes": [
+                    "No sourced rate exists for this profession, so no figure is estimated. "
+                    "The HebPsy survey does not sample psychiatrists. Ask the practice directly.",
+                ],
+            })
+            return result
+        low = rate
+        high = rate
 
         result.update({
             "therapist": THERAPIST_DISPLAY[therapist_type],
@@ -252,6 +255,20 @@ def format_result(result):
     lines.append("-" * 60)
     lines.append("")
 
+    if result.get("unpriced"):
+        lines.append("  No figure is estimated for this option, because no sourced rate exists.")
+        lines.append("")
+        for note in result.get("notes", []):
+            lines.append(f"  - {note}")
+        lines.append("")
+        lines.append("-" * 60)
+        lines.append("  Rates are the published HebPsy 2025 survey averages. This is an")
+        lines.append("  estimate, not a quote and not a bill. Confirm with the provider and")
+        lines.append("  with your own kupah's copay booklet.")
+        lines.append("-" * 60)
+        lines.append("")
+        return "\n".join(lines)
+
     if result["per_session_low"] == result["per_session_high"]:
         lines.append(f"  Per session:         {result['per_session_low']:>8,.0f} NIS")
     else:
@@ -276,7 +293,7 @@ def format_result(result):
         lines.append("")
         lines.append(f"  Sessions covered/year: {result['sessions_covered']}")
         if result["excess_sessions"] > 0:
-            lines.append(f"  Sessions NOT covered:  {result['excess_sessions']} (would need private/SHABAN)")
+            lines.append(f"  Sessions NOT covered:  {result['excess_sessions']} (see notes for other routes)")
 
     lines.append("")
     lines.append("-" * 60)
@@ -288,15 +305,23 @@ def format_result(result):
     lines.append("")
     lines.append("  COST-SAVING OPTIONS:")
     lines.append("  * Start with kupat cholim (often free; up to 41 NIS/quarter)")
-    lines.append("  * Check SHABAN for additional covered sessions")
+    lines.append("  * Ask your kupah what, if anything, your shaban adds here. Do not assume it")
+    lines.append("    adds sessions: it may not sell what is already inside the health basket")
     lines.append("  * University training clinics offer reduced rates")
     lines.append("  * Ask private therapists about sliding scale fees")
-    lines.append("  * EAP through employer: 3-6 free sessions")
+    lines.append("  * An employer EAP may cover some sessions; the number is set by the employer's")
+    lines.append("    contract, so ask HR rather than assuming one")
     lines.append("")
     lines.append("  Disclaimer: Costs are estimates based on 2025-2026 data.")
     lines.append("  Actual prices vary by individual therapist and situation.")
     lines.append("")
 
+    lines.append("-" * 60)
+    lines.append("  Private rates are the published HebPsy 2025 survey averages, and kupah")
+    lines.append("  copays depend on the SETTING. This is an estimate, not a quote and not a")
+    lines.append("  bill. Confirm with the provider and with your own kupah's copay booklet.")
+    lines.append("-" * 60)
+    lines.append("")
     return "\n".join(lines)
 
 

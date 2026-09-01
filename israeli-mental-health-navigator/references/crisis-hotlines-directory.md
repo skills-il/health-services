@@ -21,7 +21,7 @@ Israel has an extensive network of crisis hotlines and emotional support service
 | WhatsApp | 052-845-1201, 08:00-02:00 |
 | SMS | 052-999-3544, 08:00 to midnight (a different number from the WhatsApp line) |
 | Email | Answered within 48 hours |
-| Notes | Israel's primary and most well-known crisis line; handles over 500,000 calls per year. The phone line is 24/7; the text channels are not |
+| Notes | Israel's primary and most well-known crisis line. The phone line is 24/7; the text channels are not |
 
 ### Sahar (סה"ר) - Online Emotional Support
 
@@ -93,7 +93,7 @@ VERIFICATION STATUS: every number remaining in this file has been checked agains
 | Service | Phone/Access | Hours | Focus |
 |---------|-------------|-------|-------|
 | ERAN for Youth | 1201 | 24/7 | Emotional support for teens. ERAN runs a dedicated youth and young adults track |
-| Elem (עלם) - Youth in Distress | Chat and WhatsApp 054-942-4062, online at yelem.org.il | Sun-Thu 20:00-24:00 | Online counselling and support for ages 12-21 in distress or at risk |
+| Elem (עלם) - Youth in Distress | Chat and WhatsApp 054-942-4062, online at yelem.org.il | Evening hours only, and NOT every weeknight. The window is published on the front page of yelem.org.il and is narrower than a full working week, so check it before routing anyone here rather than assuming Sunday to Thursday | Online counselling and support for ages 12-21 in distress or at risk |
 
 Note: *8944 was previously listed here as a youth line. It is not. *8944 is Nefesh Achat, the 24/7 post-trauma support line run by MoD Rehabilitation with Natal (see the IDF and Veterans section). *6050 was previously listed as Elem's number. It is not. *6050 is the Bituach Leumi national call center.
 
@@ -101,11 +101,10 @@ Note: *8944 was previously listed here as a youth line. It is not. *8944 is Nefe
 
 | Service | Phone/Access | Hours | Focus |
 |---------|-------------|-------|-------|
-| Ministry of Welfare emergency line | 118, silent SMS 050-227-0118 | 24/7 | Welfare emergencies and domestic violence. The silent SMS channel is for callers who cannot safely speak |
-| Sexual assault support centers (Merkazei Siyua) | 1202 (answered by women), 1203 (answered by men), 052-836-1202. Online chat at 1202.org.il | 24/7, 7 days a week | Sexual assault support, legal guidance, accompaniment through medical and criminal proceedings |
-| Family violence emergency line | 1-800-220-000 | 24/7 | Domestic violence. Note: this number is NOT the sexual assault line; the two are frequently confused |
+| Ministry of Welfare emergency line | 118 | Hours as published by the ministry; the ministry's own page could not be reached to confirm them, so no window is asserted here | Welfare emergencies and domestic violence. A silent text channel on 050-227-0118 is widely cited, but the same page could not be reached to confirm which channel that number serves, so it is not given here as an instruction |
+| Sexual assault support centers (Merkazei Siyua) | 1202 (women), 1203 (men). Sector lines published by the association: Arab women 04-6566813, religious women 02-6730002, religious men 02-5328000. Written contact by WhatsApp, anonymous chat or email via the association | 24/7, 7 days a week, free | Sexual assault support, legal guidance, accompaniment through medical and criminal proceedings |
 
-Three further numbers previously listed in this section (for WIZO, No2Violence and Na'amat) were removed because they could not be confirmed on the operating organisation's own page. For domestic violence, route to 118 or to the family violence line above; for sexual assault, route to 1202 or 1203.
+Numbers previously listed in this section (for WIZO, No2Violence and Na'amat) were removed because they could not be confirmed on the operating organisation's own page. The family violence line 1-800-220-000 was removed in the same way: no operator or government page could be found publishing it. For domestic violence route to 118; for sexual assault route to 1202 or 1203. A secondary sexual-assault number 052-836-1202 was also removed, because the association's published contact list gives 1202, 1203 and the three sector lines above and does not include it.
 
 ### LGBTQ+
 
@@ -121,7 +120,7 @@ Three further numbers previously listed in this section (for WIZO, No2Violence a
 |---------|-------------|-------|-------|
 | ERAN Arabic line | 1201, extension 7 | 10:00-12:00 and 19:00-21:00 only. NOT 24/7 | General emotional support in Arabic for all sectors including Druze and Bedouin, any age, any topic. Free, fully anonymous. If no Arabic-speaking volunteer is on shift you can leave a number for a callback |
 | Sexual assault support centers | 1202 (women), 1203 (men) | 24/7 | The association includes a Nazareth center serving Arab women |
-| Ministry of Welfare | 118 | 24/7 | Welfare emergencies and domestic violence |
+| Ministry of Welfare | 118 | Hours not asserted here; see the note in the Women and Domestic Violence section | Welfare emergencies and domestic violence |
 
 Note: the Arabic ERAN line is an extension of 1201, not a separate number, and its hours are narrow. Outside 10:00-12:00 and 19:00-21:00, route Arabic speakers to the main 1201 line, to Sahar's chat, or to 118. Three numbers previously listed in this section (for Kav LaHaim, Sawa and Na'am) were removed because they could not be confirmed on the operating organisation's own page.
 
@@ -160,7 +159,7 @@ Note: Yad Riva 02-5000572 and Melabev 02-5611111 were removed because they could
 | MoD Rehabilitation, general call center | *8150, also 03-7776777 | Sun-Thu 8:00-18:00 | Recognition process, medical committees, clinic, welfare and rehabilitation services |
 | MoD Rehabilitation, Iron Swords casualties | *6500, also 03-7776777 | Sun-Thu 8:00-18:00 | Dedicated desk for Iron Swords wounded and their families |
 | BeYadayim Tovot (בידיים טובות) | *3757 | Sun-Thu 8:00-17:00 | Free help filing an IDF-disability recognition claim and preparing for medical committees |
-| Combat Reaction Unit (היחידה לתגובות קרב) | 03-6401400 | Sun-Thu 9:00-17:00 | Medical and mental response for people in distress after combat or operational service |
+| Combat Reaction Unit (היחידה לתגובות קרב) | 03-6401400, or the contact form at shikum.mod.gov.il | Sun-Thu 09:00-17:00, as published on the MoD Rehabilitation hotline index. Out of hours use Nefesh Achat *8944 | Medical and mental response after combat or operational service. Free, with no need for disability recognition or any proof, and no time limit since the combat event |
 
 Note: *3104 was previously listed here as the MoD Rehabilitation number. It does not appear anywhere on shikum.mod.gov.il and should not be used. OneFamily 1-800-800-195 and Brothers for Life 072-2500032 were removed because they could not be confirmed on the operating organisation's own page; route veterans to *8944 (24/7) or *8150 instead.
 
@@ -170,6 +169,7 @@ If someone is in immediate physical danger or threatening to harm themselves or 
 
 | Service | Number | When to Call |
 |---------|--------|-------------|
+| Psychiatric emergency room | Walk in to a psychiatric hospital ER | Acute mental health crisis. Open 24 hours a day all year, no referral needed, no charge. A general hospital ER charges a fee instead, reduced with a Form 17 commitment and waived if the patient is admitted |
 | Magen David Adom (MDA, ambulance) | 101 | Medical emergency, person has harmed themselves |
 | Police | 100 | Immediate danger to self or others, violent situation |
 | Fire and Rescue | 102 | Fire or entrapment |
