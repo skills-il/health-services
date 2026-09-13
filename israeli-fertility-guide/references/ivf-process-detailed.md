@@ -2,7 +2,7 @@
 
 ## Overview
 
-Israel's IVF (in vitro fertilization, הפריה חוץ גופית) system is one of the most accessible in the world. The national health basket funds treatment until two living children from the current relationship, with the woman's own eggs from 18 until her 45th birthday and with a donated egg until age 54. There is no general cycle cap, but from age 42 a woman may not run more than 3 consecutive cycles that did not reach embryo transfer (any transfer resets the count), and a treating-team review is mandatory after 4 consecutive no-transfer cycles or 8 cycles without clinical pregnancy (MoH Circular 6/2014). This guide walks through every stage of the process, from initial consultation through pregnancy test.
+Israel's IVF (in vitro fertilization, הפריה חוץ גופית) system is one of the most accessible in the world. The national health basket funds treatment until two living children from the current relationship, with the woman's own eggs from 18 until her 45th birthday and with a donated egg until her 54th birthday. There is no general cycle cap, but from age 42 a woman may not run more than 3 consecutive cycles that did not reach embryo transfer (any transfer resets the count), and a treating-team review is mandatory after 4 consecutive no-transfer cycles or 8 cycles without clinical pregnancy (MoH Circular 6/2014). This guide walks through every stage of the process, from initial consultation through pregnancy test.
 
 ## Stage 1: Getting a Referral
 
@@ -215,4 +215,4 @@ If extra embryos were frozen, they can be used in future cycles without repeatin
 | Post-transfer medications | Yes |
 | Pregnancy blood test | Yes |
 | Number of cycles | No general cap, but see the age-42 consecutive-cycle rule (Circular 6/2014) |
-| Age limit | Own eggs until the 45th birthday; with a donated egg, funded to age 54 |
+| Age limit | Own eggs until the 45th birthday; with a donated egg, funded until the 54th birthday |

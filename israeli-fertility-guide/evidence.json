@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-fertility-guide",
-  "generated_at": "2026-08-09",
+  "generated_at": "2026-09-13T00:00:00Z",
   "claims": [
     {
       "claim_id": "ivf-2-children-not-pregnancies",
@@ -603,7 +603,7 @@
     },
     {
       "claim_id": "shaban-elective-freezing-meuhedet",
-      "claim": "Meuhedet Si (shia) members get subsidized non-medical fertility preservation at a copay of 3,500 NIS / 3,500 ש\"ח, and Meuhedet publishes the benefit for women aged 30 to 41.",
+      "claim": "Meuhedet Si (shia) members get subsidized non-medical fertility preservation at a copay of 3,500 NIS / 3,500 ש\"ח. Meuhedet's public page gives no age band (re-checked 2026-09-13), so the skill tells users to confirm the age with Meuhedet.",
       "source_url": "https://www.meuhedet.co.il/היריון-ולידה/רמת-אחרת-גם-בשימור-פריון/",
       "raw_snippet": "לקוחות 'מאוחדת שיא' תהליך שימור פריון מסיבות לא רפואיות בהשתתפות עצמית של 3,500 ₪",
       "verified_via": "browser",
@@ -660,13 +660,13 @@
       "claim_id": "kol-habriut-hotline-number",
       "claim": "Kol HaBriut is reached at *5400 or 08-6241010.",
       "source_url": "https://www.kolzchut.org.il/he/קול_הבריאות_-_מוקד_השירות_הטלפוני_של_משרד_הבריאות_5400*",
-      "raw_snippet": "בטלפון: *5400 או 08-6241010",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "בטלפון: *5400 *5400 או 08-6241010",
+      "fetched_at": "2026-09-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "source_fetched_at": "2026-08-09"
+      "source_fetched_at": "2026-09-13"
     },
     {
       "claim_id": "chen-org-and-kol-habriut-b",
@@ -697,14 +697,14 @@
       "claim_id": "cofmother-parenthood-order",
       "claim": "For a female couple where one partner gave birth from anonymous sperm donation, the non-biological mother is recognised as a parent through a judicial parenthood order (tzav horut psikati) granted by the Family Court, without an adoption process.",
       "source_url": "https://www.kolzchut.org.il/he/הכרה_בהורות_של_אדם_על_הילד_הביולוגי_של_בן_הזוג_מאותו_מין_ללא_צורך_בהליך_אימוץ_(צו_הורות_פסיקתי)",
-      "raw_snippet": "בן זוג מאותו מין יכול להירשם כהורה של ילדו הביולוגי של בן זוגו באמצעות \"צו הורות פסיקתי\" הניתן בבית משפט וללא צורך ב הליך אימוץ , וזאת כאשר הקטין נולד למערכת יחסים קיימת לא ניתן להעניק צו הורות לבן הזוג של ההורה הביולוגי אם שני ההורים הביולוגיים של הילד הינם בחיים ולא ניתק הקשר בינם ובין הילד (למשל במקרה של הורות משותפת) הדיון יתקיים ב בית המשפט לענייני משפחה ב דלתיים סגורות , אלא אם החליט בית המשפט אחרת למידע נוסף ראו פסקי הדין המפורטים בהמשך תוכן עניינים בקצרה בן זוג מאותו מין יכול להירשם כהורה של ילדו הביולוגי של בן זוגו באמצעות \"צו הורות פסיקתי\" הניתן בבית משפט וללא צורך ב הליך אימוץ . אפשרויות אלה מתייחסות למצב שבו רק לאחד מבני-הזוג יש קרבה גנטית לילד, ומבקשות לענות על המקרים הבאים: פונדקאות חו\"ל - כאשר שני בני הזוג הם גברים והתינוק נולד מזרעו של אחד מהם, וכאשר שני בני הזוג רשומים כהוריו של התינוק בתעודת הלידה. היריון מתרומת זרע אנונימית - כאשר שתי בנות-הזוג הן נשים והתינוק נולד מתרומת זרע.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "בן זוג מאותו מין יכול להירשם כהורה של ילדו הביולוגי של בן זוגו באמצעות \"צו הורות פסיקתי\" הניתן בבית משפט וללא צורך ב הליך אימוץ ... היריון מתרומת זרע אנונימית - כאשר שתי בנות-הזוג הן נשים והתינוק נולד מתרומת זרע",
+      "fetched_at": "2026-09-13T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
       ],
-      "source_fetched_at": "2026-08-09"
+      "source_fetched_at": "2026-09-13"
     },
     {
       "claim_id": "posthumous-sperm-who-may-request",
@@ -730,6 +730,128 @@
       "raw_snippet": "\"title\":\"הרחבת סל שירותי הבריאות לשנת 2026\",\"subTitle\":null,\"description\":\"חוזר מספר: 02/2026\"",
       "verified_via": "gov.il content API",
       "verified_at": "2026-08-11T00:00:00Z"
+    },
+    {
+      "claim_id": "posthumous-sperm-bill-lapsed",
+      "claim": "The Continuity Law bill regulating posthumous sperm use did not pass in the 25th Knesset.",
+      "source_url": "https://www.ynet.co.il/news/article/yokra14836051",
+      "raw_snippet": "בין החוקים שלא עברו גם חוק ההמשכיות של מרכזת האופוזיציה ח\"כ מירב בן ארי (יש עתיד), שיסדיר את השימוש בזרע של נפטר לטובת הולדה",
+      "fetched_at": "2026-09-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "posthumous-sperm-bill-25th-knesset-ended",
+      "claim": "The 25th Knesset completed its term.",
+      "source_url": "https://www.ynet.co.il/news/article/yokra14836051",
+      "raw_snippet": "הכנסת ה-25 יוצאת היום (שישי) לפגרה לאחר שהשלימה באופן רשמי את ימיה",
+      "fetched_at": "2026-09-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reserve-duty-release-periods",
+      "claim": "A reservist in fertility treatment is released for at least 5 days (clinic treatment, 2 before to 3 after ovulation), 10 days (IVF, 3 before to 7 after), or 3 days before to 3 months after surgical sperm retrieval.",
+      "source_url": "https://www.kolzchut.org.il/he/שחרור_חייל_מילואים_העובר_טיפולי_פוריות",
+      "raw_snippet": "תקופת השחרור מהמילואים לא תפחת מהתקופות הבאות: טיפולי הפריה במסגרת מרפאתית - יומיים לפני מועד הביוץ המשוער ועד 3 ימים לאחר הביוץ (סה\"כ 5 ימים). טיפולי הפריה חוץ גופית - 3 ימים לפני מועד הביוץ המשוער ועד 7 ימים לאחר הביוץ (סה\"כ 10 ימים). טיפול הפריה חוץ גופית הכולל ניתוח שאיבת זרע - 3 ימים לפני הניתוח ועד 3 חודשים אחריו",
+      "fetched_at": "2026-09-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reserve-duty-release-form-58",
+      "claim": "The release is requested on Form 58 in the IDF reserves personal area with a medical certificate giving the expected ovulation date.",
+      "source_url": "https://www.kolzchut.org.il/he/שחרור_חייל_מילואים_העובר_טיפולי_פוריות",
+      "raw_snippet": "בקשה על גבי טופס 58",
+      "fetched_at": "2026-09-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reserve-duty-release-medical-cert",
+      "claim": "A medical certificate stating the expected ovulation date must be attached.",
+      "source_url": "https://www.kolzchut.org.il/he/שחרור_חייל_מילואים_העובר_טיפולי_פוריות",
+      "raw_snippet": "לטופס יש לצרף אישור רפואי מתאים שבו יצויין מועד הביוץ המשוער",
+      "fetched_at": "2026-09-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reserve-duty-release-not-tzav-8",
+      "claim": "The release does not apply to an emergency call-up (Tzav 8).",
+      "source_url": "https://www.kolzchut.org.il/he/שחרור_חייל_מילואים_העובר_טיפולי_פוריות",
+      "raw_snippet": "הזכות לא תקפה לגבי שירות מילואים ב צו חירום (צו 8)",
+      "fetched_at": "2026-09-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reserve-duty-release-partner",
+      "claim": "A reservist whose partner is in fertility treatment may be released, case by case.",
+      "source_url": "https://www.kolzchut.org.il/he/שחרור_חייל_מילואים_העובר_טיפולי_פוריות",
+      "raw_snippet": "חיילי מילואים שבנות זוגם עוברות טיפולי פוריות זכאים להשתחרר משירות מילואים פעיל, בהתאם למקרה",
+      "fetched_at": "2026-09-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kupah-switch-six-dates",
+      "claim": "A kupah switch takes effect on one of 6 fixed dates a year.",
+      "source_url": "https://www.kolzchut.org.il/he/מעבר_בין_קופות_חולים",
+      "raw_snippet": "המעבר מתבצע בפועל באחד מ-6 מועדי מעבר בשנה",
+      "fetched_at": "2026-09-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kupah-switch-shaban-seniority",
+      "claim": "SHABAN seniority carries over at the same tier, but qualification periods may apply to new services.",
+      "source_url": "https://www.kolzchut.org.il/he/מעבר_בין_קופות_חולים",
+      "raw_snippet": "נשמר הוותק שנצבר בשירותי הבריאות הנוספים (ביטוח משלים) באותה רמת ביטוח (זהב, פלטינה וכו'), אך ייתכנו תקופות אכשרה (המתנה) לשירותים חדשים",
+      "fetched_at": "2026-09-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kupah-switch-higher-tier-full-qualification",
+      "claim": "Moving to a higher SHABAN tier triggers the receiving kupah's full qualification period.",
+      "source_url": "https://www.kolzchut.org.il/he/מעבר_בין_קופות_חולים",
+      "raw_snippet": "אם המבוטח עבר מביטוח משלים \"ברמה נמוכה\" לביטוח משלים \"ברמה גבוהה יותר\" תחול על המבוטח תקופת האכשרה המלאה שקבעה הקופה הקולטת",
+      "fetched_at": "2026-09-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ivf-common-child-previous-marriage-single-parent-no-children",
+      "claim": "For a couple, basket IVF is for a common child even if the partners have children from previous marriages; the single-parent track is published for a woman without children.",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_(IVF)",
+      "raw_snippet": "בני זוג שאין להם ילדים בנישואיהם הנוכחיים. הזכאות היא לבני זוג הרוצים להוליד ילד משותף, גם אם יש להם ילדים מנישואים קודמים. אישה ללא ילדים המעוניינת להקים משפחה שבראשה הורה עצמאי (משפחה חד הורית)",
+      "fetched_at": "2026-09-13T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py"
+      ]
     }
   ]
 }

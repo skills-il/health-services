@@ -1,6 +1,6 @@
 ---
 name: israeli-fertility-guide
-description: 'Guide to fertility treatments in Israel: IVF coverage and health basket entitlements, SHABAN supplementary insurance, egg freezing, sperm and egg donation, surrogacy law, posthumous sperm use, work rights during treatment, and cost breakdowns. Use when a user asks how IVF is funded through kupat cholim, who is eligible and until what age, what a kupah does or does not pay for, or how the legal framework works. Do NOT use for medical fertility diagnosis or treatment recommendations.'
+description: 'Not medical or legal advice, and not an eligibility determination. Guide to fertility treatments in Israel: IVF coverage and health basket entitlements, SHABAN supplementary insurance, egg freezing, sperm and egg donation, surrogacy law, posthumous sperm use, work rights during treatment, and cost breakdowns. Use when a user asks how IVF is funded through kupat cholim, who is eligible and until what age, what a kupah does or does not pay for, or how the legal framework works. Do NOT use for medical fertility diagnosis or treatment recommendations.'
 license: MIT
 compatibility: Works with all major AI coding agents
 ---
@@ -8,13 +8,19 @@ compatibility: Works with all major AI coding agents
 
 # Israeli Fertility Treatment Guide
 
+## Legal notice
+
+This is a free information tool operated by an artificial-intelligence model. It explains how fertility treatment is funded in Israel: health-basket entitlements under the National Health Insurance Law, supplementary-insurance (SHABAN) benefits, the published rules on egg freezing, sperm donation and egg donation, and what the law and official directives provide on surrogacy, posthumous sperm use and work rights. All of its output is produced automatically, without the involvement, review or approval of a physician, fertility specialist, social worker or lawyer. The output is not a diagnosis, not a treatment recommendation, not a medical opinion and not legal advice, but general information about the published rules only: it involves no examination of and no meeting with a patient, does not consider your medical indication or personal circumstances, and does not determine eligibility, coverage or the chance that a treatment will succeed. Eligibility is decided by your kupat cholim, its fertility committee or the competent authority. An artificial-intelligence model may err, omit data or present a wrong conclusion, so verify every figure with your kupah, with the fertility unit or with the competent authority.
+
+Do not rely on the output to decide on treatment or medication, to sign a surrogacy agreement, to apply to the Family Court or in any other legal proceeding, or to file a complaint or claim. This tool is not a substitute for advice that takes into account the particular data and needs of each person; before any medical decision consult your treating physician, and before taking legal action or signing a document consult a lawyer. Any use of the output is at the user's sole responsibility.
+
 ## Instructions
 
 ### Step 1: Israel's Fertility Treatment Landscape
 
-Israel is a world leader in IVF (in vitro fertilization, הפריה חוץ גופית) per capita. The national health system provides among the most generous fertility coverage in the world.
+Israel is a world leader in IVF (in vitro fertilization, הפריה חוץ גופית) per capita.
 
-The governing law is the National Health Insurance Law (חוק ביטוח בריאות ממלכתי), and an annual committee (ועדת סל בריאות) decides what enters the basket. Funding covers the first 2 living children, with the woman's own eggs from 18 until her 45th birthday and with a donated egg until 54. There is no general cycle cap, but a limit applies from age 42 (Step 2). Treatment happens in licensed fertility units, mostly in public hospitals.
+The governing law is the National Health Insurance Law (חוק ביטוח בריאות ממלכתי), and an annual committee (ועדת סל בריאות) decides what enters the basket. Funding covers the first 2 living children, with the woman's own eggs from 18 until her 45th birthday and with a donated egg until her 54th birthday. There is no general cycle cap, but a limit applies from age 42 (Step 2). Treatment happens in licensed fertility units, mostly in public hospitals.
 
 Types of fertility treatments covered:
 
@@ -38,12 +44,12 @@ The health basket (sal briut, סל בריאות) defines what is covered under t
 | Eligibility | All Israeli residents registered with a kupat cholim |
 | Live birth limit | Funding runs until 2 living children from the current relationship. The statute counts children, not pregnancies. Twins from one funded birth exhaust it: `במקרה שנולדו תאומים, תיחשב האישה כמי שמיצתה את זכותה` |
 | Age, own eggs | 18 to 45, `עד יום הולדת 45`. A commitment issued at 44 must be used before the official 45th birthday |
-| Age, donated egg | Funded treatment with a donated egg runs to age 54. Turning 45 ends the own-egg track, not fertility coverage as a whole |
+| Age, donated egg | Funded treatment with a donated egg runs until the 54th birthday. Turning 45 ends the own-egg track, not fertility coverage as a whole |
 | Cycle rule from 42 | Per MoH Circular 6/2014, a woman who has turned 42 may not perform more than 3 consecutive IVF cycles that did not reach embryo transfer. Any transfer, even in the third cycle, restarts the count |
 | Mandatory team review | After 4 consecutive cycles with no transfer, or 8 IVF cycles with no clinical pregnancy, the treating team (with a social worker) must review the causes and the plan going forward |
 | Single women and female couples | Single women (em yechidanit) get the same IVF and donor-insemination coverage as couples, and each partner in a female couple qualifies in her own right. For a child born from anonymous sperm donation, the non-biological mother is recognised as a parent through a judicial parenthood order (tzav horut psikati) from the Family Court, without an adoption process |
 | Reciprocal IVF | NOT permitted in Israel. One partner's egg may be fertilized here, but not transferred into her partner's uterus in Israel |
-| Relationship change | Entitlement attaches to children of the current relationship, so a new relationship can reopen the count (confirm with your kupah) |
+| Relationship change | For a couple, children from a previous marriage do not count: the entitlement is to a common child. The single-parent track is published for a woman without children, so a single woman who already has children should confirm with her kupah |
 | Which kupah pays | The kupah where the WOMAN is insured funds treatment, even when the infertility is male-factor. Only treatment of the man's sperm is funded by his own kupah |
 
 What the basket covers in each IVF cycle: hormonal stimulation medications, monitoring ultrasounds and blood tests, egg retrieval with anesthesia, laboratory fertilization, embryo transfer, embryo freezing, and frozen embryo transfer (FET). What it does NOT cover: a donor sperm vial, which the patient buys herself.
@@ -71,7 +77,9 @@ Supplementary health insurance (shaban, שב"ן, ביטוח משלים) extends 
 
 What SHABAN may add: extra IVF cycles for a third or later child, elective egg freezing (all four kupot now, on different terms, see Step 5), choice of a specific doctor, shorter waits at private or semi-private units, certain costs around egg donation and treatment abroad, and some premium medications outside the basic basket.
 
-Important: without SHABAN, treatment for a third child or beyond is fully out-of-pocket. SHABAN fertility benefits carry a qualification period (tkufat achshara, תקופת אכשרה), 12 months on the elective egg-freezing benefits documented below, so enroll before you need it.
+Important: without SHABAN, treatment for a third child or beyond is fully out-of-pocket. SHABAN fertility benefits carry a qualification period (tkufat achshara, תקופת אכשרה), 12 months on the Maccabi and Leumit elective egg-freezing benefits documented below, so enroll before you need it.
+
+Switching kupah for a better fertility benefit: the move takes effect only on one of 6 fixed dates a year, set by when the form is filed. SHABAN seniority carries over at the same tier, but the receiving kupah may still impose qualification periods for new services, and moving to a higher tier triggers its full qualification period.
 
 ### Step 5: Egg Freezing, Donation, Surrogacy, and Posthumous Use
 
@@ -81,7 +89,7 @@ Important: without SHABAN, treatment for a third child or beyond is fully out-of
 |--------|---------|
 | Medical egg freezing | Basket-funded for girls and women facing chemotherapy or radiation that may harm fertility, and up to age 39 for women at increased risk of premature ovarian failure (fragile-X premutation carriers, women with a disease proven to raise that risk, women before gonadotoxic treatment not due to malignancy, and women facing prophylactic ovarian surgery), per the conditions |
 | Elective egg freezing | NOT in the basic basket at any age, but permitted since 2011 for women who have turned 30 and not yet 41, at their own expense. Circular 1/2011 caps it at 6 retrievals, 25 eggs at ages 30 to 35 and 35 eggs at 36 to 40. These are Ministry of Health limits on a self-funded procedure, not private SHABAN limits |
-| SHABAN subsidies (verify, these changed recently) | All at 3,500 NIS copay per cycle. Clalit Mushlam Platinum: 30 to 37 (`עד יום הולדת 38`), 2 retrievals / 25 eggs at 30 to 35, 3 retrievals / 35 eggs at 36 to 37, 5 years storage included. Maccabi Sheli: 31 to 38 inclusive, up to 3 treatments or 25 eggs, from 15.03.2026. Meuhedet Si: 30 to 41. Leumit Zahav: 30 to 37 inclusive, up to 4 rounds. Maccabi and Leumit require 12 months of membership. Leumit is no longer a holdout |
+| SHABAN subsidies (verify, these changed recently) | All at 3,500 NIS copay per cycle. Clalit Mushlam Platinum: 30 to 37 (`עד יום הולדת 38`), 2 retrievals / 25 eggs at 30 to 35, 3 retrievals / 35 eggs at 36 to 37, 5 years storage included. Maccabi Sheli: 31 to 38 inclusive, up to 3 treatments or 25 eggs, from 15.03.2026. Meuhedet Si: its public page gives the copay but no age band, so confirm with Meuhedet; the MoH window ends at the 41st birthday. Leumit Zahav: 30 to 37 inclusive, up to 4 rounds. Maccabi and Leumit require 12 months of membership. Leumit is no longer a holdout |
 | Storage term and cost | Eggs are kept up to 5 years. Without advance written notice that the woman wants storage extended, the unit may stop storing them 60 days after warning her, subject to MoH approval; non-payment triggers the same process. An annual fee applies and is usually not covered even when retrieval was funded (check the MoH tariff, taarifon) |
 | Usage | Frozen eggs can be used for IVF later, subject to the 2-living-children cap and the age-45 own-egg ceiling at thaw |
 
@@ -100,39 +108,14 @@ Important: without SHABAN, treatment for a third child or beyond is fully out-of
 | Aspect | Details |
 |--------|---------|
 | Legal status | Legal and regulated under the Egg Donation Law 2010 (chok trumat bitziot, חוק תרומת ביציות) |
-| Who can use | Israeli resident women aged 18 to 54 with a medical opinion that they cannot conceive from their own eggs |
+| Who can use | Israeli resident women from 18 until their 54th birthday with a medical opinion that they cannot conceive from their own eggs |
 | Recipient fee | A statutory 10,000 NIS paid to the hospital, reduced to 7,000 NIS for a recipient on the income-support benefit (havtachat hachnasa) with Bituach Leumi confirmation. This fee also funds the donor's compensation. Beyond it the kupah funds the treatment as part of the basket |
 | Matching | Same religion, not relatives, donor not married, unless an exceptions committee (vaadat charigim) approves |
 | In surrogacy | A surrogate may never also be the egg donor. A single intended mother may not use a donated egg for surrogacy |
 
-**Surrogacy (pundakaut, פונדקאות):**
+**Surrogacy (pundakaut, פונדקאות):** legal under the Embryo Carrying Agreements Law 1996, with at least one intended parent genetically linked to the child; couples and single individuals are eligible since the January 2022 reform. The surrogate must be an Israeli resident, at least 22 and not yet 39 at approval, who has given birth before and is not a relative. There is no official cost tariff. `references/surrogacy-law-guide.md` has the committee, costs, warnings about surrogacy abroad and the full process.
 
-| Aspect | Details |
-|--------|---------|
-| Legal status | Legal under the Embryo Carrying Agreements Law 1996, with at least one intended parent genetically linked to the child. Couples and single individuals are eligible since the January 2022 reform |
-| Approval process | A special committee (vaada le'ishur heskemei pundakaut) of seven members, including a clergy member of the parties' religion. Sessions are closed |
-| Surrogate requirements | Israeli resident, at least 22 and not yet 39 when the agreement is approved (`מלאו לה 22 שנים וטרם מלאו לה 39 שנים`), has given birth before, not a relative of the intended parents |
-| Cost | Large out-of-pocket cost (compensation, legal fees, escrow, insurance, non-covered medical). There is no official tariff and the totals quoted online come mostly from law-firm marketing pages, so treat any single number as unverified and get written quotes |
-| Abroad | The Ministry of Health and Ministry of Justice publish standing warnings about surrogacy in specific countries; read them before signing anything. `references/surrogacy-law-guide.md` has the full process |
-
-**Posthumous sperm retrieval and use (netilat zera le'achar hamavet):**
-
-| Aspect | Details |
-|--------|---------|
-| Legal basis | No statute. The state acts under the 2003 Attorney General directive; a bill has passed a preliminary Knesset reading |
-| Retrieval | Time critical: sperm cell viability after death is limited to hours, so the directive tells authorities to approve retrieval requests as a rule and leave the hard decision to the later use stage. The widow or steady partner usually needs no court unless a relative objects; parents or other relatives normally apply to the Family Court |
-| Wartime rule | During the Iron Swords war, and while fighting continues, hospitals may approve retrieval at the request of the deceased's PARENTS without sending them to court, if going to court would defeat the retrieval on timing grounds, unless a partner or family member objects or the parents disagree between themselves |
-| Use | Always requires Family Court approval. For a steady partner there is a presumption that the deceased would have wanted it, absent contrary indication. For parents, use is allowed only if his wish is proven, and via a woman who is not a relative, who becomes the child's mother for all purposes. If he objected, use is refused |
-| Who to contact | Soldiers and police: the casualty officer in the organization. Iron Swords bereaved families: the Ministry of Health coordination desk, 02-5081673. Otherwise a medical institution, IVF unit or sperm bank directly |
-
-**Embryo storage and disposition disputes:**
-
-| Aspect | Details |
-|--------|---------|
-| Legal basis | Public Health Regulations (In Vitro Fertilization) 1987, plus MoH Circular 8/2008 on informing patients about frozen embryos |
-| Storage term | 5 years at no charge, extendable a further 5 years for a fee. If the couple gives no other instruction within 5 years of being contacted, the embryos are thawed and destroyed |
-| Disputes | Use normally requires both partners' consent, and a married woman's IVF requires her husband's consent. In the Nahmani case the Supreme Court nonetheless allowed the woman to use jointly created embryos over her ex-husband's objection, on those facts (irreversible reliance, the burden she had borne, her only remaining chance at motherhood). Outcomes are fact-specific; get a family lawyer early |
-| On a spouse's death | Falls under the posthumous-use rules above, so Family Court approval is required |
+**Posthumous sperm use and embryo disputes:** there is no statute. The state acts under the 2003 Attorney General directive, use of the sperm always requires Family Court approval, and embryo disputes after separation turn on the Nahmani case. `references/posthumous-and-embryo-law.md` has retrieval timing, the wartime rule, who may apply, contacts, embryo storage terms and dispute rules; consult it for any posthumous-use or embryo-disposition question.
 
 ### Step 6: Male-Factor Infertility and Fertility Preservation
 
@@ -156,6 +139,7 @@ Roughly one in three couples at a fertility unit has a male-factor component, an
 | Partial-day absence | Up to 40 hours a year (pro-rated for part-time) may be taken as single hours rather than whole days, and those hours are paid from the first hour |
 | Sick pay for whole days | Nothing on day 1, 50% on days 2 and 3, full pay from day 4. For men the full-pay tier runs from day 4 through day 12, and further days that year are unpaid |
 | Anti-dismissal protection | No dismissal or pay cut during the absence and for the 150 days that follow, without a Ministry of Labor permit |
+| Reserve duty (miluim) | A reservist in fertility treatment is released from active reserve service for at least: clinic-based treatment, 2 days before the expected ovulation to 3 days after (5 days); IVF, 3 days before to 7 days after (10 days); IVF with surgical sperm retrieval, 3 days before the surgery to 3 months after. Apply on Form 58 in the IDF reserves personal area with a medical certificate giving the expected ovulation date. It does not apply to an emergency call-up (Tzav 8). A reservist whose partner is in treatment may also be released, case by case |
 | Pregnancy-preservation benefit | Fertility treatment itself carries no Bituach Leumi benefit, only sick days. Once pregnant, shmirat heriyon (שמירת היריון) pays a benefit for a doctor-certified absence of at least 30 consecutive days (14 for a subsequent period), for employed and self-employed women meeting the contribution conditions. IVF pregnancies and OHSS are common triggers |
 | Maternity benefit | Dmei leda eligibility does not depend on how the pregnancy was conceived |
 
@@ -175,8 +159,6 @@ These are statutory rights and do not depend on which kupat cholim or SHABAN pla
 | Egg donation (recipient) | Yes | Statutory 10,000 NIS, or 7,000 NIS on income support |
 | Surrogacy | Mostly no | Large and highly variable, no official tariff (Step 5) |
 | Private fertility clinic (full cycle) | No (unless a SHABAN agreement) | Market estimate roughly 20,000 to 40,000 NIS |
-
-Financial help: some non-profits assist with fertility costs, some municipalities give grants, and large documented medical expenses may generate a tax credit (ask a tax advisor about the current threshold).
 
 Support: every licensed fertility unit has a social worker at no extra cost, and kupot run free support groups. Amutat Chen (עמותת חן לפריון ולחיים), 03-5050345, offers counseling and peer groups. Kol HaBriut, the MoH information line, is *5400. For halachic guidance there are the Puah Institute, Bonei Olam and Keren Gefen, and Maccabi publishes an entitlement to a supervisor for fertility treatment (mashgicha, משגיחה על טיפולי פוריות).
 
@@ -211,8 +193,8 @@ User says: "I'm 33 and single. I want to freeze my eggs. Is this covered?"
 Actions:
 1. Elective egg freezing is NOT in the basic basket at any age. It is permitted from 30 until the 41st birthday at your own expense, capped by MoH circular 1/2011 at 6 retrievals and 25 eggs (ages 30 to 35) or 35 eggs (ages 36 to 40)
 2. Medical egg freezing IS funded with a documented indication (cancer treatment, increased risk of premature ovarian failure up to 39, women facing prophylactic ovarian surgery)
-3. All four kupot now subsidize elective freezing through SHABAN at 3,500 NIS per cycle, on different age bands: Clalit Platinum 30 to 37, Maccabi Sheli 31 to 38, Meuhedet Si 30 to 41, Leumit Zahav 30 to 37. Most require about 12 months of membership first
-4. At 33 you are inside every band, so compare cycle counts and egg caps rather than assuming only one kupah offers it
+3. All four kupot now subsidize elective freezing through SHABAN at 3,500 NIS per cycle, on different age bands: Clalit Platinum 30 to 37, Maccabi Sheli 31 to 38, Meuhedet Si (no published age band), Leumit Zahav 30 to 37. Maccabi and Leumit require 12 months of membership first
+4. Age 33 falls inside the Clalit, Maccabi and Leumit bands (confirm Meuhedet), so compare cycle counts and egg caps rather than assuming only one kupah offers it
 5. Plan for the 5-year storage term and the written renewal notice it requires
 
 Result: She compares her kupah's terms against the others, and knows the procedure is self-funded but subsidized.
@@ -234,6 +216,7 @@ Result: The couple begins the application with realistic expectations about cost
 ### References
 - `references/ivf-process-detailed.md` -- Stage-by-stage IVF process in Israel, from referral through pregnancy test, with what kupat cholim covers at each stage. Consult when a user needs the full walkthrough.
 - `references/surrogacy-law-guide.md` -- Israel's surrogacy law (chok hapundakaut): eligibility, the approval committee, surrogate criteria, rights of all parties, and the timeline. Consult for surrogacy questions.
+- `references/posthumous-and-embryo-law.md` -- Posthumous sperm retrieval and use (2003 AG directive, wartime rule, Family Court approval, contacts, bill status) and embryo storage and disposition disputes. Consult for those questions.
 
 ### Scripts
 - `scripts/fertility-coverage-checker.py` -- Coverage by age, existing children, status, kupah and insurance type. Run: `python scripts/fertility-coverage-checker.py --age 38 --children 1 --insurance basic`
@@ -241,12 +224,13 @@ Result: The couple begins the application with realistic expectations about cost
 ## Gotchas
 
 - The limit is living children (2), not cycles, but there IS a cycle rule from 42: no more than 3 consecutive cycles that did not reach embryo transfer (any transfer resets the count), plus a mandatory team review after 4 consecutive no-transfer cycles or 8 cycles with no clinical pregnancy (Circular 6/2014). Agents say "no cycle limit" flatly and get this wrong.
+- For a woman starting at 40, give the rules as one timeline: own-egg funding runs until her 45th birthday, the Circular 6/2014 cycle rule applies from 42, elective freezing (self-pay) is permitted only until her 41st birthday, and the Clalit, Maccabi and Leumit SHABAN bands all end before 40, while Meuhedet publishes no age band, so ask Meuhedet. Scattered across answers, the rules are hard to see as one picture.
 - Twins from one funded birth exhaust the whole entitlement. The statute counts children, not pregnancies.
-- The age ceiling is layered: 45 with the woman's own eggs, 54 with a donated egg. Telling a 46-year-old that her coverage ended is wrong.
+- The age ceiling is layered: 45 with the woman's own eggs, 54 with a donated egg.
 - The sperm vial is NOT funded. The kupah pays the insemination and lab work; the woman buys the vial herself. This hits single women and lesbian couples hardest.
 - Egg-donation recipients pay a statutory 10,000 NIS fee (7,000 NIS on income support), not "minimal copays".
 - Elective egg freezing is NOT in the basic basket, but the 25-egg and 35-egg caps ARE Ministry of Health limits (Circular 1/2011) on that self-funded procedure, not private SHABAN limits.
-- Leumit is no longer the holdout: all four kupot subsidize elective freezing, on different age bands (Clalit 30-37, Maccabi 31-38, Meuhedet 30-41, Leumit 30-37). A flat "roughly 30 to 38" wrongly excludes a 40-year-old Meuhedet member.
+- Leumit is no longer the holdout: all four kupot subsidize elective freezing, on different age bands (Clalit 30-37, Maccabi 31-38, Leumit 30-37; Meuhedet publishes no age band).
 - Frozen eggs are kept up to 5 years, renewable only on advance written request; the unit may stop storing them 60 days after notice with MoH approval. Embryos get 5 free years plus 5 more for a fee.
 - Reciprocal IVF is illegal in Israel, which matters for female same-sex couples who assume otherwise.
 - Men get 12 absence days a year, not "shorter periods". Women get 64 or 80, state employees 72 or 88, plus 40 partial-day hours paid from the first hour.
@@ -261,7 +245,7 @@ Result: The couple begins the application with realistic expectations about cost
 | Kol Zchut, IVF | https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_%28IVF%29 | Ages 45 / 54, twins rule, Circular 6/2014 cycle rules |
 | Kol Zchut, egg freezing | https://www.kolzchut.org.il/he/הקפאת_ביציות | Elective 30 to 41, 6 retrievals, 25/35 caps, 5-year storage |
 | Kol Zchut, receiving donor sperm | https://www.kolzchut.org.il/he/קבלת_תרומת_זרע | That the vial is self-purchased, and its price range |
-| Kol Zchut, receiving a donated egg | https://www.kolzchut.org.il/he/קבלת_תרומת_ביצית | Ages 18 to 54, the fee, reciprocal IVF ban |
+| Kol Zchut, receiving a donated egg | https://www.kolzchut.org.il/he/קבלת_תרומת_ביצית | Age window 18 to the 54th birthday, the fee, reciprocal IVF ban |
 | Kol Zchut, absence for fertility treatment | https://www.kolzchut.org.il/he/היעדרות_מהעבודה_וימי_מחלה_בגין_טיפולי_פוריות | Day quotas, 40 hours, 150-day dismissal ban |
 | MoH, surrogacy | https://www.gov.il/he/service/embryo-carrying | Surrogate criteria, committee, forms, warnings |
 | MoH, posthumous sperm | https://www.gov.il/he/service/sperm-preserving-after-death | Retrieval and use rules, the wartime rule |
@@ -272,11 +256,11 @@ Result: The couple begins the application with realistic expectations about cost
 ## Troubleshooting
 
 ### Error: "My kupat cholim says I've used up my IVF coverage but I don't have 2 living children"
-Cause: Coverage is based on living children, not cycles, so this is often an administrative error. Two real rules can also be behind it: twins from one funded birth exhaust the entitlement, and from 42 you may not run more than 3 consecutive cycles that failed to reach embryo transfer (any transfer resets the count). The mandatory team review after 4 consecutive no-transfer cycles or 8 cycles without clinical pregnancy can also pause treatment.
-Solution: Ask the kupah in writing which rule it is applying. If it is genuinely the children count and you do not have 2 living children, file a complaint with the Public Complaints Commissioner for the National Health Insurance Law at the Ministry of Health, attaching medical documents, correspondence and receipts. The commissioner can determine the kupah owed you the service, in appropriate cases the cost of a privately purchased service is reimbursed, and its position supports a claim in the Regional Labour Court.
+Cause: Coverage is based on living children, not cycles, so ask which rule is being applied; it may be a counting or administrative issue. Two real rules can also be behind it: twins from one funded birth exhaust the entitlement, and from 42 you may not run more than 3 consecutive cycles that failed to reach embryo transfer (any transfer resets the count). The mandatory team review after 4 consecutive no-transfer cycles or 8 cycles without clinical pregnancy can also pause treatment.
+Solution: Ask the kupah in writing which rule it is applying. If you believe the rule was applied wrongly, the route is a complaint with the Public Complaints Commissioner for the National Health Insurance Law at the Ministry of Health, attaching medical documents, correspondence and receipts. The commissioner can determine the kupah owed you the service, in appropriate cases the cost of a privately purchased service is reimbursed, and its position supports a claim in the Regional Labour Court.
 
 ### Error: "I was told I'm too old for IVF coverage at age 46"
-Cause: The own-egg ceiling really is 45 (`עד יום הולדת 45`), so a refusal at 46 for your own eggs is correct, but the staff member may have stopped there. Funded treatment with a DONATED egg runs to 54 for Israeli-resident women with a medical opinion that they cannot conceive from their own eggs.
+Cause: The own-egg ceiling really is 45 (`עד יום הולדת 45`), so the published own-egg ceiling does apply at 46, but the staff member may have stopped there. Funded treatment with a DONATED egg runs until the 54th birthday for Israeli-resident women with a medical opinion that they cannot conceive from their own eggs.
 Solution: Ask the fertility unit to open the egg-donation track: a written medical opinion, the official application form to the responsible physician, entry into the Ministry of Health database, and matching. Budget the statutory 10,000 NIS recipient fee (7,000 NIS on income support); the rest is funded by your kupah. If the kupah refuses the donation track itself, complain to the National Health Insurance commissioner.
 
 ### Error: "I don't understand the difference between basic coverage and SHABAN for fertility"

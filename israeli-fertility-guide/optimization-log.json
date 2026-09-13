@@ -1,0 +1,34 @@
+{
+  "cycles": [
+    {
+      "version": "1.4.0",
+      "date": "2026-09-13",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "Does SHABAN supplementary insurance cover sperm donation costs?",
+          "האם סל הבריאות מכסה כימותרפיה חדשה לסרטן השד?",
+          "הרופא אמר שיש לי בעיית פוריות, איזה טיפול רפואי הכי מתאים לי?"
+        ]
+      },
+      "lessons": [
+        "Expert MAJOR M5 deferred: FET vs fresh-cycle difference and importing donor sperm or eggs from abroad (Should-cover 1 and 4) not in SKILL.md; source and add next cycle.",
+        "Expert minor m4 deferred: the script ignores age on the third-child SHABAN row and on the sperm-donation row for women past 45.",
+        "Expert minor m5 deferred: the reserve-duty surgical-retrieval release (3 days to 3 months) likely applies to the reservist undergoing surgery; there is a separate female-reservist Kol Zchut page to read.",
+        "Expert minor m6 deferred: verify that the men's 'further days unpaid' line does not overstate the loss of ordinary sick days.",
+        "Expert minor m7 deferred: 2022 surrogacy reform groups and exact date (single men, same-sex couples, transgender people) are only partly stated; source it.",
+        "Expert minor m8 deferred: whether an open Form 17 or committee approval carries over on a kupah switch (clinical-practice risk); needs a source.",
+        "Research: career-soldier (keva) dismissal ban during fertility treatment, and an adoption pointer for women who stop IVF after 44, not yet covered.",
+        "Meuhedet Si elective-freezing age band is not on Meuhedet's public page; find an authoritative Meuhedet eligibility page and restore the band only with a quoted snippet.",
+        "Discretionary deferred over the batch cap of 3: Leumit Zahav launch date precision (from 1 July 2026, TheMarker 28.06.2026).",
+        "Enriched FAQ and problem_statement carried unsourced claims (50,000 cycles a year, 25-40% success rates, 'unlimited cycles', quarterly kupah switching); replaced this cycle. Re-check enriched content against the body on every cycle.",
+        "Expert n4 deferred: the script counts a couple's prior-marriage children by default unless --new-relationship is passed; consider asking or defaulting differently.",
+        "Judge note: the Maccabi 12-month qualification period is confirmed on the Maccabi page but has no evidence.json entry of its own; add one."
+      ]
+    }
+  ]
+}

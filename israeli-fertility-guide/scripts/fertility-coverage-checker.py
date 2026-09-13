@@ -2,12 +2,13 @@
 """
 Israeli Fertility Treatment Coverage Checker
 
-Determines what fertility treatment coverage a person is entitled to based
-on age, number of existing children (from the current relationship),
-relationship status, kupat cholim and insurance type.
+Summarises the published fertility coverage rules that may apply given
+age, number of existing children (from the current relationship),
+relationship status, kupat cholim and insurance type. General rules only,
+not an eligibility determination: the kupah decides eligibility.
 
 Sources for the rules encoded here:
-  - Kol Zchut, IVF: ages 18 to 45 with own eggs, to 54 with a donated egg;
+  - Kol Zchut, IVF: ages 18 to 45 with own eggs, until 54 with a donated egg;
     twins exhaust the entitlement; MoH Circular 6/2014 cycle rules.
   - Kol Zchut, egg freezing: elective from 30 until the 41st birthday,
     MoH Circular 1/2011 caps of 6 retrievals, 25 eggs (30-35), 35 eggs (36-40).
@@ -41,7 +42,8 @@ ELECTIVE_SHABAN = {
                        "35 eggs at 36-37, 5 years of storage included."),
     "maccabi": (31, 38, "Maccabi Sheli, ages 31 to 38 inclusive: up to 3 treatments "
                         "or 25 eggs, available from 15.03.2026, 12-month qualification."),
-    "meuhedet": (30, 41, "Meuhedet Si (shia), ages 30 to 41."),
+    "meuhedet": (30, 40, "Meuhedet Si (shia): 3,500 NIS copay, but Meuhedet's public "
+                          "page gives no age band, so confirm your age with Meuhedet."),
     "leumit": (30, 37, "Leumit Zahav, ages 30 to 37 inclusive: up to 4 rounds, "
                        "12-month qualification."),
 }
@@ -80,8 +82,10 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
 
     counted = result["counted_children"]
     remaining = max(0, 2 - counted)
-    own_egg_ok = age <= OWN_EGG_AGE_LIMIT
-    donor_egg_ok = age <= DONOR_EGG_AGE_LIMIT
+    # "until the 45th birthday": a woman who has turned 45 is past the ceiling.
+    own_egg_ok = age < OWN_EGG_AGE_LIMIT
+    # Egg donation: "turned 18 and not yet 54", so a woman who has turned 54 is past it.
+    donor_egg_ok = age < DONOR_EGG_AGE_LIMIT
 
     treatments = []
 
@@ -89,9 +93,9 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
     # Every combination of age and children must produce exactly one IVF row.
     if remaining > 0 and own_egg_ok:
         details = (
-            f"Fully covered. Counting {counted} living child(ren) from the current "
-            f"relationship, you are entitled to funding toward {remaining} more "
-            f"living child(ren). The funded ceiling with your own eggs is age "
+            f"Covered under the published rules. Counting {counted} living child(ren) "
+            f"from the current relationship, the rules fund treatment toward up to "
+            f"{remaining} more living child(ren); your kupah decides eligibility. The funded ceiling with your own eggs is age "
             f"{OWN_EGG_AGE_LIMIT} (until your 45th birthday)."
         )
         if age >= CYCLE_RULE_AGE:
@@ -134,7 +138,7 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
             "details": (
                 f"At age {age} both funded tracks have ended: own eggs are funded "
                 f"until the 45th birthday, and treatment with a donated egg is "
-                f"funded until age {DONOR_EGG_AGE_LIMIT}."
+                f"funded until the {DONOR_EGG_AGE_LIMIT}th birthday."
             ),
             "cost": "Not funded",
         })
@@ -172,7 +176,7 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
     if remaining > 0 and donor_egg_ok:
         fee = "7,000 NIS (income support)" if income_support else "10,000 NIS"
         highlight = (
-            "This is the funded route above age 45. "
+            "This is the funded route from age 45. "
             if not own_egg_ok else ""
         )
         treatments.append({
@@ -181,8 +185,8 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
             "covered": True,
             "source": "Health Basket (Egg Donation Law 2010)",
             "details": (
-                f"{highlight}Funded for Israeli-resident women aged 18 to "
-                f"{DONOR_EGG_AGE_LIMIT} with a medical opinion that they cannot "
+                f"{highlight}Funded for Israeli-resident women from 18 until their "
+                f"{DONOR_EGG_AGE_LIMIT}th birthday with a medical opinion that they cannot "
                 f"conceive from their own eggs, within the same 2-living-children "
                 f"entitlement. The recipient pays a statutory fee to the hospital; "
                 f"the kupah funds the rest."
@@ -206,7 +210,7 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
     in_moh_window = ELECTIVE_MIN_AGE <= age <= ELECTIVE_MAX_AGE
     if in_moh_window:
         if band and band[0] <= age <= band[1]:
-            covered = "Partial" if insurance == "shaban" else False
+            covered = ("Depends on kupah" if kupah == "meuhedet" else "Partial") if insurance == "shaban" else False
             band_text = (
                 f"Your kupah's band covers you: {band[2]} "
                 if insurance == "shaban"
@@ -219,8 +223,8 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
                 f"Other kupot use different bands, so compare before assuming. "
             )
         else:
-            covered = "Partial" if insurance == "shaban" else False
-            band_text = ""
+            covered = "Depends on kupah" if insurance == "shaban" else False
+            band_text = "Pass --kupah to see whether your kupah's band includes your age. "
         treatments.append({
             "name": "Egg Freezing, elective (social)",
             "hebrew": "הקפאת ביציות אלקטיבית",
@@ -233,7 +237,7 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
                 f"maximum of 25 eggs at ages 30 to 35 and 35 eggs at ages 36 to 40. "
                 f"All four kupot now subsidize it through SHABAN at a 3,500 NIS copay "
                 f"per cycle, on different age bands: Clalit 30-37, Maccabi 31-38, "
-                f"Meuhedet 30-41, Leumit 30-37. {band_text}"
+                f"Leumit 30-37; Meuhedet publishes no age band. {band_text}"
                 f"Eggs are stored for up to 5 years and renewal requires advance "
                 f"written notice."
             ),
@@ -259,7 +263,7 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
     treatments.append({
         "name": "Egg Freezing, medical indication",
         "hebrew": "הקפאת ביציות מסיבה רפואית",
-        "covered": True,
+        "covered": "Depends on indication",
         "source": "Health Basket",
         "details": (
             "Funded for girls and women facing chemotherapy or radiation that may "
@@ -289,7 +293,7 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
             "covered": "Partial",
             "source": "Health Basket funds the procedure only",
             "details": (
-                f"You are within the eligible group {why}. The kupah funds the "
+                f"The published rules include applicants {why} in the eligible group. The kupah funds the "
                 f"medical treatment (insemination, monitoring, lab work), but NOT the "
                 f"sperm itself: `את מנת הזרע האישה רוכשת על חשבונה`. Donors are "
                 f"anonymous, and donor insemination may not be performed in a private "
@@ -359,11 +363,12 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
     # ------------------------------------------------------------ Notes
     if not own_egg_ok and donor_egg_ok:
         result["warnings"].append(
-            f"Age {age} is past the own-egg ceiling of {OWN_EGG_AGE_LIMIT}, but NOT "
-            f"past the funded egg-donation ceiling of {DONOR_EGG_AGE_LIMIT}. Anyone "
-            f"telling you your fertility coverage has ended is wrong."
+            f"Age {age} has reached the own-egg ceiling (until the 45th birthday), but NOT "
+            f"past the funded egg-donation ceiling of {DONOR_EGG_AGE_LIMIT}. Under the "
+            f"published rules, turning 45 ends the own-egg track, not fertility "
+            f"coverage as a whole; ask the unit about the egg-donation track."
         )
-    if age > DONOR_EGG_AGE_LIMIT:
+    if age >= DONOR_EGG_AGE_LIMIT:
         result["warnings"].append(
             f"Age {age} is past both funded ceilings ({OWN_EGG_AGE_LIMIT} own eggs, "
             f"{DONOR_EGG_AGE_LIMIT} with a donated egg)."
@@ -385,10 +390,16 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
             f"they are not counted here. Entitlement attaches to children of the "
             f"CURRENT relationship. Confirm this with your kupah in writing."
         )
+    elif children >= 1 and status == "single":
+        result["warnings"].append(
+            "You reported existing children and no partner. The single-parent track "
+            "is published for a woman without children, so the rows above may not "
+            "reflect your case: confirm your entitlement with your kupah in writing."
+        )
     elif children >= 1:
         result["notes"].append(
-            "If your existing children are from a previous relationship, pass "
-            "--new-relationship: the count attaches to the current relationship."
+            "If your existing children are from a previous marriage, pass "
+            "--new-relationship: for a couple the entitlement is to a common child."
         )
     if status == "female-couple":
         result["notes"].append(
@@ -460,11 +471,13 @@ def format_result(result):
         lines.append("")
         covered = treatment["covered"]
         if covered is True:
-            status_str = "COVERED"
+            status_str = "COVERED UNDER PUBLISHED RULES"
         elif covered == "Partial":
             status_str = "PARTIAL"
+        elif isinstance(covered, str):
+            status_str = covered.upper()
         else:
-            status_str = "NOT COVERED"
+            status_str = "NOT COVERED UNDER PUBLISHED RULES"
 
         lines.append(f"  [{status_str}] {treatment['name']}")
         # Hebrew label is printed on its own line, without wrapping punctuation
@@ -486,8 +499,8 @@ def format_result(result):
 
     lines.append("")
     lines.append("-" * 78)
-    lines.append("  Disclaimer: this is an estimate based on published rules.")
-    lines.append("  Contact your kupat cholim for a binding answer in your case.")
+    lines.append("  General rules only, not an eligibility determination and not")
+    lines.append("  medical or legal advice. Confirm with your kupat cholim.")
     lines.append("  The health basket and SHABAN plans are updated annually.")
     lines.append("-" * 78)
     lines.append("")
