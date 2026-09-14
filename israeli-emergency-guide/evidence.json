@@ -7,13 +7,16 @@
       "claim_id": "mda-nonvoice-sms",
       "claim": "MDA operates a non-voice channel for deaf and hard-of-hearing users: SMS or WhatsApp to 052-7000101, and fax 1-800-500101",
       "source_url": "https://www.mdais.org/101",
-      "raw_snippet": "מד\"א 101. SMS או WhatsApp לכבדי שמיעה: 052-7000-101. פקס: 1-800-500-101.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "SMS / whatsapp\n052-7000-101\n\nמיועד ללקויי שמיעה בלבד\n\nפקס:\n1-800-500-101",
+      "fetched_at": "2026-09-14T13:27:30+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/hospital-directory.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-14",
+      "source_note": "mdais.org returns HTTP 247 (bot block) to plain fetches; page rendered in Playwright on 2026-09-14 and the snippet copied from document.body.innerText."
     },
     {
       "claim_id": "police-100",
@@ -292,26 +295,32 @@
       "claim_id": "trauma-centers-count",
       "claim": "Israel has at least seven Level-1 trauma centers, and Ziv and Barzilai were additionally designated. No hospital is any longer the only Level-1 center in its region.",
       "source_url": "https://www.timesofisrael.com/liveblog_entry/ziv-barzilai-to-upgrade-to-level-1-trauma-centers-so-they-can-treat-seriously-and-critically-ill-patients/",
-      "raw_snippet": "The Level 1 trauma centers in Israel include Rambam Medical Center in Haifa, Soroka Medical Center in Beersheba, and in the country's center: Sheba Medical Center, Ichilov Hospital and Beilinson Hospital in the greater Tel Aviv area, and Shaare Zedek Medical Center and Hadassah Medical Center in Jerusalem. The Health Ministry decided to recognize Ziv Medical Center in Safed and Barzilai Medical Center in Ashkelon as Level 1 trauma centers. Hospitals close to the borders, Ziv not far from Lebanon and Syria, and Barzilai near Gaza, must be able to handle life-threatening injuries.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "Until now, Rambam Medical Center in Haifa has been the only Level 1 trauma center in the north and Soroka Medical Center in Beersheba has been the only one in the south. The other Level 1 trauma centers are in the country’s center at Sheba Medical Center, Ichilov Hospital and Beilinson Hospital in the greater Tel Aviv area, and at Shaare Zedek Medical Center and Hadassah Medical Center in Jerusalem.",
+      "fetched_at": "2026-09-14T13:33:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/hospital-directory.md",
         "metadata.json"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-14",
+      "source_note": "timesofisrael.com returns HTTP 403 to curl. Rendered in Playwright 2026-09-14 (URL asserted), liveblog entry of 14 November 2023. The previous snippet stitched two paragraphs together and was not verbatim; replaced with the page's exact text. The same entry also says: 'The Health Ministry has decided to recognize Ziv Medical Center in Safed and Barzilai Medical Center in Ashkelon as Level 1 trauma centers.'"
     },
     {
       "claim_id": "trauma-ziv-barzilai-2023",
       "claim": "Ziv in Tzfat and Barzilai in Ashkelon were declared trauma super-centers by the Ministry of Health in 2023",
       "source_url": "https://quality.doctorsonly.co.il/2023/12/301724/",
-      "raw_snippet": "שר הבריאות אוריאל בוסו וצמרת משרד הבריאות הכריזו על המרכז הרפואי זיו בצפת ועל המרכז הרפואי ברזילי כמרכזי-על.",
-      "fetched_at": "2026-08-01T00:00:00Z",
+      "raw_snippet": "שר הבריאות ח\"כ אוריאל בוסו וצמרת משרד הבריאות ביקרו ביום ה' במרכז הרפואי זיו בצפת והכריזו עליו כ\"מרכז על\". בנוסף חנכו מחלקת אשפוז פסיכיאטרית חדשה לילדים ונוער, מחלקת \"גוונים\". בחנוכה הוכרז גם המרכז הרפואי ברזילי כמרכז על.",
+      "fetched_at": "2026-09-14T13:34:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/hospital-directory.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-14",
+      "source_note": "doctorsonly.co.il returns HTTP 403 to curl. Rendered in Playwright 2026-09-14 (URL asserted), article dated 25.12.2023. The previous snippet merged two sentences and was not verbatim; replaced with the page's exact text."
     },
     {
       "claim_id": "infant-cpr-2025-technique",
