@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-hmo-navigator",
-  "generated_at": "2026-08-09T00:00:00Z",
+  "generated_at": "2026-09-20T02:00:00Z",
   "notes": "Rebuilt for v2.0.0. Every entry carries a deep link and a verbatim snippet from that page. The v1.3.0 entries copayments-2026 and sal-briut-2026-budget cited the bare homepage https://www.health.gov.il, which no --check-sources pass could ever falsify, and their snippets were reconstructed rather than quoted. Both are removed. Three v1.3.0 URLs were hard 404s (btl.gov.il/benefits/Health_Insurance/..., btl.gov.il/About/yedion/Pages/yedion202507.aspx, kolzchut.org.il/he/ביטוח_בריאות_משלים) and two more were malformed (kolzchut Switching_Health_Plans_(Kupot_Cholim, missing its closing paren). All are removed. The three health.gov.il/Subjects/* URLs returned 202 Akamai challenges and sit on the retiring legacy tree; they are replaced by call.gov.il and gov.il/he/departments/ministry_of_health. Snippets are never de-dashed.",
   "claims": [
     {
@@ -521,10 +521,10 @@
     },
     {
       "claim_id": "leumit-switching-channels",
-      "claim": "Two switching channels: in person at an Israel Post branch where a transfer form must be purchased (the fee amount is not published anywhere and is deliberately not stated in this skill), or on the National Insurance Institute website with a valid credit card in the applicant's own name.",
+      "claim": "Two switching channels: in person at an Israel Post branch, where registration and transfer cost 19.30 NIS (as of 2025), or on the National Insurance Institute website with a valid credit card in the member's own name.",
       "source_url": "https://www.leumit.co.il/leumit-general/transferring-between-health-funds/",
-      "raw_snippet": "יש להתייצב באופן אישי ... ולרכוש טופס מעבר",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "יש להתייצב באופן אישי באחד מסניפי הדואר ולרכוש טופס מעבר בין קופות חולים",
+      "fetched_at": "2026-09-20T01:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -565,43 +565,43 @@
     },
     {
       "claim_id": "meuhedet-copays",
-      "claim": "Meuhedet's own page, which carries no date, in shekels: a physical or digital visit with a professional doctor including a psychiatrist, dietitian and podiatrist is 33.00; a visit to institutes and outpatient clinics including mental-health clinics is 41.00; the quarterly ceiling for institute and outpatient services is 290.00, or 145.00 for olim in the first year and members above retirement age; psychotherapy is 70.50 then 170.00 then 78.00 for a group; chronic drugs are 409.00 per month reckoned on a half-yearly basis, halved to 204.50; medical food is 854.60 per month; the prescription floor is 20.89 with a threshold of 156.73. Meuhedet's emergency-room agra for a non-exempt visit is 269.00 at any hour. Its weekday moked is 105.00 and Shabbat 50.00. Meuhedet's physiotherapy and home-visit rates are not published on its own site; the circular gives 40.01 and 202.26 with an in-hours cap of 131.47.",
-      "source_url": "https://www.meuhedet.co.il/מידע-ללקוח/השתתפויות-ופטורים/",
+      "claim": "Meuhedet's medical-services page, undated, in shekels: a physical or digital visit with a professional doctor including a psychiatrist, dietitian and podiatrist is 33.00; a visit to institutes and outpatient clinics including mental-health clinics is 41.00; the quarterly ceiling for institute and outpatient services is 290.00, or 145.00 for olim in the first year and members above retirement age. Prescription, emergency and moked figures are on the sibling pages and are carried by their own entries.",
+      "source_url": "https://www.meuhedet.co.il/%D7%9E%D7%99%D7%93%D7%A2-%D7%9C%D7%9C%D7%A7%D7%95%D7%97/%D7%94%D7%A9%D7%AA%D7%AA%D7%A4%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%A4%D7%98%D7%95%D7%A8%D7%99%D7%9D/%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D-%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%99%D7%9D/",
       "raw_snippet": "בביקור פיזי או דיגיטלי עם רופא מקצועי, כולל פסיכיאטר, דיאטנית ופודיאטר",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-09-20T02:00:00Z",
       "appears_in": [
         "references/copay-tables.md",
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "evidence-base",
-      "verified_at": "2026-08-09",
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T02:00:00Z",
       "source_note": "OPEN ITEM: on 2026-08-09 this URL rendered only navigation chrome in a real browser, with no tariff content in the DOM. Provenance is the compiled hmo-evidence-base.md. Re-confirm by eye next cycle."
     },
     {
       "claim_id": "meuhedet-institutes-and-ceiling",
       "claim": "Meuhedet charges 41.00 for a visit to institutes and outpatient clinics including mental-health clinics, and scopes its 290.00 quarterly ceiling specifically to institute and outpatient services, which is a narrower scope than the circular's.",
-      "source_url": "https://www.meuhedet.co.il/מידע-ללקוח/השתתפויות-ופטורים/",
+      "source_url": "https://www.meuhedet.co.il/%D7%9E%D7%99%D7%93%D7%A2-%D7%9C%D7%9C%D7%A7%D7%95%D7%97/%D7%94%D7%A9%D7%AA%D7%AA%D7%A4%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%A4%D7%98%D7%95%D7%A8%D7%99%D7%9D/%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D-%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%99%D7%9D/",
       "raw_snippet": "בביקור במכונים ובמרפאות חוץ כולל מרפאות בריאות הנפש",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-09-20T02:00:00Z",
       "appears_in": [
         "references/copay-tables.md"
       ],
-      "verified_via": "evidence-base",
-      "verified_at": "2026-08-09",
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T02:00:00Z",
       "source_note": "OPEN ITEM: on 2026-08-09 this URL rendered only navigation chrome in a real browser, with no tariff content in the DOM. Provenance is the compiled hmo-evidence-base.md. Re-confirm by eye next cycle."
     },
     {
       "claim_id": "meuhedet-ceiling-scope",
       "claim": "Meuhedet's quarterly ceiling is published as a ceiling for institute and outpatient services, at 290.00, reduced to 145.00 for olim in the first year and members above retirement age.",
-      "source_url": "https://www.meuhedet.co.il/מידע-ללקוח/השתתפויות-ופטורים/",
+      "source_url": "https://www.meuhedet.co.il/%D7%9E%D7%99%D7%93%D7%A2-%D7%9C%D7%9C%D7%A7%D7%95%D7%97/%D7%94%D7%A9%D7%AA%D7%AA%D7%A4%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%A4%D7%98%D7%95%D7%A8%D7%99%D7%9D/%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D-%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%99%D7%9D/",
       "raw_snippet": "תקרת השתתפות רבעונית לשירותים במכונים ובמרפאות חוץ",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-09-20T02:00:00Z",
       "appears_in": [
         "references/copay-tables.md"
       ],
-      "verified_via": "evidence-base",
-      "verified_at": "2026-08-09",
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T02:00:00Z",
       "source_note": "OPEN ITEM: on 2026-08-09 this URL rendered only navigation chrome in a real browser, with no tariff content in the DOM. Provenance is the compiled hmo-evidence-base.md. Re-confirm by eye next cycle."
     },
     {
@@ -620,27 +620,27 @@
     {
       "claim_id": "meuhedet-referral-required",
       "claim": "Meuhedet grants an exemption from the emergency-room visit agra only on the basis of a doctor's referral to the emergency department.",
-      "source_url": "https://www.meuhedet.co.il/מידע-ללקוח/השתתפויות-ופטורים/",
+      "source_url": "https://www.meuhedet.co.il/%D7%9E%D7%99%D7%93%D7%A2-%D7%9C%D7%9C%D7%A7%D7%95%D7%97/%D7%94%D7%A9%D7%AA%D7%AA%D7%A4%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%A4%D7%98%D7%95%D7%A8%D7%99%D7%9D/%D7%91%D7%99%D7%A7%D7%95%D7%A8-%D7%91%D7%9E%D7%95%D7%A7%D7%93%D7%99-%D7%97%D7%99%D7%A8%D7%95%D7%9D/",
       "raw_snippet": "פטור מתשלום אגרת ביקור יינתן רק על בסיס הפניית רופא למלר\"ד.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "fetched_at": "2026-09-20T02:00:00Z",
       "appears_in": [
         "references/copay-tables.md"
       ],
-      "verified_via": "evidence-base",
-      "verified_at": "2026-08-09",
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T02:00:00Z",
       "source_note": "OPEN ITEM: on 2026-08-09 this URL rendered only navigation chrome in a real browser, with no tariff content in the DOM. Provenance is the compiled hmo-evidence-base.md. Re-confirm by eye next cycle."
     },
     {
       "claim_id": "meuhedet-prescription-scheme",
-      "claim": "Meuhedet charges the maximum consumer price or 20.23, whichever is the lower, below a threshold of 151.70, and 15% at or above it.",
-      "source_url": "https://www.meuhedet.co.il/מידע-ללקוח/השתתפויות-ופטורים/",
-      "raw_snippet": "המחיר המרבי לצרכן או 20.23 ש\"ח, לפי הנמוך מבניהם",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "claim": "Meuhedet's 2026 prescription scheme: 20.89 NIS or the maximum consumer price, whichever is lower, up to 156.73 NIS, then 15 percent. The circular-era figures were 20.23 and 151.70.",
+      "source_url": "https://www.meuhedet.co.il/%D7%9E%D7%99%D7%93%D7%A2-%D7%9C%D7%9C%D7%A7%D7%95%D7%97/%D7%94%D7%A9%D7%AA%D7%AA%D7%A4%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%A4%D7%98%D7%95%D7%A8%D7%99%D7%9D/%D7%AA%D7%A8%D7%95%D7%A4%D7%95%D7%AA/",
+      "raw_snippet": "20.89 ₪ (או המחיר המרבי ללקוח. הנמוך מביניהם)",
+      "fetched_at": "2026-09-20T02:00:00Z",
       "appears_in": [
         "references/copay-tables.md"
       ],
-      "verified_via": "evidence-base",
-      "verified_at": "2026-08-09",
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T02:00:00Z",
       "source_note": "OPEN ITEM: on 2026-08-09 this URL rendered only navigation chrome in a real browser, with no tariff content in the DOM. Provenance is the compiled hmo-evidence-base.md. Re-confirm by eye next cycle."
     },
     {
@@ -1144,9 +1144,9 @@
     },
     {
       "claim_id": "leumit-prescription-2026",
-      "claim": "Leumit's live 2026 prescription scheme: a drug priced up to 20.80 costs its consumer price; a drug priced between 20.80 and 156.30 costs a flat 20.80; above 156.30 the percentage rate applies. This supersedes the circular-era 20.23 floor and 151.70 threshold.",
+      "claim": "Leumit's live 2026 prescription scheme for a drug with no generic alternative in the fund: up to 20.80 the consumer price, from 20.80 to 156.30 a flat 20.80, above 156.30 fifteen percent. This supersedes the circular-era 20.23 floor and 151.70 threshold. The generic-alternative limb is a separate entry.",
       "source_url": "https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/",
-      "raw_snippet": "תרופה שמחירה בין 20.80 ש\"ח ל 156.30 ש\"ח - 20.80 ש\"ח.",
+      "raw_snippet": "תרופה שמחירה בין 20.80 ש\"ח ל 156.30 ש\"ח - 20.80 ש\"ח",
       "fetched_at": "2026-08-09T00:00:00Z",
       "verified_via": "entity-decoded-fetch",
       "verified_at": "2026-08-09",
@@ -1254,6 +1254,273 @@
         "references/er-waiver-list.md",
         "SKILL.md",
         "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-switch-fee-19-30",
+      "claim": "Registration and transfer at an Israel Post branch costs 19.30 NIS (as of 2025); cancelling a transfer costs the same.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%91%D7%A8_%D7%91%D7%99%D7%9F_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "פעולת הרישום והמעבר כרוכה בתשלום של 19.30 ₪ (נכון ל-2025)",
+      "fetched_at": "2026-09-20T01:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-shaban-90-day-offset",
+      "claim": "A member who switches kupot and enrols within 90 days in a supplementary plan of the SAME level at the new kupah has the previous membership period offset against the new qualifying period.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%91%D7%A8_%D7%91%D7%99%D7%9F_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "ובתוך 90 ימים מיום המעבר נרשם לתוכנית שב\"ן בקופת החולים החדשה הזהה ברמתה לתוכנית השב\"ן בקופה הקודמת, התקופה בה היה חבר בתוכנית השב\"ן בקופה הקודמת תקוזז מתקופת האכשרה",
+      "fetched_at": "2026-09-20T01:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-immediate-registration",
+      "claim": "Some registrations take effect immediately, outside the six transfer dates: an adult aged 18 to 18.5, a new oleh on a first registration, a baby to 6 months on a first registration, and any Israeli resident on a first registration.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%91%D7%A8_%D7%91%D7%99%D7%9F_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "במקרים הבאים ייקלט רישומו של תושב באופן מיידי",
+      "fetched_at": "2026-09-20T01:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-immediate-registration-list",
+      "claim": "The immediate-registration list names an adult aged 18 to 18.5, a new oleh whose registration is their first with any kupah, and a baby from birth to 6 months.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%91%D7%A8_%D7%91%D7%99%D7%9F_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "בוגר בן 18 עד 18.5. עולה חדש, כל עוד זהו הרישום הראשון שלו לקופת חולים כלשהי",
+      "fetched_at": "2026-09-20T01:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-ombudsman-out-of-cycle",
+      "claim": "The Ministry of Health public complaints commissioner may approve cancelling a transfer or bringing one forward outside the statutory dates, including for a member who moved more than 60 km away with no branch of their kupah near the new home, or who must switch for a special medical reason.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%91%D7%A8_%D7%91%D7%99%D7%9F_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "נציבות קבילות הציבור במשרד הבריאות רשאית לאשר ביטול מעבר או הקדמת מעבר לקופה אחרת, גם שלא במסגרת המועדים שנקבעו בחוק",
+      "fetched_at": "2026-09-20T01:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-ombudsman-60km",
+      "claim": "The 60 km relocation ground for an out-of-cycle transfer.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%91%D7%A8_%D7%91%D7%99%D7%9F_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "מבוטח שעבר דירה למרחק של מעל 60 ק\"מ ממקום מגוריו הקודם",
+      "fetched_at": "2026-09-20T01:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-cancel-transfer-dates",
+      "claim": "A transfer can be cancelled by the 20th of the month before it takes effect: 01.01 by 20.12, 01.03 by 20.02, 01.05 by 20.04, 01.07 by 20.06, 01.09 by 20.08.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%91%D7%A8_%D7%91%D7%99%D7%9F_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "ביום 01.01 ביום 20.12 (שנה קודמת) ביום 01.03 ביום 20.02 ביום 01.05 ביום 20.04 ביום 01.07 ביום 20.06 ביום 01.09 ביום 20.08",
+      "fetched_at": "2026-09-20T01:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-recancel-next-date",
+      "claim": "Re-registering within the same registration period after cancelling takes effect only at the next transfer date.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%91%D7%A8_%D7%91%D7%99%D7%9F_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "הרישום החדש ייקלט וייכנס לתוקף רק במועד המעבר הבא",
+      "fetched_at": "2026-09-20T01:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-complete-the-join",
+      "claim": "Registering at the post office or on the NII site is not joining: the member must bring the registration form to a branch of the new kupah to complete enrolment, issue a magnetic card and register for supplementary and long-term-care plans.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%91%D7%A8_%D7%91%D7%99%D7%9F_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "יש לפנות עם טופס הרישום לסניף הקופה שאליה מעוניינים להצטרף לצורך השלמת הליכי ההצטרפות, הנפקת כרטיס מגנטי והרשמה לשירותי הבריאות הנוספים (שב\"ן, ביטוח סיעודי)",
+      "fetched_at": "2026-09-20T01:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "clalit-prescription-floor-2126-generic",
+      "claim": "Clalit's generic-drug fee is 10% of the maximum consumer price or 21.32 NIS per pack, whichever is higher (page updated 30.06.2026).",
+      "source_url": "https://www.clalit.co.il/he/info/about_site/Pages/sherutim_betashlum.aspx",
+      "raw_snippet": "אגרה בשיעור 10% מהמחיר המר​בי לצרכן או 21.32 ש\"ח לאריזה (הגבוה מביניהם)",
+      "fetched_at": "2026-09-20T01:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/copay-tables.md"
+      ]
+    },
+    {
+      "claim_id": "clalit-prescription-floor-below-threshold",
+      "claim": "Where the consumer price is below 21.32 the fee is the maximum consumer price.",
+      "source_url": "https://www.clalit.co.il/he/info/about_site/Pages/sherutim_betashlum.aspx",
+      "raw_snippet": "פריט שמחירו לצרכן נמוך מ־ 21.32 ​ ש\"ח - האגרה תהיה לפי מחירו המרבי לצרכן",
+      "fetched_at": "2026-09-20T01:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/copay-tables.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-ltc-180-days",
+      "claim": "Long-term-care continuity on switching kupot: the member must present confirmation of previous cover within 180 days of the new kupah demanding it, and no new medical examination is required.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%91%D7%A8_%D7%91%D7%99%D7%9F_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "בתוך 180 ימים מהיום שבו הקופה החדשה דרשה זאת ממנו",
+      "fetched_at": "2026-09-20T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-ltc-no-new-medical",
+      "claim": "Long-term-care continuity preserves cover without a further medical examination at the switch.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%91%D7%A8_%D7%91%D7%99%D7%9F_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "מבלי שיידרש לעבור בדיקה רפואית נוספת",
+      "fetched_at": "2026-09-20T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-higher-tier-full-qualifying",
+      "claim": "Moving to a HIGHER supplementary tier at the new kupah means the receiving kupah's full qualifying period applies.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%91%D7%A8_%D7%91%D7%99%D7%9F_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "אם המבוטח עבר מביטוח משלים \"ברמה נמוכה\" לביטוח משלים \"ברמה גבוהה יותר\" תחול על המבוטח תקופת האכשרה המלאה שקבעה הקופה הקולטת אליה הצטרף",
+      "fetched_at": "2026-09-20T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-cancel-sixth-row-as-printed",
+      "claim": "Kol Zchut's cancellation table prints a sixth row reading 01.12 / 20.11, which does not match its own transfer-date table; recorded as printed rather than extrapolated.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%91%D7%A8_%D7%91%D7%99%D7%9F_%D7%A7%D7%95%D7%A4%D7%95%D7%AA_%D7%97%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "ביום 01.12 ביום 20.11",
+      "fetched_at": "2026-09-20T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "circular-18-1-drug-exception",
+      "claim": "Section 18.1: ceilings of the same kind do not accumulate, EXCEPT drug discounts.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "התקרות מאותו סוג אינן מצטברות למעט ההנחות בתרופות",
+      "fetched_at": "2026-09-20T02:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-09-20T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/exemptions-and-ceilings.md"
+      ]
+    },
+    {
+      "claim_id": "meuhedet-tiers-adif-si",
+      "claim": "Meuhedet's two supplementary plans are עדיף and שיא.",
+      "source_url": "https://www.meuhedet.co.il/%D7%9E%D7%99%D7%93%D7%A2-%D7%9C%D7%9C%D7%A7%D7%95%D7%97/%D7%94%D7%A9%D7%AA%D7%AA%D7%A4%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%A4%D7%98%D7%95%D7%A8%D7%99%D7%9D/%D7%AA%D7%A8%D7%95%D7%A4%D7%95%D7%AA/",
+      "raw_snippet": "ביטוחים: סיעודי, עדיף ושיא",
+      "fetched_at": "2026-09-20T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T02:00:00Z"
+    },
+    {
+      "claim_id": "meuhedet-er-269-2026",
+      "claim": "Meuhedet emergency-room agra for a visit not on the statutory list, at any hour: 269.00 NIS.",
+      "source_url": "https://www.meuhedet.co.il/%D7%9E%D7%99%D7%93%D7%A2-%D7%9C%D7%9C%D7%A7%D7%95%D7%97/%D7%94%D7%A9%D7%AA%D7%AA%D7%A4%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%A4%D7%98%D7%95%D7%A8%D7%99%D7%9D/%D7%91%D7%99%D7%A7%D7%95%D7%A8-%D7%91%D7%9E%D7%95%D7%A7%D7%93%D7%99-%D7%97%D7%99%D7%A8%D7%95%D7%9D/",
+      "raw_snippet": "269.00 ₪",
+      "fetched_at": "2026-09-20T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/copay-tables.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T02:00:00Z"
+    },
+    {
+      "claim_id": "circular-transfer-secondary-maccabi",
+      "claim": "Maccabi, 1/2025 block item 9: transferring from one secondary doctor to another within a quarter is charged 33.32.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "33.32               העברה מרופא שניוני האחד למשנהו במהלך רבעון",
+      "fetched_at": "2026-09-20T04:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-09-20T04:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "circular-transfer-secondary-meuhedet",
+      "claim": "Meuhedet, 1/2025 block item 16: transferring from one secondary doctor to another within a quarter is charged 32.50.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "32.50           העברה מרופא שניוני האחד למשנהו במהלך רבעון",
+      "fetched_at": "2026-09-20T04:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-09-20T04:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "circular-15-1-independent-therapist",
+      "claim": "Section 15.1 defines an independent therapist as one who is not a kupah employee and treats kupah patients in their own private clinic under an arrangement with the kupah.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/sbn01-2025/he/files_circulars_sbn_sbn01-2025.pdf",
+      "raw_snippet": "מטפל שהוא אינו עובד הקופה, המקבל מטופלים של קופת החולים במסגרת הסדר עם הקופה במרפאתו הפרטית",
+      "fetched_at": "2026-09-20T04:00:00Z",
+      "verified_via": "pdf",
+      "verified_at": "2026-09-20T03:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "leumit-prescription-generic-2026",
+      "claim": "Leumit generic-alternative rule: above 20.80 the fee is 10 percent of the drug price or 20.80, whichever is higher.",
+      "source_url": "https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/",
+      "raw_snippet": "10% ממחיר התרופה או 20.80 ש\"ח הגבוה מבינם",
+      "fetched_at": "2026-09-20T03:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
+      ]
+    },
+    {
+      "claim_id": "leumit-prescription-bands-2026",
+      "claim": "Leumit three bands for a drug with no generic in the fund.",
+      "source_url": "https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/",
+      "raw_snippet": "תרופה שמחירה עד 20.80 ש\"ח - מחיר התרופה לצרכן",
+      "fetched_at": "2026-09-20T03:00:00Z",
+      "appears_in": [
+        "references/copay-tables.md"
       ]
     }
   ]

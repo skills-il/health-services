@@ -1,0 +1,36 @@
+{
+  "cycles": [
+    {
+      "version": "2.1.0",
+      "date": "2026-09-20",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "פוניתי באמבולנס ולא אושפזתי, מגיע לי החזר?",
+          "What is Form 17 and how do I get one?",
+          "I have chest pain right now, what should I do?",
+          "האם התקרה הרבעונית להשתתפות עצמית זהה בכל הקופות?"
+        ]
+      },
+      "lessons": [
+        "SKILL_HE.md has no YAML frontmatter, unlike peer skills in this repo. Harmless for sync, but worth adding for consistency.",
+        "Deferred MINOR: no administrative-fee section (medical certificate, magnetic card, record copies), which is a routine member question. Leumit and Clalit both publish tariffs.",
+        "Deferred MINOR: senior (72+) dental tariffs are published by Clalit and a housebound mobile-dental route by Leumit; the skill says only that adult dental is out of basket.",
+        "Deferred MINOR: Leumit's per-km fuel reimbursement for oncology/dialysis transport is more generous than the generic rule stated.",
+        "Deferred MINOR: children of separated parents, newborn kupah assignment and the 45-day objection window.",
+        "Maccabi still publishes no consolidated tariff table and Meuhedet's pages are client-rendered: both need a browser, curl will not do.",
+        "The two vintages (circular 1/2025 vs each kupah's 2026 page) must be labelled per row; this cycle found unlabelled circular-era figures sitting beside 2026 ones.",
+        "The MoH circular series is now headed חוזר האגף לפיקוח על קופות החולים ושירותי בריאות נוספים; search both names.",
+        "Still no 2026 payments circular as of 2026-09-20 (sbn02-2026 through sbn07-2026 all 404; sbn01-2026 is a child-development circular).",
+        "Meuhedet's tier ORDER (עדיף then שיא) rests on domain knowledge: the reachable page pairs the two names without ranking them. Cite a ranking page or keep it unasserted.",
+        "Checklist B2 originally attributed seven Meuhedet §14.3 line items to Maccabi, a page-adjacency read of the circular PDF. Always read the per-kupah block, never a neighbouring one.",
+        "verify-evidence --check-sources cannot catch a claim whose TEXT outruns its snippet, only a snippet absent from the page. Diff claim against snippet by hand.",
+        "Roll-up evidence entries (statutory-copay-table-1-2025, clalit-tariffs-2026, leumit-tariffs-2026, meuhedet-copays, er-clinical-presentations, er-full-exemption-circumstances) bundle many figures behind a single label snippet. Spot-verified accurate this cycle; give each a snippet carrying at least one of its own figures."
+      ]
+    }
+  ]
+}

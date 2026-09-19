@@ -1,17 +1,23 @@
 ---
 name: israeli-hmo-navigator
-description: Navigate Israel's four HMOs (kupot cholim) and healthcare system for costs, referrals, emergency-room fees and coverage decisions. Use when user asks about Clalit, Maccabi, Meuhedet, Leumit, "kupat cholim", health basket (sal briut), copayments (hishtatfut atzmit), emergency room (miyun) fees and exemptions, Form 17 (tofes 17), ambulance refunds, prescription copays, supplementary insurance (bituach mashlim), or switching HMOs. Do NOT use for emergency medical advice or for clinical drug information.
+description: Not medical advice and not a determination of your eligibility or of what you owe. Navigate Israel's four HMOs (kupot cholim) and healthcare system for costs, referrals, emergency-room fees and coverage decisions. Use when user asks about Clalit, Maccabi, Meuhedet, Leumit, "kupat cholim", health basket (sal briut), copayments (hishtatfut atzmit), emergency room (miyun) fees and exemptions, Form 17 (tofes 17), ambulance refunds, prescription copays, supplementary insurance (bituach mashlim), or switching HMOs. Do NOT use for emergency medical advice or for clinical drug information.
 license: MIT
 compatibility: Static reference, no network required. Amounts carry an "as of" date and are re-indexed by the Ministry of Health and by each kupah. Verify any amount against the member's own kupah page before quoting it to them.
 ---
 
 # Israeli HMO Navigator
 
+## Legal notice
+
+This is a free information tool operated by an artificial-intelligence model. It explains the published rules of Israel's public health system: what services cost at the four kupot cholim, the statutory exemptions and ceilings, the emergency-room waiver list, refunds and the rules for switching funds. All of its output is produced automatically, without the involvement, review or approval of a physician or a lawyer. It is not a medical opinion, not a diagnosis, not a treatment recommendation and not legal advice, and it does not determine your eligibility or what you owe: the binding amount is the one your kupah and the Ministry of Health tariff set, and eligibility is decided by your kupah. An AI model may err or quote a superseded figure, so confirm every amount against your own kupah's page before relying on it.
+
+Do not rely on the output in a medical emergency (call 101), for a decision about treatment or medication, or in an appeal, complaint or other legal proceeding. This tool is not a substitute for advice that takes into account the particular data and needs of each person. Any use of the output is at the user's sole responsibility.
+
 ## How to use this skill, and its dating rule
 
 Israel's National Health Insurance Law of 1995 guarantees universal coverage through four kupot cholim. This skill routes a member to the right cost, the right exemption and the right form.
 
-Two vintages of amounts are in circulation right now: the Ministry of Health circular `חוזר סמנכ"ל לפיקוח על קופות החולים ושב"ן 1/2025` (published 12.08.2025, effective 1 April 2025), which is the statutory table, and each kupah's own tariff page, which carries 2026-indexed values roughly three percent higher. No 2026 payments circular exists yet.
+Two vintages of amounts are in circulation right now: the Ministry of Health circular `חוזר סמנכ"ל לפיקוח על קופות החולים ושב"ן 1/2025` (the series is now headed `חוזר האגף לפיקוח על קופות החולים ושירותי בריאות נוספים`, so search both names) (published 12.08.2025, effective 1 April 2025), which is the statutory table, and each kupah's own tariff page, which carries 2026-indexed values roughly three percent higher. No 2026 payments circular exists yet.
 
 **Rules for any answer you give from this skill:**
 
@@ -35,7 +41,7 @@ The bulk tables live in `references/`. Load the one you need:
 |---|---|---|---|
 | Clalit Health Services | כללית שירותי בריאות | `*2700` | כללית מושלם, then כללית מושלם פלטינום |
 | Maccabi Healthcare Services | מכבי שירותי בריאות | `*3555` (`מכבי ללא הפסקה`) | מכבי זהב, then מכבי שלי |
-| Meuhedet | מאוחדת | `*3833` | מאוחדת עדיף, then מאוחדת עדיף Plus |
+| Meuhedet | מאוחדת | `*3833` | מאוחדת עדיף, then מאוחדת שיא |
 | Leumit Health Fund | לאומית שירותי בריאות | `*507`, also 1700-507507 | לאומית כסף, then לאומית זהב |
 
 
@@ -75,6 +81,11 @@ Who is free and who is paid, from sections 15.7 and 15.8:
 - `מכונים` are imaging and diagnostic institutes outside general hospitals (15.2). `מרפאות חוץ` are `מרפאות הפועלות במסגרת בתי חולים כלליים (כולל מרפאות בריאות הנפש בבתי חולים כלליים)` (15.4).
 
 So a gynaecologist is free while a dermatologist is paid, and a dietitian and a podiatrist bill like a specialist even though neither is a physician.
+
+Two things the floating quarter does **not** cover, both priced separately in the circular:
+
+- **Switching from one secondary doctor to another inside the same quarter is charged again**, as `העברה מרופא שניוני האחד למשנהו במהלך רבעון` (33.32 at Maccabi, 32.50 at Meuhedet in the 1/2025 table). So a second opinion from a different specialist in the same quarter is not free, which is the opposite of what the floating quarter leads people to expect.
+- A `מטפל עצמאי` is `מטפל שהוא אינו עובד הקופה, המקבל מטופלים של קופת החולים במסגרת הסדר עם הקופה במרפאתו הפרטית` (15.1). An independent provider working under an arrangement is still inside the kupah's tariff, not private care.
 
 ## The emergency room is always two numbers, never one
 
@@ -125,7 +136,7 @@ The basic basket of **services** is identical across the four kupot by law. **Th
 Full tables are in `references/copay-tables.md` and `references/exemptions-and-ceilings.md`. The load-bearing points:
 
 - Which visits count toward the family ceiling, verbatim: `תקרת תשלום למשפחה (ילדים - עד גיל 18) - תקרה רבעונית המתייחסת להשתתפויות בגין ביקור אצל: רופא ראשוני, רופא שניוני, מרפאות חוץ ומכונים.` Dental copays are excluded.
-- **Stacking**: reductions of the same kind do not compound, so an oleh who is also above retirement age gets the ceiling halved once, not quartered. Reductions of different kinds do apply on top of one another, and a discount never costs you the ceiling.
+- **Stacking**: section 18.1 is `התקרות מאותו סוג אינן מצטברות למעט ההנחות בתרופות`. So CEILING reductions of the same kind do not compound, and an oleh who is also above retirement age gets the ceiling halved once, not quartered, **but drug discounts are the stated exception and do accumulate**. Reductions of different kinds do apply on top of one another, and a discount never costs you the ceiling.
 - **The retirement-age trap**: the family ceiling uses **mandatory** retirement age, while the exemptions in 16.1 and the drug discount in 16.8.2 use **optional** retirement age. A member can qualify for one and not the other.
 - **The senior drug discount starts at 72, not 75.** Age 75 was superseded on 1.1.2016 and is the most common stale figure in circulation on this topic.
 - The mobility-allowance exemption runs to 18 years **and 3 months**, not to 18.
@@ -133,7 +144,7 @@ Full tables are in `references/copay-tables.md` and `references/exemptions-and-c
 
 ## Prescription copayments are four different schemes
 
-Do not give one generic prescription rule. **Clalit's scheme is structurally different from the other three.** Clalit charges 15 percent of the maximum consumer price or a low floor, whichever is the **higher**, from a threshold of 20.64. Maccabi, Meuhedet and Leumit charge a flat minimum up to a threshold of roughly 151.70 to 161.81 and only then switch to 15 percent.
+Do not give one generic prescription rule. **Clalit's scheme is structurally different from the other three.** Clalit charges 15 percent of the maximum consumer price or a floor of 21.32 per pack, whichever is the **higher** (10 percent with a registered generic, same floor), as of its 30.06.2026 page. The 20.64 still in circulation is the circular-era figure. Maccabi, Meuhedet and Leumit charge a flat minimum up to a threshold and only then switch to 15 percent. Check the vintage: Meuhedet's own 2026 page gives 20.89 up to 156.73, Leumit's 20.80 up to 156.30, while the 1/2025 circular era had 20.23 and thresholds of 151.70 to 161.81.
 
 Two further rules people miss: Maccabi charges `תרופות להן יש תחליפים זולים או שאינן חלק מספר התרופות (לפי הרשימה) – 50% מהמחיר לצרכן.` And a drug available only under a שב"ן, sold to someone not in that שב"ן, gets neither discount nor ceiling: `לא ייכלל בתקרת התשלום לחולים כרוניים, ולא יחולו עליו כל הנחה ופטור`.
 
@@ -174,13 +185,20 @@ A switch takes effect on one of six fixed dates a year, and a member may make `�
 | 16.05-15.07 | 01.09 |
 | 16.07-15.09 | 01.11 |
 
-Two channels: in person at an Israel Post branch, `יש להתייצב באופן אישי ... ולרכוש טופס מעבר`, where the transfer form must be **purchased** (the fee amount is not published, so do not state one); or on the National Insurance Institute website, where `יש להצטייד בכרטיס אשראי בתוקף, על שמכם`.
+Two channels: in person at an Israel Post branch, `יש להתייצב באופן אישי באחד מסניפי הדואר ולרכוש טופס מעבר בין קופות חולים`, where the transfer costs `19.30 ₪ (נכון ל-2025)`; or on the National Insurance Institute website, where `יש להצטייד בכרטיס אשראי בתוקף, על שמכם`.
+
+**Four things the six-date table does not tell you, and each of them changes the advice:**
+
+- **Some registrations take effect immediately**, outside the six dates: `בוגר בן 18 עד 18.5`, a new oleh as long as this is their first registration with any kupah, a baby from birth to 6 months on a first registration, and any Israeli resident on a first registration. Do not tell a new oleh to wait for 01.01.
+- **The ombudsman can move the date.** `נציבות קבילות הציבור במשרד הבריאות רשאית לאשר ביטול מעבר או הקדמת מעבר לקופה אחרת, גם שלא במסגרת המועדים שנקבעו בחוק`, for a member who moved house more than 60 km away with no branch of their kupah near the new home, or who must switch for a special medical reason.
+- **A transfer can be cancelled**, by the 20th of the month before it takes effect (01.01 by 20.12, 01.03 by 20.02, 01.05 by 20.04, 01.07 by 20.06, 01.09 by 20.08, and Kol Zchut's sixth row prints `ביום 01.12 ביום 20.11`, which does not match its own transfer-date table and should be confirmed with the kupah rather than relied on). Cancelling costs the same 19.30. Re-registering in the same registration period does not restore the original date: `הרישום החדש ייקלט וייכנס לתוקף רק במועד המעבר הבא`.
+- **Registering is not joining.** After the post office or the NII site, `יש לפנות עם טופס הרישום לסניף הקופה ... לצורך השלמת הליכי ההצטרפות, הנפקת כרטיס מגנטי והרשמה לשירותי הבריאות הנוספים (שב"ן, ביטוח סיעודי)`. This is the step where the `אישור וותק` is handed over, and skipping it is how people end up with no supplementary cover.
 
 **Supplementary-insurance seniority does carry across.** This corrects a false claim in earlier versions of this skill. Leumit, verbatim:
 
 `עם מעברך לקופה חדשה מסתיים הביטוח המשלים (שב"ן) בקופה הישנה ... הקופה החדשה אינה רשאית להגביל או למנוע את הצטרפותך לביטוח המשלים, ובתנאים מסוימים אף תהיה זכאי לפטור מתקופת המתנה בקופה החדשה. על מנת לשמור על רצף זכויות עליך להעביר לקופה אליה עברת אישור וותק מהקופה הקודמת.`
 
-Read that carefully before advising anyone. The new kupah may not refuse you supplementary cover. A waiver of the waiting period is available `בתנאים מסוימים`, which is a hedge, not a guarantee. And it is **not automatic**: the member must obtain an `אישור וותק` from the old kupah and hand it to the new one. Long-term-care continuity since 1.1.17 works the same way. Do not promise a specific waiting-period length or an "equivalent tier" rule; neither is established from a primary source.
+Read that carefully before advising anyone. The new kupah may not refuse you supplementary cover. A waiver of the waiting period is available `בתנאים מסוימים`, which is a hedge, not a guarantee. And it is **not automatic**: the member must obtain an `אישור וותק` from the old kupah and hand it to the new one. **Long-term-care (סיעודי) continuity is a different mechanism on a different clock**, and merging the two is a real error. It preserves cover `מבלי שיידרש לעבור בדיקה רפואית נוספת`, it is not automatic, and the member must present the confirmation of previous cover `בתוך 180 ימים מהיום שבו הקופה החדשה דרשה זאת ממנו`: 180 days from the new kupah's demand, not 90 days from the transfer. **There is a 90-day clock on the seniority offset**, and it is the detail members lose money on: `אם המבוטח היה חבר בתוכנית שב"ן, עבר קופת חולים ובתוך 90 ימים מיום המעבר נרשם לתוכנית שב"ן בקופת החולים החדשה הזהה ברמתה לתוכנית השב"ן בקופה הקודמת, התקופה בה היה חבר בתוכנית השב"ן בקופה הקודמת תקוזז מתקופת האכשרה`. So the offset applies to a plan **of the same level** and only if they enrol within 90 days of the switch. Past that, the previous membership is not offset. And trading UP a tier forfeits it entirely: `אם המבוטח עבר מביטוח משלים "ברמה נמוכה" לביטוח משלים "ברמה גבוהה יותר" תחול על המבוטח תקופת האכשרה המלאה שקבעה הקופה הקולטת`. That is the most common switching scenario, so say it before anyone counts on carried seniority. Do not promise a specific waiting-period length.
 
 ## Examples
 

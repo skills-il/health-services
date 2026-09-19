@@ -125,12 +125,14 @@ Meuhedet, verbatim: `פטור מתשלום אגרת ביקור יינתן רק �
 
 | Kupah | Threshold (₪) | Below the threshold | At or above | With a registered generic |
 |---|---|---|---|---|
-| Clalit | 20.64 | maximum consumer price | `עד 15% מהמחיר המרבי לצרכן או 21.32 ש"ח לאריזה - הגבוה מביניהם` (2026 floor; the circular-era figure was 20.64) | `10% ... או 20.64 ש"ח לאריזה, לפי הגבוה מביניהם` |
-| Maccabi | 161.81 | `20.23 ש"ח אך לא יותר ממחיר התרופה לצרכן` | `15% מהמחיר המרבי לצרכן` | `10% ... או 20.23 ש"ח כגבוה מבניהם` |
-| Meuhedet | 151.70 | `המחיר המרבי לצרכן או 20.23 ש"ח, לפי הנמוך מבניהם` | 15 percent | `10% ... או 20.23 ש"ח כגבוה מבניהם` |
-| Leumit | 151.70 | `20.23 ש"ח או מחיר התרופה המרבי לצרכן, לפי הנמוך מביניהם` | 15 percent | `10% ... או 20.23 ש"ח כגבוה מבניהם` |
+| Clalit | 21.32 | maximum consumer price (`פריט שמחירו לצרכן נמוך מ־ 21.32 ש"ח - האגרה תהיה לפי מחירו המרבי לצרכן`) | `עד 15% מהמחיר המרבי לצרכן או 21.32 ש"ח לאריזה - הגבוה מביניהם` (Clalit page, 30.06.2026; the circular-era figure was 20.64) | `אגרה בשיעור 10% מהמחיר המרבי לצרכן או 21.32 ש"ח לאריזה (הגבוה מביניהם)` |
+| Maccabi (circular-era, no 2026 page published) | 161.81 | `20.23 ש"ח אך לא יותר ממחיר התרופה לצרכן` | `15% מהמחיר המרבי לצרכן` | `10% ... או 20.23 ש"ח כגבוה מבניהם` |
+| Meuhedet (rendered in a browser 20.09.2026; the page serves only nav chrome to a plain fetch) | 156.73 | `20.89 ₪ (או המחיר המרבי ללקוח. הנמוך מביניהם)` up to 156.73 | `15%` above `156.73 ש"ח` | not published on that page; circular-era row was 151.70 / 20.23 with `10% ... או 20.23 ש"ח כגבוה מבניהם` |
+| Leumit (own page, 01.07.2026) | 156.30 | three bands, see below | three bands, see below | `תרופה שמחירה מעל 20.80 ש"ח- 10% ממחיר התרופה או 20.80 ש"ח הגבוה מבינם` |
 
-**Clalit's scheme is structurally different from the other three.** It is "15 percent of the maximum consumer price or the floor, whichever is the **higher**", starting from a very low threshold of 20.64. The other three apply a flat minimum up to a threshold around 151.70 to 161.81 and only then switch to 15 percent. Never present one generic rule for all four.
+**Leumit has three bands, not two**, and collapsing them misprices the middle one. Verbatim, for a drug with no generic alternative in the fund: `תרופה שמחירה עד 20.80 ש"ח - מחיר התרופה לצרכן. תרופה שמחירה בין 20.80 ש"ח ל 156.30 ש"ח - 20.80 ש"ח. תרופה שמחירה מעל 156.30 ש"ח - 15% ממחיר התרופה.` With a generic in the fund: up to 20.80 the consumer price, and above it `10% ממחיר התרופה או 20.80 ש"ח הגבוה מבינם`. The circular-era Leumit row was 151.70 / 20.23.
+
+**Clalit's scheme is structurally different from the other three.** It is "15 percent of the maximum consumer price or the floor, whichever is the **higher**", starting from a very low threshold, 21.32 per pack on Clalit's 30.06.2026 page (20.64 in the 1/2025 circular era). The other three apply a flat minimum up to a threshold and only then switch to 15 percent, but check each row's vintage before quoting a figure. Never present one generic rule for all four.
 
 Maccabi additionally charges `תרופות להן יש תחליפים זולים או שאינן חלק מספר התרופות (לפי הרשימה) – 50% מהמחיר לצרכן.`
 

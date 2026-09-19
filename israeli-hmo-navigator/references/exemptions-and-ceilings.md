@@ -22,7 +22,7 @@ The 2026 own-site values and the halved variants are in `references/copay-tables
 - `18.2 תקרות מסוגים שונים חלות באופן מצטבר על המבוטח.`
 - `18.3 זכאות להנחה אינה גורעת מהזכאות לתקרה.`
 
-In plain terms: two reductions of the **same kind** do not compound, so an oleh who is also above retirement age gets the ceiling halved once, not quartered. Reductions of **different kinds** do apply on top of each other. And qualifying for a discount never costs you the ceiling.
+In plain terms: two CEILING reductions of the **same kind** do not compound, so an oleh who is also above retirement age gets the ceiling halved once, not quartered. **Drug discounts are the express exception in 18.1 (`למעט ההנחות בתרופות`) and do accumulate**, so do not apply the no-compounding rule to them. Reductions of **different kinds** do apply on top of each other. And qualifying for a discount never costs you the ceiling.
 
 ## 4. The retirement-age trap, circular section 17.2
 
