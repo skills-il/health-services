@@ -1,0 +1,29 @@
+{
+  "cycles": [
+    {
+      "version": "1.5.0",
+      "date": "2026-09-19",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "אבא שלי חולה סרטן ומחכה חודשיים לניתוח, מה הזכויות שלו?",
+          "How do I get free palliative home care for a cancer patient in Israel?",
+          "Is my tumour benign or malignant based on these MRI findings?",
+          "I want to freeze my eggs before starting chemotherapy, is it covered in Israel?"
+        ]
+      },
+      "lessons": [
+        "Expert MINOR deferred: general disability payment-start rules (90 days after incapacity date, or day 31 when incapacity is 100% for 6+ months) not in the body; word cap. Source: kolzchut הגשת_תביעה_לקצבת_נכות_כללית.",
+        "Expert MINOR deferred (UNSOURCED): how a work-injury (occupational cancer) claim interacts with a concurrent נכות כללית or שר\"מ claim.",
+        "Expert MINOR deferred: pension-fund loss-of-work-capacity paragraph could say what to request from the fund (policy terms, incapacity definition).",
+        "Body sits at ~4,990 of 5,000 words: any addition next cycle must move content to references first.",
+        "Evidence debt: kolzchut.org.il/en/* pages now serve a stub; never cite /en/ pages. gov.il pages (oocyte-cryopreservation, clinical-trials-website) are Cloudflare-blocked for headless browsers; re-verify by eye.",
+        "Enriched DB fields had drifted (second opinion wrongly denied, single 60-day window, 30-day deadline); re-check faq/best_practices/problem_statement every cycle."
+      ]
+    }
+  ]
+}

@@ -91,16 +91,16 @@
 - **National Supreme Helsinki Committee (ועדת הלסינקי העליונה)**: handles genetic research and specific elevated-risk categories.
 
 **Where to find oncology trials**:
-- **MyTrial** -- the MOH official registry, mandatory for trial registration since 2016. Reach it via the Ministry of Health landing page: https://www.gov.il/he/departments/general/clinical-trials-website
+- **MyTrial** -- the MOH official registry, mandatory for trial registration since 2016. Reach it from the Ministry of Health website by searching for "MyTrial".
 - **ClinicalTrials.gov** filtered to Israel -- cross-check.
 
 **Who pays during a trial** (general principle, confirm per trial):
 - Trial sponsor (typically pharma) pays for the investigational drug and trial-specific procedures
 - HMO continues to fund standard-of-care procedures the patient would otherwise receive
 
-**Post-trial access to the drug** (המשך מתן מוצר המחקר לאחר סיום הניסוי): handled under the MOH clinical-trials procedure. **Not an automatic patient right.** Sponsor may continue supplying responders subject to Helsinki + MOH agreement. **Discuss this with the principal investigator BEFORE signing the consent form**, not after.
+**Post-trial access to the drug** (המשך מתן מוצר המחקר לאחר סיום הניסוי): **Not an automatic patient right, and no published entitlement guarantees it.** Sponsor may continue supplying responders subject to Helsinki + MOH agreement. **Discuss this with the principal investigator BEFORE signing the consent form**, not after.
 
-**Source**: MOH clinical-trials procedure (procedure 14) -- https://www.gov.il/BlobFolder/policy/cth-14/he/files_publications_units_pharmaceutical_division_clinical_trials_cth-14.pdf
+**Source** (Helsinki-committee procedure for amending trial documents; it does not address post-trial access): MOH procedure 14-4/02 -- https://www.gov.il/BlobFolder/policy/cth-14/he/files_publications_units_pharmaceutical_division_clinical_trials_cth-14.pdf
 
 ## 5. Named Patient Program (NPP) -- does not exist as a separate Israeli category
 
