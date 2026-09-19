@@ -15,7 +15,7 @@ Cancer is classified as a "severe illness" (מחלות קשות). Patients are e
 - Dietitian and podiatrist consultations
 - Medications (within the basket)
 
-**Activation:** the HMO should apply the exemption automatically based on the oncology diagnosis code. If it does not appear in the system, request activation from the HMO with a specialist letter confirming the cancer diagnosis.
+**Activation:** the HMO should apply the exemption automatically based on the oncology diagnosis code. If it does not appear in the system, request activation from the HMO with a confirmation of the cancer diagnosis from the family doctor or a hospital doctor.
 
 **Source:** Kolzchut, "פטור מתשלום עבור תרופות ושירותים רפואיים לחולים במחלות קשות".
 
@@ -40,16 +40,14 @@ The HMO funds dental treatment for cancer patients with tier-specific rules:
 
 ## 3. Surgery wait-time guarantee + Form 17
 
-Cancer patients requiring certain surgeries are entitled to have surgery within a defined maximum wait period from the decision-to-operate date.
+MOH Director-General circular 1/2020 (published 5 January 2020, replacing 9/2018): for surgery related to the patient's cancer, the HMO's choice arrangement must meet a **maximum wait of 30 days** from when the decision to operate (after diagnostic work-up and pre-operative procedures) is brought to the HMO's knowledge. It applies to elective surgery only, not emergencies.
 
 **If the HMO cannot meet the timeline:**
-1. Patient contacts the HMO's **Arrangements Center (מוקד הסדרים)** -- each HMO operates one
-2. The Center has **24 hours** to find an earlier date at any covered facility
-3. If still unsuccessful, the Center must issue **Form 17 (התחייבות)** -- a commitment letter the patient can present at any authorized facility allowed to perform the procedure, at no additional cost
+1. Patient calls the HMO's **Arrangements Center (מוקד הסדרים)**. Clalit: 03-9405347 (Sun-Thu 08:00-16:00). Maccabi: 076-8173559 (Sun-Thu 08:00-18:00). Other kupot: ask the kupah's service line.
+2. If the Center does not offer a slot within the window at one of the HMO's providers within **72 hours**, it must issue **Form 17 (התחייבות)** to the alternative **public** hospital that the patient located. The circular also requires the Center to be able to issue commitment forms within 24 hours of the member's first contact.
+3. Private hospitals are **not** part of this route, and Maccabi states the commitment is issued at the usual co-pay.
 
-**Practical use:** the Form 17 mechanism is most often invoked for time-sensitive cancer surgeries where the home HMO's hospital has a backlog. It enables surgery at a competitor HMO's facility or a private hospital with the home HMO paying.
-
-**Source:** Kolzchut, "חולי סרטן" (EN page).
+**Sources:** circular text (wikirefua copy of MOH circular 1/2020); Clalit and Maccabi entitlement pages (see evidence.json).
 
 ## 4. Hereditary cancer (BRCA, Lynch, Li-Fraumeni, FAP) -- all syndromes covered
 
@@ -91,9 +89,9 @@ Eligibility for the home option is regimen-specific. Ask the treating oncologist
 
 **Source:** Kolzchut Rights Guide for Chemotherapy Patients; Israeli Cancer Association.
 
-## 6. Medical cannabis (post-April 2024 reform -- prescription only)
+## 6. Medical cannabis (prescription-only track)
 
-As of 1 April 2024, the medical cannabis pathway changed. **Cancer patients no longer need a license** -- only a **prescription from a certified physician**.
+Under the current pathway, **Cancer patients no longer need a license** -- only a **prescription from a certified physician**.
 
 **Eligibility:**
 - Patients in active oncological treatment (chemotherapy, immunotherapy, radiation)
@@ -189,7 +187,7 @@ The Israeli Cancer Association runs a national volunteer-driver program for canc
 2. Dental treatment funding BEFORE radiation begins (CRITICAL -- head/neck patients have no time limit per 2013 basket update; pre-radiation dental work prevents osteoradionecrosis)
 3. General disability + שר"מ paper track; head/neck radiation often justifies a 112% committee request (mucositis prevents eating, neck fibrosis affects mobility, profound fatigue)
 4. Voice + swallowing therapy basket-covered post-radiation
-5. Medical cannabis for radiation pain and mucositis-related appetite/sleep issues -- prescription only post-April 2024
+5. Medical cannabis for radiation pain and mucositis-related appetite/sleep issues -- prescription only
 6. Co-pay exemption for specialist follow-ups, imaging, dietitian (often essential during radiation when eating is impaired)
 7. ICA Rights Center (via Telemeda 1-800-599-995) helps build the dental funding case if initially refused
 

@@ -21,7 +21,7 @@ Source: Clalit appeals page (ועדת בירורים) -- https://www.clalit.co.i
 
 If the HMO's internal committee rejects the appeal (or doesn't respond in a reasonable time), the next escalation is the **Ministry of Health Public Complaints Commissioner (נציב קבילות הציבור לחוק ביטוח בריאות ממלכתי)**.
 
-- **2024 volume**: 12,809 inquiries received; 4,399 classified as substantive complaints
+- **2024 volume**: 12,809 inquiries submitted; 4,399 classified as substantive complaints
 - **Per-10,000-members complaint rates (2024)**: Meuhedet 4.47, Maccabi 4.22, Leumit lowest, Clalit highest absolute volume but improving
 
 Source (data): https://www.ynet.co.il/health/article/skfpiq005kl
@@ -70,6 +70,6 @@ Whether for the internal HMO committee or for court, the package the patient (or
 
 1. **Skipping the internal HMO committee** and going straight to court -- costs time and money you don't need to spend
 2. **Filing the court case without first getting a written refusal** from the HMO -- the court will dismiss for lack of justiciable dispute
-3. **Letting the 30-day Bituach Leumi appeal window pass** while focusing only on the HMO drug fight -- these are separate clocks
+3. **Letting the Bituach Leumi appeal window pass (60 days for נכות כללית, 90 days for שר"מ)** while focusing only on the HMO drug fight -- these are separate clocks
 4. **Citing the wrong court** -- the Regional Labor Court is correct under National Health Insurance Law, not Magistrates' Court
 5. **Not asking for an interim order (צו ביניים)** when life is at stake -- a regular claim can take months

@@ -128,3 +128,8 @@ The exact list of recognized work-related cancers evolves through case law. Refe
 - Bituach Leumi -- vocational rehabilitation eligibility (20% threshold): https://www.btl.gov.il/benefits/Vocational_Rehabilitation/Vocational_Rehabilitation_disabeld/Pages/Zacaut.aspx
 - Bituach Leumi -- Disabled Child (Malignancy): https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/cancer.aspx
 - Bituach Leumi -- שר"מ appeal, 90 days: https://www.btl.gov.il/benefits/Attendance_Allowance/Pages/%d7%a2%d7%a8%d7%a2%d7%95%d7%a8%20%d7%a2%d7%9c%20%d7%94%d7%97%d7%9c%d7%98%d7%aa%20%d7%94%d7%9e%d7%95%d7%a1%d7%93.aspx
+
+## Vocational rehabilitation (שיקום מקצועי) in full
+
+Open to anyone a Bituach Leumi committee assessed at **at least 20% disability**, aged 18 to retirement age, who cannot return to their previous work. **It does not require receiving a disability pension.** It funds occupational assessment, academic or vocational tuition, travel, books, equipment, rent, subsistence, accessibility supports and job placement. Studying **at least 16 hours a week** also brings **דמי שיקום**, equal for a non-pensioner to the pension at the 100% rate (work income under ₪8,261), plus exemption from HMO fees for specialists, outpatient clinics and hospital referrals. This is the whole survivorship lane and it is almost never mentioned at discharge.
+

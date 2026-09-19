@@ -16,15 +16,15 @@
 **Notable 2026 oncology additions (verified):**
 
 *Solid tumors:*
-- **Imfinzi** -- bladder cancer and gastric cancer (peri-operative setting)
-- **Tagrisso** -- post-operative EGFR-positive non-small-cell lung cancer
-- **Keytruda** -- head-and-neck cancer; advanced or recurrent endometrial cancer
-- **Enhertu** -- HER2-low breast cancer
+- **Imfinzi** -- muscle-invasive bladder cancer (neoadjuvant, then adjuvant after cystectomy) and resectable locally advanced gastric / GEJ cancer
+- **Tagrisso** -- unresectable locally advanced (stage III) EGFR-positive NSCLC after platinum chemoradiation. The adjuvant post-resection indication is a separate, older entry.
+- **Keytruda** -- resectable locally advanced head-and-neck SCC (PD-L1 CPS 1 or more); first-line non-epithelioid pleural mesothelioma; advanced or recurrent endometrial cancer
+- **Enhertu** -- unresectable or metastatic HER2-low breast cancer
 
 *Hematology:*
-- **Adcetris** -- first-line Hodgkin lymphoma
+- **Adcetris** -- first-line advanced (stage 3-4) CD30+ Hodgkin lymphoma with chemotherapy, adults aged 18-60
 
-Source: 2026 basket coverage at Mako -- https://www.mako.co.il/health-news/Article-98d4f447a767c91026.htm
+Source: MOH circular 2/2026 (the 2026 basket additions) -- https://www.gov.il/BlobFolder/policy/mk02-2026/he/files_circulars_mk_mk02-2026.pdf
 
 There are also reports of additions of bispecific antibodies and antibody-drug conjugates (ADCs) for relapsed/refractory multiple myeloma and lymphoma, but specific drug names should be verified directly against the official Ministry of Health 2026 basket PDF before quoting:
 https://www.gov.il/BlobFolder/reports/hbs2026/he/files_committees_hbs_2026_List-of-medicines-and-medical-food-2026.pdf
@@ -64,8 +64,8 @@ Each of the four HMOs sells two supplementary tiers. Non-basket oncology drug co
 
 | HMO | Basic supplementary | Top supplementary | Non-basket oncology drug coverage |
 |-----|---------------------|-------------------|-----------------------------------|
-| Clalit | Mushlam Zahav | **Mushlam Platinum** | Cap runs into the millions of shekels per insured, is a launch-year figure indexed annually, and carries a רצף טיפולי exception. Clalit's registration condition is that the drugs are `רשומות בישראל או שהוגשה בקשה לרישומן`. **Read the tier's תקנון PDF; do not quote a cap from memory.** |
-| Maccabi | Maccabi Zahav | **Maccabi Sheli** | Cap runs into the millions of shekels per insured and is indexed annually. A specific list of recognised registration countries was previously carried here and could not be sourced, so it has been removed. **Read the tier's תקנון PDF.** |
+| Clalit | Mushlam Zahav | **Mushlam Platinum** | Cap is indexed annually and carries a רצף טיפולי exception; no figure is given here. Clalit's registration condition is that the drugs are `רשומות בישראל או שהוגשה בקשה לרישומן`. **Read the tier's תקנון PDF; do not quote a cap from memory.** |
+| Maccabi | Maccabi Zahav | **Maccabi Sheli** | Cap is indexed annually; no figure is given here because the Sheli regulations defer the drug chapter to Maccabi Zahav. A specific list of recognised registration countries was previously carried here and could not be sourced, so it has been removed. **Read the tier's תקנון PDF.** |
 | Meuhedet | Meuhedet Adif | **Meuhedet Si (שיא)** | Non-basket drug discounts on Adif; broader coverage on Si. Verify specific 2026 oncology caps in the plan's regulations PDF |
 | Leumit | Leumit Kesef (Silver) | **Leumit Zahav (Gold)** | Life-extending oncology drug coverage historically offered. Verify the 2026 regulations PDF |
 
@@ -154,7 +154,7 @@ Source: PubMed entry for the HBI0101 phase Ia/b paper -- https://pubmed.ncbi.nlm
 - Kolzchut -- Supportive Home Care (Palliative Care): https://www.kolzchut.org.il/he/%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%99%D7%AA%D7%99_%D7%AA%D7%95%D7%9E%D7%9A_%28%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%A4%D7%9C%D7%99%D7%90%D7%98%D7%99%D7%91%D7%99%29
 - Kolzchut -- Funding Medical Treatment Abroad: https://www.kolzchut.org.il/he/%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%94%D7%A9%D7%92%D7%AA_%D7%AA%D7%A8%D7%95%D7%A4%D7%95%D7%AA_%D7%A9%D7%90%D7%99%D7%A0%D7%9F_%D7%91%D7%A1%D7%9C_%D7%94%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA
 - Kolzchut -- Fertility Preservation: https://www.kolzchut.org.il/he/%D7%94%D7%A4%D7%A7%D7%93%D7%AA_%D7%96%D7%A8%D7%A2
-- gov.il -- Oocyte cryopreservation: https://www.gov.il/he/service/oocyte-cryopreservation
+- Kol Zchut -- Fertility preservation (שימור פוריות): https://www.kolzchut.org.il/he/%D7%A9%D7%99%D7%9E%D7%95%D7%A8_%D7%A4%D7%95%D7%A8%D7%99%D7%95%D7%AA
 - Clalit -- Mushlam drugs page: https://mushlam.clalit.co.il/he/medications/Pages/drugs_uncovered.aspx
 - Maccabi -- Zahav regulations: https://www.maccabi4u.co.il/media/lxtetxif/maccabi_zahav_regulations.pdf
 - Maccabi -- Sheli regulations: https://www.maccabi4u.co.il/media/no1nug5m/maccabi_sheli_regulations.pdf
