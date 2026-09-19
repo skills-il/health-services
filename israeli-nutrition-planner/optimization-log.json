@@ -1,0 +1,26 @@
+{
+  "cycles": [
+    {
+      "version": "1.4.0",
+      "date": "2026-09-19",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "10 frozen queries, see panel run"
+        ]
+      },
+      "lessons": [
+        "Legal notice added (Tier B, derived HEALTH_NUTRITION template, pending counsel review like other derived templates).",
+        "Body sits at ~4,970/5,000 words: any addition needs a move to references/ first. Fasts and Pesach already moved to kosher-halal-planning.md.",
+        "Deferred: Leumit and Meuhedet diabetes dietitian counts unverified at the primary source (hedged 'confirm with kupa').",
+        "Deferred MINOR: Wegovy 2026 basket entry for ages 12-18 (secondary source only, skill policy avoids quoting age bands); celiac soldiers' IDF food allowance; iron 30 mg pregnancy dose (not quoted).",
+        "Deferred: enriched FAQ 'Rainbow replaced the pyramid in 2018' is unverified; check next cycle.",
+        "Removed unsourced specifics (hospital names, waiting-time hours, fish frequency, fast durations, Tipat Halav age); re-add only with a primary source."
+      ]
+    }
+  ]
+}

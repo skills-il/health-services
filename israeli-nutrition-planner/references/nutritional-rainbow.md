@@ -32,7 +32,7 @@ Foods: fish, poultry, eggs
 - Vary protein sources throughout the week
 - Purchase raw and prepare at home
 - Prefer baking, grilling, or steaming over deep frying
-- Fish recommended at least twice per week (omega-3 source)
+- Fish as a regular protein and omega-3 source
 
 ### Pink Band (Infrequent Consumption)
 
@@ -86,7 +86,7 @@ The Nutritional Rainbow is explicitly grounded in Mediterranean dietary principl
 
 | Day | Protein Source | Notes |
 |-----|---------------|-------|
-| Sunday | Fish (salmon, tilapia, or local catch) | Omega-3 source, aim for twice a week. In pregnancy apply the mercury and listeria filter first |
+| Sunday | Fish (salmon, tilapia, or local catch) | Omega-3 source, include regularly. In pregnancy apply the mercury and listeria filter first |
 | Monday | Legume-based (mjadara, baked falafel, chickpea stew) | Meat-free day |
 | Tuesday | Poultry (chicken or turkey) | Baked, grilled, or in stew |
 | Wednesday | Eggs (shakshuka, frittata, boiled) | Versatile, pareve |
@@ -95,4 +95,4 @@ The Nutritional Rainbow is explicitly grounded in Mediterranean dietary principl
 | Saturday | Leftovers, dairy meals, or legumes | Shabbat lunch |
 
 On Pesach in an Ashkenazi household both the whole-grain column and the legume sub-group
-are unavailable. See the Pesach sub-step in SKILL.md Step 7.
+are unavailable. See "## Pesach" in references/kosher-halal-planning.md.

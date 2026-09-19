@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "skill": "israeli-nutrition-planner",
   "version": "1.3.0",
-  "generated_at": "2026-08-09",
+  "generated_at": "2026-09-19T00:00:00Z",
   "audit_summary": "Version 1.3.0 is a safety repair, not a staleness repair. Red-label thresholds were re-read on the Ministry of Health regulation page in both languages and are unchanged (400 mg sodium / 10 g total sugars / 4 g saturated fat per 100 g solid; 300 / 5 / 3 per 100 ml liquid; Phase 1 500 / 13.5 / 5 and 400 / 5 / 3; 25 cm2 exemption; no Phase 3). Added: a blocking medical gate in Step 1 including renal disease, a hard refusal on calorie and deficit targets plus an eating-disorder screening and routing branch with the verified ER\"N 1201 line, supplement upper intake levels and the levothyroxine/calcium-iron and warfarin/vitamin-K interactions this skill's own advice creates, a pregnancy food-safety branch from the Ministry's own page, a Pesach kitniyot branch, a halal and Arab-Israeli branch grounded in the Ministry's own prevalence figures, and allergen label reading. Corrected: the green label is NOT frozen, its criteria are updated annually by an independent scientific committee and February 2026 added a Prepared Dishes and Salads category. Nutrient data is now pointed at the Israeli national database (Tzameret) instead of a US-derived site. Removed as unverifiable at this cycle: the specific Wegovy 2026 basket age band and eligibility count, the NIS price range, the vegan-prevalence percentage, the celiac prevalence percentage, the Ministry vitamin D dose range, and the tahini calcium/iron figures. Legacy evidence.json (id/claim/source/verified/note, no raw_snippet) migrated to canonical schema; every snippet below was taken from raw HTML via curl plus tag-strip, or read in a browser where the host blocks plain fetches.",
   "claims": [
     {
@@ -349,10 +349,10 @@
     },
     {
       "claim_id": "hmo-14-dietitian-visits",
-      "claim": "Under the health basket, every patient with diabetes is entitled to 14 dietitian sessions per year, with a quarterly copay. Confirmed on Clalit's own diabetes dietitian page.",
+      "claim": "Clalit states that every patient with diabetes is entitled to 14 meetings with a dietitian a year, with a quarterly copay.",
       "source_url": "https://www.clalit.co.il/he/your_health/family/diabetes/Pages/meeting_a_dietitian.aspx",
-      "raw_snippet": "זכאי ל־14 פגישות עם תזונאית מדי שנה",
-      "fetched_at": "2026-08-09",
+      "raw_snippet": "כל מטופל עם סוכרת זכאי ל־14 פגישות עם תזונאית מדי שנה. הפגישות כרוכות בהשתתפות עצמית מדי רבעון",
+      "fetched_at": "2026-09-19T00:00:00Z",
       "appears_in": [
         "SKILL.md Step 8",
         "SKILL_HE.md step 8",
@@ -361,10 +361,10 @@
     },
     {
       "claim_id": "maccabi-dietitian-eligibility",
-      "claim": "Maccabi publishes a dietitian eligibility page listing therapeutic nutrition sessions and consultations in the community, with eligibility driven by medical condition and tiered by insurance plan.",
+      "claim": "At Maccabi the number of dietitian sessions is set by the dietitian's professional judgement, and no doctor referral is needed for diabetes, prediabetes or gestational diabetes.",
       "source_url": "https://www.maccabi4u.co.il/eligibilites/3856/",
-      "raw_snippet": "מפגשים עם דיאטנים/יות לייעוץ וליווי מקצועי בתחום התזונה",
-      "fetched_at": "2026-08-09",
+      "raw_snippet": "מספר המפגשים נקבע בהתאם לשיקול דעתה המקצועי של הדיאטנית, ובהתאם לאבחנה הרפואית ולהתקדמות הטיפול",
+      "fetched_at": "2026-09-19T00:00:00Z",
       "appears_in": [
         "SKILL.md Step 8",
         "SKILL.md Reference Links",
@@ -373,16 +373,18 @@
     },
     {
       "claim_id": "ozempic-off-label-end",
-      "claim": "Wegovy is the drug approved in Israel for chronic weight management, purchased privately by adults at high ongoing monthly cost, and in a letter to the medical community dated April 10 2024 the Health Ministry ended off-label Ozempic use for weight loss, allowing existing Form 29 holders to finish their period and then switch to Wegovy.",
+      "claim": "Wegovy is the drug approved in Israel for chronic weight management; since the Health Ministry's April 2024 letter Ozempic is no longer prescribed off-label for weight loss.",
       "source_url": "https://www.timesofisrael.com/weight-loss-drug-wegovy-arrives-in-israel-ending-off-label-use-of-ozempic/",
-      "raw_snippet": "In a letter to the medical community dated April 10, the Health Ministry said that patients with a valid Form 29 for six months of off-label Ozempic use may continue to use the drug until the period expires. After that, they will need to switch to Wegovy.",
+      "raw_snippet": "In a letter to the medical community dated April 10, the Health Ministry said that patients with a valid Form 29 for six months of off-label Ozempic use may continue to use the drug until the period expires.",
       "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL.md Step 8",
         "SKILL.md Gotchas",
         "SKILL_HE.md step 8",
         "SKILL_HE.md gotchas"
-      ]
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-09-19T00:00:00Z"
     },
     {
       "claim_id": "ramadan-sulfonylurea-risk",
@@ -398,9 +400,9 @@
     {
       "claim_id": "folic-acid-israel-guideline",
       "claim": "Preconceptional folic acid supplementation is an established Israeli Ministry of Health guideline studied in the peer-reviewed literature. The specific 400 microgram routine dose and the 5 milligram higher-risk dose are presented in this skill only alongside the upper intake level, and the 5 mg figure is explicitly framed as prescription strength.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/17961644/",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=17961644&retmode=json",
       "raw_snippet": "Preconceptional folic acid utilization in Israel: five years after the guidelines",
-      "fetched_at": "2026-08-09",
+      "fetched_at": "2026-09-19T00:00:00Z",
       "appears_in": [
         "SKILL.md Step 8",
         "SKILL_HE.md step 8",
@@ -450,6 +452,129 @@
       "fetched_at": "2026-08-09",
       "appears_in": [
         "SKILL_HE.md reference links"
+      ]
+    },
+    {
+      "claim_id": "red-label-exemptions-reg6",
+      "claim": "Red-label exemptions under regulation 6(a) include dietary supplements, infant formula, special-purpose food, single-ingredient food, spice mixes, alcoholic drinks, reduced-sodium salt substitutes, vegetable oils and olive oil; palm and coconut oil are not exempt; packs with a front of 25 cm2 or less.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_734.htm",
+      "raw_snippet": "(1) תוסף תזונה; (2) תרכובת מזון לתינוקות; (3) מזון ייעודי; (4) מזון המורכב מרכיב אחד בלבד",
+      "fetched_at": "2026-09-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "palm-coconut-not-exempt",
+      "claim": "Palm oil and coconut oil are subject to the red label.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_734.htm",
+      "raw_snippet": "הוראות תקנה 5 יחולו על שמן דקל ושמן קוקוס",
+      "fetched_at": "2026-09-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "nutrition-label-exempt-reg3b",
+      "claim": "Spices, coffee, tea, infusion plants, yeast and baking powder are exempt from nutrition labeling.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_734.htm",
+      "raw_snippet": "(2) תבלין; (3) קפה; (4) תה; (5) צמח מיובש להכנת משקה בחליטה; (6) שמרים; (7) אבקת אפייה",
+      "fetched_at": "2026-09-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "allergen-bold-transition-2028",
+      "claim": "Since 1.1.2025 allergens may be emphasised in bold inside the ingredient list; the transition period ends 1.1.2028; the 'may contain' marking is unchanged; fava products carry a G6PD warning.",
+      "source_url": "https://www.gov.il/he/pages/02012025-01",
+      "raw_snippet": "ועד סיום תקופת ההערכות ב-1.1.2028",
+      "fetched_at": "2026-09-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-09-19T00:00:00Z"
+    },
+    {
+      "claim_id": "allergen-fava-g6pd",
+      "claim": "Products containing fava beans must carry the warning that they are not intended for people with G6PD deficiency.",
+      "source_url": "https://www.gov.il/he/pages/02012025-01",
+      "raw_snippet": "מכיל פול – אינו מיועד לסובלים מחוסר באנזים G6PD",
+      "fetched_at": "2026-09-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-09-19T00:00:00Z"
+    },
+    {
+      "claim_id": "folic-acid-400-reproductive-years",
+      "claim": "MoH recommends a 400 microgram folic acid supplement daily throughout the reproductive years.",
+      "source_url": "https://me.health.gov.il/parenting/family-planning/healthy-pregnancy/healthy-lifestyle/folic-acid/",
+      "raw_snippet": "המינון המומלץ הוא כדור של 400 מיקרוגרם מדי יום",
+      "fetched_at": "2026-09-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pregnancy-iodine-vitd-doses",
+      "claim": "MoH pregnancy supplements: iodine 150-250 micrograms from at least a month before conception through breastfeeding; vitamin D 200-400 units.",
+      "source_url": "https://me.health.gov.il/parenting/family-planning/healthy-pregnancy/healthy-lifestyle/supplements/",
+      "raw_snippet": "המינון: 150–250 מיקרוגרם. ויטמין D: מומלץ ליטול במשך ההריון ותקופת ההנקה. המינון: 200–400 יחידות.",
+      "fetched_at": "2026-09-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "overweight-nutrition-counseling-basket",
+      "claim": "People with overweight are entitled to nutrition counseling in the health basket.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A9%D7%9E%D7%A0%D7%94_%D7%95%D7%94%D7%A9%D7%9E%D7%A0%D7%AA_%D7%99%D7%AA%D7%A8",
+      "raw_snippet": "אנשים שסובלים מעודף משקל זכאים לקבל ייעוץ תזונתי במסגרת סל הבריאות",
+      "fetched_at": "2026-09-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "metformin-b12",
+      "claim": "Prolonged metformin use is associated with decreased vitamin B12 levels.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK518983/",
+      "raw_snippet": "Prolonged use of metformin has been associated with decreased vitamin B12 levels",
+      "fetched_at": "2026-09-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "red-label-as-prepared",
+      "claim": "For food requiring preparation, the red label follows the food as ready to eat after preparation per the stated instructions.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_734.htm",
+      "raw_snippet": "לפי מצב הצבירה של המזון כשהוא מוכן לאכילה לאחר הכנתו בהתאם להוראות ההכנה שסומנו",
+      "fetched_at": "2026-09-19T00:00:00Z",
+      "appears_in": [
+        "references/red-green-labels.md"
+      ]
+    },
+    {
+      "claim_id": "tabletop-sweetener-exempt",
+      "claim": "Tabletop sweeteners are exempt from nutrition labeling.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_734.htm",
+      "raw_snippet": "(8) ממתיק שולחני ( Tabletop Sweetener )",
+      "fetched_at": "2026-09-19T00:00:00Z",
+      "appears_in": [
+        "references/red-green-labels.md"
       ]
     }
   ],

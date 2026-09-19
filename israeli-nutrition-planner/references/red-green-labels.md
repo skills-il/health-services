@@ -29,7 +29,7 @@ Phase 3 in the regulation.
 - Contains the nutrient name (sodium, sugar, or saturated fat)
 - A product can have 0, 1, 2, or 3 red labels
 - Required for all packaged food products sold in Israel
-- Exemption: packages with front area smaller than 25 cm2
+- Exemption: packages with a front area of 25 cm2 or less
 
 ## Green Labels (Voluntary, and NOT frozen)
 
@@ -92,15 +92,17 @@ Current criteria page (HE): https://efsharibari.health.gov.il/eat-healthy/buy-he
 - Commercial sauces and dressings (sodium)
 - Frozen prepared meals (sodium)
 
-## Full Exemption List (no red label even if over threshold)
+## Full Exemption List
 
-- Fresh produce (unpackaged fruits and vegetables)
-- Fresh meat, fresh fish, fresh eggs sold raw and single-ingredient
-- Restaurant and prepared foods bought at food-service establishments
-- Multipacks, and packages whose front area is smaller than 25 cm2
-- Specific exempted single-ingredient products: tea, coffee, yeast, food extracts
+Source: תקנות בריאות הציבור (מזון) (סימון תזונתי), nevo.co.il/law_html/law01/501_734.htm.
 
-Exempt products must still show the standard nutrition facts panel on the back of the pack.
+Outside the rules entirely: food that is not pre-packed (fresh produce, loose meat, fish, eggs) and food served in restaurants.
+
+Exempt from ALL nutrition labeling (reg. 3(b)): spices, coffee, tea, dried plants for infusion, yeast, baking powder, among others.
+
+Exempt from the red label only (reg. 6(a)): dietary supplements; infant formula; special-purpose food; single-ingredient foods; spice mixes; alcoholic drinks; salt and salt substitutes with reduced sodium; vegetable oils meeting SI 216 and olive oil (palm and coconut oil are NOT exempt, reg. 6(b)); toddler formula; packs with a front of 25 cm2 or less (reg. 6(c)).
+
+Multipacks (reg. 3(c)): only the inner units are exempt; the outer pack must be labeled.
 
 ## Hebrew Label Vocabulary for Allergen Scanning
 
@@ -125,3 +127,9 @@ Exempt products must still show the standard nutrition facts panel on the back o
 Ingredients are listed in descending order by weight, so the first item is the largest
 component. A precautionary "עלול להכיל" line flags possible cross-contact; its absence is
 not proof that a product is free of an allergen.
+
+## Prepared foods and sweeteners
+
+- **As sold vs as prepared:** for food that must be prepared before eating (powders, concentrates), the red label is judged on the food as it is ready to eat after preparation per the printed instructions. If the instructions offer several options and any one of them triggers a red label, the product carries it.
+- **Tabletop sweeteners** are exempt from nutrition labeling altogether. For other products containing non-nutritive sweeteners, do not state a marking rule without checking the current regulation text.
+

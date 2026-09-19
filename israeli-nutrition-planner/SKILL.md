@@ -18,6 +18,11 @@ license: MIT
 
 # Israeli Nutrition Planner
 
+## Legal notice
+
+This is a free information tool operated by an AI model. It builds general healthy-eating menus based on the Ministry of Health Nutritional Rainbow and explains Israeli food labels, kashrut and holiday constraints, and HMO dietitian entitlements. All of its output is produced automatically, with no involvement, review or approval by a registered dietitian or a physician, and an AI model may err, omit information or present a wrong conclusion. **It is not a therapeutic nutrition plan, not dietary treatment and not medical advice.** It is general healthy-eating information only. It does not examine you, does not read blood tests or medical records, does not know all of your conditions or medications, and does not set calorie, weight or nutrient targets. Do not use it to treat or manage a disease, to replace a diet set by your dietitian or doctor, to start or stop a supplement or medication, or to decide that a food is safe for a particular medical condition. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person, and all use of its output is the user's sole responsibility.
+
+
 ## Problem
 
 Planning balanced meals in Israel means navigating the Ministry of Health's Nutritional Rainbow, reading the front-of-package red and green labels on every product, and working within kosher, halal, and holiday constraints that shape both what goes in a meal and when it can be eaten. Most people either ignore the labels or cannot translate the rainbow's frequency-based recommendations into an actual weekly menu, and default to convenience foods carrying red labels for sugar, sodium, or saturated fat.
@@ -45,7 +50,7 @@ Ask the user about their dietary context before planning:
 | **Diabetes** (any type, including gestational) | Do not set carbohydrate targets or exchange counts. Give the rainbow framework only, and route to the kupat cholim dietitian under the National Diabetes Program (Step 8). |
 | **Kidney disease** | **Withhold the meal plan.** Renal diets restrict protein, potassium, phosphorus and sodium in combinations only a renal dietitian can set, and this skill's defaults (legumes at every meal, dark leafy greens, tahini, salt substitutes) are actively harmful here. Route to the nephrologist and renal dietitian. |
 | **Pregnancy or breastfeeding** | You may plan, but you must apply Step 8.7 (pregnancy food safety) to every menu item, and never set a weight target. |
-| **Celiac** | Plan with the Step 8.6 gluten exclusions, and route to the kupat cholim dietitian, covered for celiac with a doctor referral. |
+| **Celiac** | Plan with the Step 8.6 gluten exclusions, and route to the kupat cholim dietitian, and check the referral rule with the kupa. |
 | **Eating disorder, past or present** | **Stop. Do not plan.** Go to Step 1.5. |
 | **Chronic medication** | Apply Step 8.5 before recommending any supplement or any food in quantity. |
 
@@ -69,7 +74,7 @@ This skill does not set numeric intake targets, and it does not help anyone eat 
 **What to do instead.** Say clearly that this is outside what the skill will do, and that it is raised because these patterns are common and treatable, not as an accusation. Route to:
 
 - their kupat cholim family doctor, who can refer to an eating-disorder service
-- the specialised eating-disorder clinics at Sheba, Ichilov and Soroka, which require a referral
+- a specialised hospital eating-disorder unit, through the kupat cholim doctor
 - ER"N (Emotional First Aid), a free anonymous national support line on 1201, also by online chat, in several languages. ER"N is general emotional first aid, not an eating-disorder clinic and not a substitute for treatment.
 
 If the user is in immediate danger, direct them to emergency services (101) or a hospital emergency room, not to a meal plan. Do not continue to Steps 2 through 9 until the topic has changed to something this skill can safely do, such as explaining what a red label means.
@@ -104,7 +109,7 @@ Since January 2021 (Phase 2), Israeli food products carry mandatory red warning 
 
 **The green label is not frozen.** An independent scientific committee at the Ministry of Health updates the green-label criteria annually. In February 2026 it added a new eligible category, "Prepared Dishes and Salads", covering ready-to-eat legume salads, vegetable- and whole-grain-based dishes, hearty soups, and combined meals whose every ingredient meets the criteria. **Before telling a user that a food is or is not green-label eligible, check the current criteria on the Ministry page.** The red thresholds are stable, the green criteria are not.
 
-**Exemptions.** Fresh unpackaged produce, single-ingredient raw meat, fish and eggs, restaurant and food-service meals, multipacks, packages with a front area under 25 cm2, and specific products such as tea, coffee, yeast and food extracts carry no red label even above threshold. They must still show the standard nutrition panel on the back. The full list is in `references/red-green-labels.md`.
+**Exemptions.** Unpackaged food and restaurant meals are outside the rules. Among pre-packed foods, the red label does not apply to, among others, dietary supplements, infant formula, single-ingredient foods, spice mixes, alcoholic drinks, vegetable and olive oils (palm and coconut oil DO get it), and packs with a front of 25 cm2 or less. Tea, coffee and yeast are exempt from nutrition labeling entirely. The full list is in `references/red-green-labels.md`.
 
 **Shopping rule:** prefer zero red labels, and between similar products pick the one with fewer. A green label is a strong daily choice. A red label is not "forbidden", it means the product should not be a daily staple. Phase 2 thresholds (January 2021) are the current red-label standard, and there is no Phase 3 in the regulation.
 
@@ -112,7 +117,7 @@ Since January 2021 (Phase 2), Israeli food products carry mandatory red warning 
 
 Structure the week by rainbow frequency, not by calories. A worked daily template (three meals plus one or two snacks, each mapped to its rainbow bands) and a seven-day protein rotation are in `references/nutritional-rainbow.md`. Load it when building the plan.
 
-The shape to hold on to: vegetables and whole grains at every meal, something from each yellow sub-group daily, fish twice a week, poultry and eggs across the week, and red meat capped at 300g of home-cooked unprocessed meat per week and usually landing on Friday night. In pregnancy, filter every fish choice through Step 8.7 first.
+The shape to hold on to: vegetables and whole grains at every meal, something from each yellow sub-group daily, fish regularly, poultry and eggs across the week, and red meat capped at 300g of home-cooked unprocessed meat per week and usually landing on Friday night. In pregnancy, filter every fish choice through Step 8.7 first.
 
 ### Step 5: Handle Kosher Constraints
 
@@ -120,7 +125,7 @@ For users who keep kosher, every meal is planned as meat (basari), dairy (halavi
 
 **Planning strategies:**
 - Morning meals are naturally dairy-friendly (yogurt, cheese, milk) since no meat was eaten overnight
-- If lunch is meat-based, dinner can be dairy only if there are 6 hours between them
+- If lunch is meat-based, dinner can be dairy only after the household's waiting time has passed
 - Friday night dinner is typically meat; Saturday lunch can be meat (cholent) or dairy, depending on family tradition
 - Pareve meals (legume-based, fish, egg-based) give maximum flexibility and avoid timing constraints entirely
 
@@ -130,7 +135,7 @@ This is the segment with the largest nutrition-related health gap in the country
 
 The constraints, in short: ask which halal certification the household accepts rather than assuming a kosher hechsher covers it; exclude pork in every form plus cooking wine, alcohol-containing sauces and vanilla extract; check gelatin in yogurts and desserts and rennet in cheese for animal source; and note that there is no meat-dairy separation, so combined dishes are open and the menu is wider than a kosher one. Details are in `references/kosher-halal-planning.md`.
 
-**Build on what the kitchen already does well.** Arab-Israeli home cooking is already close to the rainbow: mujaddara, freekeh and burghul, molokhia and other cooked greens, ful and hummus, labneh, olive oil, zaatar, fresh salads, baked and grilled fish and poultry. Anchor the plan in those dishes rather than substituting an unfamiliar menu. The realistic levers are sweetened drinks, portions of white rice and refined bread, frying, and the sodium load of commercial spice mixes and pickles. Offer the plan in Arabic where preferred, and route to the kupat cholim dietitian, which has Arabic-speaking staff in most regions.
+**Build on what the kitchen already does well.** Arab-Israeli home cooking is already close to the rainbow: mujaddara, freekeh and burghul, molokhia and other cooked greens, ful and hummus, labneh, olive oil, zaatar, fresh salads, baked and grilled fish and poultry. Anchor the plan in those dishes rather than substituting an unfamiliar menu. The realistic levers are sweetened drinks, portions of white rice and refined bread, frying, and the sodium load of commercial spice mixes and pickles. Offer the plan in Arabic where preferred, and route to the kupat cholim dietitian, and ask the kupa for an Arabic-speaking dietitian if the user prefers.
 
 ### Step 6: Adapt for Israeli Supermarket Products
 
@@ -140,21 +145,9 @@ Two habits matter more than the list: check front-of-package labels on anything 
 
 ### Step 7: Handle Religious Fasts and Special Days
 
-Israeli nutrition planning runs into religious fasts. On these days hydration and electrolytes matter more than caloric balance.
+Fast-day guidance (Yom Kippur, Ramadan, minor fasts) is in `references/kosher-halal-planning.md` under "Religious fasts"; load it for any fast. The red flag stays here: **diabetics on insulin or sulfonylureas (e.g., glibenclamide, glimepiride) are at high risk of hypoglycemia and should not fast without their kupat cholim doctor's or endocrinologist's plan.** For diabetic, hypertensive, pregnant, or chronically ill users, route to their kupat cholim doctor rather than writing a fast-day meal plan.
 
-| Fast | Duration | Pre-fast meal (seuda mafseket / suhur) | Break-fast | Notes |
-|------|----------|---------------------------------------|-----------|-------|
-| Yom Kippur | ~25 hours, no food or water | Complex carbs (whole grains, legumes), low salt, plenty of water hours before. Taper caffeine 1-2 days prior to avoid withdrawal headaches. | Slow rehydration, light dairy or fruit before a heavier meal. | Pregnant, nursing, ill, children under 9: consult rabbi and doctor. **Diabetics on insulin or sulfonylureas (e.g., glibenclamide, glimepiride) are at high risk of hypoglycemia and should generally not fast without an endocrinologist's plan.** |
-| Ramadan (suhur to iftar) | ~14-16 hours daily, no food or water during daylight | Suhur: oatmeal, eggs, dates, vegetables, plenty of water. | Iftar: dates and water first, then a balanced meal with protein, vegetables, complex carbs. | Avoid heavily salted or fried foods at iftar. **Diabetics on insulin or sulfonylureas should consult kupat cholim before fasting**: international guidance (IDF/DAR) classifies them as high risk and recommends pre-Ramadan medication adjustment and weekly monitoring. |
-| Tisha B'Av, 17 Tammuz, Tzom Gedalia, Asara b'Tevet, Ta'anit Esther | Sunrise to sunset (or full day for Tisha B'Av) | Light meal beforehand, hydrate well | Light food first | Pregnant and nursing women are exempt from minor fasts; check with a rabbi. |
-
-For diabetic, hypertensive, pregnant, or chronically ill users planning to fast, the standard advice is to consult their kupat cholim primary doctor or endocrinologist (covered by sal briut), not to provide a meal plan for the fast.
-
-**Pesach: the week that breaks the rainbow.** For eight days (seven in some practice), chametz removal strips the whole-grain column out of the green band, and for Ashkenazi households kitniyot removal also strips the legume sub-group out of the yellow band, which is the protein backbone of the rainbow. Losing both at once is the biggest structural gap in the Israeli food year.
-
-**Always ask which custom the household follows. Never assume.** Sephardi and Mizrahi communities generally eat kitniyot, so rice, chickpeas, lentils, beans, and peas stay available and the plan barely changes. Ashkenazi communities generally do not.
-
-For an Ashkenazi household, plan the eight days around eggs, fish, poultry, and dairy carrying more of the protein load, spread across the day rather than concentrated in one meal; quinoa where the household's rabbinic authority permits it, so ask; nuts, almonds, seeds, and nut flours in place of legume flours; potato, sweet potato, and matzah meal for starch, with vegetables raised to replace the lost fibre; and a deliberate fibre and fluid plan, because constipation over Pesach is the predictable consequence of losing whole grains and legumes together.
+**Pesach.** Chametz removal takes whole grains out of the green band, and for Ashkenazi households kitniyot removal also takes legumes out of the yellow band. **Always ask which custom the household follows; never assume.** The full Pesach plan (Sephardi vs Ashkenazi, protein, starch, fibre and fluid) is in `references/kosher-halal-planning.md` under "Pesach".
 
 ### Step 8: Connect Users to Kupat Cholim Resources
 
@@ -162,12 +155,12 @@ When users have specific health goals, route them to the appropriate kupat choli
 
 | Need | Where to refer |
 |------|---------------|
-| Weight management, BMI counseling | Kupat cholim dietitian (diyetanit) - included in sal briut for adults with BMI greater than or equal to 30 or a chronic condition. Premium tiers (Clalit Platinum, Maccabi Sheli, Meuhedet Adif, Leumit Gold) add broader dietitian access. |
-| Diabetes prevention or management | National Diabetes Program (Tochnit Sukeret Leumit) - all four HMOs cover **14 dietitian visits per year** for people with diabetes, with a referral from the family doctor. Directly confirmed for Clalit, Maccabi, Leumit, and Meuhedet. No referral needed at Maccabi for diabetes, prediabetes, or gestational diabetes. |
-| Pediatric nutrition | Tipat Halav for children under 6, school nurse for school-age |
-| Eating disorders | Specialized clinics at Sheba, Ichilov, Soroka (referral required). See Step 1.5 before routing. |
-| Pregnancy nutrition | OB-GYN and kupat cholim dietitian (covered without separate referral), folic acid recommended pre-conception and through the first trimester |
-| Weight-loss medication (GLP-1) | Wegovy (semaglutide) is the drug approved in Israel for chronic weight management, and adults buy it privately at high ongoing monthly cost. Since the Health Ministry's letter of April 2024, Ozempic is no longer prescribed off-label for weight loss. **Age-based basket coverage and prices move with every sal briut cycle, so do not quote an age band, a price, or an eligibility count. Send the user to their family doctor, endocrinologist, or the current sal briut listing.** |
+| Weight management | Kupat cholim dietitian (diyetanit): people with overweight are entitled to nutrition counseling in sal briut. Premium tiers (Clalit Platinum, Maccabi Sheli, Meuhedet Adif, Leumit Gold) add broader dietitian access. |
+| Diabetes prevention or management | Kupat cholim dietitian. Clalit states 14 dietitian meetings a year for people with diabetes, with a quarterly copay; at Maccabi the dietitian sets the number of sessions by clinical need, and no referral is needed for diabetes, prediabetes, or gestational diabetes. For Leumit and Meuhedet, tell the user to confirm the count with their kupa rather than quoting one. |
+| Pediatric nutrition | Tipat Halav for babies and young children, school nurse for school-age |
+| Eating disorders | Specialised hospital eating-disorder units, through the kupat cholim doctor. See Step 1.5 before routing. |
+| Pregnancy nutrition | OB-GYN and kupat cholim dietitian (no referral needed at Maccabi for gestational diabetes; otherwise check with the kupa), MoH recommends 400 mcg folic acid daily throughout the reproductive years and through pregnancy, iodine 150-250 mcg from a month before conception through breastfeeding, and vitamin D 200-400 IU in pregnancy (thyroid patients ask their doctor before iodine) |
+| Weight-loss medication (GLP-1) | Wegovy (semaglutide) is the drug approved in Israel for chronic weight management, and whether an adult gets it through the sal briut, the kupa's supplementary insurance, or private purchase depends on the current cycle and the kupa's criteria, so send them to their kupa to check. Since the Health Ministry's letter of April 2024, Ozempic is no longer prescribed off-label for weight loss. **Age-based basket coverage and prices move with every sal briut cycle, so do not quote an age band, a price, or an eligibility count. Send the user to their family doctor, endocrinologist, or the current sal briut listing.** |
 
 ### Step 8.5: Nutrient Gaps and Supplement Safety
 
@@ -195,6 +188,8 @@ Step 1 collected the allergy list. Teach the user to read the package rather tha
 
 **Reading the ingredient list.** Every packaged food sold in Israel must list all ingredients in descending order by weight, so the first item is the largest component. Additives such as tartrazine and sulphites are named explicitly as well as by functional group.
 
+**Two allergen formats are on shelves until 1.1.2028.** Since 1.1.2025 allergens may be marked in bold inside the ingredient list (EU style); the older separate allergen statement stays legal until the transition ends on 1.1.2028. Check both places. The "עלול להכיל" line is unchanged. Products with fava beans carry a mandatory G6PD warning ("מכיל פול"), which matters for anyone with G6PD deficiency.
+
 **Hebrew label vocabulary.** רכיבים is the ingredient list, מכיל is "contains", and עלול להכיל is the precautionary "may contain". The full Hebrew-to-English allergen glossary, covering milk, egg, gluten-grain, peanut, tree-nut, sesame, soy, fish and the minor allergen names, is in `references/red-green-labels.md`. Give the user the Hebrew words for their own allergens so they can scan a package themselves.
 
 **The precautionary line is not a guarantee.** "עלול להכיל" flags possible cross-contact, but its absence does not prove a product is allergen-free: lines change and importers relabel. For a severe or anaphylactic allergy, have the user confirm with the manufacturer's consumer line and work with their allergist. A generated menu is never the last check.
@@ -203,7 +198,7 @@ Step 1 collected the allergy list. Teach the user to read the package rather tha
 
 ### Step 8.7: Pregnancy Food Safety
 
-If the user is pregnant, this step overrides menu preferences. Two of this skill's own defaults, brined and soft cheeses and twice-weekly fish, need editing. Per Ministry of Health guidance:
+If the user is pregnant, this step overrides menu preferences. Two of this skill's own defaults, brined and soft cheeses and regular fish, need editing. Per Ministry of Health guidance:
 
 **Avoid for infection risk (listeria, toxoplasma, salmonella):** unpasteurised dairy or dairy of unknown origin; mould-ripened cheeses (brie, camembert, gorgonzola, roquefort); brined cheeses stored in water (feta, tzfatit, bulgarit), which are fine once thoroughly cooked, for example baked into a pashtida; raw or undercooked meat, poultry, fish and eggs, including sushi with raw fish, carpaccio, seafood, runny eggs, home-made mayonnaise, aioli, hollandaise, tiramisu, home-made ice cream and egg-white foams; uncooked smoked fish (lox, smoked salmon, herring, lakerda, ceviche) and creamy fish spreads such as ikra; pate and cold cured meats such as pastrami unless cooked through; soft-serve ice cream; unwashed produce, and hummus spread kept beyond about two days.
 
@@ -258,9 +253,9 @@ User says: "Plan Friday night dinner and Saturday meals, we keep kosher glatt"
 
 Actions:
 1. Friday dinner: meat-based (chicken soup, main, sides)
-2. Saturday lunch: meat (cholent) or dairy, if 6+ hours from the Friday meat meal
+2. Saturday lunch: meat (cholent) or dairy, if the household's waiting time has passed since the Friday meat meal
 3. Seuda shlishit: lighter, dairy or pareve
-4. Mark every meal basari/halavi/pareve and note the waiting times
+4. Mark every meal basari/halavi/pareve and note the household's waiting times
 
 Result: A Shabbat plan with kosher designations.
 
@@ -271,7 +266,7 @@ Result: A Shabbat plan with kosher designations.
 - `references/nutritional-rainbow.md` -- Complete Nutritional Rainbow food groups, frequencies, and portion guidance. Consult when building meal plans or answering questions about Israeli dietary guidelines.
 - `references/red-green-labels.md` -- Red-label thresholds (Phase 1 and Phase 2) plus the green-label rules and the annual-update history. Consult when evaluating food products or answering a green-label question.
 - `references/staples-and-nutrient-gaps.md` -- Israeli supermarket staples by category, and the population nutrient gaps behind the supplement questions. Consult when producing a shopping list or explaining a deficiency.
-- `references/kosher-halal-planning.md` -- Kosher meat-dairy rules and waiting times, and halal constraints. Consult when the household keeps either.
+- `references/kosher-halal-planning.md` -- Kosher meat-dairy rules, halal constraints, religious fasts, and the Pesach plan. Load for kashrut, halal, any fast, or Pesach.
 
 ## Reference Links
 
@@ -295,7 +290,7 @@ Result: A Shabbat plan with kosher designations.
 
 3. **The Nutritional Rainbow is not the food pyramid.** Israel officially replaced the pyramid with the Nutritional Rainbow (Keshet Tazonit). Do not generate content based on the pyramid model. The rainbow organizes by consumption frequency, not by traditional food groups.
 
-4. **Kosher waiting times vary by community.** The 6-hour wait after meat is the most common Israeli practice (Shulchan Aruch), but Yemenite Jews traditionally wait 3 hours. Never state one waiting time as universal. Ask which custom the user follows, or default to 6 hours with a note about variation.
+4. **Kosher waiting times vary by community.** The wait between meat and dairy differs between communities and customs. Never state one waiting time as universal: ask which custom the household follows and plan around it.
 
 5. **Red meat limit is 300g per week of home-cooked meat, excluding processed meat.** Processed meats (naknikiot, pastrami, frozen patties) are "below the rainbow" and should be minimised entirely, not counted toward the 300g.
 
@@ -303,7 +298,7 @@ Result: A Shabbat plan with kosher designations.
 
 8. **Never assume kitniyot on Pesach, and never assume kosher over halal.** Sephardi and Mizrahi households eat kitniyot, Ashkenazi households generally do not, and the difference decides whether the yellow band survives the holiday. Likewise, do not offer a kosher plan to a household that keeps halal. Ask in Step 1.
 
-9. **Wegovy and Ozempic are not interchangeable, and basket details move every cycle.** Wegovy (semaglutide) is the drug approved for chronic weight management in Israel, and adults buy it privately. Since the Health Ministry's April 2024 letter, Ozempic is no longer prescribed off-label for weight loss. Do not quote age bands, prices, or eligibility counts from memory, they change with every basket cycle. GLP-1 users have reduced appetite and early satiety, so plans should emphasise protein and nutrient density per bite rather than volume.
+9. **Wegovy and Ozempic are not interchangeable, and basket details move every cycle.** Wegovy (semaglutide) is the drug approved for chronic weight management in Israel; adult coverage route (basket, supplementary insurance, or private) is for the kupa to confirm. Since the Health Ministry's April 2024 letter, Ozempic is no longer prescribed off-label for weight loss. Do not quote age bands, prices, or eligibility counts from memory, they change with every basket cycle. GLP-1 users have reduced appetite and early satiety, so plans should emphasise protein and nutrient density per bite rather than volume.
 
 ## Troubleshooting
 
@@ -311,7 +306,7 @@ Result: A Shabbat plan with kosher designations.
 Answer: Refuse the number, and do not substitute an estimated range. Explain the rainbow's frequency-based approach, route to a clinical dietitian (diyetanit klinit) via the kupat cholim, and check the request against the Step 1.5 screening list before continuing.
 
 ### FAQ: The user asks for a medical diet (diabetes, renal, celiac)
-Answer: Follow the Step 1 gate. Kidney disease means no plan at all, only a route to the nephrologist and renal dietitian. Diabetes and celiac mean the rainbow framework plus a route to the kupat cholim dietitian, covered by the health basket with a doctor referral.
+Answer: Follow the Step 1 gate. Kidney disease means no plan at all, only a route to the nephrologist and renal dietitian. Diabetes and celiac mean the rainbow framework plus a route to the kupat cholim dietitian, covered by the health basket; referral rules differ by kupa.
 
 ### FAQ: The user confuses Israeli labels with EU Nutri-Score or UK traffic lights
 Answer: Israel uses a binary red/green system, not an A-E scale. Red labels mark excess of specific nutrients, not overall quality, and the green label is a separate voluntary marking with its own eligibility list. Do not map the Israeli system onto European ones.
