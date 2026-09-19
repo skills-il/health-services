@@ -29,7 +29,8 @@
         "Meuhedet's tier ORDER (עדיף then שיא) rests on domain knowledge: the reachable page pairs the two names without ranking them. Cite a ranking page or keep it unasserted.",
         "Checklist B2 originally attributed seven Meuhedet §14.3 line items to Maccabi, a page-adjacency read of the circular PDF. Always read the per-kupah block, never a neighbouring one.",
         "verify-evidence --check-sources cannot catch a claim whose TEXT outruns its snippet, only a snippet absent from the page. Diff claim against snippet by hand.",
-        "Roll-up evidence entries (statutory-copay-table-1-2025, clalit-tariffs-2026, leumit-tariffs-2026, meuhedet-copays, er-clinical-presentations, er-full-exemption-circumstances) bundle many figures behind a single label snippet. Spot-verified accurate this cycle; give each a snippet carrying at least one of its own figures."
+        "Roll-up evidence entries (statutory-copay-table-1-2025, clalit-tariffs-2026, leumit-tariffs-2026, meuhedet-copays, er-clinical-presentations, er-full-exemption-circumstances) bundle many figures behind a single label snippet. Spot-verified accurate this cycle; give each a snippet carrying at least one of its own figures.",
+        "pdftotext emits the circular's internal commas as `הקופה ,המקבל` (space before, none after), so a human-readable snippet will not exact-match an extraction even when it is verbatim in the PDF. Do NOT 'repair' a correct snippet to match a mangled extraction; to get exact-match, reproduce the extractor's spacing, as the two transfer-row snippets do."
       ]
     }
   ]
