@@ -23,7 +23,7 @@ list to shortlist.
 
 ### Foreign caregiver (metapel/et zarim)
 - Live-in arrangement typical
-- Salary (April 2026): minimum 6,443.85 NIS/month gross for 24/6 (257.75 NIS/day, 35.40 NIS/hour). On top of the gross salary budget for social benefits, pension and severance reserves, plus the full-post top-up below
+- Salary (April 2026, per the caregiver rights guide at mate-siudi.org, a secondary source): minimum 6,443.85 NIS/month gross for 24/6 (257.75 NIS/day, 35.40 NIS/hour). On top of the gross salary budget for social benefits, pension and severance reserves, plus the full-post top-up below
 - Room and board provided in kind (not in cash)
 - Requires work permit (heter ha'asaka) from the Population and Immigration Authority (PIBA)
 - Gimlat siud hours reduced at Levels 3-6 when employing a foreign worker (see Level table)
@@ -52,7 +52,8 @@ list to shortlist.
 - Option to receive additional care services as needs increase
 
 ### Financial model
-- Large upfront deposit (400K-1.8M NIS) -- partially or fully refundable
+- Large upfront deposit, partially or fully refundable. No sourced range is given here: ask each
+  facility for the deposit, the refund schedule (how much erodes per year) and the refund trigger
 - Monthly management fee, charged on top of the deposit
 - Central Israel more expensive than periphery
 - Some operate on rental model without deposit
@@ -105,8 +106,8 @@ list to shortlist.
 |---------|---------|
 | Bituach Leumi long-term care | *6050 |
 | Ministry of Health elder services | *5400 |
-| Eshel (JDC-Israel elder care) | 02-655-7400 |
+| Eshel (JDC-Israel elder care) | via its website |
 | Yad Sarah (equipment lending + emergency button) | *6444 or 02-6444444 |
-| Ezer Mizion (volunteer medical transport) | 1-800-25-25-95 |
+| Ezer Mizion (volunteer medical transport) | via its website |
 | Holocaust Survivors' Rights Authority | *5105 |
 | Local social services | Through municipal website |

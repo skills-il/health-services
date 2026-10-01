@@ -4,17 +4,17 @@
 
 ### Retirement Age (2026)
 - Men: 67
-- Women: 63 in 2026 (for women born 1962). Phases up by birth year: 63y 3m (born 1963), 63y 6m (1964), 63y 9m (1965), 64 (1966), 64y 3m (1967), 64y 6m (1968), 64y 9m (1969), 65 (1970+).
+- Women, by birth date (BTL table): 63 for women born 1962 (all of them are already past it). A woman born 1963 is not at retirement age on her 63rd birthday. Phases up by birth year: 63y 3m (born 1963), 63y 6m (1964), 63y 9m (1965), 64 (1966), 64y 3m (1967), 64y 6m (1968), 64y 9m (1969), 65 (1970+).
 
 ### Monthly Amounts (January 2026)
 - Basic individual pension (up to 80): 1,838 NIS
 - Individual pension age 80+: 1,941 NIS (includes 103 NIS age supplement)
 - Couple base (one earner): 2,762 NIS
-- Couple, both aged 80+: 2,865 NIS
+- Couple where the pension claimant is 80+: 2,865 NIS
 - Spouse supplement: 924 NIS
 - Child supplement: 581 NIS (first 2 children only)
 - Seniority supplement (vatik): 2% per insured year, paid for up to 25 years, max 50% of the basic pension
-- Health insurance deduction: -237 NIS (individual), -340 NIS (couple)
+- Health insurance deduction: -237 NIS (individual), -340 NIS (couple), -123 NIS for a recipient of income supplement (individual or couple)
 
 ### Income Supplement Eligibility (2026)
 Ceilings are per income type, not one combined household figure:
@@ -69,21 +69,21 @@ Asset gates: savings, deposits or provident funds up to 41,528 NIS for an indivi
 |-------|-----------|-------------|---------------------|---------------------|-------------------|---------------------|
 | 1 | 2.5-3 | 5.5 | 5.5 | 2.75 (or 4.5 non-personal-care units) | see Level 1 election | Needs help with 1-2 ADL areas |
 | 2 | 3.5-4.5 | 10 | 10 | 5 | 4 | Needs help with 3-4 ADL areas |
-| 3 | 5-6 | 17 | 14 | half | 4, or 6 with social worker approval (1,488 NIS) | Needs help with most ADL areas |
-| 4 | 6.5-7.5 | 21 | 18 | half | 4, or 7 with social worker approval (1,736 NIS) | Needs help with nearly all ADL areas |
-| 5 | 8-9 | 26 | 22 | half | 4, or 9 with social worker approval (2,232 NIS) | Dependent in most ADL areas |
-| 6 | 9.5-10.5 | 30 | 26 | 15 (13 with foreign worker) | 4, or 10 with social worker approval (2,480 NIS) | Fully dependent in all ADL areas |
+| 3 | 5-6 | 17 | 14 | half | 4, or 6 with social worker approval (1,490 NIS) | Needs help with most ADL areas |
+| 4 | 6.5-7.5 | 21 | 18 | half | 4, or 7 with social worker approval (1,739 NIS) | Needs help with nearly all ADL areas |
+| 5 | 8-9 | 26 | 22 | half | 4, or 9 with social worker approval (2,236 NIS) | Dependent in most ADL areas |
+| 6 | 9.5-10.5 | 30 | 26 | 15 (13 with foreign worker) | 4, or 10 with social worker approval (2,484 NIS) | Fully dependent in all ADL areas |
 
 Every hours figure above is read from the official per-level pages at
 `btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/level1.aspx` through `level6.aspx`.
-Four weekly hours converted to cash is 992 NIS at levels 2-6.
+Four weekly hours converted to cash is 994 NIS at levels 2-6 (from 01.08.2026; BTL's printed figure, not 4 x 248, so quote the page).
 
 ### Level 1 election (unique to level 1)
 Level 1 is a choice between four packages, changeable at any time:
 1. 5.5 weekly hours of personal home care.
 2. Services worth 9 service units that exclude personal home care (day centre, supportive community, absorbent products, panic button, laundry).
-3. The whole benefit as cash: 1,705 NIS/month.
-4. A mix of cash and services worth 5.5 units (e.g. 3.5 care hours + 620 NIS/month).
+3. The whole benefit as cash: 1,708 NIS/month (from 01.08.2026).
+4. A mix of cash and services worth 5.5 units (e.g. 3.5 care hours + 621 NIS/month).
 
 Anyone receiving the benefit before 01.11.2018 may keep the old 9 hours 45 minutes per week.
 
@@ -106,18 +106,18 @@ since 01.04.2018). Budget for this on top of the caregiver cost figures.
 - Supportive community (kehila tomechet)
 
 ### Cash Benefit Option (Kitzva b'Kesef)
-Recipients can take part or all of the benefit as monthly cash. Max amounts from 01.04.2026:
+Recipients can take part or all of the benefit as monthly cash. Max amounts from 01.08.2026:
 
 | Level | Foreign Worker | Israeli Worker |
 |-------|----------------|----------------|
-| 1 | 1,705 NIS | 1,705 NIS |
-| 2 | 2,480 NIS | 2,480 NIS |
-| 3 | 3,472 NIS | 4,216 NIS |
-| 4 | 4,464 NIS | 5,208 NIS |
-| 5 | 5,456 NIS | 6,448 NIS |
-| 6 | 6,448 NIS | 7,440 NIS |
+| 1 | 1,708 NIS | 1,708 NIS |
+| 2 | 2,484 NIS | 2,484 NIS |
+| 3 | 3,478 NIS | 4,223 NIS |
+| 4 | 4,471 NIS | 5,217 NIS |
+| 5 | 5,465 NIS | 6,458 NIS |
+| 6 | 6,458 NIS | 7,452 NIS |
 
-Hour-to-cash conversion (April 2026): Level 1 = 310 NIS/hour; Levels 2-6 = 248 NIS/hour.
+Hour-to-cash conversion (from 01.08.2026): Level 1 = 311 NIS/hour; Levels 2-6 = 248 NIS/hour.
 
 Full cash requires documented full-time caregiver (12+ hours/day, 6 days/week, non-family, written contract).
 
@@ -133,13 +133,16 @@ claim. Thresholds depend on the month the claim is FILED. Couples get the full b
 | March 2026 | up to 13,618 | 13,618-20,427 | above 20,427 | up to 20,427 | 20,427-30,641 | above 30,641 | 6,809 / 6,809-10,214 |
 | April-December 2026 | up to 13,769 | 13,769-20,654 | above 20,654 | up to 20,654 | 20,654-30,980 | above 30,980 | 6,885 / 6,885-10,327 |
 
-All amounts in NIS per month. The reduced rate pays half the service units at every level,
-or 829 NIS at Level 1 and 3,618 NIS at Level 6 if taken as cash.
+All amounts in NIS per month. The reduced rate pays half the benefit in every option the recipient chooses (half the
+service units, or half the level's cash amount). Do not quote a fixed shekel figure for it.
 
-**Income NOT counted:** private siudi insurance payouts, mobility allowance, attendance
-allowance (shirutim meyuchadim), child allowances, disabled-child allowance, work-injury
+**Income NOT counted:** private siudi insurance payouts, mobility allowance, child allowances, disabled-child allowance, work-injury
 payments, and every Holocaust survivor payment (Finance Ministry rente, Claims Conference
 Article 2, ZRBG, French and Dutch pensions).
+
+**Attendance allowance is not an income item but a choice:** a claimant who receives the
+attendance allowance (shirutim meyuchadim) must choose between it and gimlat siud. See
+`references/more-entitlements.md`.
 
 **Expenses deducted from income:** court-ordered alimony; rent paid (including in diur
 mugan) up to the amount of rent received; the cost of maintaining a spouse, parent or child
@@ -163,8 +166,10 @@ declaration was filed on a previous claim less than a year ago.
 - Phone: *6050 or local Bituach Leumi branch
 - Service basket choices and the cash election: *2637 (Sun-Thu 08:00-17:00)
 - Exceptional full-cash request where home personal care is impossible: *2637 with medical documents
-- Assessor visits home to evaluate functional level
-- Decision typically within 30-60 days
+- Assisted phone filing: *9696 (BL senior-citizen volunteers); in hospital, file through the
+  hospital social worker. The assessment is made mainly from the medical documents sent, with a
+  phone call from the assessor; a home visit happens on request. See `more-entitlements.md`
+- BTL publishes no standard decision time; do not promise one
 
 ## Private Nursing Care Insurance (Bituach Siudi)
 
@@ -172,7 +177,8 @@ declaration was filed on a previous claim less than a year ago.
 - Purchased through kupot cholim. Standalone individual policies are effectively unavailable:
   most insurers stopped marketing them in 2019.
 - No statutory age cap, but enrolling by age 49 guarantees max benefits
-- Premiums rise sharply with age; above 70 the premium often exceeds expected benefit
+- Premiums rise sharply with age. In general experience (no published comparison), joining in
+  the 70s often costs more than the expected 5-year benefit; compare before buying
 - Since December 2023: new joiners only get the basic tier; expanded tier frozen until January 2028
 - Free for minors under 18
 - Can switch kupot cholim without underwriting or waiting period

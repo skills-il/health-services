@@ -1,90 +1,115 @@
 {
-  "skill": "israeli-elder-care-navigator",
-  "lessons": [
-    {
-      "date": "2026-08-01",
-      "version": "1.4.0",
-      "lesson": "The gimlat siud income test shipped for three versions with no NIS figure anywhere in the skill, so the test could not be executed at all. The official test is four filing-month tables x three bands x three family statuses. Reproduce multi-row rate tables in full; a qualitative description of a numeric test is not a rate table.",
-      "tag": "COVERAGE-GAP"
-    },
-    {
-      "date": "2026-08-01",
-      "version": "1.4.0",
-      "lesson": "The couple band was wrong in the user's disfavour: couples get the FULL benefit up to 1.5x the individual threshold and the reduced rate up to 2.25x, not one shared household ceiling. When a rule has a couple variant, read the couple row rather than generalising from the individual row.",
-      "tag": "BUG"
-    },
-    {
-      "date": "2026-08-01",
-      "version": "1.4.0",
-      "lesson": "btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/default.aspx renders levels 1-6 client-side and the string for hours never appears in the served HTML. The per-level pages level1.aspx through level6.aspx ARE server-rendered and readable with plain curl. When a hub page is JS-rendered, look for per-item pages before reaching for a browser.",
-      "tag": "SOURCE"
-    },
-    {
-      "date": "2026-08-01",
-      "version": "1.4.0",
-      "lesson": "Percent-encoded Hebrew kolzchut URLs in the skill body generated 14 phantom percentage claims in the evidence gate (%D7 read as a percentage). Keep literal Hebrew URLs in the body; keep encoded forms in evidence.json, which the gate skips.",
-      "tag": "GATE"
-    },
-    {
-      "date": "2026-08-01",
-      "version": "1.4.0",
-      "lesson": "The evidence gate matches per locale: a Hebrew claim of an amount followed by shekel does not match a raw_snippet that writes the same number followed by NIS. Write the claim field in English with NIS and the raw_snippet in the source's Hebrew, so both forms are present across the entry.",
-      "tag": "GATE"
-    },
-    {
-      "date": "2026-08-01",
-      "version": "1.4.0",
-      "lesson": "An earlier draft of this review asserted that 26 hours is the base at level 6 and 30 is base plus the Israeli-caregiver supplement, taken from a secondary source's historical framing. The official BTL level pages present 30 as the headline and 26 as the foreign-worker variant, which is how the skill already had it. Read the primary source before inverting a table's semantics.",
-      "tag": "SELF-CORRECTION"
-    },
-    "CORRECTION to the v1.4.0 commit message: it states the hours-table columns were inverted and fixed. They were not. Phase 3 raised the inversion from Kol-Zchut's historical framing; the official BTL per-level pages present 30 as the headline and 26 as the foreign-worker variant, which is how the skill already had it. The table orientation was NOT changed. What WAS added to that table: the 50%-reduced row, the level 1 election, day-centre conversion, and the cash-conversion cap column. Levels 1-6 are now each read from a server-rendered levelN.aspx text layer with its own evidence entry, so nothing is inferred."
-  ],
-  "persistent_fail": [],
-  "deferred": [
-    {
-      "date": "2026-08-01",
-      "item": "Attendance allowance (kitzvat shirutim meyuchadim) has zero mentions in the skill. It carries a hard deadline: someone who became dependent before retirement age must claim within 6 months of retirement age or lose the entitlement permanently. 2026 rates: 50% 1,943 NIS, 112% 4,501, 188% 7,181, 235% 9,126, ventilator supplement 10,774, two-caregiver supplement 7,182. Not counted as income in the siud means test. Source: kolzchut.org.il/he/kitzvat shirutim meyuchadim, official btl.gov.il/benefits/Attendance_Allowance.",
-      "reason": "Out of scope for the 1.4.0 correctness pass. Highest-priority addition for 1.5.0."
-    },
-    {
-      "date": "2026-08-01",
-      "item": "Long-term care help for Holocaust survivors: a permanent supplement of 9 weekly care hours on top of the BL benefit, via the Holocaust Survivors' Rights Authority, the Claims Conference and the Fund for the Welfare of Holocaust Victims, convertible to cash in defined cases. Home only: not available in a nursing institution, beit avot, or a diur mugan nursing or frail ward. Step 6d currently screens only for cash funds.",
-      "reason": "Deferred to 1.5.0 with the attendance allowance."
-    },
-    {
-      "date": "2026-08-01",
-      "item": "Supported decision-making (tomech hachlatot), the third and less restrictive status between an enduring POA and guardianship, from the 2016 amendment to the Legal Capacity and Guardianship Law. Also the expression-of-wishes document. Step 6 currently presents a binary, which pushes families with mild-dementia parents toward disproportionate guardianship.",
-      "reason": "Deferred to 1.5.0."
-    },
-    {
-      "date": "2026-08-01",
-      "item": "The description's routing note excludes 'general Bituach Leumi benefits'. That exclusion is what let the attendance allowance and the hospitalisation rules fall through: they are elder-care mechanics, not general BL topics. Narrow the note when the deferred items land.",
-      "reason": "Scope change, not a correctness fix."
-    },
-    {
-      "date": "2026-08-01",
-      "item": "Nursing home and diur mugan cost ranges (15,000-30,000, 18,000-35,000, deposits 400K-1.8M) are unsourced market estimates carried since 1.0.0. They are labelled as approximate ranges but have no evidence entry. Either source them to a published survey or convert them to a qualitative statement.",
-      "reason": "Not a correctness defect this cycle; flagged so it is not forgotten."
-    },
-    {
-      "date": "2026-08-01",
-      "item": "The 'switch kupot freely, no underwriting, no waiting period, no loss of rights' claim carries a Clalit-specific caveat flagged as of 2024 on the source page. Verify and qualify.",
-      "reason": "Needs a source read before the qualification can be written accurately."
-    }
-  ],
-  "cycles": [
-    {
-      "version": "1.5.0",
-      "date": "2026-08-19",
-      "lessons": [
-        "Fixed: the skill named the institutional co-payment as means-tested on the elder, spouse and every adult child, and gave no scale at all, while references/domain-checklist.md asserted 'covered, Step 5'. A checklist row may not claim coverage for one narrative sentence. Encoded the MoH 08/2018 credit-point charging table in references/institutional-copayment.md.",
-        "Two figures deliberately NOT written: demei kis has no MoH-published shekel amount (defined only by reference to the BL benefit-splitting regulations), and there is no national institutional tariff (per-institution under each MoH agreement). Both are now explicit 'Out of scope (explicit)' checklist rows so a later cycle does not invent them.",
-        "Expert-inline finding applied: the patient's home is not shielded. Rent is charged as co-payment, and for an ariri or publicly-guarded patient a charge for six months' cost is registered at the Land Registry (s.2.2.5). A family assuming the apartment is untouchable decides on a false premise.",
-        "Added: old-age deferral increment (5%/yr, retirement-age-to-eligibility-age window only) and the income-supplement guaranteed-amount table by household composition x three age bands.",
-        "Body was at 4,877/5,000 words at HEAD, so every addition had to be paid for by a trim. Future cycles on this skill must budget references/ first: the body has no headroom left.",
-        "38 pre-existing kolzchut citations are curl-403 (bot-blocked) and were recorded via --allow-unreachable. Two were opened in Playwright and render correctly, so they are alive, but they were not individually re-verified this cycle.",
-        "persistent_fail carried: circular 08/2018 was last updated 17.04.2023; re-check for a successor each cycle. Confirmed operative as of the MoH service page's 31.03.2026 update."
-      ]
-    }
-  ]
+ "skill": "israeli-elder-care-navigator",
+ "lessons": [
+  {
+   "date": "2026-08-01",
+   "version": "1.4.0",
+   "lesson": "The gimlat siud income test shipped for three versions with no NIS figure anywhere in the skill, so the test could not be executed at all. The official test is four filing-month tables x three bands x three family statuses. Reproduce multi-row rate tables in full; a qualitative description of a numeric test is not a rate table.",
+   "tag": "COVERAGE-GAP"
+  },
+  {
+   "date": "2026-08-01",
+   "version": "1.4.0",
+   "lesson": "The couple band was wrong in the user's disfavour: couples get the FULL benefit up to 1.5x the individual threshold and the reduced rate up to 2.25x, not one shared household ceiling. When a rule has a couple variant, read the couple row rather than generalising from the individual row.",
+   "tag": "BUG"
+  },
+  {
+   "date": "2026-08-01",
+   "version": "1.4.0",
+   "lesson": "btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/default.aspx renders levels 1-6 client-side and the string for hours never appears in the served HTML. The per-level pages level1.aspx through level6.aspx ARE server-rendered and readable with plain curl. When a hub page is JS-rendered, look for per-item pages before reaching for a browser.",
+   "tag": "SOURCE"
+  },
+  {
+   "date": "2026-08-01",
+   "version": "1.4.0",
+   "lesson": "Percent-encoded Hebrew kolzchut URLs in the skill body generated 14 phantom percentage claims in the evidence gate (%D7 read as a percentage). Keep literal Hebrew URLs in the body; keep encoded forms in evidence.json, which the gate skips.",
+   "tag": "GATE"
+  },
+  {
+   "date": "2026-08-01",
+   "version": "1.4.0",
+   "lesson": "The evidence gate matches per locale: a Hebrew claim of an amount followed by shekel does not match a raw_snippet that writes the same number followed by NIS. Write the claim field in English with NIS and the raw_snippet in the source's Hebrew, so both forms are present across the entry.",
+   "tag": "GATE"
+  },
+  {
+   "date": "2026-08-01",
+   "version": "1.4.0",
+   "lesson": "An earlier draft of this review asserted that 26 hours is the base at level 6 and 30 is base plus the Israeli-caregiver supplement, taken from a secondary source's historical framing. The official BTL level pages present 30 as the headline and 26 as the foreign-worker variant, which is how the skill already had it. Read the primary source before inverting a table's semantics.",
+   "tag": "SELF-CORRECTION"
+  },
+  "CORRECTION to the v1.4.0 commit message: it states the hours-table columns were inverted and fixed. They were not. Phase 3 raised the inversion from Kol-Zchut's historical framing; the official BTL per-level pages present 30 as the headline and 26 as the foreign-worker variant, which is how the skill already had it. The table orientation was NOT changed. What WAS added to that table: the 50%-reduced row, the level 1 election, day-centre conversion, and the cash-conversion cap column. Levels 1-6 are now each read from a server-rendered levelN.aspx text layer with its own evidence entry, so nothing is inferred."
+ ],
+ "persistent_fail": [],
+ "deferred": [
+  {
+   "date": "2026-08-01",
+   "item": "Attendance allowance (kitzvat shirutim meyuchadim) has zero mentions in the skill. It carries a hard deadline: someone who became dependent before retirement age must claim within 6 months of retirement age or lose the entitlement permanently. 2026 rates: 50% 1,943 NIS, 112% 4,501, 188% 7,181, 235% 9,126, ventilator supplement 10,774, two-caregiver supplement 7,182. Not counted as income in the siud means test. Source: kolzchut.org.il/he/kitzvat shirutim meyuchadim, official btl.gov.il/benefits/Attendance_Allowance.",
+   "reason": "Out of scope for the 1.4.0 correctness pass. Highest-priority addition for 1.5.0."
+  },
+  {
+   "date": "2026-08-01",
+   "item": "Long-term care help for Holocaust survivors: a permanent supplement of 9 weekly care hours on top of the BL benefit, via the Holocaust Survivors' Rights Authority, the Claims Conference and the Fund for the Welfare of Holocaust Victims, convertible to cash in defined cases. Home only: not available in a nursing institution, beit avot, or a diur mugan nursing or frail ward. Step 6d currently screens only for cash funds.",
+   "reason": "Deferred to 1.5.0 with the attendance allowance."
+  },
+  {
+   "date": "2026-08-01",
+   "item": "Supported decision-making (tomech hachlatot), the third and less restrictive status between an enduring POA and guardianship, from the 2016 amendment to the Legal Capacity and Guardianship Law. Also the expression-of-wishes document. Step 6 currently presents a binary, which pushes families with mild-dementia parents toward disproportionate guardianship.",
+   "reason": "Deferred to 1.5.0."
+  },
+  {
+   "date": "2026-08-01",
+   "item": "The description's routing note excludes 'general Bituach Leumi benefits'. That exclusion is what let the attendance allowance and the hospitalisation rules fall through: they are elder-care mechanics, not general BL topics. Narrow the note when the deferred items land.",
+   "reason": "Scope change, not a correctness fix."
+  },
+  {
+   "date": "2026-08-01",
+   "item": "Nursing home and diur mugan cost ranges (15,000-30,000, 18,000-35,000, deposits 400K-1.8M) are unsourced market estimates carried since 1.0.0. They are labelled as approximate ranges but have no evidence entry. Either source them to a published survey or convert them to a qualitative statement.",
+   "reason": "Not a correctness defect this cycle; flagged so it is not forgotten."
+  },
+  {
+   "date": "2026-08-01",
+   "item": "The 'switch kupot freely, no underwriting, no waiting period, no loss of rights' claim carries a Clalit-specific caveat flagged as of 2024 on the source page. Verify and qualify.",
+   "reason": "Needs a source read before the qualification can be written accurately."
+  }
+ ],
+ "cycles": [
+  {
+   "version": "1.5.0",
+   "date": "2026-08-19",
+   "lessons": [
+    "Fixed: the skill named the institutional co-payment as means-tested on the elder, spouse and every adult child, and gave no scale at all, while references/domain-checklist.md asserted 'covered, Step 5'. A checklist row may not claim coverage for one narrative sentence. Encoded the MoH 08/2018 credit-point charging table in references/institutional-copayment.md.",
+    "Two figures deliberately NOT written: demei kis has no MoH-published shekel amount (defined only by reference to the BL benefit-splitting regulations), and there is no national institutional tariff (per-institution under each MoH agreement). Both are now explicit 'Out of scope (explicit)' checklist rows so a later cycle does not invent them.",
+    "Expert-inline finding applied: the patient's home is not shielded. Rent is charged as co-payment, and for an ariri or publicly-guarded patient a charge for six months' cost is registered at the Land Registry (s.2.2.5). A family assuming the apartment is untouchable decides on a false premise.",
+    "Added: old-age deferral increment (5%/yr, retirement-age-to-eligibility-age window only) and the income-supplement guaranteed-amount table by household composition x three age bands.",
+    "Body was at 4,877/5,000 words at HEAD, so every addition had to be paid for by a trim. Future cycles on this skill must budget references/ first: the body has no headroom left.",
+    "38 pre-existing kolzchut citations are curl-403 (bot-blocked) and were recorded via --allow-unreachable. Two were opened in Playwright and render correctly, so they are alive, but they were not individually re-verified this cycle.",
+    "persistent_fail carried: circular 08/2018 was last updated 17.04.2023; re-check for a successor each cycle. Confirmed operative as of the MoH service page's 31.03.2026 update."
+   ]
+  },
+  {
+   "version": "1.6.0",
+   "date": "2026-10-02",
+   "holdout_before": 1.0,
+   "holdout_after": 1.0,
+   "buckets": {
+    "improved": [],
+    "regressed": [],
+    "persistent_fail": [],
+    "stable_success": [
+     "q2",
+     "q8",
+     "q10"
+    ]
+   },
+   "lessons": [
+    "Three review rounds. r1 expert found 6 criticals (women's retirement age by birth date; rehab; trom siud; complex-nursing kupa route; Holocaust 2,000 NIS is an income excess plus the missing 1.5-2 point band; co-payment divisor is the s.3.2 person scale, not a head count). All repaired.",
+    "Repairs reintroduced defects twice: the order-of-sources repair implied savings are drained (circular s.2.3 protects 100 / 350 / 700 credit points), and the v1.5.0 'home is not shielded' rule was wrong (s.2.2.1 excludes a home a spouse or dependant lives in; s.2.2.5 and s.2.9 liens are only for ariri or public-guardian cases). Read the conditions of every circular rule, not only its effect.",
+    "Expert MAJOR deferred: M1 disability-pension guarantee at retirement age (tosefet hashlama lenechut, 123 NIS deduction). Needs the BTL transition page read.",
+    "Deferred: attendance allowance kept 90 days in hospital vs 30 for gimlat siud (not found on pages read); income supplement deducts occupational-pension excess in full, not at 60%; s.3.6.1.4 recalculation when one of two institutionalised parents leaves.",
+    "Legal r1 optional remedy not applied: 'להכין ייפוי כוח' in the HE description and display_description. Changing it needs a description eval; do it next cycle.",
+    "Body sits at 4,999/5,000 words. Any addition next cycle must move content to references first.",
+    "Legacy evidence carried BTL footer boilerplate as snippets for 13 entries; the round-2 judge caught them. Re-slice old snippets when a cycle touches a skill."
+   ]
+  }
+ ]
 }
