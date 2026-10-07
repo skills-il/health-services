@@ -45,7 +45,8 @@
         "Expert MINOR deferred: kupah detail (Clalit chronic cap of 12 physiotherapy treatments per diagnosis per year, Maccabi first-assessment line).",
         "Coverage-audit MAJORs deferred over the batch cap: hypertension exercise prescription (aerobic emphasis), BP-medication effects (beta-blockers and heart-rate targets, diuretics and heat), operational resting-BP thresholds before a session. Each needs a fetchable primary source (ACSM/ESH).",
         "Carried from 1.2.0, still open: female-athlete programming (S9), fasting days (S6), miluim ramp (S7), dated fitness-test goal (S8), air quality and extreme-heat regions (S10), bodyweight series (S4), orphan rotation label advance logic.",
-        "Body is at about 4,970 words of the 5,000 cap in both files. Next cycle must move content (e.g. the gym paperwork paragraph or Mode B) to references before adding anything."
+        "Body is at about 4,970 words of the 5,000 cap in both files. Next cycle must move content (e.g. the gym paperwork paragraph or Mode B) to references before adding anything.",
+        "INTENDED DIRECTION (lead decision 2026-10-07, deferred to next cycle): merge vs replace in analyze_log.py should be decided ONLY by explicit fields (\"supersedes\", \"continues\", \"deload\"); free-text note keywords (supersede/correction/מחליף/תיקון/טעות) should only print a warning asking the user to set the field. This resolves arith R3 (correction worded differently gets merged) and R4 (a continuation whose note says 'תיקון בטכניקה' gets read as a correction). Trade-off to handle: legacy logs written before 1.3.0 have no explicit fields, so a disjoint correction without \"supersedes\" would merge again (the N1 double-count). Mitigate, e.g. keep the keyword rule only for lines dated before the 1.3.0 release, or warn loudly on disjoint merges without \"continues\". Add R3/R4 regression fixtures."
       ]
     }
   ]
