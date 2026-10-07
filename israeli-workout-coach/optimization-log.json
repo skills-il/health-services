@@ -16,6 +16,37 @@
         "TOOLING: verify-evidence.py extracted 0 facts from this skill at HEAD and 2 after this cycle's edits. Its fact extractor keys on currency and Hebrew statute patterns, so a domain whose numbers are percentages, RPE points, degrees, g/kg and cup counts is nearly invisible to it. The gate exited 0 on a skill it had never actually checked. Numeric claims here must be verified by the Judge and by --check-sources, not by the exit code.",
         "UNSOURCED HEURISTICS: the progression conventions (regress 10 to 15 percent after a two-week gap; smallest increments of about 2.5 kg upper / 5 kg lower; deload by cutting volume about in half) are standard strength-and-conditioning practice but carry no evidence.json entry and no citation in Reference Links. They predate this cycle and were not introduced by it. Next cycle should either cite an S&C reference (NSCA/ACSM) for each or mark them explicitly as coaching convention rather than sourced fact."
       ]
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-10-07",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "אני מרגיש תקוע בסקוואט כבר שבועיים, אני בפלאטו?",
+          "תבנה לי סבב אימונים ותזכור אותו בין אימון לאימון",
+          "איך מגישים תביעה בבית משפט לתביעות קטנות",
+          "אני רוצה לרדת 10 קילו מהר לפני החתונה"
+        ]
+      },
+      "lessons": [
+        "RESOLVED this cycle: the disordered-eating flag is persisted (health_flags.eating_disorder_flag); drop it from carry.",
+        "RESOLVED this cycle: progression conventions (10-15 percent regression, deload halving, every 4-8 weeks) are now explicitly hedged as coaching rules of thumb; still uncited to NSCA/ACSM. Cite next cycle if a fetchable source is found.",
+        "RESOLVED this cycle: siren-interrupted session. The log now has \"continues\": true and the analyzer merges split sessions.",
+        "Statute drift lesson: the gym law's general instructor-presence duty (s.3(a)) was repealed by Amendment 4 (Dec 2024) while the skill kept citing a 2021 gov.il PDF consolidation. Cite the wikisource consolidated text and check the Knesset for later amendments every cycle.",
+        "Sports Law amendment (2024) takes effect 2.1.2027 and bars unpaid coaching in minister-designated activity types without certification and registration. Legal gate PASS this cycle with a trainer-axis notice; RE-RUN legal-review on the 'מאמן כושר' name after 2.1.2027 and check whether fitness/gym instruction is designated.",
+        "Kupah co-payments (about 41 NIS a quarter) change during the year; re-check all four price lists every cycle. Maccabi's Jan-2026 PDF still showed 39 NIS.",
+        "Analyzer deferrals (arithmetic review rated non-critical): undulating-periodisation e1RM phase artifact; plank seconds counted as reps with --bodyweight; a single bodyweight value applied across history; a reduced-set deload with no RPE stays in the plateau read during that week; correction notes in other words without \"supersedes\": true can be merged; a user note containing a correction word can mark a continuation as a correction.",
+        "Expert MINOR deferred: Clalit issues the gym medical certificate free of charge (gym-certificate page); add per-fund certificate cost next cycle.",
+        "Expert MINOR deferred: kupah detail (Clalit chronic cap of 12 physiotherapy treatments per diagnosis per year, Maccabi first-assessment line).",
+        "Coverage-audit MAJORs deferred over the batch cap: hypertension exercise prescription (aerobic emphasis), BP-medication effects (beta-blockers and heart-rate targets, diuretics and heat), operational resting-BP thresholds before a session. Each needs a fetchable primary source (ACSM/ESH).",
+        "Carried from 1.2.0, still open: female-athlete programming (S9), fasting days (S6), miluim ramp (S7), dated fitness-test goal (S8), air quality and extreme-heat regions (S10), bodyweight series (S4), orphan rotation label advance logic.",
+        "Body is at about 4,970 words of the 5,000 cap in both files. Next cycle must move content (e.g. the gym paperwork paragraph or Mode B) to references before adding anything."
+      ]
     }
   ]
 }

@@ -35,7 +35,7 @@ formula:
 ```
 
 Brzycki is an alternative: `1RM = weight * 36 / (37 - reps)`. Both are estimates and lose
-accuracy above about 10 reps, so prefer top sets of 1 to 8 reps when you want a clean 1RM
+accuracy above about 10 reps (`analyze_log.py` leaves sets above 12 reps out of e1RM), so prefer top sets of 1 to 8 reps when you want a clean 1RM
 trend. Source: standard strength-and-conditioning reference (see Reference Links).
 
 `scripts/analyze_log.py` computes the Epley estimate per exercise across the log and reports
@@ -52,6 +52,10 @@ the trend.
 Store the chosen model in `profile.md` (`progression:` field) and apply it consistently.
 
 ## Deload and overtraining signals
+
+The figures in this section and the next (halve the volume, drop about 10 percent, a
+lighter week every 4 to 8 weeks, regress 10 to 15 percent after a layoff) are common
+strength-coaching rules of thumb, not sourced thresholds. Present them that way.
 
 Recommend a deload week (cut working-set volume roughly in half, or drop intensity by about
 10 percent) when you see a cluster of:
@@ -77,7 +81,11 @@ to a doctor where several of these signs are present. See the Safety section in 
 
 `analyze_log.py` requires RPE creep and a flat or declining estimated 1RM to appear on the
 SAME lift before it will call a cluster, because accessories such as face pulls and calf
-raises plateau by design and would otherwise keep the flag permanently on.
+raises plateau by design and would otherwise keep the flag permanently on. It reads only the
+lift's current block (the latest run at its current load), skipping deload sessions and
+stopping at a gap of 14 days or more, so the return to normal RPE after a deload or a
+layoff is not mistaken for creep. Log a deload with `"deload": true` so it is recognised
+even when the sets were not cut in half.
 
 Deloads are also worth scheduling proactively, not only reactively. Intermediate and advanced
 lifters commonly plan a lighter week every 4 to 8 weeks of hard training to stay ahead of
@@ -94,7 +102,9 @@ when it sees a long gap since the last session.
 ## Plateau vs bad day
 
 One flat or worse session is noise. A plateau is no progress on a lift across several
-sessions at the target RPE. Only then hand off to the routine-breaker (Role 5) for one
+sessions at the target RPE. The script reads progress at a held load as TOTAL reps across
+the working sets (double progression grows the lower sets first), and does not call a
+plateau while RPE at the same load and reps is falling. Only then hand off to the routine-breaker (Role 5) for one
 bounded change: reset reps via double progression, swap the accessory, or adjust volume.
 Do not change the main lifts and the progression model at the same time, or you lose the
 signal.
@@ -109,9 +119,10 @@ as warming up the lift.
 
 **Form is the stopping rule, not the RPE number.** End a set the moment technique breaks
 down (bar path drifts, back rounds under load, reps get grindy and sloppy), even if the
-target reps or RPE were not reached. Form failure under fatigue is the main injury cause in
+target reps or RPE were not reached. Form failure under fatigue is a common injury mechanism in
 barbell training. When prescribing a new or heavier lift, give one or two brief technique
 cues (for example "brace and keep a neutral spine" on deadlift), and tell the user to drop
-the weight and get a coach or a video check if a lift feels wrong. An Israeli gym is
-legally required to have an instructor present whenever it is open, so "ask the floor
-instructor to watch a set" is realistic advice, not a brush-off.
+the weight and get a coach or a video check if a lift feels wrong. If an instructor is on
+duty, "ask them to watch a set" is realistic advice; Israeli law no longer requires one on
+the floor at all times (see `israeli-gym-rules.md`), but a first-time trainee at a public
+gym is entitled to an instructor induction with a personal plan.

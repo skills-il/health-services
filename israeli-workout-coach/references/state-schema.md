@@ -53,7 +53,9 @@ A readable Markdown file. Keep it short so a human can edit it directly. Suggest
   - chest_pain_or_dizziness: false   # on exertion, ever
   - pregnant_or_postpartum: false
   - other_medical: none              # relevant conditions or medications
-  - family_sudden_cardiac_death: false  # first-degree relative, under 50
+  - family_sudden_cardiac_death: false  # first-degree relative died of heart disease or
+                                        # suddenly early (gym form: before 55 man / 65 woman)
+  - kidney_disease: false            # suppresses Role 3 protein figures
   - anticoagulants: false            # blood thinners; see SKILL.md Step 1
   - diabetes: false                  # and whether on insulin / sulfonylurea
   - eating_disorder_flag: none       # set to the ISO date a red flag appeared. Role 3 must
@@ -132,10 +134,16 @@ Field rules:
 | `cardio` | object or omit | `type`, `distance_km`, `duration_min`. Compute pace on read; do not store it. |
 | `notes` | string | Free text, verbatim from the user. |
 | `feel` | 1-5 | Subjective session quality. Feeds the overtraining/plateau signals. |
+| `supersedes` | true or omit | Set on a correction line (same date and `day`) so it replaces the earlier line. A supersede/correction note in `notes` has the same effect. |
+| `continues` | true or omit | Set on the second part of a session interrupted and resumed the same day (a siren, a phone call), so the analyzer adds it to the first part instead of replacing it. |
+| `deload` | true or omit | Mark a planned deload session. The analyzer leaves it out of the RPE-creep and plateau reads, so the normal week after it is not flagged. |
 
 Write every numeric field as a JSON number, not a quoted string. `analyze_log.py` will
-coerce `"80"` rather than crash, but a value it cannot read at all is silently treated as
-zero, which quietly deletes that set from volume and estimated 1RM.
+coerce `"80"` rather than crash, but a value it cannot read at all is treated as zero (with
+a warning), which deletes that set from volume and estimated 1RM. A line with the wrong
+shape (not an object, no valid date) is skipped with a warning. A second line for the same
+date and day is merged into the first when it has `"continues": true`, or when it shares no
+exercise with the first and carries no supersede note; otherwise it replaces the first.
 
 ## Read-first protocol (every session)
 

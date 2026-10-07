@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-workout-coach",
   "schemaVersion": "1.0",
-  "generated_at": "2026-08-26T00:00:00Z",
+  "generated_at": "2026-10-07T00:00:00Z",
   "claims": [
     {
       "claim_id": "epley-1rm",
@@ -43,8 +43,8 @@
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "gov.il content API (programmatic re-extraction)",
-      "verified_at": "2026-07-23T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07",
       "confidence": "high"
     },
     {
@@ -52,29 +52,29 @@
       "claim": "Israeli MOH hot-weather hydration baseline is 8 to 10 cups of water per day alongside light, balanced meals.",
       "claim_type": "guidance",
       "source_url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
-      "raw_snippet": "שתייה של 8-10 כוסות מים ביום לצד תזונה המורכבת מארוחות קלות ומאוזנות יכולה להקל על המצב.",
+      "raw_snippet": "שתייה של 8–10 כוסות מים ביום לצד תזונה המורכבת מארוחות קלות ומאוזנות יכולה להקל על המצב.",
       "fetched_at": "2026-07-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-07-23T00:00:00Z",
+      "verified_at": "2026-10-07",
       "confidence": "high"
     },
     {
       "claim_id": "heat-stroke-emergency",
-      "claim": "Heat stroke (מכת חום) is a medical emergency needing immediate ER referral; a sign is body temperature above 39.5C with hot, red, dry skin. Heat exhaustion signs include heavy sweating, cold clammy skin, dizziness, and weakness.",
+      "claim": "MOH: heat stroke signs include body temperature above 39.5C and hot, red, dry skin.",
       "claim_type": "safety-guidance",
       "source_url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
-      "raw_snippet": "הסימנים של מכת חום הם: טמפרטורת גוף גבוהה מ 39.5 מעלות צלזיוס. עור אדום, חם ויבש (ללא הזעה). הטיפול במצב של מכת חום: בראש ובראשונה פנייה מיידית לחדר מיון.",
+      "raw_snippet": "טמפרטורת גוף גבוהה מ 39.5 מעלות צלזיוס.",
       "fetched_at": "2026-07-23T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-07-23T00:00:00Z",
+      "verified_at": "2026-10-07",
       "confidence": "high"
     },
     {
@@ -104,32 +104,6 @@
       "confidence": "high"
     },
     {
-      "claim_id": "physio-referral-physician",
-      "claim": "For physiotherapy in a HOSPITAL setting, the referral is made by a physician. This source is hospital-scoped and does not establish the community/kupah rule; the per-kupah rules are the kupah entries in this file.",
-      "claim_type": "rule",
-      "source_url": "https://www.kolzchut.org.il/he/טיפולי_פיזיותרפיה_בבתי_חולים",
-      "raw_snippet": "הפניית מטופל בבית חולים לשירות פיזיותרפיה נעשית על-ידי רופא",
-      "fetched_at": "2026-07-23T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "confidence": "high"
-    },
-    {
-      "claim_id": "physio-kupah-referral",
-      "claim": "Secondary cross-check only (private-clinic marketing blog). The operative per-kupah rules are the Clalit, Leumit and Maccabi entries in this file.",
-      "claim_type": "rule",
-      "source_url": "https://www.physioclick.co.il/blog/physiotherapy-lower-back-pain-health-fund-reimbursements/",
-      "raw_snippet": "לקבלת הטיפולים נדרשת הפניה מרופא הקופה שלך",
-      "fetched_at": "2026-07-23T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "confidence": "low"
-    },
-    {
       "claim_id": "maccabi-physio-no-referral",
       "claim": "Maccabi allows booking diagnosis and treatment at Maccabi's own physiotherapy institutes without a doctor's referral. A referral is still required at therapists and institutes under contract with Maccabi, and for exercise consultations for diabetes, hypertension and cardiac patients, infant torticollis, and child development.",
       "claim_type": "rule",
@@ -146,11 +120,9 @@
       "claim_id": "gym-law-health-declaration",
       "claim": "Under the Fitness Centres (Licensing and Supervision) Law, 5754-1994 s.4(a), an Israeli gym may admit a trainee only after receiving a medical questionnaire including a signed health declaration confirming no medical problems liable to endanger them while training.",
       "claim_type": "statute",
-      "source_url": "https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf",
-      "raw_snippet": "מכון כושר יקבל מתאמן רק לאחר שהמציא לו שאלון רפואי הכולל הצהרת בריאות חתומה בידו המאשרת שאינו סובל מבעיות רפואיות העלולות לסכנו בשעת אימון במכון כושר",
-      "fetched_at": "2026-08-26",
-      "verified_via": "pdf",
-      "verified_at": "2026-08-26",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מכוני_כושר_%28רישוי_ופיקוח%29",
+      "raw_snippet": "מכון כושר יקבל מתאמן רק לאחר שהמציא לו שאלון רפואי הכולל הצהרת בריאות חתומה בידו",
+      "fetched_at": "2026-10-07",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -162,11 +134,9 @@
       "claim_id": "gym-law-medical-certificate",
       "claim": "s.4(b): a trainee who answers yes to any question on the health declaration may be admitted only after also supplying a doctor's certificate confirming there is no risk to their health in training at a gym.",
       "claim_type": "statute",
-      "source_url": "https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf",
-      "raw_snippet": "השיב המתאמן בחיוב על אחת השאלות בהצהרת הבריאות, יקבל אותו מכון הכושר רק לאחר שהמציא לו גם תעודה רפואית שבה רופא אישר שאין סיכון לבריאותו של המתאמן באימון במכון כושר",
-      "fetched_at": "2026-08-26",
-      "verified_via": "pdf",
-      "verified_at": "2026-08-26",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מכוני_כושר_%28רישוי_ופיקוח%29",
+      "raw_snippet": "השיב המתאמן בחיוב על אחת השאלות בהצהרת הבריאות, יקבל אותו מכון הכושר רק לאחר שהמציא לו גם תעודה רפואית",
+      "fetched_at": "2026-10-07",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -176,13 +146,11 @@
     },
     {
       "claim_id": "gym-law-renewal-periods",
-      "claim": "s.4(d): the gym must require a fresh health declaration once every two years, and for a trainee who supplied a medical certificate, a fresh certificate once a year.",
+      "claim": "Under s.4(ד) the gym must require a fresh health declaration once every two years, and a fresh medical certificate once a year from a trainee who had to supply one.",
       "claim_type": "statute",
-      "source_url": "https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf",
-      "raw_snippet": "מכון כושר ידרוש ממתאמן שימציא לו הצהרת בריאות אחת לשנתיים, ולעניין מתאמן שהמציא תעודה רפואית, ידרוש ממנו מכון הכושר להמציא לו תעודה רפואית אחת לשנה",
-      "fetched_at": "2026-08-26",
-      "verified_via": "pdf",
-      "verified_at": "2026-08-26",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מכוני_כושר_%28רישוי_ופיקוח%29",
+      "raw_snippet": "מכון כושר ידרוש ממתאמן שימציא לו הצהרת בריאות אחת לשנתיים",
+      "fetched_at": "2026-10-07",
       "appears_in": [
         "references/israeli-gym-rules.md"
       ],
@@ -192,11 +160,9 @@
       "claim_id": "gym-law-minor-parental-consent",
       "claim": "s.4(c): where the trainee is a minor (under 18, s.1), written consent from one parent signed by the parent is attached to the health declaration or medical certificate; it may be given for one training session or types of training.",
       "claim_type": "statute",
-      "source_url": "https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf",
-      "raw_snippet": "היה המתאמן קטין, תצורף להצהרת הבריאות או לתעודה הרפואית, לפי העניין, הסכמה בכתב של אחד מהוריו לאימון במכון כושר חתומה בידי ההורה",
-      "fetched_at": "2026-08-26",
-      "verified_via": "pdf",
-      "verified_at": "2026-08-26",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מכוני_כושר_%28רישוי_ופיקוח%29",
+      "raw_snippet": "היה המתאמן קטין, תצורף להצהרת הבריאות או לתעודה הרפואית, לפי העניין, הסכמה בכתב של אחד מהוריו",
+      "fetched_at": "2026-10-07",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -208,11 +174,9 @@
       "claim_id": "gym-law-minor-instructor",
       "claim": "s.3(b)(1): whenever minors are training at a gym, an instructor qualified to train minors must be present, and only that instructor may teach a minor how to operate the equipment and supervise their training.",
       "claim_type": "statute",
-      "source_url": "https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf",
-      "raw_snippet": "בכל עת שקטינים מתאמנים במכון כושר יהיה נוכח במקום מדריך לאימון קטינים, והוא בלבד יהא רשאי",
-      "fetched_at": "2026-08-26",
-      "verified_via": "pdf",
-      "verified_at": "2026-08-26",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מכוני_כושר_%28רישוי_ופיקוח%29",
+      "raw_snippet": "בכל עת שקטינים מתאמנים במכון כושר יהיה נוכח במקום מדריך לאימון קטינים",
+      "fetched_at": "2026-10-07",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -247,28 +211,12 @@
       "confidence": "high"
     },
     {
-      "claim_id": "gym-law-section-3",
-      "claim": "סעיף 3 of the Fitness Centres Law governs instructor presence, including the instructor-for-minors requirement.",
-      "claim_type": "statute",
-      "source_url": "https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf",
-      "raw_snippet": "סעיף 3 נוכחות מדריך",
-      "fetched_at": "2026-08-26",
-      "verified_via": "pdf",
-      "verified_at": "2026-08-26",
-      "appears_in": [
-        "references/israeli-gym-rules.md"
-      ],
-      "confidence": "high"
-    },
-    {
       "claim_id": "gym-law-section-4",
-      "claim": "סעיף 4 of the Fitness Centres Law governs medical fitness: health declaration, medical certificate, minors' parental consent, and renewal periods.",
+      "claim": "Section 4 (כשירות רפואית): the minister sets the wording of the health declaration and may exempt classes of gyms from requiring one.",
       "claim_type": "statute",
-      "source_url": "https://www.gov.il/BlobFolder/generalpage/add-zav-doc/he/home_main_business-licensing_add-zav_add-zav-doc-018.pdf",
-      "raw_snippet": "סעיף 4 כשירות רפואית",
-      "fetched_at": "2026-08-26",
-      "verified_via": "pdf",
-      "verified_at": "2026-08-26",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מכוני_כושר_%28רישוי_ופיקוח%29",
+      "raw_snippet": "יקבע את נוסח הצהרת הבריאות, והוא רשאי לקבוע סוגים של מכוני כושר שיהיו פטורים מהחובה לדרוש ממתאמנים הצהרת בריאות",
+      "fetched_at": "2026-10-07",
       "appears_in": [
         "references/israeli-gym-rules.md"
       ],
@@ -276,11 +224,11 @@
     },
     {
       "claim_id": "clalit-physio-referral",
-      "claim": "Clalit requires a doctor's referral for physiotherapy, valid for two years from issue.",
+      "claim": "Clalit requires a referral for physiotherapy, from a doctor or in some cases a specialist nurse.",
       "claim_type": "rule",
       "source_url": "https://www.clalit.co.il/he/myrights/physiotherapy/Pages/physiotherapy-general.aspx",
-      "raw_snippet": "יש לקבל הפניה מרופא או מרופאה",
-      "fetched_at": "2026-08-26",
+      "raw_snippet": "במקרים מסוימים נותנים את ההפניה אח מומחה או אחות מומחית",
+      "fetched_at": "2026-10-07",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -297,6 +245,831 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-law-s3a-repealed",
+      "claim": "Section 3 of the Fitness Centres Law is now titled presence of an instructor for training minors; the general duty in s.3(א) to have an instructor present whenever a gym operates was repealed by Amendment 4 (2024).",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מכוני_כושר_%28רישוי_ופיקוח%29",
+      "raw_snippet": "נוכחות מדריך לאימון קטינים",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md",
+        "references/progression-models.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-law-amendment-4",
+      "claim": "Amendment 4, התשפ\"ה-2024, published in ס\"ח 3329 on 10 December 2024, repealed s.3(א) and added s.4א.",
+      "claim_type": "statute",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_5256267.pdf",
+      "raw_snippet": "חוק מכוני כושר (רישוי ופיקוח) (תיקון מס",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-law-s4a-new-trainee",
+      "claim": "Section 4א: a gym may admit a new trainee only after an instructor gave them guidance including a personally tailored training plan and the safety rules including how to operate the machines.",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מכוני_כושר_%28רישוי_ופיקוח%29",
+      "raw_snippet": "מכון כושר יקבל מתאמן חדש רק לאחר שהעביר לו הדרכה בידי מדריך הכוללת את כל אלה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-law-s4a-first-aid",
+      "claim": "Section 4א(ב): whenever no instructor is present, a person with a valid first-aid certificate must be present in the compound; 4א(ג) exempts gyms in residential buildings, workplaces or hotels not open to the general public.",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מכוני_כושר_%28רישוי_ופיקוח%29",
+      "raw_snippet": "אדם שעבר קורס עזרה ראשונה ובעל תעודה בתוקף",
+      "appears_in": [
+        "references/israeli-gym-rules.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-law-new-trainee-def",
+      "claim": "A new trainee is someone who declared at registration that they are training in a gym for the first time.",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מכוני_כושר_%28רישוי_ופיקוח%29",
+      "raw_snippet": "מי שהצהיר בעת הרשמתו למכון כי הוא מתאמן לראשונה במכון כושר",
+      "appears_in": [
+        "references/israeli-gym-rules.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-regs-form",
+      "claim": "The 2015 regulations fix the wording of the health declaration as the form in the First Schedule.",
+      "claim_type": "statute",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_287.htm",
+      "raw_snippet": "נוסח הצהרת בריאות יהיה לפי הטופס שבתוספת הראשונה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-regs-cert-3-months",
+      "claim": "A gym accepts a medical certificate only if no more than three months have passed since it was issued.",
+      "claim_type": "statute",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_287.htm",
+      "raw_snippet": "מכון כושר יקבל מתאמן שהמציא תעודה רפואית שלא עברו שלושה חודשים ממועד הנפקתה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-form-q1-q2",
+      "claim": "Form questions 1 and 2: doctor-diagnosed heart disease; chest pain at rest, in daily activity, or during exercise.",
+      "claim_type": "statute",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_287.htm",
+      "raw_snippet": "האם הרופא שלך אמר לך שאתה סובל ממחלת לב",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md",
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-form-q3",
+      "claim": "Form question 3: in the past year, lost balance due to dizziness (not from over-breathing) or lost consciousness.",
+      "claim_type": "statute",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_287.htm",
+      "raw_snippet": "איבדת שיווי משקל עקב סחרחורת",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md",
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-form-q4-asthma",
+      "claim": "Form question 4: doctor-diagnosed asthma with medication, shortness of breath or wheezing in the last three months.",
+      "claim_type": "statute",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_287.htm",
+      "raw_snippet": "האם רופא אבחן שאתה סובל ממחלת האסתמה ולכן בשלושת החודשים האחרונים",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-form-q5-family",
+      "claim": "Form question 5: a first-degree relative died of heart disease or sudden death at an early age, before 55 for a man and 65 for a woman.",
+      "claim_type": "statute",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_287.htm",
+      "raw_snippet": "לפני גיל 55 אם מדובר בגבר, ולפני גיל 65 אם זו אישה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md",
+        "references/state-schema.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-form-q6-q7-q8",
+      "claim": "Form questions 6-8: a doctor told you in the past 5 years to exercise only under supervision; a chronic illness not listed that may prevent or limit exercise; for pregnant women, a high-risk pregnancy.",
+      "claim_type": "statute",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_287.htm",
+      "raw_snippet": "האם אתה סובל ממחלה קבועה (כרונית), שאינה נזכרת בשאלות לעיל ועשויה למנוע או להגביל אותך בביצוע פעילות גופנית",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-form-q6",
+      "claim": "Form question 6: a doctor told you in the past 5 years to exercise only under medical supervision.",
+      "claim_type": "statute",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_287.htm",
+      "raw_snippet": "לבצע פעילות גופנית רק תחת השגחה רפואית",
+      "appears_in": [
+        "references/israeli-gym-rules.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-form-q8",
+      "claim": "Form question 8: for pregnant women, whether this or any previous pregnancy was defined high-risk.",
+      "claim_type": "statute",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_287.htm",
+      "raw_snippet": "האם ההיריון הזה או כל היריון קודם הוגדר היריון בסיכון",
+      "appears_in": [
+        "references/israeli-gym-rules.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-form-45-note",
+      "claim": "The form recommends graded, instructed activity especially for someone over 45 planning unaccustomed high-intensity activity; it is advice, not an admission rule.",
+      "claim_type": "statute",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_287.htm",
+      "raw_snippet": "במיוחד אם אתה מעל גיל 45 ובכוונתך לבצע פעילות בעצימות גבוהה",
+      "appears_in": [
+        "references/israeli-gym-rules.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-form-change-consult",
+      "claim": "The form instructs the trainee to consult a doctor about continuing at the gym after any change in medical condition.",
+      "claim_type": "statute",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_287.htm",
+      "raw_snippet": "בכל מקרה של שינוי במצבך הרפואי, יש להתייעץ עם רופא לגבי המשך פעילות במכון הכושר",
+      "appears_in": [
+        "references/israeli-gym-rules.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-minors-under-6",
+      "claim": "Under the 2005 minors regulations a child under 6 may not train in a gym, except a minor in rehabilitation accompanied by their physiotherapist.",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_מכוני_כושר_%28רישוי_ופיקוח%29_%28אימון_קטינים_במכון_כושר%29",
+      "raw_snippet": "מכון כושר לא יאפשר לקטין שלא מלאו לו 6 שנים להתאמן במכון כושר",
+      "appears_in": [
+        "references/israeli-gym-rules.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "clalit-physio-copay",
+      "claim": "Clalit charges a quarterly institute fee of 41 NIS.",
+      "claim_type": "amount",
+      "source_url": "https://www.clalit.co.il/he/myrights/fees/Pages/medical-institute-fees.aspx",
+      "raw_snippet": "אגרה רבעונית בסך 41 שקלים",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/kupah-physio-routes.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "clalit-copay-exemption-accident",
+      "claim": "Clalit exempts a visit linked to a work accident (with a doctor's confirmation) from the institute fee.",
+      "claim_type": "rule",
+      "source_url": "https://www.clalit.co.il/he/myrights/fees/Pages/medical-institute-fees.aspx",
+      "raw_snippet": "נפגעי תאונת עבודה - אם הביקור קשור לתאונה",
+      "appears_in": [
+        "references/kupah-physio-routes.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "maccabi-physio-copay",
+      "claim": "Maccabi charges a quarterly co-payment of 41 NIS for physiotherapy institutes.",
+      "claim_type": "amount",
+      "source_url": "https://www.maccabi4u.co.il/contact-us/payments/",
+      "raw_snippet": "41 ₪ השתתפות עצמית רבעונית",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/kupah-physio-routes.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "maccabi-copay-two-institutes",
+      "claim": "At Maccabi, visiting two physiotherapy institutes in the same quarter means paying the co-payment twice.",
+      "claim_type": "rule",
+      "source_url": "https://www.maccabi4u.co.il/contact-us/payments/",
+      "raw_snippet": "חבר המבקר באותו רבעון בשני מכוני פיזיותרפיה, ישלם השתתפות עצמית פעמיים ברבעון זה",
+      "appears_in": [
+        "references/kupah-physio-routes.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "meuhedet-physio-copay",
+      "claim": "Meuhedet charges a quarterly co-payment of 41.00 NIS for approved physiotherapy treatments.",
+      "claim_type": "amount",
+      "source_url": "https://www.meuhedet.co.il/מידע-ללקוח/השתתפויות-ופטורים/טיפולים-ספציפיים/",
+      "raw_snippet": "השתתפות עצמית רבעונית לטיפולי פיזיותרפיה שאושרו לביצוע",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/kupah-physio-routes.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "meuhedet-institute-referral",
+      "claim": "Meuhedet requires a Meuhedet doctor's referral and a commitment from the clinic secretariat for every institute visit; physiotherapy is listed among its institutes.",
+      "claim_type": "rule",
+      "source_url": "https://www.meuhedet.co.il/מידע-ללקוח/הסדרי-הבחירה-ושירותים-במאוחדת/",
+      "raw_snippet": "בכל פנייה למכון או למעבדה, יש להצטייד בהפניית רופא/ה מאוחדת והתחייבות ממזכירות המרפאה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/kupah-physio-routes.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "meuhedet-physio-institute-list",
+      "claim": "Meuhedet lists physiotherapy among its 'other institutes'.",
+      "claim_type": "rule",
+      "source_url": "https://www.meuhedet.co.il/מידע-ללקוח/הסדרי-הבחירה-ושירותים-במאוחדת/",
+      "raw_snippet": "מכוני לב, פיזיותרפיה, ריפוי בעיסוק",
+      "appears_in": [
+        "references/kupah-physio-routes.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "leumit-physio-copay",
+      "claim": "Leumit charges a quarterly physiotherapy co-payment of 41.10 NIS.",
+      "claim_type": "amount",
+      "source_url": "https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/",
+      "raw_snippet": "פיזיותרפיה לרבעון 41.10",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/kupah-physio-routes.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "acsm-stop-perfusion",
+      "claim": "Clinical exercise-test termination criteria (JSSM table adapted from ACSM 2000) include signs of poor perfusion (pallor, cyanosis, nausea, cold and clammy skin) and arrhythmias.",
+      "claim_type": "reference",
+      "source_url": "https://www.jssm.org/suppls/7/T7.htm",
+      "raw_snippet": "Signs of poor perfusion: pallor, cyanosis, nausea, or cold and clammy skin",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "acsm-stop-arrhythmia",
+      "claim": "Clinical exercise-test termination criteria (JSSM table adapted from ACSM 2000) list arrhythmias.",
+      "claim_type": "reference",
+      "source_url": "https://www.jssm.org/suppls/7/T7.htm",
+      "raw_snippet": "Arrhythmias other than sustained ventricular tachycardia",
+      "appears_in": [
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "claim_id": "ada-15-15",
+      "claim": "ADA: treat low blood glucose with about 15 g of fast-acting carbohydrate and recheck after 15 minutes.",
+      "claim_type": "reference",
+      "source_url": "https://diabetes.org/living-with-diabetes/hypoglycemia-low-blood-glucose",
+      "raw_snippet": "15/15 rule",
+      "appears_in": [
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "ada-unconscious-emergency",
+      "claim": "ADA: someone unconscious from low blood glucose without glucagon available needs an emergency call (101 in Israel).",
+      "claim_type": "reference",
+      "source_url": "https://diabetes.org/living-with-diabetes/hypoglycemia-low-blood-glucose",
+      "raw_snippet": "If someone is unconscious and glucagon is not available",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "nhs-knee-infection",
+      "claim": "NHS: a very high temperature with redness or heat around the knee can be a sign of infection needing urgent help.",
+      "claim_type": "reference",
+      "source_url": "https://www.nhs.uk/symptoms/knee-pain/",
+      "raw_snippet": "have redness or heat around your knee",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "nhs-knee-locks",
+      "claim": "NHS: a knee that locks, gives way or painfully clicks needs medical advice.",
+      "claim_type": "reference",
+      "source_url": "https://www.nhs.uk/symptoms/knee-pain/",
+      "raw_snippet": "your knee locks, gives way or painfully clicks",
+      "appears_in": [
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "nhs-dvt-urgent",
+      "claim": "NHS: suspected DVT (pain and swelling in one leg) needs an urgent GP appointment; with breathlessness or chest pain it is an emergency.",
+      "claim_type": "reference",
+      "source_url": "https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/",
+      "raw_snippet": "Ask for an urgent GP appointment or get help from NHS 111 if: you think you have DVT",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "nhs-dvt-emergency",
+      "claim": "NHS: DVT symptoms with shortness of breath or chest pain require emergency care.",
+      "claim_type": "reference",
+      "source_url": "https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/",
+      "raw_snippet": "such as pain and swelling, and: feel short of breath have chest pain",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "who-aerobic-150-300",
+      "claim": "WHO 2020: adults should do at least 150-300 minutes of moderate-intensity aerobic activity a week.",
+      "claim_type": "reference",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+      "raw_snippet": "Adults should do at least 150–300 min of moderate-intensity aerobic physical activity",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "who-strength-2-days",
+      "claim": "WHO 2020: adults should also do muscle-strengthening activities on 2 or more days a week.",
+      "claim_type": "reference",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+      "raw_snippet": "muscle-strengthening activities at moderate or greater intensity that involve all major muscle groups on 2 or more days a week",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-law-section-3-ref",
+      "claim": "Amendment 4 amends סעיף 3 (instructor presence) of the Fitness Centres Law.",
+      "claim_type": "statute",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_5256267.pdf",
+      "raw_snippet": "תיקון סעיף 3",
+      "fetched_at": "2026-10-07",
+      "appears_in": [
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "gym-law-section-4a-ref",
+      "claim": "Amendment 4 adds סעיף 4א (professional guidance for new trainees).",
+      "claim_type": "statute",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_5256267.pdf",
+      "raw_snippet": "הוספת סעיף 4א",
+      "fetched_at": "2026-10-07",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-gym-rules.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "leumit-physio-services-referral",
+      "claim": "Leumit: get a referral from the treating doctor, then book through the customer-service line.",
+      "claim_type": "rule",
+      "source_url": "https://www.leumit.co.il/physiotherapy/physiotherapy-services-of-leumit/",
+      "raw_snippet": "קבלת הפניה מהרופא/ה המטפל",
+      "fetched_at": "2026-10-07",
+      "appears_in": [
+        "references/kupah-physio-routes.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "heat-exhaustion-signs",
+      "claim": "MOH: heat exhaustion signs include heavy sweating, cold clammy skin, pallor, dizziness and a tendency to faint, muscle pain, fatigue and weakness.",
+      "claim_type": "safety-guidance",
+      "source_url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
+      "raw_snippet": "הסימנים לתשישות חום הם: הזעה מרובה, עור קר ולח.",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "heat-stroke-no-drinking",
+      "claim": "MOH: until evacuation, move to a cool shaded place and cool the body with wet towels, but the person must not drink; fluids are given only by medical staff.",
+      "claim_type": "safety-guidance",
+      "source_url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
+      "raw_snippet": "ולקרר את הגוף באמצעות מגבות רטובות אבל אסור לשתות",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07",
+      "appears_in": [
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "hpl-physiotherapy",
+      "claim": "Physiotherapy is a regulated profession under the Regulation of Health Professions Law, 5768-2008 (First Schedule).",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A1%D7%93%D7%A8%D7%AA_%D7%94%D7%A2%D7%99%D7%A1%D7%95%D7%A7_%D7%91%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%95%D7%AA_%D7%94%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA",
+      "raw_snippet": "תואר אקדמי ראשון בפיזיותרפיה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "hpl-dietetics",
+      "claim": "Clinical dietetics (תזונה–דיאטנות) is a regulated profession under the same law (First Schedule).",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A1%D7%93%D7%A8%D7%AA_%D7%94%D7%A2%D7%99%D7%A1%D7%95%D7%A7_%D7%91%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%95%D7%AA_%D7%94%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA",
+      "raw_snippet": "תואר אקדמי ראשון בתזונה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "clalit-copay-same-profession",
+      "claim": "Clalit: for community institutes the quarterly fee covers all visits in the same profession for three months from the first visit, regardless of institute or number of visits.",
+      "claim_type": "rule",
+      "source_url": "https://www.clalit.co.il/he/myrights/fees/Pages/medical-institute-fees.aspx",
+      "raw_snippet": "האגרה הרבעונית מכסה את כל הביקורים באותו המקצוע במשך שלושה חודשים מיום הביקור הראשון",
+      "appears_in": [
+        "references/kupah-physio-routes.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "leumit-floating-quarter",
+      "claim": "Leumit states its quarterly co-payments per floating quarter (רבעון צף).",
+      "claim_type": "rule",
+      "source_url": "https://www.leumit.co.il/insurance-policies/health-basket/health-basket-deductables/",
+      "raw_snippet": "תשלום עבור רבעון צף",
+      "appears_in": [
+        "references/kupah-physio-routes.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "nhs-angina-urgent",
+      "claim": "NHS: chest pain or other angina symptoms that come and go need urgent advice (NHS 111).",
+      "claim_type": "reference",
+      "source_url": "https://www.nhs.uk/conditions/angina/",
+      "raw_snippet": "you have chest pain or other symptoms of angina that come and go",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "nhs-angina-999",
+      "claim": "NHS: chest pain that does not stop after resting for a few minutes is an emergency call.",
+      "claim_type": "reference",
+      "source_url": "https://www.nhs.uk/conditions/angina/",
+      "raw_snippet": "have chest pain that does not stop after resting for a few minutes",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "nhs-faint-exercise",
+      "claim": "NHS: someone who fainted while exercising needs an emergency call.",
+      "claim_type": "reference",
+      "source_url": "https://www.nhs.uk/conditions/fainting/",
+      "raw_snippet": "fainted while exercising",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "nhs-head-999",
+      "claim": "NHS: after a head injury, being knocked out and not waking, being unable to stay awake, or a seizure means an emergency call.",
+      "claim_type": "reference",
+      "source_url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "raw_snippet": "has been knocked out and has not woken up",
+      "appears_in": [
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "nhs-head-111",
+      "claim": "NHS: vomiting, dizziness, or taking blood thinners after a recent head injury need urgent advice.",
+      "claim_type": "reference",
+      "source_url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "raw_snippet": "have a condition that thins your blood or take medicine that thins your blood",
+      "appears_in": [
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "heat-stroke-er",
+      "claim": "MOH: heat stroke treatment is first and foremost immediate referral to an emergency room.",
+      "claim_type": "safety-guidance",
+      "source_url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
+      "raw_snippet": "הטיפול במצב של מכת חום: בראש ובראשונה פנייה מיידית לחדר מיון.",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07",
+      "fetched_at": "2026-10-07",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "heat-stroke-dry-skin",
+      "claim": "MOH: heat stroke sign, hot, red and dry skin (no sweating).",
+      "claim_type": "safety-guidance",
+      "source_url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
+      "raw_snippet": "עור אדום, חם ויבש (ללא הזעה).",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07",
+      "fetched_at": "2026-10-07",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "sports-law-instructor-cert",
+      "claim": "An instructor (מדריך) under the Fitness Centres Law is the holder of a certification under the Sports Law for instruction in fitness and health; the Sports Law is חוק הספורט, התשמ\"ח-1988.",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מכוני_כושר_%28רישוי_ופיקוח%29",
+      "raw_snippet": "בעל תעודת הסמכה לפי חוק הספורט להדרכה בענף הספורט של כושר גופני ובריאות",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "sports-law-year",
+      "claim": "The Sports Law cited is חוק הספורט, התשמ\"ח-1988 (5748-1988).",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מכוני_כושר_%28רישוי_ופיקוח%29",
+      "raw_snippet": "חוק הספורט, התשמ״ח–1988",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "eah-drink-to-thirst",
+      "claim": "The 3rd International Exercise-Associated Hyponatremia Consensus (2015) recommends using thirst to guide fluid intake, to limit overdrinking and hyponatremia.",
+      "claim_type": "reference",
+      "source_url": "https://www.sciencedaily.com/releases/2015/06/150629100926.htm",
+      "raw_snippet": "Using the innate thirst mechanism to guide fluid consumption is a strategy that should limit drinking in excess and developing hyponatremia",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "moh-exhaustion-small-sips",
+      "claim": "MOH: heat exhaustion treatment includes cooling the body and drinking water in small sips.",
+      "claim_type": "safety-guidance",
+      "source_url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
+      "raw_snippet": "וכן שתיית מים בלגימות קטנות",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07",
+      "appears_in": [
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "moh-exhaustion-worsening",
+      "claim": "MOH: if there is no improvement, or worsening with vomiting, reduced alertness or confusion, seek medical help immediately.",
+      "claim_type": "safety-guidance",
+      "source_url": "https://me.health.gov.il/older-adult/specialist-advice/managing-extreme-weather/heat-protection/",
+      "raw_snippet": "חייבים לפנות מיידית לקבלת עזרה רפואית",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07",
+      "appears_in": [
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "nhs-heatstroke-cooling",
+      "claim": "NHS: while waiting for help with heatstroke, wrap the person in a cool wet sheet, fan them or sponge them down with cold water.",
+      "claim_type": "reference",
+      "source_url": "https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/",
+      "raw_snippet": "Wrap the person in a cool, wet sheet, or fan them or sponge them down with cold water while you wait for help to arrive",
+      "appears_in": [
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "nhs-heat-30-min",
+      "claim": "NHS: heat exhaustion should improve within about 30 minutes of cooling; still unwell after 30 minutes of resting in a cool place is a heatstroke emergency sign.",
+      "claim_type": "reference",
+      "source_url": "https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/",
+      "raw_snippet": "still being unwell after 30 minutes of resting in a cool place",
+      "appears_in": [
+        "references/safety-red-flags.md"
+      ],
+      "fetched_at": "2026-10-07",
+      "confidence": "high"
+    },
+    {
+      "claim_id": "clalit-copay-exemption-road",
+      "claim": "Clalit exempts a visit linked to a road accident (with a doctor's confirmation) from the institute fee.",
+      "claim_type": "rule",
+      "source_url": "https://www.clalit.co.il/he/myrights/fees/Pages/medical-institute-fees.aspx",
+      "raw_snippet": "נפגעי תאונת דרכים - אם הביקור קשור לתאונה",
+      "fetched_at": "2026-10-07",
+      "appears_in": [
+        "references/kupah-physio-routes.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "nata-cwi",
+      "claim": "NATA 2015 position statement: cold-water immersion up to the neck is the most effective cooling modality for exertional heat stroke.",
+      "claim_type": "reference",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639891/",
+      "raw_snippet": "Cold-water immersion up to the neck is the most effective cooling modality for patients with EHS",
+      "fetched_at": "2026-10-07",
+      "appears_in": [
+        "references/safety-red-flags.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "nata-towels-fans",
+      "claim": "NATA 2015 (heat stroke): if full-body cold-water immersion is not available, partial immersion, wet ice towels rotated over the body, or cold-water dousing with or without fanning may be used but are less effective.",
+      "claim_type": "reference",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639891/",
+      "raw_snippet": "wet ice towels rotated and placed over the entire body or cold-water dousing with or without fanning, may be used but are not as effective as CWI",
+      "fetched_at": "2026-10-07",
+      "appears_in": [
+        "references/safety-red-flags.md"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim_id": "nata-cwi-temp",
+      "claim": "NATA 2015: immersion water should be about 1.7 to 15 C and stirred continuously.",
+      "claim_type": "reference",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4639891/",
+      "raw_snippet": "The water should be approximately 1.7°C (35°F) to 15°C (59°F) and stirred continuously to maximize cooling",
+      "fetched_at": "2026-10-07",
+      "appears_in": [
+        "references/safety-red-flags.md"
       ],
       "confidence": "high"
     }
