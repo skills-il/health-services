@@ -62,15 +62,28 @@ with parental involvement.
    or tzaharon facility, marked with the student's name and details plus a
    photograph of the HMO card. A second injector bearing the name stays in the
    student's personal bag. Replace each injector when it expires.
-4. Sign the forms permitting medication administration, per section 2.2-74 of
-   standing instruction עב/1(ב), "מתן טיפול תרופתי במוסד החינוך". 0042 also
-   relies on the parental health declaration instruction, section 2.2-84 of
-   עד/1(א), "הצהרת הורים על בריאות ילדם". **Ask for these by title as well as by
-   number.** Both numbers are what 0042 itself cites and both appear under
-   "הוראות תקפות בנושאים קשורים" on the live 0042 page, but both also appear in
-   the Ministry's internal archive spreadsheet of instructions proposed for
-   cancellation, so a school office may not recognise the number. The titles are
-   stable; the numbering has been under revision.
+4. Sign the forms permitting medication administration. 0042 cites section
+   2.2-74 of עב/1(ב), "מתן טיפול תרופתי במוסד החינוך", and the parental health
+   declaration, section 2.2-84 of עד/1(א). **Both have been replaced** (resolved
+   2026-10-12, the open question of the previous cycle). 2.2-74 was cancelled
+   directly by 0384 on 29.12.2022. 2.2-84 was cancelled by instruction 0083 on
+   4.2.2018 (https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=93, valid until
+   28.12.2022), which 0382 then replaced:
+   - Medication: standing instruction **0384**, "הנחיות למתן טיפול תרופתי במוסד
+     החינוך", https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=483 . Its
+     list of cancelled instructions reads "מתן טיפול תרופתי במוסד החינוך מספר :
+     2.2-74 פורסמה בחוזר : תשע"ב/1 (ב)". It requires two documents (a specialist's
+     form and the parents' authorisation), the physician's request valid for no
+     more than one school year, and it forbids giving medication without a
+     medical document or conditioning participation on medication.
+   - Health declaration: standing instruction **0382**, "הצהרת בריאות שנתית
+     והנחיות להיעדרויות תלמידים ממוסד החינוך מטעמים רפואיים",
+     https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=482 . It says "אין
+     לדרוש מההורים כל הצהרה נוספת או כל מסמך רפואי אחר מלבד הצהרת הבריאות", that
+     parents of a child with a chronic condition hand over the treating
+     physician's signed instructions, and that a declared condition may not bar
+     participation except per the limits in that medical document. Its routine
+     activity includes trips, so a separate per-trip medical form is not required.
 5. Before a trip, out-of-school activity or a tzaharon serving food, request the
    catering provider's contact details and approve the composition of the food.
    If not approved, the parents must be allowed to supply suitable food.
@@ -80,7 +93,50 @@ with parental involvement.
 Life-threatening food allergy is included in the criteria allowing focused
 assistance from the inter-ministerial committee for employing a personal escort
 (medical assistant) in mainstream education, per section 2.2-91 of standing
-instruction עז/4(א), "סייעות רפואיות בחינוך הרגיל".
+instruction עז/4(א), "סייעות רפואיות בחינוך הרגיל". On the Mankal site that text
+is standing instruction **0011** (30.11.2016, no expiry date),
+https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=41 . What it actually
+requires, quoted because 0042 only cross-refers to it:
+
+- **Criterion (1.3):** "לאלרגיה מסכנת חיים לחלב, לבוטנים, לאגוזים, לשקדים,
+  לסומסום, לביצים או לדגים עם תיעוד ברור של חומרת התגובה ובשילוב של אסטמה אלרגית
+  המעלה את הסיכון העתידי לתגובה אנפילקטית מסכנת חיים מיידית נדרש מסמך עדכני."
+  The document must come from a specialist (paediatric allergist) and cover the
+  six months before the application. Do not paraphrase the asthma clause away:
+  quote it, and ask the allergist to address every element it names.
+- **Start age (1.1.2):** 3, on entry to a municipal gan. Scope and ages of
+  assistance are set by the committee (1.1.3), so do not state hours by grade.
+- **Independent of Bituach Leumi (1.4):** the assistance "אינו תלוי בהכרת המוסד
+  לביטוח לאומי לגמלת ילד נכה".
+- **Who applies and appeals (2.1, 1.5 to 1.7, 2.8):** only the local authority. An
+  appeal is a re-hearing by the committee on a reasoned request with new medical
+  documents, filed by the authority during the year; a second refusal can go to a
+  ערר at the Ministry of Health, answered within a month.
+- **Not for dietary restriction alone (1.1.6):** celiac and special diets do not
+  qualify.
+
+## Trips, including overnight
+
+The current trips instruction is 0339 (8.9.2022), but its operative body is not
+served on the Mankal page, so no section of it is cited here. The allergy-specific
+text is the Ministry's health-supervision guidance "הערכות לטיול בו משתתפים
+תלמידים הסובלים מאלרגיה למוצרי מזון ברמה מסכנת חיים" (8 September 2019), hosted by
+the Ministry's trips desk:
+https://www.mokedteva.co.il/Uploads/Content/%D7%A0%D7%95%D7%94%D7%9C-%D7%90%D7%9C%D7%A8%D7%92%D7%A0%D7%99%D7%99%D7%9D--%D7%94%D7%A2%D7%A8%D7%9B%D7%95%D7%AA-%D7%9C%D7%A7%D7%A8%D7%90%D7%AA-%D7%98%D7%99%D7%95%D7%9C-%D7%91%D7%91%D7%99%D7%AA-%D7%A1%D7%A4%D7%A8-%D7%91%D7%95-%D7%9C%D7%95%D7%9E%D7%93%D7%99%D7%9D-%D7%AA%D7%9C%D7%9E%D7%99%D7%93%D7%99%D7%9D-%D7%90%D7%9C%D7%A8%D7%92%D7%99%D7%99%D7%9D-2019.pdf
+
+- The trip medic is told the child is coming, about the allergy, and where the
+  injector is kept, and "המלווה הרפואי ייסע באוטובוס בו נוסע התלמיד הסובל
+  מאלרגיה".
+- Overnight: "במידה והטיול כולל לינת לילה יש להנחות את התלמידים הישנים באותו
+  מתחם עם התלמיד הסובל מאלרגיה להקפיד על הרחקת האלרגן ממקום הלינה."
+- No exclusion, no liability waivers, no compelled parent escort, and the food
+  cost is offset when the parents supply the meal.
+
+## Self-carry by an older student
+
+No current instruction (0042, 0384, 0011) contains a rule on a student carrying or
+self-injecting. 0042 only places the second injector in the student's bag. Do not
+assert a self-carry right; it is a question for the school and the allergist.
 
 Two limits stated in the same passage (section 5.14), and the most frequently
 violated part of the whole instruction:

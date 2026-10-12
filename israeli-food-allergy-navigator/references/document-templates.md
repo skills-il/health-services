@@ -80,8 +80,9 @@ requests, offer to meet. Do not open with legal threats.
 One page, laminated, kept with the injector.
 
 **This card is a transcription aid for the plan the treating physician wrote. It
-is not itself a medical instruction, and it carries no dose, no drug choice and
-no positioning judgement.** Have the treating physician review and sign it before
+is not itself a medical instruction, and it carries no dose, no drug choice and no
+positioning judgement of its own beyond one sourced safety rule (line 3: do not
+stand, walk or sit up suddenly).** Have the treating physician review and sign it before
 it goes into the emergency box, and copy the clinical lines from their
 instruction sheet rather than from this template. Where the card and the
 physician's sheet differ, the sheet governs.
@@ -100,8 +101,9 @@ physician's sheet differ, the sheet governs.
    ולא מתלבטים אם התגובה "מספיק חזקה".
 2. מתקשרים ל-101 ואומרים "תגובה אנפילקטית, הוזרק אפיפן".
    נשארים על הקו. המוקדן/ית ינחה אתכם עד שהעזרה מגיעה.
-3. משכיבים לפי דף ההנחיות של הרופא/ה ולפי הנחיית המוקדן/ית.
-   לא מעמידים את הילד/ה.
+3. לא מעמידים את הילד/ה, לא מושיבים בבת אחת ולא נותנים ללכת,
+   גם אם נראה שיפור, עד שצוות מד"א מגיע ומחליט. ילד/ה שהקושי העיקרי שלו/ה הוא בנשימה יכול/ה להישאר בחצי ישיבה.
+   שאר התנוחה: לפי דף ההנחיות של הרופא/ה ולפי הנחיית המוקדן/ית.
 4. רושמים את שעת ההזרקה ומוסרים לצוות הרפואי.
 5. לא משאירים את הילד/ה לבד אף רגע. צריך עוד עזרה?
    קוראים לאיש צוות נוסף בלי לעזוב.
@@ -110,7 +112,7 @@ physician's sheet differ, the sheet governs.
    הנוסף רשום למטה.
 7. מתקשרים להורים.
 8. גם אחרי הזרקה, הפינוי לבית החולים הוא לפי הנחיית מד"א,
-   ולא לפי שיקול הצוות. לא מחזירים לכיתה ולא שולחים הביתה.
+   ולא לפי שיקול הצוות.
 
 אם אין מזרק זמין: מתקשרים מיד ל-101, אומרים "תגובה אנפילקטית
 ואין מזרק", נשארים על הקו ופועלים לפי המוקדן/ית, ובמקביל
@@ -121,14 +123,25 @@ physician's sheet differ, the sheet governs.
 קופת חולים: [___]   רגישויות נוספות: [___]
 ```
 
-**Sourcing note.** Lines 1 to 3 defer to the treating physician's instruction
-sheet, which is what 0042 section 5.12 requires ("בהתאם להדרכה שניתנה ובהתאם לדף
+**Sourcing note.** Lines 1 and 2, and every positioning point in line 3 beyond
+its one RCUK safety rule, defer to the treating physician's instruction sheet, which is what 0042 section 5.12 requires ("בהתאם להדרכה שניתנה ובהתאם לדף
 ההנחיות של הרופא"). Line 2's dispatcher sentence is 0042 section 5.13. Line 5 is
 0042 section 6.13, which requires that summoning further help never leave the
-student without an adult present. Do not add a positioning rule, a repeat-dose
-rule or a dose to this card: those belong to the physician, and an earlier
+student without an adult present. Line 3 carries ONE positional safety rule, sourced to the Resuscitation Council UK
+guideline "Emergency treatment of anaphylaxis" (May 2021), section 4.4: "Fatality
+can occur within minutes if a patient stands, walks or sits up suddenly. Patients
+must not walk or stand during acute reactions", "Use caution when transferring
+patients who have been stabilised" (hence "until MDA arrives and decides", not an
+open-ended ban), and "Patients with Airway and Breathing problems may prefer to be
+in a semirecumbent position". It does not
+prescribe lying flat or raising the legs; the rest of the positioning stays with
+the physician's sheet and the dispatcher. Do not add any other positioning rule, a
+repeat-dose rule or a dose to this card: those belong to the physician, and an earlier
 version of this template carried an unqualified lie-flat instruction with no
 source and no exception for a child in respiratory distress or vomiting.
+
+Before the physician signs the card, ask them to check that their instruction
+sheet states the positioning to use, since line 3 defers the rest to it.
 
 Tell the family to also request the treatment documentation at the hospital
 after any such event, because that is the Bituach Leumi evidence. Where the
@@ -152,7 +165,7 @@ Use only the two sourced sentences. Do not escalate further on a first reply.
 באמצעות הרשות המקומית, ושאין למנוע מתלמיד להשתתף בפעילות חינוכית
 במוסד החינוכי או מטעמו בהיעדר סייעת, אף שהוא נמצא זכאי לסיוע.
 (תבחין הסייעת עצמו מופיע בסעיף 2.2-91 בהוראת קבע עז/4(א),
-"סייעות רפואיות בחינוך הרגיל".)
+"סייעות רפואיות בחינוך הרגיל", כיום הוראת קבע 0011.)
 
 אשמח לתאם פגישה כדי לסכם את הסידורים לטיול, כולל אישור מראש של
 הרכב המזון או אספקת אוכל מטעמנו.

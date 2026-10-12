@@ -64,6 +64,40 @@ That record is made at the time by a third party. Tell families to request a
 copy: it corroborates the medical documentation and survives the case where the
 family left the ER empty-handed.
 
+## Committee, and how to prepare for it
+
+Source: the allergy criterion page above.
+
+- Comprehensive documents let BTL decide without summoning the child. If
+  eligibility is set on documents alone, the family may ask within 45 days to be
+  examined by a committee with the child present.
+- First determination: two years; then, according to the child's condition,
+  three more; then to age 10.
+- **Free preparation:** "באפשרותכם לקבל ייעוץ והכנה לוועדה בחינם במרכזי השירות של
+  יד מכוונת." Recommend it by name whenever a committee is mentioned.
+- **Daily-living activities:** if summoned with the child and the child needs no
+  help with dressing, eating, bathing, mobility inside the home or personal
+  hygiene, the family may ask that these not be examined. An allergic child is
+  usually independent in all of them, so raise it proactively.
+- Bring a single page listing all the child's medical problems and how they
+  affect the functioning of both the child and the parents.
+- The claim can be filed online or on a downloaded form.
+
+## If the claim is refused: appeal routes and deadlines
+
+Verified 2026-10-12. This resolves the open item of the previous cycle.
+
+| Route | Deadline | Source |
+|---|---|---|
+| Medical decision (the criterion was not met, partial or temporary allowance, retroactivity not maximal): reasoned request to the disabled-child department of the handling branch, heard by the ועדה רפואית לעררים | BTL: "בתוך 90 יום מההחלטה". Kol Zchut: 60 days by law, "המוסד לביטוח לאומי אינו דוחה עררים שהוגשו בתוך 90 יום". Aim for 60 | https://www.btl.gov.il/benefits/Disabled_Child/Pages/%D7%A2%D7%A8%D7%A2%D7%95%D7%A8%20%D7%A2%D7%9C%20%D7%94%D7%97%D7%9C%D7%98%D7%AA%20%D7%94%D7%9E%D7%95%D7%A1%D7%93.aspx |
+| From the appeals committee to the Regional Labour Court, on questions of law only | 60 days | Kol Zchut, ערר על החלטת ועדה רפואית לילד נכה |
+| Non-medical rejection (for example the parent is not insured, the child is not in Israel) to the Labour Court | "בתוך 12 חודשים מיום שהתקבל מכתב ההחלטה" | BTL page above |
+| A new claim | after 6 months, or at once if the condition worsened | Kol Zchut |
+
+The BTL page states the appeals committee's decision is final ("החלטת ועדת העררים
+היא סופית"), and that free legal aid is available from the Ministry of Justice
+legal-aid districts. Always also read the deadline printed on the decision letter.
+
 ## Note on the rate
 
 50% is the rate published for the allergy criterion specifically. The
@@ -77,12 +111,15 @@ Say so directly. A claim on the allergy criterion will not succeed. Two things
 remain available and are worth redirecting to:
 
 1. The Ministry of Education accommodations, which carry no age limit at all.
-2. A different criterion on the same impairment list, which carries no shared age
-   cap. The two that overlap with allergy most often are "בעיות בדרכי הנשימה
-   וסיסטיק פיברוזיס (CF)", reachable on the same active-asthma documentation that
-   serves as the fallback here, and "קצבה לילד עם מספר ליקויים" where several
-   conditions combine. Send the family to the impairment list rather than closing
-   the door; the claim itself belongs with the general BTL process.
+2. A different criterion on the same impairment list, for example "קצבה לילד עם
+   מספר ליקויים" where several conditions combine. Send the family to the
+   impairment list rather than closing the door; the claim itself belongs with the
+   general BTL process. **Corrected 2026-10-12:** earlier versions said the
+   respiratory criterion "בעיות בדרכי הנשימה וסיסטיק פיברוזיס (CF)" was reachable on
+   the active-asthma documentation. It is not: BTL lists only a child on oxygen
+   for most of the day, a child with a tracheostomy, or a child with CF
+   (https://www.btl.gov.il/benefits/Disabled_Child/likuilist/Pages/airways.aspx).
+   Active-asthma documentation is evidence inside the ALLERGY criterion only.
 
 ## Related
 

@@ -6,7 +6,9 @@
       "holdout_before": 0.67,
       "holdout_after": 1.0,
       "buckets": {
-        "improved": ["בקשו ממני לחתום שאני מוותרת על תביעות בגלל האלרגיה של הבת שלי"],
+        "improved": [
+          "בקשו ממני לחתום שאני מוותרת על תביעות בגלל האלרגיה של הבת שלי"
+        ],
         "regressed": [],
         "persistent_fail": [],
         "stable_success": [
@@ -26,6 +28,22 @@
         "[CARRY] Expert MAJOR deferred: adult workplace accommodation under the disability equal-rights framework, and restaurant/food-service allergen disclosure (a different regime from the packaged-food rules, noted as out of scope in references/allergen-labelling.md). Also deferred: a Hebrew chef card, IDF service, self-carry of the injector at the age-10 transition, and allergy alert bracelets.",
         "[CARRY] The BTL appeal deadline is named as existing but not quantified, because it was not verified against btl.gov.il this cycle. Source the number or keep pointing at the rejection letter.",
         "SAFETY: the emergency action-plan card carried an unqualified 'lie the child down, raise the legs' instruction with no source and no exception for respiratory distress or vomiting, inside a card whose header claimed 'no medical judgement calls'. It now defers positioning and repeat-dosing to the treating physician's instruction sheet and the 101 dispatcher, and adds the no-injector-available branch, the do-not-leave-the-child rule (0042 6.13) and the evacuation rule. Never add a clinical rule to that card."
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-12",
+      "lessons": [
+        "ROOT CAUSE OF THE CYCLE: cross-references inside a cited instruction were treated as live. 0042 still cites 2.2-74, 2.2-84 and 2.2-91; the first was cancelled by 0384 (2022), the second by 0083 (2018) then 0382 (2022), the third is now indexed as 0011. v1.1.0 saw the cancellation archive and still told parents to ask the secretary 'by section number'. Rule: open every instruction a cited instruction points to, and check its header for 'תקף ההוראה עד'.",
+        "The medical-assistant criterion had never been read: the skill said allergy 'is included' while 0011's text names seven allergens, a severity record 'ובשילוב של אסטמה אלרגית', a paediatric-allergist document from the last six months, start age 3, and local-authority-only applications. A cross-reference to a criterion is not the criterion.",
+        "An unevidenced eligibility rule from v1.1.0 (over-10s 'reach the respiratory/CF criterion on the active-asthma documentation') survived a full judge+expert cycle and was false (BTL airways.aspx: oxygen, tracheostomy, CF only). Caught only because this cycle's judge fetched the neighbouring criterion page. Every redirect to another benefit needs its own evidence entry.",
+        "allergyisrael.org.il became a placeholder; 14 evidence entries silently pointed at a dead PDF, invisible because they were marked verified_via=pdf (check-sources skips those). Repointed to Mankal siduri=51. Prefer a live primary page over a mirrored PDF so check-sources actually fetches.",
+        "Kupah per-year injector quantity: still unpublished by any source (registry, Maccabi, Meuhedet; Clalit and Leumit no page). Basket status and Maccabi co-pay now stated. Do not state a quantity.",
+        "[CARRY] Maon allergy-aide circular 008-2025 expired 31.8.2026 with no successor found on 2026-10-12. Next cycle: check gov.il for the 2026-27 circular and update maon-ages-0-3.md.",
+        "[CARRY] The current trips instruction 0339 does not serve its body on the Mankal page; the skill relies on the 2019 health-supervision trip guidance. Next cycle: try the 0339 PDF and check whether it carries allergy, medic or overnight provisions.",
+        "[CARRY] Adult workplace accommodation, restaurant allergen disclosure, chef card, IDF, alert bracelets: re-litigated as out of scope for want of an Israeli binding source; revisit if one is found.",
+        "Body is at the 5,000-word cap (4,99x). Any addition next cycle must move text to references first.",
+        "No Phase 5.7 run: description unchanged this cycle."
       ]
     }
   ]
