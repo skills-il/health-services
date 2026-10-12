@@ -81,8 +81,8 @@ One page, laminated, kept with the injector.
 
 **This card is a transcription aid for the plan the treating physician wrote. It
 is not itself a medical instruction, and it carries no dose, no drug choice and no
-positioning judgement of its own beyond one sourced safety rule (line 3: do not
-stand, walk or sit up suddenly).** Have the treating physician review and sign it before
+positioning judgement of its own beyond the RCUK-sourced safety lines in line 3
+(do not stand, walk or sit up suddenly; unconscious and breathing: on the side).** Have the treating physician review and sign it before
 it goes into the emergency box, and copy the clinical lines from their
 instruction sheet rather than from this template. Where the card and the
 physician's sheet differ, the sheet governs.
@@ -102,7 +102,11 @@ physician's sheet differ, the sheet governs.
 2. מתקשרים ל-101 ואומרים "תגובה אנפילקטית, הוזרק אפיפן".
    נשארים על הקו. המוקדן/ית ינחה אתכם עד שהעזרה מגיעה.
 3. לא מעמידים את הילד/ה, לא מושיבים בבת אחת ולא נותנים ללכת,
-   גם אם נראה שיפור, עד שצוות מד"א מגיע ומחליט. ילד/ה שהקושי העיקרי שלו/ה הוא בנשימה יכול/ה להישאר בחצי ישיבה.
+   גם אם נראה שיפור, עד שצוות מד"א מגיע ומחליט.
+   מחוסר/ת הכרה ונושם/ת כרגיל: על הצד, ומשגיחים על הנשימה.
+   בהכרה, אבל חיוור/ת, עם סחרחורת או תחושת עילפון: התנוחה לפי המוקדן/ית.
+   בהכרה, הקושי העיקרי בנשימה, ואין חיוורון, סחרחורת או תחושת עילפון:
+   אפשר להישאר בחצי ישיבה.
    שאר התנוחה: לפי דף ההנחיות של הרופא/ה ולפי הנחיית המוקדן/ית.
 4. רושמים את שעת ההזרקה ומוסרים לצוות הרפואי.
 5. לא משאירים את הילד/ה לבד אף רגע. צריך עוד עזרה?
@@ -124,16 +128,22 @@ physician's sheet differ, the sheet governs.
 ```
 
 **Sourcing note.** Lines 1 and 2, and every positioning point in line 3 beyond
-its one RCUK safety rule, defer to the treating physician's instruction sheet, which is what 0042 section 5.12 requires ("בהתאם להדרכה שניתנה ובהתאם לדף
+its RCUK-sourced safety lines, defer to the treating physician's instruction sheet, which is what 0042 section 5.12 requires ("בהתאם להדרכה שניתנה ובהתאם לדף
 ההנחיות של הרופא"). Line 2's dispatcher sentence is 0042 section 5.13. Line 5 is
 0042 section 6.13, which requires that summoning further help never leave the
-student without an adult present. Line 3 carries ONE positional safety rule, sourced to the Resuscitation Council UK
+student without an adult present. Line 3 carries positional safety lines sourced only to the Resuscitation Council UK
 guideline "Emergency treatment of anaphylaxis" (May 2021), section 4.4: "Fatality
 can occur within minutes if a patient stands, walks or sits up suddenly. Patients
 must not walk or stand during acute reactions", "Use caution when transferring
 patients who have been stabilised" (hence "until MDA arrives and decides", not an
 open-ended ban), and "Patients with Airway and Breathing problems may prefer to be
-in a semirecumbent position". It does not
+in a semirecumbent position" (s.4.4), the latter limited in s.2.3 to "predominantly
+respiratory symptoms (and no evidence of cardiovascular instability)", hence a
+conscious child with pallor, dizziness or feeling faint is positioned per the
+dispatcher; the unconscious-and-breathing line comes first and takes precedence. The side position
+for an unconscious child is s.4.4: "Patients who are breathing normally and
+unconscious should be placed on their side (recovery position). Monitor breathing
+continuously". It does not
 prescribe lying flat or raising the legs; the rest of the positioning stays with
 the physician's sheet and the dispatcher. Do not add any other positioning rule, a
 repeat-dose rule or a dose to this card: those belong to the physician, and an earlier
