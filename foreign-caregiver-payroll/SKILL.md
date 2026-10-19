@@ -1,7 +1,7 @@
 ---
 name: foreign-caregiver-payroll
 description: >-
-  Not legal advice and not a binding payroll calculation.
+  Not a binding payroll calculation.
   Guides Israeli families through legally employing a foreign nursing caregiver
   (metapel siudi zar) at home and computes the real monthly cost. Use when a user
   asks how to hire a foreign caregiver, "kama oleh metapel zar", "ma ha'sachar shel
@@ -100,12 +100,9 @@ different question.
 Be careful with the "+20%" figure. It is **not** law: it comes from a judicial proposal in that
 litigation that did not become the holding, so do not present it as a guaranteed entitlement.
 
-But do not present its absence as safety either. A labour court may still award a global
-supplement on the facts of a particular case. This skill states no figure, because there is no
-percentage that can be quoted in advance; the reliable number is the one in the judgment a
-particular claim is measured against.
-Treat a supplement as a real litigation risk to be priced with a labour lawyer, not as a settled
-entitlement and not as a settled non-entitlement.
+Nor is its absence safety: a labour court may still award a global supplement on the facts of a
+case, and no percentage can be quoted in advance. Treat it as a litigation risk to price with a
+labour lawyer, neither a settled entitlement nor a settled non-entitlement.
 
 ### Step 4: Add the recurring employer costs
 
@@ -127,9 +124,10 @@ the employer must buy private medical insurance, and why there is no health-tax 
 
 Families get this wrong in both directions: they invent deductions that are not permitted, and
 they miss ones that are. The heads and caps below are set by the Foreign Workers Law s.1E(b) and
-the Foreign Workers (Rate of Wage Deductions for Suitable Accommodation) Regulations 5760-2000,
-with the shekel amounts updated annually by a Population Authority director's circular
-(חוזר ראש מינהל). Take the current year's figures from that circular, not from this table.
+the Foreign Workers (Rate of Wage Deductions for Suitable Accommodation) Regulations 5760-2000.
+The housing part of those regulations was **rewritten with effect from 1.9.2026** (amendment
+published 16.7.2026), and the regulation amounts are re-indexed every 1 January. Take the current
+figures from the regulations or the current Kol Zchut page, not from memory.
 
 **One overall cap governs the whole discretionary list: total deductions may not exceed 25% of
 the wage in any one month**, and each requires the worker's written consent, disclosed in the
@@ -140,25 +138,28 @@ employment contract before work starts.
 | National Insurance (worker's share) | **Prohibited.** An employer of a nursing caregiver in the patient's home may not deduct ANY amount for National Insurance. The 3.6% is the employer's own cost, not a shared one |
 | Income tax | Withheld per wage and credit points. Often nil at minimum wage, but credit-point entitlement varies by status, so confirm with the tax authority rather than assuming zero |
 | Medical insurance | Up to HALF the premium the employer paid or undertook to pay, and **not more than 168.80 NIS/month from January 2026** (164.91 in 2025). Note the caregiver-terms page still shows an older 154.29 figure stamped January 2023; use the current year's circular |
-| Accommodation, housing NOT owned by the employer | Regional: Jerusalem 508.62, Tel Aviv 578.36, Haifa/centre 385.61, south 342.80, north 315.41 NIS/month (2026) |
-| Accommodation, housing OWNED by the employer, **which is the patient's-own-home case** | Exactly HALF the above: Jerusalem 254.31, Tel Aviv 289.18, Haifa/centre 192.81, south 171.40, north 157.71 NIS/month (2026) |
-| Related expenses (electricity, water, arnona) | **94.34 NIS/month (2026)** under the line written specifically for a foreign nursing caregiver living in the employer's home (92.16 in 2025). Other sectors use a different figure |
+| Housing, **from 1.9.2026** | One regional ceiling for housing in a permanent building, which is the patient's-own-home case: Jerusalem 1,095, Tel Aviv 1,257, Haifa 999, Centre 1,030, South 999, North 999 NIS/month. The ceiling now INCLUDES arnona, water, electricity, furniture and electrical appliances, so there is no separate utilities deduction. It caps a reimbursement of expenses the employer actually incurred or committed to; it is not a flat sum you may always take |
+| Housing, **1.1.2026 to 31.8.2026** (back-pay only) | Half the regional rate for employer-owned housing plus a separate 94.34 NIS utilities line, both repealed on 1.9.2026. Figures in `references/pay-and-cost-components.md` |
 | Advances against wages | Permitted, with the excess over three months' wage needing written consent and capped at a quarter of the wage |
 | Board (food) | Permitted only if actually agreed and taken in the month; no fixed statutory figure for this sector |
 | Union dues / organisational handling fee, disciplinary fine | Only where an applicable collective agreement or extension order provides for it |
 | Debts owed to the employer | Written consent required, inside the 25% overall cap, with a further quarter-of-wage sub-cap during employment. On the final salary an UNDISPUTED debt balance may be deducted |
 | Work-permit extension fee and re-entry visa | Borne by the worker |
 
-**Correcting an earlier version of this skill:** it said housing and utility deductions
-"generally do not apply" in the patient's own home. That is wrong: the accommodation table has a
-dedicated employer-owned column at half rate and the utilities line is written for exactly this
-worker. The amounts are small, regional and capped, but they apply. See
-`references/domain-checklist.md`.
+**The 1.9.2026 housing reform, and what it does NOT settle.** The amendment deleted the special
+"nursing worker" definition, the employer-owned half rate and the utilities line, leaving one
+regional ceiling per building type. In the patient's own home the ceiling rose about threefold
+(Jerusalem from 254.31 plus 94.34 to 1,095). That is not permission to deduct it: the regulation
+caps a reimbursement of what the employer "actually spent or committed to", and does not say how
+that is measured in a flat the family already owns (where the patient RENTS, the worker's share of
+rent, arnona and utilities is a measurable expense). Whatever the amount, document the actual
+expense, and get a labour lawyer's view before going above the old figures. Before deducting a higher
+amount, get the worker's fresh written consent to the new figure, and stay inside the 25% cap.
 
 Two rules that bite:
 
-- **A deduction not taken cannot be taken retroactively.** If you did not deduct accommodation,
-  utilities, medical insurance or board in the month, you cannot recover it later.
+- **A deduction not taken cannot be taken retroactively.** If you did not deduct housing, medical
+  insurance or board in the month, you cannot recover it later.
 - **Over-deducting is a criminal offence**, not a civil dispute. Check the current circular
   amount before deducting, and put the agreed deductions in the written contract.
 
@@ -202,33 +203,39 @@ Three consequences families miss:
 
 **Recuperation pay (havraa)** becomes PAYABLE only after the worker completes 12 full months,
 but it is then paid **retroactively from the first day of work**, so the liability ACCRUES from
-month one. Reserve it monthly and pay it at the anniversary. Treating it as a zero-cost item in
+month one. Reserve it monthly and pay it at the anniversary. If the employment ends before 12
+months no havraa is owed, unless the dismissal was in bad faith shortly before the year. Treating it as a zero-cost item in
 year one is the single most common under-reserving error: five days at the current tariff all
 fall due in one month. The
 private-sector tariff is **451.50 NIS per day** for havraa-year 2026 (1.7.2025 to 30.6.2026).
 **This was updated on 18.08.2026, retroactively.** An employer who already paid this havraa
-year at the previous 418 NIS tariff owes the differential up to 451.50. Check the tariff before
-quoting: it is reset annually and the update can land mid-year and reach backwards. Days are
-paid by seniority:
+year at the previous 418 NIS tariff owes the differential up to 451.50. As of 19.10.2026 no tariff has
+been published for the havraa-year that began on 1.7.2026 (Kol Zchut still gives 451.50); the last
+reset landed in August with retroactive effect, so check before quoting. Days are paid by the year of employment they are FOR:
 
-"Seniority" below means COMPLETED years. There is no entitlement at all during the first 12
-months; the 5-day row is the first year of entitlement, after 12 months are complete.
+| Year of employment | Havraa days |
+|--------------------|-------------|
+| 1st | 5 |
+| 2nd and 3rd | 6 |
+| 4th to 10th | 7 |
+| 11th to 15th | 8 |
+| 16th to 19th | 9 |
+| 20th onward | 10 |
 
-| Completed years | Havraa days |
-|-----------------|-------------|
-| 1 | 5 |
-| 2-3 | 6 |
-| 4-10 | 7 |
-| 11-15 | 8 |
-| 16-19 | 9 |
-| 20+ | 10 |
+Read it by the year being worked: a worker who has COMPLETED one year is in the 2nd year and
+accrues 6 days (Kol Zchut's example pays "6 days for the second year"). Keying it on completed
+years under-reserves one day at every band edge.
 
 **Annual leave** accrues by seniority. For a 6-day work week (typical for a live-in
 caregiver), quote BOTH columns. The gross figure includes the weekly rest day; the NET figure is
 how many days the worker is actually absent, and it is the one that answers "how many days off
-does she get" and the one leave redemption is computed on:
+does she get" and the one leave redemption is computed on. Unlike havraa, leave seniority counts
+CALENDAR years: the Annual Leave Law's "work year" starts on 1 January, so the row is the number of
+calendar years (January to December) in which she has worked for you, counting the current one. A
+worker who started in October 2020 is on the year-7 row in 2026. The first calendar year is
+prorated to the days actually worked:
 
-| Seniority | Net days absent | Gross days |
+| Calendar year of employment | Net days absent | Gross days |
 |-----------|-----------------|------------|
 | Years 1-5 | 14 | 16 |
 | Year 6 | 16 | 18 |
@@ -263,14 +270,15 @@ caregiver from level 3 upward. Use the foreign column for this skill.
 
 | Level | Employing a FOREIGN caregiver | Employing an Israeli caregiver |
 |-------|------------------------------|--------------------------------|
-| 1 | 1,705 NIS | 1,705 NIS |
-| 2 | 2,480 NIS | 2,480 NIS |
-| 3 | 3,472 NIS | 4,216 NIS |
-| 4 | 4,464 NIS | 5,208 NIS |
-| 5 | 5,456 NIS | 6,448 NIS |
-| 6 | 6,448 NIS | 7,440 NIS |
+| 1 | 1,708 NIS | 1,708 NIS |
+| 2 | 2,484 NIS | 2,484 NIS |
+| 3 | 3,478 NIS | 4,223 NIS |
+| 4 | 4,471 NIS | 5,217 NIS |
+| 5 | 5,465 NIS | 6,458 NIS |
+| 6 | 6,458 NIS | 7,452 NIS |
 
-All amounts as of 01.04.2026. **Watch the collision: 6,448 NIS is level 6 in the foreign column
+All amounts as of 01.08.2026 (they were 1,705 / 2,480 / 3,472 / 4,464 / 5,456 / 6,448 in the foreign
+column from 01.04.2026). **Watch the collision: 6,458 NIS is level 6 in the foreign column
 and level 5 in the Israeli one.** An agent that reads a Bituach Leumi page without noticing which
 column it is in will be one level out, which is roughly a thousand shekels a month.
 
@@ -306,8 +314,9 @@ incomplete without these:
   if no one else is authorised on the bank account it is frozen until a probate or inheritance
   order, which takes weeks. Keep the reserve somewhere that stays reachable.
 - **Income tax.** At minimum-wage level the caregiver is generally below the income-tax
-  threshold, so usually no income tax is withheld and no tax-deduction file is opened; National
-  Insurance is the main statutory deduction. Confirm if the wage is well above minimum.
+  threshold, so usually no income tax is withheld and no tax-deduction file is opened. National
+  Insurance is the employer's own cost and is NOT deducted from the worker (Step 4a). Confirm if
+  the wage is well above minimum.
 
 ### Step 9: Produce the monthly cost estimate
 
@@ -345,7 +354,7 @@ Actions:
 4. Severance reserve: 8.33% = about 537 a month, accruing from month 1, payable only on a severance-triggering exit.
 5. Havraa: accrue 451.50 x 5 / 12 = about 188 a month from month 1. Nothing is PAID until 12 full months are complete, and it is then paid retroactively from the first day, so the money must already be set aside.
 6. Medical insurance: ask for the insurer quote; up to half the premium may be deducted, within the current annual cap.
-7. Subtract the **foreign-caregiver** level-5 benefit, 5,456 NIS, from the gross monthly cost to get net out-of-pocket. Do not use 6,448, which is the level-5 figure in the ISRAELI-caregiver column.
+7. Subtract the **foreign-caregiver** level-5 benefit, 5,465 NIS (from 01.08.2026), from the gross monthly cost to get net out-of-pocket. Do not use 6,458, which is the level-5 figure in the ISRAELI-caregiver column.
 
 Result: an itemized estimate with each component labeled, the six-month pension delay stated, and
 the reminder that the in-lieu-of-pension and severance amounts are accrued for termination rather
@@ -362,7 +371,7 @@ start. Result: a lawful holiday list settled up front, avoiding a dispute later.
 ## Bundled Resources
 
 ### Scripts
-- `scripts/calc_caregiver_cost.py` -- optional helper that itemizes the monthly employer cost from wage, completed years, month of employment, care level and an insurance premium. It applies the month-7 start for the in-lieu-of-pension leg, accrues havraa from month one while labelling it not-yet-payable, applies the accommodation (`--region`) and utilities (`--utilities`) deductions against the 25% cap, and refuses to compute on a zero, negative or implausible wage, or on a month and seniority that contradict each other. Every constant it uses is also stated in prose above, so an agent without a shell can reproduce it by hand. Run: `python scripts/calc_caregiver_cost.py --help`
+- `scripts/calc_caregiver_cost.py` -- optional helper that itemizes the monthly employer cost from wage, completed years, month of employment, care level and an insurance premium. It applies the month-7 start for the in-lieu-of-pension leg, accrues havraa from month one while labelling it not-yet-payable, applies a housing deduction only for an actual monthly expense you state (`--housing-expense`), capped at the 1.9.2026 regional ceiling (`--region`) and checked against the 25% cap, uses the havraa days of the year being worked, and refuses to compute on a zero, negative or implausible wage, or on a month and seniority that contradict each other. Every constant it uses is also stated in prose above, so an agent without a shell can reproduce it by hand. Run: `python scripts/calc_caregiver_cost.py --help`
 
 ### References
 - `references/employment-process.md` -- the permit, eligibility groups, and bureau steps in detail.
@@ -374,34 +383,24 @@ start. Result: a lawful holiday list settled up front, avoiding a dispute later.
   monthly 12.5% deposit applies to everyone. For a caregiver employed in the patient's own
   home it does not; the family pays the worker directly at termination. Stating it the wrong
   way creates a phantom monthly payment.
-- **Do not reserve only 6% for severance.** The 6% inside the fund's 12.5% discharges severance
-  only inside a formal pension-fund arrangement. A home employer paying directly owes full
-  statutory severance, one month per year (about one twelfth of wage), so reserve pension 6.5%
-  plus that full severance accrual, not 6%. Reserving 12.5% under-funds the eventual payout.
+- **Do not reserve only 6% for severance.** A home employer paying directly owes full statutory
+  severance (one twelfth of wage a month) plus the 6.5% from month 7, not the fund's 12.5%.
 - **No hourly overtime for live-in caregivers, and no statutory "+20%".** Do not compute
   time-and-a-half on a daily clock, and do not add a 20% live-in supplement as if it were law.
   It is a judicial proposal that did not become the holding. A labour court may still award a
   global supplement on the facts of a particular case, so its absence is not guaranteed either,
   but there is no percentage you can quote in advance.
-- **Havraa is not free in year one.** It becomes payable only after 12 full months, but it is
-  then paid retroactively from the first day of work. Accrue it from month one and pay it at the
-  anniversary. Reserving nothing for it is the error, not reserving it.
-- **Use the 3.6% National Insurance rate, not 2%, and apply it to the full wage.** The rate rose
-  in January 2025 and the 5,500 NIS ceiling was abolished in 2022. And it is entirely the
-  employer's: deducting any part of it from a nursing caregiver's wage is prohibited.
-- **Never withhold a pension share from the worker.** A foreign worker cannot be insured in an
-  Israeli pension fund, so there is no fund to remit it to. The employer OWES the amount at the
-  end of employment; withholding it from wages is an unlawful deduction, and unlawful deduction
-  is a criminal offence rather than a civil dispute.
-- **Housing and utility deductions DO apply to a live-in caregiver in the patient's own home.**
-  An earlier version of this skill said they generally do not. They do, at the reduced
-  employer-owned-housing rate, plus a utilities line written specifically for this worker. See
-  Step 4a, and note the 25% overall cap and that an un-taken deduction cannot be taken later.
-- **Check the havraa tariff every time.** It resets annually and the update can be published
-  mid-year with retroactive effect: the 2026 tariff moved from 418 to 451.50 NIS on 18.08.2026,
-  reaching back to 1.7.2025, with a duty to pay differentials on havraa already paid.
+- **Havraa is not free in year one, and it is keyed by the year being worked.** Accrue it from
+  month one; a worker with one completed year accrues 6 days, not 5. Re-check the tariff, which
+  moved retroactively on 18.08.2026.
+- **Nothing for National Insurance or pension is ever deducted from the worker.** The 3.6% is the
+  employer's alone, on the full wage; the pension substitute is a debt to the worker.
+- **The housing-deduction rules changed on 1.9.2026. Do not quote the old half-rate table or the
+  94.34 utilities line for current months.** Since then there is one regional ceiling (for
+  example Jerusalem 1,095, Tel Aviv 1,257) that already includes utilities, and it caps a
+  reimbursement of expenses actually incurred, not a sum to deduct automatically. See Step 4a.
 - **Read the right benefit column.** Bituach Leumi publishes separate maximum amounts for
-  employing a foreign versus an Israeli caregiver, diverging from level 3, and 6,448 NIS appears
+  employing a foreign versus an Israeli caregiver, diverging from level 3, and 6,458 NIS appears
   in both at different levels.
 - **Vacation and holiday days are entitlements, not automatic monthly cash.** They become a cash
   cost mainly when paid out (unused leave on termination, or a holiday worked). Do not double-count
@@ -411,24 +410,20 @@ start. Result: a lawful holiday list settled up front, avoiding a dispute later.
 
 | Source | URL | What to check |
 |--------|-----|---------------|
-| Minimum wage (Kol Zchut) | https://www.kolzchut.org.il/he/שכר_מינימום | Current monthly and hourly minimum wage |
-| Caregiver employment terms (Kol Zchut) | https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל | Wage floor, no overtime, weekly rest, medical insurance, 9 holidays |
-| Foreign-worker deposit (Kol Zchut) | https://www.kolzchut.org.il/he/הפקדת_פיקדון_חודשי_עבור_עובדים_זרים | 12.5% breakdown and the private-home exemption |
+| Caregiver employment terms (Kol Zchut) | https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל | Wage floor, overtime, rest, holidays |
+| Recuperation pay (Kol Zchut) | https://www.kolzchut.org.il/he/דמי_הבראה | Current tariff; it can move retroactively |
+| Housing deduction (Kol Zchut) | https://www.kolzchut.org.il/he/ניכוי_הוצאות_מגורים_לעובד_זר | Ceilings from 1.9.2026 |
+| In lieu of pension (Kol Zchut) | https://www.kolzchut.org.il/he/תשלומים_במקום_ביטוח_פנסיוני_לעובד_זר_בסיעוד_שמועסק_בבית_המטופל | 8.33% + 6.5% from month 7 |
 | National Insurance for caregiver (Kol Zchut) | https://www.kolzchut.org.il/he/דיווח_ותשלום_דמי_ביטוח_לאומי_עבור_עובד_זר_בסיעוד | 3.6% rate and the abolished ceiling |
-| Recuperation pay (Kol Zchut) | https://www.kolzchut.org.il/he/דמי_הבראה | The CURRENT havraa tariff and days by seniority. It resets annually and can be updated mid-year with retroactive effect, so read it every time |
-| Permitted deductions (Kol Zchut) | https://www.kolzchut.org.il/he/ניכויים_מותרים_משכר_עובד_זר | The 25% overall cap, the medical-insurance cap for a nursing worker, the prohibition on deducting National Insurance, and the no-retroactive-deduction rule |
-| Housing and utilities deduction (Kol Zchut) | https://www.kolzchut.org.il/he/ניכוי_הוצאות_מגורים_לעובד_זר | The regional accommodation table, the half rate where the housing is the employer's own, and the utilities line for a caregiver living in the employer's home |
-| In lieu of pension (Kol Zchut) | https://www.kolzchut.org.il/he/תשלומים_במקום_ביטוח_פנסיוני_לעובד_זר_בסיעוד_שמועסק_בבית_המטופל | That a foreign worker cannot be insured in an Israeli pension fund, and the 12.5% / 8.33% + 6.5% split with the month-7 start |
-| Sick days (Kol Zchut) | https://www.kolzchut.org.il/he/דמי_מחלה | Accrual and the 0/50/full payment ladder |
-| Annual leave, 6-day week (Kol Zchut) | https://www.kolzchut.org.il/he/חישוב_מספר_ימי_החופשה_השנתית_לעובדים_במקומות_עבודה_שבהם_מונהג_שבוע_עבודה_בן_6_ימים | Vacation days by seniority |
-| Employment permit (Kol Zchut) | https://www.kolzchut.org.il/he/קבלת_היתר_להעסקת_עובד_זר_בסיעוד | Eligibility groups and the permit process |
-| Long-term-care benefit (Bituach Leumi) | https://www.btl.gov.il/benefits/Long_Term_Care/Pages/ovedZar.aspx | Benefit levels, amounts, direct vs care-company |
+| Both benefit columns (Bituach Leumi) | https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx | Foreign-caregiver and Israeli-caregiver maximums side by side |
+
+Full source list: `references/pay-and-cost-components.md`.
 
 ## Troubleshooting
 
 ### Error: "The cost looks too high / too low"
 Cause: A component was applied wrong. The usual suspects: havraa treated as zero in year one, the 6.5% in-lieu-of-pension charged from month 1 instead of month 7, a 20% supplement, the deposit fund, a stale havraa tariff, or the Israeli-caregiver benefit column.
-Solution: Re-check Steps 4 to 7. havraa accrues from month 1 and is paid at 12 months retroactively to day one, at 451.50 for havraa-year 2026; the 6.5% starts in month 7; there is no statutory +20%; a private household in the nursing sector does not deposit; and the level-5 foreign-caregiver benefit is 5,456, not 6,448.
+Solution: Re-check Steps 4 to 7. havraa accrues from month 1 and is paid at 12 months retroactively to day one, at 451.50 for havraa-year 2026, by the year of employment being worked (a worker in the 2nd year accrues 6 days, not 5); the 6.5% starts in month 7; there is no statutory +20%; a private household in the nursing sector does not deposit; and the level-5 foreign-caregiver benefit is 5,465 from 01.08.2026, not 6,458.
 
 ### Error: "Which minimum wage figure is current?"
 Cause: Minimum wage updates on a set date and stale figures circulate.

@@ -32,6 +32,22 @@ https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעו
 National Insurance source: https://www.kolzchut.org.il/he/דיווח_ותשלום_דמי_ביטוח_לאומי_עבור_עובד_זר_בסיעוד
 and https://www.btl.gov.il/Insurance/Maasik/Pages/mekabelSiud.aspx
 
+## Housing deduction (changed 1.9.2026)
+
+From 1.9.2026 (Foreign Workers (Rate of Wage Deductions for Suitable Accommodation) (Amendment)
+Regulations 5786-2026, published 16.7.2026) the employer may deduct, as a reimbursement of housing
+expenses it actually incurred or committed to, at most this regional ceiling for a permanent
+building: Jerusalem 1,095, Tel Aviv 1,257, Haifa 999, Centre 1,030, South 999, North 999 NIS/month.
+The ceiling includes arnona, water, electricity, furniture and electrical appliances. The separate
+utilities line (94.34 for a nursing caregiver in the employer's home) and the half rate for
+employer-owned housing (Jerusalem 254.31, Tel Aviv 289.18, Haifa/centre 192.81, south 171.40,
+north 157.71) applied only until 31.8.2026, so use them for back-pay on January to August 2026. The
+amounts are re-indexed every 1 January (80% rent index, 20% CPI). How the "actually incurred"
+expense is measured when the worker lives in the family's own flat is not settled by the text.
+
+Source: https://www.kolzchut.org.il/he/ניכוי_הוצאות_מגורים_לעובד_זר and
+https://he.wikisource.org/wiki/תקנות_עובדים_זרים_(שיעור_ניכויים_מהשכר_בעד_מגורים_הולמים)
+
 ## Deposit fund: the home-employer exemption
 
 The standard foreign-worker deposit is 12.5% of wages (6% in lieu of severance + 6.5% in lieu of
@@ -71,24 +87,31 @@ https://www.kolzchut.org.il/he/תשלומים_במקום_ביטוח_פנסיונ
 
 Tariff: **451.50 NIS per day** (private sector) for havraa-year 2026, i.e. 1.7.2025 to 30.6.2026. Updated 18.08.2026 RETROACTIVELY: an employer who already paid this havraa year at the previous 418 NIS owes the differential. Public sector is higher. Payment becomes due only after 12 full months, but it is then paid RETROACTIVELY from the worker's first day, so the liability ACCRUES from month one and must be reserved monthly (kolzchut/דמי_הבראה: "זכאי לתשלום דמי הבראה רטרואקטיבית, החל מיום עבודתו הראשון"). Re-read the source every cycle; this figure has moved mid-year.
 
-| Seniority | Days |
-|-----------|------|
-| Year 1 | 5 |
-| Years 2-3 | 6 |
-| Years 4-10 | 7 |
-| Years 11-15 | 8 |
-| Years 16-19 | 9 |
-| Year 20+ | 10 |
+| Year of employment | Days |
+|--------------------|------|
+| 1st | 5 |
+| 2nd-3rd | 6 |
+| 4th-10th | 7 |
+| 11th-15th | 8 |
+| 16th-19th | 9 |
+| 20th onward | 10 |
+
+The row is the year being worked, not years completed: after one completed year the worker is in
+the 2nd year and accrues 6 days (Kol Zchut's worked example: "6 ימי הבראה עבור השנה השנייה").
+As of 19.10.2026 no tariff has been published for the havraa-year that began 1.7.2026; Kol Zchut
+still gives 451.50.
 
 Source: https://www.kolzchut.org.il/he/דמי_הבראה
 
 ## Annual leave (6-day work week)
 
-Kol Zchut publishes TWO columns. Gross includes the weekly rest day; NET is the number of days
+Leave seniority counts CALENDAR years (the Annual Leave Law's work year starts on 1 January), not
+anniversaries: the row is the number of calendar years in which the employment existed, including
+the current one, and the first year is prorated. Kol Zchut publishes TWO columns. Gross includes the weekly rest day; NET is the number of days
 the worker is actually absent, and leave redemption (pidyon chufsha) is computed on the NET
 figure. Quoting the gross column alone over-states the liability.
 
-| Seniority | Net days absent | Gross days |
+| Calendar year of employment | Net days absent | Gross days |
 |-----------|-----------------|------------|
 | Years 1-5 | 14 | 16 |
 | Year 6 | 16 | 18 |
@@ -113,8 +136,28 @@ Source: https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_ב
 
 ## Long-term-care (nursing) benefit offset
 
-Paid in 6 levels, and Bituach Leumi publishes TWO columns. Employing a FOREIGN caregiver: L1 1,705 / L2 2,480 / L3 3,472 / L4 4,464 / L5 5,456 / L6 6,448. Employing an ISRAELI caregiver: L1 1,705 / L2 2,480 / L3 4,216 / L4 5,208 / L5 6,448 / L6 7,440. Use the foreign column for this skill, and note that 6,448 sits in both at different levels
-(as of 01.04.2026). The recipient may employ a foreign caregiver directly (cash) or through a
+Paid in 6 levels, and Bituach Leumi publishes TWO columns. Employing a FOREIGN caregiver: L1 1,708 / L2 2,484 / L3 3,478 / L4 4,471 / L5 5,465 / L6 6,458. Employing an ISRAELI caregiver: L1 1,708 / L2 2,484 / L3 4,223 / L4 5,217 / L5 6,458 / L6 7,452. Use the foreign column for this skill, and note that 6,458 sits in both at different levels
+(as of 01.08.2026; the foreign column was 1,705 / 2,480 / 3,472 / 4,464 / 5,456 / 6,448 from 01.04.2026). The recipient may employ a foreign caregiver directly (cash) or through a
 care company. Subtract the relevant level from the gross monthly cost to estimate net cost.
 
-Source: https://www.btl.gov.il/benefits/Long_Term_Care/Pages/ovedZar.aspx
+Source: https://www.btl.gov.il/benefits/Long_Term_Care/Pages/ovedZar.aspx and
+https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx
+
+## Full source list
+
+| Source | URL | What to check |
+|--------|-----|---------------|
+| Minimum wage (Kol Zchut) | https://www.kolzchut.org.il/he/שכר_מינימום | Current monthly and hourly minimum wage |
+| Caregiver employment terms (Kol Zchut) | https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל | Wage floor, no overtime, weekly rest, medical insurance, 9 holidays |
+| Foreign-worker deposit (Kol Zchut) | https://www.kolzchut.org.il/he/הפקדת_פיקדון_חודשי_עבור_עובדים_זרים | 12.5% breakdown and the private-home exemption |
+| National Insurance for caregiver (Kol Zchut) | https://www.kolzchut.org.il/he/דיווח_ותשלום_דמי_ביטוח_לאומי_עבור_עובד_זר_בסיעוד | 3.6% rate and the abolished ceiling |
+| Recuperation pay (Kol Zchut) | https://www.kolzchut.org.il/he/דמי_הבראה | Current tariff and days by year of employment |
+| Permitted deductions (Kol Zchut) | https://www.kolzchut.org.il/he/ניכויים_מותרים_משכר_עובד_זר | 25% overall cap, medical-insurance cap, no National Insurance deduction, no retroactive deduction |
+| Housing deduction (Kol Zchut) | https://www.kolzchut.org.il/he/ניכוי_הוצאות_מגורים_לעובד_זר | Ceilings from 1.9.2026 and the repealed pre-September table |
+| Housing-deduction regulations, consolidated (Wikisource) | https://he.wikisource.org/wiki/תקנות_עובדים_זרים_(שיעור_ניכויים_מהשכר_בעד_מגורים_הולמים) | Regulation 2 as replaced on 1.9.2026, the "actually incurred" definition, 1 January indexation |
+| In lieu of pension (Kol Zchut) | https://www.kolzchut.org.il/he/תשלומים_במקום_ביטוח_פנסיוני_לעובד_זר_בסיעוד_שמועסק_בבית_המטופל | Pension cannot be insured; 12.5% / 8.33% + 6.5% with the month-7 start |
+| Sick days (Kol Zchut) | https://www.kolzchut.org.il/he/דמי_מחלה | Accrual and the 0 / 50% / full ladder |
+| Annual leave, 6-day week (Kol Zchut) | https://www.kolzchut.org.il/he/חישוב_מספר_ימי_החופשה_השנתית_לעובדים_במקומות_עבודה_שבהם_מונהג_שבוע_עבודה_בן_6_ימים | Net and gross days |
+| Employment permit (Kol Zchut) | https://www.kolzchut.org.il/he/קבלת_היתר_להעסקת_עובד_זר_בסיעוד | Eligibility groups and the permit process |
+| Long-term-care benefit (Bituach Leumi) | https://www.btl.gov.il/benefits/Long_Term_Care/Pages/ovedZar.aspx | Direct vs care-company, foreign-caregiver amounts |
+| Both benefit columns (Bituach Leumi) | https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx | Foreign and Israeli maximums side by side |

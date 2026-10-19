@@ -6,8 +6,10 @@ without this script. All rates are sourced in evidence.json and references/.
 
 Usage:
   python scripts/calc_caregiver_cost.py --help
-  python scripts/calc_caregiver_cost.py --wage 6443.85 --seniority-year 1 --care-level 5
-  python scripts/calc_caregiver_cost.py --care-level 6 --insurance 250 --seniority-year 4
+  python scripts/calc_caregiver_cost.py --wage 6443.85 --completed-years 1 --month 14 --care-level 5
+  python scripts/calc_caregiver_cost.py --care-level 6 --insurance 250 --completed-years 4 --month 50
+  python scripts/calc_caregiver_cost.py --completed-years 0 --month 3 --care-level 5 \
+      --region jerusalem --housing-expense 400
 
 Notes:
   - Amounts are in shekels per month unless stated otherwise.
@@ -52,25 +54,30 @@ MEDICAL_DEDUCTION_SHARE = 0.5
 # All discretionary deductions together may not exceed this share of the wage in one month.
 TOTAL_DEDUCTION_CAP_SHARE = 0.25
 
-# Accommodation deduction, 2026, for housing OWNED by the employer (exactly half the standard
-# regional rate). This is the patient's-own-home case. NIS per month.
-ACCOMMODATION_EMPLOYER_OWNED = {
-    "jerusalem": 254.31, "tel-aviv": 289.18, "centre": 192.81,
-    "south": 171.40, "north": 157.71,
+# Housing deduction ceiling from 1.9.2026, permanent building (the patient's-own-home case),
+# NIS per month. Foreign Workers (Rate of Wage Deductions for Suitable Accommodation)
+# (Amendment) Regulations 5786-2026, regulation 2(a). The ceiling INCLUDES arnona, water,
+# electricity, furniture and appliances, and it caps a reimbursement of expenses the employer
+# actually incurred: it is not a flat amount. The old half rate for employer-owned housing and
+# the separate 94.34 utilities line were repealed on 1.9.2026. Re-indexed every 1 January.
+HOUSING_CAP_PERMANENT = {
+    "jerusalem": 1095.0, "tel-aviv": 1257.0, "haifa": 999.0,
+    "centre": 1030.0, "south": 999.0, "north": 999.0,
 }
-# Related expenses (electricity, water, arnona), 2026, on the line written specifically for a
-# foreign NURSING caregiver living in the employer's home.
-UTILITIES_DEDUCTION = 94.34
 
-# Recuperation days by seniority year.
+# Recuperation days by the YEAR OF EMPLOYMENT being worked (1 = the first year).
+#
+# Kol Zchut's table is "שנה ראשונה 5, שנה שנייה ושלישית 6, ..." and its worked example pays
+# "6 ימי הבראה עבור השנה השנייה", so a worker who has COMPLETED one year accrues at 6 days. An
+# earlier version passed completed years straight in, which was one day short at every band edge.
 #
 # Havraa becomes PAYABLE only after 12 completed months, but it is then paid retroactively to
 # the first day of work (kolzchut/דמי_הבראה: "זכאי לתשלום דמי הבראה רטרואקטיבית, החל מיום עבודתו
 # הראשון"). So the LIABILITY accrues from month one. An earlier version of this script returned 0
 # days for an incomplete first year, which told families to reserve nothing and then landed them
-# with five days' worth of havraa falling due in a single month. Year 0 accrues at the year-1 rate
-# and the caller is told the money is accrued but not yet payable.
-def havraa_days(year: int) -> int:
+# with five days' worth of havraa falling due in a single month.
+def havraa_days(employment_year: int) -> int:
+    year = employment_year
     if year <= 1:
         return 5
     if year <= 3:
@@ -83,15 +90,16 @@ def havraa_days(year: int) -> int:
         return 9
     return 10
 
-# Long-term-care monthly cash benefit by level (effective 01.04.2026), used as an offset.
+# Long-term-care monthly cash benefit by level (effective 01.08.2026), used as an offset.
 # NOTE: this is the FOREIGN-caregiver column. Bituach Leumi publishes a second, higher column
-# for an employer of an ISRAELI caregiver (levels 3-6: 4,216 / 5,208 / 6,448 / 7,440), and
-# 6,448 appears in BOTH tables at different levels. Do not mix them.
-BENEFIT_BY_LEVEL = {1: 1705, 2: 2480, 3: 3472, 4: 4464, 5: 5456, 6: 6448}
-BENEFIT_BY_LEVEL_ISRAELI = {1: 1705, 2: 2480, 3: 4216, 4: 5208, 5: 6448, 6: 7440}
+# for an employer of an ISRAELI caregiver (levels 3-6: 4,223 / 5,217 / 6,458 / 7,452), and
+# 6,458 appears in BOTH tables at different levels. Do not mix them.
+BENEFIT_BY_LEVEL = {1: 1708, 2: 2484, 3: 3478, 4: 4471, 5: 5465, 6: 6458}
+BENEFIT_BY_LEVEL_ISRAELI = {1: 1708, 2: 2484, 3: 4223, 4: 5217, 5: 6458, 6: 7452}
 
 
-def validate(wage: float, year: int, insurance: float, month: int) -> list:
+def validate(wage: float, year: int, insurance: float, month: int,
+             region: str = None, housing_expense: float = None) -> list:
     """Blocking input problems. Each exists because the tool would otherwise return a
     confident, plausible, wrong number rather than an error."""
     problems = []
@@ -105,39 +113,46 @@ def validate(wage: float, year: int, insurance: float, month: int) -> list:
         problems.append(f"completed years is negative ({year}).")
     if month < 1:
         problems.append(f"month of employment must be 1 or more (got {month}).")
+    if housing_expense is not None and housing_expense < 0:
+        problems.append(f"housing expense is negative ({housing_expense}).")
+    if (region is None) != (housing_expense is None):
+        problems.append("--region and --housing-expense go together: the deduction is the actual "
+                        "monthly housing expense, capped at the regional ceiling.")
     if wage > 200000:
         problems.append(f"wage of {wage} is implausible for this sector; check the units.")
-    # month and completed years describe the same employment and must agree.
-    if month >= 1 and year >= 1 and month < 12 * year:
+    # month and completed years describe the same employment and must agree exactly: in month m
+    # the worker has completed (m - 1) // 12 full years.
+    if month >= 1 and year >= 0 and (month - 1) // 12 != year:
         problems.append(
-            f"--month {month} and --completed-years {year} are inconsistent: {year} completed "
-            f"year(s) means the employment has already run at least {12 * year} months.")
-    elif month >= 1 and year >= 0 and month >= 12 * (year + 1) + 12:
-        problems.append(
-            f"--month {month} and --completed-years {year} are inconsistent the other way: by "
-            f"month {month} the worker has completed about {month // 12} years, not {year}.")
+            f"--month {month} and --completed-years {year} are inconsistent: in month {month} "
+            f"the worker has completed {(month - 1) // 12} full year(s), not {year}.")
     return problems
 
 
 def compute(wage: float, year: int, level: int, insurance: float, month: int = 12,
-            region: str = None, utilities: bool = False) -> dict:
+            region: str = None, housing_expense: float = None) -> dict:
     below_minimum = wage < MIN_WAGE_MONTHLY
     wage = max(wage, MIN_WAGE_MONTHLY)
     national_insurance = round(wage * NATIONAL_INSURANCE_RATE, 2)
     # The in-lieu-of-pension leg accrues only from month 7.
     pension = round(wage * PENSION_RATE, 2) if month >= PENSION_FIRST_MONTH else 0.0
     severance_reserve = round(wage * SEVERANCE_RESERVE_FRACTION, 2)
-    havraa_month = round(HAVRAA_PER_DAY * havraa_days(year) / 12, 2)
+    # `year` is COMPLETED years, so the year being worked (and accrued) is year + 1.
+    havraa_month = round(HAVRAA_PER_DAY * havraa_days(year + 1) / 12, 2)
     havraa_payable = year >= 1
     # The employer may recover part of the medical premium from the wage, subject to a cap.
     medical_deduction = round(min(insurance * MEDICAL_DEDUCTION_SHARE, MEDICAL_DEDUCTION_MAX), 2)
     net_insurance_cost = round(insurance - medical_deduction, 2)
-    # Step 4a deductions the employer may recover from the wage, all inside the 25% cap.
-    accommodation_deduction = ACCOMMODATION_EMPLOYER_OWNED[region] if region else 0.0
-    utilities_deduction = UTILITIES_DEDUCTION if utilities else 0.0
+    # Step 4a deductions the employer may recover from the wage, all inside the 25% cap. The
+    # housing deduction is the actual expense, never more than the regional ceiling.
+    housing_cap = HOUSING_CAP_PERMANENT[region] if region else 0.0
+    accommodation_deduction = (round(min(housing_expense, housing_cap), 2)
+                               if region else 0.0)
+    housing_capped = bool(region) and housing_expense > housing_cap
+    # The expense itself is a real employer cost; only the recovered part comes back from the wage.
+    housing_cost = round(housing_expense, 2) if region else 0.0
     cap = round(wage * TOTAL_DEDUCTION_CAP_SHARE, 2)
-    deductions_requested = round(medical_deduction + accommodation_deduction
-                                 + utilities_deduction, 2)
+    deductions_requested = round(medical_deduction + accommodation_deduction, 2)
     deductions_allowed = round(min(deductions_requested, cap), 2)
     capped = deductions_requested > cap
     # Only the medical share is already netted off the premium line; the rest reduces cost here.
@@ -145,7 +160,7 @@ def compute(wage: float, year: int, level: int, insurance: float, month: int = 1
     if other_deductions < 0:
         other_deductions = 0.0
     gross = round(wage + national_insurance + pension + severance_reserve
-                  + havraa_month + net_insurance_cost - other_deductions, 2)
+                  + havraa_month + net_insurance_cost + housing_cost - other_deductions, 2)
     offset = BENEFIT_BY_LEVEL.get(level, 0)
     net = round(gross - offset, 2)
     return {
@@ -159,7 +174,9 @@ def compute(wage: float, year: int, level: int, insurance: float, month: int = 1
         "havraa_monthly_equiv": havraa_month,
         "havraa_payable_yet": havraa_payable,
         "accommodation_deduction": accommodation_deduction,
-        "utilities_deduction": utilities_deduction,
+        "housing_cap": housing_cap,
+        "housing_cost": housing_cost,
+        "housing_capped": housing_capped,
         "deductions_requested": deductions_requested,
         "deductions_allowed": deductions_allowed,
         "deductions_capped": capped,
@@ -182,21 +199,32 @@ def main() -> None:
                          "havraa is NOT yet payable then, but it accrues at the 5-day rate and is "
                          "paid retroactively to day one at the anniversary, so it is still costed. "
                          "1 means one full year completed. --seniority-year is a deprecated alias.")
-    ap.add_argument("--month", type=int, default=12,
+    ap.add_argument("--month", type=int, default=None,
                     help="Month of employment (1 = the first month). The in-lieu-of-pension "
                          "6.5%% accrues only from month 7, so this changes the answer in the "
-                         "first half-year. Default 12.")
+                         "first half-year. Must agree with --completed-years. Default: the last "
+                         "month of the current year of employment.")
     ap.add_argument("--care-level", type=int, default=0, choices=[0, 1, 2, 3, 4, 5, 6], help="Bituach Leumi long-term-care level (0 = none).")
     ap.add_argument("--insurance", type=float, default=0.0, help="Monthly private medical-insurance premium.")
-    ap.add_argument("--region", choices=sorted(ACCOMMODATION_EMPLOYER_OWNED),
-                    help="Apply the 2026 accommodation deduction for housing OWNED by the "
-                         "employer (the patient's-own-home case), at the half rate for this region.")
-    ap.add_argument("--utilities", action="store_true",
-                    help="Apply the 94.34 NIS/month related-expenses deduction (electricity, "
-                         "water, arnona) for a nursing caregiver living in the employer's home.")
+    ap.add_argument("--region", choices=sorted(HOUSING_CAP_PERMANENT),
+                    help="Region for the housing-deduction ceiling in force from 1.9.2026 "
+                         "(permanent building, utilities included). Use with --housing-expense.")
+    ap.add_argument("--housing-expense", type=float, default=None,
+                    help="The housing expense you actually incur or committed to for the worker "
+                         "each month. The deduction is this amount, capped at the regional "
+                         "ceiling. How this is measured in the family's own flat is unsettled; "
+                         "get a labour lawyer's view before deducting above the pre-September "
+                         "figures.")
+    ap.add_argument("--utilities", action="store_true", help=argparse.SUPPRESS)
     args = ap.parse_args()
+    if args.month is None:
+        args.month = 12 * max(args.completed_years, 0) + 12
 
-    problems = validate(args.wage, args.completed_years, args.insurance, args.month)
+    problems = validate(args.wage, args.completed_years, args.insurance, args.month,
+                        args.region, args.housing_expense)
+    if args.utilities:
+        problems.append("--utilities was removed: the separate utilities deduction was repealed "
+                        "on 1.9.2026 and utilities are now inside the housing ceiling.")
     if problems:
         print("Refusing to compute: the input would produce a confident wrong answer.",
               file=sys.stderr)
@@ -205,7 +233,7 @@ def main() -> None:
         sys.exit(2)
 
     r = compute(args.wage, args.completed_years, args.care_level, args.insurance, args.month,
-                region=args.region, utilities=args.utilities)
+                region=args.region, housing_expense=args.housing_expense)
     print("Monthly employer cost estimate (shekels):")
     print(f"  Wage                         {r['wage']:>10.2f}")
     print(f"  National insurance           {r['national_insurance']:>10.2f}")
@@ -217,10 +245,14 @@ def main() -> None:
     print(f"  Medical insurance premium    {r['medical_insurance_premium']:>10.2f}")
     print(f"    less permitted deduction  -{r['medical_deduction_from_wage']:>10.2f}")
     print(f"    net insurance cost         {r['medical_insurance_net_cost']:>10.2f}")
+    if r['housing_cost']:
+        print(f"  Housing expense (actual)     {r['housing_cost']:>10.2f}")
     if r['accommodation_deduction']:
-        print(f"  less accommodation deduction -{r['accommodation_deduction']:>10.2f}")
-    if r['utilities_deduction']:
-        print(f"  less utilities deduction     -{r['utilities_deduction']:>10.2f}")
+        print(f"  less housing deduction       -{r['accommodation_deduction']:>10.2f}"
+              + ("   (capped at the regional ceiling)" if r['housing_capped'] else ""))
+        print("    WARNING: a ceiling on reimbursing ACTUAL expenses, months from 1.9.2026 only.")
+        print("    Needs the worker's signed written consent; above the pre-September amounts get")
+        print("    a labour lawyer's view first. Over-deducting is a criminal offence.")
     print(f"  --------------------------------------")
     print(f"  Gross monthly cost           {r['gross_monthly_cost']:>10.2f}")
     print(f"  Nursing-benefit offset      -{r['nursing_benefit_offset']:>10.2f}")
@@ -235,7 +267,7 @@ def main() -> None:
           f"{r['deduction_cap_25pct']:.2f} NIS/month.")
     if r['deductions_capped']:
         print("  The requested deductions EXCEED the 25% cap and were reduced to it.")
-    print("  This tool models only the medical, accommodation and utilities heads. Advances,")
+    print("  This tool models only the medical and housing heads. Advances,")
     print("  board, union dues and debts share the SAME 25% cap, so headroom shown here is not")
     print("  clearance to deduct more. Over-deducting is a criminal offence.")
     print("National Insurance may NOT be deducted from a nursing caregiver at all, and a deduction")
@@ -249,7 +281,13 @@ def main() -> None:
         print("floored to it. Paying below minimum wage is unlawful; this is not a way to lower the cost.")
     print()
     print("Benefit offset uses the FOREIGN-caregiver column. The Israeli-caregiver column is")
-    print("higher from level 3 up, and 6,448 appears in both at different levels.")
+    print("higher from level 3 up, and 6,458 appears in both at different levels.")
+    if r['accommodation_deduction']:
+        print()
+        print(f"Housing ceiling used: {r['housing_cap']:.0f} NIS/month, for months from 1.9.2026 only")
+        print("(utilities included). It caps a reimbursement of expenses ACTUALLY incurred, not a")
+        print("flat sum, and how that is measured in the family's own flat is not settled. For")
+        print("January to August 2026 the old half-rate table and 94.34 utilities line applied.")
 
 
 if __name__ == "__main__":

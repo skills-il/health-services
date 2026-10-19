@@ -1,5 +1,48 @@
 # Changelog
 
+## 1.2.0 (2026-10-19)
+
+### Corrected
+
+- **Housing deductions follow the regulations in force from 1.9.2026.** The amendment published on
+  16.7.2026 replaced the employer-owned half rate and the separate 94.34 NIS utilities line with one
+  regional ceiling per building type (Jerusalem 1,095, Tel Aviv 1,257, Haifa 999, Centre 1,030,
+  South 999, North 999 NIS for a permanent building), utilities included. The ceiling caps a
+  reimbursement of expenses actually incurred; the skill now says that how this is measured in the
+  family's own flat is unsettled and routes a larger deduction to a labour lawyer. The old table is
+  kept for back-pay only.
+- **Havraa days are read by the year of employment being worked, not by completed years.** A worker
+  with one completed year accrues 6 days, not 5. The old keying under-reserved one day at every
+  band edge, in the prose, the calculator and the checker.
+- **Nursing-benefit amounts updated to 01.08.2026** in both columns (foreign caregiver 1,708 to
+  6,458; Israeli caregiver 1,708 to 7,452). The 6,448 collision is now 6,458.
+- **Annual leave is counted by calendar year**, as the Annual Leave Law's work year starts on 1
+  January: a mid-year starter moves up a row every January, ahead of her anniversary.
+- Housing guidance now says a higher deduction needs the worker's fresh written consent to the new
+  amount, that a rented flat has a measurable expense, and that the actual expense must be
+  documented at any amount.
+- The income-tax bullet no longer calls National Insurance "the main statutory deduction"; it is
+  the employer's own cost and is never deducted from a nursing caregiver.
+- The description no longer opens with a "legal advice" clause; it opens with "Not a binding
+  payroll calculation".
+
+### Calculator
+
+- `--region` now takes the 1.9.2026 ceiling and requires `--housing-expense`, the actual monthly
+  expense; the deduction is that expense capped at the ceiling. `--utilities` was removed and now
+  refuses with an explanation. The stated housing expense is now counted as a cost before the
+  recovered deduction, so the total can no longer fall below the wage. Havraa uses the days of the
+  year being worked. `--month` must now agree exactly with `--completed-years` (the old check let a
+  full year of mismatch through, and the defaults contradicted each other); it defaults to the last
+  month of the current year.
+
+### Checker (foreign-caregiver-cost)
+
+- Havraa no longer zero in year one and no longer one day short at band edges; benefit levels
+  updated; a "past the sixth month" input applies the 6.5% leg only from month 7 (always once a
+  year is complete); the leave lines were removed (leave runs on calendar years, which the tool
+  cannot see) and are now a caveat; stale goldens that failed the tool's own verify gate replaced.
+
 ## 1.1.0 (2026-08-27)
 
 ### Corrected

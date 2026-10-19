@@ -1,6 +1,30 @@
 {
   "cycles": [
     {
+      "version": "1.2.0",
+      "date": "2026-10-19",
+      "trigger": "Batch update-oldest-skills 2026-10-19: drift sweep (housing-deduction amendment in force 1.9.2026, nursing benefit 01.08.2026), live-checker audit, Judge + Expert + legal + holdout + value-add.",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "holdout 4/4 (eval-queries.json in the batch workdir)"
+        ]
+      },
+      "value_add": "with=1.00 without=0.25 delta=+0.75 PASS",
+      "lessons": [
+        "A regulation can be rewritten under a skill while its aggregator keeps the old table on the same page. Kol Zchut's housing page now leads with the 1.9.2026 table and keeps the old one below it headed 'old mechanism'; a snippet check that only looks for the old figure still PASSES. Search the page for 'החל מיום' / 'מנגנון חדש' before trusting a figure that is still present.",
+        "Seniority keys differ by entitlement, and a fix for one was nearly copied onto the other. Havraa runs on anniversary years of employment (year c+1 after c completed years), annual leave on CALENDAR years (Annual Leave Law s.1). The expert caught the leave mapping, which the author had 'fixed' by analogy with havraa.",
+        "The live checker had drifted from its own skill for two cycles: havraa zero in year one (the skill fixed that in 1.1.0), and 8 of its 9 goldens failed its own verify gate. Run the LIVE manifest through verify-checker-manifest.ts on every update, not just the regenerated one.",
+        "A calculator input that recovers a cost (the housing deduction) must also carry the cost itself, or the total can fall below the wage and an inflated expense lowers the answer.",
+        "Deferred (expert r2 minors): the back-pay row omits the rented-flat rate (508.62 Jerusalem) for January to August 2026; the wording 'no havraa tariff published for the year from 1.7.2026' should be re-checked; the scope of the 25% cap versus debts/advances (pre-existing, errs cautious). Resolved this cycle: the havraa 12-month condition and its bad-faith-dismissal exception.",
+        "Re-check on next update: the havraa tariff for the year from 1.7.2026 (unpublished as of 19.10.2026), the 1 January 2027 re-indexation of the housing ceilings and medical-insurance cap, and the January 2027 benefit and minimum-wage figures."
+      ]
+    },
+    {
       "version": "1.1.0",
       "date": "2026-08-27",
       "trigger": "Full update-skill cycle: Independent Judge + expert employment-law review, two judge rounds, and the legal-review gate. Both gates FAILED round 1; three CRITICALs and seven round-2 regressions were fixed before push.",

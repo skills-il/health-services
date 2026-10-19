@@ -1,7 +1,7 @@
 {
   "skill_slug": "foreign-caregiver-payroll",
   "schemaVersion": "1.0",
-  "generated_at": "2026-08-27T10:20:12+00:00",
+  "generated_at": "2026-10-19T19:30:00Z",
   "claims": [
     {
       "claim": "From 01.04.2026 the Israeli monthly minimum wage is 6,443.85 NIS for a full-time post and 35.40 NIS per hour",
@@ -15,9 +15,11 @@
       "claim": "A foreign nursing caregiver must be paid at least the minimum wage, currently 6,443.85 NIS per month for a full-time post",
       "claim_type": "currency",
       "source_url": "https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל",
-      "raw_snippet": "שכרו של העובד לא יפחת משכר מינימום, העומד כיום על 6,443.85 ₪ לחודש למשרה מלאה",
+      "raw_snippet": "שכרו של העובד לא יפחת משכר מינימום - כיום 6,443.85 ₪ לחודש למשרה מלאה, לפני ניכויים שהמעסיק רשאי או חייב לנכות על-פי החוק.",
       "claim_id": "caregiver-min-wage-applies",
-      "fetched_at": "2026-06-29"
+      "fetched_at": "2026-10-19T19:45:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T19:45:00Z"
     },
     {
       "claim": "Foreign caregivers employed in the patient's home are not entitled to overtime pay (Hours of Work and Rest Law does not apply to live-in caregivers, per the Yolanda Gluten ruling)",
@@ -34,9 +36,11 @@
       "claim": "A live-in foreign caregiver is entitled to 25 continuous hours of weekly rest, and work during that rest is paid at 150% of the regular wage",
       "claim_type": "percentage",
       "source_url": "https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל",
-      "raw_snippet": "עובדים זרים בסיעוד המועסקים בבית המטופל, זכאים למנוחה שבועית של 25 שעות... על המעסיק לשלם לעובד 150% משכרו הרגיל עבור שעות עבודתו במהלך המנוחה השבועית",
+      "raw_snippet": "עובדים זרים בסיעוד המועסקים בבית המטופל, זכאים למנוחה שבועית של 25 שעות.",
       "claim_id": "caregiver-weekly-rest",
-      "fetched_at": "2026-06-29"
+      "fetched_at": "2026-10-19T19:45:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T19:45:00Z"
     },
     {
       "claim": "The employer must provide the foreign caregiver with private medical insurance from a licensed insurer for the entire employment period",
@@ -87,11 +91,11 @@
       "claim_type": "feature",
       "source_url": "https://www.kolzchut.org.il/he/זכותון_עובד_זר_בסיעוד_שפוטר_או_שמעסיקו_נפטר",
       "source_fetched_at": "2026-06-29",
-      "raw_snippet": "עובד שפוטר וכן עובד שמעסיקו נפטר זכאי לפיצויי פיטורים בסכום של שכר חודש אחד עבור כל שנת עבודה (שהם למעשה 1/12 או 8⅓ אחוזים מסך כל השכר השנתי שלו), בתנאי שעבד אצל אותו מעסיק לפחות שנה אחת",
+      "raw_snippet": "עובד שפוטר וכן עובד שמעסיקו נפטר זכאי לפיצויי פיטורים בסכום של שכר חודש אחד עבור כל שנת עבודה (שהם למעשה 1/12 או ⅓8 אחוזים מסך כל השכר השנתי שלו), בתנאי שעבד אצל אותו מעסיק לפחות שנה אחת.",
       "note": "Previous URL was the resignation zchuton; verbatim rule is on the fired/employer-died zchuton. One month per year = 1/12 = 8.33%; not a competing rule.",
       "verified_via": "browser",
-      "verified_at": "2026-07-21",
-      "fetched_at": "2026-07-21",
+      "verified_at": "2026-10-19T19:45:00Z",
+      "fetched_at": "2026-10-19T19:45:00Z",
       "claim_id": "siud-severance-one-month-per-year"
     },
     {
@@ -106,9 +110,11 @@
       "claim": "The previous reduced ceiling, under which the employer was exempt on wages up to 5,500 NIS/month, ended on 03.08.2022, so the rate now applies to the full wage",
       "claim_type": "currency",
       "source_url": "https://www.kolzchut.org.il/he/דיווח_ותשלום_דמי_ביטוח_לאומי_עבור_עובד_זר_בסיעוד",
-      "raw_snippet": "לפני 03.08.2022 בעלי היתר... היו פטורים מתשלום דמי ביטוח על השכר ששילמו לעובד עד לסכום של 5,500 ₪ בחודש",
+      "raw_snippet": "לפני 03.08.2022 בעלי היתר להעסקת עובד זר בסיעוד היו פטורים מתשלום דמי ביטוח על השכר ששילמו לעובד עד לסכום של 5,500 ₪ בחודש. מי שקיבלו קצבת שירותים מיוחדים או גמלת ילד נכה היו פטורים מתשלום דמי ביטוח לאומי על השכר ששילמו עד לסכום של 5,500 ₪ בחודש, לא כולל את סכום הקצבה.",
       "claim_id": "bituach-leumi-no-ceiling",
-      "fetched_at": "2026-06-29"
+      "fetched_at": "2026-10-19T19:45:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T19:45:00Z"
     },
     {
       "claim": "The 3.6% National Insurance on a home-care foreign caregiver is borne by the employer and computed on the wage paid to the worker.",
@@ -183,9 +189,11 @@
       "claim": "Eligible recipients include seniors aged 85+, recipients of the special-services benefit (שר\"מ) at a rate below 112%, and cancer patients, among others",
       "claim_type": "percentage",
       "source_url": "https://www.kolzchut.org.il/he/קבלת_היתר_להעסקת_עובד_זר_בסיעוד",
-      "raw_snippet": "מקבלי קצבת שר\"מ בשיעור נמוך מ-112%... קשישים מגיל 85 ומעלה... חולי סרטן",
+      "raw_snippet": "מקבלי קצבת שר\"מ בשיעור נמוך מ-112% יצרפו:",
       "claim_id": "permit-eligible-groups",
-      "fetched_at": "2026-06-29"
+      "fetched_at": "2026-10-19T19:45:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T19:45:00Z"
     },
     {
       "claim": "Both the employer and the foreign worker must be registered with one of the licensed private placement bureaus for the nursing sector",
@@ -196,24 +204,26 @@
       "fetched_at": "2026-06-29"
     },
     {
-      "claim": "Bituach Leumi publishes SIX long-term-care levels in TWO columns, all as of 01.04.2026. Employing a FOREIGN caregiver: level 1 = 1,705 ₪, level 2 = 2,480 ₪, level 3 = 3,472 ₪, level 4 = 4,464 ₪, level 5 = 5,456 ₪, level 6 = 6,448 ₪. Employing an ISRAELI caregiver: level 1 = 1,705 ₪, level 2 = 2,480 ₪, level 3 = 4,216 ₪, level 4 = 5,208 ₪, level 5 = 6,448 ₪, level 6 = 7,440 ₪. The columns diverge from level 3, and 6,448 ₪ appears in both at different levels, which is a real mis-reading hazard.",
-      "claim_type": "currency",
+      "claim": "Maximum long-term-care cash benefit from 01.08.2026: foreign-caregiver employer 1,708 / 2,484 / 3,478 / 4,471 / 5,465 / 6,458; Israeli-caregiver employer 1,708 / 2,484 / 4,223 / 5,217 / 6,458 / 7,452 NIS (levels 1-6)",
       "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/Pages/money.aspx",
-      "source_fetched_at": "2026-08-09",
-      "raw_snippet": "רמת הזכאות סכום הקצבה המקסימלי למעסיק מטפל זר סכום הקצבה המקסימלי למעסיק מטפל ישראלי 1 1,705",
-      "note": "Level 1 is printed verbatim; levels 2 and 3 are the arithmetic product of the weekly care-hours and the 248 NIS/hour rate, both of which are printed verbatim on level2.aspx and level3.aspx. All at 01.04.2026.",
-      "verified_via": "browser",
-      "verified_at": "2026-08-27",
-      "fetched_at": "2026-08-27T10:20:12+00:00",
-      "claim_id": "benefit-amounts-by-level"
+      "raw_snippet": "סכום הקצבה המקסימלי למעסיק מטפל זר סכום הקצבה המקסימלי למעסיק מטפל ישראלי 1 1,708 ש\"ח (החל ב- 01.08.2026) 1,708 ש\"ח (החל ב- 01.08.2026) 2 2,484 ש\"ח (החל ב- 01.08.2026) 2,484 ש\"ח (החל ב- 01.08.2026) 3 3,478 ש\"ח (החל ב- 01.08.2026) 4,223 ש\"ח (החל ב- 01.08.2026) 4 4,471 ש\"ח (החל ב- 01.08.2026) 5,217 ש\"ח (החל ב- 01.08.2026) 5 5,465 ש\"ח (החל ב- 01.08.2026) 6,458 ש\"ח (החל ב- 01.08.2026) 6 6,458 ש\"ח (החל ב- 01.08.2026) 7,452 ש\"ח (החל ב- 01.08.2026)",
+      "fetched_at": "2026-10-19T19:30:00Z",
+      "claim_id": "benefit-amounts-by-level",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pay-and-cost-components.md",
+        "references/domain-checklist.md",
+        "scripts/calc_caregiver_cost.py"
+      ]
     },
     {
-      "claim": "A long-term-care care-hour may be exchanged for cash at 248 NIS per hour per month from 01.04.2026",
+      "claim": "Each care hour converted to cash is worth 248 NIS a month (from 01.08.2026)",
       "claim_type": "currency",
       "source_url": "https://www.btl.gov.il/benefits/Long_Term_Care/benefit_level/Pages/level2.aspx",
-      "raw_snippet": "אתה יכול להחליף עד 4 שעות טיפול לקצבה בכסף. כל שעת טיפול שווה ל- 248 ש\"ח (החל ב- 01.04.2026) בחודש.",
+      "raw_snippet": "אתה יכול להחליף עד 4 שעות טיפול לקצבה בכסף. כל שעת טיפול שווה ל- 248 ש\"ח (החל ב- 01.08.2026) בחודש.",
       "claim_id": "care-hour-cash-value-248",
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-10-19T19:30:00Z"
     },
     {
       "claim": "A nursing-benefit recipient can employ a foreign caregiver in one of two ways: directly (cash benefit) or through a care company",
@@ -238,9 +248,11 @@
       "claim": "A full-time worker accrues 1.5 sick days per month (18 a year), up to a maximum of 90 days; the first day of illness is unpaid, the second and third days are paid at 50% of wage, and from the fourth day onward the full wage is paid",
       "claim_type": "threshold",
       "source_url": "https://www.kolzchut.org.il/he/דמי_מחלה",
-      "raw_snippet": "בכל חודש עבודה מלא, העובד צובר 1.5 ימי מחלה (18 ימי מחלה בשנת עבודה מלאה)... הכמות המקסימלית של ימי מחלה שאפשר לצבור היא 90... על יום ההיעדרות הראשון העובדים לא זכאים לתשלום... על כל אחד מימי ההיעדרות השני והשלישי העובדים זכאים לתשלום בגובה 50% מהשכר... מיום ההיעדרות הרביעי והלאה העובדים זכאים לתשלום בגובה השכר המלא",
+      "raw_snippet": "בכל חודש עבודה מלא, העובד צובר 1.5 ימי מחלה (18 ימי מחלה בשנת עבודה מלאה) כך שיהיה אפשר לממש את הימים שנצברו בעתיד - אם יהיה צורך.",
       "claim_id": "sick-days-accrual-and-pay",
-      "fetched_at": "2026-06-29"
+      "fetched_at": "2026-10-19T19:45:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T19:45:00Z"
     },
     {
       "claim": "A long-term-care benefit recipient may employ a foreign caregiver by one of two routes: directly, receiving the benefit in cash to their own account to pay the caregiver, or through a nursing-care company",
@@ -265,10 +277,10 @@
       "claim_id": "havraa-retroactive-update",
       "claim": "The havraa tariff can be revised mid-year with retroactive effect, so it must be re-read every cycle rather than carried forward.",
       "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%94%D7%91%D7%A8%D7%90%D7%94",
-      "raw_snippet": "מעסיקים שכבר שילמו דמי הבראה עבור שנת 2026 לפי התעריף הישן (418 ש\"ח), יצטרכו לשלם הפרשים לסכום העדכני של 451.5 ש\"ח",
+      "raw_snippet": "תעריף דמי ההבראה התעדכן ביום 18.08.2026 לגבי התקופה שהחל מ-1.7.2025 ועד 30.6.2026. מעסיקים שכבר שילמו דמי הבראה עבור תקופה זו לפי התעריף הישן (418 ש\"ח), יצטרכו לשלם הפרשים לסכום העדכני של 451.5 ש\"ח.",
       "verified_via": "browser",
-      "verified_at": "2026-08-27",
-      "fetched_at": "2026-08-27T10:20:12+00:00",
+      "verified_at": "2026-10-19T19:45:00Z",
+      "fetched_at": "2026-10-19T19:45:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -337,12 +349,12 @@
     },
     {
       "claim_id": "accommodation-deduction-regional-2026",
-      "claim": "The accommodation deduction is REGIONAL. Where the housing is not the employer's, the 2026 monthly maxima are Jerusalem 508.62, Tel Aviv 578.36, Haifa/centre 385.61, south 342.80, north 315.41 NIS.",
+      "claim": "Until 31.08.2026 (old mechanism), regional cap for housing NOT owned by the employer, 1.1.2026-31.8.2026: Jerusalem 508.62, Tel Aviv 578.36, Haifa/centre 385.61, south 342.80, north 315.41",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%99%D7%9B%D7%95%D7%99_%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA_%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D_%D7%9C%D7%A2%D7%95%D7%91%D7%93_%D7%96%D7%A8",
-      "raw_snippet": "ירושלים 508.62 492.39 475.23 449.82 431.1 426.40 תל אביב 578.36",
+      "raw_snippet": "אזור מגורים סכום חודשי ב-₪ מעודכן לתקופה 01.01.2026-31.08.2026 סכום חודשי ב-₪ מעודכן לשנת 2025",
       "verified_via": "browser",
-      "verified_at": "2026-08-27",
-      "fetched_at": "2026-08-27T10:20:12+00:00",
+      "verified_at": "2026-10-19T19:30:00Z",
+      "fetched_at": "2026-10-19T19:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -351,12 +363,12 @@
     },
     {
       "claim_id": "accommodation-deduction-employer-owned-half",
-      "claim": "Where the worker lives in housing OWNED by the employer, which is exactly the patient's-own-home case, the employer may deduct up to HALF the regional amounts: Jerusalem 254.31, Tel Aviv 289.18, Haifa/centre 192.81, south 171.40, north 157.71 NIS per month in 2026. This refutes the earlier claim in this skill that housing deductions generally do not apply to a live-in caregiver in the patient's home.",
+      "claim": "Until 31.08.2026, employer-owned housing (the patient's own home) was capped at Jerusalem 254.31, Tel Aviv 289.18, Haifa/centre 192.81, south 171.40, north 157.71 NIS/month (1.1.2026-31.8.2026)",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%99%D7%9B%D7%95%D7%99_%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA_%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D_%D7%9C%D7%A2%D7%95%D7%91%D7%93_%D7%96%D7%A8",
-      "raw_snippet": "אם העובד מתגורר בדירה שבבעלות המעסיק, ניתן לנכות משכר העובד החזר הוצאות עבור מגורים עד מחצית מהסכומים שצוינו בטבלה הקודמת",
+      "raw_snippet": "הסכום המרבי שמעסיק היה רשאי לנכות משכרו החודשי של העובד כהחזר הוצאות המעסיק למגורים הולמים, כשהמגורים היו בבעלות המעסיק מפורט בטבלה הבאה",
       "verified_via": "browser",
-      "verified_at": "2026-08-27",
-      "fetched_at": "2026-08-27T10:20:12+00:00",
+      "verified_at": "2026-10-19T19:30:00Z",
+      "fetched_at": "2026-10-19T19:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -365,12 +377,12 @@
     },
     {
       "claim_id": "utilities-deduction-caregiver-in-employer-home",
-      "claim": "There is a related-expenses (electricity, water, arnona) deduction line written specifically for a foreign NURSING caregiver living in the EMPLOYER'S home: 94.34 NIS per month in 2026 (92.16 in 2025). A head cannot have its own dedicated line for this worker and simultaneously not apply to them.",
+      "claim": "Until 31.08.2026 a separate utilities deduction of up to 94.34 NIS/month applied to a nursing caregiver living in the employer's home (92.16 in 2025)",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%99%D7%9B%D7%95%D7%99_%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA_%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D_%D7%9C%D7%A2%D7%95%D7%91%D7%93_%D7%96%D7%A8",
-      "raw_snippet": "בשנת 2026 המעסיק רשאי לנכות מקסימום 94.34 ₪ בחודש משכרו של עובד זר בסיעוד המתגורר בבית המעסיק",
+      "raw_snippet": "עבור עובד זר בסיעוד, המתגורר בבית המעסיק, המעסיק היה רשאי לנכות עבור החזר הוצאות נלוות לשימוש במגורים (חשמל, מים וארנונה) את הסכומים המקסימליים הבאים: בתקופה 01.01.2026-31.08.2026, המעסיק היה רשאי לנכות מקסימום 94.34 ₪ בחודש משכרו של העובד. בשנת 2025 המעסיק היה רשאי לנכות מקסימום 92.16 ₪ בחודש.",
       "verified_via": "browser",
-      "verified_at": "2026-08-27",
-      "fetched_at": "2026-08-27T10:20:12+00:00",
+      "verified_at": "2026-10-19T19:30:00Z",
+      "fetched_at": "2026-10-19T19:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -496,6 +508,299 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "housing-ceiling-from-2026-09",
+      "claim": "From 1.9.2026 the maximum housing deduction for a permanent building is Jerusalem 1,095, Tel Aviv 1,257, Haifa 999, Centre 1,030, South 999, North 999 NIS/month, and it includes utilities (no separate deduction)",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%99%D7%9B%D7%95%D7%99_%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA_%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D_%D7%9C%D7%A2%D7%95%D7%91%D7%93_%D7%96%D7%A8",
+      "raw_snippet": "החל מיום 01.09.2026 קיים מנגנון חדש לחישוב התקרות לניכוי המותר. הסכומים המרביים כוללים גם את ההוצאות שניתן להביא בחשבון במסגרת החזר הוצאות המגורים, כולל מים, חשמל, ארנונה, ריהוט ומוצרי חשמל. לא ניתן לנכות סכומים אלה בנוסף על הסכום המרבי המפורט בטבלה.",
+      "fetched_at": "2026-10-19T19:30:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pay-and-cost-components.md",
+        "references/domain-checklist.md",
+        "scripts/calc_caregiver_cost.py"
+      ]
+    },
+    {
+      "claim_id": "housing-regulation-2-table-2026",
+      "claim": "Regulation 2(a) as replaced by the 5786-2026 amendment (in force 1.9.2026) sets the permanent-building ceilings ירושלים 1,095, תל אביב 1,257, חיפה 999, מרכז 1,030, דרום 999, צפון 999. Replacing regulation 2 removed the old employer-owned half rate (former reg 2(b)); regulation 3 (related expenses, incl. the 94.34 nursing line) was repealed",
+      "source_url": "https://olaw.org.il/takanot/takanot-12476.pdf",
+      "raw_snippet": "ירושלים 1,095 תל אביב 1,257 חיפה 999 מרכז 1,030 דרום 999 צפון 999",
+      "fetched_at": "2026-10-19T20:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pay-and-cost-components.md",
+        "references/domain-checklist.md",
+        "scripts/calc_caregiver_cost.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-19T20:30:00Z"
+    },
+    {
+      "claim_id": "housing-regulation-2b-999",
+      "claim": "Regulation 2(b): a temporary structure ceiling of 999 NIS; Haifa, South and North permanent ceilings are also 999 NIS",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_עובדים_זרים_(שיעור_ניכויים_מהשכר_בעד_מגורים_הולמים)",
+      "raw_snippet": "הסכום המרבי שרשאי מעסיק לנכות משכרו החודשי של עובד זר כהחזר הוצאות המעסיק למגורים הולמים במבנה יביל ארעי המיועד למגורים לפי סעיף 1ה לחוק , הוא 999 שקלים חדשים.",
+      "fetched_at": "2026-10-19T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pay-and-cost-components.md",
+        "references/domain-checklist.md",
+        "scripts/calc_caregiver_cost.py"
+      ]
+    },
+    {
+      "claim_id": "housing-actually-incurred-definition",
+      "claim": "The deduction is a reimbursement of expenses the employer actually incurred or committed to (החזר הוצאות ... בפועל), including arnona, water, electricity, furniture and appliances, as in תקנה 2",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_עובדים_זרים_(שיעור_ניכויים_מהשכר_בעד_מגורים_הולמים)",
+      "raw_snippet": "”החזר הוצאות“ – החזר הוצאות שהוציא המעסיק או שהתחייב בהן בפועל בשל מגורים הולמים (כולל ארנונה) לעובד זר, ובכלל זה בשל שימוש העובד הזר במגורים לעניין מים וחשמל, ובעד ריהוט ומוצרי חשמל",
+      "fetched_at": "2026-10-19T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pay-and-cost-components.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "housing-nursing-definition-deleted",
+      "claim": "The 'nursing worker' definition was deleted from the housing regulations",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_עובדים_זרים_(שיעור_ניכויים_מהשכר_בעד_מגורים_הולמים)",
+      "raw_snippet": "”עובד בסיעוד“ – (נמחקה).",
+      "fetched_at": "2026-10-19T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "housing-indexation-reg-4",
+      "claim": "תקנה 4: the regulation 2 amounts are updated every 1 January by an index weighted 80% rent index and 20% CPI",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_עובדים_זרים_(שיעור_ניכויים_מהשכר_בעד_מגורים_הולמים)",
+      "raw_snippet": "80% – מדד שכר הדירה שמפרסמת הלשכה; 20% – מדד המחירים לצרכן שמפרסמת הלשכה;",
+      "fetched_at": "2026-10-19T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pay-and-cost-components.md"
+      ]
+    },
+    {
+      "claim_id": "housing-amendment-in-force-2026-09-01",
+      "claim": "The housing-deduction amendment 5786-2026 took effect on 1.9.2026 (published in Kovetz Takanot 12476 on 16.7.2026, page 2424)",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_עובדים_זרים_(שיעור_ניכויים_מהשכר_בעד_מגורים_הולמים)",
+      "raw_snippet": "בתום חמש שנים ממועד תחילתן של תקנות עובדים זרים (שיעור ניכויים מהשכר בעד מגורים הולמים) (תיקון), התשפ״ו–2026 (מועד תחילתן ביום 1.9.2026)",
+      "fetched_at": "2026-10-19T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pay-and-cost-components.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "havraa-second-year-six-days",
+      "claim": "Havraa days are by the year of employment being worked: the second year earns 6 days, so a worker with one completed year accrues at 6 days",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
+      "raw_snippet": "עבור השנה השנייה הוא זכאי ל-6 ימי הבראה",
+      "fetched_at": "2026-10-19T19:30:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pay-and-cost-components.md",
+        "references/domain-checklist.md",
+        "scripts/calc_caregiver_cost.py"
+      ]
+    },
+    {
+      "claim_id": "havraa-tariff-period-and-no-2027-yet",
+      "claim": "The 451.5 tariff covers 1.7.2025-30.6.2026; Kol Zchut (last edited 29.9.2026) still states 451.5 as the private-sector rate and lists no tariff for the havraa-year from 1.7.2026; the rate is normally updated in July by extension order",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
+      "raw_snippet": "גובה דמי הבראה ליום במגזר הפרטי מתעדכן בדרך כלל בחודשי יולי, בהתאם לעליית מדד המחירים הכללי לצרכן, במסגרת צו הרחבה.",
+      "fetched_at": "2026-10-19T19:30:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pay-and-cost-components.md"
+      ]
+    },
+    {
+      "claim_id": "annual-leave-law-s3-by-year-of-work",
+      "claim": "Annual Leave Law s.3(a): 16 days for each of the first 5 years, 18 for the sixth year, 21 for the seventh, then one more day a year up to 28",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חופשה_שנתית",
+      "raw_snippet": "בעד כל אחת מ־5 השנים הראשונות – 16 יום",
+      "fetched_at": "2026-10-19T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "caregiver-weekly-rest-150",
+      "claim": "Work during the weekly rest is paid at 150% on top of the full monthly wage",
+      "source_url": "https://www.kolzchut.org.il/he/תנאי_העסקה_של_עובד_זר_בסיעוד_המועסק_בבית_המטופל",
+      "raw_snippet": "במקרים מיוחדים שבהם יש הכרח להעסיק את העובד הזר במהלך המנוחה השבועית, על המעסיק לשלם לעובד 150% משכרו הרגיל עבור שעות עבודתו במהלך המנוחה השבועית, וזאת בנוסף לתשלום שכרו החודשי המלא.",
+      "fetched_at": "2026-10-19T19:45:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T19:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "permit-eligible-85-plus",
+      "claim": "Seniors aged 85 and over are an eligible group",
+      "source_url": "https://www.kolzchut.org.il/he/קבלת_היתר_להעסקת_עובד_זר_בסיעוד",
+      "raw_snippet": "קשישים מגיל 85 ומעלה יצרפו מסמכים רפואיים עדכניים שמעידים על מצב רפואי שמצריך עזרה סיעודית במשך רוב שעות היממה וכן דו\"ח רפואי-תפקודי מפורט ועדכני (הכולל התייחסות לפעולות ה-A.D.L) חתום על-ידי אחות.",
+      "fetched_at": "2026-10-19T19:45:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T19:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "permit-eligible-cancer",
+      "claim": "Cancer patients are an eligible group",
+      "source_url": "https://www.kolzchut.org.il/he/קבלת_היתר_להעסקת_עובד_זר_בסיעוד",
+      "raw_snippet": "חולי סרטן יצרפו מסמכים רפואיים עדכניים מאונקולוג שמעידים על מצבם הרפואי והצורך בעזרה סיעודית במשך רוב שעות היממה.",
+      "fetched_at": "2026-10-19T19:45:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T19:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "sick-days-max-90",
+      "claim": "Sick days accumulate up to a maximum of 90",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_מחלה",
+      "raw_snippet": "הכמות המקסימלית של ימי מחלה שאפשר לצבור היא 90.",
+      "fetched_at": "2026-10-19T19:45:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T19:45:00Z",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "sick-days-pay-ladder",
+      "claim": "First sick day unpaid, second and third at 50%, full pay from the fourth",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_מחלה",
+      "raw_snippet": "על יום ההיעדרות הראשון העובדים לא זכאים לתשלום. על כל אחד מימי ההיעדרות השני והשלישי העובדים זכאים לתשלום בגובה 50% מהשכר שהיו אמורים לקבל באותו יום אילו עבדו. מיום ההיעדרות הרביעי והלאה העובדים זכאים לתשלום בגובה השכר המלא שהיו מקבלים אילו עבדו באותם ימים.",
+      "fetched_at": "2026-10-19T19:45:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T19:45:00Z",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "housing-regulation-3-repealed",
+      "claim": "Regulation 3 (the related-expenses line) was repealed by the 2026 amendment",
+      "source_url": "https://olaw.org.il/takanot/takanot-12476.pdf",
+      "raw_snippet": "תקנה 3 לתקנות העיקריות - בטלה.",
+      "fetched_at": "2026-10-19T21:30:00Z",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-19T21:30:00Z"
+    },
+    {
+      "claim_id": "annual-leave-calendar-years",
+      "claim": "Annual leave seniority counts calendar years (the work year starts 1 January), so a worker who started in October is in her second year from the next January",
+      "source_url": "https://www.kolzchut.org.il/he/חישוב_מספר_ימי_החופשה_השנתית_לעובדים_במקומות_עבודה_שבהם_מונהג_שבוע_עבודה_בן_6_ימים",
+      "raw_snippet": "הוותק של העובד במקום העבודה - סעיף 1 לחוק חופשה שנתית מגדיר \"שנת עבודה\" כפרק זמן של 12 חודשים, שתחילתו אחד בינואר של כל שנה. לכן, לצורך חישוב החופשה השנתית, הוותק אינו משך הזמן שהעובד עובד במקום העבודה, אלא כמה שנים קלנדריות (מינואר עד דצמבר) הוא עובד במקום העבודה.",
+      "fetched_at": "2026-10-19T20:30:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T20:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pay-and-cost-components.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "annual-leave-calendar-years-example",
+      "claim": "Example: a worker who started in October 2011 counts as year 2 in 2012",
+      "source_url": "https://www.kolzchut.org.il/he/חישוב_מספר_ימי_החופשה_השנתית_לעובדים_במקומות_עבודה_שבהם_מונהג_שבוע_עבודה_בן_6_ימים",
+      "raw_snippet": "עובד שהחל לעבוד בינואר 2011 ועובד שהחל לעבוד באוקטובר 2011 ייחשבו שניהם כבעלי ותק של שנה אחת לעניין חישוב ימי החופשה השנתית בשנת 2011, ותק של שנתיים בשנת 2012, ",
+      "fetched_at": "2026-10-19T20:30:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T20:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "deduction-consent-in-contract-before-work",
+      "claim": "Deductions require the worker's written consent and must be disclosed in the employment contract before work starts, so a higher housing deduction needs the worker's fresh written consent to the new amount",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%99%D7%9B%D7%95%D7%99%D7%99%D7%9D_%D7%9E%D7%95%D7%AA%D7%A8%D7%99%D7%9D_%D7%9E%D7%A9%D7%9B%D7%A8_%D7%A2%D7%95%D7%91%D7%93_%D7%96%D7%A8",
+      "raw_snippet": "יש ליידע את העובד בחוזה העבודה, טרם תחילת העבודה על הניכויים משכרו ולקבל את הסכמתו לכך.",
+      "fetched_at": "2026-10-19T21:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T21:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "deduction-written-consent",
+      "claim": "An employer may deduct only with the worker's written consent",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%99%D7%9B%D7%95%D7%99%D7%99%D7%9D_%D7%9E%D7%95%D7%AA%D7%A8%D7%99%D7%9D_%D7%9E%D7%A9%D7%9B%D7%A8_%D7%A2%D7%95%D7%91%D7%93_%D7%96%D7%A8",
+      "raw_snippet": "מעסיק רשאי לנכות משכרו של עובד זר תשלומים המחויבים על פי חוק בלבד, וזאת בתנאי שהעובד נתן את הסכמתו בכתב לניכויים אלה:",
+      "fetched_at": "2026-10-19T21:30:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T21:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "havraa-none-before-12-months",
+      "claim": "No havraa is owed before 12 months of employment are complete",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
+      "raw_snippet": "עובד זכאי לדמי הבראה רק לאחר שהשלים את שנת עבודתו הראשונה במקום העבודה (12 חודשים של יחסי עובד-מעסיק).",
+      "fetched_at": "2026-10-19T21:45:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T21:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "havraa-bad-faith-dismissal-exception",
+      "claim": "Exception: a worker dismissed unlawfully or in bad faith shortly before completing the year is still entitled",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
+      "raw_snippet": "עובדים שפוטרו בניגוד לחוק או שלא בתום לב זמן קצר לפני שהשלימו שנת עבודה באופן שמנע מהם להשלים שנת עבודה (ראו פסקי דין בהמשך).",
+      "fetched_at": "2026-10-19T21:45:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-19T21:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
       ]
     }
   ],
