@@ -1,5 +1,32 @@
 # Changelog
 
+## 1.6.0 - 2026-10-25
+
+Safety cycle: every crisis number and hours window was re-read on the operator's own page or the Ministry of Health index (page dated 21.10.2026), and the coverage gaps carried from 1.5.1 were closed.
+
+### Fixed
+
+- Ministry of Welfare 118 was listed with "hours unconfirmed". gov.il states 24 hours a day, 7 days a week except Yom Kippur, with a silent text channel on 050-227-0118 and a landline alternative 077-9208560.
+- Sexual assault lines: the association's WhatsApp 052-836-1202 is restored (it is on the association's own contact page), but with its real hours, Sunday-Thursday and Saturday 17:00-23:00 and nothing on Friday; the anonymous chat runs to 24:00. Only the 1202/1203 phone lines are 24/7. Religious women: *2511, with the Tahel centre's 02-6730002 also listed. 1202/1203 are labelled by the responder's gender, as the association does.
+- Sahar was shown as 24/7. Its own page also posts hours of Sunday-Thursday 16:00-03:00 and Friday, Saturday and holiday eves 18:00-00:00; the skill now relies on the posted hours and routes Arabic speakers to 118 first outside the ERAN Arabic window.
+- Elem: Sunday-Wednesday 20:00-24:00. The WhatsApp number is no longer given, because Elem's page links two numbers without saying which is the counselling line.
+- Natal: its own page publishes *3362, but the Ministry of Health index still prints 1-800-363-363; the gotcha now says so instead of calling the old number dead. Unsourced language and staffing claims for Natal, ERAN, AMCHA and *5400 were removed, and the crisis-line tip no longer promises that nothing is ever recorded or passed on.
+- The compulsory-examination conditions (s.6 urgent, s.7 non-urgent) are stated in the body again, with the rule that refusal and deterioration alone are not enough.
+
+### Added
+
+- Minors: consent from 14 covers routine care only and mental health treatment is non-routine, with the Youth Law social-worker exception when contacting the parents could harm the minor; voluntary admission from 15 (s.4B); the municipal educational-psychology service (shefach). Previously recorded as out of scope because no source could be read.
+- Day treatment and day hospitalization (adults 18+, by referral, free).
+- Confidentiality and reporting duties: Patient's Rights Law ss.19-20, Treatment of Mental Patients Law s.42, Traffic Ordinance s.12B, Firearms Law s.11A, Penal Law s.368D. The skill does not assert that a "psychiatric register" exists.
+- Bituach Leumi pays a general disability pension retroactively for at most 12 months before the filing date.
+- Reservists: the 2024 benefit and the 120-day combat-array track, both expiring 31.12.2026; the 2026 track is described as decided but not yet operating.
+- A January 2025 proposal for a 35 NIS psychotherapy copay is recorded as not approved, so it is not quoted as a current charge.
+- Metivta *2837 (Ministry of Health culturally adapted line) in the directory.
+
+### Changed
+
+- The frontmatter description no longer carries "not legal advice" wording, per catalog policy.
+
 ## 1.5.1 - 2026-09-02
 
 Follow-up to 1.5.0, closing what a post-release review found. Nothing here is a fact correction; all of it is propagation and honesty about limits.

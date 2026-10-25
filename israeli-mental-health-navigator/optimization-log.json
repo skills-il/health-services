@@ -30,6 +30,31 @@
         "PROCESS: a batched edit script that asserts on a missing anchor aborts before writing, so every earlier edit in the same batch is silently lost. That is how three Hebrew repairs went missing this cycle and were caught only by an independent reviewer. Write each file's edits in its own call, or verify after writing.",
         "PROCESS: an English-only repair pass is a live failure mode here. Hebrew is the site's default locale, so a fix applied to SKILL.md alone reaches the minority of users. Diff EN and HE for every corrected fact before the gates."
       ]
+    },
+    {
+      "version": "1.6.0",
+      "date": "2026-10-25",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "אבא שלי במצב פסיכוטי ומסרב לקבל טיפול פסיכיאטרי. אפשר לאשפז אותו בכפייה ומה הזכויות שלו?",
+          "I've had PTSD since the war and can't work. How do I get it recognized by Bituach Leumi?",
+          "אמא שלי בת 84 צריכה בית אבות ואנחנו שוקלים למנות לה אפוטרופוס. מאיפה מתחילים? (negative, correctly not routed)"
+        ]
+      },
+      "lessons": [
+        "RESOLVED this cycle: minors (shefach, consent 14+/15+, Youth Law social-worker exception), day hospitalization, psychiatric-record confidentiality and reporting duties, the four kupah lines (re-verified on the MoH index dated 21.10.2026), and the Bituach Leumi retroactivity rule (12 months, btl.gov.il). Do not re-log them as deferred.",
+        "Hotline re-verification is the core of every cycle: this one found the MoH index still printing Natal 1-800-363-363, 118 confirmed 24/7 except Yom Kippur, the 1202 WhatsApp restored but with 17:00-23:00 hours and no Friday, Sahar posting narrower hours than its own 24/7 claim, and Elem at Sun-Wed 20:00-24:00. Render with Playwright textContent (accordion bodies are hidden from innerText on me.health.gov.il).",
+        "Expert MINOR deferred: the 2026 reservist track's 50-day threshold, tiers and session caps are on Kol Zchut only, and the fund had not published its policy. Kept figure-free on purpose; add the figures once an official reservists-site page carries them.",
+        "Open: Sahar's own page contradicts itself (24/7 vs Sun-Thu 16:00-03:00 and Fri/Sat 18:00-00:00); the skill relies on the posted hours. Ask Sahar or re-check next cycle.",
+        "Open: MoH index prints the immigrant line as *3207 in its quick list and *3201 in the detailed entry; the skill gives *3201 with a note. Confirm on the Ministry of Aliyah page.",
+        "Open question, still not asserted either way: whether a shaban may sell adult psychotherapy. Maccabi's independent-therapist copay page (01.4.26: 70 NIS intake, 170 NIS per session) is a lead for the kupah-copay matrix next cycle.",
+        "Word cap is binding: both bodies sit within ~60 words of 5,000. Anything new must go to references/ or replace text."
+      ]
     }
   ]
 }

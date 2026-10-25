@@ -30,16 +30,17 @@ not transcribe one as if it were.
 | # | Item | Why |
 |---|------|-----|
 | 16 | Supplementary insurance (shaban) and what it can and cannot sell in this field | Users arrive believing shaban buys adult psychotherapy. Whether and how it may is a live question this skill has not verified and must not assert either way |
-| 17 | Children and adolescents: priority placement, and whether clinic-type and copay rules differ for minors | Asked constantly; currently answered only in outline |
+| 17 | Children and adolescents: consent from 14 (routine care only; mental health treatment is non-routine), voluntary admission from 15, and the municipal educational-psychology service (שפ"ח) as the route outside the kupah | Asked constantly by parents. Covered since 1.6.0 in SKILL.md Step 2 and `patient-rights.md`. Whether שפ"ח is free was NOT stated on any page read, so the skill does not promise it |
 | 18 | Waiting times: what is actually binding, as distinct from proposals that circulate as if they were rules | A widely circulated draft standard is not a right, and quoting one as an entitlement sets a user up to demand something they cannot get |
 | 19 | Escalation beyond the kupah's own ombudsman, to the Ministry of Health complaints route | The kupah's internal ombudsman is not the last word and users are rarely told so |
-| 20 | Psychiatric day hospitalization as the level between outpatient therapy and admission | The skill currently jumps from weekly therapy to the ER |
+| 20 | Psychiatric day hospitalization as the level between outpatient therapy and admission | Covered since 1.6.0: adults 18+, by referral from a mental health professional, free |
+| 20a | Confidentiality and statutory reporting duties (driving, firearms), and not asserting a "psychiatric register" | Fear of a record is a leading reason people avoid care. Covered since 1.6.0 in `patient-rights.md` |
 | 21 | Population-specific routes, including religious, immigrant, Arabic-speaking, Ethiopian-Israeli and LGBTQ+ services | A national directory that omits a population effectively has no answer for it |
 | 22 | Resilience centres: who is eligible and on what basis | Free and substantial, and routinely mistaken for a general anxiety service |
 
 ## Out of scope (explicit)
 
-Reviewed and re-affirmed 2026-09-02.
+Reviewed and re-affirmed 2026-10-25. The minors row was re-opened this cycle (the Ministry of Education and Kol Zchut pages were readable in a browser) and moved into Should cover, row 17.
 
 | Item | Rationale |
 |------|-----------|
@@ -49,7 +50,6 @@ Reviewed and re-affirmed 2026-09-02.
 | Recommending a named therapist, clinic or institute | No basis on which to rank them, and an endorsement carries a duty we cannot discharge |
 | Suicide-risk assessment conducted in the conversation | The skill routes to a crisis line or a psychiatric ER and stops |
 | A directory of individual district psychiatrists' or psychiatric hospitals' phone numbers | A wrong number in this context is a real-harm failure. Link to the official district and facility pages instead |
-| Routes for minors that sit outside the kupah, in particular school-based educational-psychology services | Reviewed 2026-09-02. Would an ordinary user ask? Yes, a parent would. It stays out of scope for now for a specific reason rather than by omission: no source for its terms could be read this cycle (the Kol Zchut page 404s and the gov.il page is bot-blocked), and the rule here is not to write an entitlement we cannot cite. The skill therefore says explicitly that these routes exist outside its scope and points the parent at the school or municipality, rather than asserting coverage it does not deliver. Re-open next cycle with a readable source. |
 | Substance-abuse and addiction treatment pathways as a primary subject | A distinct service network. Cross-reference only |
 | Non-Israeli mental health systems, and private (non-shaban) insurance policies | Outside the skill's stated scope |
 

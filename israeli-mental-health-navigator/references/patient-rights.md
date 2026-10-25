@@ -74,3 +74,49 @@ Do not merge this 40% threshold with the general disability pension's thresholds
 medical disability, or at least 40% where one impairment reaches 25%). They are different bars set
 by different bodies for different entitlements, and merging them denies a real entitlement to
 someone who qualifies for one and not the other.
+
+## Minors
+
+| Question | Rule | Source |
+|----------|------|--------|
+| Can a minor consent alone? | From 14, only to ROUTINE examinations and treatment. Mental health treatment is listed as non-routine, so before it the caregiver must contact the parents, inform them and obtain their consent. Exception: if the minor objects, or contacting the parents could harm the minor, their adherence to treatment or their safety, a social worker under the Youth Law must be involved | Kol Zchut, "medical tests and treatments a minor may decide on" (updated 7.7.2026) |
+| Voluntary admission | A minor who has reached 15 may ask to be admitted voluntarily; without the guardian's consent, admission needs court approval under s.3G of the Youth Law | Treatment of Mental Patients Law s.4B |
+| Admission against the minor's will | A minor of 15 or over who refuses may not be admitted on the guardian's consent alone, only with court approval | s.4A(c) |
+| Compulsory examination | Carried out by a child and adolescent psychiatrist, see the table above | s.6(b), s.6(c) |
+
+Outside the kupah: the municipal educational-psychology service (shefach, שפ"ח) operates in each local
+authority under the Ministry of Education's psychological counselling service (shefi). Besides advising
+school staff, it gives pupils and their parents assessment, treatment and educational counselling. The
+station that serves a child is set by the child's school, so the parent's first call is the school
+counsellor or the municipality's education department. Whether a given service is free is NOT stated on
+the pages read; some authorities also run a separate paid complementary service, so do not promise "free".
+
+## Day treatment and day hospitalization
+
+Day treatment centres (usually attached to community clinics) and day hospitalization centres (attached
+to hospitals) are part of the Ministry of Health's ambulatory mental health system: an intermediate stage
+between living in the community and full admission, in either direction. They serve adults 18+ in an
+acute state who need an active daily framework but not full admission and have a supportive family or
+care setting. Five days a week, 6-7 hours a day; medication follow-up, individual and group therapy and
+rehabilitation assessment. Admission is by referral from a mental health professional, the treatment plan
+is set within 3 days, and the service is free to the patient (Kol Zchut, updated 1.9.2025, citing MoH
+procedure 76.001). For children and adolescents the same page refers to separate frameworks (Kol Zchut, mental health treatment frameworks for children and youth); ask the kupah's child and adolescent service.
+
+## Confidentiality and reporting duties
+
+This is the question behind a lot of avoided care ("will it be on my record?"). Answer it from the law,
+and do not promise more than the law gives.
+
+| Rule | What it says | Section |
+|------|--------------|---------|
+| Duty of confidentiality, every caregiver | A caregiver or medical-institution employee keeps secret any information about a patient learned in the course of their work | Patient's Rights Law s.19 |
+| When information may be passed on | With the patient's consent; under a legal duty; to another caregiver for the patient's treatment; and other listed cases. Even then, only to the extent needed and with maximum avoidance of identifying the patient | Patient's Rights Law s.20 |
+| Information obtained under the mental health law | Kept secret unless the person consented in writing, the treating physician considers disclosure needed for treatment, a law requires or permits it, a court authorized it, or it is disclosed for a criminal investigation or to prevent offences, which needs the consent of the head of mental health services, a director or a district psychiatrist | Treatment of Mental Patients Law s.42 |
+| Driving | A treating physician who diagnoses an illness in a person aged 16+ and believes it may make them endanger themselves or others while driving must report the illness to the authority the Health Minister designates (the Medical Institute for Road Safety). Not limited to psychiatric illness | Traffic Ordinance s.12B |
+| Firearms | A physician, psychologist, mental health officer or health-system social worker treating a person who believes that person holding a firearm would be a danger must notify the Ministry of Health director general, who may pass it to the IDF. A welfare social worker has a parallel duty to the Welfare director general. Separately, the DG may report a licence applicant's psychiatric hospitalization to the licensing officer | Firearms Law s.11A(a), s.11A(b)(2); s.11B(b) |
+| Suspected offence against a minor or helpless person | A physician, nurse, psychologist, social worker and other listed professionals who, through their work, have reasonable grounds to think an offence was committed against a minor or a helpless person by someone responsible for them must report it to a welfare social worker or the police | Penal Law s.368D(b) |
+
+What NOT to say: do not tell a user that a public "psychiatric register" exists, since no statute creating
+one was found; do not present the duties above as a closed list (s.42 also lets information go where another
+law requires or permits it, a court authorizes it, or for a criminal investigation with senior consent); and do not tell them their information can never
+reach anyone, since the exceptions are real. An employer is entitled to a sick note, not a diagnosis (SKILL.md Step 6).
