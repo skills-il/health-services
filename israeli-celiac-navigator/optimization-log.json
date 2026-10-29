@@ -49,7 +49,7 @@
       ]
     },
     {
-      "version": "1.3.0",
+      "version": "1.3.1",
       "date": "2026-10-29",
       "lessons": [
         "A CONFIDENT NEGATIVE WAS WRONG FOR TWO CYCLES. The skill said the IDF celiac food stipend 'is deliberately not published as a fixed number' and made 'never quote a figure' a Gotcha and a Critical Disclaimer item. The IDF's own page, which Kol Zchut links to, states 21.9 NIS a day (open base) and 34.9 NIS a day (closed base), dated 27.11.2022. The skill had sourced the negative from Kol Zchut's 'may change from time to time' and never opened the primary page. Rule: before asserting that a figure is unpublished, open the page the aggregator links to.",
@@ -64,7 +64,8 @@
         "Snack traps not named by the Celiac Rights Organisation (Click, Krembo, KitKat, Twix, cones, soup nuts, Kinder Joy) are now attributed to the parents' community list in the body; they had no evidence entries. Source them from manufacturer ingredient pages next cycle or keep the attribution.",
         "OPEN [RESHAPE]: shape check classified this as mostly knowledge with one workflow fragment (the school letter). Proposal sent to the lead: newly-diagnosed intake -> request pack (school letter citing 0404, kupah referral checklist, welfare request). Default taken: facts only, item open.",
         "DEFERRED (description change would need the Phase 5.7 holdout): frontmatter and display_description still say 'when a repeat biopsy is required' and 'why the pack marking decides'. The body now frames the repeat biopsy as the gastroenterologist's call and says the mark does not decide the oats question. Fix both descriptions next cycle together with a routing eval.",
-        "Lead instructions applied: no newer IDF stipend figure was found (search 29.10.2026; the same 21.9/34.9 appear in 2021 press), so the skill quotes it with the 27.11.2022 date and routes to the unit's משקית ת\"ש; the MoH 2028 date and the 'ממליץ' sentence are quoted verbatim in labels-and-pesach.md; the non-biopsy criteria are deliberately NOT restated anywhere, only 'the treating gastroenterologist's decision under the guideline'."
+        "Lead instructions applied: no newer IDF stipend figure was found (search 29.10.2026; the same 21.9/34.9 appear in 2021 press), so the skill quotes it with the 27.11.2022 date and routes to the unit's משקית ת\"ש; the MoH 2028 date and the 'ממליץ' sentence are quoted verbatim in labels-and-pesach.md; the non-biopsy criteria are deliberately NOT restated anywhere, only 'the treating gastroenterologist's decision under the guideline'.",
+        "v1.3.1 post-ship patch: EN frontmatter description trimmed by deletion from 1,013 to 882 raw chars (removed the education-entitlement parenthetical and 'why the pack marking decides', which also closes expert m4 for the frontmatter; metadata display_description still carries the old phrase). Overlap gate --self clear; holdout not re-run, no trigger phrase removed."
       ]
     }
   ]
