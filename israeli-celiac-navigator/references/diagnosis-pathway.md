@@ -1,14 +1,18 @@
 # Celiac diagnosis pathway in Israel
 
-Primary source: Schneider Children's Medical Center,
-https://www.schneider.org.il/?CategoryID=832&ArticleID=2439
+Primary sources: Schneider Children's Medical Center,
+https://www.schneider.org.il/?CategoryID=832&ArticleID=2439 , and the Israeli paediatric
+clinical guideline "הנחיות קליניות לאבחון וטיפול במחלת הדגנת (Celiac) בילדים",
+https://www.pediatrics.org.il/guids/%D7%A6%D7%9C%D7%99%D7%90%D7%A7.pdf
 
 ## The rule that has to come first
 
 A gluten-free diet begun **before** the disease is diagnosed by biopsy of the
 duodenal lining may mislead and make diagnosis more difficult. In the standard
-pathway the child eats a menu containing gluten for several months before the
-test, and **gluten must not be avoided before the biopsy**.
+pathway the child keeps eating gluten in the run-up to testing rather than
+stopping. How much, for how long, and whether the child is well enough to
+continue are the treating physician's decisions; do not hand a family a
+duration to run on their own child.
 
 Everything else in this file is downstream of that sentence. If a family is
 still at the suspicion stage, the order is: test first, change diet after.
@@ -33,19 +37,44 @@ The most sensitive antibodies for celiac are of the **IgA** group:
 Because these antibodies are IgA, a state of **IgA deficiency**, which is more
 common among celiac patients, affects the serology. Total IgA is therefore
 checked alongside. A single negative antibody result should not be read as a
-definitive all-clear without knowing the IgA status.
+definitive all-clear without knowing the IgA status. Where IgA is low, the Israeli
+paediatric guideline says celiac serology of the **IgG** type is done instead.
 
 ## Biopsy
 
-Diagnostic criteria rest on a biopsy showing appropriate findings.
+Diagnosis normally rests on a biopsy showing appropriate findings.
 
-A **further** biopsy is required when:
+**The exceptional non-biopsy route.** The Israeli paediatric guideline (built on
+the 2012 European criteria; which criteria apply today is the gastroenterologist's
+call) describes
+exceptional cases in which the treating gastroenterologist considers diagnosing
+without a biopsy under the guideline's own criteria. This is the
+gastroenterologist's decision, not a test a family can apply to a lab result, so
+the skill deliberately does not restate the criteria. The guideline says asymptomatic children
+always need a biopsy, and that a gluten-free diet must not start before the
+diagnosis is complete. A family told by the **gastroenterologist** that no
+endoscopy is needed has not been short-changed. If anyone else suggests starting
+the diet on a blood test alone, ask for the gastroenterology referral first and
+keep eating gluten meanwhile.
+
+**A further biopsy.** Schneider's guidance lists two triggers:
 
 - the first diagnosis was not certain, or
 - the first diagnosis was made **before age two**
 
-Parents of toddlers diagnosed very early frequently assume the matter is
-permanently settled. It may not be.
+Whether a further biopsy is actually needed is decided by the treating
+gastroenterologist. Parents of toddlers diagnosed very early frequently assume
+the matter is permanently settled; it is worth raising.
+
+## After diagnosis (description only, the team sets the plan)
+
+- **Oats**: the guideline recommends complete avoidance in the initial period
+  after diagnosis until clinical and serological recovery; afterwards, if the
+  patient wants, oats may be tried under close monitoring of symptoms and
+  antibody levels.
+- **Follow-up**: the guideline describes routine follow-up of growth, serology
+  and complications at least once a year, more often in the early stages.
+- **Relatives**: first-degree relatives are named as an at-risk group.
 
 ## Prevalence
 

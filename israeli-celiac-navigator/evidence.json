@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-celiac-navigator",
   "schemaVersion": "1.0",
-  "generated_at": "2026-08-27T17:45:09.064852+00:00",
+  "generated_at": "2026-10-29T18:00:00Z",
   "claims": [
     {
       "claim": "A gluten-free diet before the disease is diagnosed by biopsy of the duodenal lining may mislead and make diagnosis more difficult.",
@@ -105,7 +105,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim": "Food portions intended for students with celiac must be packaged in a different colour and marked with special prominent marking. Parents are responsible for passing accurate information about their child's health condition to the educational team before the start of the year.",
@@ -118,7 +120,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim": "On every food product sold in Israel that contains gluten, the ingredient list must show the name of the plant that is the source of the gluten and the words 'contains gluten', so that celiac patients know to avoid the product.",
@@ -131,7 +135,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim": "Celiac patients receive a regular enlistment medical profile together with a celiac clause, meaning that if there are no medical limitations besides the celiac they receive profile 97 with a celiac clause.",
@@ -144,7 +150,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim": "Celiac patients cannot enlist to the commando brigade, the paratroopers and the submarine flotilla, because in emergency situations it will not be logistically possible to supply them suitable food. Celiac patients cannot enlist to reconnaissance units apart from pilot, naval officers and naval combat.",
@@ -157,10 +165,12 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
-      "claim": "Celiac patients are entitled to receive a food stipend for purchasing food, in addition to the nutritional response in military dining halls. The amount of the food stipend may change from time to time and is affected by the type of service, open base or closed base.",
+      "claim": "Kol Zchut: the IDF food stipend amount may change from time to time and depends on open or closed base (the IDF page itself states the figures, see idf-stipend-figures)",
       "claim_type": "currency",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
       "raw_snippet": "חולי צליאק זכאים לקבל דמי כלכלה לרכישת מזון, בנוסף למענה התזונתי בחדרי האוכל הצבאיים. סכום דמי הכלכלה עשוי להשתנות מעת לעת ומושפע מסוג השירות (בסיס פתוח או סגור).",
@@ -170,7 +180,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim": "Celiac patients up to retirement age who are known to and treated by the social services department, and who purchase medicinal or dedicated food on a physician's recommendation, may be eligible for funding assistance. The assistance is given through the social services department, subject to budget limits and the priorities set in each local authority.",
@@ -183,33 +195,39 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim": "Celiac patients who have reached retirement age and need special nutrition on the basis of a physician's recommendation may be eligible for funding assistance.",
       "claim_type": "feature",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
-      "raw_snippet": "חולי צליאק שהגיעו ל גיל פרישה וזקוקים לתזונה מיוחדת על סמך המלצת רופא, עשויים להיות זכאים לסיוע במימון.",
+      "raw_snippet": "חולי צליאק שהגיעו לגיל פרישה וזקוקים לתזונה מיוחדת על סמך המלצת רופא, עשויים להיות זכאים לסיוע במימון.",
       "confidence": "high",
       "claim_id": "material-assistance-seniors",
-      "fetched_at": "2026-07-26T09:00:00Z",
+      "fetched_at": "2026-10-29T18:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim": "When a celiac patient needs drug treatment but the drug treatment in the health basket is not suitable for celiac patients, there is a right to receive a suitable alternative.",
       "claim_type": "feature",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
-      "raw_snippet": "כאשר חולה צליאק זקוק לטיפול תרופתי אולם הטיפול התרופתי שנמצא ב סל הבריאות איננו מתאים לחולי צליאק, קיימת זכות לקבלת חלופה מתאימה.",
+      "raw_snippet": "כאשר חולה צליאק זקוק לטיפול תרופתי אולם הטיפול התרופתי שנמצא בסל הבריאות איננו מתאים לחולי צליאק, קיימת זכות לקבלת חלופה מתאימה.",
       "confidence": "high",
       "claim_id": "medication-alternative-right",
-      "fetched_at": "2026-07-26T09:00:00Z",
+      "fetched_at": "2026-10-29T18:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim": "Celiac does not appear as a named qualifying impairment on the Bituach Leumi disabled-child impairment list, which does name allergy as a criterion.",
@@ -230,23 +248,25 @@
       "claim": "Government contact points listed for celiac patients include Kol HaBriut of the Ministry of Health at *5400, Bituach Leumi at *6050, and Yad Machvana at *2496.",
       "claim_type": "threshold",
       "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
-      "raw_snippet": "*5400 ביטוח לאומי אתר *6050 יד מכוונת (ביטוח לאומי) אתר *2496",
+      "raw_snippet": "*5400 ביטוח לאומי *6050 יד מכוונת (ביטוח לאומי) *2496",
       "confidence": "high",
       "claim_id": "govt-helplines",
       "fetched_at": "2026-07-26T09:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim": "Because these antibodies are of the IgA type, in a state of IgA deficiency, which is more common in celiac patients, the serology can be affected.",
       "claim_type": "feature",
       "source_url": "https://www.schneider.org.il/?CategoryID=832&ArticleID=2439",
-      "raw_snippet": "מאחר שנוגדנים אילו הינם מסוג IgA , במצב של חסר IgA",
+      "raw_snippet": "מאחר שנוגדנים אילו הינם מסוגIgA , במצב של חסר IgA",
       "confidence": "high",
       "claim_id": "iga-deficiency-caveat",
-      "fetched_at": "2026-07-26T09:20:00Z",
+      "fetched_at": "2026-10-29T18:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -305,7 +325,7 @@
       ]
     },
     {
-      "claim": "The Ministry of Health publishes binding guidance on providing consumers with information about allergens and substances causing hypersensitivity, which governs current labelling requirements.",
+      "claim": "The Ministry of Health publishes a guide on allergen information for consumers, which clarifies (and must be read with) the binding Regulation 1169/2011 as adopted",
       "claim_type": "url",
       "source_url": "https://www.gov.il/he/pages/allergens-guidance",
       "raw_snippet": "מדריך בנושא מסירת מידע לצרכנים בקשר לאלרגנים ולחומרים הגורמים לאי סבילות במזון",
@@ -351,10 +371,10 @@
       "claim": "Cakes, cookies, wafers, Pesek Zman and Kif Kif contain gluten, as do flour-based snacks such as Bisli and Kabukim.",
       "claim_type": "fact",
       "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
-      "raw_snippet": "עוגות, עוגיות, וופלים, פסק זמן, כיף כיף ... חטיפים המכילים קמח כמו ביסלי וקבוקים",
+      "raw_snippet": "עוגות, עוגיות, וופלים, פסק זמן, כיף כיף וכדומה.",
       "confidence": "high",
       "claim_id": "gluten-containing-snack-categories",
-      "fetched_at": "2026-07-27T12:00:00Z",
+      "fetched_at": "2026-10-29T18:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -449,7 +469,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim_id": "celiac-presentations-wide",
@@ -460,7 +482,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim_id": "celiac-not-only-childhood",
@@ -471,7 +495,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim_id": "idf-open-roles-named",
@@ -482,7 +508,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim_id": "idf-excluded-units",
@@ -493,7 +521,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim_id": "idf-profile-97-clause",
@@ -504,7 +534,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim_id": "education-entitlement-marking",
@@ -515,7 +547,9 @@
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim_id": "gluten-labelling-rule",
@@ -527,7 +561,9 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/birthday-snacks.md"
-      ]
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
     },
     {
       "claim_id": "gluten-free-20ppm-threshold",
@@ -606,6 +642,824 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "idf-stipend-figures",
+      "claim": "IDF page (27.11.2022): food stipend 21.9 NIS a day open base, 34.9 NIS a day closed base, paid to the bank account",
+      "source_url": "https://www.mitgaisim.idf.il/%D7%9B%D7%AA%D7%91%D7%95%D7%AA/%D7%A8%D7%90%D7%A9%D7%99/%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%97%D7%95%D7%91%D7%95%D7%AA/%D7%97%D7%95%D7%9C%D7%99-%D7%A6%D7%9C%D7%99%D7%90%D7%A7-%D7%9B%D7%9C-%D7%94%D7%9E%D7%99%D7%93%D7%A2-%D7%A2%D7%91%D7%95%D7%A8%D7%9B%D7%9D/",
+      "raw_snippet": "חיילים המשרתים בבסיס פתוח זכאים לסכום של 21.9 ש\"ח ליום ואלו השוהים בבסיס סגור זכאים לסכום של 34.9 ש\"ח ליום",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "idf-closed-units-per-idf",
+      "claim": "IDF page: closed are the submarine flotilla and the fire formation (paratroopers, commando) except the David's Sling formation",
+      "source_url": "https://www.mitgaisim.idf.il/%D7%9B%D7%AA%D7%91%D7%95%D7%AA/%D7%A8%D7%90%D7%A9%D7%99/%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%97%D7%95%D7%91%D7%95%D7%AA/%D7%97%D7%95%D7%9C%D7%99-%D7%A6%D7%9C%D7%99%D7%90%D7%A7-%D7%9B%D7%9C-%D7%94%D7%9E%D7%99%D7%93%D7%A2-%D7%A2%D7%91%D7%95%D7%A8%D7%9B%D7%9D/",
+      "raw_snippet": "שייטת צוללות ועוצבת האש (חטיבת צנחנים והקומנדו), למעט עוצבת קלע דוד",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "idf-manoeuvring-volunteer-only",
+      "claim": "IDF page: assignment to manoeuvring combat roles is on a volunteer basis only",
+      "source_url": "https://www.mitgaisim.idf.il/%D7%9B%D7%AA%D7%91%D7%95%D7%AA/%D7%A8%D7%90%D7%A9%D7%99/%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%97%D7%95%D7%91%D7%95%D7%AA/%D7%97%D7%95%D7%9C%D7%99-%D7%A6%D7%9C%D7%99%D7%90%D7%A7-%D7%9B%D7%9C-%D7%94%D7%9E%D7%99%D7%93%D7%A2-%D7%A2%D7%91%D7%95%D7%A8%D7%9B%D7%9D/",
+      "raw_snippet": "בשלב זה, השיבוץ ליעדים המתמרנים יעשה על פי התנדבות הפרט",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "idf-gf-combat-rations",
+      "claim": "IDF page: gluten-free combat rations in the field",
+      "source_url": "https://www.mitgaisim.idf.il/%D7%9B%D7%AA%D7%91%D7%95%D7%AA/%D7%A8%D7%90%D7%A9%D7%99/%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%97%D7%95%D7%91%D7%95%D7%AA/%D7%97%D7%95%D7%9C%D7%99-%D7%A6%D7%9C%D7%99%D7%90%D7%A7-%D7%9B%D7%9C-%D7%94%D7%9E%D7%99%D7%93%D7%A2-%D7%A2%D7%91%D7%95%D7%A8%D7%9B%D7%9D/",
+      "raw_snippet": "בעת שהייה בשטח במהלך באימונים ובתרגילים, תקבלו ממנות קרב ללא גלוטן",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "idf-page-date",
+      "claim": "IDF celiac page date",
+      "source_url": "https://www.mitgaisim.idf.il/%D7%9B%D7%AA%D7%91%D7%95%D7%AA/%D7%A8%D7%90%D7%A9%D7%99/%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%97%D7%95%D7%91%D7%95%D7%AA/%D7%97%D7%95%D7%9C%D7%99-%D7%A6%D7%9C%D7%99%D7%90%D7%A7-%D7%9B%D7%9C-%D7%94%D7%9E%D7%99%D7%93%D7%A2-%D7%A2%D7%91%D7%95%D7%A8%D7%9B%D7%9D/",
+      "raw_snippet": "27.11.2022",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "education-circular-0404",
+      "claim": "MoE Director-General standing instruction 0404 of 01.08.2023 on celiac students",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%AA%D7%90%D7%9E%D7%95%D7%AA_%D7%9C%D7%AA%D7%9C%D7%9E%D7%99%D7%93%D7%99%D7%9D_%D7%97%D7%95%D7%9C%D7%99_%D7%A6%D7%9C%D7%99%D7%90%D7%A7_%D7%91%D7%9E%D7%95%D7%A1%D7%93%D7%95%D7%AA_%D7%97%D7%99%D7%A0%D7%95%D7%9A",
+      "raw_snippet": "חוזר מנכ\"ל משרד החינוך הוראת קבע מס' 0404 מיום 01.08.2023 - תלמידים החולים במחלת הצליאק.",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "education-craft-materials",
+      "claim": "Substitutes in every activity involving food or craft materials containing gluten",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%AA%D7%90%D7%9E%D7%95%D7%AA_%D7%9C%D7%AA%D7%9C%D7%9E%D7%99%D7%93%D7%99%D7%9D_%D7%97%D7%95%D7%9C%D7%99_%D7%A6%D7%9C%D7%99%D7%90%D7%A7_%D7%91%D7%9E%D7%95%D7%A1%D7%93%D7%95%D7%AA_%D7%97%D7%99%D7%A0%D7%95%D7%9A",
+      "raw_snippet": "במוסד החינוכי או מחוצה לו, הכוללת מזון או חומרי יצירה שיש בהם גלוטן",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "education-activities-birthdays",
+      "claim": "Alternatives in food sales, birthdays, mishloach manot",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%AA%D7%90%D7%9E%D7%95%D7%AA_%D7%9C%D7%AA%D7%9C%D7%9E%D7%99%D7%93%D7%99%D7%9D_%D7%97%D7%95%D7%9C%D7%99_%D7%A6%D7%9C%D7%99%D7%90%D7%A7_%D7%91%D7%9E%D7%95%D7%A1%D7%93%D7%95%D7%AA_%D7%97%D7%99%D7%A0%D7%95%D7%9A",
+      "raw_snippet": "על המוסד החינוכי לדאוג לחלופה בפעילויות השונות, כגון מכירות מזון, ימי הולדת, משלוחי מנות, ועוד.",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md",
+        "references/birthday-snacks.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "education-long-day-meals",
+      "claim": "Where meals are served, including long school day, a suitable portion",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%AA%D7%90%D7%9E%D7%95%D7%AA_%D7%9C%D7%AA%D7%9C%D7%9E%D7%99%D7%93%D7%99%D7%9D_%D7%97%D7%95%D7%9C%D7%99_%D7%A6%D7%9C%D7%99%D7%90%D7%A7_%D7%91%D7%9E%D7%95%D7%A1%D7%93%D7%95%D7%AA_%D7%97%D7%99%D7%A0%D7%95%D7%9A",
+      "raw_snippet": "במוסדות חינוך שמתקיימת בהם הזנה (כולל במוסדות שבהם מוגשת ארוחה יומית בשל יום לימודים ארוך) יש לדאוג למנה מתאימה לצורכי התלמיד.",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "education-no-exclusion",
+      "claim": "Institution must avoid discrimination or exclusion on medical grounds",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%AA%D7%90%D7%9E%D7%95%D7%AA_%D7%9C%D7%AA%D7%9C%D7%9E%D7%99%D7%93%D7%99%D7%9D_%D7%97%D7%95%D7%9C%D7%99_%D7%A6%D7%9C%D7%99%D7%90%D7%A7_%D7%91%D7%9E%D7%95%D7%A1%D7%93%D7%95%D7%AA_%D7%97%D7%99%D7%A0%D7%95%D7%9A",
+      "raw_snippet": "על המוסד החינוכי להימנע מאפליה או החרגה על הרקע הרפואי.",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "education-health-declaration",
+      "claim": "Parents fill in the health declaration form before the year",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%AA%D7%90%D7%9E%D7%95%D7%AA_%D7%9C%D7%AA%D7%9C%D7%9E%D7%99%D7%93%D7%99%D7%9D_%D7%97%D7%95%D7%9C%D7%99_%D7%A6%D7%9C%D7%99%D7%90%D7%A7_%D7%91%D7%9E%D7%95%D7%A1%D7%93%D7%95%D7%AA_%D7%97%D7%99%D7%A0%D7%95%D7%9A",
+      "raw_snippet": "על ההורים למלא לפני תחילת השנה טופס הצהרת הורים על מצב בריאותו של ילדם בבית הספר",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "education-packaging-circular-2016",
+      "claim": "Packaging rule from the 04.04.2016 nutrition circular section 8.2",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%AA%D7%90%D7%9E%D7%95%D7%AA_%D7%9C%D7%AA%D7%9C%D7%9E%D7%99%D7%93%D7%99%D7%9D_%D7%97%D7%95%D7%9C%D7%99_%D7%A6%D7%9C%D7%99%D7%90%D7%A7_%D7%91%D7%9E%D7%95%D7%A1%D7%93%D7%95%D7%AA_%D7%97%D7%99%D7%A0%D7%95%D7%9A",
+      "raw_snippet": "חוזר מנכ\"ל משרד החינוך תשעו/8(א) מיום 04.04.2016 - הזנה וחינוך לתזונה נכונה במוסדות החינוך, סעיף 8.2.",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "education-declaration-circular-2013",
+      "claim": "Parents health declaration circular of 27.08.2013",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%AA%D7%90%D7%9E%D7%95%D7%AA_%D7%9C%D7%AA%D7%9C%D7%9E%D7%99%D7%93%D7%99%D7%9D_%D7%97%D7%95%D7%9C%D7%99_%D7%A6%D7%9C%D7%99%D7%90%D7%A7_%D7%91%D7%9E%D7%95%D7%A1%D7%93%D7%95%D7%AA_%D7%97%D7%99%D7%A0%D7%95%D7%9A",
+      "raw_snippet": "חוזר מנכ\"ל משרד החינוך תשעד/1(א) מיום 27.08.2013 - הצהרת הורים על בריאות ילדם.",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "welfare-ceiling-1210",
+      "claim": "Welfare food funding up to 1,210 NIS a month as of 2026",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%99%D7%95%D7%A2_%D7%91%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%9E%D7%96%D7%95%D7%9F_%D7%AA%D7%A8%D7%95%D7%A4%D7%AA%D7%99/%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%97%D7%95%D7%9C%D7%99%D7%9D_%D7%94%D7%96%D7%A7%D7%95%D7%A7%D7%99%D7%9D_%D7%9C%D7%AA%D7%96%D7%95%D7%A0%D7%94_%D7%9E%D7%99%D7%95%D7%97%D7%93%D7%AA",
+      "raw_snippet": "הסיוע במימון ניתן בסכום של עד 1,210 ₪ בחודש (נכון לשנת 2026), ויש לשלם עליו השתתפות עצמית.",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "welfare-copay-min-10",
+      "claim": "Co-payment never below 10 percent, aid 10 to 90 percent",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%99%D7%95%D7%A2_%D7%91%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%9E%D7%96%D7%95%D7%9F_%D7%AA%D7%A8%D7%95%D7%A4%D7%AA%D7%99/%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%97%D7%95%D7%9C%D7%99%D7%9D_%D7%94%D7%96%D7%A7%D7%95%D7%A7%D7%99%D7%9D_%D7%9C%D7%AA%D7%96%D7%95%D7%A0%D7%94_%D7%9E%D7%99%D7%95%D7%97%D7%93%D7%AA",
+      "raw_snippet": "בכל מקרה, ההשתתפות העצמית לא תפחת מ-10%, ולכן סכום הסיוע בפועל יהיה בין 10% ל- 90% מ-1,210 ₪ לחודש.",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "welfare-ceiling-5-points",
+      "claim": "The ceiling equals 5 credit points",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%99%D7%95%D7%A2_%D7%91%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%9E%D7%96%D7%95%D7%9F_%D7%AA%D7%A8%D7%95%D7%A4%D7%AA%D7%99/%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%97%D7%95%D7%9C%D7%99%D7%9D_%D7%94%D7%96%D7%A7%D7%95%D7%A7%D7%99%D7%9D_%D7%9C%D7%AA%D7%96%D7%95%D7%A0%D7%94_%D7%9E%D7%99%D7%95%D7%97%D7%93%D7%AA",
+      "raw_snippet": "לגבי הוצאה של עד 5 נקודות זיכוי (1,210 ₪)",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "welfare-appeal",
+      "claim": "Appeal to the Welfare Ministry district appeals committee",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%99%D7%95%D7%A2_%D7%91%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%9E%D7%96%D7%95%D7%9F_%D7%AA%D7%A8%D7%95%D7%A4%D7%AA%D7%99/%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%97%D7%95%D7%9C%D7%99%D7%9D_%D7%94%D7%96%D7%A7%D7%95%D7%A7%D7%99%D7%9D_%D7%9C%D7%AA%D7%96%D7%95%D7%A0%D7%94_%D7%9E%D7%99%D7%95%D7%97%D7%93%D7%AA",
+      "raw_snippet": "רשאים לערער לוועדת הערר של משרד העבודה והרווחה במחוז מגוריהם.",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "tax-s45-tied-to-allowance",
+      "claim": "Section 45 credit points for a child under 18 follow the disabled-child allowance",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%95%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%91%D7%A2%D7%93_%D7%99%D7%9C%D7%93_%D7%90%D7%95_%D7%91%D7%95%D7%92%D7%A8_%D7%A2%D7%9D_%D7%9E%D7%95%D7%92%D7%91%D7%9C%D7%95%D7%AA",
+      "raw_snippet": "הם מקבלים גמלת ילד נכה.",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "tax-s45-two-points",
+      "claim": "Section 45: 2 credit points for parents of a child with a disability",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%95%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%91%D7%A2%D7%93_%D7%99%D7%9C%D7%93_%D7%90%D7%95_%D7%91%D7%95%D7%92%D7%A8_%D7%A2%D7%9D_%D7%9E%D7%95%D7%92%D7%91%D7%9C%D7%95%D7%AA",
+      "raw_snippet": "2 נקודות זיכוי",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "gf-flour-subsidy-knesset",
+      "claim": "Knesset Health Committee 11.05.2026: 1.2M NIS a year allocated for gluten-free flour subsidy, about 300,000 NIS used",
+      "source_url": "https://www.maariv.co.il/news/health/article-1320157",
+      "raw_snippet": "מדינת ישראל מקצה מדי שנה 1.2 מיליון שקלים לסבסוד קמח ללא גלוטן, אבל בפועל מנוצלים רק כ-300 אלף שקלים",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "gf-flour-subsidy-date",
+      "claim": "Date of the Knesset Health Committee discussion",
+      "source_url": "https://www.maariv.co.il/news/health/article-1320157",
+      "raw_snippet": "11/05/2026",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "maccabi-dietitian-gastro",
+      "claim": "Maccabi: gastro conditions qualify for dietitian sessions, session count set by dietitian, referral for first visit",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/3856/",
+      "raw_snippet": "מספר המפגשים נקבע בהתאם לשיקול דעתה המקצועי של הדיאטנית",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "maccabi-dietitian-referral",
+      "claim": "Maccabi: first visit needs a doctor referral",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/3856/",
+      "raw_snippet": "לפגישה הראשונה או אם חלפה שנה מהפגישה הקודמת - נדרשת הפניית רופא/ה מטפל/ת",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "gluten-regulation-above-20ppm",
+      "claim": "1996 gluten regulation (amended 2011): food above 20 ppm gluten must state the source plant and the words מכיל גלוטן",
+      "source_url": "https://www.gov.il/BlobFolder/legalinfo/health-mazon11a/he/files_legislation_food_health-mazon11A.pdf",
+      "raw_snippet": "לא ייצר אדם מזון שיש בו או שהוסף לו גלוטן בשיעור העולה על 20 חלקים",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "gluten-free-marking-conditions",
+      "claim": "ללא גלוטן requires up to 20 ppm and proper manufacturing conditions",
+      "source_url": "https://www.gov.il/BlobFolder/legalinfo/health-mazon11a/he/files_legislation_food_health-mazon11A.pdf",
+      "raw_snippet": "הוא יוצר בתנאי ייצור נאותים",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "gluten-regulation-year",
+      "claim": "Regulation dated 1996, amended 2011 (התשע\"א)",
+      "source_url": "https://www.gov.il/BlobFolder/legalinfo/health-mazon11a/he/files_legislation_food_health-mazon11A.pdf",
+      "raw_snippet": "תקנות בריאות הציבור (מזון) (סימון גלוטן), התשנ\"ו-1996",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "eu-format-mandatory-2028",
+      "claim": "EU 1169 allergen format mandatory from 1.1.2028, voluntary from 1.1.2025, emphasis inside the ingredient list replaces the box",
+      "source_url": "https://www.gov.il/BlobFolder/guide/seminars-and-conferences/he/units_fcs_food-reform_european%20regulation.pdf",
+      "raw_snippet": "החל מ-1 בינואר 2028, יחויבו יצרנים ויבואנים לסמן אלרגנים במזון בצורה התואמת את הדרישות בתקנה",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md",
+        "references/birthday-snacks.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "eu-format-replaces-box",
+      "claim": "The new marking replaces the information box and emphasises allergens in the ingredient list",
+      "source_url": "https://www.gov.il/BlobFolder/guide/seminars-and-conferences/he/units_fcs_food-reform_european%20regulation.pdf",
+      "raw_snippet": "הסימון החדש יחליף את הסימון בתיבת המידע",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "moh-recommends-contains-gluten",
+      "claim": "MoH recommends adding מכיל גלוטן right after the grain name",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/allergens-guidance/he/files_publications_units_food_control_services_allergens-guidance.pdf",
+      "raw_snippet": "משרד הבריאות ממליץ להוסיף את",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "bulk-food-allergen-2032",
+      "claim": "Allergen labelling of bulk food deferred to 1.1.2032",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/allergens-guidance/he/files_publications_units_food_control_services_allergens-guidance.pdf",
+      "raw_snippet": "הדרישה לסמנם על מזון בתפזורת נדחית ותחול בישראל החל ב-1.1.2032",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "references/labels-and-pesach.md",
+        "references/birthday-snacks.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "regulation-1169-2011",
+      "claim": "Israel adopted EU Regulation 1169/2011",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/allergens-guidance/he/files_publications_units_food_control_services_allergens-guidance.pdf",
+      "raw_snippet": "מטרת מדריך זה היא להבהיר את הדרישות המפורטות בתקנה מס' 1169/2011",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "regulation-828-2014",
+      "claim": "A product meeting EU 828/2014 (under 20 ppm) may be called gluten-free, oats still emphasised",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/allergens-guidance/he/files_publications_units_food_control_services_allergens-guidance.pdf",
+      "raw_snippet": "במוצר המסומן כ-\"ללא גלוטן\" לפי 828/2014, אין לסמן את המילים: \"מכיל גלוטן\" לאחר שם הדגן המודגש ברשימת הרכיבים.",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "allergen-guide-version",
+      "claim": "MoH allergen guide version 2 of 29/06/2025",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/allergens-guidance/he/files_publications_units_food_control_services_allergens-guidance.pdf",
+      "raw_snippet": "גירסה 2 - 29/06/2025",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "references/labels-and-pesach.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "moe-two-formats-until-2028",
+      "claim": "MoE 2026 gan model: until 2028 two formats coexist, emphasis in the list (new) and information box (old)",
+      "source_url": "https://meyda.education.gov.il/files/briut/2026briut/Celiac/modelceliac-ganim.pdf",
+      "raw_snippet": "יופיעו בדרכי השיווק שתי תצורות מקבילות",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "moe-spelt-gluten-grain",
+      "claim": "MoE 2026 gan model lists spelt among gluten grains",
+      "source_url": "https://meyda.education.gov.il/files/briut/2026briut/Celiac/modelceliac-ganim.pdf",
+      "raw_snippet": "חיטה, שעורה, שיפון וכוסמין",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "moe-celiac-model-2026",
+      "claim": "MoE published the \"שמים לב לצליאק\" aware-environment model for gan (2026)",
+      "source_url": "https://meyda.education.gov.il/files/briut/2026briut/Celiac/modelceliac-ganim.pdf",
+      "raw_snippet": "לתלמידים עם צליאק בגן הילדים",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "ped-guideline-nonbiopsy-exceptional",
+      "claim": "Israeli paediatric guideline: exceptional non-biopsy diagnosis by a gastroenterologist, anti-TTG IgA above 10x normal repeated on a second sample plus EMA",
+      "source_url": "https://www.pediatrics.org.il/guids/%D7%A6%D7%9C%D7%99%D7%90%D7%A7.pdf",
+      "raw_snippet": "במקרים חריגים בהם הגסטרואנטרולוג שוקל לאבחן מחלת צליאק ללא ביצוע ביופסיה",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/diagnosis-pathway.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "ped-guideline-gastro-only",
+      "claim": "Non-biopsy diagnosis only by a gastroenterologist",
+      "source_url": "https://www.pediatrics.org.il/guids/%D7%A6%D7%9C%D7%99%D7%90%D7%A7.pdf",
+      "raw_snippet": "אבחון מסוג זה יתבצע אך ורק על ידי גסטרואנטרולוג",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/diagnosis-pathway.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "ped-guideline-asymptomatic-biopsy",
+      "claim": "Asymptomatic children always need a biopsy",
+      "source_url": "https://www.pediatrics.org.il/guids/%D7%A6%D7%9C%D7%99%D7%90%D7%A7.pdf",
+      "raw_snippet": "בילדים אסימפטומטיים יש תמיד צורך בביופסיה",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/diagnosis-pathway.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "ped-guideline-low-iga-igg",
+      "claim": "Low IgA: IgG-type celiac serology",
+      "source_url": "https://www.pediatrics.org.il/guids/%D7%A6%D7%9C%D7%99%D7%90%D7%A7.pdf",
+      "raw_snippet": "יש לבצע בדיקת סרולוגיה לצליאק מסוג",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/diagnosis-pathway.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "ped-guideline-oats",
+      "claim": "Oats: complete avoidance initially until clinical and serological recovery, then optional monitored trial",
+      "source_url": "https://www.pediatrics.org.il/guids/%D7%A6%D7%9C%D7%99%D7%90%D7%A7.pdf",
+      "raw_snippet": "אנו ממליצים על הימנעות מוחלטת בתקופה הראשונית לאחר האבחנה",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/diagnosis-pathway.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "ped-guideline-followup-yearly",
+      "claim": "Routine follow-up at least once a year, more often early",
+      "source_url": "https://www.pediatrics.org.il/guids/%D7%A6%D7%9C%D7%99%D7%90%D7%A7.pdf",
+      "raw_snippet": "המעקב הוא בתדירות של לפחות אחת לשנה",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/diagnosis-pathway.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "ped-guideline-relatives",
+      "claim": "First-degree relatives named as at risk",
+      "source_url": "https://www.pediatrics.org.il/guids/%D7%A6%D7%9C%D7%99%D7%90%D7%A7.pdf",
+      "raw_snippet": "קרובי משפחה מדרגה ראשונה",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/diagnosis-pathway.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "tax-s45-ordinance",
+      "claim": "The credit points are under section 45 of the Income Tax Ordinance",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%95%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%91%D7%A2%D7%93_%D7%99%D7%9C%D7%93_%D7%90%D7%95_%D7%91%D7%95%D7%92%D7%A8_%D7%A2%D7%9D_%D7%9E%D7%95%D7%92%D7%91%D7%9C%D7%95%D7%AA",
+      "raw_snippet": "פקודת מס הכנסה - סעיף 45",
+      "fetched_at": "2026-10-29T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T18:00:00Z"
+    },
+    {
+      "claim_id": "ped-guideline-espghan-2012",
+      "claim": "The Israeli paediatric guideline is built on the 2012 ESPGHAN criteria",
+      "source_url": "https://www.pediatrics.org.il/guids/%D7%A6%D7%9C%D7%99%D7%90%D7%A7.pdf",
+      "raw_snippet": "European Society for Pediatric Gastroenterology, Hepatology, and Nutrition guidelines for the diagnosis of coeliac disease. J Pediatr Gastroenterol Nutr 2012;54:125",
+      "fetched_at": "2026-10-29T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/diagnosis-pathway.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T19:30:00Z"
+    },
+    {
+      "claim_id": "ped-guideline-no-diet-before-diagnosis",
+      "claim": "No gluten-free diet before the diagnosis is certainly complete",
+      "source_url": "https://www.pediatrics.org.il/guids/%D7%A6%D7%9C%D7%99%D7%90%D7%A7.pdf",
+      "raw_snippet": "אין להתחיל בתזונה נטולת גלוטן לפני השלמה וודאית של האבחנה",
+      "fetched_at": "2026-10-29T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/diagnosis-pathway.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T19:30:00Z"
+    },
+    {
+      "claim_id": "leumit-separate-toaster",
+      "claim": "Leumit: use a separate toaster",
+      "source_url": "https://www.leumit.co.il/nutrition/celiac-nutrition-without-gluten/",
+      "raw_snippet": "רצוי להשתמש בטוסטר נפרד",
+      "fetched_at": "2026-10-29T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md"
+      ]
+    },
+    {
+      "claim_id": "leumit-disputed-grains-buckwheat-millet",
+      "claim": "Leumit: buckwheat, millet, quinoa, teff, amaranth, sorghum disputed, contamination risk",
+      "source_url": "https://www.leumit.co.il/nutrition/celiac-nutrition-without-gluten/",
+      "raw_snippet": "דגנים כגון כוסמת, דוחן, קינואה, טף, אמרנט, סורגום, שנויים במחלוקת",
+      "fetched_at": "2026-10-29T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md"
+      ]
+    },
+    {
+      "claim_id": "leumit-oat-matza",
+      "claim": "Leumit lists oat matza among oat products",
+      "source_url": "https://www.leumit.co.il/nutrition/celiac-nutrition-without-gluten/",
+      "raw_snippet": "קוואקר, גרנולה, יוגורט גרנולה, מצות שיבולת שועל, סובין שיבולת שועל.",
+      "fetched_at": "2026-10-29T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md"
+      ]
+    },
+    {
+      "claim_id": "gluten-legal-definition",
+      "claim": "Regulation 1: gluten includes wheat, rye, barley, oats and their products including starches, malt and bran",
+      "source_url": "https://www.gov.il/BlobFolder/legalinfo/health-mazon11a/he/files_legislation_food_health-mazon11A.pdf",
+      "raw_snippet": "שעורה, שיבולת שועל ומוצריהם, לרבות עמילנים, לתת וסובין",
+      "fetched_at": "2026-10-29T19:30:00Z",
+      "appears_in": [
+        "references/labels-and-pesach.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T19:30:00Z"
+    },
+    {
+      "claim_id": "kolzchut-celiac-updated-july-2025",
+      "claim": "Kol Zchut celiac page last updated 2 July 2025",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A6%D7%9C%D7%99%D7%90%D7%A7",
+      "raw_snippet": "עודכן לאחרונה ב־13:11, 2 ביולי 2025",
+      "fetched_at": "2026-10-29T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T19:30:00Z"
+    },
+    {
+      "claim_id": "idf-enlistment-compulsory",
+      "claim": "IDF: enlistment of celiacs became compulsory",
+      "source_url": "https://www.mitgaisim.idf.il/%D7%9B%D7%AA%D7%91%D7%95%D7%AA/%D7%A8%D7%90%D7%A9%D7%99/%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%97%D7%95%D7%91%D7%95%D7%AA/%D7%97%D7%95%D7%9C%D7%99-%D7%A6%D7%9C%D7%99%D7%90%D7%A7-%D7%9B%D7%9C-%D7%94%D7%9E%D7%99%D7%93%D7%A2-%D7%A2%D7%91%D7%95%D7%A8%D7%9B%D7%9D/",
+      "raw_snippet": "בשנים האחרונות הפך גיוסם לחובה",
+      "fetched_at": "2026-10-29T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T19:30:00Z"
+    },
+    {
+      "claim_id": "idf-preferences-questionnaire",
+      "claim": "IDF: interest in manoeuvring combat marked in a preferences questionnaire",
+      "source_url": "https://www.mitgaisim.idf.il/%D7%9B%D7%AA%D7%91%D7%95%D7%AA/%D7%A8%D7%90%D7%A9%D7%99/%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%97%D7%95%D7%91%D7%95%D7%AA/%D7%97%D7%95%D7%9C%D7%99-%D7%A6%D7%9C%D7%99%D7%90%D7%A7-%D7%9B%D7%9C-%D7%94%D7%9E%D7%99%D7%93%D7%A2-%D7%A2%D7%91%D7%95%D7%A8%D7%9B%D7%9D/",
+      "raw_snippet": "תוכלו לסמן במסגרת שאלון העדפות שייפתח עבורכם שאתם מעוניינים לשרת ביעד לחימה מתמרן",
+      "fetched_at": "2026-10-29T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T19:30:00Z"
+    },
+    {
+      "claim_id": "idf-reserves-adapted-food",
+      "claim": "IDF: reservists with a celiac clause get an adapted-food indication entitling adapted food and stipend",
+      "source_url": "https://www.mitgaisim.idf.il/%D7%9B%D7%AA%D7%91%D7%95%D7%AA/%D7%A8%D7%90%D7%A9%D7%99/%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA-%D7%95%D7%97%D7%95%D7%91%D7%95%D7%AA/%D7%97%D7%95%D7%9C%D7%99-%D7%A6%D7%9C%D7%99%D7%90%D7%A7-%D7%9B%D7%9C-%D7%94%D7%9E%D7%99%D7%93%D7%A2-%D7%A2%D7%91%D7%95%D7%A8%D7%9B%D7%9D/",
+      "raw_snippet": "קיומה של האינדיקציה תזכה את החיילים במזון מותאם ובדמי כלכלה",
+      "fetched_at": "2026-10-29T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T19:30:00Z"
+    },
+    {
+      "claim_id": "moe-parents-committee-treats",
+      "claim": "MoE gan model: update the gan parents committee for treat adjustments",
+      "source_url": "https://meyda.education.gov.il/files/briut/2026briut/Celiac/modelceliac-ganim.pdf",
+      "raw_snippet": "עדכון ועד הורי הגן לצורך התאמות בכיבוד",
+      "fetched_at": "2026-10-29T19:30:00Z",
+      "appears_in": [
+        "references/birthday-snacks.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T19:30:00Z"
+    },
+    {
+      "claim_id": "celiacrights-explicit-not-contains",
+      "claim": "Celiac Rights Organisation: check the pack for an explicit \"אינו מכיל גלוטן\"",
+      "source_url": "https://celiacrights.org.il/lifestyle/%D7%94%D7%9B%D7%9C-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%A0%D7%98%D7%95%D7%9C%D7%AA-%D7%92%D7%9C%D7%95%D7%98%D7%9F",
+      "raw_snippet": "לשם כך יש לבדוק האם רשום על גבי האריזה באופן מפורש",
+      "fetched_at": "2026-10-29T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T19:30:00Z"
+    },
+    {
+      "claim_id": "allergen-guide-not-binding",
+      "claim": "The MoH guide says it must be read with the binding regulation",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/allergens-guidance/he/files_publications_units_food_control_services_allergens-guidance.pdf",
+      "raw_snippet": "מדריך זה אינו מהווה ייעוץ משפטי, ויש לקרוא אותו יחד עם התקנה המחייבת",
+      "fetched_at": "2026-10-29T19:30:00Z",
+      "appears_in": [
+        "references/labels-and-pesach.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-10-29T19:30:00Z"
+    },
+    {
+      "claim_id": "knesset-contains-gluten-dispute",
+      "claim": "At the Knesset Health Committee (11.05.2026) MoH recommended keeping \"מכיל גלוטן\" and the food industry objected",
+      "source_url": "https://www.maariv.co.il/news/health/article-1320157",
+      "raw_snippet": "משרד הבריאות המליץ להמשיך לסמן \"מכיל גלוטן\" על מוצרים, אבל בתעשיית המזון מתנגדים לכך בטענה לעלויות גבוהות",
+      "fetched_at": "2026-10-29T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/labels-and-pesach.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T20:00:00Z"
+    },
+    {
+      "claim_id": "gf-flour-availability-gaps",
+      "claim": "MoH acknowledged availability gaps for the subsidised flour in retail chains",
+      "source_url": "https://www.maariv.co.il/news/health/article-1320157",
+      "raw_snippet": "אנחנו מבינים שיש כאן פערים גם כנראה של נגישות למוצר הספציפי הזה ברשתות השיווק השונות",
+      "fetched_at": "2026-10-29T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entitlements-and-education.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-10-29T20:00:00Z"
     }
   ]
 }

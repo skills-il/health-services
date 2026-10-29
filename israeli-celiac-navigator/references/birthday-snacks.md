@@ -11,10 +11,18 @@ hand, checked on the day. Recipes, flavourings and production lines change, bran
 add and drop gluten-free versions, and a snack range is rarely uniform across all
 its flavours.
 
-**The rule that overrides every row.** Under Israeli labelling rules a product
-containing gluten must name the source plant in the ingredient list and state
-`מכיל גלוטן`. So the method is: find the product on the shelf, turn the pack over,
-read the ingredient list, and buy it only if it is clean. A remembered product name
+**The rule that overrides every row.** Israeli packs are mid-way between two
+labelling formats (see `labels-and-pesach.md`): the old one adds `מכיל גלוטן` or a
+separate `מכיל: גלוטן` line, the new EU-style one, mandatory from 1.1.2028,
+emphasises the gluten grain inside the ingredient list and may not use the words at
+all. So the method is: find the product on the shelf, turn the pack over, read the
+ingredient list for wheat (including spelt), barley, rye and oats, and prefer a pack
+marked `ללא גלוטן`, the only regulated mark. `אינו מכיל גלוטן` is a manufacturer's
+statement without the regulation's conditions, and a clean ingredient list with no
+marking shows only that the recipe has no gluten, not that production was clean;
+where doubt remains, it does not go in the bag. A `ללא גלוטן` pack can still contain
+oats, which a newly diagnosed child may be told to avoid at first, so check that
+with the dietitian. A remembered product name
 is never sufficient. When a pack is unclear, ask the manufacturer and get the answer
 in writing.
 
@@ -26,10 +34,11 @@ consumer guidance continuously. This file
 cannot. Review this file at each skill update and re-verify any row a family relies
 on repeatedly.
 
-Compiled 2026-07-27. **Structure checked 2026-08-27. THIS IS NOT A FRESHNESS STAMP and the rows below are no fresher than their compilation date.** What that check consisted of, stated plainly so
+Compiled 2026-07-27. **Structure checked 2026-08-27 and 2026-10-29 (the second check also rewrote the labelling rule for the 2028 format change). THIS IS NOT A FRESHNESS STAMP and the rows below are no fresher than their compilation date.** What that check consisted of, stated plainly so
 nobody mistakes it for more than it was: every row was checked to confirm it still carries its own
 per-row verification cell rather than relying on the caveat above (it does), and the labelling rule
-was re-verified against the Kol Zchut celiac page. **No individual product formulation was
+was re-verified against the Health Ministry allergen guide and the Ministry of
+Education 2026 gan model (two coexisting label formats until 2028). **No individual product formulation was
 re-verified against a manufacturer**, because that is not obtainable from any source this pipeline
 can reach, and it is exactly what changes between reviews. Treat every row as a pointer to a pack
 you must still turn over.
@@ -38,7 +47,7 @@ you must still turn over.
 
 | Product | Community status | What decides at the shelf |
 |---|---|---|
-| Bamba (במבה) | Commonly used | Corn and peanut base with no flour in the recipe, but Osem also produces wheat snacks, so confirm the pack carries no `מכיל גלוטן` |
+| Bamba (במבה) | Commonly used | Corn and peanut base with no flour in the recipe, but Osem also produces wheat snacks, so read the ingredient list for a gluten grain (emphasised on new-format packs) and any `מכיל` or `עלול להכיל` line; the absence of the words `מכיל גלוטן` alone proves nothing |
 | Apropo (אפרופו) | Commonly used | Multiple variants exist; check the specific flavour's ingredient list |
 | Cheetos (צ'יטוס) | Commonly used | Corn base, but the seasoning is where wheat enters. Check flavour by flavour, never the range as a whole |
 | Doritos (דוריטוס) | Commonly used | Same as Cheetos: corn base, per-flavour seasoning. Check the specific bag |
@@ -75,10 +84,40 @@ regular wafers, assorted cookies and biscuits, Pesek Zman, Kif Kif, Kinder Joy,
 Krembo (biscuit base), KitKat and Twix (wafer and biscuit under the chocolate),
 ice-cream cones and wafer bases, sufganiyot.
 
+## The party playbook
+
+Moved here from Step 4b of the skill so the skill body stays within its word cap.
+
+**The cake is the centre of the event.** Send an equivalent individually-wrapped
+gluten-free cupcake so the child has something at the candle moment. Ask that it be
+cut with a clean knife and served from its own wrapper, because one knife through the
+gluten cake and then the child's portion undoes everything. Treat a "gluten-free" cake
+baked in a home kitchen with shared tins, a shared oven and flour in the air as a
+different risk class from a sealed packaged product.
+
+**The party table.** Serve the child's portion first, from its own sealed pack onto
+its own plate, never from a communal bowl. No shared dips, no double-dipped pita, no
+shared serving tongs. Wipe the table space before the child sits. Give the child and
+the host a short scripted answer for the adult who says a little bite will not hurt,
+because that is a safety rule and not a matter of feelings.
+
+**Gan or school versus a private home.** In an educational institution this is not
+shopping, it is the education entitlement (circular 0404): substitutes in every
+activity including birthdays, a gluten-free offering wherever food is supplied, and
+portions in a different colour with prominent marking. Ask the staff to apply it; the
+Ministry of Education gan model also has the staff coordinate treats with the parents'
+committee. At a private home party there is no entitlement, only a conversation with
+another parent, so the parent supplies the food.
+
+**Practical moves.** Ask the host in advance what is being served, send an
+equivalent-looking portion in the child's own packaging, and keep the wrapper until
+the party is over so the marking can be re-checked if anyone asks.
+
 ## Anything unpackaged is a separate category
 
 Homemade cake, a platter someone brought, bulk-bin sweets, a bakery cake, a chocolate
-fountain: there is no pack, no ingredient list and no traceability. The instruction
+fountain: there is no pack, no ingredient list and no traceability (allergen labelling
+of unpackaged food is not required in Israel until 1.1.2032). The instruction
 for this entire class is different in kind. No marking means not for this child,
 regardless of how confident the person offering it is.
 
