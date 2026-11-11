@@ -8,7 +8,7 @@ General information on published rules only, not legal advice. See the legal not
 
 | Aspect | Details |
 |--------|---------|
-| Legal basis | No statute. The state acts under the 2003 Attorney General directive. The bill that would have regulated it (the Continuity Law, חוק ההמשכיות) did not pass in the 25th Knesset, so no legislation is in force or pending; a new Knesset would have to start it again |
+| Legal basis | No statute. The state acts under the 2003 Attorney General directive. The bill that would have regulated it (the Continuity Law, חוק ההמשכיות) did not pass in the 25th Knesset, so no legislation is in force or pending. The 26th Knesset was elected in October 2026, and no new bill had been found as of 11.11.2026 |
 | Retrieval | Time critical: sperm cell viability after death is limited to hours, so the directive tells authorities to approve retrieval requests as a rule and leave the hard decision to the later use stage. The widow or steady partner usually needs no court unless a relative objects; parents or other relatives normally apply to the Family Court |
 | Wartime rule | During the Iron Swords war, and while fighting continues, hospitals may approve retrieval at the request of the deceased's PARENTS without sending them to court, if going to court would defeat the retrieval on timing grounds, unless a partner or family member objects or the parents disagree between themselves |
 | Use | Always requires Family Court approval. For a steady partner there is a presumption that the deceased would have wanted it, absent contrary indication. For parents, use is allowed only if his wish is proven, and via a woman who is not a relative, who becomes the child's mother for all purposes. If he objected, use is refused |
@@ -29,7 +29,7 @@ General information on published rules only, not legal advice. See the legal not
 
 | היבט | פרטים |
 |------|-------|
-| בסיס משפטי | אין חוק. המדינה פועלת לפי הנחיית היועץ המשפטי לממשלה משנת 2003. הצעת החוק שהייתה אמורה להסדיר את הנושא (חוק ההמשכיות) לא עברה בכנסת ה-25, ולכן אין חקיקה בתוקף ואין הליך חקיקה פתוח; כנסת חדשה תצטרך להתחיל אותו מחדש |
+| בסיס משפטי | אין חוק. המדינה פועלת לפי הנחיית היועץ המשפטי לממשלה משנת 2003. הצעת החוק שהייתה אמורה להסדיר את הנושא (חוק ההמשכיות) לא עברה בכנסת ה-25, ולכן אין חקיקה בתוקף ואין הליך חקיקה פתוח. הכנסת ה-26 נבחרה באוקטובר 2026, ועד 11.11.2026 לא נמצאה הצעת חוק חדשה |
 | הנטילה | קריטית בזמן, כי משך החיות של תאי הזרע אחרי המוות מוגבל לשעות, ולכן ההנחיה קובעת מדיניות מקלה שלפיה ככלל מאשרים את בקשות הנטילה ומשאירים את ההכרעה הקשה לשלב השימוש. אלמנה או בת זוג קבועה בדרך כלל לא צריכה בית משפט אלא אם קרוב מתנגד, והורים או קרובים אחרים פונים בדרך כלל לבית המשפט לענייני משפחה |
 | כלל בזמן מלחמה | בימי מלחמת חרבות ברזל, וכל עוד נמשך מצב הלחימה, בתי חולים רשאים לאשר נטילה גם לבקשת ההורים בלי להפנות אותם לבית המשפט, אם הפנייה לבית המשפט עלולה לסכל את הנטילה בגלל חלוף הזמן, ולמעט מצבים שבהם בת או בן זוג או בני משפחה מתנגדים או שההורים חלוקים ביניהם |
 | השימוש | תמיד דורש אישור בית המשפט לענייני משפחה. לגבי בת זוג קבועה קיימת הנחה שזה עולה בקנה אחד עם רצון הנפטר, כל עוד אין אינדיקציה אחרת. לגבי הורים, השימוש יאושר רק אם יוכח שזה היה רצונו, ובאמצעות אישה שאינה קרובת משפחה, שתהיה אם הילד לכל דבר. אם הנפטר התנגד, לא יאושר שימוש |

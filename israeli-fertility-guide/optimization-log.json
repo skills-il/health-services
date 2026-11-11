@@ -29,6 +29,39 @@
         "Expert n4 deferred: the script counts a couple's prior-marriage children by default unless --new-relationship is passed; consider asking or defaulting differently.",
         "Judge note: the Maccabi 12-month qualification period is confirmed on the Maccabi page but has no evidence.json entry of its own; add one."
       ]
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-11-11",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "Does SHABAN supplementary insurance cover sperm donation costs?",
+          "האם סל הבריאות מכסה כימותרפיה חדשה לסרטן השד?",
+          "הרופא אמר שיש לי בעיית פוריות, איזה טיפול רפואי הכי מתאים לי?"
+        ]
+      },
+      "value_add": "PASS with=0.98 without=0.43 delta=+0.55 (4 cases); first run BLOCK at 0.79 because the body lacked the egg-age-43 rule, fixed",
+      "lessons": [
+        "Resolved this cycle: FET vs fresh (stage C), imported donor sperm/eggs, Leumit 1 July 2026 date, reserve-duty tracks (partner entitlement, female route), men's days beyond 12 unpaid (confirmed), 2021 surrogacy anchor (HCJ 781/15 + Circular 7/2021), keva protection, script ignoring age on third-child/sperm rows, previous-marriage children default (--previous-children), Maccabi Sheli 12-month evidence entry.",
+        "Still unsourced: whether an open Form 17 or committee approval carries over on a kupah switch; skill tells the user to re-apply. Re-check.",
+        "Still unsourced: Meuhedet Si elective-freezing age band on a Meuhedet page (ynet press says 30-41, 6 rounds, 30 eggs). Restore only with a Meuhedet quote.",
+        "Unsourced: whether a frozen-embryo transfer counts as a cycle for Circular 6/2014; and whether kupot other than Maccabi fund stage C until 54 (only Maccabi's page states it).",
+        "Unsourced: whether the kupah funds thawing and fertilizing own frozen eggs after the 45th birthday (MoH allows use until 54).",
+        "Expert minor deferred: Circular 6/2014 lets women 39+ go straight to IVF as a first option.",
+        "Expert minor deferred: when a donated egg is fertilized with donor sperm, the sperm must come from a foreign or non-Jewish donor (Kol Zchut receiving a donated egg).",
+        "Expert minor deferred: gov.il states the elective-freezing egg caps on 30-36 / 36-41 bands while Kol Zchut gives 30-35 / 36-40; flag the discrepancy rather than pick one.",
+        "Expert minor deferred: references/work-and-service-rights.md is English only; a Hebrew summary would help the Hebrew page.",
+        "Expert minor deferred: kupot and banks may not impose extra conditions (psychiatric or social-work opinion) on unmarried women seeking donor sperm.",
+        "Expert minor deferred: dismissal protection for intended parents in surrogacy was held unavailable by a Tel Aviv regional labour court ruling; not stated in the skill.",
+        "Judge minor: the 'Maccabi publishes a mashgicha entitlement' line has no evidence entry (only Meuhedet's page shows a fertility supervisor); source or drop next cycle.",
+        "Bereaved-families funding figure 28,562 NIS is stated for 2026; re-check the 2027 amount after 1 January 2027. 2027 basket committee had no fertility decision as of 2026-11-11; re-check after its January decision.",
+        "Pending: the July 2026 memorandum to make embryo import for surrogacy permanent, and the Dec 2025 draft sperm-bank circular (12 families per donor); neither is in force as of 2026-11-11."
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-fertility-guide",
-  "generated_at": "2026-09-13T00:00:00Z",
+  "generated_at": "2026-11-11T12:00:00Z",
   "claims": [
     {
       "claim_id": "ivf-2-children-not-pregnancies",
@@ -140,10 +140,10 @@
     },
     {
       "claim_id": "medical-egg-freezing-indications-clalit",
-      "claim": "Carriers of a fragile-X premutation are listed among the medical fertility-preservation indications.",
+      "claim": "Fragile-X premutation carriers are a medical fertility-preservation indication, with up to 6 cycles or 40 eggs.",
       "source_url": "https://www.clalit.co.il/he/myrights/fertility/Pages/fertility-preservation.aspx",
-      "raw_snippet": "נשאות של פרה־מוטציה לתסמונת X שביר.",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "בנשאיות פרה מוטציה ל־X שביר ייעשו עד 6 מחזורי טיפול או עד השגת 40 ביציות",
+      "fetched_at": "2026-11-11T15:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -450,13 +450,14 @@
     },
     {
       "claim_id": "self-sperm-banking-oncology-5-years",
-      "claim": "Any person may deposit and freeze their own sperm for fertility preservation. Oncology patients receive kupah funding toward sperm-bank storage, limited to 5 years.",
+      "claim": "Oncology patients receive kupah participation toward sperm-bank storage costs, limited to 5 years.",
       "source_url": "https://www.kolzchut.org.il/he/הפקדת_זרע",
-      "raw_snippet": "חולים אונקולוגים זכאים להשתתפות כספית של קופת החולים בעלות שמירת זרע בבנק זרע",
-      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "חולים אונקולוגים זכאים להשתתפות כספית של קופת החולים בעלות שמירת זרע בבנק זרע. ההשתתפות מוגבלת ל-5 שנים.",
+      "fetched_at": "2026-11-11T15:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
+        "references/ivf-process-detailed.md",
         "references/domain-checklist.md"
       ]
     },
@@ -588,20 +589,6 @@
       "source_fetched_at": "2026-08-09"
     },
     {
-      "claim_id": "shaban-elective-freezing-maccabi-start-date",
-      "claim": "The Maccabi elective egg-freezing benefit is available from 15.03.2026.",
-      "source_url": "https://www.maccabi4u.co.il/eligibilites/117173/",
-      "raw_snippet": "השירות יינתן החל מ-15.03.2026",
-      "fetched_at": "2026-08-09T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "scripts/fertility-coverage-checker.py",
-        "references/domain-checklist.md"
-      ],
-      "source_fetched_at": "2026-08-09"
-    },
-    {
       "claim_id": "shaban-elective-freezing-meuhedet",
       "claim": "Meuhedet Si (shia) members get subsidized non-medical fertility preservation at a copay of 3,500 NIS / 3,500 ש\"ח. Meuhedet's public page gives no age band (re-checked 2026-09-13), so the skill tells users to confirm the age with Meuhedet.",
       "source_url": "https://www.meuhedet.co.il/היריון-ולידה/רמת-אחרת-גם-בשימור-פריון/",
@@ -633,15 +620,13 @@
     },
     {
       "claim_id": "cost-estimates-market-not-official",
-      "claim": "Out-of-pocket cost figures quoted as market estimates and NOT as official tariffs: a self-paid IVF cycle for a third child roughly 15,000 to 25,000 NIS / 25,000 ש\"ח, a full private cycle roughly 20,000 to 40,000 NIS / 40,000 ש\"ח. There is no official surrogacy tariff, no current published egg-donor compensation figure, and storage fees and drug copays vary by unit and kupah, so those are stated as mechanisms rather than numbers. The Ministry of Health publishes a tariff (taarifon) to check against.",
+      "claim": "No official figures exist for a self-paid third-child IVF cycle or a private cycle, so the skill gives no number and tells the user to get a written quote. There is no official surrogacy tariff, and storage fees vary; the Ministry of Health publishes a tariff (taarifon) for self-funded preservation.",
       "source_url": "https://www.kolzchut.org.il/he/הקפאת_ביציות",
       "raw_snippet": "טיפולי שימור פוריות מסיבות שאינן רפואיות ייעשו במימון פרטי של האישה. לפרטים על עלות הטיפולים ראו תעריפון משרד הבריאות.",
       "fetched_at": "2026-08-09T00:00:00Z",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "scripts/fertility-coverage-checker.py",
-        "references/domain-checklist.md"
+        "SKILL_HE.md"
       ]
     },
     {
@@ -679,19 +664,6 @@
         "SKILL_HE.md"
       ],
       "source_fetched_at": "2026-08-09"
-    },
-    {
-      "claim_id": "btl-portal-url",
-      "claim": "Bituach Leumi portal for maternity, pregnancy-preservation and insurance rights.",
-      "source_url": "https://www.btl.gov.il",
-      "raw_snippet": "המוסד לביטוח לאומי",
-      "verified_via": "browser",
-      "verified_at": "2026-08-09",
-      "fetched_at": "2026-08-09T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
     },
     {
       "claim_id": "cofmother-parenthood-order",
@@ -851,6 +823,802 @@
         "SKILL.md",
         "SKILL_HE.md",
         "scripts/fertility-coverage-checker.py"
+      ]
+    },
+    {
+      "claim_id": "fet-until-54-maccabi",
+      "claim": "Maccabi funds thawing and transferring an embryo frozen in stage B until the 54th birthday, if stages A and B were done before the 45th birthday. Age 45 limits new retrievals, not transfers.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/2565/",
+      "raw_snippet": "חברת מכבי עד גיל 53 (יום הולדת 54) זכאית להפשרת עובר שהוקפא בשלב ב' ולהחדרתו לרחם, בתנאי ששלב א' ו-ב' נעשו עד גיל 44 (יום הולדת 45)",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/ivf-process-detailed.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "ivf-three-stages",
+      "claim": "Most kupot split IVF into 3 stages (A stimulation and tests, B retrieval fertilization and fresh transfer, C thawing and transferring a frozen embryo), each with its own copay and commitment.",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_(IVF)",
+      "raw_snippet": "רוב קופות החולים מחלקות את תהליך ההפריה החוץ גופית ל-3 שלבים",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ivf-process-detailed.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "ivf-stage-c-definition",
+      "claim": "Stage C is thawing a frozen embryo and transferring it to the uterus.",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_(IVF)",
+      "raw_snippet": "שלב ג': טיפול להפשרת עובר קפוא והחזרתו לרחם",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ivf-process-detailed.md"
+      ]
+    },
+    {
+      "claim_id": "maccabi-drug-copay-243",
+      "claim": "At Maccabi, fertility drugs are not included in the IVF entitlement; injectable FSH and LH drugs carry a pharmacy copay capped at 243 NIS a month per treatment cycle from 1.4.25.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/2565/",
+      "raw_snippet": "החל מתאריך 1.4.25 תשולם השתתפות עצמית עד לתקרה חודשית של 243 ₪ למחזור הטיפול",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ivf-process-detailed.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "maccabi-drugs-not-included",
+      "claim": "The Maccabi IVF entitlement does not include the cost of buying fertility drugs.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/2565/",
+      "raw_snippet": "הזכאות אינה כוללת את עלות רכישת תרופות הפריון",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ivf-process-detailed.md"
+      ]
+    },
+    {
+      "claim_id": "maccabi-drugs-until-45-commitment",
+      "claim": "Maccabi sells fertility drugs only until the 45th birthday, and requires an approved stage A+B commitment before the pharmacy dispenses them.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/2565/",
+      "raw_snippet": "ניתן לרכוש תרופות פריון עד גיל 44 (עד תאריך יום הולדת 45). לפני פנייה לרכישת תרופות לבית המרקחת עלייך לקבל אישור התחייבות למחזור טיפול א'+ ב'",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/ivf-process-detailed.md"
+      ]
+    },
+    {
+      "claim_id": "maccabi-public-hospital-41",
+      "claim": "At Maccabi, IVF at a contracted public hospital without choice of doctor carries no IVF charge beyond a quarterly 41 NIS outpatient copay; a contracted private hospital with a chosen doctor has per-stage copays.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/2565/",
+      "raw_snippet": "ביקור במרפאת חוץ - 41 ₪ השתתפות עצמית רבעונית",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ivf-process-detailed.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "ivf-surrogacy-eligible",
+      "claim": "The basket IVF entitlement applies also when the pregnancy is carried through surrogacy.",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_(IVF)",
+      "raw_snippet": "הזכאות לטיפולים ניתנת גם כאשר ההיריון נעשה במסגרת פונדקאות",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/fertility-coverage-checker.py"
+      ]
+    },
+    {
+      "claim_id": "maccabi-surrogacy-man-54",
+      "claim": "Maccabi funds IVF for a male member until his 54th birthday who is in a surrogacy process in Israel, for a first and second child; Maccabi does not pay the surrogacy costs or the egg-donation costs.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/31336/",
+      "raw_snippet": "חבר עד גיל 53 (יום הולדת 54) הנמצא בתהליך פונדקאות המתקיים בישראל בלבד",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/surrogacy-law-guide.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "maccabi-surrogacy-no-surrogacy-costs",
+      "claim": "Maccabi will not bear the surrogacy costs or the egg-donation costs.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/31336/",
+      "raw_snippet": "מכבי לא תישא בהוצאות הפונדקאות, ולא בהוצאות של תרומת הביצית",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/surrogacy-law-guide.md"
+      ]
+    },
+    {
+      "claim_id": "ivf-shared-parenting",
+      "claim": "Basket-eligible groups include a woman without children who wants to have children with the sperm of a man who is not her partner (shared parenting).",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_(IVF)",
+      "raw_snippet": "אישה ללא ילדים המעוניינת להקים משפחה שבראשה הורה עצמאי (משפחה חד הורית) או ללדת ילדים מזרעו של גבר שאינו בן זוגה",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "ivf-shared-parenting-agreement",
+      "claim": "Shared parenting requires a detailed agreement between the woman and the man first.",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_(IVF)",
+      "raw_snippet": "יש לערוך תחילה הסכם מפורט ביניהם",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ivf-pgd-group",
+      "claim": "Patients undergoing PGD are a basket-eligible group; PGD is offered to couples at high risk of a chromosomal defect or genetic disease.",
+      "source_url": "https://www.kolzchut.org.il/he/הפריה_חוץ_גופית_(IVF)",
+      "raw_snippet": "מטופלים העוברים תהליך אבחון גנטי טרום השרשתי PGD",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "frozen-eggs-use-until-54",
+      "claim": "The Ministry of Health lets women undergo fertility treatment using their frozen eggs until age 54.",
+      "source_url": "https://www.gov.il/he/service/oocyte-cryopreservation",
+      "raw_snippet": "נשים יוכלו לעבור טיפולי פוריות ולהשתמש בביציות המוקפאות עד גיל 54.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "elective-freezing-continue-after-41",
+      "claim": "A woman who started elective egg freezing before 41 may continue to the maximum number of treatments or eggs while the process is continuous.",
+      "source_url": "https://www.kolzchut.org.il/he/הקפאת_ביציות",
+      "raw_snippet": "אישה שהחלה בתהליך בטרם מלאו לה 41, זכאית להמשיכו עד מיצוי מספר הטיפולים המירבי, או עד מספר הביציות המירבי, כל עוד נמשך התהליך באופן רציף",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py"
+      ]
+    },
+    {
+      "claim_id": "donor-sperm-import-approved-bank",
+      "claim": "Imported donor sperm is arranged by the Israeli sperm bank, only with a foreign bank approved by the Ministry of Health.",
+      "source_url": "https://www.gov.il/he/service/receiving-donor-sperm",
+      "raw_snippet": "בנק הזרע עימו בחרתם לעבוד בארץ, ייצור קשר רק עם בנק זרע בחוץ לארץ שקיבל את אישור משרד הבריאות.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "donor-sperm-import-identity-release",
+      "claim": "Donations from abroad may come from anonymous donors or from donors willing to give information about themselves, including their name to the children at 18.",
+      "source_url": "https://www.gov.il/he/service/receiving-donor-sperm",
+      "raw_snippet": "מתורמים המוכנים למסור מידע על עצמם, כולל האפשרות למסירת שמם לילדים שנוצרו מהתרומה, בגיל 18",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "egg-donation-abroad-via-permitted-unit",
+      "claim": "Receiving donated eggs from abroad is done through Israeli doctors at IVF units holding a permit to work with IVF units abroad; financing is through that recognised unit.",
+      "source_url": "https://www.gov.il/he/service/israel-abroad-ovum-recipient",
+      "raw_snippet": "הליך קבלת תרומת ביציות מחו\"ל מתבצע באמצעות רופאים ישראליים ביחידות הפריה חוץ גופית (IVF) בארץ, שניתן להן היתר לעבוד עם יחידות IVF בחו\"ל",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "egg-donation-abroad-financing",
+      "claim": "Financing of a donation from abroad is through the recognised unit that received MoH approval to import eggs.",
+      "source_url": "https://www.gov.il/he/service/israel-abroad-ovum-recipient",
+      "raw_snippet": "מימון ההליך נעשה באמצעות היחידה המוכרת",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "surrogacy-intended-parent-age-54",
+      "claim": "At approval, an intended parent is at least 18 and at least one intended parent has not yet turned 54; the committee may waive the maximum age in special cases.",
+      "source_url": "https://www.gov.il/he/service/embryo-carrying",
+      "raw_snippet": "גיל הורה מיועד בעת אישור ההסכם לפחות 18 ולפחות לאחד מההורים המיועדים טרם מלאו 54 שנים",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/surrogacy-law-guide.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "surrogacy-intended-parents-residents",
+      "claim": "Intended parents are Israeli residents.",
+      "source_url": "https://www.gov.il/he/service/embryo-carrying",
+      "raw_snippet": "ההורים המיועדים הם תושבי ישראל",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/surrogacy-law-guide.md",
+        "scripts/fertility-coverage-checker.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "surrogacy-max-two-children",
+      "claim": "A couple of intended parents has no more than two common children; a single intended parent no more than two genetic children.",
+      "source_url": "https://www.gov.il/he/service/embryo-carrying",
+      "raw_snippet": "לגבי הורים מיועדים שהם בני זוג – אין להם יותר משני ילדים משותפים. לגבי הורה מיועד יחיד – אין לו יותר משני ילדים גנטיים.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/surrogacy-law-guide.md",
+        "scripts/fertility-coverage-checker.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "surrogacy-eligible-singles",
+      "claim": "Intended parents may be a couple, a single intended mother or a single intended father.",
+      "source_url": "https://www.gov.il/he/service/embryo-carrying",
+      "raw_snippet": "הורים מיועדים שהם בני זוג, או אם מיועדת יחידה או אב מיועד יחיד",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/surrogacy-law-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "surrogacy-same-religion",
+      "claim": "The surrogate is of the same religion as the intended mother or intended father.",
+      "source_url": "https://www.gov.il/he/service/embryo-carrying",
+      "raw_snippet": "האם הנושאת היא בת דתם של האם המיועדת או של האב המיועד.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/surrogacy-law-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "surrogacy-eggs-up-to-43",
+      "claim": "The committee will not approve use of eggs of an intended mother retrieved after age 43; eggs (intended mother or donor) retrieved up to 43 may be used.",
+      "source_url": "https://www.gov.il/he/service/embryo-carrying",
+      "raw_snippet": "הוועדה לא תאשר שימוש בביציות אם מיועדת שנשאבו לאחר גיל 43.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/surrogacy-law-guide.md",
+        "scripts/fertility-coverage-checker.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "surrogacy-two-fathers-rule",
+      "claim": "When the intended parents are two men, the sperm of only one is used in a fertilization, and embryos from both may not be transferred in the same cycle.",
+      "source_url": "https://www.gov.il/he/service/embryo-carrying",
+      "raw_snippet": "לא ניתן לערב זרע משני הגברים באותה הפריה",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/surrogacy-law-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "surrogacy-hcj-781-15-circular-7-2021",
+      "claim": "DG Circular 7/2021 of 27.12.2021 implements the law following the Supreme Court ruling in HCJ 781/15 of 11.7.2021.",
+      "source_url": "https://www.gov.il/BlobFolder/service/embryo-carrying/he/services_embryo_carrying_372180126.pdf",
+      "raw_snippet": "ביום 27.12.2021 פרסם משרד הבריאות חוזר מנהל כללי שמספרו 7/2021 העוסק בהנחיות ליישום החוק, וזאת בהמשך לפסק הדין של בית המשפט העליון בבג\"ץ 781/15 מיום 11.7.2021",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/surrogacy-law-guide.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "surrogacy-embryo-import-1-8-2027",
+      "claim": "Under a temporary MoH decision, eggs donated and fertilized at an MoH-recognised clinic abroad may be imported for surrogacy in Israel if the contract was signed by 1.8.2027, with written confirmation of the signing date before import (MoH letter 21.7.2026).",
+      "source_url": "https://www.gov.il/BlobFolder/service/embryo-carrying/he/services_embryo_carrying_372180126.pdf",
+      "raw_snippet": "שנחתם עד ליום 1.8.2027 בין ההורים המיועדים למרפאה המוכרת על ידי משרד הבריאות בחו\"ל",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/surrogacy-law-guide.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "surrogacy-memorandum-8-7-2026",
+      "claim": "A memorandum of law to amend the Embryo Carrying Agreements Law was published for public comment on 8.7.2026.",
+      "source_url": "https://www.gov.il/BlobFolder/service/embryo-carrying/he/services_embryo_carrying_372180126.pdf",
+      "raw_snippet": "ביום 8.7.2026 ולאחר עבודת מטה שנעשתה במשרד, פורסם להערות הציבור תזכיר חוק הסכמים לנשיאת עוברים",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/surrogacy-law-guide.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "leumit-zahav-from-1-july",
+      "claim": "Leumit Zahav elective egg-freezing subsidy started on 1 July 2026.",
+      "source_url": "https://www.ynet.co.il/health/article/skzmnuamgg",
+      "raw_snippet": "החל מ-1 ביולי, לקוחות \"לאומית זהב\" יקבלו סבסוד בהליך לשימור פוריות",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "leumit-credits-other-kupot-seniority",
+      "claim": "Leumit credits 12 months of seniority in Clalit Mushlam, Maccabi Zahav and Meuhedet Adif for women switching to Leumit, without a new full qualification period.",
+      "source_url": "https://www.ynet.co.il/health/article/skzmnuamgg",
+      "raw_snippet": "לאומית תכיר בוותק 12 החודשים גם של כללית מושלם, מכבי זהב ומאוחדת עדיף",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "meuhedet-credits-other-kupot-seniority",
+      "claim": "Meuhedet Si lets a woman with at least a year in the top SHABAN tier of her previous kupah (Maccabi Sheli, Clalit Platinum, Leumit Zahav) start elective freezing immediately on switching.",
+      "source_url": "https://www.meuhedet.co.il/היריון-ולידה/רמת-אחרת-גם-בשימור-פריון/",
+      "raw_snippet": "אם היית חברה ברובד הגבוה של הביטוח המשלים בקופה הקודמת (מכבי שלי, כללית פלטינום, לאומית זהב) שנה לפחות, את זכאית להתחיל את התהליך אצלנו מיד עם המעבר.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "kupah-switch-shaban-90-days",
+      "claim": "SHABAN seniority is offset only if the member joins a same-level SHABAN plan at the new kupah within 90 days of the switch.",
+      "source_url": "https://www.kolzchut.org.il/he/מעבר_בין_קופות_חולים",
+      "raw_snippet": "בתוך 90 ימים מיום המעבר נרשם לתוכנית שב\"ן בקופת החולים החדשה הזהה ברמתה",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "maccabi-sheli-12-month-qualification",
+      "claim": "Maccabi Sheli elective freezing is given after 12 months from joining the plan.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/117173/",
+      "raw_snippet": "יינתנו לחברות מכבי שלי לאחר 12 חודשים מיום ההצטרפות לתוכנית.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "work-partner-no-accompany-right",
+      "claim": "The law gives partners no right to be absent to accompany a partner to treatment; if the patient became fully dependent, the partner may use up to 6 sick days.",
+      "source_url": "https://www.kolzchut.org.il/he/היעדרות_מהעבודה_וימי_מחלה_בגין_טיפולי_פוריות",
+      "raw_snippet": "החוק לא מקנה לבני/בנות הזוג להיעדר מעבודתם לצורך ליווי בן/בת הזוג לטיפולים.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/work-and-service-rights.md"
+      ]
+    },
+    {
+      "claim_id": "work-partner-6-sick-days",
+      "claim": "The partner may use up to 6 sick days if the patient became fully dependent.",
+      "source_url": "https://www.kolzchut.org.il/he/היעדרות_מהעבודה_וימי_מחלה_בגין_טיפולי_פוריות",
+      "raw_snippet": "רשאי/ת בן/בת הזוג לנצל עד 6 ימי מחלה לצורך טיפול בבן/בת הזוג",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/work-and-service-rights.md"
+      ]
+    },
+    {
+      "claim_id": "work-after-sick-days-options",
+      "claim": "When sick days run out, employers may (but need not) advance sick pay on future accrual; employees may ask to deduct annual leave or take unpaid leave.",
+      "source_url": "https://www.kolzchut.org.il/he/היעדרות_מהעבודה_וימי_מחלה_בגין_טיפולי_פוריות",
+      "raw_snippet": "המעסיקים רשאים (אך אינם חייבים) לשלם לעובדים המעוניינים בכך דמי מחלה על חשבון ימי המחלה שהעובדים יצברו בעתיד.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/work-and-service-rights.md"
+      ]
+    },
+    {
+      "claim_id": "dismissal-three-conditions",
+      "claim": "Protection during absence and 150 days after applies if advance notice with a medical certificate was given, the treatment is toward at most 2 births at that employer or with the current partner, and fewer than 2 years have passed since the first absence.",
+      "source_url": "https://www.kolzchut.org.il/he/איסור_פיטורי_עובדת_במהלך_טיפולי_פוריות",
+      "raw_snippet": "מדובר בטיפולי פוריות לקראת 2 לידות לכל היותר בתקופת העסקתם אצל אותו מעסיק (או באותו מקום עבודה) או שמדובר בטיפולים לקראת 2 לידות מבן/בת הזוג הנוכחי. טרם חלפו שנתיים מאז היום הראשון להיעדרות.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/work-and-service-rights.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "dismissal-no-absence-6-months",
+      "claim": "Without absence, protection applies after at least 6 months with the employer if the worker tells the employer of the treatment within 3 working days of the dismissal notice and gives a medical certificate within 14 days.",
+      "source_url": "https://www.kolzchut.org.il/he/איסור_פיטורי_עובדת_במהלך_טיפולי_פוריות",
+      "raw_snippet": "הם עבדו אצל אותו מעסיק או באותו מקום עבודה 6 חודשים לפחות ; הם הודיעו למעסיק על הטיפולים לא יאוחר מ-3 ימי עבודה ממועד מתן הודעה מוקדמת לפיטורים",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/work-and-service-rights.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "dismissal-14-days-certificate",
+      "claim": "The medical certificate must be given within 14 days of the dismissal notice.",
+      "source_url": "https://www.kolzchut.org.il/he/איסור_פיטורי_עובדת_במהלך_טיפולי_פוריות",
+      "raw_snippet": "הם מסרו למעסיק אישור רפואי על טיפולי הפוריות בתוך 14 יום ממועד מתן הודעה מוקדמת לפיטורים",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/work-and-service-rights.md"
+      ]
+    },
+    {
+      "claim_id": "keva-dismissal-protection",
+      "claim": "Career soldiers in fertility treatment may not be discharged during absences and for 150 days after, given a medical certificate and within 2 years of the first absence; or for 150 days from the start of treatment if the commander is told within 7 days of the discharge notice.",
+      "source_url": "https://www.kolzchut.org.il/he/איסור_פיטורי_חייל/ת_משירות_קבע_במהלך_טיפולי_פוריות",
+      "raw_snippet": "אסור לפטר חיילת או חייל בשירות קבע העוברים טיפולי פוריות במשך 150 ימים מתחילת טיפולי הפוריות, גם אם לא נעדרו מהשירות, בתנאי שהודיעו למפקדם על הטיפולים תוך 7 ימים ממועד מתן הודעת הפיטורים",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/work-and-service-rights.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "keva-two-years",
+      "claim": "The keva protection during absence requires a medical certificate and that fewer than two years have passed since the first absence.",
+      "source_url": "https://www.kolzchut.org.il/he/איסור_פיטורי_חייל/ת_משירות_קבע_במהלך_טיפולי_פוריות",
+      "raw_snippet": "ולא חלפו שנתיים מהיום הראשון להיעדרותם",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/work-and-service-rights.md"
+      ]
+    },
+    {
+      "claim_id": "keva-permit-not-retroactive",
+      "claim": "A discharge permit during the protected period is not retroactive.",
+      "source_url": "https://www.kolzchut.org.il/he/איסור_פיטורי_חייל/ת_משירות_קבע_במהלך_טיפולי_פוריות",
+      "raw_snippet": "ולא ניתן לתת היתר באופן רטרואקטיבי",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/work-and-service-rights.md"
+      ]
+    },
+    {
+      "claim_id": "reserve-partner-entitlement",
+      "claim": "A male reservist whose partner is in fertility treatment is entitled to release for no less than the same periods (5 days clinic, 10 days IVF).",
+      "source_url": "https://www.kolzchut.org.il/he/שחרור_חייל_מילואים_שבת_זוגו_עוברת_טיפולי_פוריות",
+      "raw_snippet": "חייל מילואים שבת זוגו עוברת טיפולי פוריות זכאי להשתחרר משירות מילואים פעיל לתקופה ש לא תפחת מהתקופות הבאות",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/work-and-service-rights.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "reserve-female-unit-doctor",
+      "claim": "A female reservist in treatment presents a certificate from her gynecologist to the unit doctor, who decides on deferral or freezing of active service per the circumstances.",
+      "source_url": "https://www.kolzchut.org.il/he/שחרור_חיילת_מילואים_העוברת_טיפולי_פוריות",
+      "raw_snippet": "רופא היחידה יחליט על דחייה או על הקפאה משירות מילואים פעיל לחיילת, בהתאם לנסיבות.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/work-and-service-rights.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "reserve-decision-times",
+      "claim": "A request filed up to 10 days before service is decided within 10 days; one filed during service within 72 hours.",
+      "source_url": "https://www.kolzchut.org.il/he/שחרור_חייל_מילואים_העובר_טיפולי_פוריות",
+      "raw_snippet": "לבקשה שתוגש במהלך שירות המילואים, תינתן החלטה בתוך 72 שעות ממועד הגשתה.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/work-and-service-rights.md"
+      ]
+    },
+    {
+      "claim_id": "bereaved-fertility-funding-28562",
+      "claim": "Bituach Leumi participates in fertility and surrogacy funding for bereaved families of hostile-act victims up to 28,562 NIS (2026), doubled to 57,124 NIS for multiple loss, after kupah and SHABAN funding; orphans aged 21 and over are included.",
+      "source_url": "https://www.kolzchut.org.il/he/השתתפות_במימון_טיפולי_פוריות_ופונדקאות_להורים_שכולים_של_חללי_פעולת_איבה",
+      "raw_snippet": "ההשתתפות ניתנת עד סכום של 28,562 ₪ (נכון ל-2026)",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/work-and-service-rights.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bereaved-double-57124",
+      "claim": "The maximum is doubled (57,124 NIS) for multiple loss.",
+      "source_url": "https://www.kolzchut.org.il/he/השתתפות_במימון_טיפולי_פוריות_ופונדקאות_להורים_שכולים_של_חללי_פעולת_איבה",
+      "raw_snippet": "סכום ההשתתפות המירבי יהיה כפול (57,124 ₪)",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/work-and-service-rights.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bereaved-after-kupah-one-year",
+      "claim": "The aid is given after kupah and SHABAN funding, and the request is filed within a year of payment.",
+      "source_url": "https://www.kolzchut.org.il/he/השתתפות_במימון_טיפולי_פוריות_ופונדקאות_להורים_שכולים_של_חללי_פעולת_איבה",
+      "raw_snippet": "ניתן להגיש את הבקשה לקבלת הסיוע עד שנה מהמועד שבו בוצע התשלום בפועל.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/work-and-service-rights.md"
+      ]
+    },
+    {
+      "claim_id": "bereaved-orphans-21",
+      "claim": "Orphans aged 21 and over are eligible.",
+      "source_url": "https://www.kolzchut.org.il/he/השתתפות_במימון_טיפולי_פוריות_ופונדקאות_להורים_שכולים_של_חללי_פעולת_איבה",
+      "raw_snippet": "יתומים מגיל 21 ומעלה.",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/work-and-service-rights.md"
+      ]
+    },
+    {
+      "claim_id": "knesset-26-elected",
+      "claim": "The 26th Knesset was elected in October 2026 (JDN, 29.10.2026, on the emerging list of elected members).",
+      "source_url": "https://www.jdn.co.il/news/2757349/",
+      "raw_snippet": "הכנסת ה-26 צפויה להציג תמונה שונה",
+      "fetched_at": "2026-11-11T12:00:00Z",
+      "appears_in": [
+        "references/posthumous-and-embryo-law.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "medical-preservation-storage-until-42",
+      "claim": "For medical fertility preservation the basket funds storage of embryos, eggs or ovarian tissue until 2 children are born or the woman's 42nd birthday, whichever comes first.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/1834/",
+      "raw_snippet": "משך מימון תקופת ההקפאה של עוברים, ביציות או רקמת שחלה, יהיה עד הולדת שני ילדים או עד גיל 41 (יום הולדת 42) של האישה, הקודם מביניהם",
+      "fetched_at": "2026-11-11T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "medical-preservation-indications-maccabi",
+      "claim": "Increased-risk indications include diminished ovarian reserve, gonadotoxic treatment not due to malignancy, planned removal of more than one ovary, and ovarian endometriosis with a unilateral endometrioma of at least 4 cm before surgery.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/1834/",
+      "raw_snippet": "נשים עם רזרבה שחלתית ירודה נשים לפני טיפול גונדוטוקסי, שלא עקב ממאירות נשים המועמדות לניתוח הסרה של יותר משחלה אחת",
+      "fetched_at": "2026-11-11T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "medical-preservation-endometrioma-4cm",
+      "claim": "An ovarian endometrioma of at least 4 cm before surgery is an indication.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/1834/",
+      "raw_snippet": "למטופלת יש אנדומטריומה חד-צדדית בגודל של לפחות 4 ס\"מ כאשר המטופלת עומדת לפני ניתוח בשל האנדומטריוזיס",
+      "fetched_at": "2026-11-11T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py"
+      ]
+    },
+    {
+      "claim_id": "medical-preservation-cycles-20-40",
+      "claim": "The increased-risk track of medical preservation is capped at 4 cycles or 20 eggs, and 6 cycles or 40 eggs for fragile-X premutation carriers; the gender-transition track is also capped at 4 cycles or 20 eggs. No cap is published for the oncology track.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/1834/",
+      "raw_snippet": "טיפולי שימור הביציות יבוצעו עד 4 מחזורי טיפול או עד להשגת 20 ביציות, הקודם מביניהם אצל נשאיות פרה מוטציה ל-X שביר, יבוצעו עד 6 מחזורי טיפול או עד להשגת 40 ביציות",
+      "fetched_at": "2026-11-11T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py"
+      ]
+    },
+    {
+      "claim_id": "medical-preservation-gender-transition",
+      "claim": "Fertility preservation as part of gender transition is a funded track.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/1834/",
+      "raw_snippet": "כחלק מהליך התאמה מגדרית טיפולי שימור פוריות לנערות בגיל ההתבגרות ולמבוגרות",
+      "fetched_at": "2026-11-11T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "medical-preservation-public-no-copay",
+      "claim": "At Maccabi, medical preservation at a public hospital carries no copay.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/1834/",
+      "raw_snippet": "בית חולים ציבורי - תופק התחייבות, ללא השתתפות עצמית",
+      "fetched_at": "2026-11-11T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py"
+      ]
+    },
+    {
+      "claim_id": "clalit-oncology-until-41",
+      "claim": "Clalit: the oncology preservation track is toward a first and second child or until the woman's 41st birthday, whichever comes first.",
+      "source_url": "https://www.clalit.co.il/he/myrights/fertility/Pages/fertility-preservation.aspx",
+      "raw_snippet": "הזכאות היא לצורך הולדת ילד ראשון ושני (לבני זוג שאין להם ילדים בנישואיהם הנוכחיים) או עד יום הולדת 41 של האישה - הקודם מביניהם",
+      "fetched_at": "2026-11-11T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py"
+      ]
+    },
+    {
+      "claim_id": "clalit-platinum-12-months",
+      "claim": "Clalit Mushlam Platinum elective freezing requires a 12-month qualification period and excludes women who already used a preservation entitlement.",
+      "source_url": "https://www.clalit.co.il/he/myrights/fertility/Pages/fertility-preservation.aspx",
+      "raw_snippet": "האם צריך תקופת אכשרה? כן, 12 חודשים",
+      "fetched_at": "2026-11-11T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py"
+      ]
+    },
+    {
+      "claim_id": "clalit-platinum-not-used-before",
+      "claim": "Clalit Platinum elective freezing is for women who did not use a preservation entitlement before.",
+      "source_url": "https://www.clalit.co.il/he/myrights/fertility/Pages/fertility-preservation.aspx",
+      "raw_snippet": "ושלא ניצלו זכאות לשימור בפוריות בעבר",
+      "fetched_at": "2026-11-11T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/fertility-coverage-checker.py"
+      ]
+    },
+    {
+      "claim_id": "surrogacy-intended-mother-medical-opinion",
+      "claim": "An intended mother needs a medical opinion that she cannot conceive and carry a pregnancy, or that pregnancy may seriously endanger her health (section 4(a)(2)).",
+      "source_url": "https://www.gov.il/he/service/embryo-carrying",
+      "raw_snippet": "חוות דעת גניקולוגית מיילדותית או חוות דעת רפואית המתייחסת לסיבה לאי יכולת האם המיועדת להתעבר ולשאת היריון או כי היריון עלול לסכן משמעותית את בריאותה. סעיף 4(א)(2) לחוק.",
+      "fetched_at": "2026-11-11T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/surrogacy-law-guide.md",
+        "scripts/fertility-coverage-checker.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-11"
+    },
+    {
+      "claim_id": "dismissal-partner-not-covered",
+      "claim": "The dismissal ban applies only to the employee in treatment, not to the partner.",
+      "source_url": "https://www.kolzchut.org.il/he/איסור_פיטורי_עובדת_במהלך_טיפולי_פוריות",
+      "raw_snippet": "איסור הפיטורים חל רק על העובדים שעוברים את טיפולי הפוריות (ולא על בני/בנות הזוג)",
+      "fetched_at": "2026-11-11T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/work-and-service-rights.md"
+      ]
+    },
+    {
+      "claim_id": "reserve-decision-under-10-days",
+      "claim": "A request filed less than 10 days before service is decided by the day before service at the latest.",
+      "source_url": "https://www.kolzchut.org.il/he/שחרור_חייל_מילואים_שבת_זוגו_עוברת_טיפולי_פוריות",
+      "raw_snippet": "לבקשה שתוגש פחות מ-10 ימים לפני תחילת השירות, תינתן החלטה לכל המאוחר עד יום לפני מועד תחילת השירות.",
+      "fetched_at": "2026-11-11T15:00:00Z",
+      "appears_in": [
+        "references/work-and-service-rights.md"
+      ]
+    },
+    {
+      "claim_id": "maccabi-private-track-shaban",
+      "claim": "At Maccabi, IVF with a chosen private doctor at contracted private hospitals is for Maccabi Sheli, Zahav and Kesef members.",
+      "source_url": "https://www.maccabi4u.co.il/eligibilites/2565/",
+      "raw_snippet": "חברות מכבי שלי, מכבי זהב ומכבי כסף זכאיות לעבור את הטיפול אצל רופא/ה פרטי לבחירתן",
+      "fetched_at": "2026-11-11T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ivf-process-detailed.md"
+      ]
+    },
+    {
+      "claim_id": "maccabi-oncology-sperm-5-samples",
+      "claim": "Maccabi oncology patients get 5 sperm samples a year frozen and stored for 5 years without a copay, for a first or second child of the current relationship only.",
+      "source_url": "https://www.kolzchut.org.il/he/הפקדת_זרע",
+      "raw_snippet": "זכאים להקפאת 5 מנות זרע בשנה ולשימור 5 מנות זרע בהקפאה בבנק זרע למשך 5 שנים ללא השתתפות עצמית. זכאות זו היא לילד ראשון ושני בלבד מזוגיות נוכחית.",
+      "fetched_at": "2026-11-11T16:00:00Z",
+      "appears_in": [
+        "references/ivf-process-detailed.md"
       ]
     }
   ]

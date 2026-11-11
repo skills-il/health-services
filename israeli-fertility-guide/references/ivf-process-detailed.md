@@ -65,7 +65,7 @@ After reviewing all test results, the fertility specialist creates a personalize
 | Mini/Mild stimulation | Lower medication doses, fewer eggs retrieved | Patients who over-respond, or preference for gentler approach |
 | Natural cycle IVF | No stimulation, retrieve the single naturally selected egg | Specific medical indications |
 
-**What kupat cholim covers:** Consultation and treatment plan development, all medications prescribed.
+**What kupat cholim covers:** Consultation and treatment plan development. Medications are prescribed here but bought at the pharmacy with a copay (see Stage 4).
 
 ## Stage 4: Hormonal Stimulation (Girui Shachlotot, גירוי שחלות)
 
@@ -87,7 +87,7 @@ After reviewing all test results, the fertility specialist creates a personalize
 | Ovitrelle / Pregnyl | hCG trigger, finalizes egg maturation | Single injection, 36 hours before retrieval |
 | Decapeptyl | GnRH agonist (long protocol) or alternative trigger | Varies by protocol |
 
-**What kupat cholim covers:** All hormonal medications, all monitoring visits (blood tests and ultrasounds).
+**What kupat cholim covers:** All monitoring visits (blood tests and ultrasounds). Fertility drugs are NOT free: they are bought at the pharmacy with a copay, and some kupot cap it. Maccabi, for example, caps the copay on injectable FSH and LH drugs at 243 NIS a month per treatment cycle (from 1.4.25), sells fertility drugs only until the 45th birthday, and requires an approved stage A+B commitment before the pharmacy will dispense them.
 
 **Practical tips:**
 - Injections are self-administered at home; the fertility nurse teaches you how
@@ -107,7 +107,7 @@ After reviewing all test results, the fertility specialist creates a personalize
 | Procedure | Ultrasound-guided needle through vaginal wall to aspirate follicles |
 | Recovery | Rest for 1-2 hours in recovery room, go home same day |
 | After retrieval | Mild cramping normal, avoid driving that day, rest recommended |
-| Sick leave | Entitled to 1 day of sick leave (ishur machala) |
+| Absence from work | Counted under the fertility-absence regulations (up to 16 or 20 days per treatment series against sick days), see `work-and-service-rights.md` |
 
 **What kupat cholim covers:** The entire retrieval procedure, anesthesia, facility fees.
 
@@ -164,7 +164,7 @@ After reviewing all test results, the fertility specialist creates a personalize
 | Estrogen (Estrofem) | Sometimes prescribed for additional lining support | Oral or vaginal |
 | Aspirin (low dose) | Sometimes prescribed to support blood flow to uterus | Oral |
 
-**What kupat cholim covers:** All post-transfer medications, the pregnancy blood test.
+**What kupat cholim covers:** The pregnancy blood test. Post-transfer medications are prescriptions with the usual pharmacy copay.
 
 ## Stage 9: Results
 
@@ -174,6 +174,18 @@ After reviewing all test results, the fertility specialist creates a personalize
 | Negative beta-hCG | Stop progesterone; schedule follow-up with fertility doctor to discuss next steps |
 | Low/slow-rising beta-hCG | Additional monitoring; may indicate ectopic pregnancy or early miscarriage |
 
+## How Kupot Count and Charge IVF
+
+Most kupot split IVF into 3 stages, each with its own commitment (התחייבות) and copay:
+
+| Stage | Content |
+|-------|---------|
+| A | Hormonal stimulation and the required tests |
+| B | Egg retrieval, fertilization and fresh embryo transfer |
+| C | Thawing a frozen embryo and transferring it |
+
+Maccabi's published terms illustrate the spread: at a contracted public hospital without choice of doctor, IVF carries no charge beyond a quarterly 41 NIS clinic copay; at a contracted private hospital with a chosen doctor, a benefit of the Maccabi Sheli, Zahav and Kesef SHABAN plans, there are per-stage copays. Ask your kupah for its current figures.
+
 ## Frozen Embryo Transfer (FET, החזרת עובר מוקפא)
 
 If extra embryos were frozen, they can be used in future cycles without repeating egg retrieval.
@@ -182,9 +194,8 @@ If extra embryos were frozen, they can be used in future cycles without repeatin
 |--------|---------|
 | Preparation | Hormone protocol to prepare the uterine lining (typically 2-3 weeks) |
 | Procedure | Same as fresh transfer (painless, 5-10 minutes) |
-| Success rates | Comparable to fresh transfers; sometimes higher due to better uterine preparation |
-| Cost | Fully covered by health basket (no additional egg retrieval needed) |
-| Storage | Embryos can be stored for years; annual storage fee applies |
+| Funding | Basket-funded as its own stage (stage C), with its own commitment and copay. Maccabi funds it until the 54th birthday when stages A and B were done before the 45th |
+| Storage | Embryos are frozen free for the first 5 years and for 5 more years for a fee; if no instruction is received after the 5-year notice, they are thawed and destroyed |
 
 ## Typical Complete IVF Timeline
 
@@ -204,15 +215,26 @@ If extra embryos were frozen, they can be used in future cycles without repeatin
 |------|---------|
 | All diagnostic tests | Yes |
 | Fertility specialist consultations | Yes |
-| All hormonal medications | Yes |
+| Fertility medications | Pharmacy copay, capped monthly at some kupot |
 | Monitoring visits (blood + ultrasound) | Yes |
 | Egg retrieval procedure + anesthesia | Yes |
 | Laboratory/embryology | Yes |
 | ICSI (if needed) | Yes |
 | Embryo transfer | Yes |
 | Embryo freezing | Yes |
-| Frozen embryo transfer | Yes |
-| Post-transfer medications | Yes |
+| Frozen embryo transfer | Yes, as stage C (until the 54th birthday at Maccabi if the embryo was made before 45) |
+| Post-transfer medications | Pharmacy copay |
 | Pregnancy blood test | Yes |
 | Number of cycles | No general cap, but see the age-42 consecutive-cycle rule (Circular 6/2014) |
 | Age limit | Own eggs until the 45th birthday; with a donated egg, funded until the 54th birthday |
+
+## Male-Factor Infertility and Fertility Preservation
+
+| Topic | Details |
+|-------|---------|
+| Who pays | The woman's kupah funds the couple's treatment; treatment of the man's sperm is funded by HIS kupah |
+| Workup | Semen analysis (bdikat zera), usually repeated, then a urologist or andrologist. Sperm washing and selection (השבחת זרע) precedes IUI or IVF, and ICSI is basket-funded when medically indicated |
+| Azoospermia | No sperm in the ejaculate is investigated at a fertility unit; surgical retrieval from the testis (TESE, micro-TESE) belongs to that pathway. Ask the unit and the kupah what is covered before scheduling |
+| Sperm banking | Any person may deposit and freeze their own sperm, at a cost. Oncology patients get kupah participation in the storage cost, limited to 5 years. Maccabi, for example, freezes 5 samples a year for 5 years without a copay for its oncology patients, for a first or second child of the current relationship only; other kupot set their own terms |
+| Before gonadotoxic treatment | Raise preservation BEFORE chemotherapy or radiation starts; the window closes once treatment begins. The oncology social worker is the fastest route for the referral |
+| Preservation methods and minors | Egg, embryo and ovarian tissue freezing are listed basket preservation methods, and preservation for girls and adolescents facing fertility-damaging treatment is within the funded indication. For pre-pubertal boys, ask the treating oncology unit what it offers; do not assume coverage |

@@ -16,12 +16,18 @@ Sources for the rules encoded here:
     woman buys the sperm vial herself.
   - Kol Zchut, receiving a donated egg: statutory recipient fee of 10,000 NIS
     (7,000 NIS on income support).
+  - Maccabi eligibility 2565: frozen-embryo transfer (stage C) funded until the
+    54th birthday when stages A and B were done before the 45th; fertility drugs
+    carry a pharmacy copay.
+  - gov.il oocyte cryopreservation: frozen eggs may be used until age 54; a woman
+    who started elective freezing before 41 may continue while it is continuous.
 
 Usage:
     python scripts/fertility-coverage-checker.py --age 38 --children 1 --insurance basic
     python scripts/fertility-coverage-checker.py --age 46 --children 0
     python scripts/fertility-coverage-checker.py --age 40 --children 0 --kupah meuhedet --insurance shaban
     python scripts/fertility-coverage-checker.py --age 36 --children 0 --status married --male-factor
+    python scripts/fertility-coverage-checker.py --age 41 --children 2 --previous-children 1 --kupah meuhedet
     python scripts/fertility-coverage-checker.py --help
 """
 
@@ -39,9 +45,10 @@ MEDICAL_FREEZE_RISK_AGE = 39
 ELECTIVE_SHABAN = {
     "clalit": (30, 37, "Clalit Mushlam Platinum, ages 30 to 37 (until the 38th "
                        "birthday): 2 retrievals / 25 eggs at 30-35, 3 retrievals / "
-                       "35 eggs at 36-37, 5 years of storage included."),
+                       "35 eggs at 36-37, 12-month qualification, not for women "
+                       "who already used a preservation entitlement."),
     "maccabi": (31, 38, "Maccabi Sheli, ages 31 to 38 inclusive: up to 3 treatments "
-                        "or 25 eggs, available from 15.03.2026, 12-month qualification."),
+                        "or 25 eggs, 12-month qualification."),
     "meuhedet": (30, 40, "Meuhedet Si (shia): 3,500 NIS copay, but Meuhedet's public "
                           "page gives no age band, so confirm your age with Meuhedet."),
     "leumit": (30, 37, "Leumit Zahav, ages 30 to 37 inclusive: up to 4 rounds, "
@@ -57,21 +64,26 @@ KUPAH_LABELS = {
 }
 
 
-def _entitlement_children(children, status, new_relationship):
-    """Living children counted against the 2-child entitlement."""
+def _entitlement_children(children, previous_children, new_relationship):
+    """Living children counted against the 2-child entitlement.
+
+    Entitlement attaches to common children of the CURRENT relationship, so
+    children from a previous relationship are not counted.
+    """
     if new_relationship:
-        # Entitlement attaches to children of the CURRENT relationship.
         return 0
-    return children
+    return max(0, children - previous_children)
 
 
 def check_coverage(age, children, status, insurance, kupah, male_factor,
-                   new_relationship, income_support):
+                   new_relationship, income_support, previous_children=0):
     """Determine fertility treatment coverage based on input parameters."""
     result = {
         "age": age,
         "children": children,
-        "counted_children": _entitlement_children(children, status, new_relationship),
+        "counted_children": (children if status == "single" else
+                             _entitlement_children(children, previous_children,
+                                                   new_relationship)),
         "status": status,
         "insurance": insurance,
         "kupah": kupah,
@@ -86,6 +98,10 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
     own_egg_ok = age < OWN_EGG_AGE_LIMIT
     # Egg donation: "turned 18 and not yet 54", so a woman who has turned 54 is past it.
     donor_egg_ok = age < DONOR_EGG_AGE_LIMIT
+    # Some funded IVF track (own eggs, donated egg or stored embryos) remains open.
+    funded_track = remaining > 0 and donor_egg_ok
+    copay_text = ("Per-stage kupah copays (stages A, B, C); fertility drugs carry a "
+                  "pharmacy copay; a donor sperm vial is NOT included")
 
     treatments = []
 
@@ -113,7 +129,7 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
             "covered": True,
             "source": "Health Basket (Sal Briut)",
             "details": details,
-            "cost": "Small copays; the donor sperm vial is NOT included",
+            "cost": copay_text,
         })
     elif remaining > 0 and not own_egg_ok and donor_egg_ok:
         treatments.append({
@@ -129,6 +145,21 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
             ),
             "cost": "Self-pay if a unit agrees to treat",
         })
+        treatments.append({
+            "name": "Frozen embryo transfer (stage C) of embryos made before 45",
+            "hebrew": "החזרת עובר מוקפא",
+            "covered": "If embryos are stored",
+            "source": "Health Basket",
+            "details": (
+                "Age 45 limits new retrievals, not transfers. Maccabi's published "
+                "terms fund thawing and transferring an embryo until the 54th "
+                "birthday when stimulation and retrieval were done before the 45th; "
+                "confirm your kupah's terms. The Ministry of Health also lets women "
+                "use their own frozen eggs until 54, but whether the kupah funds "
+                "thawing and fertilizing them after 45 is not stated, so ask."
+            ),
+            "cost": "Stage C copay",
+        })
     elif remaining > 0 and not donor_egg_ok:
         treatments.append({
             "name": "IVF (any egg source)",
@@ -142,7 +173,7 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
             ),
             "cost": "Not funded",
         })
-    elif insurance == "shaban":
+    elif insurance == "shaban" and donor_egg_ok:
         treatments.append({
             "name": "IVF (third child or beyond)",
             "hebrew": "הפריה חוץ גופית לילד שלישי ומעלה",
@@ -150,10 +181,25 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
             "source": "SHABAN (Supplementary Insurance)",
             "details": (
                 "Basic basket coverage is exhausted (2 living children from the "
-                "current relationship). Some SHABAN plans fund additional cycles. "
-                "Contact your kupah to verify the plan terms and qualification period."
+                "current relationship). Some SHABAN plans fund additional cycles, "
+                "with their own age limits and qualification periods. Contact your "
+                "kupah to verify the plan terms for your age."
             ),
             "cost": "Varies by SHABAN plan",
+        })
+    elif not donor_egg_ok:
+        treatments.append({
+            "name": "IVF (third child or beyond)",
+            "hebrew": "הפריה חוץ גופית לילד שלישי ומעלה",
+            "covered": False,
+            "source": "N/A",
+            "details": (
+                f"Basic basket coverage is exhausted (2 living children from the "
+                f"current relationship), and at age {age} even the donated-egg track "
+                f"of the basket has ended (54th birthday). Ask any SHABAN plan for "
+                f"its own age limit before assuming it pays."
+            ),
+            "cost": "Self-pay",
         })
     else:
         treatments.append({
@@ -165,9 +211,8 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
                 "Basic basket coverage ends after 2 living children from the current "
                 "relationship. Note that twins from one funded birth already exhaust "
                 "the entitlement. Without SHABAN, a further cycle is self-paid; get a "
-                "written quote from the unit (market estimates run roughly 15,000 to "
-                "25,000 NIS per cycle). SHABAN fertility benefits carry a "
-                "qualification period of up to 12 months."
+                "written quote from the unit. SHABAN fertility benefits carry a "
+                "qualification period, so check the plan's terms before relying on it."
             ),
             "cost": "Self-pay; ask the unit for a written quote",
         })
@@ -182,7 +227,7 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
         treatments.append({
             "name": "IVF with a donated egg (recipient)",
             "hebrew": "הפריה חוץ גופית מתרומת ביצית",
-            "covered": True,
+            "covered": "With a medical opinion",
             "source": "Health Basket (Egg Donation Law 2010)",
             "details": (
                 f"{highlight}Funded for Israeli-resident women from 18 until their "
@@ -202,7 +247,7 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
             "covered": True,
             "source": "Health Basket",
             "details": "Covered. Often tried before IVF as a less invasive option.",
-            "cost": "Small copays; a donor vial, if used, is self-purchased",
+            "cost": "Kupah copays; a donor vial, if used, is self-purchased",
         })
 
     # ------------------------------------------- Elective egg freezing
@@ -245,43 +290,79 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
                     "self-pay plus an annual storage fee",
         })
     else:
+        continuation = (
+            " A woman who STARTED before her 41st birthday may continue to the "
+            "retrieval or egg cap while the process stays continuous."
+            if age > ELECTIVE_MAX_AGE else ""
+        )
         treatments.append({
             "name": "Egg Freezing, elective (social)",
             "hebrew": "הקפאת ביציות אלקטיבית",
             "covered": False,
             "source": "N/A",
             "details": (
-                f"Elective freezing is permitted only from age {ELECTIVE_MIN_AGE} "
-                f"until the 41st birthday, so at age {age} it is outside the window "
-                f"entirely, and it is never in the basic basket. Medical egg freezing "
-                f"may still apply if you have a documented indication."
+                f"Elective freezing may start only from age {ELECTIVE_MIN_AGE} "
+                f"until the 41st birthday, so at age {age} a new process cannot "
+                f"start, and it is never in the basic basket.{continuation} Medical "
+                f"egg freezing may still apply if you have a documented indication."
             ),
-            "cost": "Not available electively at this age",
+            "cost": "A new elective process cannot start at this age",
         })
 
     # --------------------------------------------- Medical egg freezing
+    medical_details = (
+        "Funded (eggs, embryos or ovarian tissue) for girls and women facing "
+        "chemotherapy, radiation or ovary removal, and up to age "
+        f"{MEDICAL_FREEZE_RISK_AGE} for women at increased risk of premature "
+        "ovarian failure: diminished ovarian reserve, fragile-X premutation, a "
+        "disease proven to raise that risk, gonadotoxic treatment not due to "
+        "malignancy, planned removal of more than one ovary, or an ovarian "
+        "endometrioma of at least 4 cm before surgery; also within gender "
+        "transition. Toward a first and second child; the increased-risk and "
+        "gender-transition tracks are capped at 4 cycles or 20 eggs (6 or 40 for "
+        "fragile-X). Storage is funded until 2 children are born or "
+        "the 42nd birthday, whichever comes first. Raise it BEFORE gonadotoxic "
+        "treatment starts."
+    )
+    if counted >= 2:
+        medical_covered = False
+        medical_details = ("Medical preservation is funded toward a first and second "
+                           "child, and 2 children are counted here. " + medical_details)
+    elif age > MEDICAL_FREEZE_RISK_AGE:
+        medical_covered = "Ask your kupah"
+        medical_details = (f"At age {age} the increased-risk track (to 39) has ended; "
+                           "Clalit states its oncology track runs to the 41st birthday, "
+                           "so ask your kupah and the oncology unit. " + medical_details)
+    else:
+        medical_covered = "Depends on indication"
     treatments.append({
         "name": "Egg Freezing, medical indication",
         "hebrew": "הקפאת ביציות מסיבה רפואית",
-        "covered": "Depends on indication",
+        "covered": medical_covered,
         "source": "Health Basket",
-        "details": (
-            "Funded for girls and women facing chemotherapy or radiation that may "
-            f"harm fertility, and up to age {MEDICAL_FREEZE_RISK_AGE} for women at "
-            "increased risk of premature ovarian failure (fragile-X premutation "
-            "carriers, a disease proven to raise that risk, gonadotoxic treatment "
-            "not due to malignancy, or prophylactic ovarian surgery). Ovarian "
-            "tissue freezing is a listed basket "
-            "method too. Raise it BEFORE gonadotoxic treatment starts."
-        ),
-        "cost": "Covered; annual storage fees usually apply",
+        "details": medical_details,
+        "cost": "No copay at a public hospital at Maccabi; storage beyond the "
+                "funded period is self-paid",
     })
 
     # ------------------------------------------------------ Donor sperm
     # Married couples are eligible too when the infertility is male-factor,
     # which the previous version of this script silently excluded.
     show_sperm = status in ("single", "female-couple") or male_factor
-    if show_sperm:
+    if show_sperm and not funded_track:
+        treatments.append({
+            "name": "Sperm Donation",
+            "hebrew": "תרומת זרע",
+            "covered": False,
+            "source": "N/A",
+            "details": (
+                "No basket-funded treatment track remains open for these inputs "
+                "(age or children), so the insemination itself is not funded either. "
+                "The sperm vial is never funded."
+            ),
+            "cost": "Self-pay",
+        })
+    elif show_sperm:
         why = {
             "single": "as a single woman",
             "female-couple": "as a partner in a female couple",
@@ -327,34 +408,45 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
         })
 
     # -------------------------------------------------------------- PGT
-    treatments.append({
-        "name": "PGT (Preimplantation Genetic Testing)",
-        "hebrew": "אבחון גנטי טרום השרשה",
-        "covered": "Partial",
-        "source": "Health Basket / SHABAN",
-        "details": (
-            "Funded for defined indications. The 2026 basket (Director General "
-            "Circular 02/2026) added PGT for carriers of high-cancer-risk mutations "
-            "(BRCA1/BRCA2, Lynch syndrome) as part of IVF, and that entitlement is "
-            "capped: `תוגבל לשני הריונות בלבד, שהסתיימו בלידה`. Eligibility is set on "
-            "a genetic counselor's recommendation. Indications outside the list are "
-            "self-pay or case-by-case."
-        ),
-        "cost": "Covered for listed indications; otherwise self-pay",
-    })
+    if funded_track:
+        treatments.append({
+            "name": "PGT (Preimplantation Genetic Testing)",
+            "hebrew": "אבחון גנטי טרום השרשה",
+            "covered": "Partial",
+            "source": "Health Basket / SHABAN",
+            "details": (
+                "Funded for defined indications, including couples at high risk of a "
+                "chromosomal defect or genetic disease. The 2026 basket (Director General "
+                "Circular 02/2026) added PGT for carriers of high-cancer-risk mutations "
+                "(BRCA1/BRCA2, Lynch syndrome) as part of IVF, and that entitlement is "
+                "capped: `תוגבל לשני הריונות בלבד, שהסתיימו בלידה`. Eligibility is set on "
+                "a genetic counselor's recommendation. Indications outside the list are "
+                "self-pay or case-by-case."
+            ),
+            "cost": "Covered for listed indications; otherwise self-pay",
+        })
 
     # --------------------------------------------------------- Surrogacy
     treatments.append({
         "name": "Surrogacy",
         "hebrew": "פונדקאות",
-        "covered": False,
-        "source": "Mostly out-of-pocket",
+        "covered": (("Own eggs retrieved by 43 only"
+                     if status == "single" and age > 43 else "IVF stages only")
+                    if funded_track else False),
+        "source": ("Health Basket for the IVF; surrogacy costs out-of-pocket"
+                   if funded_track else "Out-of-pocket for these inputs"),
         "details": (
             "Legal under the Embryo Carrying Agreements Law 1996 for couples and "
-            "single individuals, subject to an approval committee. The surrogate must "
-            "be an Israeli resident, at least 22 and not yet 39, who has given birth "
-            "before and is not a relative, and she can never be the egg donor. Medical "
-            "IVF costs may be partly covered."
+            "single intended parents, subject to an approval committee. Intended "
+            "parents must be Israeli residents, at least one under 54, with no more "
+            "than 2 common children. The surrogate must be an Israeli resident, at "
+            "least 22 and not yet 39, who has given birth before and is not a "
+            "relative, and she can never be the egg donor. The committee will not "
+            "approve eggs retrieved after age 43, and a single intended mother may "
+            "not use a donated egg, so she needs her own eggs retrieved by 43. An "
+            "intended mother also needs a medical opinion that she cannot carry a "
+            "pregnancy or that it would seriously endanger her health. The intended "
+            "parents' IVF stages are basket-funded; the surrogacy costs are not."
         ),
         "cost": "Large and highly variable; there is no official tariff, so get "
                 "written quotes rather than trusting a headline figure",
@@ -373,6 +465,13 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
             f"Age {age} is past both funded ceilings ({OWN_EGG_AGE_LIMIT} own eggs, "
             f"{DONOR_EGG_AGE_LIMIT} with a donated egg)."
         )
+    if own_egg_ok and CYCLE_RULE_AGE - 2 <= age < CYCLE_RULE_AGE:
+        result["notes"].append(
+            "From your 42nd birthday the Circular 6/2014 cycle rule applies: no more "
+            "than 3 consecutive cycles that did not reach embryo transfer. Own-egg "
+            "retrievals are funded until the 45th birthday; Maccabi funds transferring "
+            "embryos made before then until the 54th birthday (confirm your kupah)."
+        )
     if own_egg_ok and age >= CYCLE_RULE_AGE:
         result["notes"].append(
             "Age 42+ cycle rule (MoH Circular 6/2014): no more than 3 consecutive "
@@ -384,22 +483,30 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
         "Twins from one funded birth exhaust the entitlement: the statute counts "
         "children, not pregnancies."
     )
-    if new_relationship and children > 0:
-        result["notes"].append(
-            f"You reported {children} child(ren) from a previous relationship, so "
-            f"they are not counted here. Entitlement attaches to children of the "
-            f"CURRENT relationship. Confirm this with your kupah in writing."
-        )
-    elif children >= 1 and status == "single":
+    if children >= 1 and status == "single":
         result["warnings"].append(
             "You reported existing children and no partner. The single-parent track "
             "is published for a woman without children, so the rows above may not "
             "reflect your case: confirm your entitlement with your kupah in writing."
         )
+    elif previous_children and not new_relationship:
+        result["notes"].append(
+            f"{previous_children} of the {children} child(ren) you reported are from a "
+            f"previous relationship and are not counted: the entitlement is to a "
+            f"common child of the current relationship. Confirm with your kupah."
+        )
+    elif new_relationship and children > 0:
+        result["notes"].append(
+            f"You reported {children} child(ren) from a previous relationship, so "
+            f"they are not counted here. Entitlement attaches to children of the "
+            f"CURRENT relationship. Confirm this with your kupah in writing."
+        )
     elif children >= 1:
         result["notes"].append(
-            "If your existing children are from a previous marriage, pass "
-            "--new-relationship: for a couple the entitlement is to a common child."
+            "All reported children were counted as common children of the current "
+            "relationship. If any are from a previous marriage, pass "
+            "--previous-children N (or --new-relationship if all are): for a couple "
+            "the entitlement is to a common child."
         )
     if status == "female-couple":
         result["notes"].append(
@@ -408,8 +515,9 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
         )
     if insurance == "basic":
         result["notes"].append(
-            "SHABAN fertility benefits have a qualification period (up to 12 months "
-            "on the elective egg-freezing benefits), so enroll before you need it."
+            "SHABAN fertility benefits have a qualification period (12 months on the "
+            "Clalit, Maccabi and Leumit elective egg-freezing benefits), so enroll "
+            "before you need it."
         )
     result["notes"].append(
         "If a kupah refuses something you believe you are entitled to, the statutory "
@@ -417,6 +525,12 @@ def check_coverage(age, children, status, insurance, kupah, male_factor,
         "Insurance Law at the Ministry of Health, not the kupah's own ombudsman."
     )
 
+    if status == "single" and children >= 1:
+        # The single-parent track is published for a woman WITHOUT children, so
+        # do not label any funded row as covered for a single woman with children.
+        for tr in treatments:
+            if tr["covered"] is True or tr["covered"] == "With a medical opinion":
+                tr["covered"] = "Confirm with your kupah"
     result["treatments"] = treatments
     return result
 
@@ -510,7 +624,8 @@ def format_result(result):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Check fertility treatment coverage eligibility in Israel.",
+        description=("Summarise the published Israeli fertility coverage rules for given "
+                     "inputs. Not an eligibility determination."),
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -519,6 +634,7 @@ Examples:
   %(prog)s --age 43 --children 0
   %(prog)s --age 40 --children 0 --kupah meuhedet --insurance shaban
   %(prog)s --age 36 --children 0 --status married --male-factor
+  %(prog)s --age 41 --children 2 --previous-children 1 --kupah meuhedet
 
 Statuses:  married (default), single, female-couple
 Kupot:     unknown (default), clalit, maccabi, meuhedet, leumit
@@ -541,17 +657,23 @@ Insurance: basic (default), shaban
     parser.add_argument("--male-factor", action="store_true",
                         help="Male-factor infertility is involved")
     parser.add_argument("--new-relationship", action="store_true",
-                        help="Existing children are from a previous relationship")
+                        help="ALL existing children are from a previous relationship")
+    parser.add_argument("--previous-children", type=int, default=0,
+                        help="How many of --children are from a previous relationship")
     parser.add_argument("--income-support", action="store_true",
                         help="Recipient receives havtachat hachnasa (reduced egg-donation fee)")
 
     args = parser.parse_args()
 
     if args.age < 18 or args.age > 60:
-        print("Error: Age must be between 18 and 60.")
+        print("Error: Age must be between 18 and 60.", file=sys.stderr)
         sys.exit(1)
     if args.children < 0 or args.children > 10:
-        print("Error: Number of children must be between 0 and 10.")
+        print("Error: Number of children must be between 0 and 10.", file=sys.stderr)
+        sys.exit(1)
+    if args.previous_children < 0 or args.previous_children > args.children:
+        print("Error: --previous-children must be between 0 and --children.",
+              file=sys.stderr)
         sys.exit(1)
 
     result = check_coverage(
@@ -563,6 +685,7 @@ Insurance: basic (default), shaban
         male_factor=args.male_factor,
         new_relationship=args.new_relationship,
         income_support=args.income_support,
+        previous_children=args.previous_children,
     )
 
     print(format_result(result))
