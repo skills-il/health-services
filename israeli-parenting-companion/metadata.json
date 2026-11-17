@@ -1,0 +1,62 @@
+{
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "health-services",
+  "tags": {
+    "he": [
+      "טיפת-חלב",
+      "חיסונים",
+      "לוח-חיסונים",
+      "התפתחות-הילד",
+      "הורות",
+      "תינוקות",
+      "שינה-בטוחה",
+      "ישראל"
+    ],
+    "en": [
+      "tipat-halav",
+      "vaccines",
+      "vaccination-schedule",
+      "child-development",
+      "parenting",
+      "babies",
+      "safe-sleep",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "מלווה הורים",
+    "en": "Israeli Parenting Companion"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ רפואי ואינו אבחון. מכניסים את תאריך הלידה ומקבלים לוח אישי להורדה ליומן (.ics) ורשימה להדפסה של כל מפגשי טיפת חלב וחיסוני השגרה של משרד הבריאות, כולל חיסוני בית הספר, ובכל מפגש מה האחות בודקת ומה כדאי לשאול. הלוח כבר מביא בחשבון את השינוי לילידי 2025, את מפגש גיל 6 שבועות, את RSV לפי חודש הלידה ואת הכללים לפגים. אפשר לשאול גם על שינה, הנקה ומוצקים, וסימני אזהרה מקבלים הפניה ברורה לרופא או ל-101. מתאים להורים לילדים מלידה ועד גיל 18. לא מתאים לסבסוד מעונות ורישום לגן, לזכויות בקופה, להריון או לאלרגיה למזון.",
+    "en": "Not medical advice and not a diagnosis. Enter your child's birth date and get a personal calendar file (.ics) and a printable checklist of every Tipat Halav visit and Ministry of Health routine vaccine, including school vaccines, with what the nurse checks and what to ask at each visit. It already applies the 2025 birth-cohort change, the 6-week visit, RSV by birth month and the preterm rules. You can also ask about sleep, breastfeeding and starting solids, and warning signs get a clear route to a doctor or MDA 101. For parents of children from birth to 18. Not for daycare subsidies or gan registration, kupah rights, pregnancy or food allergy."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "grok-build",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark",
+    "grok"
+  ],
+  "volatility": "annual",
+  "authoritative_sources": [
+    { "url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/babies-immunization-schedule/", "type": "regulator", "language": "he" },
+    { "url": "https://www.gov.il/BlobFolder/policy/luah/he/files_publications_units_epidemiology_vaccine_guidelines_120_LUAH.pdf", "type": "regulator", "language": "he" },
+    { "url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/", "type": "regulator", "language": "he" },
+    { "url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/children-vaccines/rsv-vaccine-beyfortus/", "type": "regulator", "language": "he" },
+    { "url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/routine-vaccinations-completion/", "type": "regulator", "language": "he" }
+  ],
+  "domain_checklist_version": 1
+}

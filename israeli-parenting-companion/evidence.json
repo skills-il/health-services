@@ -1,0 +1,1881 @@
+{
+  "skill_slug": "israeli-parenting-companion",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-11-17",
+  "claims": [
+    {
+      "id": "tipat-halav-0-6",
+      "claim": "Tipat Halav follows families from birth to age 6, free at every station.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "טיפת חלב מלווה משפחות עם תינוקות ופעוטות מגיל לידה ועד גיל 6 שנים",
+      "confidence": "high"
+    },
+    {
+      "id": "tipat-halav-free",
+      "claim": "Tipat Halav service is free at all stations.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "השירות בכל התחנות ניתן ללא תשלום.",
+      "confidence": "high"
+    },
+    {
+      "id": "moh-stations-everyone",
+      "claim": "MoH Tipat Halav stations serve everyone regardless of kupah, including foreign workers and women without status.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "תחנות טיפת חלב של משרד הבריאות: נותנות שירות לכולם, ללא תלות בקופת החולים (כולל עובדות זרות ונשים ללא מעמד שיולדות בארץ).",
+      "confidence": "high"
+    },
+    {
+      "id": "kupa-stations-members",
+      "claim": "Kupah-run Tipat Halav stations serve mainly their own members.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "תחנות טיפת חלב של קופות החולים: נותנות שירות בעיקר למבוטחים שלהן.",
+      "confidence": "high"
+    },
+    {
+      "id": "nurse-every-visit",
+      "claim": "A Tipat Halav nurse attends every visit; a physician examines at some visits.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בכל המפגשים תלווה אותך אחות טיפת חלב, ובכמה מהמפגשים יהיו גם רופא או רופאה שיעשו בדיקה רפואית.",
+      "confidence": "high"
+    },
+    {
+      "id": "first-visit-hour",
+      "claim": "The first Tipat Halav visit takes about an hour.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "כדאי לדעת שהמפגש הראשון בטיפת חלב נמשך כשעה ולפעמים אף יותר",
+      "confidence": "high"
+    },
+    {
+      "id": "first-visit-bring",
+      "claim": "What to bring to the first visit: cloth diaper, spare diapers and clothes, formula and bottle if not breastfeeding, vaccine booklet, hospital discharge documents.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "חיתול בד (כדי להניח עליו את התינוק או התינוקת בזמן הבדיקה). חיתולים ובגדים להחלפה. תמ\"ל ובקבוק (במקרה שהאם לא מניקה). פנקס חיסונים.",
+      "confidence": "high"
+    },
+    {
+      "id": "first-visit-docs",
+      "claim": "At the first visit bring the medical documents received after the birth.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש בראשון - צריך להביא גם את המסמכים הרפואיים שקיבלת לאחר הלידה.",
+      "confidence": "high"
+    },
+    {
+      "id": "book-2-days-after-discharge",
+      "claim": "Book the Tipat Halav visit while in hospital, for 2 days after discharge.",
+      "claim_type": "duration",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/after-childbirth/at-hospital/initial-care-for-newborn/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בזמן שאת מאושפזת, עלייך לקבוע תור לטיפת חלב - יומיים אחרי השחרור מבית החולים.",
+      "confidence": "high"
+    },
+    {
+      "id": "nurse-line-5400",
+      "claim": "Tipat Halav nurse phone line at Kol HaBriut *5400.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אפשר לפנות למוקד האחיות הטלפוני ב\"קול הבריאות\" (5400*)",
+      "confidence": "high"
+    },
+    {
+      "id": "nurse-line-ext",
+      "claim": "Nurse line: extension 1 then 9.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "שלוחה 1 ואז 9",
+      "confidence": "high"
+    },
+    {
+      "id": "nurse-line-hours",
+      "claim": "Nurse line hours: Sunday to Thursday 16:00 to 21:00, Friday 08:00 to 13:00.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בימי ראשון עד חמישי 16:00 עד 21:00 ביום שישי 08:00 עד 13:00",
+      "confidence": "high"
+    },
+    {
+      "id": "nurse-line-abroad",
+      "claim": "From abroad: 972-8-6241010.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "למענה טלפוני מחו\"ל יש להתקשר למספר: 972-8-6241010.",
+      "confidence": "high"
+    },
+    {
+      "id": "dental-service",
+      "claim": "Free caries prevention at Tipat Halav from the first tooth to age 6, at about 70 stations, booking *6362.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "שירות חדש למניעת עששת ניתן בטיפת חלב לתינוקות, לפעוטות ולילדים וילדות, מרגע שהשן הראשונה בוקעת ועד גיל 6 שנים - ללא עלות.",
+      "confidence": "high"
+    },
+    {
+      "id": "dental-70",
+      "claim": "The dental service is given at about 70 stations; phone *6362.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "השירות ניתן בכ-70 תחנות טיפת חלב ברחבי הארץ",
+      "confidence": "high"
+    },
+    {
+      "id": "dental-6362",
+      "claim": "Dental booking phone *6362.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לפרטים ולקביעת תור אפשר לפנות למוקד השירות בטלפון: 6362* או לקבוע תור אונליין דרך הקישור הבא.",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-2m-6w",
+      "claim": "The 2-month visit was moved to 6 weeks because of outbreaks; first 5-in-1, pneumococcal and rotavirus doses are given there.",
+      "claim_type": "date",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש זה תינתן מנה ראשונה של החיסון המחומש, חיסון פנאומוקוקוס וחיסון רוטה. שימו לב: בשל התפרצות מחלות מידבקות המפגש של גיל חודשיים הועבר לגיל 6 שבועות, כדי להקדים את החיסונים הניתנים בו.",
+      "confidence": "high"
+    },
+    {
+      "id": "luah-6weeks",
+      "claim": "Since 3.4.22 and until further notice the 2-month vaccines are given at 6 weeks.",
+      "claim_type": "date",
+      "source_url": "https://www.gov.il/BlobFolder/policy/luah/he/files_publications_units_epidemiology_vaccine_guidelines_120_LUAH.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מתאריך החל 3.4.22 חודשיים גיל של החיסונים ,חדשה להודעה ועד בגיל יינתנו 6 .שבועות",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17",
+      "note": "pdftotext reverses Hebrew word order; read in the PDF layout: 'החל מתאריך 3.4.22 ועד להודעה חדשה, החיסונים של גיל חודשיים יינתנו בגיל 6 שבועות.'"
+    },
+    {
+      "id": "physician-exam",
+      "claim": "At the physician visits the doctor asks about the baby's condition, reviews earlier Tipat Halav results and does a head-to-toe exam.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "כדי לוודא שהמצב הרפואי תקין, הרופא או הרופאה ישאלו אותך שאלות לגבי המצב והתפקוד של התינוק או התינוקת מאז הלידה, יעברו על תוצאות הבדיקות בטיפת חלב עד כה ויערכו בדיקה גופנית מכף רגל ועד ראש.",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-list",
+      "claim": "Tipat Halav visits: birth, 1 month, 2 months, 4 months, 6 months, 9 months, 12 months, 18 months, 24 months, 4 years, 5 years; physician exam at 2, 9, 18 and 24 months.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "### מפגש גיל לידה",
+      "confidence": "high",
+      "note": "Visit headings on the page: מפגש גיל לידה, מפגש גיל חודש, מפגש גיל חודשיים, מפגש גיל 4 חודשים, מפגש גיל חצי שנה, מפגש גיל 9 חודשים, מפגש גיל שנה, מפגש גיל שנה וחצי, מפגש גיל שנתיים, מפגש גיל 4 שנים, מפגש גיל 5 שנים. 'בדיקה רפואית' tab appears on the 2, 9, 18 and 24 month visits only."
+    },
+    {
+      "id": "visit-birth-content",
+      "claim": "The newborn visit reviews the discharge letter and checks for jaundice, rash or significant weight loss; the nurse covers feeding, sleep, safety, crying and vitamin D.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש נעבור על מכתב השחרור מבית החולים, נסקור את מערכות הגוף ואת הסימטריה שלהן, נוודא שאין חשש לצהבת, לפריחה או לירידה משמעותית במשקל ועוד.",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-birth-guidance",
+      "claim": "Newborn visit guidance topics: feeding, sleep, safety, crying, vitamin D.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "האחות תקשיב לך, תענה על כל שאלה ותדריך בנושאי האכלה, שינה, בטיחות, התמודדות עם בכי, מתן ויטמין D ועוד.",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-birth-mother",
+      "claim": "The newborn visit also covers the mother's postpartum recovery.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש נשמח לשמוע ממך מה שלומך, לדבר על משכב לידה, לתמוך וללוות אותך בתחילת הדרך של ההורות לתינוק או לתינוקת שלך.",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-1m-hepb",
+      "claim": "At the 1-month visit the second hepatitis B dose is given.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש זה תינתן מנה שנייה של חיסון צהבת B",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-rsv-aug-mar",
+      "claim": "RSV is given at Tipat Halav visits in one dose between August and March to babies who did not get it before.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש זה יינתן חיסון נגד RSV במנה אחת, בין חודש אוגוסט לחודש מרץ (עונת הפעילות של הנגיף), לתינוקות שלא קיבלו את החיסון בעבר.",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-4m-iron",
+      "claim": "4-month guidance: vitamin D until age 1 and iron supplement until 18 months.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מתן ויטמין D עד גיל שנה ומתן תוסף ברזל עד גיל שנה וחצי.",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-6m-iron-up",
+      "claim": "6-month guidance: vitamin D until age 1 and raising the iron supplement dose until 18 months.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מתן ויטמין D עד גיל שנה והעלאת המינון של תוסף ברזל עד גיל שנה וחצי.",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-6m-vax",
+      "claim": "At 6 months: third 5-in-1, rotavirus and hepatitis B doses.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש זה תינתן מנה שלישית של החיסון המחומש, חיסון רוטה וצהבת B",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-9m-blood",
+      "claim": "At 9 months you get a blood count referral for the 12-month visit.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בנוסף, תקבלו הפניה לספירת דם לקראת המפגש של גיל שנה.",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-12m-vax",
+      "claim": "At 12 months: fourth 5-in-1, third pneumococcal and first MMRV doses.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש זה תינתן מנה רביעית של החיסון המחומש, מנה שלישית של החיסון פנאומוקוקוס ומנה ראשונה של החיסון המרובע.",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-12m-guidance",
+      "claim": "12-month guidance: stop vitamin D, continue iron to 18 months.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "הפסקת מתן ויטמין D והמשך מתן תוסף ברזל עד גיל שנה וחצי.",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-18m-new",
+      "claim": "Born after 1.1.2025: at 18 months first hepatitis A dose and second MMRV dose.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש זה תינתן מנה ראשונה של חיסון צהבת A ומנה שנייה של חיסון מרובע",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-18m-guidance",
+      "claim": "18-month guidance: stop the iron supplement, toilet training.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "הפסקת מתן תוסף ברזל וגמילה מחיתולים.",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-24m-old",
+      "claim": "Born before 1.1.2025: second hepatitis A dose at 24 months.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש זה תינתן מנה שנייה של חיסון צהבת A",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-24m-guidance",
+      "claim": "24-month guidance: nutrition, sleep, safety, toilet training.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "תזונה, שינה, בטיחות וגמילה מחיתולים",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-4y-vision",
+      "claim": "At the 4-year visit visual acuity is checked.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש זה נערוך בדיקה של חדות הראייה.",
+      "confidence": "high"
+    },
+    {
+      "id": "visit-5y-grade1",
+      "claim": "At the 5-year visit, ahead of grade 1, motor skills, cognitive and emotional-social readiness are checked.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לקראת כיתה א' נבדוק מיומנויות מוטוריות, בשלות קוגניטיבית ובשלות רגשית וחברתית.",
+      "confidence": "high"
+    },
+    {
+      "id": "dev-wide-range",
+      "claim": "The range of normal development is wide; every visit checks motor, language, communication, emotional and social skills by age.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "תינוקות נולדים עם כישורים טבעיים של התפתחות ולמידה, וכדאי לדעת שהטווח של התפתחות תקינה הוא רחב. בכל מפגש בטיפת חלב נבדוק את התפתחות תנועת הגוף, השפה, התקשורת עם הסביבה, הכישורים הרגשיים והחברתיים בהתאם לגיל.",
+      "confidence": "high"
+    },
+    {
+      "id": "dev-2m",
+      "claim": "Developmental items the Tipat Halav nurse checks at the 2m visit.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש הזה נבדוק מעקב במבט אחרי עצם נע, השמעת קולות בתגובה לקולות שנשמיע, חיוך כתגובה לחיוך שלנו והרמת ראש בשכיבה על הבטן.",
+      "confidence": "high"
+    },
+    {
+      "id": "dev-4m",
+      "claim": "Developmental items the Tipat Halav nurse checks at the 4m visit.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש הזה נבדוק מעקב במבט בקו אנכי, תגובה לקולות ולצלילים, תגובה בהנאה לקול ולדמות אדם, השמעת קולות מגוונים (כולל עיצורים), הבאת ידיים לקו האמצע, אחיזה והושטה של חפץ, הרמת ראש ובית חזה בשכיבה על הבטן.",
+      "confidence": "high"
+    },
+    {
+      "id": "dev-6m",
+      "claim": "Developmental items the Tipat Halav nurse checks at the 6m visit.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש נבדוק העברת חפץ מיד ליד, השמעת הברות חוזרות, רתיעה מזרים והתהפכות מהגב לבטן ומהבטן לגב.",
+      "confidence": "high"
+    },
+    {
+      "id": "dev-9m",
+      "claim": "Developmental items the Tipat Halav nurse checks at the 9m visit.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש הזה נבדוק הקשת חפצים זה בזה כמשחק, זחילה, השמעת קולות בדו-שיח, תגובה לקריאה בשם, חיקוי מחוות, אכילה עצמאית, תפיסת צבת, הבנת הוראות פשוטות, מעבר עצמאי לישיבה, אמירת מילה אחת או השמעת קול עם משמעות.",
+      "confidence": "high"
+    },
+    {
+      "id": "dev-12m",
+      "claim": "Developmental items the Tipat Halav nurse checks at the 12m visit.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש הזה נבדוק הבעת רצון במחוות או במילים, יצירת קשר עין והדדיות במשחק משותף, קימה לעמידה בתמיכה, הליכה בתמיכה, הצבעה על חפצים מוכרים לפי בקשה, אמירת 3-2 מילים, הנחת קובייה בתוך כוס.",
+      "confidence": "high"
+    },
+    {
+      "id": "dev-18m",
+      "claim": "Developmental items the Tipat Halav nurse checks at the 18m visit.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש הזה נבדוק הכרה של איבר אחד בגוף, הליכה ללא עזרה, עלייה במדרגות עם עזרה, אכילה עצמאית בכפית, בניית מגדל קוביות, כיווץ והבלטת שפתיים כדי לתת נשיקה, אוצר מילים של יותר מ-10 מילים, משחק פונקציונלי (כמו הסעת מכונית), יוזמה לאינטראקציה או למשחק הדדי.",
+      "confidence": "high"
+    },
+    {
+      "id": "dev-24m",
+      "claim": "Developmental items the Tipat Halav nurse checks at the 24m visit.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש הזה נבדוק דיבור המכוון למטרות תקשורת, הבנת פעולות ללא מחווה מלווה, כינוי חפצים בשם, צירוף של 2 מילים לפחות למשפט, ריצה ללא נפילות, עלייה וירידה במדרגות בתמיכת מעקה, השתתפות בפעילויות יומיום, חיקוי ציור של קווים אופקיים, מאונכים ומעוגלים, משחק סימבולי (למשל, השכבת בובה לישון).",
+      "confidence": "high"
+    },
+    {
+      "id": "dev-4y",
+      "claim": "Developmental items the Tipat Halav nurse checks at the 4y visit.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש הזה נבדוק עמידה על רגל אחת, העתקת ריבוע, ספירה עד 3, הכרה של לפחות 3 מילות יחס, דיבור מובן, משחק עם חברים באותו הגיל, התלבשות עצמאית, אכילה בעזרת כף ומזלג.",
+      "confidence": "high"
+    },
+    {
+      "id": "dev-5y",
+      "claim": "Developmental items the Tipat Halav nurse checks at the 5y visit.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במפגש הזה נבדוק תיאור תמונה תוך שימוש בפעלים בזמנים נכונים, מענה על שאלות התמצאות, קפיצה על רגל אחת, הליכה עקב בצד אגודל, ציור דמות אדם, העתקת צורות גאומטריות ומשחק עם חברים באותו הגיל.",
+      "confidence": "high"
+    },
+    {
+      "id": "sched-birth",
+      "claim": "At birth: hepatitis B dose 1 of 3 and RSV.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/babies-immunization-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "[חיסוני גיל 0 חודשים] דלקת כבד B 1/3 RSV 1/1",
+      "confidence": "high"
+    },
+    {
+      "id": "sched-1m",
+      "claim": "At 1 month: hepatitis B 2/3.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/babies-immunization-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "[חיסוני גיל 1 חודשים] דלקת כבד B 2/3",
+      "confidence": "high"
+    },
+    {
+      "id": "sched-2m",
+      "claim": "At 2 months: 5-in-1 1/4, rotavirus 1/3, pneumococcal 1/3.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/babies-immunization-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "[חיסוני גיל חודשיים] מחומש 1/4 רוטה 1/3 פנאומוקוקוס 1/3",
+      "confidence": "high"
+    },
+    {
+      "id": "sched-4m",
+      "claim": "At 4 months: 5-in-1 2/4, rotavirus 2/3, pneumococcal 2/3.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/babies-immunization-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "[חיסוני גיל 4 חודשים] מחומש 2/4 רוטה 2/3 פנאומוקוקוס 2/3",
+      "confidence": "high"
+    },
+    {
+      "id": "sched-6m",
+      "claim": "At 6 months: 5-in-1 3/4, rotavirus 3/3, hepatitis B 3/3.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/babies-immunization-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "[חיסוני גיל חצי שנה] מחומש 3/4 רוטה 3/3 דלקת כבד B 3/3",
+      "confidence": "high"
+    },
+    {
+      "id": "sched-12m",
+      "claim": "At 12 months: 5-in-1 4/4, pneumococcal 3/3, MMRV 1/2.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/babies-immunization-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "[חיסוני גיל שנה] מחומש 4/4 פנאומוקוקוס 3/3 החיסון המרובע (MMR-V) 1/2",
+      "confidence": "high"
+    },
+    {
+      "id": "sched-old-18-24",
+      "claim": "Born before 1.1.2025: hepatitis A 1/2 at 18 months, 2/2 at 24 months, MMRV 2/2 in grade 1.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/babies-immunization-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "[חיסוני גיל שנה וחצי] צהבת A 1/2 [חיסוני גיל 24 חודשים] צהבת A 2/2 [חיסוני כיתה א] החיסון המרובע (MMR-V) 2/2",
+      "confidence": "high"
+    },
+    {
+      "id": "sched-new-18-g1",
+      "claim": "Born from 1.1.2025: hepatitis A 1/2 and MMRV 2/2 at 18 months, hepatitis A 2/2 in grade 1.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/babies-immunization-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "[חיסוני גיל שנה וחצי] צהבת A 1/2 החיסון המרובע (MMR-V) 2/2 [חיסוני כיתה א] צהבת A 2/2",
+      "confidence": "high"
+    },
+    {
+      "id": "sched-school",
+      "claim": "School: grade 2 diphtheria, tetanus, pertussis and polio plus flu; grades 3 and 4 flu; grade 7 HPV 1/2; grade 8 diphtheria, tetanus and pertussis plus HPV 2/2.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/babies-immunization-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "[חיסוני כיתה ב] דיפתריה, טטנוס, שעלת ופוליו 1/1 שפעת 1/1 [חיסוני כיתה ג] שפעת 1/1 [חיסוני כיתה ד] שפעת 1/1 [חיסוני כיתה ז] פפילומה 1/2 [חיסוני כיתה ח] דיפתריה, טטנוס ושעלת 1/1 פפילומה 2/2",
+      "confidence": "high"
+    },
+    {
+      "id": "luah-cohort-new",
+      "claim": "Footnote 2: for children born 1.1.2025 and later.",
+      "claim_type": "date",
+      "source_url": "https://www.gov.il/BlobFolder/policy/luah/he/files_publications_units_epidemiology_vaccine_guidelines_120_LUAH.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לילידי 1.1.2025 ואילך",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17",
+      "note": "Attached to MMR and Var at 18 months and HAV in grade 1."
+    },
+    {
+      "id": "luah-cohort-old",
+      "claim": "Footnote 3: for children born up to 31.12.2024.",
+      "claim_type": "date",
+      "source_url": "https://www.gov.il/BlobFolder/policy/luah/he/files_publications_units_epidemiology_vaccine_guidelines_120_LUAH.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "עד שנולדו לילדים 31.12.2024",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17",
+      "note": "pdftotext word order reversed; PDF reads 'לילדים שנולדו עד 31.12.2024'. Attached to MMR and Var in grade 1 and HAV at 24 months."
+    },
+    {
+      "id": "luah-title",
+      "claim": "The MoH routine childhood schedule table is dated September 2026 and lists PCV20.",
+      "claim_type": "date",
+      "source_url": "https://www.gov.il/BlobFolder/policy/luah/he/files_publications_units_epidemiology_vaccine_guidelines_120_LUAH.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "ספטמבר 2026",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17",
+      "note": "Title: 'לוח חיסוני השגרה בגיל הילדות, ספטמבר 2026'. Pneumococcal row: PCV20 at 2, 4, 12 months."
+    },
+    {
+      "id": "pcv20-name",
+      "claim": "The pneumococcal vaccine is Prevenar 20 (PCV20).",
+      "claim_type": "company",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/children-vaccines/pneumococcal-vaccine/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "החיסון נגד פנאומוקוקוס נקרא פרבנר 20 (Prevenar 20 – PCV20)",
+      "confidence": "high"
+    },
+    {
+      "id": "penta-composition",
+      "claim": "The 5-in-1 (DTaP-Hib-IPV) covers diphtheria, tetanus, pertussis, polio and Haemophilus influenzae b.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/children-vaccines/mehumash/diphtheria-vaccine/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "החיסון נגד דיפתריה ניתן כחלק מהחיסון המחומש (DTaP-Hib-IPV), הכולל גם חיסון נגד טטנוס, שעלת, פוליו (שיתוק ילדים) והמופילוס אינפלואנזה B",
+      "confidence": "high"
+    },
+    {
+      "id": "mmrv-effective",
+      "claim": "From 1.7.2026 children born from 1.1.2025 get MMRV dose 2 at the 18-month Tipat Halav visit, replacing the grade-1 dose.",
+      "claim_type": "date",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/measles/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "החל מ-1.7.2026: ילדים שנולדו מ-1.1.2025 ואילך - יקבלו את המנה השנייה של חיסון MMRV במהלך המפגש השגרתי בטיפת חלב בגיל 18 חודשים. מנה זו תחליף את המנה שניתנה עד היום בכיתה א'.",
+      "confidence": "high"
+    },
+    {
+      "id": "measles-early-dose",
+      "claim": "Extra early measles dose at 6 to 11 months, in addition to the 2 routine doses.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/measles/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "המנה תינתן בנוסף ל-2 מנות החיסון שיינתנו בהמשך במסגרת חיסוני השגרה.",
+      "confidence": "high"
+    },
+    {
+      "id": "measles-who",
+      "claim": "The early dose applies to residents of outbreak localities, people visiting them, and anyone travelling abroad.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/measles/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "למי שמתכננים לנסוע לכל יעד בחו\"ל.",
+      "confidence": "high"
+    },
+    {
+      "id": "measles-outbreak-localities",
+      "claim": "Early measles dose recommended in localities with an active outbreak, at 6 to 11 months.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "ביישובים שיש בהם התפרצות פעילה של חצבת",
+      "confidence": "high"
+    },
+    {
+      "id": "rsv-sep-mar",
+      "claim": "Born 1.9 to 31.3: RSV in hospital before discharge.",
+      "claim_type": "date",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/children-vaccines/rsv-vaccine-beyfortus/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מי שנולדו בין 1.9 ל-31.3: יחוסנו בבית החולים לאחר הלידה ועד מועד השחרור מבית החולים.",
+      "confidence": "high"
+    },
+    {
+      "id": "rsv-apr-aug",
+      "claim": "Born 1.4 to 31.8: RSV at the routine Tipat Halav visit at the end of summer / start of autumn, before the RSV season.",
+      "claim_type": "date",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/children-vaccines/rsv-vaccine-beyfortus/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מי שנולדו בין 1.4 ל-31.8: יחוסנו בסוף הקיץ ובתחילת הסתיו, לפני שמתחילה עונת ה-RSV. החיסון יינתן במסגרת הביקור השגרתי בטיפת חלב.",
+      "confidence": "high"
+    },
+    {
+      "id": "rsv-missed",
+      "claim": "Babies who should have been immunized in hospital and were not can get it at Tipat Halav.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/children-vaccines/rsv-vaccine-beyfortus/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "תינוקות שהיו אמורים לקבל חיסון בבית החולים ולא חוסנו - יוכלו להתחסן בטיפת חלב במסגרת הביקורים השגרתיים.",
+      "confidence": "high"
+    },
+    {
+      "id": "rsv-second-season",
+      "claim": "A second-season RSV dose is given to high-risk infants and toddlers.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/children-vaccines/rsv-vaccine-beyfortus/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "החיסון יינתן גם בעונת ה-RSV השנייה לחיים כשמדובר בתינוקות ובפעוטות המצויים בסיכון מוגבר למחלת RSV חמורה.",
+      "confidence": "high"
+    },
+    {
+      "id": "rsv-passive",
+      "claim": "The RSV immunization is a passive antibody (Beyfortus / Nirsevimab or Clesrovimab).",
+      "claim_type": "company",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/children-vaccines/rsv-vaccine-beyfortus/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "שם החיסון: בייפורטוס (Beyfortus, Nirsevimab) או אנפלונסיה (Clesrovimab).",
+      "confidence": "high"
+    },
+    {
+      "id": "school-boosters",
+      "claim": "The diphtheria, tetanus and pertussis boosters are given in grades 2 and 8.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/vaccine-schedule-6-to-18-years/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "ומנות הדחף של החיסון הזה, שניתנות בכיתה ב' ובכיתה ח', מעלות מחדש את רמת החסינות נגד המחלות הללו.",
+      "confidence": "high"
+    },
+    {
+      "id": "school-flu",
+      "claim": "Flu is given at school in grades 2, 3 and 4; in special education in grades 1 to 6.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/vaccine-schedule-6-to-18-years/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "חיסון נגד שפעת ניתן בכיתות ב', ג' ו-ד' בבית הספר, ובחינוך המיוחד הוא ניתן בכיתות א' עד ו'.",
+      "confidence": "high"
+    },
+    {
+      "id": "school-booklet",
+      "claim": "About two weeks before the vaccine the school asks for the vaccine booklet.",
+      "claim_type": "duration",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/vaccine-schedule-6-to-18-years/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "כשבועיים לפני מתן החיסון, בית הספר יבקש להעביר את פנקס החיסונים לאחות בית הספר.",
+      "confidence": "high"
+    },
+    {
+      "id": "school-lost-booklet",
+      "claim": "Even with a lost booklet the child can be vaccinated at school.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/vaccine-schedule-6-to-18-years/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "גם אם פנקס החיסונים אבד אפשר לקבל חיסון בבית הספר.",
+      "confidence": "high"
+    },
+    {
+      "id": "school-reservation",
+      "claim": "A reservation about a vaccine is noted on the health declaration or told to the school health team in advance.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/vaccine-schedule-6-to-18-years/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אם יש לך הסתייגות ממתן חיסון או חיסונים לילד או לילדה שלך, יש לציין את זה בהצהרת הבריאות או לעדכן מראש את צוות הבריאות בבית הספר.",
+      "confidence": "high"
+    },
+    {
+      "id": "acute-illness",
+      "claim": "With an acute illness and fever above 38 the child is not vaccinated; a mild illness, cold, mild diarrhea or local infection is not a reason to postpone.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/vaccine-schedule-6-to-18-years/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אם הילד או הילדה חולים במחלה חריפה שמלווה בחום של יותר מ-38 מעלות – לא ניתן לחסן אותם. לעומת זאת, אם הם חולים במחלה קלה עם חום נמוך מ-38 מעלות, מקוררים (זיהום קל בדרכי הנשימה העליונות), סובלים משלשול קל או מזיהום מקומי – אפשר לחסן.",
+      "confidence": "high"
+    },
+    {
+      "id": "hpv-region",
+      "claim": "HPV: two doses, grade 7 and grade 8; in the Ashkelon district and Tzfat sub-district both doses are given in grade 8 about half a year apart.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/vaccines-out-of-tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "חיסון נערות ונערים בשתי מנות - הראשונה בכיתה ז' והשניה בכיתה ח' (במחוז אשקלון ובנפת צפת 2 המנות ניתנות בכיתה ח', במרווח של כחצי שנה זו מזו).",
+      "confidence": "high"
+    },
+    {
+      "id": "out-of-tipat",
+      "claim": "MoH recommends 4 vaccines outside Tipat Halav: flu, meningococcal B, HPV and pertussis in pregnancy; mostly free.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/vaccines-out-of-tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מעבר לחיסוני השגרה בטיפת חלב, משרד הבריאות ממליץ על 4 חיסונים נוספים: שפעת, מנינגוקוק B, פפילומה (HPV) ושעלת בהריון. חיסונים אלה לא ניתנים בטיפת חלב, אלא בקופת החולים, בבית הספר או בלשכת הבריאות, ורובם ללא תשלום.",
+      "confidence": "high"
+    },
+    {
+      "id": "flu-6m",
+      "claim": "Yearly flu vaccine from 6 months, given free at the kupah before winter; grades 2 to 4 also at school.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/vaccines-out-of-tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "ממליץ משרד הבריאות על חיסון שנתי מעל גיל 6 חודשים. החיסון ניתן בקופת החולים לקראת החורף ללא תשלום, ותלמידי כיתות ב'-ד' מקבלים אותו גם בבית הספר.",
+      "confidence": "high"
+    },
+    {
+      "id": "menb",
+      "claim": "Meningococcal B is recommended mainly for infants and toddlers, not in the health basket, paid at the kupah with a referral.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/vaccines-out-of-tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "החיסון מומלץ בעיקר לתינוקות ולפעוטות. הוא לא כלול בסל הבריאות, ולכן הוא בתשלום בקופת החולים, עם הפניה רפואית.",
+      "confidence": "high"
+    },
+    {
+      "id": "bopv-stopped",
+      "claim": "Oral live polio (bOPV) was stopped in March 2025.",
+      "claim_type": "date",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/children-vaccines/mehumash/inactivated-polio-vaccine/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במרץ 2025 הופסק מתן החיסון החי-מוחלש בהתאם להנחיות ארגון הבריאות העולמי (WHO)",
+      "confidence": "high"
+    },
+    {
+      "id": "no-splitting",
+      "claim": "MoH: do not split vaccines; splitting delays protection.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/child-immunization-faq/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בנוסף, הפיצול דוחה את מועד קבלת החיסון, ומשאיר את הילד או הילדה שלך חשופים למחלות שהיה אפשר להגן עליהם מפניהן.",
+      "confidence": "high"
+    },
+    {
+      "id": "after-vaccine",
+      "claim": "After a vaccine contact the kupah if the baby seems apathetic or fever does not pass after 24 to 48 hours.",
+      "claim_type": "duration",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/children-vaccines/rsv-vaccine-beyfortus/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אם יש חום שלא חולף לאחר 24–48 שעות.",
+      "confidence": "high"
+    },
+    {
+      "id": "catchup-school",
+      "claim": "Catch-up up to grade 9 by the school health service, free.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/routine-vaccinations-completion/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "עד כיתה ט' (כולל): החיסונים יינתנו על ידי ספק שירותי הבריאות בבית הספר של התלמיד או התלמידה, ללא תשלום.",
+      "confidence": "high"
+    },
+    {
+      "id": "catchup-10-18",
+      "claim": "From grade 10 to age 18 catch-up at health bureau vaccine clinics, free, book via *5400.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/routine-vaccinations-completion/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מכיתה י' ועד גיל 18: החיסונים יינתנו במרפאות החיסונים בלשכות הבריאות ללא תשלום. לתיאום תור התקשרו למוקד \"קול הבריאות\", בטלפון 5400*.",
+      "confidence": "high"
+    },
+    {
+      "id": "catchup-paid-18",
+      "claim": "From 18 (21 in special education) catch-up is paid.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/routine-vaccinations-completion/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "שימו לב, מגיל 18 (בחינוך המיוחד מגיל 21 ומעלה) - השלמת חיסוני השגרה היא בתשלום.",
+      "confidence": "high"
+    },
+    {
+      "id": "catchup-hpv-26",
+      "claim": "HPV catch-up free up to and including age 26.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/routine-vaccinations-completion/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אפשר להשלים חיסון נגד פפילומה ללא תשלום עד גיל 26 (כולל)",
+      "confidence": "high"
+    },
+    {
+      "id": "catchup-list",
+      "claim": "Vaccines MoH lists for catch-up: hepatitis A, hepatitis B, diphtheria-tetanus-polio, MMRV, varicella, HPV.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/routine-vaccinations-completion/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "חיסון מרובע (MMRV) - נגד חצבת, חזרת, אדמת ואבעבועות רוח.",
+      "confidence": "high"
+    },
+    {
+      "id": "digital-booklet",
+      "claim": "The digital vaccine registry includes vaccines from 15 March 2025; earlier data may be partial, keep the paper booklet.",
+      "claim_type": "date",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/routine-vaccinations-completion/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "ייתכן שמידע על חיסונים שבוצעו לפני 15 במרץ 2025 יהיה חלקי או לא מדויק, ולכן מומלץ לשמור אצלכם גם את פנקסי החיסונים הפיזיים שברשותכם",
+      "confidence": "high"
+    },
+    {
+      "id": "olim-target",
+      "claim": "The MoH catch-up guideline covers ages 0 to 17 including new immigrant children.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/BlobFolder/policy/hashlama/he/files_publications_units_epidemiology_vaccine_guidelines_170_hashlama.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "ילדים עולים חדשים או ילדים ,אשר מסיבות שונות לא חוסנו במסגרת תכנית חיסוני השגרה של גיל הילדות",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17",
+      "note": "Target group: 'גילאי 0-17 שנים שלא חוסנו כלל או קיבלו רק חלק מתכנית חיסוני השגרה הנהוגה בישראל: ילדים עולים חדשים או ילדים, אשר מסיבות שונות לא חוסנו...'. Document header: 'תדריך חיסונים, עדכון פברואר 2017'."
+    },
+    {
+      "id": "olim-unknown",
+      "claim": "With no or doubtful information on previous vaccines, the child is treated as unvaccinated.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/BlobFolder/policy/hashlama/he/files_publications_units_epidemiology_vaccine_guidelines_170_hashlama.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "יש להתייחס לילד כאל מי שלא חוסן",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "olim-records",
+      "claim": "Vaccination status is determined from medical records or reliable information.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/BlobFolder/policy/hashlama/he/files_publications_units_epidemiology_vaccine_guidelines_170_hashlama.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "קביעת מצב חיסון (קבלת חיסונים בעבר) תעשה על סמך תיעוד רפואי או מידע מהימן",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "late-doses-valid",
+      "claim": "Doses given at longer than recommended intervals count as valid.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/BlobFolder/policy/hashlama/he/files_publications_units_epidemiology_vaccine_guidelines_170_hashlama.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "יש להחשיב כמנות תקפות מנות חיסון שניתנו במרווחי זמן ארוכים מהמומלץ",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "preterm-chrono",
+      "claim": "Preterm babies are vaccinated by chronological age, not corrected age.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/prematurity/preterm-infant-vaccination/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "את הפגים והפגות מחסנים לפי הגיל הכרונולוגי שלהם - כלומר הגיל שמחושב לפי תאריך הלידה (ולא הגיל המתוקן, שהיה הגיל שלהם אילו נולדו אחרי הריון מלא).",
+      "confidence": "high"
+    },
+    {
+      "id": "preterm-def",
+      "claim": "Preterm means born before 37 completed weeks.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/prematurity/preterm-infant-vaccination/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "פגים ופגות הם תינוקות שנולדו לפני שהסתיימו 37 שבועות להריון.",
+      "confidence": "high"
+    },
+    {
+      "id": "preterm-rota",
+      "claim": "Preterm babies still hospitalised at 2 months get the first rotavirus dose after discharge.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/prematurity/preterm-infant-vaccination/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "חיסון נגד רוטה: פגים ופגות שבגיל חודשיים עדיין מאושפזים בבית חולים יקבלו את המנה הראשונה של חיסון נגד רוטה אחרי השחרור מבית החולים, לפי הגיל הכרונולוגי.",
+      "confidence": "high"
+    },
+    {
+      "id": "preterm-hepb",
+      "claim": "Preterm hepatitis B dose waits until discharge, 2 kg, or 1 month chronological age, whichever first.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/prematurity/preterm-infant-vaccination/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לכן, מועד החיסון הזה נדחה עד לשחרור מבית החולים, או עד שיגיעו למשקל של 2 ק\"ג, או עד שיגיעו לגיל חודש (כרונולוגי) - הקודם מביניהם.",
+      "confidence": "high"
+    },
+    {
+      "id": "preterm-growth",
+      "claim": "Preterm growth curves are read by corrected age.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/about-growth-charts/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לכן בפירוש העקומה נביא בחשבון את הגיל המתוקן, כלומר הגיל שהיה אמור להיות לפגים אילו נולדו במועד המתוכנן.",
+      "confidence": "high"
+    },
+    {
+      "id": "preterm-dev-first-year",
+      "claim": "Corrected age is used mainly in the first year of life (Maccabi).",
+      "claim_type": "feature",
+      "source_url": "https://www.maccabi4u.co.il/maccabi_circles/children/infants/preemies/development/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "השימוש בגיל המתוקן נעשה בעיקר בשנת החיים הראשונה.",
+      "confidence": "high"
+    },
+    {
+      "id": "preterm-dev-3y",
+      "claim": "For very small preemies corrected age may be used up to age 3 (Maccabi).",
+      "claim_type": "threshold",
+      "source_url": "https://www.maccabi4u.co.il/maccabi_circles/children/infants/preemies/development/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אצל פגים קטנים מאד יעשה שימוש בגיל מתוקן אפילו עד גיל 3 שנים.",
+      "confidence": "high"
+    },
+    {
+      "id": "preterm-dev-def",
+      "claim": "Corrected age = chronological age minus the weeks born before the due date (Maccabi).",
+      "claim_type": "feature",
+      "source_url": "https://www.maccabi4u.co.il/maccabi_circles/children/infants/preemies/development/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "משמעות הדבר היא שהגיל המתוקן הוא הגיל הכרונולוגי (שנקבע לפי תאריך הלידה) פחות מספר השבועות שהקדימו את תאריך הלידה המתוכנן.",
+      "confidence": "high"
+    },
+    {
+      "id": "fever-def",
+      "claim": "High fever is defined as above 38 degrees.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/fever/high-temperature-and-fever/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "ההגדרה המקובלת של חום גבוה היא חום מעל 38 מעלות.",
+      "confidence": "high"
+    },
+    {
+      "id": "fever-under-2m",
+      "claim": "Up to 2 months, fever means immediate medical check at the ER or urgent care; above 38.5 no referral needed.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/fever/high-temperature-and-fever/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אם יש חום בגיל זה מעל 38.5 אפשר להגיע ללא הפניה.",
+      "confidence": "high"
+    },
+    {
+      "id": "fever-2m-1y",
+      "claim": "From 2 months to 1 year: if drinking and behaving normally, wait a day or two; if fever does not pass, see a doctor.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/fever/high-temperature-and-fever/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מעל גיל חודשיים עד שנה: בגיל הזה צריך להתייחס גם למצב של התינוק או התינוקת. אם הם שותים ומתנהגים כרגיל, אפשר לחכות יום או יומיים ולראות אם החום חולף. אם החום לא חולף, מומלץ לפנות לבדיקה רפואית.",
+      "confidence": "high"
+    },
+    {
+      "id": "fever-any-age",
+      "claim": "At any age, breathing difficulty or apathy means a medical check.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/fever/high-temperature-and-fever/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בכל גיל: אם לילד או לילדה יש תסמינים משמעותיים כמו קשיי נשימה, אפטיות (אדישות קיצונית למתרחש מסביב), צריך לפנות לבדיקה רפואית.",
+      "confidence": "high"
+    },
+    {
+      "id": "fever-48h",
+      "claim": "No improvement after 48 hours: see a doctor.",
+      "claim_type": "duration",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/fever/high-temperature-and-fever/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אם אין סימני שיפור לאחר 48 שעות מאז תחילת המחלה.",
+      "confidence": "high"
+    },
+    {
+      "id": "referral-call-kupa",
+      "claim": "For an ER referral call the kupah's line, any hour.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/fever/high-temperature-and-fever/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לקבלת הפניה למיון אפשר להתקשר למוקד קופת החולים שלך, בכל שעות היממה.",
+      "confidence": "high"
+    },
+    {
+      "id": "er-101-list",
+      "claim": "Go to the ER immediately or call MDA 101 if any of these signs appear.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/meningitis/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אם מופיע אחד מהסימנים הבאים, יש לפנות מיד לחדר מיון (מלר\"ד) או להזעיק את מד\"א בטלפון 101:",
+      "confidence": "high"
+    },
+    {
+      "id": "er-hard-wake",
+      "claim": "Hard to wake, no response or loss of consciousness.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/meningitis/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "קושי להעיר את הילד או הילדה, חוסר תגובה או אובדן הכרה.",
+      "confidence": "high"
+    },
+    {
+      "id": "er-confusion",
+      "claim": "Marked confusion or abnormal change in consciousness.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/meningitis/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בלבול משמעותי או שינוי חריג במצב ההכרה.",
+      "confidence": "high"
+    },
+    {
+      "id": "er-rash",
+      "claim": "Red or purple rash that does not fade on pressure.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/meningitis/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "פריחה אדומה או סגולה שלא נעלמת בלחיצה, במיוחד לצד חום או הרגשה כללית רעה.",
+      "confidence": "high"
+    },
+    {
+      "id": "er-breathing",
+      "claim": "Breathing difficulty or pale mottled skin with signs of severe illness.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/meningitis/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "קשיי נשימה או עור חיוור ומנומר, לצד סימנים למחלה קשה.",
+      "confidence": "high"
+    },
+    {
+      "id": "er-fever-2m",
+      "claim": "Up to 2 months: 38 or above requires going to the ER immediately, even with no other symptoms.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/meningitis/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "עד גיל חודשיים: חום של 38 מעלות ומעלה מחייב פנייה מיידית לחדר מיון, גם אם אין תסמינים נוספים.",
+      "confidence": "high"
+    },
+    {
+      "id": "er-fever-2-3m",
+      "claim": "2 to 3 months: 38 or above needs an urgent medical check; with floppiness, unusual sleepiness or reduced alertness go to the ER now.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/meningitis/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מגיל חודשיים עד 3 חודשים: חום של 38 מעלות ומעלה מחייב בדיקה רפואית דחופה. כשיש גם רפיון, ישנוניות חריגה או ירידה בערנות, יש לפנות מיד לחדר מיון.",
+      "confidence": "high"
+    },
+    {
+      "id": "er-fee-exempt",
+      "claim": "Infants up to 2 months with fever above 38.5: ER visit exempt from payment even without referral.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/meningitis/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בתינוקות עד גיל חודשיים עם חום מעל 38.5 מעלות, הביקור בחדר מיון פטור מתשלום גם בלי הפניה.",
+      "confidence": "high"
+    },
+    {
+      "id": "infant-behaviour",
+      "claim": "In infants the most prominent sign may be a significant change in behaviour, eating or alertness.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/meningitis/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לפעמים הסימן הבולט ביותר הוא שינוי משמעותי בהתנהגות, באכילה או בערנות.",
+      "confidence": "high"
+    },
+    {
+      "id": "seizure-5min",
+      "claim": "Call MDA if a seizure does not stop within 5 minutes, or with breathing difficulty, choking or blue skin.",
+      "claim_type": "duration",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/medical-conditions/convulsions/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אם הפרכוס לא מפסיק תוך 5 דקות.",
+      "confidence": "high"
+    },
+    {
+      "id": "seizure-breathing",
+      "claim": "Call MDA if the seizure includes breathing difficulty, choking or blue skin.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/medical-conditions/convulsions/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אם ההתקף כולל קשיי נשימה, חנק, הכחלה של העור.",
+      "confidence": "high"
+    },
+    {
+      "id": "seizure-position",
+      "claim": "During a seizure lay the child on the side, move hazards away, do not open the mouth.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/medical-conditions/convulsions/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "חשוב להשכיב את הילד או הילדה על הצד כך שהראש גם על הצד, ולהרחיק חפצים מסוכנים. אין צורך לפתוח את הפה של הילד או הילדה או למשוך את הלשון וגם לא לנסות לעצור את הפרכוס.",
+      "confidence": "high"
+    },
+    {
+      "id": "breathing-60",
+      "claim": "Breathing faster than 60 a minute under age 1 requires an immediate medical check or ER.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/respiratory-system/bronchiolitis/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "נשימה מהירה: מעל 60 נשימות בדקה, בילדים מתחת לגיל שנה.",
+      "confidence": "high"
+    },
+    {
+      "id": "breathing-distress",
+      "claim": "Respiratory distress: in-drawing between the ribs, nasal flaring.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/respiratory-system/bronchiolitis/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מצוקה נשימתית: מתבטאת בשקיעה של העור והשרירים שבין הצלעות פנימה בזמן נשימה וכן נשימה בעזרת כנפי האף (החלק שמסביב לנחיריים).",
+      "confidence": "high"
+    },
+    {
+      "id": "dehydration-signs",
+      "claim": "Dehydration signs: little urine, dark urine, dry mouth, no response, sunken fontanelle.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/digestive-system/vomiting/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "סימני התייבשות כוללים מיעוט שתן, שתן כהה, יובש בפה, חוסר תגובה, שקיעת מרפס.",
+      "confidence": "high"
+    },
+    {
+      "id": "vomit-24h",
+      "claim": "Seek care if vomiting lasts more than 24 hours, dehydration, strong abdominal pain, bloody diarrhea, or yellowish skin and eyes.",
+      "claim_type": "duration",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/digestive-system/vomiting/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מתי לפנות לטיפול רפואי: אם ההקאות נמשכות יותר מ-24 שעות, אם יש סימני התייבשות, אם יש כאבי בטן חזקים או שלשולים דמיים, אם העור ולחמיות העיניים מקבלים גוון צהבהב.",
+      "confidence": "high"
+    },
+    {
+      "id": "vomit-er",
+      "claim": "Bloody or green vomit: go to the ER immediately.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/digestive-system/vomiting/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מתי לפנות למיון: אם יש הקאות דמיות או ירוקות – יש לפנות מיד לחדר מיון.",
+      "confidence": "high"
+    },
+    {
+      "id": "diarrhea-48-72",
+      "claim": "Diarrhea: infants and toddlers more than 48 hours, children more than 72 hours, blood or mucus, fever above 39, many vomits or dehydration: seek care.",
+      "claim_type": "duration",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/digestive-system/diarrhea/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מתי לפנות לטיפול רפואי: אצל תינוקות ופעוטות - אם השלשול נמשך יותר מ-48 שעות; אצל ילדים – אם השלשול נמשך יותר מ-72 שעות. כמו כן, יש לפנות לטיפול רפואי אם יש דם או ריר בצואה, אם החום עולה מעל 39 מעלות, אם יש הקאות מרובות, אם יש סימני התייבשות.",
+      "confidence": "high"
+    },
+    {
+      "id": "poison-center",
+      "claim": "Medicine overdose: call the National Poison Information Center 04-7771900, 24 hours.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/fever/antipyretic-therapy-in-children/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במקרה שנתתם כמות של תכשיר מעבר לכמות המותר, עליכם להתקשר מיידית למכון הארצי למידע בהרעלות בטלפון 04-7771900, בכל שעות היממה.",
+      "confidence": "high"
+    },
+    {
+      "id": "anaphylaxis",
+      "claim": "Anaphylaxis requires an adrenaline injection and then rapid transfer (within a quarter of an hour) to the ER.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/medical-conditions/anaphylactic-shock/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אנפילקסיס מחייבת טיפול מיידי בזריקת אפינפרין (אדרנלין) ולאחר מכן פינוי מהיר (תוך רבע שעה) לחדר מיון במרכז רפואי.",
+      "confidence": "high"
+    },
+    {
+      "id": "shaking",
+      "claim": "Crying does not kill, shaking does.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/early-childhood-care/different-types-of-crying/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "חשוב שנזכור תמיד: בכי לא הורג, טלטול כן.",
+      "confidence": "high"
+    },
+    {
+      "id": "bf-6m",
+      "claim": "MoH recommends exclusive breastfeeding for the first 6 months.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/baby-nutrition/nursing/exclusive-breastfeeding/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "משרד הבריאות ממליץ להניק באופן בלעדי במשך ששת החודשים הראשונים לחיי התינוק או התינוקת.",
+      "confidence": "high"
+    },
+    {
+      "id": "bf-no-water",
+      "claim": "No added water is needed at this age for breastfed babies; give the recommended vitamin D and iron.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/baby-nutrition/nursing/exclusive-breastfeeding/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אין צורך בתוספת מים בגיל הזה מפני שחלב אם מעניק מספיק נוזלים, אך יש לתת את התוספים המומלצים על ידי משרד הבריאות של ויטמין די וברזל",
+      "confidence": "high"
+    },
+    {
+      "id": "solids-6m",
+      "claim": "Complementary foods around 6 months, by readiness.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/baby-nutrition/solid-food/toddler-nutrition/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "סביב גיל חצי שנה אפשר להתחיל להציע לתינוקות מזונות משלימים, בהתאם למוכנות שלהם.",
+      "confidence": "high"
+    },
+    {
+      "id": "solids-signs",
+      "claim": "Readiness signs: interest in food, sitting independently, head control.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/baby-nutrition/solid-food/toddler-nutrition/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "כאשר הם מתחילים להראות סימני מוכנות כמו התעניינות במזון, יכולת לשבת באופן עצמאי, להחזיק את הראש ועוד.",
+      "confidence": "high"
+    },
+    {
+      "id": "solids-not-before-4m",
+      "claim": "Complementary food before 4 months is not recommended.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/baby-nutrition/solid-food/toddler-nutrition/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "החשיפה למזון משלים לפני גיל 4 חודשים - לא מומלצת.",
+      "confidence": "high"
+    },
+    {
+      "id": "bf-2y",
+      "claim": "Recommendation to continue breastfeeding to age 2 and beyond.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/baby-nutrition/solid-food/toddler-nutrition/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "ההמלצה היא להמשיך להניק עד גיל שנתיים ואף יותר",
+      "confidence": "high"
+    },
+    {
+      "id": "texture-7m",
+      "claim": "From 7 months move to a coarser texture.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/baby-nutrition/solid-food/toddler-nutrition/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "החל מגיל 7 חודשים מומלץ לעבור למרקם גס יותר של מזון",
+      "confidence": "high"
+    },
+    {
+      "id": "texture-9m",
+      "claim": "From 9 months, by readiness, soft or hard food in small pieces.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/baby-nutrition/solid-food/toddler-nutrition/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "החל מגיל 9 חודשים, ובהתאם למוכנות התינוק או התינוקת, אפשר להציע מזון",
+      "confidence": "high"
+    },
+    {
+      "id": "no-cow-milk",
+      "claim": "Until age 1, no cow's milk as a drink.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/baby-nutrition/solid-food/toddler-nutrition/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "עד גיל שנה, אסור לתת לתינוקות חלב ניגר",
+      "confidence": "high"
+    },
+    {
+      "id": "no-honey",
+      "claim": "Until age 1, no honey (botulism).",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/baby-nutrition/solid-food/toddler-nutrition/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "דבש לתינוקות מתחת לגיל שנה עלול לגרום למחלה נוירולוגית חריפה בשם בוטוליזם.",
+      "confidence": "high"
+    },
+    {
+      "id": "iron-start-4m",
+      "claim": "Iron supplement from 4 completed months.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/baby-nutrition/solid-food/toddler-nutrition/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מגיל 4 חודשים מלא",
+      "confidence": "high"
+    },
+    {
+      "id": "choking-5",
+      "claim": "Under 5: no nuts, peanuts, almonds, seeds, popcorn unless ground completely smooth.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/home-safety/prevent-choking/safe-baby-feeding/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מזונות שאסור מתחת לגיל 5: פיצוחים, אגוזים, שקדים, בוטנים וגרעינים, פופקורן. מזונות אלה עלולים להתנפח ולחסום את קנה הנשימה – אלא אם כן הם טחונים ומוגשים במרקם חלק לגמרי.",
+      "confidence": "high"
+    },
+    {
+      "id": "choking-candy",
+      "claim": "Under 5: no hard candy and gummy sweets.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/baby-nutrition/solid-food/toddler-nutrition/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לילדים מתחת לגיל 5: אסור לתת פיצוחים, אגוזים וגרעינים, פופקורן, סוכריות וממתקי גומי.",
+      "confidence": "high"
+    },
+    {
+      "id": "vitd-birth-1y",
+      "claim": "Daily vitamin D supplement from birth to age 1; same recommendation for preterm babies.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/early-childhood-care/vitamin-d-for-babies/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "ההמלצה היא לתת תוסף יומי של ויטמין D מלידה ועד גיל שנה. מגיל שנה ואילך, חשוב להקפיד שהילדים יקבלו ויטמין D ממזון.",
+      "confidence": "high"
+    },
+    {
+      "id": "vitd-missed",
+      "claim": "A forgotten vitamin D dose is not made up.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/early-childhood-care/vitamin-d-for-babies/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לא מומלץ להשלים את המנה.",
+      "confidence": "high"
+    },
+    {
+      "id": "atopic-families",
+      "claim": "In atopic families consult a dietitian and a doctor before 6 months to plan complementary feeding.",
+      "claim_type": "feature",
+      "source_url": "https://www.pediatrics.org.il/images/nutrition-guide-infants-2021.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במשפחות אטופיות יש לפנות לתזונאית ולרופא לפני גיל 6חודשים לתכנון חשיפה להזנה משלימה.",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17",
+      "note": "MoH Nutrition Division letter 'תזונת התינוק והפעוט בשנה הראשונה לחיים', 27 October 2021, copy hosted by the Israeli Pediatric Association."
+    },
+    {
+      "id": "boil-water",
+      "claim": "Water for formula must be boiled until age 1.",
+      "claim_type": "feature",
+      "source_url": "https://www.pediatrics.org.il/images/nutrition-guide-infants-2021.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מים להכנת תמ\"ל חייבים להרתיח עד גיל שנה.",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "sleep-back",
+      "claim": "Put babies to sleep only on the back.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/home-safety/sudden-infant-death-syndrome-prevention/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "להשכיב לישון רק על הגב.",
+      "confidence": "high"
+    },
+    {
+      "id": "sleep-bedding",
+      "claim": "Only a sheet and a tucked blanket in the crib, no toys or pillows.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/home-safety/sudden-infant-death-syndrome-prevention/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "להשאיר במיטה רק סדין ושמיכה (בלי בובות, כריות וכדומה) ולדאוג שהם יהיו מהודקים.",
+      "confidence": "high"
+    },
+    {
+      "id": "sleep-room",
+      "claim": "Crib in the parents' room, no bed sharing.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/home-safety/sudden-infant-death-syndrome-prevention/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "למקם את המיטה בחדר ההורים ולהימנע משינה משותפת (באותה מיטה).",
+      "confidence": "high"
+    },
+    {
+      "id": "sleep-room-age",
+      "claim": "Crib in the parents' room at least to 6 months, preferably to 1 year.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/home-safety/sudden-infant-death-syndrome-prevention/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "את המיטה צריך למקם בחדר ההורים לפחות עד גיל חצי שנה, ועדיף עד גיל שנה.",
+      "confidence": "high"
+    },
+    {
+      "id": "sleep-pacifier",
+      "claim": "Offer a pacifier.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/home-safety/sudden-infant-death-syndrome-prevention/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "להציע מוצץ.",
+      "confidence": "high"
+    },
+    {
+      "id": "sleep-no-smoke",
+      "claim": "Avoid smoking, alcohol and drugs.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/home-safety/sudden-infant-death-syndrome-prevention/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "להימנע מעישון, שתיית אלכוהול ושימוש בסמים.",
+      "confidence": "high"
+    },
+    {
+      "id": "sleep-mattress",
+      "claim": "Mattress with an Israeli standard mark: not too soft, no incline.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/home-safety/sudden-infant-death-syndrome-prevention/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "המזרן צריך להיות בעל תו תקן ישראלי. כך אפשר לדעת שהוא לא רך מדי, ללא שיפוע (כלומר, שהראש לא יהיה מורם) ומותאם לתינוקות.",
+      "confidence": "high"
+    },
+    {
+      "id": "sleep-tummy-awake",
+      "claim": "When awake, tummy time with close continuous supervision.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/home-safety/sudden-infant-death-syndrome-prevention/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "כשהם ערים כדאי להשכיב תינוקות על הבטן, עם השגחה צמודה ורציפה.",
+      "confidence": "high"
+    },
+    {
+      "id": "sids-6m",
+      "claim": "Most SIDS cases occur before 6 months.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/home-safety/sudden-infant-death-syndrome-prevention/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "רוב המקרים מתרחשים עד גיל חצי שנה.",
+      "confidence": "high"
+    },
+    {
+      "id": "sleep-night-wake",
+      "claim": "Night waking to eat in the first year is normal.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/early-childhood-care/sleep/sleeping-habits/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "זה נורמלי וטבעי שילדים בשנה הראשונה לחייהם קמים במהלך הלילה לאכול.",
+      "confidence": "high"
+    },
+    {
+      "id": "sleep-3m",
+      "claim": "Around 3 months a 4 to 5 hour night stretch forms; 14 to 16 hours a day in about 3 blocks.",
+      "claim_type": "duration",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/early-childhood-care/sleep/sleeping-habits/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לרוב, בסביבות גיל 3 חודשים מתחילה להתגבש שינה יותר רצופה של כ-4-5 שעות בשעות הלילה,עם התעוררויות לצורך אכילה. בחודשים אלה תינוקות ישנים לרוב 16-14 שעות ביממה, בחלוקה לכ-3 פרקי זמן.",
+      "confidence": "high"
+    },
+    {
+      "id": "sleep-tables",
+      "claim": "Online sleep-hour tables are not a reliable source for every child.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/early-childhood-care/sleep/sleeping-habits/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "כל אלה לא יכולים להיות מקור מהימן עבור כל הילדים.",
+      "confidence": "high"
+    },
+    {
+      "id": "sleep-screens",
+      "claim": "Ages 2 to 5: avoid screens in the 2 hours before sleep.",
+      "claim_type": "duration",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/early-childhood-care/sleep/sleeping-habits/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בגיל 5-2 מומלץ להימנע ממסכים בשעתיים שלפני השינה.",
+      "confidence": "high"
+    },
+    {
+      "id": "luah-birth-day",
+      "claim": "The first hepatitis B dose is in the 'day of birth' column of the MoH table.",
+      "claim_type": "date",
+      "source_url": "https://www.gov.il/BlobFolder/policy/luah/he/files_publications_units_epidemiology_vaccine_guidelines_120_LUAH.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "הלידה ביום",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17",
+      "note": "Column header 'ביום הלידה' (pdftotext reverses word order); HBV row has a dose in that column."
+    },
+    {
+      "id": "maccabi-seizure",
+      "claim": "Maccabi: a seizure with or without fever requires urgent medical help.",
+      "claim_type": "feature",
+      "source_url": "https://www.maccabi4u.co.il/healthguide/emergencies/emergency_situations/kids_emergencies/kids_convulsion/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "פרכוס, עם או ללא חום, מחייב פנייה דחופה לקבלת עזרה רפואית.",
+      "confidence": "high"
+    },
+    {
+      "id": "crying-step-away",
+      "claim": "If losing control, put the baby in the crib, go to another room, come back every few minutes, and ask someone trusted for help.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/early-childhood-care/different-types-of-crying/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אפשר להניח את התינוק או התינוקת בעריסה, ללכת לחדר אחר ולחזור פעם בכמה דקות. כדאי גם לבקש עזרה ממישהו שאפשר לסמוך עליו, שידאג לתינוק או לתינוקת בזמן שאנחנו לוקחים פסק זמן קצר כדי להתאוורר.",
+      "confidence": "high"
+    },
+    {
+      "id": "after-vaccine-apathy",
+      "claim": "After a vaccine contact the kupah if the baby seems apathetic or appetite changes do not pass after 24 to 48 hours.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/children-vaccines/rsv-vaccine-beyfortus/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אם יש שינויים בתיאבון ובדפוסי האכילה שלא חולפים לאחר 24–48 שעות.",
+      "confidence": "high"
+    },
+    {
+      "id": "after-vaccine-2m",
+      "claim": "Up to 2 months, fever over 38 with or without a vaccine means contacting the doctor or the ER.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/children-vaccines/rsv-vaccine-beyfortus/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "כשמדובר בתינוקות עד גיל חודשיים - אם יש עליית חום מעל 38 מעלות (עם או בלי קבלת חיסון) - יש ליצור קשר עם הרופא או הרופאה המטפלים או להגיע לבדיקה רפואית במיון.",
+      "confidence": "high"
+    },
+    {
+      "id": "nurse-line-free",
+      "claim": "The nurse line is free for parents of children from birth to age 6.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "השירות ניתן ללא תשלום להורים לילדים ולילדות מגיל לידה עד גיל 6 שנים מכל תחנות טיפת חלב:",
+      "confidence": "high"
+    },
+    {
+      "id": "diarrhea-keep-feeding",
+      "claim": "With diarrhea keep breastfeeding or formula.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/digestive-system/diarrhea/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "כשמדובר בתינוקות חשוב להמשיך בהנקה או בתמ\"ל (תרכובת מזון לתינוקות).",
+      "confidence": "high"
+    },
+    {
+      "id": "meningitis-infants",
+      "claim": "In babies meningitis does not always show headache and stiff neck.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/meningitis/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אצל תינוקות דלקת קרום המוח לא תמיד מלווה בתסמינים המוכרים של כאב ראש ונוקשות בצוואר.",
+      "confidence": "high"
+    },
+    {
+      "id": "luhot-history",
+      "claim": "MoH historical schedules 1948-2022: from 3.4.22 the 2-month vaccines moved to 6 weeks; bOPV was then given with IPV.",
+      "claim_type": "date",
+      "source_url": "https://www.gov.il/BlobFolder/policy/lohut/he/files_publications_units_epidemiology_vaccine_guidelines_140_LUHOT.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "החל מתאריך  3.4.22ועד להודעה חדשה ,החיסונים של גיל חודשיים יינתנו בגיל  6שבועות",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "mch-formula",
+      "claim": "MoH circular (6 April 2025): do not routinely recommend continued formula exposure for breastfed infants.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/BlobFolder/policy/mch-115136725/he/files_regulation_maternal_child_health_mch-115136725.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אין להמליץ ,באופן גורף על המשך חשיפה לתמ\"ל לתינוקות יונקים",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "booster-south-north",
+      "claim": "In the MoH South and North districts the grade-2 diphtheria, tetanus, pertussis and polio booster is given in grade 1.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/babies-immunization-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בכיתה ב' ניתן חיסון משולב המגן מפני 4 מחלות שעלולות לגרום לפגיעה קשה ואפילו למוות: דיפתריה, טטנוס, שעלת ופוליו. במחוזות דרום וצפון החיסון ניתן בכיתה א'.",
+      "confidence": "high"
+    },
+    {
+      "id": "measles-banner",
+      "claim": "MoH schedule page banner, 9 November 2026: second dose brought forward and early vaccines in outbreak areas and before travel abroad.",
+      "claim_type": "date",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/babies-immunization-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "9 נובמבר 2026 התפרצות חצבת – עדכון הנחיות משרד הבריאות",
+      "confidence": "high"
+    },
+    {
+      "id": "measles-dose2-forward",
+      "claim": "Adults and children over age 1 with one measles dose should bring the second dose forward (outbreak localities, visitors, travel abroad).",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/measles/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "מבוגרים וילדים מעל גיל שנה שקיבלו מנת חיסון אחת של חצבת – להקדים ולקבל את המנה השנייה של החיסון.",
+      "confidence": "high"
+    },
+    {
+      "id": "hepb-after-birth",
+      "claim": "The first hepatitis B dose is given after birth; two more doses at Tipat Halav at 1 month and 6 months.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/after-childbirth/at-hospital/initial-care-for-newborn/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "החיסון הפעיל (חיסון אשר גורם לתגובה של הגוף ויצירת נוגדנים כנגד הווירוס) ניתן לאחר הלידה ובהמשך ניתנות שתי מנות נוספות, בתחנת טיפת חלב, בגיל חודש ובגיל חצי שנה.",
+      "confidence": "high"
+    },
+    {
+      "id": "preterm-hepb-series",
+      "claim": "Preterm hepatitis B: the full 3-dose series starts at 2 kg, 1 month or discharge, whichever first; dose 2 one month after dose 1; booster 5 months after dose 2.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/prematurity/preterm-infant-vaccination/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "המנה השנייה של חיסון נגד צהבת B תינתן חודש לאחר המנה הראשונה. מנת דחף תינתן 5 חודשים אחרי המנה השנייה.",
+      "confidence": "high"
+    },
+    {
+      "id": "preterm-iron-2w",
+      "claim": "Most preterm babies start an iron supplement from 2 weeks of age; dose by body weight from the Tipat Halav nurse.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/prematurity/preterm-infant-feeding/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "כמו כן, החל מגיל שבועיים מרבית הפגים יתחילו לקבל תוספת ברזל, למניעת אנמיה. הסבר לנטילת תוסף הברזל והמינון בהתאם למשקל הגוף, תקבלו מאחות טיפת חלב.",
+      "confidence": "high"
+    },
+    {
+      "id": "preterm-discharge-plan",
+      "claim": "Before discharge parents get exact nutritional needs and the follow-up frequency.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/prematurity/preterm-infant-feeding/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לקראת השחרור, תקבלו תדריך מדויק על הצרכים התזונתיים שיש לתינוק או לתינוקת שלכם ועל תדירות המעקב הנדרשת להם.",
+      "confidence": "high"
+    },
+    {
+      "id": "low-temp",
+      "claim": "Below 36 can be a sign of illness in a baby: warm them; if warming does not help and the child looks ill, get a medical check.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/fever/high-temperature-and-fever/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אם יש לתינוק או לתינוקת שלך חום של פחות מ-36 מעלות, צריך לחמם אותם בעזרת בגד נוסף, לכסות בשמיכה ולהחזיק אותם קרוב לגוף.",
+      "confidence": "high"
+    },
+    {
+      "id": "low-temp-check",
+      "claim": "If warming does not help and the child looks ill, seek a medical check.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/fever/high-temperature-and-fever/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "חשוב לדעת: בכל גיל אם חימום החדר והילד לא משפרים את המצב, החום לא מתחיל לעלות והילד או הילדה נראים חולים צריך לפנות לבדיקה רפואית.",
+      "confidence": "high"
+    },
+    {
+      "id": "jaundice-now",
+      "claim": "Marked jaundice, for example in the whites of the eyes: do not wait for the follow-up date, go for a check immediately.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/family-planning/labor/neonatal-jaundice/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אם אתם מודאגים מצהבת בולטת, למשל כזאת שמופיעה בלובן של העיניים, אל תחכו למועד המעקב, אלא הגיעו מיידית לבדיקה רפואית.",
+      "confidence": "high"
+    },
+    {
+      "id": "jaundice-peak",
+      "claim": "Bilirubin usually peaks on day 5 and keeps rising after discharge on days 2 to 4; follow the discharge follow-up instructions.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/family-planning/labor/neonatal-jaundice/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לרוב, רמות הבילירובין מגיעות לשיא ביום ה-5 של החיים.",
+      "confidence": "high"
+    },
+    {
+      "id": "luah-rsv-tipat-months",
+      "claim": "MoH table annex: RSV is given at Tipat Halav from September to 31 March; April to August births are immunized at the start of the season.",
+      "claim_type": "date",
+      "source_url": "https://www.gov.il/BlobFolder/policy/luah/he/files_publications_units_epidemiology_vaccine_guidelines_120_LUAH.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "החיסון מתן חודשי - עד מספטמבר 31 למרץ",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17",
+      "note": "Annex 1 chart; pdftotext reverses word order. PDF reads 'חודשי מתן החיסון בטיפת חלב - מספטמבר עד 31 למרץ' and 'ילידי אפריל עד אוגוסט כולל יתחסנו בתחילת העונה הבאה בטיפות החלב'."
+    },
+    {
+      "id": "maccabi-consult",
+      "claim": "Maccabi: with any concern consult the pediatrician; if needed you are referred for developmental assessment.",
+      "claim_type": "feature",
+      "source_url": "https://www.maccabi4u.co.il/maccabi_circles/child_development/development-basics/developmental_delays/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בכל מקרה של חשש או חשד פנו להתייעצות מסודרת עם רופא הילדים. במידת הצורך תופנו לברור מסודר ולבצוע אבחון התפתחותי.",
+      "confidence": "high"
+    },
+    {
+      "id": "maccabi-institute",
+      "claim": "Maccabi: as needed you are referred to a clinic or a child development institute.",
+      "claim_type": "feature",
+      "source_url": "https://www.maccabi4u.co.il/maccabi_circles/child_development/development-basics/developmental_delays/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בהתאם לצורך תופנו למרפאה או למכון להתפתחות הילד.",
+      "confidence": "high"
+    },
+    {
+      "id": "maccabi-sign-1",
+      "claim": "Maccabi developmental warning sign (motor).",
+      "claim_type": "threshold",
+      "source_url": "https://www.maccabi4u.co.il/maccabi_circles/child_development/development-basics/developmental_delays/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בגיל 8 חודשים התינוק אינו מסוגל לשבת ללא תמיכה.",
+      "confidence": "high"
+    },
+    {
+      "id": "maccabi-sign-2",
+      "claim": "Maccabi developmental warning sign (motor).",
+      "claim_type": "threshold",
+      "source_url": "https://www.maccabi4u.co.il/maccabi_circles/child_development/development-basics/developmental_delays/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לאחר גיל 12 חודשים התינוק אינו זוחל.",
+      "confidence": "high"
+    },
+    {
+      "id": "maccabi-sign-3",
+      "claim": "Maccabi developmental warning sign (motor).",
+      "claim_type": "threshold",
+      "source_url": "https://www.maccabi4u.co.il/maccabi_circles/child_development/development-basics/developmental_delays/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לאחר גיל 12 חודשים התינוק אינו עומד ללא תמיכה.",
+      "confidence": "high"
+    },
+    {
+      "id": "maccabi-sign-4",
+      "claim": "Maccabi developmental warning sign (motor).",
+      "claim_type": "threshold",
+      "source_url": "https://www.maccabi4u.co.il/maccabi_circles/child_development/development-basics/developmental_delays/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בגיל 18 חודשים התינוק אינו הולך.",
+      "confidence": "high"
+    },
+    {
+      "id": "maccabi-sign-5",
+      "claim": "Maccabi developmental warning sign (motor).",
+      "claim_type": "threshold",
+      "source_url": "https://www.maccabi4u.co.il/maccabi_circles/child_development/development-basics/developmental_delays/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לאחר גיל 6 חודשים התינוק מושיט רק יד אחת ואילו ידו השניה נותרת מאוגרפת כל העת.",
+      "confidence": "high"
+    },
+    {
+      "id": "maccabi-sign-6",
+      "claim": "Maccabi developmental warning sign (motor).",
+      "claim_type": "threshold",
+      "source_url": "https://www.maccabi4u.co.il/maccabi_circles/child_development/development-basics/developmental_delays/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לאחר גיל 4-3 חודשים התינוק אינו מרים את ראשו ושולט בתנועתו.",
+      "confidence": "high"
+    },
+    {
+      "id": "maccabi-sign-7",
+      "claim": "Maccabi developmental warning sign (motor).",
+      "claim_type": "threshold",
+      "source_url": "https://www.maccabi4u.co.il/maccabi_circles/child_development/development-basics/developmental_delays/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "לאחר גיל 10 חודשים התינוק זוחל תוך שהוא גורר צד אחד של גופו.",
+      "confidence": "high"
+    },
+    {
+      "id": "maccabi-sign-8",
+      "claim": "Maccabi developmental warning sign (motor).",
+      "claim_type": "threshold",
+      "source_url": "https://www.maccabi4u.co.il/maccabi_circles/child_development/development-basics/developmental_delays/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בגיל 7 חודשים התינוק אינו מסוגל לשאת את משקלו על רגליו למשך מספר שניות.",
+      "confidence": "high"
+    },
+    {
+      "id": "moh-stations-everyone-olim",
+      "claim": "MoH Tipat Halav stations serve everyone regardless of kupah.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "תחנות טיפת חלב של משרד הבריאות: נותנות שירות לכולם, ללא תלות בקופת החולים",
+      "confidence": "high"
+    },
+    {
+      "id": "municipal-residents",
+      "claim": "Tel Aviv-Yafo and Jerusalem municipal stations serve their own residents.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/tipat-halav/tipat-halav/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "נותנות שירות לתושבים שלהן",
+      "confidence": "high"
+    },
+    {
+      "id": "rota-age-limits",
+      "claim": "Rotavirus dose 1 from 6 weeks up to 14 weeks 6 days; last dose up to 8 months; 4 weeks minimum between doses.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/children-vaccines/rotavirus-vaccine/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "את המנה הראשונה אפשר לקבל מגיל 6 שבועות ועד גיל 14 שבועות ו-6 ימים. את המנה האחרונה מותר לקבל עד גיל 8 חודשים.",
+      "confidence": "high"
+    },
+    {
+      "id": "rota-intussusception",
+      "claim": "In the week after rotavirus dose 1 or 2, abdominal pain with extreme crying, vomiting, blood in stool, legs drawn to chest or weakness: ER immediately.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/children-vaccines/rotavirus-vaccine/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "יש לפנות מיד לחדר מיון אם במהלך השבוע שלאחר המנה הראשונה או השנייה מופיעים כאב בטן ובכי קיצוני, הקאות, דם בצואה, קירוב הרגליים לחזה או חולשה.",
+      "confidence": "high"
+    },
+    {
+      "id": "preterm-under-2kg",
+      "claim": "The hepatitis B deferral applies to preterm babies under 2 kg.",
+      "claim_type": "threshold",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/prematurity/preterm-infant-vaccination/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אבל אצל פגים ופגות במשקל של פחות מ-2 ק\"ג יעילות החיסון היא פחותה.",
+      "confidence": "high"
+    },
+    {
+      "id": "preterm-carrier",
+      "claim": "For a carrier mother, a birth dose given to a preterm under 2 kg does not count toward the routine series.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/infant-and-child-development/prematurity/preterm-infant-vaccination/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "אם מדובר בפג או פגה שנולדו במשקל של פחות מ-2 ק\"ג, החיסון הפעיל שניתן מיד לאחר הלידה לא יחושב כחלק מחיסוני השגרה.",
+      "confidence": "high"
+    },
+    {
+      "id": "booster-old-cohort-only",
+      "claim": "On the MoH schedule page the South/North grade-1 booster note appears only in the panel for children born before 1.1.2025.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/immunization-schedule/babies-immunization-schedule/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "במחוזות דרום וצפון החיסון ניתן בכיתה א'.",
+      "confidence": "high",
+      "note": "The page has two baby-toggle panels (before / after 1.1.2025). In the HTML fetched 2026-11-17 the sentence occurs once, at offset 517078, inside the first panel (offsets 385806 to 554229), the panel for children born before 1.1.2025."
+    },
+    {
+      "id": "measles-contact",
+      "claim": "After contact with a measles patient call Kol HaBriut *5400 or the district health bureau as soon as possible; they decide by age and vaccination status whether a vaccine is needed.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/common-childhood-diseases-and-symptoms/viral-diseases/measles/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "יש להתקשר בהקדם האפשרי למוקד קול הבריאות בטלפון 5400* או ללשכת הבריאות באזור המגורים. לפי הגיל ומצב ההתחסנות, יוחלט על הצורך במתן חיסון נגד חצבת.",
+      "confidence": "high"
+    },
+    {
+      "id": "hearing-speech",
+      "claim": "Hearing problems in infants and toddlers can delay speech and language development.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/testing-and-diagnoses-in-children/hearing-loss/detection-identification-treatment-hearing-loss/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בעיות שמיעה אצל תינוקות ופעוטות עלולות להוביל לעיכוב בהתפתחות השפה והדיבור, וגם לעיכוב בהתפתחות הרגשית, החברתית והאינטלקטואלית.",
+      "confidence": "high"
+    },
+    {
+      "id": "devassess-senses",
+      "claim": "A developmental assessment first checks that the senses work, so a vision and hearing check may be referred.",
+      "claim_type": "feature",
+      "source_url": "https://me.health.gov.il/parenting/raising-children/testing-and-diagnoses-in-children/developmental-delays/developmental-retardation/",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "כחלק מכל ההערכה התפתחותית חשוב לבדוק קודם שהחושים של הילד או הילדה עובדים באופן תקין, לכן ייתכן שתופנו לבדיקת ראייה ושמיעה.",
+      "confidence": "high"
+    },
+    {
+      "id": "school-screening",
+      "claim": "School health services for grades 1 to 9 include early-detection screening: vision, hearing and growth assessment; results go to the parents.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/BlobFolder/reports/school-health-services/he/files_publications_MISC_school-health-services-femi.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "הבדיקות כוללות :בדיקת ראייה ,שמיעה",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17",
+      "note": "MoH parent leaflet 'שירותי בריאות לתלמידים בבתי הספר'. Reads: 'שירותי בריאות התלמיד ניתנים בבית הספר לתלמידי כיתות א'-ט'...'; 'הבדיקות כוללות: בדיקת ראייה, שמיעה והערכת גדילה.'; 'תוצאות הבדיקה יועברו ישירות אליכם, ההורים.'; table header 'הערכת גדילה (שקילה ומדידה)'."
+    },
+    {
+      "id": "school-dental",
+      "claim": "Dental health services are given to grades 1 to 9: a dental check, health lessons and a toothbrush and toothpaste.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/BlobFolder/reports/school-health-services/he/files_publications_MISC_school-health-services-femi.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "שירותי בריאות השן ניתנים לתלמידי כיתות",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17",
+      "note": "Two-column layout; the dental column reads 'שירותי בריאות השן ניתנים לתלמידי כיתות א'-ט' וכוללים בדיקת שיניים, שיעורי חינוך לבריאות וחלוקת מברשת שיניים ומשחה.'"
+    },
+    {
+      "id": "school-screen-optout",
+      "claim": "Parents who object to vaccines or screenings, all or some, update it in the health declaration.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/BlobFolder/reports/school-health-services/he/files_publications_MISC_school-health-services-femi.pdf",
+      "source_fetched_at": "2026-11-17T12:00:00Z",
+      "raw_snippet": "בדיקות סינון) כולן או חלקן ,נבקשכם לעדכן",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17",
+      "note": "Leaflet: 'אם הנכם מתנגדים לביצוע הפעילויות (חיסון, בדיקות סינון) כולן או חלקן, נבקשכם לעדכן מידע זה בהצהרת הבריאות הדיגיטלית ו/או את אחות בית הספר.' Earlier sentence: 'לידיעתכם, לאחר כל עדכון של הצהרת ... בדיקות סינון) כולן או חלקן, נבקשכם לעדכן מידע זה בהצהרת הבריאות הדיגיטלית ו/או ...' (objection to vaccines or screenings, all or some, is updated in the health declaration)."
+    }
+  ]
+}
